@@ -4,5 +4,5 @@ import { getSessionEmail } from '@/lib/auth-server';
 export async function GET() {
   const email = await getSessionEmail();
   if (!email) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  return NextResponse.json({ email });
+  return NextResponse.json({ email, isAdmin: email === process.env.ADMIN_EMAIL });
 }

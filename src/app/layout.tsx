@@ -15,39 +15,30 @@ const SITE = 'https://iranhunt.vercel.app';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default: 'IranHunt | ایده‌های ترند استارتاپی جهان به زبان فارسی',
-    template: '%s | IranHunt',
+    default: 'ایده‌یاب | ایده‌های ترند استارتاپی جهان به زبان فارسی',
+    template: '%s | ایده‌یاب',
   },
   description:
-    'IranHunt پلتفرم هوشمند ایده‌یابی استارتاپی؛ هر روز ۱۰ ایده ترند جهانی در ۴ بازه زمانی با رتبه‌بندی واقعی، ترجمه فارسی روان و تحلیل مشابه ایرانی با هوش مصنوعی. ایده استارتاپی، ایده کسب‌وکار و ترندهای هوش مصنوعی را اینجا کشف کنید.',
+    'ایده‌یاب پلتفرم هوشمند ایده‌یابی استارتاپی؛ هر روز ۱۰ ایده ترند جهانی در ۴ بازه زمانی با رتبه‌بندی واقعی، ترجمه فارسی روان و تحلیل مشابه ایرانی با هوش مصنوعی. ایده استارتاپی، ایده کسب‌وکار و ترندهای هوش مصنوعی را اینجا کشف کنید.',
   keywords: [
-    'ایده استارتاپی',
-    'ایده کسب و کار',
-    'ایده‌های ترند',
-    'استارتاپ ایران',
-    'ایده هوش مصنوعی',
-    'محصولات ترند جهانی',
-    'تحلیل استارتاپ',
-    'ایده یاب',
-    'IranHunt',
+    'ایده استارتاپی', 'ایده کسب و کار', 'ایده‌های ترند', 'استارتاپ ایران',
+    'ایده هوش مصنوعی', 'ایده یاب', 'ایده‌یاب', 'ترندهای استارتاپی',
   ],
   authors: [{ name: 'امیر متفکر', url: 'https://github.com/AmirMotefaker' }],
   openGraph: {
     type: 'website',
     locale: 'fa_IR',
     url: SITE,
-    siteName: 'IranHunt',
-    title: 'IranHunt | ایده‌های ترند استارتاپی جهان به زبان فارسی',
-    description:
-      'هر روز ۱۰ ایده برتر جهانی در ۴ بازه زمانی + تحلیل مشابه ایرانی با هوش مصنوعی',
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'IranHunt' }],
+    siteName: 'ایده‌یاب',
+    title: 'ایده‌یاب | ایده‌های ترند استارتاپی جهان به زبان فارسی',
+    description: 'هر روز ۱۰ ایده برتر جهانی در ۴ بازه زمانی + تحلیل مشابه ایرانی با هوش مصنوعی',
   },
   twitter: {
     card: 'summary',
-    title: 'IranHunt | ایده‌های ترند استارتاپی',
+    title: 'ایده‌یاب | ایده‌های ترند استارتاپی',
     description: 'ایده‌های ترند جهانی + تحلیل مشابه ایرانی با AI',
-    images: ['/logo.png'],
   },
+  icons: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   alternates: { canonical: '/' },
   robots: { index: true, follow: true },
 };
@@ -57,15 +48,15 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Organization',
-      name: 'IranHunt',
+      name: 'ایده‌یاب',
       url: SITE,
-      logo: `${SITE}/logo.png`,
+      logo: `${SITE}/favicon.svg`,
       founder: { '@type': 'Person', name: 'امیر متفکر' },
       sameAs: ['https://github.com/AmirMotefaker'],
     },
     {
       '@type': 'WebSite',
-      name: 'IranHunt',
+      name: 'ایده‌یاب',
       url: SITE,
       inLanguage: 'fa-IR',
       description: 'پلتفرم هوشمند ایده‌های ترند استارتاپی',
@@ -77,10 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fa" dir="rtl">
       <body className={vazirmatn.className}>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Header />
         {children}
         <Footer />
