@@ -15,3 +15,9 @@ coverage/
 next-env.d.ts
 .gh_user
 .vercel
+# Test files
+test-*.ps1
+
+# Environment
+.env.local
+.env*.local
