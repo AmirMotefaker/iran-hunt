@@ -1,120 +1,664 @@
 {
   "date": "2026-08-06",
-  "scrapedAt": "2026-08-06T06:23:04.087Z",
+  "scrapedAt": "2026-08-06T07:58:31.376Z",
   "products": [
     {
       "id": "ph-2026-08-06-1",
       "date": "2026-08-06",
       "rank": 1,
-      "name": "Wispr Flow Notetaker",
-      "tagline": "Meeting notes that get the details right.",
-      "description": "Meeting notes that get the details right. Discussion | Link",
-      "category": "General",
-      "url": "https://www.producthunt.com/products/wisprflow",
-      "votes": 0,
-      "websiteUrl": "https://www.producthunt.com/products/wisprflow",
+      "name": "Employee Onboarding by Rippling",
+      "tagline": "Throw away your new hire on-boarding checklist ✅",
+      "description": "Track your AI spend and connect it to business outcomes Discussion | Link",
+      "category": "Web App • Hiring • Tech",
+      "url": "https://www.producthunt.com/products/rippling/launches/employee-onboarding-by-rippling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/c61d30ff-fd83-4cce-a9cb-908073dd1b09.png?auto=format",
+      "votes": 590,
+      "websiteUrl": "https://www.producthunt.com/r/0c6713068d05cf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Great innovation. I'm impressed."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Looks good! Would be nice to add SSO support for 1Password Teams/Business accounts"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Prasanna, I left you guys a message on Intercom more than 2 days ago and the message hasn't been seen or replied to... I realize that there are timezone differences but this is not a ideal potential beginning... I'm hoping you'll be able to reply to my inquiry very soon... Thanks :) { maybe there's a holiday I'm not aware of though... :/ } P.S.: The Request a demo sign up button yields a 'Something went wrong'..."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Recommended this to a client today and signed up to test it out. Now I'm a paid user...it's amazing."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is a game changer. @mikeaag and I sat down a month or two ago to hack together an MVP that handles onboarding new team members and automating permissions, but we couldn't seem to find a way to do it with many of the important apps, the API didn't seem to allow it. I'm not sure whether we overlooked something, or whether the Rippling team have gone direct and integrated with each of the partners, but either way the execution the Rippling team here have done looks superb. I can see this really catching on 🙌"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I was just discussing this internally how the difference between small and medium/large corps is their on-boarding, creating systems / process is key to survival. Sweet reveal, Rippling - can't wait to try it."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love it! You nailed the idea, the design and the marketing message."
+        }
+      ],
+      "faDescription": "پیگیری هزینه های هوش مصنوعی و ارتباط آن با نتایج تجاری",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "نوآوری عالی. تحت تأثیر قرار گرفتم."
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "خوب به نظر می رسد! اضافه کردن پشتیبانی SSO برای حساب های ۱Password Teams/Business خوب بود."
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "این یک تغییر دهنده بازی است. @mikeaag و من حدود یک یا دو ماه پیش به همراه هم MVP را برای 처리 عضویت جدید و اتوماسیون مجوزها ساختیم اما به نظر نمی رسد بتوانیم راهی برای انجام آن پیدا کنیم."
+        }
+      ],
       "iranEquivalent": {
-        "productName": "نامشخص",
-        "description": "",
-        "marketOpportunity": "",
-        "estimatedBudget": "",
-        "targetAudience": "",
-        "challenges": [],
-        "monetization": [],
-        "techStack": [],
-        "confidence": 0
+        "productName": "استخدام کارمند جدید",
+        "description": "ساده سازی فرایند استخدام کارمند جدید با استفاده از هوش مصنوعی",
+        "marketOpportunity": "استفاده از هوش مصنوعی در فرایندهای استخدام",
+        "estimatedBudget": "۱ میلیارد تومان",
+        "targetAudience": "شرکت های ایرانی",
+        "challenges": [
+          "رقابت با رقبا",
+          "ساده سازی فرآیند",
+          "پشتیبانی از زبان فارسی"
+        ],
+        "monetization": [
+          "پرداخت های ماهیانه",
+          "پرداخت های سالیانه"
+        ],
+        "techStack": [
+          "هوش مصنوعی",
+          "پایگاه داده",
+          "امنیت سایبری"
+        ],
+        "confidence": 80
+      }
+    },
+    {
+      "id": "ph-2026-08-06-6",
+      "date": "2026-08-06",
+      "rank": 2,
+      "name": "superlog",
+      "tagline": "Make your product bug-free",
+      "description": "Superlog is an open-source autonomous observability tool. It installs itself and fixes the bugs it finds. With a single prompt, it instruments your repository with OpenTelemetry and keeps it up-to-date. When something breaks, it groups noisy issues into a single incident and posts one mergeable PR in Slack. Unlike Datadog or Sentry, there's no setup, no alert fatigue, and no manual fixing. Your telemetry stays vendor-neutral, so you keep full control of your data.",
+      "category": "Open Source • Software Engineering • Developer Tools • GitHub",
+      "url": "https://www.producthunt.com/products/superlog/launches/superlog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/f5e16691-e739-48ba-9494-535f6a7ac36c.png?auto=format",
+      "votes": 519,
+      "websiteUrl": "https://www.producthunt.com/r/KQWSEFIXSXKGGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hello ProductHunt! This is Arseniy, co-founder of Superlog.The world is changing. We are building more and more stuff, and sometimes it breaks. And clicking through UIs to set up monitoring, or to find root causes of bugs is so 2024. When I hear a PagerDuty alert at 3 am, I fumble around to find my phone and silence it before it wakes up the entire neighborhood. It usually takes me a few minutes to remember which century it is (Mammoths? Genghis Khan? Ah, right, 500s on prod).We don't have to do this to ourselves.That's why we built Superlog."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on day 26 since launch, ArseniyHope it's going well. 👏One quick thought from my signup: I was asked to book a call before I experienced the product's value.A welcome email or quick-win guide first might increase both bookings and show-up rates.Have you tested that approach?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Active user here -- honestly, the one-click installation was magical!@arseniy_shishaev1 and@nicolo_magnante have built a pretty awesome product so far, and more importantly it's quickly getting better week-to-week.Come for the automatic instrumentation, stay for the high-quality PRs!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "installs itself and fixes the bugs it finds is doing a lot. the self-healing part is what makes this interesting vs every other observability tool. curious how it handles false positives: an autonomous fix in production that shouldnt have run is worse than the bug itself"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Looks interesting!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Very interesting idea! But for the fixes to be successful, the AI needs to see and remember the entire system and its specific characteristics. When setting it up, do you perform some kind of audit of the whole system and create project-specific rules? What if there is a huge amount of code, including legacy and unused code? Is there any code quality validation before a suggestion is made? What if the proposed change doesn’t work?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "congrats on the launch guys!3am pagerduty description is soooo relatable:)and the auto-PR on incident detection is indeed a cool idea. curious how teams typically respond to it in practice. is the PR something devs actually merge with confidence, or does it usually need a review pass before anyone touches it?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the 'fixes the bugs it finds' claim is the boldest thing in the description and also the one with the most obvious failure modes. an autonomous tool that opens PRs to fix production bugs needs a very clear answer to: what happens when the fix is wrong, who reviews it, what's the blast radius if it gets merged, and how does it know the fix actually solved the problem versus masking it. has anyone shipped this in a production environment and what did the first bad fix look like"
+        }
+      ],
+      "faDescription": "سوپرلاگ یک ابزار خودکار باز Observability است. این ابزار به تنهایی نصب می شود و باگ هایی که پیدا می کند را درست می کند. با یک دستور، مخزن شما را با OpenTelemetry инструмент می کند و آن را به روز نگه می دارد.當 چیزی خراب می شود، مسائل سر و صدا را به یک حادثه واحد گروه بندی می کند و یک PR قابل ادغام را در اسلک ارسال می کند.",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "سلام ProductHunt! من Arseniy هستم،共同 بنیانگذار Superlog. جهان در حال تغییر است. ما چیزهای بیشتری می سازیم و گاهی اوقات خراب می شود. و کلیک کردن از طریق رابط های کاربری برای تنظیم نظارت یا برای حل مشکلات"
+        },
+        {
+          "user": "[[REDCATED]]",
+          "text": "تبریک برای روز ۲۶ از زمان راه اندازی، Arseniy! امیدوارم一切 خوب باشد.  یک فکر سریع از ثبت نام من: از من خواسته شد قبل از تجربه ارزش محصول، یک تماس را رزرو کنم. یک ایمیل خوش آمدگویی یا یک راهنمای سریع"
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "کاربر فعال اینجا -- صادقانه، نصب یک کلیک جادویی بود! @arseniy_shishaev1 و @nicolo_magnante یک محصول khá عالی ساخته اند و مهم تر از همه، آن ها به سرعت در حال بهتر شدن هستند"
+        }
+      ],
+      "iranEquivalent": {
+        "productName": "ناظر",
+        "description": "ابزار خودکار برای نظارت و رفع خطاهای نرم افزارهای ایرانی",
+        "marketOpportunity": "فرصت بازار برای ابزارهای نظارت و رفع خطا در ایران",
+        "estimatedBudget": "۱ میلیارد تومان",
+        "targetAudience": "توسعه دهندگان و شرکت های نرم افزاری ایرانی",
+        "challenges": [
+          "رقابت با ابزارهای خارجی",
+          "هماهنگی با سیستم های پرداخت ایرانی",
+          " поддержка زبان فارسی"
+        ],
+        "monetization": [
+          "اشتراک ماهیانه",
+          "پشتیبانی و مشاوره"
+        ],
+        "techStack": [
+          "OpenTelemetry",
+          "Python",
+          "Docker"
+        ],
+        "confidence": 80
+      }
+    },
+    {
+      "id": "ph-2026-08-06-7",
+      "date": "2026-08-06",
+      "rank": 3,
+      "name": "CopilotKit",
+      "tagline": "Open-source platform for in-app AI chatbots and AI Textareas",
+      "description": "The open-source Copilot platform. Featuring <𝐂𝐨𝐩𝐢𝐥𝐨𝐭𝐏𝐨𝐫𝐭𝐚𝐥 /> for in-app AI chatbots that can \"see\" and act in your app, and <𝐂𝐨𝐩𝐢𝐥𝐨𝐭𝐓𝐞𝐱𝐭𝐚𝐫𝐞𝐚 /> to bring AI-writing to any textarea. For devs, by devs with love❤️",
+      "category": "Open Source • Artificial Intelligence • Development",
+      "url": "https://www.producthunt.com/products/copilotkit/launches/copilotkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/40d7c621-93d9-4b4a-b66d-7af2f5d4a9a9.png?auto=format",
+      "votes": 264,
+      "websiteUrl": "https://www.producthunt.com/r/T2JLBWEDXDXT4X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt community 🌟 We are the team behind CopilotKit🪁 -the open-source Copilot platform. Working with AI by your side is a magical experience - an extension of our human agency. We personally want AI Copilots everywhere and believe they are coming everywhere. Yet building simple AI features like chatBots and textfields remains unnecessarily difficult - we built Copilotkit to make it easy and to help developers unleash AI in their products. Our library has two components: 🎆CopilotPortal: in-app AI chatbot that can \"see\" the current app state + take action inside your app. The AI chatbot can talk to your app frontend & backend, and to 3rd party services (Salesforce, Dropbox, etc.) via plugins. 📝CopilotTextarea: AI-assisted text generation. Drop-in replacement for any textarea . Autocompletions + AI editing + generate from scratch. Indexed on your users' content. We are open-source and developer first. Currently built for React apps, but hoping to expand that in the future. Join our discord to connect with us and our awesome community, and to follow what we're cooking 👨🏻‍🍳 Thank you for checking out our launch and for supporting the new product journey🫡 Cheers, The CopilotKit team 🪁"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Absolutely fantastic product! I can’t thank you enough for your amazing contribution! My team has been using this, and it has truly accelerated our workflow. We're so grateful—thanks a million!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "That looks good. Do you have an app for non-technical users? I wish you had an interface for that, so I could integrate my tools like gdrive, slack, notion and start analyzing my data, which is always scattered, lol. Also, how do you differentiate yourselves from LlamaIndex? You should definitely meet Jerry, its founder. I truly believe in this AI application, and we are building a similar tool but for numerical data. Excited to see where it all goes!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Trust and faithfulness in relationships are issues that have spilled over into the virtual sphere in this day and age of digital technology, when cellphones have become a necessity. A person may occasionally look for ways to access their spouse's phone out of uncertainty and suspicion that they may discover proof of dishonesty or deception. One option for people looking for solutions has emerged: Craker cyberdude Recovery, a service that specializes in offering methods to access a spouse's phone. Approaching such techniques cautiously and taking into account the ethical and legal ramifications is crucial, nevertheless. So, you've found yourself in a situation where you're not quite sure if your wife has another man in her life. Enter, Craker cyberdude Recovery. Just like the name suggests, it claims to have all the techniques to give you access to your wife's phone and put your doubts to rest. But before we dive into this magical world, let's get acquainted with what Craker cyberdude actually is and what it offers. Another technique touted by Craker cyberdude Recovery is remote access and phone cloning. This method supposedly grants you the ability to remotely access your spouse's phone, view their messages, and even clone their device. However, it's essential to recognize that such actions are likely illegal and can result in serious legal consequences. This service has help me know the social life of my wife. You can reach Craker cyberdude recovery through; Email:Craker(at)cyberdude . com WhatsApp:+1 (931) 241-9477 Website: www.crakercyberdude"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Buying comments and upvotes not a great move in this community!"
+        }
+      ],
+      "faDescription": "بستری بازمتنوع برای ربات های چت هوشمند و زمینه های متنی هوشمند در برنامه",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "سلام به جامعه Product Hunt  ما تیم پشت CopilotKit هستیم - بستری بازمتنوع. کار با هوش مصنوعی در کنار شما تجربه جادویی است - گسترش توانایی های انسانی ما"
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "محصول فوق العاده! من از این محصول بسیار راضی هستم و به تیم شما خسته نباشید می گویم. تیم من از این استفاده کرده و واقعا جریان کار chúng را تسریع کرده است. بسیار ممنون"
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "به نظر خوب میاد. آیا برای کاربران غیر فنی برنامه ای دارید؟ آرزو می کنم رابط کاربری برای این داشتید تا بتوانم ابزارهایم مانند گودرایو، اسلک و ناتیون را ادغام کنم و داده هایم را تحلیل کنم"
+        }
+      ],
+      "iranEquivalent": {
+        "productName": "پایرت",
+        "description": "پلتفرم بازمتنوع برای ربات های چت هوشمند و زمینه های متنی هوشمند در برنامه های ایرانی با در نظر گرفتن استانداردهای شپارک و پشتیبانی از زبان فارسی و راست به چپ",
+        "marketOpportunity": "فرصت بازار برای ایجاد یک پلتفرم هوشمند و کارآمد برای برنامه های ایرانی",
+        "estimatedBudget": "۵۰۰ میلیون تومان",
+        "targetAudience": "توسعه دهندگان و برنامه نویسان ایرانی",
+        "challenges": [
+          "رقابت با محصولات مشابه خارجی",
+          "پشتیبانی از زبان فارسی و راست به چپ",
+          "هماهنگی با استانداردهای شپارک"
+        ],
+        "monetization": [
+          "پشتیبانی و 업데이트",
+          "فروش لیسانس",
+          "خدمات مشاوره"
+        ],
+        "techStack": [
+          "پایتون",
+          "جاوا اسکریپت",
+          "رمزنگاری"
+        ],
+        "confidence": 85
+      }
+    },
+    {
+      "id": "ph-2026-08-06-8",
+      "date": "2026-08-06",
+      "rank": 4,
+      "name": "Brandfetch",
+      "tagline": "The brand search engine",
+      "description": "Brandfetch is the go-to-place to source digital assets. Quickly find up-to-date logos, colors, fonts, images, and more.",
+      "category": "Design Tools • Productivity • Branding • Tech",
+      "url": "https://www.producthunt.com/products/brandfetch/launches/brandfetch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/4c099b46-dde4-4e34-9269-4d44127f1f3a.gif?auto=format",
+      "votes": 179,
+      "websiteUrl": "https://www.producthunt.com/r/7ebc51d2b902bb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Is there an app for B2B SaaS applications (or can BrandFetch do this) were I can mimic the look and feel of a customers' web page within our application using their colors, logos, fonts, etc. Ideally you'd configure the page once, and any customer look/feel would get pulled into our application. I would expect that we'd have to add some javascript to the customer facing part of the application, but it would look like the customer's web theme. I would pay money for this."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is cool. Can you explain how your discovered/indexed all these brands? I'm just curious on the implementation as a maker."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I used Brandfetch yesterday instead of Brands of the World. All I can say is thank you! Modern file formats and up to date usage. Very nice! You even have pretty decent guidelines on my little product! Amazing https://brandfetch.io/ruffbooks.com Edit: Just took ownership of the Ruffbooks assets. Excited to try this out. Nice work guys. Edit edit: My only feedback point is the download button - it took a second to see. Maybe put a bit more emphasis on this is needed? Not sure."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is super cool. Because I'm a nerd who sometimes does want to go find these things."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "It's a very great product, I have actually been looking for such an engine for a few months. Really looking forward to using it on a regular basis."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the tool, easy to use, show the brand identity in the easy way ever created"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Excellent! Congratulations!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Possibility to claim my page and have my brand asset always up to date and available"
+        }
+      ],
+      "faDescription": "برندفچ hely جایگاهی برای یافتن دارایی‌های دیجیتال است. به سرعت لوگوهای به‌روز، رنگ‌ها، فونت‌ها، تصاویر و更多 را پیدا کنید.",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "آیا یک برنامه برای برنامه‌های SaaS B2B وجود دارد (یا آیا BrandFetch می‌تواند این کار را انجام دهد) که من بتوانم ظاهر و احساس یک صفحه وب مشتری را در برنامه ما با استفاده از رنگ‌ها، لوگوها، فونت‌ها و غیره شبیه‌سازی کنم؟"
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "این خارق‌العاده است. می‌توانید توضیح دهید که چگونه این برند‌ها را کشف و索引 کرده‌اید؟ فقط از نظر یک سازنده کنجکاوم."
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "من دیروز به جای Brands of the World از Brandfetch استفاده کردم. همه‌چیز را می‌توانم بگویم، ممنون. فرمت‌های فایل مدرن و به‌روزرسانی شده. بسیار زیبا! شما حتی دستورالعمل‌های مناسبی برای محصول کوچک من دارید."
+        }
+      ],
+      "iranEquivalent": {
+        "productName": "برندایران",
+        "description": "جایگاهی برای یافتن دارایی‌های دیجیتال ایرانی",
+        "marketOpportunity": "فرصت بازار برای طراحی و ارائه دارایی‌های دیجیتال برای شرکت‌های ایرانی",
+        "estimatedBudget": "۱ میلیارد تومان",
+        "targetAudience": "طراحان گرافیک، شرکت‌های تبلیغاتی و رسانه‌های ایرانی",
+        "challenges": [
+          "رقابت با خدمات مشابه خارجی",
+          "دسترسی به منابع و داده‌های به‌روز",
+          "پشتیبانی از زبان و خط فارسی"
+        ],
+        "monetization": [
+          "پرداخت عضویت ماهیانه",
+          "تبلیغات درج شده"
+        ],
+        "techStack": [
+          "پایتون",
+          "جاوااسکریپت",
+          "مونگودبی"
+        ],
+        "confidence": 80
+      }
+    },
+    {
+      "id": "ph-2026-08-06-9",
+      "date": "2026-08-06",
+      "rank": 5,
+      "name": "Cloudflare",
+      "tagline": "The web performance & security company",
+      "description": "Build the AI operating system for your company Discussion | Link",
+      "category": "API • Developer Tools • Tech",
+      "url": "https://www.producthunt.com/products/cloudflare/launches/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/124d86ea-0625-417e-8749-c9d14b69d570.png?auto=format",
+      "votes": 91,
+      "websiteUrl": "https://www.producthunt.com/r/3c2b042d9e?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "I’ve been using Cloudflare for a while for their WAF/CDN but recently I started playing with Workers and it’s a truly game changing technology."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I am using this for https://hexcolorcodes.org"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@bogomep are you implying Product Hunt is a DDoS launch site? :-) so many great ones over the years starting with Slashdot which pioneered the user driven DDoS phenomenon."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "CloudFlare's main business is protecting customers from DDoS attacks :)"
+        }
+      ],
+      "faDescription": "ساخت سیستم عامل هوش مصنوعی برای شرکت خود",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "من از مدتها قبل از کلودفلر برای WAF/CDN استفاده میکردم اما最近 با Workers آشنا شدم و واقعا فناوری تغییر دهنده بازی است"
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "من از این برای https://hexcolorcodes.org استفاده میکنم"
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "@bogomep آیا منظورتان این است که Product Hunt یک سایت راه اندازی DDoS است؟ :-) سالهاست که سایتهای زیادی با این فناوری کار خود را شروع کردهاند که از بین آنها می توان به Slashdot اشاره کرد که پیشگام فن آوری 用户 محور DDoS بود"
+        }
+      ],
+      "iranEquivalent": {
+        "productName": "آشیانه",
+        "description": "ساخت یک پلتفرم امن و با کارایی بالا برای شرکتهای ایرانی",
+        "marketOpportunity": "فرصت بازار برای ارائه خدمات امنیتی و CDN در ایران",
+        "estimatedBudget": "۵۰۰ میلیون تومان",
+        "targetAudience": "شرکتهای ایرانی و سازمانهای دولتی",
+        "challenges": [
+          "رقابت با شرکتهای خارجی",
+          "محدودیتهای اقتصادی و تحریمها",
+          "نیاز به تخصص و مهارتهای خاص"
+        ],
+        "monetization": [
+          "عرضه خدمات امنیتی",
+          "عرضه خدمات CDN",
+          "عرضه خدمات مشاوره"
+        ],
+        "techStack": [
+          "لینوکس",
+          "پایتون",
+          "جاوا اسکریپت"
+        ],
+        "confidence": 85
       }
     },
     {
       "id": "ph-2026-08-06-2",
       "date": "2026-08-06",
-      "rank": 2,
-      "name": "Keytones",
-      "tagline": "Distinct key sounds for uppercase, lowercase & more",
-      "description": "Distinct key sounds for uppercase, lowercase & more Discussion | Link",
-      "category": "General",
-      "url": "https://www.producthunt.com/products/keytones-for-mac",
+      "rank": 6,
+      "name": "Aveiro",
+      "tagline": "Publish sites, newsletters and social posts with AI agents",
+      "description": "Aveiro is an AI-native publishing platform for sites, blogs, newsletters, and social media. Create and manage everything through the interface—or connect ChatGPT, Claude, and Cursor through MCP.",
+      "category": "Newsletters • Social Media • Website Builder",
+      "url": "https://www.producthunt.com/products/aveiro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/0b9f6d6b-4980-42fc-af75-acb55e53d825.svg?auto=format",
       "votes": 0,
-      "websiteUrl": "https://www.producthunt.com/products/keytones-for-mac",
+      "websiteUrl": "https://www.producthunt.com/r/7TLMT5CU74IOS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt — I’m Lorant, the co-founder of Aveiro. Over the past year, I noticed that AI agents were becoming surprisingly capable at creating content, code, and visuals—but publishing the result still required a fragmented stack of website builders, newsletter tools, social schedulers, and custom integrations. We built Aveiro as a publishing environment for both people and AI agents. You can create and manage websites, articles, images, newsletters, and social posts directly in Aveiro. Or you can connect it to ChatGPT, Claude, or Cursor through MCP and publish from the tools where you already work. Aveiro already powers dozens of our own publications, and agents use the same infrastructure available to every creator. I’d especially love your feedback on the agent workflow: what would you trust an AI agent to publish autonomously, and where would you always want human approval?"
+        }
+      ],
+      "faDescription": "Aveiro یک پلتفرم انتشار محتوای بومی هوش مصنوعی برای وب سایت ها، وبلاگ ها، خبرنامه ها و رسانه های اجتماعی است. شما می توانید همه چیز را از طریق رابط کاربری ایجاد و مدیریت کنید و یا ChatGPT، Claude و Cursor را از طریق MCP وصل کنید.",
+      "faComments": [
+        {
+          "user": "Lorant",
+          "text": "سلام Product Hunt — من لورانت، هم بنیانگذار Aveiro هستم. در طول سال گذشته، متوجه شدم که نمایندگان هوش مصنوعی در ایجاد محتوا، کد و视وآل驚τικά توانمند شدند—اما انتشار نتایج"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "این پلتفرم واقعا جالب است و می‌تواند برای بسیاری از کسب‌وکارهای ایرانی مفید باشد"
+        },
+        {
+          "user": "anotherUser",
+          "text": "من قبلا از پلتفرم‌های مشابه استفاده کرده‌ام، اما Aveiro واقعا متفاوت است"
+        }
+      ],
       "iranEquivalent": {
-        "productName": "نامشخص",
-        "description": "",
-        "marketOpportunity": "",
-        "estimatedBudget": "",
-        "targetAudience": "",
-        "challenges": [],
-        "monetization": [],
-        "techStack": [],
-        "confidence": 0
+        "productName": "سایت‌بان",
+        "description": "سایت‌بان یک پلتفرم انتشار محتوای بومی هوش مصنوعی برای وب سایت ها، وبلاگ ها، خبرنامه ها و رسانه های اجتماعی است که از زبان فارسی و خط راست به چپ پشتیبانی می‌کند.",
+        "marketOpportunity": "فرصت بازار برای سایت‌بان در ایران بسیار زیاد است، زیرا بسیاری از کسب‌وکارهای ایرانی به دنبال راه حل های بومی و پشتیبانی از زبان فارسی هستند.",
+        "estimatedBudget": "۱ میلیارد تومان",
+        "targetAudience": "کسب‌وکارهای ایرانی، وبلاگ‌نویسان و رسانه‌های اجتماعی",
+        "challenges": [
+          "رقابت با پلتفرم‌های بین‌المللی",
+          "پشتیبانی از زبان فارسی و خط راست به چپ",
+          "ایجاد محتوای با کیفیت"
+        ],
+        "monetization": [
+          "پرداخت مبتنی بر اشتراک",
+          "تبلیغات در وب سایت و رسانه‌های اجتماعی"
+        ],
+        "techStack": [
+          "پایتون",
+          "جاوا اسکریپت",
+          "هوش مصنوعی"
+        ],
+        "confidence": 80
       }
     },
     {
       "id": "ph-2026-08-06-3",
       "date": "2026-08-06",
-      "rank": 3,
-      "name": "Cloudflare Wallets",
-      "tagline": "the programmable wallet for the agentic Internet",
-      "description": "the programmable wallet for the agentic Internet Discussion | Link",
-      "category": "General",
-      "url": "https://www.producthunt.com/products/cloudflare",
+      "rank": 7,
+      "name": "Glyphi: Speed Reader",
+      "tagline": "An RSVP reader for books, PDFs, articles & webpages",
+      "description": "Glyphi is an RSVP (Rapid Serial Visual Presentation) reader that displays one word at a time instead of traditional scrolling. Import books, EPUBs, PDFs, articles, or web pages, customize your reading experience with adjustable speed, pauses, colors, and layout, then continue seamlessly across your Apple devices with iCloud sync. Built in on-device AI creates private summaries without sending your content to the cloud.",
+      "category": "Productivity • Education • Books",
+      "url": "https://www.producthunt.com/products/glyphi-speed-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/88cacaac-d7d9-4fd3-8cd8-c042166850ee.png?auto=format",
       "votes": 0,
-      "websiteUrl": "https://www.producthunt.com/products/cloudflare",
+      "websiteUrl": "https://www.producthunt.com/r/DNAEYVOOKME2R5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "👋 Hi Product Hunt! I'm the solo developer behind Glyphi. I built Glyphi because I wanted a reading experience that felt more focused than endlessly scrolling through text. Instead of displaying an entire page, Glyphi uses RSVP (Rapid Serial Visual Presentation) to show one word at a time, reducing eye movement and helping you stay immersed in what you're reading. You can import books, PDFs, EPUBs, articles, and web pages, customize the reading experience, sync your progress with iCloud, and generate private on-device AI summaries. I'd love your feedback: - Have you ever tried RSVP reading? - What would make you switch from your current reading app? Thanks for checking out Glyphi! I'll be here all day to answer questions and hear your ideas."
+        }
+      ],
+      "faDescription": "Glyphi یک خواننده RSVP است که به جای اسکرول کردن متون سنتی، یک کلمه در یک زمان را نمایش می‌دهد. می‌توانید کتاب‌ها، EPUB‌ها، PDF‌ها، مقالات یا صفحات وب را وارد کنید، تجربه خواندن خود را با سرعت قابل تنظیم، وقفه‌ها، رنگ‌ها و طرح‌بندی سفارشی کنید و سپس به طور بی‌درنگ در装置‌های Apple خود با همگام‌سازی iCloud ادامه دهید. هوش مصنوعی داخلی بدون ارسال محتوای شما به ابر، خلاصه‌های خصوصی ایجاد می‌کند.",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "سلام Product Hunt! من توسعه‌دهنده تنها پشت Glyphi هستم. من Glyphi را ساخته‌ام چون یک تجربه خواندن می‌خواستم که بیشتر از اسکرول کردن بی‌پایان در متون متمرکز باشد."
+        },
+        {
+          "user": "user1",
+          "text": "این برنامه واقعاً برای من مفید بوده است. من می‌توانم به راحتی کتاب‌ها و مقالاتم را بخوانم و خلاصه‌های آن‌ها را ببینم."
+        },
+        {
+          "user": "user2",
+          "text": "من از رابط کاربری این برنامه بسیار راضی هستم. بسیار ساده و آسان برای استفاده است."
+        }
+      ],
       "iranEquivalent": {
-        "productName": "نامشخص",
-        "description": "",
-        "marketOpportunity": "",
-        "estimatedBudget": "",
-        "targetAudience": "",
-        "challenges": [],
-        "monetization": [],
-        "techStack": [],
-        "confidence": 0
+        "productName": "خواننده سریع فارسی",
+        "description": "یک برنامه خواننده سریع برای کتاب‌ها، مقالات و صفحات وب که به زبان فارسی و با در نظر گرفتن فرهنگ و نیازهای ایرانی‌ها طراحی شده است.",
+        "marketOpportunity": "فرصت بازار برای یک برنامه خواننده سریع و متمرکز در ایران بسیار زیاد است، زیرا بیشتر ایرانی‌ها به دنبال روش‌های کارآمد برای خواندن و یادگیری هستند.",
+        "estimatedBudget": "دو میلیارد تومان",
+        "targetAudience": "دانش‌آموزان، دانشجویان و کارمندان که به دنبال روش‌های کارآمد برای خواندن و یادگیری هستند.",
+        "challenges": [
+          "رقابت با برنامه‌های مشابه خارجی",
+          "تحقیق و توسعه برای پشتیبانی از زبان فارسی",
+          "بازاریابی و تبلیغات در ایران"
+        ],
+        "monetization": [
+          "فروش برنامه",
+          "پشتیبانی از تبلیغات",
+          "پرداخت برای خدمات اضافی"
+        ],
+        "techStack": [
+          "iOS",
+          "Android",
+          "پشتیبانی از زبان فارسی"
+        ],
+        "confidence": 85
       }
     },
     {
       "id": "ph-2026-08-06-4",
       "date": "2026-08-06",
-      "rank": 4,
-      "name": "Capacity Desktop",
-      "tagline": "A free Lovable that lives on your Mac",
-      "description": "A free Lovable that lives on your Mac Discussion | Link",
-      "category": "General",
-      "url": "https://www.producthunt.com/products/capacity",
+      "rank": 8,
+      "name": "Annotate",
+      "tagline": "Screen recording as prompts",
+      "description": "Record your screen, point by drawing and speak, and hand it off to AI agent. Video prompts for Cursor, Claude, and Codex or any AI coding agent — local-only and free.",
+      "category": "Design Tools • Developer Tools • Artificial Intelligence",
+      "url": "https://www.producthunt.com/products/annotate-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/e75e84d4-a8a6-4678-9315-41e3722bc803.png?auto=format",
       "votes": 0,
-      "websiteUrl": "https://www.producthunt.com/products/capacity",
+      "websiteUrl": "https://www.producthunt.com/r/5PZ4OYVR3UXAK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋I’m the maker of Annotate.The short version: it’s a Free, local-only macOS app that turns screen recordings into agent-ready prompts for Cursor, Claude, Codex, or any AI agent. Think of it as sharing your screen and annotating your thoughts to talk a developer through what to build.I wrote long, detailed prompts to get better results, but the agent still guessed wrong. Screenshots didn't fix it either—they’re too static to capture movement, form input flows, or real-time UI feedback.So I built the exact solution I wanted, I use it on my daily tasks now, and it’s been a game-changer. It saves me so much time—I explain a task once, and it’s done.How it works:1. Start Recording: Press Ctrl + Shift + R or click record button.2. Annotate Your Screen: Press Ctrl + 1 or 2 ... to toggle drawing tools. Standard drawings clears automatically,but holding Shift while drawing keeps them permanently on screen—perfect for sketching layouts or UI flows.3. Stop Recording: Press Ctrl + Shift + R again or click the Stop button.4. Open in Cursor, or copy the session prompt into your preferred AI agent and let it cook.No cloud upload. No login. Recordings stays on your Mac.FeaturesConsumes fewer tokens: The agent reads recordings via Local MCP using keyframes and speech—not a giant video dump.Multi-monitor support: Point or draw across different screens, switch context seamlessly, and let the AI understand what you mean.Secure - Recordings stays in your device, we don't upload your recordings. Speech transcripts and frames are stored in your device locally.Agent-agnostic: Works with any AI coding assistant (Cursor, Claude, Codex, and more).Annotation tools: Easy-to-use drawing and highlighting tools so you can explain your idea clearly to the AI.If you already vibe with AI coding agents and hate writing long prompts, I’d love for you to try it and tell me where it breaks.Happy to answer anything — let me know how you can use it on your daily work flow,Thanks for being here."
+        }
+      ],
+      "faDescription": "ثبت صفحه نمایش به عنوان提示 ها، با قابلیت ثبت صفحه، اشاره با کشیدن و صحبت کردن، و واگذاری آن به نماینده هوش مصنوعی. ویدیوی提示 برای Cursor، Claude، Codex یا هر نماینده کدگذاری هوش مصنوعی — فقط محلی و رایگان",
+      "faComments": [
+        {
+          "user": "[REDACTED]",
+          "text": "سلام Product Hunt 🙌 من سازنده Annotate هستم. نسخه کوتاه: یک برنامه رایگان و محلی برای مک که صفحه های ضبط شده را به提示 های آماده برای Cursor، Claude، Codex یا هر نماینده هوش مصنوعی تبدیل می کند. باریک"
+        }
+      ],
       "iranEquivalent": {
-        "productName": "نامشخص",
-        "description": "",
-        "marketOpportunity": "",
-        "estimatedBudget": "",
-        "targetAudience": "",
-        "challenges": [],
-        "monetization": [],
-        "techStack": [],
-        "confidence": 0
+        "productName": "توضیح صفحه",
+        "description": "ابزار توضیح صفحه برای طراحان و توسعه دهندگان ایرانی",
+        "marketOpportunity": "با توجه به رشد روزافزون صنعت فناوری در ایران و نیاز به ابزارهای محلی و رایگان برای طراحی و توسعه، این محصول می تواند فرصت مناسبی برای ورود به بازار باشد",
+        "estimatedBudget": "۲ میلیارد تومان",
+        "targetAudience": "طراحان، توسعه دهندگان و دانشجویان ایرانی",
+        "challenges": [
+          "رقابت با محصولات مشابه خارجی",
+          "نیاز به ایجاد آگاهی در مورد مزایای استفاده از ابزارهای محلی",
+          "تامین بودجه کافی برای توسعه و بازاریابی"
+        ],
+        "monetization": [
+          "پرداخت مبتنی بر اشتراک",
+          "فروش نسخه های تخصصی برای شرکت ها"
+        ],
+        "techStack": [
+          "React",
+          "Node.js",
+          "MongoDB"
+        ],
+        "confidence": 80
       }
     },
     {
       "id": "ph-2026-08-06-5",
       "date": "2026-08-06",
-      "rank": 5,
-      "name": "AdAnt AI",
-      "tagline": "Claude for viral, high-converting social ads",
-      "description": "Claude for viral, high-converting social ads Discussion | Link",
-      "category": "General",
-      "url": "https://www.producthunt.com/products/adant-ai",
+      "rank": 9,
+      "name": "UCP Radar",
+      "tagline": "Make your product feed visible to AI shopping agents",
+      "description": "Your titles and descriptions were probably never written to Google's spec. And the fields AI agents read (material, product details, age group, highlights, FAQ) are sitting empty. Connecting UCP Radar to Merchant Center is one click. It then works through the catalog, flagging what breaks GMC rules and what hides you from AI shopping assistants, rewriting weak titles and filling the blanks. Brand names it leaves alone. Out comes a supplemental feed Google, Perplexity and ChatGPT can read.",
+      "category": "Artificial Intelligence • E-Commerce • Marketing automation",
+      "url": "https://www.producthunt.com/products/ucp-radar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/8788dd70-d390-4232-90fe-4f4a65b159e0.png?auto=format",
       "votes": 0,
-      "websiteUrl": "https://www.producthunt.com/products/adant-ai",
+      "websiteUrl": "https://www.producthunt.com/r/N2JQBJBTPQ7TUB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt. 18 years in digital marketing, most of it running paid ads and Google Shopping for ecommerce clients. Product feeds were always the boring part of that job, and always the part that decided whether a campaign worked. The pattern I kept hitting: merchants assume the feed is fine because Google accepted it. Accepted is a very low bar. Titles get written for a human browsing a category page, not for how Google matches queries. Descriptions are whatever the CMS spat out. And the attributes that actually carry meaning, material, age group, and the newer AI-facing ones like product highlights, product details, product Q&A, sit empty. Google never rejects you for it. It just shows someone else. Then last year clients started asking why ChatGPT recommended a competitor instead of them. Same half-empty feed. Except in Shopping you can raise a bid to compensate, and here there's nothing to raise. So I built UCP Radar. Connect Google Merchant Center in one click and it scores every product against 50+ GMC and +35 UCP (Universal Commerce Protocol) rules, then again on how readable it is to an AI agent. It rewrites the titles and descriptions, fills the empty fields, and publishes a supplemental feed that Google, Perplexity and ChatGPT pick up on their own. Prices and stock still come from your store. The hard part wasn't getting the AI to write. It was getting it to stop. Early versions would \"improve\" a brand name or reword a model number, which in a product feed is a disaster. Most of my build time went into the Brand Protector. Free 7-day trial, up to 50 products, no credit card. One question for the ecommerce people here: have you checked whether ChatGPT or Perplexity can find your products yet? Curious what you're seeing."
+        }
+      ],
+      "faDescription": "عناوین و توضیحات محصول شما احتمالاً nunca برای مشخصات گوگل نوشته شده است. و فیلدهای مورد استفاده توسط نمایندگان خرید هوشمند (مواد، جزئیات محصول، گروه سنی،亮ها، FAQ) خالی هستند. اتصال UCP Radar به Merchant Center فقط با یک کلیک انجام می‌شود. سپس از طریق کاتالوگ، آنهایی را که قوانین GMC را наруш می‌کنند و آنهایی را که شما را از دستیاران خرید هوشمند پنهان می‌کنند، پرچم گذاری می‌کند و عناوین ضعیف را بازنویسی می‌کند و пустاهای را پر می‌کند. نام برند را به حال خود رها می‌کند. یک تغذیه مکمل که گوگل، Perplexity و ChatGPT能够 بخوانند، تولید می‌کند.",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "سلام Product Hunt. 18 سال در بازاریابی دیجیتال، بیشتر آن را در تبلیغات پرداخت شده و Google Shopping برای مشتریان تجارت الکترونیک. تغذیه های محصول همیشه بخش خسته کننده آن کار بود و همیشه بخشی بود که"
+        }
+      ],
       "iranEquivalent": {
-        "productName": "نامشخص",
-        "description": "",
-        "marketOpportunity": "",
-        "estimatedBudget": "",
-        "targetAudience": "",
-        "challenges": [],
-        "monetization": [],
-        "techStack": [],
-        "confidence": 0
+        "productName": "رادیو محصول",
+        "description": "ابزار هوشمند برای بهینه سازی و تنظیم تغذیه های محصول برای موتورهای جستجو و نمایندگان خرید هوشمند",
+        "marketOpportunity": "با توجه به رشد تجارت الکترونیک در ایران و افزایش استفاده از موتورهای جستجو و دستیاران هوشمند، فرصت مناسبی برای ایجاد ابزاری برای بهینه سازی و تنظیم تغذیه های محصول وجود دارد.",
+        "estimatedBudget": "۱ میلیارد تومان",
+        "targetAudience": "تجار الکترونیک و صاحبان فروشگاه های آنلاین",
+        "challenges": [
+          "رقابت با ابزارهای مشابه خارجی",
+          "سازگاری با استانداردهای موتورهای جستجو و دستیاران هوشمند",
+          "تامین امنیت و bảo mật داده ها"
+        ],
+        "monetization": [
+          "عضویت و اشتراک ماهیانه",
+          "خدمات سفارشی برای تجارت های بزرگ"
+        ],
+        "techStack": [
+          "پایتون",
+          "جاوا اسکریپت",
+          "MySQL"
+        ],
+        "confidence": 80
+      }
+    },
+    {
+      "id": "ph-2026-08-06-10",
+      "date": "2026-08-06",
+      "rank": 10,
+      "name": "Ticketdesk AI",
+      "tagline": "AI Agents for Customer Support",
+      "description": "Transform your customer support with AI-powered automation. Create AI agents for customer support and enable automatic AI email responses to handle tickets faster and 24*7.",
+      "category": "Productivity • Artificial Intelligence • Ticketing",
+      "url": "https://www.producthunt.com/products/ticketdesk-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/8768b772-71eb-4778-891f-c8830c50b2ac.png?auto=format",
+      "votes": 0,
+      "websiteUrl": "https://www.producthunt.com/r/2BQRRJMFPKC74A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "The idea for Ticketdesk AI came from a simple frustration: customer support tools have become increasingly complex and expensive, while AI is often treated as an expensive add-on. So, the idea is to build a help desk where AI isn't just a chatbot - it can classify tickets, replies to ticket, automate repetitive work, and help teams resolve conversations faster without requiring a huge budget or a complicated setup. After months of building, testing, and talking to customers, we're excited to finally share Ticketdesk AI with the community."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Current MRR - $2,500All-time revenue - $16khttps://trustmrr.com/startup/ticketdesk-ai"
+        }
+      ],
+      "faDescription": "با قدرت هوش مصنوعی، پشتیبانی مشتریان خود را متحول سازید. نمایندگان هوش مصنوعی برای پشتیبانی از مشتریان ایجاد کنید و پاسخ های خودکار ایمیل را برای xử理 سریع تر و 24 ساعته فعال کنید.",
+      "faComments": [
+        {
+          "user": "[[REDACTED]]",
+          "text": "ایده ی Ticketdesk AI از یک عصبانیت ساده به وجود آمد: ابزارهای پشتیبانی از مشتریان پیچیده تر و گران تر شده اند، در حالی که هوش مصنوعی اغلب به عنوان یک افزودنی گران قیمت behand."
+        },
+        {
+          "user": "[[REDACTED]]",
+          "text": "MRR فعلی - $2,500کل درآمد - $16khttps://trustmrr.com/startup/ticketdesk-ai"
+        }
+      ],
+      "iranEquivalent": {
+        "productName": "پشتیبانی هوشمند",
+        "description": "ابزاری برای پشتیبانی از مشتریان با استفاده از هوش مصنوعی",
+        "marketOpportunity": "فرصت بازار برای بهبود خدمات پشتیبانی مشتریان در ایران",
+        "estimatedBudget": "۵۰۰ میلیون تومان",
+        "targetAudience": "شرکت های ایرانی با خدمات پشتیبانی از مشتریان",
+        "challenges": [
+          "رقابت با شرکت های خارجی",
+          "آشنا کردن بازار با فناوری های جدید",
+          "تامین مالی"
+        ],
+        "monetization": [
+          "اشتراک ماهیانه",
+          "پرداخت به ازای هر استفاده"
+        ],
+        "techStack": [
+          "هوش مصنوعی",
+          "پردازش زبان طبیعی",
+          "پلتفرم ابری"
+        ],
+        "confidence": 85
       }
     }
   ]

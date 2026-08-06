@@ -1,7 +1,10 @@
 import * as cheerio from 'cheerio';
-import type { Product } from '@/types';
+import type { PHComment, Product } from '@/types';
 
-const ATOM_FEED_URL = 'https://www.producthunt.com/feed';
+export const TOP_COUNT = 10;
+
+const API_URL = 'https://api.producthunt.com/v2/api/graphql';
+const ATOM_URL = 'https://www.producthunt.com/feed';
 
 const COMMON_HEADERS = {
   'User-Agent':
@@ -10,130 +13,234 @@ const COMMON_HEADERS = {
   'Accept-Language': 'en-US,en;q=0.9',
 };
 
-interface AtomEntry {
-  title: string;
-  link: string;
-  content: string;
-  published: string;
+function stripHtml(html: string): string {
+  return cheerio.load(html).text().replace(/\s+/g, ' ').trim();
 }
 
-async function fetchAtomFeed(): Promise<AtomEntry[]> {
-  console.log('🌐 Fetching ProductHunt Atom feed...');
+// Spam detection
+function isSpamComment(text: string): boolean {
+  const spamPatterns = [
+    /https?:\/\/(?!www\.producthunt\.com)[^\s]+\.(xyz|top|click|ru|cn|tk)/i,
+    /myloweslife|kronos-login/i,
+    /click here|check out|visit now/i,
+  ];
+  return spamPatterns.some((pattern) => pattern.test(text));
+}
 
-  const res = await fetch(ATOM_FEED_URL, { headers: COMMON_HEADERS });
-  if (!res.ok) {
-    throw new Error(`Failed to fetch feed: HTTP ${res.status}`);
+function extractSlug(url: string): string | null {
+  const match = url.match(/\/(?:products|posts)\/([^/?#]+)/);
+  return match ? match[1] : null;
+}
+
+async function getRealWebsiteUrl(redirectUrl: string): Promise<string> {
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+
+    const res = await fetch(redirectUrl, {
+      redirect: 'follow',
+      headers: COMMON_HEADERS,
+      signal: controller.signal,
+    });
+    clearTimeout(timeout);
+
+    if (!res.url.includes('producthunt.com')) {
+      return res.url;
+    }
+    return redirectUrl;
+  } catch {
+    return redirectUrl;
+  }
+}
+
+const buildSlugQuery = (slug: string) => `
+query {
+  post(slug: "${slug}") {
+    name
+    tagline
+    description
+    votesCount
+    website
+    url
+    featuredAt
+    thumbnail { url }
+    topics(first: 5) { edges { node { name } } }
+    comments(first: 8) { edges { node { body user { name username } } } }
+  }
+}`;
+
+async function fetchPostDetails(token: string, slug: string): Promise<any> {
+  const res = await fetch(API_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+      'User-Agent': 'IranHunt/1.0 (+https://iranhunt.vercel.app)',
+    },
+    body: JSON.stringify({ query: buildSlugQuery(slug) }),
+  });
+
+  if (!res.ok) throw new Error(`API HTTP ${res.status}`);
+  const json = (await res.json()) as any;
+  if (json.errors) throw new Error(`GraphQL: ${json.errors[0]?.message}`);
+  return json?.data?.post ?? null;
+}
+
+async function getTodaysProducts(): Promise<Array<{ name: string; slug: string; phUrl: string; tagline: string; atomDescription: string }>> {
+  console.log('📡 Step 1: Fetching Atom feed for today\'s products...');
+  const res = await fetch(ATOM_URL, { headers: COMMON_HEADERS });
+  if (!res.ok) throw new Error(`Atom feed HTTP ${res.status}`);
+
+  const $ = cheerio.load(await res.text(), { xmlMode: true });
+  const items: Array<{ name: string; slug: string; phUrl: string; tagline: string; atomDescription: string }> = [];
+
+  $('entry').each((i, el) => {
+    if (items.length >= TOP_COUNT) return false;
+    const $el = $(el);
+    const name = $el.find('title').text().trim();
+    const rawUrl = $el.find('link[href]').first().attr('href') ?? '';
+    const content = $el.find('content').text().trim();
+    const tagline = cheerio.load(content)('p').first().text().trim() || name;
+
+    const slug = extractSlug(rawUrl);
+    if (!slug) return;
+
+    if (!items.some((item) => item.slug === slug)) {
+      items.push({
+        name,
+        slug,
+        phUrl: rawUrl,
+        tagline,
+        atomDescription: stripHtml(content),
+      });
+    }
+  });
+
+  console.log(`   ✅ Got ${items.length} today's products from Atom feed`);
+  return items;
+}
+
+async function enrichFromGraphQL(
+  token: string,
+  items: Array<{ name: string; slug: string; phUrl: string; tagline: string; atomDescription: string }>,
+  date: string,
+): Promise<Product[]> {
+  console.log('🔑 Step 2: Enriching with GraphQL API (votesCount, topics, comments)...');
+
+  const products: Product[] = [];
+
+  for (const item of items) {
+    try {
+      const details = await fetchPostDetails(token, item.slug);
+
+      if (!details) {
+        console.warn(`   ⚠️  No details for ${item.name}`);
+        continue;
+      }
+
+      // Get real website URL
+      let websiteUrl = details.website ?? '';
+      if (websiteUrl.includes('producthunt.com/r/')) {
+        const realUrl = await getRealWebsiteUrl(websiteUrl);
+        if (!realUrl.includes('producthunt.com')) {
+          websiteUrl = realUrl;
+        }
+      }
+
+      // Use GraphQL description or fallback to Atom description
+      const description =
+        details.description?.trim() || item.atomDescription || details.tagline || item.tagline;
+
+      // Filter spam comments and use real username
+      const comments = (details.comments?.edges ?? [])
+        .map((c: any) => ({
+          user: c.node?.user?.name || c.node?.user?.username || 'Hunter',
+          text: stripHtml(c.node?.body ?? ''),
+        }))
+        .filter((c: PHComment) => c.text.length > 10 && !isSpamComment(c.text)) as PHComment[];
+
+      products.push({
+        id: `ph-${date}-${products.length + 1}`,
+        date,
+        rank: products.length + 1,
+        name: details.name ?? item.name,
+        tagline: details.tagline ?? item.tagline,
+        description,
+        category:
+          (details.topics?.edges ?? [])
+            .map((t: any) => t.node?.name)
+            .filter(Boolean)
+            .join(' • ') || 'General',
+        url: details.url ?? item.phUrl,
+        thumbnail: details.thumbnail?.url,
+        votes: details.votesCount ?? 0,
+        websiteUrl,
+        comments,
+      });
+
+      console.log(
+        `   ✅ ${details.name} — ${details.votesCount ?? 0} votes, ${(details.topics?.edges ?? []).length} topics, ${comments.length} comments`,
+      );
+    } catch (err) {
+      console.warn(`   ⚠️  Failed to enrich ${item.name}: ${err}`);
+    }
+
+    await new Promise((resolve) => setTimeout(resolve, 300));
   }
 
-  const xml = await res.text();
-  const $ = cheerio.load(xml, { xmlMode: true });
+  // Sort by votes descending
+  products.sort((a, b) => b.votes - a.votes);
+  products.forEach((p, i) => (p.rank = i + 1));
 
-  const entries: AtomEntry[] = [];
-  $('entry').each((_, el) => {
+  return products;
+}
+
+async function fetchViaAtomOnly(date: string): Promise<Product[]> {
+  console.log('📡 Fallback: Atom feed only (no API token)...');
+  const res = await fetch(ATOM_URL, { headers: COMMON_HEADERS });
+  if (!res.ok) throw new Error(`Atom feed HTTP ${res.status}`);
+
+  const $ = cheerio.load(await res.text(), { xmlMode: true });
+  const products: Product[] = [];
+
+  $('entry').each((i, el) => {
+    if (products.length >= TOP_COUNT) return false;
     const $el = $(el);
-    // Atom: link is in href attribute, not text content
-    const linkEl = $el.find('link[href]').first();
-    const link = linkEl.attr('href') || '';
+    const content = $el.find('content').text().trim();
+    const tagline = cheerio.load(content)('p').first().text().trim();
 
-    const content =
-      $el.find('content').text().trim() ||
-      $el.find('summary').text().trim() ||
-      '';
-
-    entries.push({
-      title: $el.find('title').text().trim(),
-      link,
-      content,
-      published: $el.find('published, updated').first().text().trim(),
+    products.push({
+      id: `ph-${date}-${products.length + 1}`,
+      date,
+      rank: products.length + 1,
+      name: $el.find('title').text().trim(),
+      tagline: tagline || $el.find('title').text().trim(),
+      description: stripHtml(content),
+      category: 'General',
+      url: $el.find('link[href]').first().attr('href') ?? '',
+      votes: 0,
+      websiteUrl: '',
+      comments: [],
     });
   });
 
-  return entries;
-}
-
-function cleanHtml(html: string): string {
-  const $ = cheerio.load(html);
-  return $.text().replace(/\s+/g, ' ').trim();
-}
-
-function extractTagline(html: string, fallback: string): string {
-  const $ = cheerio.load(html);
-  const firstP = $('p').first().text().trim();
-  return firstP || fallback;
-}
-
-async function enrichProduct(p: Product): Promise<void> {
-  try {
-    const res = await fetch(p.url, {
-      headers: COMMON_HEADERS,
-      redirect: 'follow',
-    });
-    if (!res.ok) return;
-
-    const html = await res.text();
-    const $ = cheerio.load(html);
-
-    // og:description
-    const ogDesc = $('meta[property="og:description"]').attr('content');
-    if (ogDesc) p.description = ogDesc.trim();
-
-    // og:image
-    const ogImage = $('meta[property="og:image"]').attr('content');
-    if (ogImage) p.thumbnail = ogImage;
-
-    // Website link (redirect link with data-test or specific class)
-    const websiteLink = $('a[data-test="website-link"]').attr('href')
-      || $('a[rel="nofollow"]').first().attr('href');
-    if (websiteLink) p.websiteUrl = websiteLink;
-
-    // Categories from topics/tags
-    const topics = $('[data-test="post-topic"], [data-test="topic-pill"]')
-      .map((_, el) => $(el).text().trim())
-      .get()
-      .filter(Boolean);
-    if (topics.length > 0) {
-      p.category = topics.join(' • ');
-    }
-
-    // Votes
-    const voteText = $('[data-test="vote-button"], [data-test="post-votes-count"]').first().text();
-    const voteMatch = voteText.replace(/[^\d]/g, '');
-    if (voteMatch) p.votes = parseInt(voteMatch, 10);
-  } catch (err) {
-    console.warn(`⚠️  Enrichment failed for: ${p.name} (${err})`);
-  }
+  return products;
 }
 
 export async function scrapeProductHunt(date: string): Promise<Product[]> {
-  const entries = await fetchAtomFeed();
-  console.log(`📦 Found ${entries.length} entries in Atom feed, taking top 5`);
+  const token = process.env.PH_API_TOKEN;
 
-  if (entries.length === 0) {
-    throw new Error('No entries found in Atom feed');
+  if (!token) {
+    console.warn('⚠️  PH_API_TOKEN not set, using Atom feed only');
+    return fetchViaAtomOnly(date);
   }
 
-  const products: Product[] = entries.slice(0, 5).map((entry, index) => {
-    const cleanContent = cleanHtml(entry.content);
-    const tagline = extractTagline(entry.content, entry.title);
-
-    return {
-      id: `ph-${date}-${index + 1}`,
-      date,
-      rank: index + 1,
-      name: entry.title,
-      tagline,
-      description: cleanContent || tagline,
-      category: 'General', // Will be enriched
-      url: entry.link,
-      votes: 0,
-      websiteUrl: entry.link,
-      thumbnail: undefined,
-    };
-  });
-
-  // Enrich in parallel
-  console.log('🔄 Enriching with detail pages...');
-  await Promise.all(products.map(enrichProduct));
-
-  return products;
+  try {
+    const items = await getTodaysProducts();
+    if (items.length === 0) throw new Error('No products from Atom feed');
+    return await enrichFromGraphQL(token, items, date);
+  } catch (err) {
+    console.warn(`⚠️  Combined approach failed (${err}), falling back to Atom only`);
+    return fetchViaAtomOnly(date);
+  }
 }

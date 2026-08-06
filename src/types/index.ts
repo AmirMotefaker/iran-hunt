@@ -1,3 +1,8 @@
+export interface PHComment {
+  user: string;
+  text: string;
+}
+
 export interface IranEquivalent {
   productName: string;
   description: string;
@@ -17,11 +22,14 @@ export interface Product {
   name: string;
   tagline: string;
   description: string;
+  faDescription?: string;
   category: string;
   url: string;
   thumbnail?: string;
   votes: number;
   websiteUrl: string;
+  comments?: PHComment[];
+  faComments?: PHComment[];
   iranEquivalent?: IranEquivalent;
 }
 
