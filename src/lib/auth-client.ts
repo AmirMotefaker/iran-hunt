@@ -1,8 +1,10 @@
-export async function me(): Promise<string | null> {
+interface MeResult { email: string; isAdmin?: boolean }
+
+export async function me(): Promise<MeResult | null> {
   const res = await fetch('/api/auth/me');
   if (!res.ok) return null;
   const j = await res.json();
-  return j.email ?? null;
+  return j?.email ? { email: j.email, isAdmin: !!j.isAdmin } : null;
 }
 
 export async function signup(email: string, password: string) {

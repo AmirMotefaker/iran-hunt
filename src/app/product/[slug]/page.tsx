@@ -1,6 +1,8 @@
 import { ArrowRight, Flame } from 'lucide-react';
 import Link from 'next/link';
 import { GatedContent } from '@/components/GatedContent';
+import { LikeButton } from '@/components/LikeButton';
+import { UserComments } from '@/components/UserComments';
 import { extractSlug } from '@/lib/slug';
 import { loadLatest } from '@/lib/storage';
 
@@ -21,7 +23,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   if (!product) {
     return (
       <main className="mx-auto max-w-3xl px-4 py-20 text-center text-gray-500">
-        <p className="text-xl font-bold">😕 محصول پیدا نشد!</p>
+        <p className="text-xl font-bold">😕 ایده پیدا نشد!</p>
         <Link href="/" className="mt-4 inline-block text-[#ff6154] hover:underline">بازگشت به خانه</Link>
       </main>
     );
@@ -41,16 +43,17 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             // eslint-disable-next-line @next/next/no-img-element
             <img src={product.thumbnail} alt={product.name} className="h-16 w-16 rounded-2xl border border-gray-100 object-cover" />
           ) : (
-            <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#ff6154] to-pink-500 text-2xl font-black text-white">
-              {product.rank}
-            </span>
+            <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#ff6154] to-pink-500 text-2xl font-black text-white">{product.rank}</span>
           )}
           <div className="flex-1">
             <div className="flex items-center justify-between">
               <h1 className="text-2xl font-black text-gray-900" dir="ltr">{product.name}</h1>
-              <span className="flex items-center gap-1 rounded-full bg-orange-50 px-3 py-1.5 text-sm font-bold text-[#ff6154]">
-                <Flame size={15} /> {product.votes.toLocaleString('fa-IR')} رأی
-              </span>
+              <div className="flex items-center gap-2">
+                <LikeButton slug={slug} />
+                <span className="flex items-center gap-1 rounded-full bg-orange-50 px-3 py-1.5 text-sm font-bold text-[#ff6154]">
+                  <Flame size={15} /> {product.votes.toLocaleString('fa-IR')} رأی
+                </span>
+              </div>
             </div>
             <p className="mt-1 italic text-gray-500" dir="ltr">{product.tagline}</p>
           </div>
@@ -64,9 +67,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
         <div className="space-y-4 p-6">
           {product.faDescription && (
-            <p className="rounded-2xl border border-orange-100 bg-orange-50/60 p-4 text-sm leading-8 text-gray-800">
-              🇮🇷 {product.faDescription}
-            </p>
+            <p className="rounded-2xl border border-orange-100 bg-orange-50/60 p-4 text-sm leading-8 text-gray-800">🇮🇷 {product.faDescription}</p>
           )}
 
           {eq && eq.confidence > 0 && (
@@ -82,20 +83,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             </div>
           )}
 
-          {product.faComments && product.faComments.length > 0 && (
-            <div className="rounded-2xl bg-gray-50 p-5">
-              <h4 className="font-extrabold text-gray-800">💬 برگزیده نظرات جامعه (فارسی)</h4>
-              <ul className="mt-3 space-y-3">
-                {product.faComments.map((c, i) => (
-                  <li key={i} className="rounded-2xl bg-white p-4 shadow-sm">
-                    <span className="block text-xs font-black text-[#ff6154]">{c.user}</span>
-                    <span className="text-sm leading-7 text-gray-700">{c.text}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
+          <UserComments slug={slug} />
           <GatedContent product={product} />
         </div>
       </article>
