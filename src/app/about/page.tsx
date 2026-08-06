@@ -1,17 +1,24 @@
-import { Brain, Github, Globe2, Lock, Timer, Trophy } from 'lucide-react';
+import { Brain, Camera, Github, Globe2, LayoutGrid, Lock, Moon, Share2, Star, Timer, TrendingUp, Trophy, User } from 'lucide-react';
 import Link from 'next/link';
 
 const FEATURES = [
-  { icon: Trophy, title: 'رتبه‌بندی واقعی', desc: 'ایده‌ها بر اساس رأی واقعی جامعه جهانی مرتب می‌شوند، نه سلیقه شخصی.' },
+  { icon: Trophy, title: 'رتبه‌بندی واقعی', desc: 'ایده‌ها بر اساس رأی واقعی جامعه جهانی در ۵ بازه زمانی مرتب می‌شوند.' },
   { icon: Brain, title: 'تحلیل هوش مصنوعی', desc: 'ترجمه فارسی روان، خلاصه نظرات جامعه و تحلیل کامل هر ایده با AI.' },
-  { icon: Globe2, title: 'مشابه ایرانی', desc: 'برای هر ایده جهانی، فرصت بازار، بودجه، مخاطب و چالش‌های نسخه ایرانی را می‌سنجیم.' },
+  { icon: Globe2, title: 'مشابه ایرانی', desc: 'فرصت بازار، بودجه، مخاطب، چالش‌ها و مدل درآمدی نسخه ایرانی هر ایده.' },
   { icon: Timer, title: 'به‌روزرسانی روزانه', desc: 'هر روز ساعت ۱۷ به وقت تهران، ۵ بازه زمانی تازه‌سازی می‌شوند.' },
-  { icon: Lock, title: 'عضویت رایگان', desc: 'با یک ثبت‌نام ساده، قفل وب‌سایت رسمی و توضیحات تکمیلی همه ایده‌ها باز می‌شود.' },
+  { icon: LayoutGrid, title: 'دسته‌بندی سلسله‌مراتبی', desc: '۲۲ دسته اصلی و ۱۵۰+ زیردسته به سبک ProductHunt.' },
+  { icon: Star, title: 'امتیازدهی ستاره‌ای', desc: 'به هر ایده از ۱ تا ۵ ستاره امتیاز بده و میانگین جامعه را ببین.' },
+  { icon: Share2, title: 'اشتراک‌گذاری', desc: 'اشتراک در توییتر، لینکدین، تلگرام، واتساپ و کپی لینک.' },
+  { icon: Camera, title: 'اسکرین‌شات محصول', desc: 'تصویر واقعی هر محصول + رتبه، تاریخ انتشار شمسی و نام سازنده.' },
+  { icon: Lock, title: 'عضویت رایگان', desc: 'با یک ثبت‌نام ساده، قفل توضیحات کامل و وب‌سایت رسمی باز می‌شود.' },
+  { icon: User, title: 'داشبورد شخصی', desc: 'پروفایل با آواتار، نام، استان، شهر و موبایل + لایک و کامنت.' },
+  { icon: Moon, title: 'دارک‌مود کامل', desc: 'تجربه تاریک و روشن با یک کلیک، در تمام صفحات.' },
+  { icon: TrendingUp, title: 'مرتب‌سازی هوشمند', desc: 'دسته‌بندی‌ها بر اساس بیشترین رأی مرتب می‌شوند.' },
 ];
 
 export const metadata = {
   title: 'درباره ما',
-  description: 'داستان ایده‌یاب و بنیان‌گذار آن امیر متفکر؛ پلتفرم هوشمند ایده‌های ترند استارتاپی برای اکوسیستم کارآفرینی ایران.',
+  description: 'داستان ایده‌یاب و بنیان‌گذار آن امیر متفکر؛ پلتفرم هوشمند ایده‌های ترند استارتاپی با تحلیل هوش مصنوعی برای اکوسیستم کارآفرینی ایران.',
 };
 
 export default function AboutPage() {
@@ -28,7 +35,7 @@ export default function AboutPage() {
         ایده‌یاب از یک پرسش ساده متولد شد: هر روز هزاران ایده استارتاپی در جهان متولد می‌شود؛ چرا کارآفرینان ایرانی باید این ترندها را دیر، پراکنده و بدون تحلیل بومی ببینند؟ ما هر روز برترین ایده‌های جهانی را در پنج بازه زمانی گلچین می‌کنیم، به فارسی روان برمی‌گردانیم و برای هر کدام، نسخه ایرانی ممکن را با در نظر گرفتن بازار محلی، پرداخت شاپرک، فرهنگ و رقابت داخلی تحلیل می‌کنیم.
       </p>
       <p className="mt-4 text-base leading-9 text-gray-700 dark:text-gray-300">
-        هدف ما ساده است: تبدیل شدن به قطب‌نمای اکوسیستم استارتاپی ایران — جایی که هر بنیان‌گذار، سرمایه‌گذار و سازنده‌ای، صبح‌ها با یک فنجان قهوه، نبض نوآوری جهان را به زبان خودشان دنبال کند.
+        امروز ایده‌یاب یک پلتفرم کامل است: دسته‌بندی سلسله‌مراتبی به سبک ProductHunt، امتیازدهی ستاره‌ای، لایک و کامنت، اشتراک‌گذاری اجتماعی، اسکرین‌شات محصولات، تاریخ شمسی، دارک‌مود و CRM اختصاصی بنیان‌گذار — همه در کنار تحلیل هوش مصنوعی.
       </p>
 
       <h2 className="mt-14 text-xl font-black text-gray-900 dark:text-white">چرا ایده‌یاب؟</h2>
@@ -48,9 +55,14 @@ export default function AboutPage() {
           <p className="mt-3 text-sm leading-7 text-gray-300">
             «باور دارم ایده‌ها ارزان‌ترین و در عین حال ارزشمندترین دارایی جهان‌اند؛ هنر، دیدنِ آن‌ها در زمان درست است.»
           </p>
-          <a href="https://github.com/AmirMotefaker" target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-xl bg-white/10 px-4 py-2 text-xs font-bold transition hover:bg-white/20">
-            <Github size={14} /> دنبال‌کردن در GitHub
-          </a>
+          <div className="mt-4 flex gap-2">
+            <a href="https://github.com/AmirMotefaker" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-white/10 px-4 py-2 text-xs font-bold transition hover:bg-white/20">
+              <Github size={14} /> GitHub
+            </a>
+            <a href="https://amirmotefaker.ir" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-white/10 px-4 py-2 text-xs font-bold transition hover:bg-white/20">
+              <Globe2 size={14} /> وب‌سایت شخصی
+            </a>
+          </div>
         </div>
       </div>
 
