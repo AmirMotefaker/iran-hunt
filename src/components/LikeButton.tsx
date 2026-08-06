@@ -10,7 +10,7 @@ export function LikeButton({ slug }: { slug: string }) {
   const [email, setEmail] = useState<string | null>(null);
 
   useEffect(() => {
-    me().then(setEmail);
+    me().then((r) => setEmail(r?.email ?? null));
     fetch(`/api/likes?slug=${encodeURIComponent(slug)}`)
       .then((r) => r.json())
       .then((j) => { setCount(j.count ?? 0); setLiked(!!j.liked); });

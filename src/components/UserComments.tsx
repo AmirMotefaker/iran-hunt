@@ -21,7 +21,10 @@ export function UserComments({ slug }: { slug: string }) {
       .then((r) => r.json())
       .then((j) => setItems(j.items ?? []));
 
-  useEffect(() => { me().then(setEmail); load(); }, [slug]);
+  useEffect(() => {
+    me().then((r) => setEmail(r?.email ?? null));
+    load();
+  }, [slug]);
 
   const submit = async () => {
     setBusy(true); setError('');
