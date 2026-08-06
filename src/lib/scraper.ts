@@ -3,7 +3,6 @@ import type { PeriodKey, PHComment, Product } from '@/types';
 import { translateCategories } from '@/lib/translate';
 
 export const TOP_COUNT = 10;
-
 const API_URL = 'https://api.producthunt.com/v2/api/graphql';
 const ATOM_URL = 'https://www.producthunt.com/feed';
 
@@ -60,7 +59,9 @@ query {
       node {
         name tagline description votesCount website url slug featuredAt
         thumbnail { url }
+        media { url videoId }
         topics(first: 5) { edges { node { name } } }
+        makers { name headline }
       }
     }
   }
@@ -70,6 +71,7 @@ const slugQuery = (slug: string) => `
 query {
   post(slug: "${slug}") {
     website
+    description
     comments(first: 8) { edges { node { body user { name username } } } }
   }
 }`;
@@ -114,6 +116,13 @@ async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]
   return pool.map((n, i) => {
     const slugFromGql = n.slug ?? extractSlug(n.url ?? '') ?? '';
     const categoryEn = (n.topics?.edges ?? []).map((t: any) => t.node?.name).filter(Boolean).join(' • ') || 'General';
+    const screenshots = (n.media ?? [])
+      .map((m: any) => m.url)
+      .filter(Boolean)
+      .filter((u: string) => !u.endsWith('.mp4'));
+    const maker = n.makers?.[0]?.name ?? '';
+    const makerTitle = n.makers?.[0]?.headline ?? '';
+
     return {
       id: `ph-${key}-${i + 1}`,
       date: (n.featuredAt ?? '').slice(0, 10),
@@ -126,6 +135,10 @@ async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]
       categoryFa: translateCategories(categoryEn),
       url: n.url ?? 'https://www.producthunt.com',
       thumbnail: n.thumbnail?.url,
+      screenshots,
+      maker,
+      makerTitle,
+      featuredAt: n.featuredAt ?? '',
       votes: n.votesCount ?? 0,
       websiteUrl: n.website ?? '',
       comments: [],
@@ -147,6 +160,9 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
         if (!real.includes('producthunt.com')) websiteUrl = real;
       }
       p.websiteUrl = websiteUrl;
+      if (post.description && post.description.length > (p.description?.length ?? 0)) {
+        p.longDescription = post.description;
+      }
 
       p.comments = (post.comments?.edges ?? [])
         .map((c: any) => ({
@@ -174,18 +190,12 @@ async function fetchViaAtom(date: string): Promise<Product[]> {
     const slug = extractSlug(url) ?? `entry-${products.length + 1}`;
     products.push({
       id: `ph-today-${products.length + 1}`,
-      date,
-      rank: products.length + 1,
+      date, rank: products.length + 1,
       name: $el.find('title').text().trim(),
-      slug,
-      tagline: tagline || $el.find('title').text().trim(),
+      slug, tagline: tagline || $el.find('title').text().trim(),
       description: stripHtml(content),
-      category: 'General',
-      categoryFa: 'عمومی',
-      url,
-      votes: 0,
-      websiteUrl: '',
-      comments: [],
+      category: 'General', categoryFa: 'عمومی',
+      url, votes: 0, websiteUrl: '', comments: [],
     });
   });
   return products;

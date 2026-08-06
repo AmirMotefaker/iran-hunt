@@ -27,15 +27,21 @@ export interface Product {
   date: string;
   rank: number;
   name: string;
-  slug: string;              // <-- جدید: slug ذخیره شده
+  slug: string;
   tagline: string;
   description: string;
+  longDescription?: string;        // توضیحات کامل HTML
   faDescription?: string;
-  faTagline?: string;        // <-- جدید: ترجمه تگلاین
+  faLongDescription?: string;      // ترجمه توضیحات کامل
+  faTagline?: string;
   category: string;
-  categoryFa?: string;       // <-- جدید: ترجمه دسته‌بندی
+  categoryFa?: string;
   url: string;
   thumbnail?: string;
+  screenshots?: string[];          // تصاویر محصول
+  maker?: string;                  // سازنده
+  makerTitle?: string;             // عنوان سازنده
+  featuredAt?: string;             // تاریخ انتشار
   votes: number;
   websiteUrl: string;
   comments?: PHComment[];

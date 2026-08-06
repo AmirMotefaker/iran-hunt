@@ -28,9 +28,10 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     ? [...(data.periods.today ?? []), ...(data.periods.yesterday ?? []), ...(data.periods.week ?? []), ...(data.periods.month ?? []), ...(data.periods.year ?? [])]
     : [];
 
-  const products = all.filter((p) =>
-    p.category.split('•').map((s: string) => s.trim()).includes(enName)
-  );
+  // فیلتر + مرتب‌سازی بر اساس بیشترین votes
+  const products = all
+    .filter((p) => p.category.split('•').map((s: string) => s.trim()).includes(enName))
+    .sort((a, b) => b.votes - a.votes);
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-12">
@@ -43,7 +44,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <h1 className="mt-3 text-3xl font-black text-gray-900 dark:text-white sm:text-4xl">{faName}</h1>
         <p className="mt-1 text-sm text-gray-500 dark:text-gray-400" dir="ltr">{enName}</p>
         <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
-          {products.length.toLocaleString('fa-IR')} ایده ترند در این دسته‌بندی
+          {products.length.toLocaleString('fa-IR')} ایده ترند در این دسته‌بندی · مرتب‌شده بر اساس بیشترین رأی
         </p>
       </div>
 
