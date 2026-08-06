@@ -6,16 +6,22 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
       - uses: oven-sh/setup-bun@v2
-        with: { bun-version: latest }
+        with:
+          bun-version: latest
       - run: bun install --frozen-lockfile
-      - run: bunx playwright install chromium --with-deps
       - env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: bun run scrape
+      - name: Commit data
+        run: |
+          git config user.name "IranHunt Bot"
+          git config user.email "bot@iranhunt.app"
+          git add data
+          git diff --cached --quiet || git commit -m "scrape: daily update $(date -u +'%Y-%m-%d')"
+          git push
