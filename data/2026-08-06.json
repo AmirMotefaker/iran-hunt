@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "scrapedAt": "2026-08-06T09:39:26.465Z",
+  "scrapedAt": "2026-08-06T11:12:23.670Z",
   "periods": {
     "today": [
       {
@@ -13,7 +13,7 @@
         "category": "Open Source • Artificial Intelligence • GitHub • Bots",
         "url": "https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/edcb3719-f3b7-49e8-9676-27631af01cb9.png?auto=format",
-        "votes": 0,
+        "votes": 143,
         "websiteUrl": "https://www.producthunt.com/r/3c2b042d9e?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -38,98 +38,13 @@
         "id": "ph-today-2",
         "date": "2026-08-06",
         "rank": 2,
-        "name": "Muse Code",
-        "tagline": "Meta’s terminal agent for long-horizon coding",
-        "description": "Introducing Muse Code, a terminal coding agent powered by Muse Spark 1.2, with persistent background agents, repository-scale execution, and built-in verification.",
-        "category": "Productivity • Developer Tools • Artificial Intelligence",
-        "url": "https://www.producthunt.com/products/meta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/aaeba1be-643c-4283-8a81-abe32d32dde5.png?auto=format",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/592ffa58ccea81?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "\"Meta links with your Dropbox, Google Drive, Evernote, and OneDrive accounts, as well as your computers and hard drives, so you can access and share any file from one simple interface.\" Also, it seems Meta tags your files and allows you to search via not just name, but concepts and topics. This seems to good to be true, would love to hear more. (Especially since I keep my files on two devices, and on my Mac everything is inside the Downloads folder 🙈 )"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-08-06",
-        "rank": 3,
-        "name": "Annotate",
-        "tagline": "Screen recording as prompts",
-        "description": "Record your screen, point by drawing and speak, and hand it off to AI agent. Video prompts for Cursor, Claude, and Codex or any AI coding agent — local-only and free.",
-        "category": "Design Tools • Developer Tools • Artificial Intelligence",
-        "url": "https://www.producthunt.com/products/annotate-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/e75e84d4-a8a6-4678-9315-41e3722bc803.png?auto=format",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/5PZ4OYVR3UXAK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋I’m the maker of Annotate.The short version: it’s a Free, local-only macOS app that turns screen recordings into agent-ready prompts for Cursor, Claude, Codex, or any AI agent. Think of it as sharing your screen and annotating your thoughts to talk a developer through what to build.I wrote long, detailed prompts to get better results, but the agent still guessed wrong. Screenshots didn't fix it either—they’re too static to capture movement, form input flows, or real-time UI feedback.So I built the exact solution I wanted, I use it on my daily tasks now, and it’s been a game-changer. It saves me so much time—I explain a task once, and it’s done.How it works:1. Start Recording: Press Ctrl + Shift + R or click record button.2. Annotate Your Screen: Press Ctrl + 1 or 2 ... to toggle drawing tools. Standard drawings clears automatically,but holding Shift while drawing keeps them permanently on screen—perfect for sketching layouts or UI flows.3. Stop Recording: Press Ctrl + Shift + R again or click the Stop button.4. Open in Cursor, or copy the session prompt into your preferred AI agent and let it cook.No cloud upload. No login. Recordings stays on your Mac.FeaturesConsumes fewer tokens: The agent reads recordings via Local MCP using keyframes and speech—not a giant video dump.Multi-monitor support: Point or draw across different screens, switch context seamlessly, and let the AI understand what you mean.Secure - Recordings stays in your device, we don't upload your recordings. Speech transcripts and frames are stored in your device locally.Agent-agnostic: Works with any AI coding assistant (Cursor, Claude, Codex, and more).Annotation tools: Easy-to-use drawing and highlighting tools so you can explain your idea clearly to the AI.If you already vibe with AI coding agents and hate writing long prompts, I’d love for you to try it and tell me where it breaks.Happy to answer anything — let me know how you can use it on your daily work flow,Thanks for being here."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I think that this is the future and also outputs (answers by AI) that will show you on the video what to do."
-          }
-        ]
-      },
-      {
-        "id": "ph-today-4",
-        "date": "2026-08-06",
-        "rank": 4,
-        "name": "AI Spend Console by Rippling",
-        "tagline": "Track your AI spend and connect it to business outcomes",
-        "description": "AI Spend Console gives Finance and Engineering leaders one place to track AI spend across tools (such as Claude and Cursor) and connect it to business outcomes. Break costs down by vendor, model, or employee, then connect spend to GitHub output data like pull request volume and the # of code revisions. You can get started for free–no Rippling subscription required.",
-        "category": "Artificial Intelligence • Data & Analytics • Finance",
-        "url": "https://www.producthunt.com/products/rippling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/53c0c89f-1ce9-435a-9cce-8ffb70118915.png?auto=format",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/0c6713068d05cf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Great innovation. I'm impressed."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Looks good! Would be nice to add SSO support for 1Password Teams/Business accounts"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Hi Prasanna, I left you guys a message on Intercom more than 2 days ago and the message hasn't been seen or replied to... I realize that there are timezone differences but this is not a ideal potential beginning... I'm hoping you'll be able to reply to my inquiry very soon... Thanks :) { maybe there's a holiday I'm not aware of though... :/ } P.S.: The Request a demo sign up button yields a 'Something went wrong'..."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Recommended this to a client today and signed up to test it out. Now I'm a paid user...it's amazing."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is a game changer. @mikeaag and I sat down a month or two ago to hack together an MVP that handles onboarding new team members and automating permissions, but we couldn't seem to find a way to do it with many of the important apps, the API didn't seem to allow it. I'm not sure whether we overlooked something, or whether the Rippling team have gone direct and integrated with each of the partners, but either way the execution the Rippling team here have done looks superb. I can see this really catching on 🙌"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I was just discussing this internally how the difference between small and medium/large corps is their on-boarding, creating systems / process is key to survival. Sweet reveal, Rippling - can't wait to try it."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love it! You nailed the idea, the design and the marketing message."
-          }
-        ]
-      },
-      {
-        "id": "ph-today-5",
-        "date": "2026-08-06",
-        "rank": 5,
         "name": "Superlog Responder",
-        "tagline": "FREE AI bug-fixing agent",
+        "tagline": "FREE, open-source AI bug-fixing agent",
         "description": "Responder is an AI bug-fixing agent that plugs into the Sentry or Datadog Slack channel you already run. One-click synch, no new telemetry to install. On every alert it investigates with full context, filters out the noise, and for real issues replies right in the thread with the root cause, the evidence, and a mergeable PR. Prompts, memory, repo access, and escalation rules are fully customizable, so you're building your own debugging agent, not renting ours.",
         "category": "Developer Tools • Artificial Intelligence • GitHub",
         "url": "https://www.producthunt.com/products/superlog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/f5e16691-e739-48ba-9494-535f6a7ac36c.png?auto=format",
-        "votes": 0,
+        "votes": 115,
         "websiteUrl": "https://www.producthunt.com/r/KQWSEFIXSXKGGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -167,16 +82,159 @@
         ]
       },
       {
+        "id": "ph-today-3",
+        "date": "2026-08-06",
+        "rank": 3,
+        "name": "Muse Code",
+        "tagline": "Meta’s terminal agent for long-horizon coding",
+        "description": "Introducing Muse Code, a terminal coding agent powered by Muse Spark 1.2, with persistent background agents, repository-scale execution, and built-in verification.",
+        "category": "Productivity • Developer Tools • Artificial Intelligence",
+        "url": "https://www.producthunt.com/products/meta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/aaeba1be-643c-4283-8a81-abe32d32dde5.png?auto=format",
+        "votes": 111,
+        "websiteUrl": "https://www.producthunt.com/r/592ffa58ccea81?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "\"Meta links with your Dropbox, Google Drive, Evernote, and OneDrive accounts, as well as your computers and hard drives, so you can access and share any file from one simple interface.\" Also, it seems Meta tags your files and allows you to search via not just name, but concepts and topics. This seems to good to be true, would love to hear more. (Especially since I keep my files on two devices, and on my Mac everything is inside the Downloads folder 🙈 )"
+          }
+        ]
+      },
+      {
+        "id": "ph-today-4",
+        "date": "2026-08-06",
+        "rank": 4,
+        "name": "Annotate",
+        "tagline": "Screen recording as prompts",
+        "description": "Record your screen, point by drawing and speak, and hand it off to AI agent. Video prompts for Cursor, Claude, and Codex or any AI coding agent — local-only and free.",
+        "category": "Design Tools • Developer Tools • Artificial Intelligence",
+        "url": "https://www.producthunt.com/products/annotate-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/e75e84d4-a8a6-4678-9315-41e3722bc803.png?auto=format",
+        "votes": 105,
+        "websiteUrl": "https://www.producthunt.com/r/5PZ4OYVR3UXAK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋I’m the maker of Annotate.The short version: it’s a Free, local-only macOS app that turns screen recordings into agent-ready prompts for Cursor, Claude, Codex, or any AI agent. Think of it as sharing your screen and annotating your thoughts to talk a developer through what to build.I wrote long, detailed prompts to get better results, but the agent still guessed wrong. Screenshots didn't fix it either—they’re too static to capture movement, form input flows, or real-time UI feedback.So I built the exact solution I wanted, I use it on my daily tasks now, and it’s been a game-changer. It saves me so much time—I explain a task once, and it’s done.How it works:1. Start Recording: Press Ctrl + Shift + R or click record button.2. Annotate Your Screen: Press Ctrl + 1 or 2 ... to toggle drawing tools. Standard drawings clears automatically,but holding Shift while drawing keeps them permanently on screen—perfect for sketching layouts or UI flows.3. Stop Recording: Press Ctrl + Shift + R again or click the Stop button.4. Open in Cursor, or copy the session prompt into your preferred AI agent and let it cook.No cloud upload. No login. Recordings stays on your Mac.FeaturesConsumes fewer tokens: The agent reads recordings via Local MCP using keyframes and speech—not a giant video dump.Multi-monitor support: Point or draw across different screens, switch context seamlessly, and let the AI understand what you mean.Secure - Recordings stays in your device, we don't upload your recordings. Speech transcripts and frames are stored in your device locally.Agent-agnostic: Works with any AI coding assistant (Cursor, Claude, Codex, and more).Annotation tools: Easy-to-use drawing and highlighting tools so you can explain your idea clearly to the AI.If you already vibe with AI coding agents and hate writing long prompts, I’d love for you to try it and tell me where it breaks.Happy to answer anything — let me know how you can use it on your daily work flow,Thanks for being here."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love that it stays completely local — no upload step means the friction between recording an idea and getting a usable prompt basically disappears."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Honestly, being able to sketch a feature on screen while explaining it sounds so much better than writing text! That would really feel like showing an idea to a colleague sitting right next to you. Congrats on the launch! :)"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch! Describing a UI problem in text is usually the slowest step when I work with a coding agent, so sending keyframes and a transcript rather than the video is the part that makes this practical. On a multi step flow, does the transcript stay tied to the frames in order?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I think that this is the future and also outputs (answers by AI) that will show you on the video what to do."
+          }
+        ]
+      },
+      {
+        "id": "ph-today-5",
+        "date": "2026-08-06",
+        "rank": 5,
+        "name": "AI Spend Console by Rippling",
+        "tagline": "Track your AI spend and connect it to business outcomes",
+        "description": "AI Spend Console gives Finance and Engineering leaders one place to track AI spend across tools (such as Claude and Cursor) and connect it to business outcomes. Break costs down by vendor, model, or employee, then connect spend to GitHub output data like pull request volume and the # of code revisions. You can get started for free–no Rippling subscription required.",
+        "category": "Artificial Intelligence • Data & Analytics • Finance",
+        "url": "https://www.producthunt.com/products/rippling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/53c0c89f-1ce9-435a-9cce-8ffb70118915.png?auto=format",
+        "votes": 105,
+        "websiteUrl": "https://www.producthunt.com/r/0c6713068d05cf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Great innovation. I'm impressed."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Looks good! Would be nice to add SSO support for 1Password Teams/Business accounts"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Hi Prasanna, I left you guys a message on Intercom more than 2 days ago and the message hasn't been seen or replied to... I realize that there are timezone differences but this is not a ideal potential beginning... I'm hoping you'll be able to reply to my inquiry very soon... Thanks :) { maybe there's a holiday I'm not aware of though... :/ } P.S.: The Request a demo sign up button yields a 'Something went wrong'..."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Recommended this to a client today and signed up to test it out. Now I'm a paid user...it's amazing."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "This is a game changer. @mikeaag and I sat down a month or two ago to hack together an MVP that handles onboarding new team members and automating permissions, but we couldn't seem to find a way to do it with many of the important apps, the API didn't seem to allow it. I'm not sure whether we overlooked something, or whether the Rippling team have gone direct and integrated with each of the partners, but either way the execution the Rippling team here have done looks superb. I can see this really catching on 🙌"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I was just discussing this internally how the difference between small and medium/large corps is their on-boarding, creating systems / process is key to survival. Sweet reveal, Rippling - can't wait to try it."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love it! You nailed the idea, the design and the marketing message."
+          }
+        ]
+      },
+      {
         "id": "ph-today-6",
         "date": "2026-08-06",
         "rank": 6,
+        "name": "Website to Markdown API",
+        "tagline": "Turn any website into LLM-ready Markdown",
+        "description": "Submit any URL, get clean Markdown back. JavaScript-rendered pages handled automatically. Navigation, footers, and cookie banners stripped. Output goes straight into an LLM context window or knowledge base with no post-processing. Anti-bot evasion built in: proxy rotation, browser fingerprinting, retries. CDN-hosted screenshot included. Same API handles PDFs, DOCX, PPTX, images, audio, and video. Free plan available.",
+        "category": "API • Developer Tools • Data",
+        "url": "https://www.producthunt.com/products/website-to-markdown-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/4e8c2ab3-baf7-485a-b79d-ecad0be8c8fd.png?auto=format",
+        "votes": 93,
+        "websiteUrl": "https://www.producthunt.com/r/HIS6N47NI7HV3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋 I'm Johnny, founder of the team behind the Website to Markdown API. We built the Website to Markdown API because turning a website into clean, usable text is still way harder than it should be. You end up maintaining a headless browser, handling JavaScript-rendered pages that return empty HTML, writing cleanup logic to strip navigation and cookie banners, and building retry logic for sites that block scrapers. It works for the first 10 sites and breaks on the 11th. So we made it one API call. Submit a URL, get clean Markdown back. The page is rendered before extraction, so React, Next.js, and Vue sites work the same as static HTML. Anti-bot handling (proxy rotation, browser fingerprinting, retries) is built in. The output is the actual content: no nav, no footers, no ads. You get a Markdown document you can drop straight into an LLM context window, a knowledge base, or a RAG pipeline. No HTML parsing, no post-processing. The same endpoint handles PDFs, DOCX, PPTX, EPUB, images, audio, and video. You learn one API and use it for everything. Pass ?format=json if you want structured output with text chunks instead of Markdown. Website to Markdown is part of the broader Exabase platform, so the same API key also gets you deep search, memory, and automation if you ever need to go further. But it works perfectly well on its own. Free plan available, no credit card required. Thanks for checking it out. I'll be here all day answering questions! Johnny"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Looks useful for AI agents. Did you think about providing an MCP server or a hook to use in claude/codex? It could replace the curl command."
+          }
+        ]
+      },
+      {
+        "id": "ph-today-7",
+        "date": "2026-08-06",
+        "rank": 7,
+        "name": "Aveiro",
+        "tagline": "Publish sites, newsletters and social posts with AI agents",
+        "description": "Aveiro is an AI-native publishing platform for sites, blogs, newsletters, and social media. Create and manage everything through the interface—or connect ChatGPT, Claude, and Cursor through MCP.",
+        "category": "Newsletters • Social Media • Website Builder",
+        "url": "https://www.producthunt.com/products/aveiro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/0b9f6d6b-4980-42fc-af75-acb55e53d825.svg?auto=format",
+        "votes": 93,
+        "websiteUrl": "https://www.producthunt.com/r/7TLMT5CU74IOS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt — I’m Lorant, the co-founder of Aveiro. Over the past year, I noticed that AI agents were becoming surprisingly capable at creating content, code, and visuals—but publishing the result still required a fragmented stack of website builders, newsletter tools, social schedulers, and custom integrations. We built Aveiro as a publishing environment for both people and AI agents. You can create and manage websites, articles, images, newsletters, and social posts directly in Aveiro. Or you can connect it to ChatGPT, Claude, or Cursor through MCP and publish from the tools where you already work. Aveiro already powers dozens of our own publications, and agents use the same infrastructure available to every creator. I’d especially love your feedback on the agent workflow: what would you trust an AI agent to publish autonomously, and where would you always want human approval?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "The approval workflow is probably the piece I'd care about most as AI publishing becomes more common. Curious how flexible those review steps are for teams."
+          }
+        ]
+      },
+      {
+        "id": "ph-today-8",
+        "date": "2026-08-06",
+        "rank": 8,
         "name": "Brandfetch MCP",
         "tagline": "Stop your AI from guessing brand logos",
         "description": "Stop your agent guessing brand logos. AI agents redraw logos, invent hex codes, pull the wrong assets, and make up brand voice. Brandfetch MCP gives them logos, colors, fonts, company details, and brand context for 50M+ brands. Works with Claude, Cursor, VS Code, and Codex. Try it in Claude: https://claude.ai/directory/connectors/brandfetch Or use it from any MCP client: https://mcp.brandfetch.io/mcp",
         "category": "Design Tools • Developer Tools • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/brandfetch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/155640fe-c6ec-473b-b0e0-f9f035874e4f.png?auto=format",
-        "votes": 0,
+        "votes": 92,
         "websiteUrl": "https://www.producthunt.com/r/7ebc51d2b902bb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -214,81 +272,16 @@
         ]
       },
       {
-        "id": "ph-today-7",
-        "date": "2026-08-06",
-        "rank": 7,
-        "name": "Website to Markdown API",
-        "tagline": "Turn any website into LLM-ready Markdown",
-        "description": "Submit any URL, get clean Markdown back. JavaScript-rendered pages handled automatically. Navigation, footers, and cookie banners stripped. Output goes straight into an LLM context window or knowledge base with no post-processing. Anti-bot evasion built in: proxy rotation, browser fingerprinting, retries. CDN-hosted screenshot included. Same API handles PDFs, DOCX, PPTX, images, audio, and video. Free plan available.",
-        "category": "API • Developer Tools • Data",
-        "url": "https://www.producthunt.com/products/website-to-markdown-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/4e8c2ab3-baf7-485a-b79d-ecad0be8c8fd.png?auto=format",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/HIS6N47NI7HV3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 I'm Johnny, founder of the team behind the Website to Markdown API. We built the Website to Markdown API because turning a website into clean, usable text is still way harder than it should be. You end up maintaining a headless browser, handling JavaScript-rendered pages that return empty HTML, writing cleanup logic to strip navigation and cookie banners, and building retry logic for sites that block scrapers. It works for the first 10 sites and breaks on the 11th. So we made it one API call. Submit a URL, get clean Markdown back. The page is rendered before extraction, so React, Next.js, and Vue sites work the same as static HTML. Anti-bot handling (proxy rotation, browser fingerprinting, retries) is built in. The output is the actual content: no nav, no footers, no ads. You get a Markdown document you can drop straight into an LLM context window, a knowledge base, or a RAG pipeline. No HTML parsing, no post-processing. The same endpoint handles PDFs, DOCX, PPTX, EPUB, images, audio, and video. You learn one API and use it for everything. Pass ?format=json if you want structured output with text chunks instead of Markdown. Website to Markdown is part of the broader Exabase platform, so the same API key also gets you deep search, memory, and automation if you ever need to go further. But it works perfectly well on its own. Free plan available, no credit card required. Thanks for checking it out. I'll be here all day answering questions! Johnny"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Looks useful for AI agents. Did you think about providing an MCP server or a hook to use in claude/codex? It could replace the curl command."
-          }
-        ]
-      },
-      {
-        "id": "ph-today-8",
-        "date": "2026-08-06",
-        "rank": 8,
-        "name": "Aveiro",
-        "tagline": "Publish sites, newsletters and social posts with AI agents",
-        "description": "Aveiro is an AI-native publishing platform for sites, blogs, newsletters, and social media. Create and manage everything through the interface—or connect ChatGPT, Claude, and Cursor through MCP.",
-        "category": "Newsletters • Social Media • Website Builder",
-        "url": "https://www.producthunt.com/products/aveiro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/0b9f6d6b-4980-42fc-af75-acb55e53d825.svg?auto=format",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/7TLMT5CU74IOS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt — I’m Lorant, the co-founder of Aveiro. Over the past year, I noticed that AI agents were becoming surprisingly capable at creating content, code, and visuals—but publishing the result still required a fragmented stack of website builders, newsletter tools, social schedulers, and custom integrations. We built Aveiro as a publishing environment for both people and AI agents. You can create and manage websites, articles, images, newsletters, and social posts directly in Aveiro. Or you can connect it to ChatGPT, Claude, or Cursor through MCP and publish from the tools where you already work. Aveiro already powers dozens of our own publications, and agents use the same infrastructure available to every creator. I’d especially love your feedback on the agent workflow: what would you trust an AI agent to publish autonomously, and where would you always want human approval?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The approval workflow is probably the piece I'd care about most as AI publishing becomes more common. Curious how flexible those review steps are for teams."
-          }
-        ]
-      },
-      {
         "id": "ph-today-9",
         "date": "2026-08-06",
         "rank": 9,
-        "name": "Ododok",
-        "tagline": "Count every chew with your AirPods",
-        "description": "Ododok turns supported AirPods into a real-time chewing tracker. See your chew count, pace, chewing time, and meal duration as you eat, then review each meal afterward. No additional wearable is required—just your AirPods and iPhone.",
-        "category": "Health & Fitness • Wearables • Apple",
-        "url": "https://www.producthunt.com/products/ododok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/0e15f596-110a-4c86-9c64-51b8faa72ec2.png?auto=format",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/NRQCV2PBC2P7CR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hi Product Hunt! 👋 I’m Hyun, one of the makers of Ododok. Ododok started with a slightly strange observation: when you chew, the movement isn’t limited to your jaw. It creates a subtle, repetitive motion around your ear too. Since AirPods sit right there, we wondered whether their built-in motion sensors could detect it. Turns out, they can. Ododok uses motion data from supported AirPods to estimate your chews in real time. During a meal, you can see: - Your current chew count - Your chewing pace - Time spent chewing - Meal duration Afterward, Ododok creates a meal summary so you can look back at your eating rhythm and habits. We built it because advice like “slow down” or “chew more” is difficult to act on when there’s nothing you can actually see or measure. Our goal is to make those habits visible without asking people to buy or wear another dedicated device. If you already have supported AirPods and an iPhone, you can try it immediately. Everyone chews differently, so Ododok includes a short personal calibration before tracking. We’ve tested it ourselves, but now we’re most curious about how it feels during real meals with different people and different foods. If you try Ododok, we’d love your honest feedback: 1. How closely did the count match your chewing? 2. Did seeing the count or pace change how you ate? 3. What would make the meal summary more useful? 4. Would you actually wear AirPods during a meal for this? Thanks for checking it out. We’ll be here reading and responding to every piece of feedback."
-          }
-        ]
-      },
-      {
-        "id": "ph-today-10",
-        "date": "2026-08-06",
-        "rank": 10,
         "name": "Shieldstral",
         "tagline": "Define safety at runtime for text and images",
         "description": "Shieldstral is a 3B open-weight multimodal guardrail from Mistral. Define safety policies in natural language at inference time. It evaluates text, images, or both from a single token output, running locally on a single 16GB GPU.",
         "category": "Open Source • Artificial Intelligence • Security",
         "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/f429754c-62e0-45ca-b61d-92204dd75c8f.svg?auto=format",
-        "votes": 0,
+        "votes": 91,
         "websiteUrl": "https://www.producthunt.com/r/YNHV34QINXXHAI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -304,6 +297,29 @@
             "text": "I saw a few tweets about this yesterday, great hunt! The quote tweets are hilarious. https://twitter.com/MistralAI/st... A few of my favs: https://x.com/willdepue/status/1... https://x.com/nearcyan/status/17..."
           }
         ]
+      },
+      {
+        "id": "ph-today-10",
+        "date": "2026-08-06",
+        "rank": 10,
+        "name": "Ododok",
+        "tagline": "Count every chew with your AirPods",
+        "description": "Ododok turns supported AirPods into a real-time chewing tracker. See your chew count, pace, chewing time, and meal duration as you eat, then review each meal afterward. No additional wearable is required—just your AirPods and iPhone.",
+        "category": "Health & Fitness • Wearables • Apple",
+        "url": "https://www.producthunt.com/products/ododok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/0e15f596-110a-4c86-9c64-51b8faa72ec2.png?auto=format",
+        "votes": 85,
+        "websiteUrl": "https://www.producthunt.com/r/NRQCV2PBC2P7CR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hi Product Hunt! 👋 I’m Hyun, one of the makers of Ododok. Ododok started with a slightly strange observation: when you chew, the movement isn’t limited to your jaw. It creates a subtle, repetitive motion around your ear too. Since AirPods sit right there, we wondered whether their built-in motion sensors could detect it. Turns out, they can. Ododok uses motion data from supported AirPods to estimate your chews in real time. During a meal, you can see: - Your current chew count - Your chewing pace - Time spent chewing - Meal duration Afterward, Ododok creates a meal summary so you can look back at your eating rhythm and habits. We built it because advice like “slow down” or “chew more” is difficult to act on when there’s nothing you can actually see or measure. Our goal is to make those habits visible without asking people to buy or wear another dedicated device. If you already have supported AirPods and an iPhone, you can try it immediately. Everyone chews differently, so Ododok includes a short personal calibration before tracking. We’ve tested it ourselves, but now we’re most curious about how it feels during real meals with different people and different foods. If you try Ododok, we’d love your honest feedback: 1. How closely did the count match your chewing? 2. Did seeing the count or pace change how you ate? 3. What would make the meal summary more useful? 4. Would you actually wear AirPods during a meal for this? Thanks for checking it out. We’ll be here reading and responding to every piece of feedback."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I love the idea! However I download it from France, is it possible to make it available? Thank you."
+          }
+        ]
       }
     ],
     "yesterday": [
@@ -317,12 +333,16 @@
         "category": "Advertising • Artificial Intelligence • Social media marketing",
         "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/6206777f-775d-4ab0-a9c5-72d06df2ee77.png?auto=format",
-        "votes": 589,
+        "votes": 594,
         "websiteUrl": "https://www.producthunt.com/r/QNPUB2TD4A4RX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hi Product Hunt! 👋We are nerds and developers who struggled to grow our own products, so we became obsessed with one question: How do you make people stop scrolling?That obsession led us to build a repeatable system that generated 50M+ organic views across TikTok, Instagram, and YouTube and reduced customer acquisition costs by 60% on average. We turned the research, creative playbooks, and workflows behind those results into AdAnt AI.AdAnt acts as your AI social media creative team. It researches what is working across TikTok, Instagram, and YouTube, identifies repeatable patterns, and turns them into content strategies and viral, high-converting social videos.We are also launching free AdAnt plugins for Codex and Claude soon, with deeper research and stronger content-strategy capabilities built directly into the tools you already use.Reply “SOCIAL” for early access to the plugins. We would love your honest feedback, especially on what does not work yet."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@iris_tu Congrats on the launch. I've tested the product now and it looks solid! Caught a bug while testing i think?Clicking None at this step produced an error and the chat stops since it waits for an error.Wish you a great journey ahead and congrats on product of the day again!"
           },
           {
             "user": "[REDACTED]",
@@ -347,10 +367,6 @@
           {
             "user": "[REDACTED]",
             "text": "Congrats on the launch! @anyt"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats! No prompt engineering and no prompt lottery is exactly what non-creative founders need."
           }
         ]
       },
@@ -364,7 +380,7 @@
         "category": "Notes • Meetings • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/4754f10b-0e91-4d5f-9d45-877ef6a06ca2.gif?auto=format",
-        "votes": 537,
+        "votes": 543,
         "websiteUrl": "https://www.producthunt.com/r/TP2MPL5CRVXSM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": []
       },
@@ -378,7 +394,7 @@
         "category": "Hiring • Maps • Career",
         "url": "https://www.producthunt.com/products/nextdoor-company?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/a13767d4-9635-476d-8220-5c0394971562.png?auto=format",
-        "votes": 431,
+        "votes": 435,
         "websiteUrl": "https://www.producthunt.com/r/W6SVY7XXFTOVTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -425,7 +441,7 @@
         "category": "Software Engineering • Developer Tools • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/ngrok-ai-gateway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/cdcb4ae6-e913-4bb4-8dc1-3f476b9b24fe.png?auto=format",
-        "votes": 354,
+        "votes": 357,
         "websiteUrl": "https://www.producthunt.com/r/HRVA5S3NHPLDDJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -472,7 +488,7 @@
         "category": "Developer Tools • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/ec7c42b6-ea2f-479b-96d1-c34cfa9b10b1.png?auto=format",
-        "votes": 267,
+        "votes": 272,
         "websiteUrl": "https://www.producthunt.com/r/3c2b042d9e?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -503,7 +519,7 @@
         "category": "Developer Tools • Artificial Intelligence • GitHub • Tech",
         "url": "https://www.producthunt.com/products/kiro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/35538934-ecae-47e8-bce2-cbfd6ce4c152.x-icon?auto=format",
-        "votes": 191,
+        "votes": 193,
         "websiteUrl": "https://www.producthunt.com/r/HIU3QPJ53VMDUE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -538,7 +554,7 @@
         "category": "Open Source • Developer Tools • Artificial Intelligence • GitHub",
         "url": "https://www.producthunt.com/products/keystroke-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/f472269c-857a-4963-b066-971c78607bfb.png?auto=format",
-        "votes": 152,
+        "votes": 153,
         "websiteUrl": "https://www.producthunt.com/r/713dbcc6797005?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -585,7 +601,7 @@
         "category": "API • Artificial Intelligence • Business Intelligence",
         "url": "https://www.producthunt.com/products/backengine-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/b4e2d173-7f61-4af6-ab74-a37b348af7b4.jpeg?auto=format",
-        "votes": 145,
+        "votes": 146,
         "websiteUrl": "https://www.producthunt.com/r/C6WAGOOHUENQ5Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -632,7 +648,7 @@
         "category": "Website Builder • Artificial Intelligence • No-Code",
         "url": "https://www.producthunt.com/products/capacity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/4a00c723-c329-4e83-9d0a-d7bfcc7649e6.png?auto=format",
-        "votes": 140,
+        "votes": 142,
         "websiteUrl": "https://www.producthunt.com/r/EPVHQPOBBZMIPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -651,7 +667,7 @@
         "category": "Fintech • Twitter • Money",
         "url": "https://www.producthunt.com/products/x-money-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/dda0e684-dbbb-45b1-a6ed-952368dfc8a3.jpeg?auto=format",
-        "votes": 127,
+        "votes": 128,
         "websiteUrl": "https://www.producthunt.com/r/67PYNE525WAHWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -684,12 +700,16 @@
         "category": "Advertising • Artificial Intelligence • Social media marketing",
         "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/6206777f-775d-4ab0-a9c5-72d06df2ee77.png?auto=format",
-        "votes": 589,
+        "votes": 594,
         "websiteUrl": "https://www.producthunt.com/r/QNPUB2TD4A4RX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hi Product Hunt! 👋We are nerds and developers who struggled to grow our own products, so we became obsessed with one question: How do you make people stop scrolling?That obsession led us to build a repeatable system that generated 50M+ organic views across TikTok, Instagram, and YouTube and reduced customer acquisition costs by 60% on average. We turned the research, creative playbooks, and workflows behind those results into AdAnt AI.AdAnt acts as your AI social media creative team. It researches what is working across TikTok, Instagram, and YouTube, identifies repeatable patterns, and turns them into content strategies and viral, high-converting social videos.We are also launching free AdAnt plugins for Codex and Claude soon, with deeper research and stronger content-strategy capabilities built directly into the tools you already use.Reply “SOCIAL” for early access to the plugins. We would love your honest feedback, especially on what does not work yet."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@iris_tu Congrats on the launch. I've tested the product now and it looks solid! Caught a bug while testing i think?Clicking None at this step produced an error and the chat stops since it waits for an error.Wish you a great journey ahead and congrats on product of the day again!"
           },
           {
             "user": "[REDACTED]",
@@ -714,10 +734,6 @@
           {
             "user": "[REDACTED]",
             "text": "Congrats on the launch! @anyt"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats! No prompt engineering and no prompt lottery is exactly what non-creative founders need."
           }
         ]
       },
@@ -731,7 +747,7 @@
         "category": "Productivity • Calendar • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/683a6add-051e-41db-bdd2-b7f76c07c261.png?auto=format",
-        "votes": 577,
+        "votes": 578,
         "websiteUrl": "https://www.producthunt.com/r/XG4DNYGMW6GCPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -778,7 +794,7 @@
         "category": "Notes • Meetings • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/4754f10b-0e91-4d5f-9d45-877ef6a06ca2.gif?auto=format",
-        "votes": 537,
+        "votes": 543,
         "websiteUrl": "https://www.producthunt.com/r/TP2MPL5CRVXSM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": []
       },
@@ -831,29 +847,15 @@
       },
       {
         "id": "ph-week-5",
-        "date": "2026-08-03",
-        "rank": 5,
-        "name": "Ctruh Studio",
-        "tagline": "Create interactive 3D and XR experiences without coding",
-        "description": "Ctruh Studio is an AI-powered no-code platform that lets anyone create, customise and publish interactive 3D experiences for websites. Generate 3D assets with AI, build immersive product showcases, virtual stores, configurators and AR experiences directly in your browser.",
-        "category": "Artificial Intelligence • Augmented Reality • No-Code",
-        "url": "https://www.producthunt.com/products/ctruh-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/6d431c48-ea75-4a5d-aa17-ff44f05e92bf.jpeg?auto=format",
-        "votes": 433,
-        "websiteUrl": "https://www.producthunt.com/r/YYAIX2KMA2K36Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": []
-      },
-      {
-        "id": "ph-week-6",
         "date": "2026-08-05",
-        "rank": 6,
+        "rank": 5,
         "name": "NextDoor.Company",
         "tagline": "Discover startups hiring near you, on a map",
         "description": "Find startups hiring near you, on a map. 400+ hand curated startups globally, 16,000+ live job openings updated weekly. Filter by work mode: remote, hybrid, or on site. See funding, valuation, and revenue details, verified founder profiles, key investors, and their investment details, all in one place.",
         "category": "Hiring • Maps • Career",
         "url": "https://www.producthunt.com/products/nextdoor-company?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/a13767d4-9635-476d-8220-5c0394971562.png?auto=format",
-        "votes": 431,
+        "votes": 435,
         "websiteUrl": "https://www.producthunt.com/r/W6SVY7XXFTOVTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -891,6 +893,20 @@
         ]
       },
       {
+        "id": "ph-week-6",
+        "date": "2026-08-03",
+        "rank": 6,
+        "name": "Ctruh Studio",
+        "tagline": "Create interactive 3D and XR experiences without coding",
+        "description": "Ctruh Studio is an AI-powered no-code platform that lets anyone create, customise and publish interactive 3D experiences for websites. Generate 3D assets with AI, build immersive product showcases, virtual stores, configurators and AR experiences directly in your browser.",
+        "category": "Artificial Intelligence • Augmented Reality • No-Code",
+        "url": "https://www.producthunt.com/products/ctruh-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/6d431c48-ea75-4a5d-aa17-ff44f05e92bf.jpeg?auto=format",
+        "votes": 432,
+        "websiteUrl": "https://www.producthunt.com/r/YYAIX2KMA2K36Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": []
+      },
+      {
         "id": "ph-week-7",
         "date": "2026-08-02",
         "rank": 7,
@@ -900,7 +916,7 @@
         "category": "Productivity • Artificial Intelligence • Virtual Assistants",
         "url": "https://www.producthunt.com/products/zinley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/b9ffb70c-6cda-4002-b32a-b78a905e23fe.gif?auto=format",
-        "votes": 417,
+        "votes": 415,
         "websiteUrl": "https://www.producthunt.com/r/IQRSF4SZFC3JK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -961,7 +977,7 @@
         "category": "Productivity • Education • Audio",
         "url": "https://www.producthunt.com/products/wondering-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/ae1c1a58-dba1-4b7e-90fa-48c61aaf37c3.png?auto=format",
-        "votes": 376,
+        "votes": 375,
         "websiteUrl": "https://www.producthunt.com/r/534DO3AKV4LOCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1008,7 +1024,7 @@
         "category": "Open Source • Developer Tools • GitHub • Video",
         "url": "https://www.producthunt.com/products/capptivo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/f6d382dd-f39d-47b9-92c1-de14b5a52036.png?auto=format",
-        "votes": 374,
+        "votes": 371,
         "websiteUrl": "https://www.producthunt.com/r/4DHHOKGIDD7PW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1071,7 +1087,7 @@
         "category": "Open Source • Marketing • SEO",
         "url": "https://www.producthunt.com/products/openseo/launches/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/bddfb6ed-475f-4cc7-adbc-c28b77be18d8.png?auto=format",
-        "votes": 941,
+        "votes": 942,
         "websiteUrl": "https://www.producthunt.com/r/Y35NVXDA24JBBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1212,7 +1228,7 @@
         "category": "Software Engineering • Developer Tools • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/2e85ae4d-5d7d-4547-9839-4c8fb5e5e29a.png?auto=format",
-        "votes": 674,
+        "votes": 672,
         "websiteUrl": "https://www.producthunt.com/r/7JDFCGARSHV32N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1259,7 +1275,7 @@
         "category": "Open Source • Developer Tools • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/sim-studio/launches/sim-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/5029d16f-7b85-4364-aae4-f770cfab1fc1.png?auto=format",
-        "votes": 657,
+        "votes": 658,
         "websiteUrl": "https://www.producthunt.com/r/4RBEK6IAGTJL4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": []
       },
@@ -1273,7 +1289,7 @@
         "category": "SaaS • Developer Tools • Artificial Intelligence",
         "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/4ffa8a62-0b8a-4920-813e-e2f34bb5b68d.png?auto=format",
-        "votes": 647,
+        "votes": 645,
         "websiteUrl": "https://www.producthunt.com/r/Y5XXYGBXLHNUGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
