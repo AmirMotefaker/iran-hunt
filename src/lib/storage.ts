@@ -37,9 +37,13 @@ export async function loadLatest(): Promise<DailyData | null> {
           yesterday: [],
           week: [],
           month: [],
+          year: [],
         },
       };
     }
+
+    // Ensure year field exists (backwards compat)
+    if (!parsed.periods.year) parsed.periods.year = [];
 
     return parsed as DailyData;
   } catch {
