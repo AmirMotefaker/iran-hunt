@@ -5,10 +5,11 @@
 body {
   background: #faf9f7;
   color: #0a0a0a;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 .dark body {
-  background: #0b0b0d;
-  color: #e7e7ea;
+  background: #0a0a0c;
+  color: #f0f0f3;
 }
 
 ::selection {
@@ -24,3 +25,17 @@ body {
 .fade-up-1 { animation: fade-up 0.7s 0.12s ease both; }
 .fade-up-2 { animation: fade-up 0.7s 0.24s ease both; }
 .fade-up-3 { animation: fade-up 0.7s 0.36s ease both; }
+
+/* Blink animation for "آنلاین" badge */
+@keyframes blink-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+.blink { animation: blink-dot 1.4s ease-in-out infinite; }
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(255, 97, 84, 0.6); }
+  70% { box-shadow: 0 0 0 8px rgba(255, 97, 84, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 97, 84, 0); }
+}
+.pulse-ring { animation: pulse-ring 2s ease-out infinite; }

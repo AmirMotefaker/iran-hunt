@@ -27,10 +27,13 @@ export interface Product {
   date: string;
   rank: number;
   name: string;
+  slug: string;              // <-- جدید: slug ذخیره شده
   tagline: string;
   description: string;
   faDescription?: string;
+  faTagline?: string;        // <-- جدید: ترجمه تگلاین
   category: string;
+  categoryFa?: string;       // <-- جدید: ترجمه دسته‌بندی
   url: string;
   thumbnail?: string;
   votes: number;

@@ -1,6 +1,5 @@
 import { ArrowLeft, Flame } from 'lucide-react';
 import Link from 'next/link';
-import { extractSlug } from '@/lib/slug';
 import { LikeButton } from './LikeButton';
 import type { Product } from '@/types';
 
@@ -11,16 +10,22 @@ const RANK_STYLES: Record<number, string> = {
 };
 
 export function ProductCard({ product }: { product: Product }) {
-  const slug = extractSlug(product.url);
+  const slug = product.slug || '';
   const rankStyle = RANK_STYLES[product.rank] ?? 'from-[#ff6154] to-pink-500';
-  const tags = product.category.split('•').map((c) => c.trim()).filter(Boolean);
+  const tags = (product.categoryFa ?? product.category)
+    .split('•')
+    .map((c) => c.trim())
+    .filter(Boolean);
+
+  const faSummary = product.faDescription ?? product.faTagline ?? '';
+  const faShort = faSummary.length > 140 ? faSummary.slice(0, 140) + '…' : faSummary;
 
   return (
-    <article className="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-lg shadow-gray-200/50 transition hover:-translate-y-1 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900 dark:shadow-black/20">
+    <article className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg shadow-gray-200/50 transition hover:-translate-y-1 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900 dark:shadow-black/40">
       <div className="flex items-start gap-4 p-6 pb-4">
         {product.thumbnail ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={product.thumbnail} alt={product.name} className="h-14 w-14 rounded-2xl border border-gray-100 object-cover dark:border-gray-800" />
+          <img src={product.thumbnail} alt={product.name} className="h-14 w-14 rounded-2xl border border-gray-200 object-cover dark:border-gray-800" />
         ) : (
           <span className={`flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${rankStyle} text-xl font-black text-white shadow`}>
             {product.rank}
@@ -31,7 +36,7 @@ export function ProductCard({ product }: { product: Product }) {
             <h2 className="text-xl font-extrabold text-gray-900 dark:text-white" dir="ltr">{product.name}</h2>
             <div className="flex items-center gap-2">
               {slug && <LikeButton slug={slug} />}
-              <span className="flex shrink-0 items-center gap-1 rounded-full bg-orange-50 px-3 py-1.5 text-sm font-bold text-[#ff6154] dark:bg-orange-950/30">
+              <span className="flex shrink-0 items-center gap-1 rounded-full bg-orange-50 px-3 py-1.5 text-sm font-bold text-[#ff6154] dark:bg-orange-950/40">
                 <Flame size={15} /> {product.votes.toLocaleString('fa-IR')}
               </span>
             </div>
@@ -40,7 +45,14 @@ export function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-2 px-6">
+      {/* خط توضیح فارسی */}
+      {faShort && (
+        <p className="mx-6 rounded-2xl border border-orange-200 bg-orange-50/70 p-3.5 text-sm leading-7 text-gray-800 dark:border-orange-900/40 dark:bg-orange-950/30 dark:text-orange-100">
+          🇮🇷 {faShort}
+        </p>
+      )}
+
+      <div className="flex flex-wrap gap-2 px-6 pt-4">
         {tags.map((c) => (
           <Link
             key={c}
@@ -51,12 +63,6 @@ export function ProductCard({ product }: { product: Product }) {
           </Link>
         ))}
       </div>
-
-      {product.faDescription && (
-        <p className="mx-6 mt-4 rounded-2xl border border-orange-100 bg-orange-50/60 p-4 text-sm leading-8 text-gray-800 dark:border-orange-900/40 dark:bg-orange-950/20 dark:text-gray-200">
-          🇮🇷 {product.faDescription}
-        </p>
-      )}
 
       <div className="p-6 pt-4">
         {slug ? (

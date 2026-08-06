@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import type { PeriodKey, PHComment, Product } from '@/types';
+import { translateCategories } from '@/lib/translate';
 
 export const TOP_COUNT = 10;
 
@@ -42,7 +43,6 @@ function stripHtml(html: string): string { return cheerio.load(html).text().repl
 function isSpamComment(text: string): boolean {
   const spamPatterns = [
     /https?:\/\/(?!www\.producthunt\.com)[^\s]+\.(xyz|top|click|ru|cn|tk)/i,
-    /myloweslife|kronos-login/i,
     /click here|check out|visit now/i,
   ];
   return spamPatterns.some((p) => p.test(text));
@@ -58,7 +58,7 @@ query {
   posts(first: 50, order: VOTES, postedAfter: "${after}", postedBefore: "${before}") {
     edges {
       node {
-        name tagline description votesCount website url featuredAt
+        name tagline description votesCount website url slug featuredAt
         thumbnail { url }
         topics(first: 5) { edges { node { name } } }
       }
@@ -80,7 +80,7 @@ async function gql(token: string, query: string): Promise<any> {
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
-      'User-Agent': 'IranHunt/2.0 (+https://iranhunt.vercel.app)',
+      'User-Agent': 'IdehYab/3.0 (+https://iranhunt.vercel.app)',
     },
     body: JSON.stringify({ query }),
   });
@@ -111,29 +111,33 @@ async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]
     .sort((a, b) => (b.votesCount ?? 0) - (a.votesCount ?? 0))
     .slice(0, TOP_COUNT);
 
-  return pool.map((n, i) => ({
-    id: `ph-${key}-${i + 1}`,
-    date: (n.featuredAt ?? '').slice(0, 10),
-    rank: i + 1,
-    name: n.name,
-    tagline: n.tagline ?? '',
-    description: n.description ?? n.tagline ?? '',
-    category:
-      (n.topics?.edges ?? []).map((t: any) => t.node?.name).filter(Boolean).join(' • ') || 'General',
-    url: n.url ?? 'https://www.producthunt.com',
-    thumbnail: n.thumbnail?.url,
-    votes: n.votesCount ?? 0,
-    websiteUrl: n.website ?? '',
-    comments: [],
-  }));
+  return pool.map((n, i) => {
+    const slugFromGql = n.slug ?? extractSlug(n.url ?? '') ?? '';
+    const categoryEn = (n.topics?.edges ?? []).map((t: any) => t.node?.name).filter(Boolean).join(' • ') || 'General';
+    return {
+      id: `ph-${key}-${i + 1}`,
+      date: (n.featuredAt ?? '').slice(0, 10),
+      rank: i + 1,
+      name: n.name,
+      slug: slugFromGql,
+      tagline: n.tagline ?? '',
+      description: n.description ?? n.tagline ?? '',
+      category: categoryEn,
+      categoryFa: translateCategories(categoryEn),
+      url: n.url ?? 'https://www.producthunt.com',
+      thumbnail: n.thumbnail?.url,
+      votes: n.votesCount ?? 0,
+      websiteUrl: n.website ?? '',
+      comments: [],
+    };
+  });
 }
 
 async function enrichWithDetails(token: string, products: Product[]): Promise<void> {
   for (const p of products) {
     try {
-      const slug = extractSlug(p.url);
-      if (!slug) continue;
-      const data = await gql(token, slugQuery(slug));
+      if (!p.slug) continue;
+      const data = await gql(token, slugQuery(p.slug));
       const post = data?.post;
       if (!post) continue;
 
@@ -166,15 +170,19 @@ async function fetchViaAtom(date: string): Promise<Product[]> {
     const $el = $(el);
     const content = $el.find('content').text().trim();
     const tagline = cheerio.load(content)('p').first().text().trim();
+    const url = $el.find('link[href]').first().attr('href') ?? '';
+    const slug = extractSlug(url) ?? `entry-${products.length + 1}`;
     products.push({
       id: `ph-today-${products.length + 1}`,
       date,
       rank: products.length + 1,
       name: $el.find('title').text().trim(),
+      slug,
       tagline: tagline || $el.find('title').text().trim(),
       description: stripHtml(content),
       category: 'General',
-      url: $el.find('link[href]').first().attr('href') ?? '',
+      categoryFa: 'عمومی',
+      url,
       votes: 0,
       websiteUrl: '',
       comments: [],
