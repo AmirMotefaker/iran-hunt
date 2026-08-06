@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.3.0...v1.4.0) (2026-08-06)
+
+
+### Bug Fixes
+
+* create missing folders and pages (auth, login, admin, product) ([3ae8ce2](https://github.com/AmirMotefaker/iran-hunt/commit/3ae8ce257fbf6cc4f0f00969fdede44642b5a60b))
+
+
+### Features
+
+* Neon auth + CRM + gated content + rebrand + product pages + header/footer ([26b0e60](https://github.com/AmirMotefaker/iran-hunt/commit/26b0e60d4ebbf94806e769a7e2d89bdc9e22d5a8))
+
 # [1.3.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.2.0...v1.3.0) (2026-08-06)
 
 
