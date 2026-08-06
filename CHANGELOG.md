@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.5.0...v1.5.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* add missing About and Categories pages ([6fb6477](https://github.com/AmirMotefaker/iran-hunt/commit/6fb647728dc2e163140a26448fc37906837f79f3))
+
 # [1.5.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.4.1...v1.5.0) (2026-08-06)
 
 
