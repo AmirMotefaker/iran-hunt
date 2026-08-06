@@ -76,10 +76,7 @@ export default async function Home() {
               <Cpu size={18} className="text-[#ff6154]" />
               <h2 className="text-lg font-black text-gray-900 dark:text-white">ایده‌های ترند روز</h2>
             </div>
-            <span className="pulse-ring inline-flex items-center gap-1.5 rounded-full bg-[#ff6154] px-3 py-1 text-[10px] font-black text-white">
-              <span className="blink h-2 w-2 rounded-full bg-white" />
-              آنلاین
-            </span>
+            <span className="inline-flex items-center gap-2 text-base font-black text-[#ff6154] dark:text-[#ff7a6b]"><span className="blink h-3 w-3 rounded-full bg-[#ff6154]" />آنلاین</span>
           </div>
           {data ? (
             <Dashboard data={data} />
@@ -93,3 +90,4 @@ export default async function Home() {
     </main>
   );
 }
+

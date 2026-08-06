@@ -3,7 +3,7 @@
 import { Compass, Home, LayoutGrid, LogOut, Moon, ShieldCheck, Sun, TrendingUp, User } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { logout, me } from '@/lib/auth-client';
 import { Logo } from './Logo';
 import { useTheme } from './ThemeProvider';
@@ -20,6 +20,7 @@ export function Header({ categories = [] }: { categories?: Cat[] }) {
   const [email, setEmail] = useState<string | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [catOpen, setCatOpen] = useState(false);
+  const closeTimer = useRef<any>(null);
   const pathname = usePathname();
   const { theme, toggle } = useTheme();
 
@@ -28,6 +29,10 @@ export function Header({ categories = [] }: { categories?: Cat[] }) {
       if (r) { setEmail(r.email); setIsAdmin(!!r.isAdmin); }
     });
   }, []);
+
+  // باز/بسته کردن با تأخیر کوچک تا ماوس بتونه به منو برسه
+  const openMenu = () => { clearTimeout(closeTimer.current); setCatOpen(true); };
+  const scheduleClose = () => { closeTimer.current = setTimeout(() => setCatOpen(false), 250); };
 
   const doLogout = async () => { await logout(); window.location.href = '/'; };
 
@@ -45,15 +50,10 @@ export function Header({ categories = [] }: { categories?: Cat[] }) {
               const active = pathname === item.href || (item.dropdown && (pathname.startsWith('/category/') || pathname === '/categories'));
               if (item.dropdown) {
                 return (
-                  <div
-                    key={item.href}
-                    className="relative"
-                    onMouseEnter={() => setCatOpen(true)}
-                    onMouseLeave={() => setCatOpen(false)}
-                  >
+                  <div key={item.href} className="relative" onMouseEnter={openMenu} onMouseLeave={scheduleClose}>
                     <button
                       type="button"
-                      onClick={() => window.location.href = '/categories'}
+                      onClick={() => { if (catOpen) setCatOpen(false); else window.location.href = '/categories'; }}
                       className={`flex items-center gap-1.5 rounded-xl px-3.5 py-2 text-sm font-bold transition ${
                         active ? 'bg-gray-900 text-white dark:bg-white dark:text-gray-900' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white'
                       }`}
@@ -61,22 +61,25 @@ export function Header({ categories = [] }: { categories?: Cat[] }) {
                       <item.Icon size={15} /> {item.label}
                       <svg width="10" height="10" viewBox="0 0 10 10" className={`transition ${catOpen ? 'rotate-180' : ''}`}><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" fill="none"/></svg>
                     </button>
+
                     {catOpen && categories.length > 0 && (
-                      <div className="absolute right-0 top-full mt-2 grid w-[480px] grid-cols-2 gap-1 rounded-2xl border border-gray-200 bg-white p-3 shadow-2xl dark:border-gray-800 dark:bg-gray-900">
-                        {categories.slice(0, 16).map((c) => (
-                          <Link
-                            key={c.slug}
-                            href={`/category/${encodeURIComponent(c.slug)}`}
-                            onClick={() => setCatOpen(false)}
-                            className="flex items-center justify-between gap-2 rounded-xl px-3 py-2 text-sm text-gray-700 transition hover:bg-orange-50 hover:text-[#ff6154] dark:text-gray-300 dark:hover:bg-gray-800"
-                          >
-                            <span className="truncate font-bold">{c.nameFa}</span>
-                            <span className="shrink-0 rounded-full bg-gray-100 px-1.5 py-0.5 text-[10px] font-black text-gray-500 dark:bg-gray-800 dark:text-gray-400">{c.count.toLocaleString('fa-IR')}</span>
+                      <div className="absolute right-0 top-full z-50 pt-1">
+                        <div className="grid w-[480px] grid-cols-2 gap-1 rounded-2xl border border-gray-200 bg-white p-3 shadow-2xl dark:border-gray-700 dark:bg-gray-900">
+                          {categories.slice(0, 16).map((c) => (
+                            <Link
+                              key={c.slug}
+                              href={`/category/${c.slug}`}
+                              onClick={() => setCatOpen(false)}
+                              className="flex items-center justify-between gap-2 rounded-xl px-3 py-2 text-sm text-gray-700 transition hover:bg-orange-50 hover:text-[#ff6154] dark:text-gray-200 dark:hover:bg-gray-800"
+                            >
+                              <span className="truncate font-bold">{c.nameFa}</span>
+                              <span className="shrink-0 rounded-full bg-gray-100 px-1.5 py-0.5 text-[10px] font-black text-gray-500 dark:bg-gray-800 dark:text-gray-400">{c.count.toLocaleString('fa-IR')}</span>
+                            </Link>
+                          ))}
+                          <Link href="/categories" onClick={() => setCatOpen(false)} className="col-span-2 mt-1 rounded-xl border-t border-gray-200 px-3 py-2.5 text-center text-xs font-bold text-[#ff6154] dark:border-gray-700">
+                            مشاهده همه دسته‌بندی‌ها ←
                           </Link>
-                        ))}
-                        <Link href="/categories" onClick={() => setCatOpen(false)} className="col-span-2 mt-1 rounded-xl border-t border-gray-200 px-3 py-2.5 text-center text-xs font-bold text-[#ff6154] dark:border-gray-800">
-                          مشاهده همه دسته‌بندی‌ها ←
-                        </Link>
+                        </div>
                       </div>
                     )}
                   </div>
@@ -112,13 +115,12 @@ export function Header({ categories = [] }: { categories?: Cat[] }) {
           <button onClick={toggle} title={theme === 'dark' ? 'حالت روشن' : 'حالت تیره'} className="rounded-xl p-2 text-gray-700 transition hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800">
             {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-
           {email ? (
             <button onClick={doLogout} className="flex items-center gap-1 rounded-xl border border-gray-300 px-3 py-1.5 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800">
               <LogOut size={13} /> خروج
             </button>
           ) : (
-            <Link href="/login" className="flex items-center gap-1.5 rounded-xl bg-[#ff6154] px-4 py-2 text-sm font-bold text-white shadow-sm shadow-orange-200 transition hover:bg-[#e5544a] dark:shadow-none">
+            <Link href="/login" className="flex items-center gap-1.5 rounded-xl bg-[#ff6154] px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-[#e5544a]">
               <User size={15} /> ورود / ثبت‌نام
             </Link>
           )}

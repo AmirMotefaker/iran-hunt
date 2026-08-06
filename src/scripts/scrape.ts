@@ -8,7 +8,7 @@ const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const date = args[0] ?? format(new Date(), 'yyyy-MM-dd');
 const skipAI = process.argv.includes('--no-ai') || !process.env.GROQ_API_KEY;
 
-console.log(`🕷️  IranHunt scrape — ${date}`);
+console.log(`🕷️  ایده‌یاب scrape — ${date}`);
 if (skipAI) console.log('⏭️  Skipping AI (will be filled by GitHub Actions from US IP)');
 
 const periods = {} as PeriodsData;

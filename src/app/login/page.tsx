@@ -25,27 +25,49 @@ function LoginInner() {
 
   return (
     <main className="mx-auto max-w-md px-4 py-16">
-      <div className="rounded-3xl border border-gray-100 bg-white p-8 shadow-xl">
-        <h1 className="text-center text-2xl font-black">
-          {mode === 'signup' ? 'ثبت‌نام در IranHunt' : 'ورود به IranHunt'}
+      <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-xl dark:border-gray-700 dark:bg-gray-900">
+        <h1 className="text-center text-2xl font-black text-gray-900 dark:text-white">
+          {mode === 'signup' ? 'ثبت‌نام در ایده‌یاب' : 'ورود به ایده‌یاب'}
         </h1>
-        <p className="mt-2 text-center text-sm text-gray-500">
+        <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-300">
           برای دسترسی به توضیحات تکمیلی و وب‌سایت رسمی ایده‌ها
         </p>
 
-        <div className="mt-6 flex rounded-2xl bg-gray-100 p-1">
-          <button onClick={() => setMode('signup')} className={`flex-1 rounded-xl py-2 text-sm font-bold ${mode === 'signup' ? 'bg-white shadow' : 'text-gray-500'}`}>ثبت‌نام</button>
-          <button onClick={() => setMode('login')} className={`flex-1 rounded-xl py-2 text-sm font-bold ${mode === 'login' ? 'bg-white shadow' : 'text-gray-500'}`}>ورود</button>
+        <div className="mt-6 flex rounded-2xl bg-gray-100 p-1 dark:bg-gray-800">
+          <button onClick={() => setMode('signup')} className={`flex-1 rounded-xl py-2 text-sm font-bold transition ${mode === 'signup' ? 'bg-white shadow dark:bg-gray-700 dark:text-white' : 'text-gray-500 dark:text-gray-400'}`}>ثبت‌نام</button>
+          <button onClick={() => setMode('login')} className={`flex-1 rounded-xl py-2 text-sm font-bold transition ${mode === 'login' ? 'bg-white shadow dark:bg-gray-700 dark:text-white' : 'text-gray-500 dark:text-gray-400'}`}>ورود</button>
         </div>
 
-        <div className="mt-6 space-y-3">
-          <input type="email" dir="ltr" placeholder="email@example.com" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm" />
-          <input type="password" dir="ltr" placeholder="********" value={password} onChange={(e) => setPassword(e.target.value)} className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm" />
+        <form
+          className="mt-6 space-y-3"
+          onSubmit={(e) => { e.preventDefault(); submit(); }}
+        >
+          <input
+            type="email"
+            dir="ltr"
+            placeholder="email@example.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:border-[#ff6154] focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+          />
+          <input
+            type="password"
+            dir="ltr"
+            placeholder="********"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 focus:border-[#ff6154] focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+          />
           {error && <p className="text-xs font-bold text-red-500">{error}</p>}
-          <button onClick={submit} disabled={busy || !email || password.length < 6} className="w-full rounded-xl bg-[#ff6154] py-3 text-sm font-bold text-white disabled:opacity-40">
+          <button
+            type="submit"
+            disabled={busy || !email || password.length < 6}
+            className="w-full rounded-xl bg-[#ff6154] py-3 text-sm font-bold text-white transition hover:bg-[#e5544a] disabled:opacity-40"
+          >
             {busy ? 'لطفاً صبر کنید…' : mode === 'signup' ? 'ثبت‌نام' : 'ورود'}
           </button>
-        </div>
+          <p className="text-center text-[11px] text-gray-500 dark:text-gray-400">با فشردن Enter هم می‌توانی وارد شوی ⏎</p>
+        </form>
       </div>
     </main>
   );

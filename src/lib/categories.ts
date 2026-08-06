@@ -1,4 +1,3 @@
-import { extractSlug } from '@/lib/slug';
 import { loadLatest } from '@/lib/storage';
 
 export async function getAllCategories() {
@@ -16,6 +15,12 @@ export async function getAllCategories() {
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([name, count]) => ({ name, count }));
 }
 
+// slug پایدار از نام انگلیسی: "Food & Drink" -> "food-and-drink"
 export function slugifyCategory(name: string): string {
-  return name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\u0600-\u06FF-]/g, '');
+  return name
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
