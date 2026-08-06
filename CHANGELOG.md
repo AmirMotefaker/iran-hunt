@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.5.1...v1.6.0) (2026-08-06)
+
+
+### Features
+
+* rebrand to IdehYab + rocket logo + user dashboard + likes/comments + CRM at /crm ([c696e0b](https://github.com/AmirMotefaker/iran-hunt/commit/c696e0bf4192505ee925e36a3d1cabd952404ba4))
+
 ## [1.5.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.5.0...v1.5.1) (2026-08-06)
 
 
