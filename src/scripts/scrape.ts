@@ -1,12 +1,18 @@
 import { format } from 'date-fns';
 import { analyzeProduct, type AIAnalysis } from '@/lib/ai-analyzer';
-import { PERIODS, scrapePeriod, TOP_COUNT } from '@/lib/scraper';
+import { PERIODS, scrapePeriod } from '@/lib/scraper';
 import { saveDaily } from '@/lib/storage';
 import type { PeriodsData } from '@/types';
 
-const date = process.argv[2] ?? format(new Date(), 'yyyy-MM-dd');
+// Extract date (skip --no-ai flag)
+const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const date = args[0] ?? format(new Date(), 'yyyy-MM-dd');
+const skipAI = process.argv.includes('--no-ai') || !process.env.GROQ_API_KEY;
 
-console.log(`🕷️  IranHunt scrape — ${date} (4 periods)`);
+console.log(`🕷️  IranHunt scrape — ${date}`);
+if (skipAI) {
+  console.log('⏭️  Skipping AI (will be filled by GitHub Actions from US IP)');
+}
 
 const periods = {} as PeriodsData;
 const aiCache = new Map<string, AIAnalysis>();
@@ -20,25 +26,26 @@ for (const { key, en } of PERIODS) {
     console.log(`      ${p.rank}. ${p.name} — ${p.votes} votes`);
   }
 
-  // AI analysis (cached across periods to save quota)
-  for (const p of products) {
-    if (aiCache.has(p.name)) {
-      const cached = aiCache.get(p.name)!;
-      p.faDescription = cached.faDescription;
-      p.faComments = cached.faComments;
-      p.iranEquivalent = cached.iranEquivalent;
-      console.log(`      ♻️  AI cached: ${p.name}`);
-      continue;
+  if (!skipAI) {
+    for (const p of products) {
+      if (aiCache.has(p.name)) {
+        const cached = aiCache.get(p.name)!;
+        p.faDescription = cached.faDescription;
+        p.faComments = cached.faComments;
+        p.iranEquivalent = cached.iranEquivalent;
+        console.log(`      ♻️  AI cached: ${p.name}`);
+        continue;
+      }
+
+      console.log(`      🤖 AI: ${p.name}`);
+      const ai = await analyzeProduct(p);
+      p.faDescription = ai.faDescription;
+      p.faComments = ai.faComments;
+      p.iranEquivalent = ai.iranEquivalent;
+      aiCache.set(p.name, ai);
+
+      await new Promise((r) => setTimeout(r, 2000));
     }
-
-    console.log(`      🤖 AI: ${p.name}`);
-    const ai = await analyzeProduct(p);
-    p.faDescription = ai.faDescription;
-    p.faComments = ai.faComments;
-    p.iranEquivalent = ai.iranEquivalent;
-    aiCache.set(p.name, ai);
-
-    await new Promise((r) => setTimeout(r, 1500));
   }
 
   periods[key] = products;
