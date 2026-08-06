@@ -1,84 +1,139 @@
 import * as cheerio from 'cheerio';
 import type { Product } from '@/types';
 
-const BASE = 'https://www.producthunt.com';
+const ATOM_FEED_URL = 'https://www.producthunt.com/feed';
 
-const HEADERS = {
+const COMMON_HEADERS = {
   'User-Agent':
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-  Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  Accept: 'application/atom+xml, application/xml, text/xml, */*',
   'Accept-Language': 'en-US,en;q=0.9',
 };
 
-async function fetchHtml(url: string): Promise<string> {
-  const res = await fetch(url, { headers: HEADERS });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return await res.text();
+interface AtomEntry {
+  title: string;
+  link: string;
+  content: string;
+  published: string;
 }
 
-export async function scrapeProductHunt(date: string): Promise<Product[]> {
-  console.log('🌐 Fetching producthunt.com ...');
-  const html = await fetchHtml(BASE);
-  const $ = cheerio.load(html);
+async function fetchAtomFeed(): Promise<AtomEntry[]> {
+  console.log('🌐 Fetching ProductHunt Atom feed...');
 
-  let items = $('[data-test="post-item"]');
-  if (items.length === 0) {
-    items = $('section:has(a[href^="/posts/"])');
+  const res = await fetch(ATOM_FEED_URL, { headers: COMMON_HEADERS });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch feed: HTTP ${res.status}`);
   }
-  console.log(`📦 Found ${items.length} product items`);
 
-  const products: Product[] = [];
+  const xml = await res.text();
+  const $ = cheerio.load(xml, { xmlMode: true });
 
-  items.each((_, el) => {
-    if (products.length >= 5) return false;
+  const entries: AtomEntry[] = [];
+  $('entry').each((_, el) => {
     const $el = $(el);
-    const name = $el.find('[data-test="post-name"]').text().trim();
-    if (!name) return;
+    // Atom: link is in href attribute, not text content
+    const linkEl = $el.find('link[href]').first();
+    const link = linkEl.attr('href') || '';
 
-    const tagline = $el.find('[data-test="post-tagline"]').text().trim();
-    const category = $el
-      .find('[data-test="post-topic"]')
-      .map((_, t) => $(t).text().trim())
-      .get()
-      .join(' • ');
-    const votesRaw = $el
-      .find('[data-test="post-votes-count"], [data-test="vote-button"]')
-      .first()
-      .text()
-      .replace(/[^\d]/g, '');
-    const href = $el.find('a[href^="/posts/"]').first().attr('href') ?? '';
-    const slug = href.split('?')[0];
+    const content =
+      $el.find('content').text().trim() ||
+      $el.find('summary').text().trim() ||
+      '';
 
-    products.push({
-      id: `ph-${date}-${products.length + 1}`,
-      date,
-      rank: products.length + 1,
-      name,
-      tagline,
-      description: '',
-      category: category || 'General',
-      url: slug ? `${BASE}${slug}` : BASE,
-      votes: parseInt(votesRaw, 10) || 0,
-      websiteUrl: '',
+    entries.push({
+      title: $el.find('title').text().trim(),
+      link,
+      content,
+      published: $el.find('published, updated').first().text().trim(),
     });
   });
 
-  // Enrich each product with its detail page (og meta tags)
-  await Promise.all(
-    products.map(async (p) => {
-      try {
-        const detail = await fetchHtml(p.url);
-        const d = cheerio.load(detail);
-        p.description =
-          d('meta[property="og:description"]').attr('content')?.trim() || p.tagline;
-        p.websiteUrl = d('a[data-test="website-link"]').attr('href') ?? '';
-        const thumb = d('meta[property="og:image"]').attr('content');
-        if (thumb) p.thumbnail = thumb;
-      } catch {
-        console.warn(`⚠️  detail fetch failed for: ${p.name}`);
-      }
-    }),
-  );
+  return entries;
+}
+
+function cleanHtml(html: string): string {
+  const $ = cheerio.load(html);
+  return $.text().replace(/\s+/g, ' ').trim();
+}
+
+function extractTagline(html: string, fallback: string): string {
+  const $ = cheerio.load(html);
+  const firstP = $('p').first().text().trim();
+  return firstP || fallback;
+}
+
+async function enrichProduct(p: Product): Promise<void> {
+  try {
+    const res = await fetch(p.url, {
+      headers: COMMON_HEADERS,
+      redirect: 'follow',
+    });
+    if (!res.ok) return;
+
+    const html = await res.text();
+    const $ = cheerio.load(html);
+
+    // og:description
+    const ogDesc = $('meta[property="og:description"]').attr('content');
+    if (ogDesc) p.description = ogDesc.trim();
+
+    // og:image
+    const ogImage = $('meta[property="og:image"]').attr('content');
+    if (ogImage) p.thumbnail = ogImage;
+
+    // Website link (redirect link with data-test or specific class)
+    const websiteLink = $('a[data-test="website-link"]').attr('href')
+      || $('a[rel="nofollow"]').first().attr('href');
+    if (websiteLink) p.websiteUrl = websiteLink;
+
+    // Categories from topics/tags
+    const topics = $('[data-test="post-topic"], [data-test="topic-pill"]')
+      .map((_, el) => $(el).text().trim())
+      .get()
+      .filter(Boolean);
+    if (topics.length > 0) {
+      p.category = topics.join(' • ');
+    }
+
+    // Votes
+    const voteText = $('[data-test="vote-button"], [data-test="post-votes-count"]').first().text();
+    const voteMatch = voteText.replace(/[^\d]/g, '');
+    if (voteMatch) p.votes = parseInt(voteMatch, 10);
+  } catch (err) {
+    console.warn(`⚠️  Enrichment failed for: ${p.name} (${err})`);
+  }
+}
+
+export async function scrapeProductHunt(date: string): Promise<Product[]> {
+  const entries = await fetchAtomFeed();
+  console.log(`📦 Found ${entries.length} entries in Atom feed, taking top 5`);
+
+  if (entries.length === 0) {
+    throw new Error('No entries found in Atom feed');
+  }
+
+  const products: Product[] = entries.slice(0, 5).map((entry, index) => {
+    const cleanContent = cleanHtml(entry.content);
+    const tagline = extractTagline(entry.content, entry.title);
+
+    return {
+      id: `ph-${date}-${index + 1}`,
+      date,
+      rank: index + 1,
+      name: entry.title,
+      tagline,
+      description: cleanContent || tagline,
+      category: 'General', // Will be enriched
+      url: entry.link,
+      votes: 0,
+      websiteUrl: entry.link,
+      thumbnail: undefined,
+    };
+  });
+
+  // Enrich in parallel
+  console.log('🔄 Enriching with detail pages...');
+  await Promise.all(products.map(enrichProduct));
 
   return products;
 }

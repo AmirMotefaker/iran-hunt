@@ -1,3 +1,15 @@
+export interface IranEquivalent {
+  productName: string;
+  description: string;
+  marketOpportunity: string;
+  estimatedBudget: string;
+  targetAudience: string;
+  challenges: string[];
+  monetization: string[];
+  techStack: string[];
+  confidence: number;
+}
+
 export interface Product {
   id: string;
   date: string;
@@ -13,14 +25,8 @@ export interface Product {
   iranEquivalent?: IranEquivalent;
 }
 
-export interface IranEquivalent {
-  productName: string;
-  description: string;
-  marketOpportunity: string;
-  estimatedBudget: string;
-  targetAudience: string;
-  challenges: string[];
-  monetization: string[];
-  techStack: string[];
-  confidence: number;
+export interface DailyData {
+  date: string;
+  scrapedAt: string;
+  products: Product[];
 }

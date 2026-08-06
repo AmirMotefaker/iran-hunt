@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-06",
+  "scrapedAt": "2026-08-06T06:23:04.087Z",
+  "products": [
+    {
+      "id": "ph-2026-08-06-1",
+      "date": "2026-08-06",
+      "rank": 1,
+      "name": "Wispr Flow Notetaker",
+      "tagline": "Meeting notes that get the details right.",
+      "description": "Meeting notes that get the details right. Discussion | Link",
+      "category": "General",
+      "url": "https://www.producthunt.com/products/wisprflow",
+      "votes": 0,
+      "websiteUrl": "https://www.producthunt.com/products/wisprflow",
+      "iranEquivalent": {
+        "productName": "نامشخص",
+        "description": "",
+        "marketOpportunity": "",
+        "estimatedBudget": "",
+        "targetAudience": "",
+        "challenges": [],
+        "monetization": [],
+        "techStack": [],
+        "confidence": 0
+      }
+    },
+    {
+      "id": "ph-2026-08-06-2",
+      "date": "2026-08-06",
+      "rank": 2,
+      "name": "Keytones",
+      "tagline": "Distinct key sounds for uppercase, lowercase & more",
+      "description": "Distinct key sounds for uppercase, lowercase & more Discussion | Link",
+      "category": "General",
+      "url": "https://www.producthunt.com/products/keytones-for-mac",
+      "votes": 0,
+      "websiteUrl": "https://www.producthunt.com/products/keytones-for-mac",
+      "iranEquivalent": {
+        "productName": "نامشخص",
+        "description": "",
+        "marketOpportunity": "",
+        "estimatedBudget": "",
+        "targetAudience": "",
+        "challenges": [],
+        "monetization": [],
+        "techStack": [],
+        "confidence": 0
+      }
+    },
+    {
+      "id": "ph-2026-08-06-3",
+      "date": "2026-08-06",
+      "rank": 3,
+      "name": "Cloudflare Wallets",
+      "tagline": "the programmable wallet for the agentic Internet",
+      "description": "the programmable wallet for the agentic Internet Discussion | Link",
+      "category": "General",
+      "url": "https://www.producthunt.com/products/cloudflare",
+      "votes": 0,
+      "websiteUrl": "https://www.producthunt.com/products/cloudflare",
+      "iranEquivalent": {
+        "productName": "نامشخص",
+        "description": "",
+        "marketOpportunity": "",
+        "estimatedBudget": "",
+        "targetAudience": "",
+        "challenges": [],
+        "monetization": [],
+        "techStack": [],
+        "confidence": 0
+      }
+    },
+    {
+      "id": "ph-2026-08-06-4",
+      "date": "2026-08-06",
+      "rank": 4,
+      "name": "Capacity Desktop",
+      "tagline": "A free Lovable that lives on your Mac",
+      "description": "A free Lovable that lives on your Mac Discussion | Link",
+      "category": "General",
+      "url": "https://www.producthunt.com/products/capacity",
+      "votes": 0,
+      "websiteUrl": "https://www.producthunt.com/products/capacity",
+      "iranEquivalent": {
+        "productName": "نامشخص",
+        "description": "",
+        "marketOpportunity": "",
+        "estimatedBudget": "",
+        "targetAudience": "",
+        "challenges": [],
+        "monetization": [],
+        "techStack": [],
+        "confidence": 0
+      }
+    },
+    {
+      "id": "ph-2026-08-06-5",
+      "date": "2026-08-06",
+      "rank": 5,
+      "name": "AdAnt AI",
+      "tagline": "Claude for viral, high-converting social ads",
+      "description": "Claude for viral, high-converting social ads Discussion | Link",
+      "category": "General",
+      "url": "https://www.producthunt.com/products/adant-ai",
+      "votes": 0,
+      "websiteUrl": "https://www.producthunt.com/products/adant-ai",
+      "iranEquivalent": {
+        "productName": "نامشخص",
+        "description": "",
+        "marketOpportunity": "",
+        "estimatedBudget": "",
+        "targetAudience": "",
+        "challenges": [],
+        "monetization": [],
+        "techStack": [],
+        "confidence": 0
+      }
+    }
+  ]
+}
