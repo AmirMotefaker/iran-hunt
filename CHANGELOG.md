@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.6.1...v1.7.0) (2026-08-06)
+
+
+### Bug Fixes
+
+* extract email from me() result in LikeButton and UserComments ([7128689](https://github.com/AmirMotefaker/iran-hunt/commit/712868945f4f065cdc14724ce5e8e1e7312b3bab))
+
+
+### Features
+
+* dark mode + dropdown categories + year period + clickable tags + AI stats + SEO 2026 ([eef4015](https://github.com/AmirMotefaker/iran-hunt/commit/eef40150fff506a081f301f3743d6bf8ea77d8c9))
+
 ## [1.6.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.6.0...v1.6.1) (2026-08-06)
 
 
