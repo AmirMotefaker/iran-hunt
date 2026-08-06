@@ -80,7 +80,7 @@ async function gql(token: string, query: string): Promise<any> {
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
-      'User-Agent': 'IdehYab/3.0 (+https://idehyab.ir)',
+      'User-Agent': 'IdehYab/3.0 (+https://iranhunt.vercel.app)',
     },
     body: JSON.stringify({ query }),
   });

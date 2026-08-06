@@ -13,7 +13,7 @@ const vazirmatn = Vazirmatn({
   display: 'swap',
 });
 
-const SITE = 'https://idehyab.ir';
+const SITE = 'https://iranhunt.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),

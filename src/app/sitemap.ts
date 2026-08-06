@@ -3,7 +3,7 @@ import { extractSlug } from '@/lib/slug';
 import { loadLatest } from '@/lib/storage';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = 'https://idehyab.ir';
+  const base = 'https://iranhunt.vercel.app';
   const now = new Date();
   const data = await loadLatest();
 
