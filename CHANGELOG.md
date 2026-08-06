@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.4.1...v1.5.0) (2026-08-06)
+
+
+### Features
+
+* minimal redesign + about/categories pages + SEO + founder name fix ([40c7e0e](https://github.com/AmirMotefaker/iran-hunt/commit/40c7e0ef6139501fb4d359a97bfe2a6875174238))
+
 ## [1.4.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.4.0...v1.4.1) (2026-08-06)
 
 
