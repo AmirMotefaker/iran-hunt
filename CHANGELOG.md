@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.6.0...v1.6.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* add missing Logo + APIs + dashboard + product page (LiteralPath) + auth-client type fix ([e39097a](https://github.com/AmirMotefaker/iran-hunt/commit/e39097aecd30a5fbe1c717472e8827849f3f7f8b))
+
 # [1.6.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.5.1...v1.6.0) (2026-08-06)
 
 
