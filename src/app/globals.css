@@ -1,11 +1,6 @@
 @import "tailwindcss";
 
-:root {
-  --ph-orange: #ff6154;
-}
-
 body {
-  font-feature-settings: "ss01";
   background: #faf9f7;
 }
 
@@ -13,3 +8,13 @@ body {
   background: #ff6154;
   color: white;
 }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up { animation: fade-up 0.7s ease both; }
+.fade-up-1 { animation: fade-up 0.7s 0.12s ease both; }
+.fade-up-2 { animation: fade-up 0.7s 0.24s ease both; }
+.fade-up-3 { animation: fade-up 0.7s 0.36s ease both; }

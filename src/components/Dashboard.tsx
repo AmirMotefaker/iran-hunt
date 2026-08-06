@@ -6,9 +6,15 @@ import { ProductCard } from './ProductCard';
 import { PERIODS } from '@/lib/scraper';
 import type { DailyData, PeriodKey } from '@/types';
 
-export function Dashboard({ data }: { data: DailyData }) {
-  const [tab, setTab] = useState<PeriodKey>('today');
-  const [category, setCategory] = useState<string>('all');
+export function Dashboard({
+  data,
+  initialCategory,
+}: {
+  data: DailyData;
+  initialCategory?: string;
+}) {
+  const [tab, setTab] = useState<PeriodKey>('yesterday');
+  const [category, setCategory] = useState<string>(initialCategory ?? 'all');
 
   const products = data.periods[tab] ?? [];
 
@@ -31,14 +37,14 @@ export function Dashboard({ data }: { data: DailyData }) {
   const activePeriod = PERIODS.find((p) => p.key === tab)!;
 
   return (
-    <section className="relative z-10 mx-auto -mt-16 max-w-4xl px-4">
-      <div className="flex gap-1 overflow-x-auto rounded-3xl bg-white p-2 shadow-xl shadow-gray-200/60">
+    <section id="trends" className="mx-auto max-w-4xl px-4 pt-10">
+      <div className="flex gap-1 overflow-x-auto rounded-3xl border border-gray-100 bg-white p-2 shadow-sm">
         {PERIODS.map((t) => (
           <button
             key={t.key}
             onClick={() => { setTab(t.key); setCategory('all'); }}
             className={`min-w-max flex-1 rounded-2xl px-4 py-3 text-center text-sm font-extrabold transition ${
-              tab === t.key ? 'bg-[#ff6154] text-white shadow-lg shadow-orange-200' : 'text-gray-600 hover:bg-gray-50'
+              tab === t.key ? 'bg-gray-900 text-white shadow' : 'text-gray-500 hover:bg-gray-50'
             }`}
           >
             {t.fa}
@@ -48,11 +54,11 @@ export function Dashboard({ data }: { data: DailyData }) {
 
       {topCategories.length > 0 && (
         <div className="mt-4 flex items-center gap-2 overflow-x-auto pb-1">
-          <LayoutGrid size={16} className="shrink-0 text-gray-400" />
+          <LayoutGrid size={15} className="shrink-0 text-gray-400" />
           <button
             onClick={() => setCategory('all')}
-            className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-bold transition ${
-              category === 'all' ? 'bg-gray-900 text-white' : 'bg-white text-gray-600 shadow-sm hover:bg-gray-100'
+            className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-bold transition ${
+              category === 'all' ? 'bg-gray-900 text-white' : 'border border-gray-200 bg-white text-gray-500 hover:bg-gray-50'
             }`}
           >
             همه
@@ -61,8 +67,8 @@ export function Dashboard({ data }: { data: DailyData }) {
             <button
               key={c}
               onClick={() => setCategory(c === category ? 'all' : c)}
-              className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-bold transition ${
-                category === c ? 'bg-[#ff6154] text-white shadow' : 'bg-white text-gray-600 shadow-sm hover:bg-gray-100'
+              className={`shrink-0 rounded-full px-3.5 py-1.5 text-xs font-bold transition ${
+                category === c ? 'bg-[#ff6154] text-white shadow' : 'border border-gray-200 bg-white text-gray-500 hover:bg-gray-50'
               }`}
             >
               {c}
@@ -72,24 +78,24 @@ export function Dashboard({ data }: { data: DailyData }) {
       )}
 
       {filtered.length > 0 && (
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm font-bold">
-          <span className="flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-gray-700 shadow-sm">
-            <Trophy size={15} className="text-amber-500" /> {activePeriod.fa}
+        <div className="mt-5 flex flex-wrap items-center justify-center gap-2.5 text-xs font-bold">
+          <span className="flex items-center gap-1.5 rounded-full border border-gray-100 bg-white px-4 py-2 text-gray-600 shadow-sm">
+            <Trophy size={13} className="text-amber-500" /> {activePeriod.fa}
           </span>
-          <span className="flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-[#ff6154] shadow-sm">
-            <Flame size={15} /> {totalVotes.toLocaleString('fa-IR')} رأی
+          <span className="flex items-center gap-1.5 rounded-full border border-gray-100 bg-white px-4 py-2 text-[#ff6154] shadow-sm">
+            <Flame size={13} /> {totalVotes.toLocaleString('fa-IR')} رأی
           </span>
-          <span className="rounded-full bg-white px-4 py-2 text-gray-700 shadow-sm">
+          <span className="rounded-full border border-gray-100 bg-white px-4 py-2 text-gray-600 shadow-sm">
             {filtered.length.toLocaleString('fa-IR')} ایده
           </span>
         </div>
       )}
 
-      <div className="mt-6 space-y-6">
+      <div className="mt-7 space-y-6">
         {filtered.length > 0 ? (
           filtered.map((p) => <ProductCard key={p.id} product={p} />)
         ) : (
-          <div className="rounded-3xl border-2 border-dashed border-gray-300 bg-white p-12 text-center text-gray-500">
+          <div className="rounded-3xl border-2 border-dashed border-gray-200 bg-white p-12 text-center text-gray-400">
             <p className="text-lg font-bold">🔍 داده‌ای برای این بازه نیست!</p>
           </div>
         )}
