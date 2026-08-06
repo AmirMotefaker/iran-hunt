@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.7.1...v1.8.0) (2026-08-06)
+
+
+### Features
+
+* dropdown fix + persian categories + slug stored + blink badge + remove IranHunt ([5fcac18](https://github.com/AmirMotefaker/iran-hunt/commit/5fcac18a949e85e06b02e14b53c17e912b271787))
+
 ## [1.7.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.7.0...v1.7.1) (2026-08-06)
 
 
