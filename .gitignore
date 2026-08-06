@@ -1,0 +1,16 @@
+node_modules/
+bun.lockb
+.next/
+out/
+build/
+.env
+.env*.local
+*.log
+.DS_Store
+.vercel
+coverage/
+/test-results/
+/playwright-report/
+*.tsbuildinfo
+next-env.d.ts
+.gh_user
