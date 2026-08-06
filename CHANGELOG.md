@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.7.0...v1.7.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* add year to legacy storage + create category/tag pages ([edf421e](https://github.com/AmirMotefaker/iran-hunt/commit/edf421e5a66b34b43ecb4c69b517d236c957ac91))
+
 # [1.7.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.6.1...v1.7.0) (2026-08-06)
 
 
