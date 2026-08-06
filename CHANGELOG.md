@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.8.1...v1.9.0) (2026-08-06)
+
+
+### Features
+
+* ratings, screenshots, share, rank, hierarchical categories, full product details ([5327c83](https://github.com/AmirMotefaker/iran-hunt/commit/5327c837a87f8e44af4859b8f26e96fc0cd02923))
+
 ## [1.8.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.8.0...v1.8.1) (2026-08-06)
 
 
