@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.1...v1.9.2) (2026-08-06)
+
+
+### Bug Fixes
+
+* move screenshot img to client component (RSC onError crash) ([2e70262](https://github.com/AmirMotefaker/iran-hunt/commit/2e70262215cd79f894db52e9fb4d4ab135888b8f))
+
 ## [1.9.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.0...v1.9.1) (2026-08-06)
 
 
