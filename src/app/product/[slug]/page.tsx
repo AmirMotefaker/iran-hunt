@@ -2,6 +2,7 @@ import { ArrowRight, Calendar, ExternalLink, Flame, User } from 'lucide-react';
 import Link from 'next/link';
 import { GatedContent } from '@/components/GatedContent';
 import { LikeButton } from '@/components/LikeButton';
+import { Screenshot } from '@/components/Screenshot';
 import { ShareButtons } from '@/components/ShareButtons';
 import { StarRating } from '@/components/StarRating';
 import { UserComments } from '@/components/UserComments';
@@ -11,17 +12,15 @@ import type { PeriodKey } from '@/types';
 
 export const dynamic = 'force-dynamic';
 
-// تاریخ شمسی کامل
 const toPersianDigits = (s: string) => s.replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d]);
-function formatShamsiFull(iso: string): string {
-  if (!iso) return '';
-  const d = new Date(iso);
+function formatShamsiFull(isoStr: string): string {
+  if (!isoStr) return '';
+  const d = new Date(isoStr);
   const dayName = new Intl.DateTimeFormat('fa-IR-u-nu-latn', { weekday: 'long' }).format(d);
   const date = new Intl.DateTimeFormat('fa-IR-u-nu-latn', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
   return toPersianDigits(`${dayName}، ${date}`);
 }
 
-// پیدا کردن رتبه محصول در هر بازه
 function findRank(data: any, slug: string): { key: PeriodKey; fa: string; rank: number } | null {
   for (const p of PERIODS) {
     const list = (data.periods as any)[p.key] ?? [];
@@ -74,7 +73,6 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div className="flex-1">
             <h1 className="text-3xl font-black text-gray-900 dark:text-white" dir="ltr">{product.name}</h1>
             <p className="mt-2 text-base italic text-gray-600 dark:text-gray-300" dir="ltr">{product.tagline}</p>
-            {/* Meta: رتبه + تاریخ + maker */}
             <div className="mt-3 flex flex-wrap items-center gap-2 text-xs font-bold">
               {rankInfo && (
                 <span className="rounded-full bg-[#ff6154] px-3 py-1 text-white">
@@ -106,24 +104,19 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
 
-        {/* Screenshot */}
-        {screenshot && (
-          <div className="px-6">
-            <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-lg dark:border-gray-700">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={screenshot} alt={`اسکرین‌شات ${product.name}`} className="h-auto w-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-            </div>
+        {/* Screenshot (کلاینت کامپوننت) */}
+        <div className="px-6">
+          <div className="overflow-hidden rounded-2xl border border-gray-200 shadow-lg dark:border-gray-700">
+            <Screenshot src={screenshot} alt={`اسکرین‌شات ${product.name}`} />
           </div>
-        )}
+        </div>
 
         <div className="space-y-4 p-6">
-          {/* Star Rating */}
           <div className="rounded-2xl border border-gray-200 bg-gray-50/50 p-4 dark:border-gray-700 dark:bg-gray-800/50">
             <h3 className="mb-3 text-sm font-black text-gray-800 dark:text-gray-200">امتیاز شما به این ایده:</h3>
             <StarRating slug={product.slug} />
           </div>
 
-          {/* Categories */}
           <div className="flex flex-wrap gap-2">
             {(product.categoryFa ?? product.category).split('•').map((c) => (
               <Link
@@ -136,17 +129,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             ))}
           </div>
 
-          {/* Short description (public) */}
           {product.faDescription && (
             <p className="rounded-2xl border border-orange-200 bg-orange-50/70 p-4 text-sm leading-8 text-gray-800 dark:border-orange-900/40 dark:bg-orange-950/30 dark:text-orange-100">
               🇮🇷 {product.faDescription}
             </p>
           )}
 
-          {/* Long description (gated) */}
           <GatedContent product={product} />
 
-          {/* Iran equivalent */}
           {eq && eq.confidence > 0 && (
             <div className="rounded-2xl border-t-4 border-green-500 bg-gradient-to-bl from-green-50 to-emerald-50 p-5 dark:from-green-950/30 dark:to-emerald-950/20">
               <h3 className="text-lg font-black text-green-900 dark:text-green-200">💡 مشابه ایرانی: {eq.productName}</h3>
@@ -160,12 +150,10 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             </div>
           )}
 
-          {/* Share */}
           <div className="rounded-2xl border border-gray-200 bg-gray-50/50 p-4 dark:border-gray-700 dark:bg-gray-800/50">
             <ShareButtons url={`/product/${product.slug}`} name={product.name} />
           </div>
 
-          {/* Comments */}
           <UserComments slug={product.slug} />
         </div>
       </article>
