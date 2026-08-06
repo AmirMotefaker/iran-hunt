@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.0.0...v1.1.0) (2026-08-06)
+
+
+### Features
+
+* complete ProductHunt scraper with Atom feed ([2efa7ad](https://github.com/AmirMotefaker/iran-hunt/commit/2efa7add235c707e7822f8bbdd6deec63c2f8a6a))
+
 # 1.0.0 (2026-08-06)
 
 
