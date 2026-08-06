@@ -59,7 +59,7 @@ query {
       node {
         name tagline description votesCount website url slug featuredAt
         thumbnail { url }
-        media { url videoId }
+        media { url }
         topics(first: 5) { edges { node { name } } }
         makers { name headline }
       }
@@ -218,3 +218,4 @@ export async function scrapePeriod(token: string | undefined, key: PeriodKey, da
     return [];
   }
 }
+
