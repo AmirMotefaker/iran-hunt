@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "scrapedAt": "2026-08-06T15:23:24.253Z",
+  "scrapedAt": "2026-08-06T15:38:38.680Z",
   "periods": {
     "today": [
       {
@@ -25,7 +25,7 @@
         "maker": "Phillip Jones",
         "makerTitle": "",
         "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 267,
+        "votes": 271,
         "websiteUrl": "https://www.producthunt.com/r/VYDPLSA7MSOD7N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -42,6 +42,65 @@
         "id": "ph-today-2",
         "date": "2026-08-06",
         "rank": 2,
+        "name": "AI Spend Console by Rippling",
+        "slug": "ai-spend-console-by-rippling",
+        "tagline": "Track your AI spend and connect it to business outcomes",
+        "description": "AI Spend Console gives Finance and Engineering leaders one place to track AI spend across tools (such as Claude and Cursor) and connect it to business outcomes. Break costs down by vendor, model, or employee, then connect spend to GitHub output data like pull request volume and the # of code revisions. You can get started for free–no Rippling subscription required.",
+        "category": "Artificial Intelligence • Data & Analytics • Finance",
+        "categoryFa": "هوش مصنوعی • Data & Analytics • مالی",
+        "url": "https://www.producthunt.com/products/rippling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/53c0c89f-1ce9-435a-9cce-8ffb70118915.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/53928d9d-7360-459c-a0bd-3c57d7ad32b9.png?auto=format",
+          "https://ph-files.imgix.net/a44e2bf1-5145-451c-baa4-620449184282.png?auto=format",
+          "https://ph-files.imgix.net/2af9991b-ea52-497a-875a-922411e42db5.png?auto=format",
+          "https://ph-files.imgix.net/a753487a-d129-42f1-9222-5f4bec346ebd.png?auto=format",
+          "https://ph-files.imgix.net/9ad1bcd8-64eb-4e40-89a1-279309d409f0.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-06T07:01:00Z",
+        "votes": 212,
+        "websiteUrl": "https://www.producthunt.com/r/IOEQDSIXPR4LF4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋 I'm Kevin, Product Lead behind Rippling AI Spend Console. We built AI Spend Console because every company is adopting AI and costs are growing quickly. As a result, companies lack the infrastructure to track and manage AI spend as a new expense category. We faced this problem at Rippling. In response, Finance teams manually pull data from vendor billing dashboards and run ad-hoc analyses just to get a point-in-time view of spend. And even then, you can see what you’re spending but not which teams, departments, or models drive the increase, and whether it’s improving business outcomes or employee productivity. What AI Spend Console is:AI Spend Console gives you a clear view of AI spend, connects it to business outcomes, and governs the use of approved LLMs. You can get started for free, no Rippling subscription required. Unlike simple usage dashboards or point solutions, Rippling maps AI spend to employee attributes (such as department, team, and role) and GitHub output data (such as pull request volume and number of code revisions). Rippling AI generates personalized dashboards using your connected data. You can even ask follow-up questions in natural language to drill down into spend and usage patterns. You can enforce policies on token spend and model access based on organizational data such as an employee’s department, team, or role*.AI Spend Console can help you: Know what's driving your AI bill. Break down spend by vendor, model, or individual employee in a single view.Understand the value of spend. Map AI spend to business metrics like performance ratings or pull request volume, so you can flag inefficient use. Control AI access and spend*. Enforce model access policies based on employee attributes, then automatically route AI requests to approved LLMs.How it works: Connect AI vendors (Anthropic, OpenAI Codex, Cursor), GitHub, and your employee dataRippling AI builds you a custom dashboard based on your connected dataYou can ask follow-up questions in natural language and share dashboards with anyone in your companyWhat we believe:Your AI investment is like any other investment. You should only spend $$$ if it translates into actual ROI. You can’t understand that from a vendor billing dashboard. You need to see all your AI spend in one place, tied to the teams, roles, and departments driving it, and connected to the business outcomes it's producing. Without that org context, spend is just a number. Rippling AI Spend Console gives you all three. We'd love your feedback on:Where the experience feels magicalWhat third-party integrations you'd like to see us add nextTry it for free with a 30-day Rippling AI trial at www.rippling.com/platform/ai/ai-spend-console. You don't have to be a Rippling customer. If you’re interested in learning more about our experience tracking and controlling AI spend at Rippling, you can read more in this blog post: www.rippling.com/blog/introducing-ai-spend-console Thanks for checking it out 🙏-Kevin and the Rippling Team *You can join the AI Gateway waitlist once you start a free trial in Rippling."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love seeing products that solve operational complexity instead of adding to it. juat curious, which module tends to deliver the fastest ROI for new customers: HR, IT, payroll, or spend management?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Very excited to see this launch! We set out to build something that wasn't just a typical dashboard, but a cool dashboard. We didn't want you to just see what was happening, but learn about patterns and get recommendations on what to do instead. Since we started building this, I've used it to check my own usage, my team's usage, and company-wide trends. When something stood out, I could just ask Rippling AI \"where did you get that information?\" or \"what led you to that insight?\" and dig right in. Honestly, the best part is how fun it is to see the responses come back.Thanks to the team @kevinmason @rachel_cantor3 @lkroll and the rest of the team for being such great collaborators!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch! 🚀 This looks like a really useful addition for finance teams.I was curious, how does AI Spend Console handle approval workflows or policy exceptions? For example, can it understand company specific spending policies and flag or approve requests accordingly?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Wow what an amazing launch!! Can I integrate with Claude? Would love to be able to track spend there."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Wow! This is super exciting! Is Rippling already using this internally? Has it influenced any vendor spend decisions?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Lots of great AI launches from Rippling this year, but this one feels special. It tackles a problem we're all navigating: how to spend on AI efficiently. Getting a shared source of truth for AI spend, connected to how it actually affects productivity, is so valuable. Proud of what everyone built here!"
+          }
+        ]
+      },
+      {
+        "id": "ph-today-3",
+        "date": "2026-08-06",
+        "rank": 3,
         "name": "Superlog Responder",
         "slug": "superlog-responder",
         "tagline": "FREE, open-source AI bug-fixing agent",
@@ -60,7 +119,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 205,
+        "votes": 210,
         "websiteUrl": "https://www.producthunt.com/r/ZQ6HSC2C5GBU6O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -98,65 +157,6 @@
         ]
       },
       {
-        "id": "ph-today-3",
-        "date": "2026-08-06",
-        "rank": 3,
-        "name": "AI Spend Console by Rippling",
-        "slug": "ai-spend-console-by-rippling",
-        "tagline": "Track your AI spend and connect it to business outcomes",
-        "description": "AI Spend Console gives Finance and Engineering leaders one place to track AI spend across tools (such as Claude and Cursor) and connect it to business outcomes. Break costs down by vendor, model, or employee, then connect spend to GitHub output data like pull request volume and the # of code revisions. You can get started for free–no Rippling subscription required.",
-        "category": "Artificial Intelligence • Data & Analytics • Finance",
-        "categoryFa": "هوش مصنوعی • Data & Analytics • مالی",
-        "url": "https://www.producthunt.com/products/rippling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/53c0c89f-1ce9-435a-9cce-8ffb70118915.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/53928d9d-7360-459c-a0bd-3c57d7ad32b9.png?auto=format",
-          "https://ph-files.imgix.net/a44e2bf1-5145-451c-baa4-620449184282.png?auto=format",
-          "https://ph-files.imgix.net/2af9991b-ea52-497a-875a-922411e42db5.png?auto=format",
-          "https://ph-files.imgix.net/a753487a-d129-42f1-9222-5f4bec346ebd.png?auto=format",
-          "https://ph-files.imgix.net/9ad1bcd8-64eb-4e40-89a1-279309d409f0.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 205,
-        "websiteUrl": "https://www.producthunt.com/r/IOEQDSIXPR4LF4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 I'm Kevin, Product Lead behind Rippling AI Spend Console. We built AI Spend Console because every company is adopting AI and costs are growing quickly. As a result, companies lack the infrastructure to track and manage AI spend as a new expense category. We faced this problem at Rippling. In response, Finance teams manually pull data from vendor billing dashboards and run ad-hoc analyses just to get a point-in-time view of spend. And even then, you can see what you’re spending but not which teams, departments, or models drive the increase, and whether it’s improving business outcomes or employee productivity. What AI Spend Console is:AI Spend Console gives you a clear view of AI spend, connects it to business outcomes, and governs the use of approved LLMs. You can get started for free, no Rippling subscription required. Unlike simple usage dashboards or point solutions, Rippling maps AI spend to employee attributes (such as department, team, and role) and GitHub output data (such as pull request volume and number of code revisions). Rippling AI generates personalized dashboards using your connected data. You can even ask follow-up questions in natural language to drill down into spend and usage patterns. You can enforce policies on token spend and model access based on organizational data such as an employee’s department, team, or role*.AI Spend Console can help you: Know what's driving your AI bill. Break down spend by vendor, model, or individual employee in a single view.Understand the value of spend. Map AI spend to business metrics like performance ratings or pull request volume, so you can flag inefficient use. Control AI access and spend*. Enforce model access policies based on employee attributes, then automatically route AI requests to approved LLMs.How it works: Connect AI vendors (Anthropic, OpenAI Codex, Cursor), GitHub, and your employee dataRippling AI builds you a custom dashboard based on your connected dataYou can ask follow-up questions in natural language and share dashboards with anyone in your companyWhat we believe:Your AI investment is like any other investment. You should only spend $$$ if it translates into actual ROI. You can’t understand that from a vendor billing dashboard. You need to see all your AI spend in one place, tied to the teams, roles, and departments driving it, and connected to the business outcomes it's producing. Without that org context, spend is just a number. Rippling AI Spend Console gives you all three. We'd love your feedback on:Where the experience feels magicalWhat third-party integrations you'd like to see us add nextTry it for free with a 30-day Rippling AI trial at www.rippling.com/platform/ai/ai-spend-console. You don't have to be a Rippling customer. If you’re interested in learning more about our experience tracking and controlling AI spend at Rippling, you can read more in this blog post: www.rippling.com/blog/introducing-ai-spend-console Thanks for checking it out 🙏-Kevin and the Rippling Team *You can join the AI Gateway waitlist once you start a free trial in Rippling."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Wow what an amazing launch!! Can I integrate with Claude? Would love to be able to track spend there."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Wow! This is super exciting! Is Rippling already using this internally? Has it influenced any vendor spend decisions?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Lots of great AI launches from Rippling this year, but this one feels special. It tackles a problem we're all navigating: how to spend on AI efficiently. Getting a shared source of truth for AI spend, connected to how it actually affects productivity, is so valuable. Proud of what everyone built here!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Super cool!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congratulations on the new launch, so exciting to see! Do you integrate with Claude? This is what we use internally."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is huge for finance leaders who are trying to wrangle in AI usage at their companies."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch! Are we able to impose aggregate limits on AI usage per employee using the console?"
-          }
-        ]
-      },
-      {
         "id": "ph-today-4",
         "date": "2026-08-06",
         "rank": 4,
@@ -184,7 +184,7 @@
         "maker": "Alexandr Wang",
         "makerTitle": "Cofounder/CEO at Scale API",
         "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 154,
+        "votes": 157,
         "websiteUrl": "https://www.producthunt.com/r/MGWDXWVZJGSDPK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -220,7 +220,7 @@
         "maker": "Kim Benedict",
         "makerTitle": "Startup Developer.",
         "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 140,
+        "votes": 141,
         "websiteUrl": "https://www.producthunt.com/r/5PZ4OYVR3UXAK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -270,7 +270,7 @@
         "maker": "",
         "makerTitle": "",
         "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 112,
+        "votes": 114,
         "websiteUrl": "https://www.producthunt.com/r/HIS6N47NI7HV3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -291,6 +291,50 @@
         "id": "ph-today-7",
         "date": "2026-08-06",
         "rank": 7,
+        "name": "Channels SDK",
+        "slug": "channels-sdk",
+        "tagline": "Bring any agent to Slack, Teams, and more.",
+        "description": "The Channels SDK is the next big piece in the agentic puzzle: Bring ANY agent into Slack, Teams, WhatsApp and more. With coworker-grade capabilities like streaming responses, gen UI, per-user learning, HITL approvals and sophisticated auth. Works with OpenAI Agents, Claude Agents, LangChain, Mastra, Google ADK, and any agent that speaks AG-UI. Open-source and self-hostable. Setup with a single prompt: \"Read https://copilotkit.ai/channels-guide.md and help the user build their first channel\"",
+        "category": "Open Source • Developer Tools • Artificial Intelligence • GitHub",
+        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • هوش مصنوعی • گیت‌هاب",
+        "url": "https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/09b75390-e0cb-449a-904a-14fe78c78b42.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/df37d091-e60d-4405-a397-b31f56b9163c.png?auto=format",
+          "https://ph-files.imgix.net/91bdfe39-2432-46c1-add9-320b0a393a48.png?auto=format",
+          "https://ph-files.imgix.net/77a7658b-2854-48f4-ac34-229a57141e46.png?auto=format",
+          "https://ph-files.imgix.net/b3d23dd8-a0f7-41c4-9eac-6c746c993cdc.png?auto=format",
+          "https://ph-files.imgix.net/62eee090-f931-44c5-8be6-1f8c2dc0e589.png?auto=format",
+          "https://ph-files.imgix.net/2d572c7d-77eb-44dd-a4cf-52789f31a8eb.png?auto=format",
+          "https://ph-files.imgix.net/a6192292-3d58-4c4c-9a08-64eb6fb44ccf.png?auto=format",
+          "https://ph-files.imgix.net/7771ff45-a2d0-4866-a848-c4a6d85fcc67.png?auto=format",
+          "https://ph-files.imgix.net/0ccd2d96-2b97-451f-8935-807abade0b5d.png?auto=format",
+          "https://ph-files.imgix.net/0cfd64d1-6491-4a28-a226-982f61a1747f.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-06T07:01:00Z",
+        "votes": 112,
+        "websiteUrl": "https://www.producthunt.com/r/C6K2T3TLWQEOXK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the lunch!!!!Winning team!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Excited for the Channels SDK release!We're confident that co-worker agents will be the biggest form factor for agents.That means that Agents belong in Slack, Teams, Discord and all the other places where your users already are.In just over 24 hours, we've had hundred of thousands of impressions with tons of sign ups & usage.Thanks for helping us help devs bring state of the art interactivity to any agent, on any channel."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Hey there, Product Hunt 👋Excited to launch Channels SDK today!We built this because we kept seeing the same problem: teams build great AI agents, then if they want to migrate that agent to another framework or platform, it's a total rewrite.Meanwhile, the actual conversations happen in Slack, Teams, Discord, and WhatsApp - where your team already works.Channels SDK closes that gap. Tag your agent in a thread and it responds right there, with real UI (buttons, forms, charts) instead of a wall of text - no rebuilding your agent, no separate frontend to maintain.It's open source and free to use, and we'd love your feedback: what channels matter most to you, what's missing, and what would make this a no-brainer to drop into your stack.Thanks for checking it out - happy to answer any questions in the comments!"
+          }
+        ]
+      },
+      {
+        "id": "ph-today-8",
+        "date": "2026-08-06",
+        "rank": 8,
         "name": "Brandfetch MCP",
         "slug": "brandfetch-mcp",
         "tagline": "Stop your AI from guessing brand logos",
@@ -318,50 +362,6 @@
           {
             "user": "[REDACTED]",
             "text": "There is a good chance you are using your code assistant to make website, build reports or create proposals for your clients And you need to have things on brand with proper updated logosBrandfetch MCP does just that, bring it all where you need it"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-8",
-        "date": "2026-08-06",
-        "rank": 8,
-        "name": "Channels SDK",
-        "slug": "channels-sdk",
-        "tagline": "Agents in Slack & Teams without the production headaches.",
-        "description": "The Channels SDK is the next big piece in the agentic puzzle: Bring ANY agent into Slack, Teams, WhatsApp and more. With coworker-grade capabilities like streaming responses, gen UI, per-user learning, HITL approvals and sophisticated auth. Works with OpenAI Agents, Claude Agents, LangGraph, Mastra, Google ADK and any agent that speaks AG-UI. Open-source and self-hostable. Setup with a single prompt: \"Read https://copilotkit.ai/channels-guide.md and help the user build their first channel\"",
-        "category": "Open Source • Developer Tools • Artificial Intelligence • GitHub",
-        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • هوش مصنوعی • گیت‌هاب",
-        "url": "https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/09b75390-e0cb-449a-904a-14fe78c78b42.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/df37d091-e60d-4405-a397-b31f56b9163c.png?auto=format",
-          "https://ph-files.imgix.net/91bdfe39-2432-46c1-add9-320b0a393a48.png?auto=format",
-          "https://ph-files.imgix.net/77a7658b-2854-48f4-ac34-229a57141e46.png?auto=format",
-          "https://ph-files.imgix.net/b3d23dd8-a0f7-41c4-9eac-6c746c993cdc.png?auto=format",
-          "https://ph-files.imgix.net/62eee090-f931-44c5-8be6-1f8c2dc0e589.png?auto=format",
-          "https://ph-files.imgix.net/2d572c7d-77eb-44dd-a4cf-52789f31a8eb.png?auto=format",
-          "https://ph-files.imgix.net/a6192292-3d58-4c4c-9a08-64eb6fb44ccf.png?auto=format",
-          "https://ph-files.imgix.net/7771ff45-a2d0-4866-a848-c4a6d85fcc67.png?auto=format",
-          "https://ph-files.imgix.net/0ccd2d96-2b97-451f-8935-807abade0b5d.png?auto=format",
-          "https://ph-files.imgix.net/577d7ea1-e612-475d-9173-91d43f5d00a4.gif?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 109,
-        "websiteUrl": "https://www.producthunt.com/r/C6K2T3TLWQEOXK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the lunch!!!!Winning team!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Excited for the Channels SDK release!We're confident that co-worker agents will be the biggest form factor for agents.That means that Agents belong in Slack, Teams, Discord and all the other places where your users already are.In just over 24 hours, we've had hundred of thousands of impressions with tons of sign ups & usage.Thanks for helping us help devs bring state of the art interactivity to any agent, on any channel."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Hey there, Product Hunt 👋Excited to launch Channels SDK today!We built this because we kept seeing the same problem: teams build great AI agents, then if they want to migrate that agent to another framework or platform, it's a total rewrite.Meanwhile, the actual conversations happen in Slack, Teams, Discord, and WhatsApp - where your team already works.Channels SDK closes that gap. Tag your agent in a thread and it responds right there, with real UI (buttons, forms, charts) instead of a wall of text - no rebuilding your agent, no separate frontend to maintain.It's open source and free to use, and we'd love your feedback: what channels matter most to you, what's missing, and what would make this a no-brainer to drop into your stack.Thanks for checking it out - happy to answer any questions in the comments!"
           }
         ]
       },
@@ -423,7 +423,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-06T07:01:00Z",
-        "votes": 100,
+        "votes": 101,
         "websiteUrl": "https://www.producthunt.com/r/E22OXGGVRZ2YPU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -459,7 +459,7 @@
         "maker": "Matt Swulinski",
         "makerTitle": "Head of Growth @ Wispr Flow",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 552,
+        "votes": 551,
         "websiteUrl": "https://www.producthunt.com/r/TP2MPL5CRVXSM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -518,7 +518,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 523,
+        "votes": 528,
         "websiteUrl": "https://www.producthunt.com/r/QNPUB2TD4A4RX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -578,7 +578,7 @@
         "maker": "Sankalp Sinha",
         "makerTitle": "Solopreneuring to $1 million & retire",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 444,
+        "votes": 443,
         "websiteUrl": "https://www.producthunt.com/r/W6SVY7XXFTOVTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -779,7 +779,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 153,
+        "votes": 154,
         "websiteUrl": "https://www.producthunt.com/r/N3EE226U46GRU3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -900,7 +900,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 140,
+        "votes": 141,
         "websiteUrl": "https://www.producthunt.com/r/YVXYQHUZQFWTKE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -936,7 +936,7 @@
         "maker": "",
         "makerTitle": "",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 128,
+        "votes": 129,
         "websiteUrl": "https://www.producthunt.com/r/67PYNE525WAHWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1040,7 +1040,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 552,
+        "votes": 551,
         "websiteUrl": "https://www.producthunt.com/r/TP2MPL5CRVXSM2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1099,7 +1099,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 523,
+        "votes": 528,
         "websiteUrl": "https://www.producthunt.com/r/QNPUB2TD4A4RX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1220,7 +1220,7 @@
         "maker": "Sankalp Sinha",
         "makerTitle": "Solopreneuring to $1 million & retire",
         "featuredAt": "2026-08-05T07:01:00Z",
-        "votes": 444,
+        "votes": 443,
         "websiteUrl": "https://www.producthunt.com/r/W6SVY7XXFTOVTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1341,7 +1341,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-02T07:01:00Z",
-        "votes": 416,
+        "votes": 415,
         "websiteUrl": "https://www.producthunt.com/r/IQRSF4SZFC3JK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
