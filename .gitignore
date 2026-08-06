@@ -21,3 +21,11 @@ test-*.ps1
 # Environment
 .env.local
 .env*.local
+
+# Test files
+test-*.ps1
+check-*.ps1
+
+# Environment
+.env.local
+.env*.local
