@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.2.0...v1.3.0) (2026-08-06)
+
+
+### Bug Fixes
+
+* add write permission to Daily Scrape workflow ([1287d37](https://github.com/AmirMotefaker/iran-hunt/commit/1287d37dca884ec9254227faa07ed08b109b1047))
+
+
+### Features
+
+* smart AI strategy - GitHub Actions runs AI from US IP ([0d9ae27](https://github.com/AmirMotefaker/iran-hunt/commit/0d9ae270f514aeaf25e7802f5b58cc317d5fa445))
+
 # [1.2.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.1.1...v1.2.0) (2026-08-06)
 
 
