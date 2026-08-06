@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.1.0...v1.1.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* polish scraper (spam filter, description fallback, real usernames, formatted budget) ([7da7789](https://github.com/AmirMotefaker/iran-hunt/commit/7da7789fbae895fd632b3d47263e959817399fcc))
+
 # [1.1.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.0.0...v1.1.0) (2026-08-06)
 
 
