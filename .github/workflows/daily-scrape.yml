@@ -2,8 +2,11 @@ name: Daily Scrape
 
 on:
   schedule:
-    - cron: '30 13 * * *'  # 17:00 Iran = 13:30 UTC
+    - cron: '30 13 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
