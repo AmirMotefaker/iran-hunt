@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.0...v1.9.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* ratings API folder + scraper videoId fix ([1eac498](https://github.com/AmirMotefaker/iran-hunt/commit/1eac4988dd0273cd3c80e6721bfb6722669dc317))
+
 # [1.9.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.8.1...v1.9.0) (2026-08-06)
 
 
