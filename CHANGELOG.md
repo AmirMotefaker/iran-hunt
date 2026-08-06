@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.1.1...v1.2.0) (2026-08-06)
+
+
+### Features
+
+* 4 time-period tabs, category filters, minimal logo, hero overlap fix ([88ccce4](https://github.com/AmirMotefaker/iran-hunt/commit/88ccce48b15f26437be0b4ef642fe9a1ff2a4dfa))
+
 ## [1.1.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.1.0...v1.1.1) (2026-08-06)
 
 
