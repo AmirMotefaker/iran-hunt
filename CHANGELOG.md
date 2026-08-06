@@ -1,0 +1,13 @@
+# 1.0.0 (2026-08-06)
+
+
+### Bug Fixes
+
+* next.config.ts for Next 16.3 compatibility ([4fec896](https://github.com/AmirMotefaker/iran-hunt/commit/4fec89664ad4e44fb136ff1b3fa484ab8c7c6546))
+
+
+### Features
+
+* initial project setup with 2026 stack ([8de282d](https://github.com/AmirMotefaker/iran-hunt/commit/8de282db68454e7865002f919436f10f5f8bc733))
+* producthunt scraper, ai analyzer, dashboard ui and full docs ([0aa2981](https://github.com/AmirMotefaker/iran-hunt/commit/0aa2981bdda96f7fcb4f20397fc42bfc3df4035e))
+* upgrade to next 16.3 and tailwind v4 ([dfb0771](https://github.com/AmirMotefaker/iran-hunt/commit/dfb077168977507e1f298f1347af950cf5e3828c))
