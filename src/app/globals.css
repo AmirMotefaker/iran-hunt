@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
   background: #faf9f7;
+  color: #0a0a0a;
+}
+.dark body {
+  background: #0b0b0d;
+  color: #e7e7ea;
 }
 
 ::selection {
@@ -13,8 +20,7 @@ body {
   from { opacity: 0; transform: translateY(18px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
-.fade-up { animation: fade-up 0.7s ease both; }
+.fade-up   { animation: fade-up 0.7s ease both; }
 .fade-up-1 { animation: fade-up 0.7s 0.12s ease both; }
 .fade-up-2 { animation: fade-up 0.7s 0.24s ease both; }
 .fade-up-3 { animation: fade-up 0.7s 0.36s ease both; }

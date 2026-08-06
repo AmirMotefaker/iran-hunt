@@ -1,7 +1,14 @@
-export interface PHComment {
-  user: string;
-  text: string;
+export type PeriodKey = 'today' | 'yesterday' | 'week' | 'month' | 'year';
+
+export interface PeriodsData {
+  today: Product[];
+  yesterday: Product[];
+  week: Product[];
+  month: Product[];
+  year: Product[];
 }
+
+export interface PHComment { user: string; text: string; }
 
 export interface IranEquivalent {
   productName: string;
@@ -31,15 +38,6 @@ export interface Product {
   comments?: PHComment[];
   faComments?: PHComment[];
   iranEquivalent?: IranEquivalent;
-}
-
-export type PeriodKey = 'today' | 'yesterday' | 'week' | 'month';
-
-export interface PeriodsData {
-  today: Product[];
-  yesterday: Product[];
-  week: Product[];
-  month: Product[];
 }
 
 export interface DailyData {

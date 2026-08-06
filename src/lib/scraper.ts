@@ -7,47 +7,37 @@ const API_URL = 'https://api.producthunt.com/v2/api/graphql';
 const ATOM_URL = 'https://www.producthunt.com/feed';
 
 const COMMON_HEADERS = {
-  'User-Agent':
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
   Accept: 'application/atom+xml, application/xml, text/xml, */*',
   'Accept-Language': 'en-US,en;q=0.9',
 };
 
 export const PERIODS: Array<{ key: PeriodKey; en: string; fa: string }> = [
-  { key: 'today', en: 'Top Products Launching Today', fa: 'برترین محصولات امروز' },
-  { key: 'yesterday', en: "Yesterday's Top Products", fa: 'برترین محصولات دیروز' },
-  { key: 'week', en: "Last Week's Top Products", fa: 'برترین محصولات هفته گذشته' },
-  { key: 'month', en: "Last Month's Top Products", fa: 'برترین محصولات ماه گذشته' },
+  { key: 'today', en: 'Today', fa: 'امروز' },
+  { key: 'yesterday', en: 'Yesterday', fa: 'دیروز' },
+  { key: 'week', en: 'Last Week', fa: 'هفته گذشته' },
+  { key: 'month', en: 'Last Month', fa: 'ماه گذشته' },
+  { key: 'year', en: 'Last Year', fa: 'یک سال گذشته' },
 ];
 
-function iso(d: Date): string {
-  return d.toISOString();
-}
-
+function iso(d: Date): string { return d.toISOString(); }
 function startOfDayUTC(offsetDays = 0): Date {
   const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - offsetDays, 0, 0, 0),
-  );
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - offsetDays, 0, 0, 0));
 }
 
 function periodBounds(key: PeriodKey): { after: string; before: string } {
   const now = new Date();
   switch (key) {
-    case 'today':
-      return { after: iso(startOfDayUTC(0)), before: iso(now) };
-    case 'yesterday':
-      return { after: iso(startOfDayUTC(1)), before: iso(startOfDayUTC(0)) };
-    case 'week':
-      return { after: iso(new Date(now.getTime() - 7 * 864e5)), before: iso(now) };
-    case 'month':
-      return { after: iso(new Date(now.getTime() - 30 * 864e5)), before: iso(now) };
+    case 'today': return { after: iso(startOfDayUTC(0)), before: iso(now) };
+    case 'yesterday': return { after: iso(startOfDayUTC(1)), before: iso(startOfDayUTC(0)) };
+    case 'week': return { after: iso(new Date(now.getTime() - 7 * 864e5)), before: iso(now) };
+    case 'month': return { after: iso(new Date(now.getTime() - 30 * 864e5)), before: iso(now) };
+    case 'year': return { after: iso(new Date(now.getTime() - 365 * 864e5)), before: iso(now) };
   }
 }
 
-function stripHtml(html: string): string {
-  return cheerio.load(html).text().replace(/\s+/g, ' ').trim();
-}
+function stripHtml(html: string): string { return cheerio.load(html).text().replace(/\s+/g, ' ').trim(); }
 
 function isSpamComment(text: string): boolean {
   const spamPatterns = [
@@ -68,13 +58,7 @@ query {
   posts(first: 50, order: VOTES, postedAfter: "${after}", postedBefore: "${before}") {
     edges {
       node {
-        name
-        tagline
-        description
-        votesCount
-        website
-        url
-        featuredAt
+        name tagline description votesCount website url featuredAt
         thumbnail { url }
         topics(first: 5) { edges { node { name } } }
       }
@@ -110,25 +94,17 @@ async function getRealWebsiteUrl(redirectUrl: string): Promise<string> {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 5000);
-    const res = await fetch(redirectUrl, {
-      redirect: 'follow',
-      headers: COMMON_HEADERS,
-      signal: controller.signal,
-    });
+    const res = await fetch(redirectUrl, { redirect: 'follow', headers: COMMON_HEADERS, signal: controller.signal });
     clearTimeout(timeout);
     return res.url.includes('producthunt.com') ? redirectUrl : res.url;
-  } catch {
-    return redirectUrl;
-  }
+  } catch { return redirectUrl; }
 }
 
 async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]> {
   const { after, before } = periodBounds(key);
   const data = await gql(token, listQuery(after, before));
-
   const nodes: any[] = data?.posts?.edges?.map((e: any) => e.node).filter(Boolean) ?? [];
 
-  // Only featured posts, dedupe, sort by votes
   const seen = new Set<string>();
   const pool = nodes
     .filter((n) => n.featuredAt && n.name && !seen.has(n.name) && (seen.add(n.name), true))
@@ -143,10 +119,7 @@ async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]
     tagline: n.tagline ?? '',
     description: n.description ?? n.tagline ?? '',
     category:
-      (n.topics?.edges ?? [])
-        .map((t: any) => t.node?.name)
-        .filter(Boolean)
-        .join(' • ') || 'General',
+      (n.topics?.edges ?? []).map((t: any) => t.node?.name).filter(Boolean).join(' • ') || 'General',
     url: n.url ?? 'https://www.producthunt.com',
     thumbnail: n.thumbnail?.url,
     votes: n.votesCount ?? 0,
@@ -160,12 +133,10 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
     try {
       const slug = extractSlug(p.url);
       if (!slug) continue;
-
       const data = await gql(token, slugQuery(slug));
       const post = data?.post;
       if (!post) continue;
 
-      // Real website URL
       let websiteUrl = post.website ?? p.websiteUrl;
       if (websiteUrl.includes('producthunt.com/r/')) {
         const real = await getRealWebsiteUrl(websiteUrl);
@@ -173,16 +144,13 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
       }
       p.websiteUrl = websiteUrl;
 
-      // Comments (spam-filtered)
       p.comments = (post.comments?.edges ?? [])
         .map((c: any) => ({
           user: c.node?.user?.name || c.node?.user?.username || 'Hunter',
           text: stripHtml(c.node?.body ?? ''),
         }))
         .filter((c: PHComment) => c.text.length > 10 && !isSpamComment(c.text)) as PHComment[];
-    } catch {
-      // keep basic data
-    }
+    } catch { /* ignore */ }
     await new Promise((r) => setTimeout(r, 250));
   }
 }
@@ -191,16 +159,13 @@ async function fetchViaAtom(date: string): Promise<Product[]> {
   console.log('   📡 Atom feed fallback...');
   const res = await fetch(ATOM_URL, { headers: COMMON_HEADERS });
   if (!res.ok) throw new Error(`Atom feed HTTP ${res.status}`);
-
   const $ = cheerio.load(await res.text(), { xmlMode: true });
   const products: Product[] = [];
-
   $('entry').each((i, el) => {
     if (products.length >= TOP_COUNT) return false;
     const $el = $(el);
     const content = $el.find('content').text().trim();
     const tagline = cheerio.load(content)('p').first().text().trim();
-
     products.push({
       id: `ph-today-${products.length + 1}`,
       date,
@@ -215,29 +180,18 @@ async function fetchViaAtom(date: string): Promise<Product[]> {
       comments: [],
     });
   });
-
   return products;
 }
 
-export async function scrapePeriod(
-  token: string | undefined,
-  key: PeriodKey,
-  date: string,
-): Promise<Product[]> {
-  if (!token) {
-    if (key === 'today') return fetchViaAtom(date);
-    return [];
-  }
-
+export async function scrapePeriod(token: string | undefined, key: PeriodKey, date: string): Promise<Product[]> {
+  if (!token) { if (key === 'today') return fetchViaAtom(date); return []; }
   try {
     const products = await fetchPeriodList(token, key);
     console.log(`   ✅ Got ${products.length} featured products`);
-
     if (products.length < 3 && (key === 'today' || key === 'yesterday')) {
       const atom = await fetchViaAtom(date);
       if (atom.length > products.length) return atom;
     }
-
     await enrichWithDetails(token, products);
     return products;
   } catch (err) {
