@@ -33,8 +33,17 @@ export interface Product {
   iranEquivalent?: IranEquivalent;
 }
 
+export type PeriodKey = 'today' | 'yesterday' | 'week' | 'month';
+
+export interface PeriodsData {
+  today: Product[];
+  yesterday: Product[];
+  week: Product[];
+  month: Product[];
+}
+
 export interface DailyData {
   date: string;
   scrapedAt: string;
-  products: Product[];
+  periods: PeriodsData;
 }

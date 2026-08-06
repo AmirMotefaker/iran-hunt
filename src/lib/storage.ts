@@ -1,15 +1,15 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import type { DailyData, Product } from '@/types';
+import type { DailyData, PeriodsData, Product } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 
-export async function saveDaily(date: string, products: Product[]): Promise<void> {
+export async function saveDaily(date: string, periods: PeriodsData): Promise<void> {
   await mkdir(DATA_DIR, { recursive: true });
   const data: DailyData = {
     date,
     scrapedAt: new Date().toISOString(),
-    products,
+    periods,
   };
   const file = path.join(DATA_DIR, `${date}.json`);
   await writeFile(file, JSON.stringify(data, null, 2), 'utf8');
@@ -24,7 +24,24 @@ export async function loadLatest(): Promise<DailyData | null> {
       .reverse();
     if (files.length === 0) return null;
     const raw = await readFile(path.join(DATA_DIR, files[0]), 'utf8');
-    return JSON.parse(raw) as DailyData;
+    const parsed = JSON.parse(raw) as any;
+
+    // Legacy format support (old single-list files)
+    if (!parsed.periods) {
+      const legacyProducts: Product[] = parsed.products ?? [];
+      return {
+        date: parsed.date,
+        scrapedAt: parsed.scrapedAt,
+        periods: {
+          today: legacyProducts,
+          yesterday: [],
+          week: [],
+          month: [],
+        },
+      };
+    }
+
+    return parsed as DailyData;
   } catch {
     return null;
   }

@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import type { PHComment, Product } from '@/types';
+import type { PeriodKey, PHComment, Product } from '@/types';
 
 export const TOP_COUNT = 10;
 
@@ -13,18 +13,49 @@ const COMMON_HEADERS = {
   'Accept-Language': 'en-US,en;q=0.9',
 };
 
+export const PERIODS: Array<{ key: PeriodKey; en: string; fa: string }> = [
+  { key: 'today', en: 'Top Products Launching Today', fa: 'برترین محصولات امروز' },
+  { key: 'yesterday', en: "Yesterday's Top Products", fa: 'برترین محصولات دیروز' },
+  { key: 'week', en: "Last Week's Top Products", fa: 'برترین محصولات هفته گذشته' },
+  { key: 'month', en: "Last Month's Top Products", fa: 'برترین محصولات ماه گذشته' },
+];
+
+function iso(d: Date): string {
+  return d.toISOString();
+}
+
+function startOfDayUTC(offsetDays = 0): Date {
+  const now = new Date();
+  return new Date(
+    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - offsetDays, 0, 0, 0),
+  );
+}
+
+function periodBounds(key: PeriodKey): { after: string; before: string } {
+  const now = new Date();
+  switch (key) {
+    case 'today':
+      return { after: iso(startOfDayUTC(0)), before: iso(now) };
+    case 'yesterday':
+      return { after: iso(startOfDayUTC(1)), before: iso(startOfDayUTC(0)) };
+    case 'week':
+      return { after: iso(new Date(now.getTime() - 7 * 864e5)), before: iso(now) };
+    case 'month':
+      return { after: iso(new Date(now.getTime() - 30 * 864e5)), before: iso(now) };
+  }
+}
+
 function stripHtml(html: string): string {
   return cheerio.load(html).text().replace(/\s+/g, ' ').trim();
 }
 
-// Spam detection
 function isSpamComment(text: string): boolean {
   const spamPatterns = [
     /https?:\/\/(?!www\.producthunt\.com)[^\s]+\.(xyz|top|click|ru|cn|tk)/i,
     /myloweslife|kronos-login/i,
     /click here|check out|visit now/i,
   ];
-  return spamPatterns.some((pattern) => pattern.test(text));
+  return spamPatterns.some((p) => p.test(text));
 }
 
 function extractSlug(url: string): string | null {
@@ -32,171 +63,132 @@ function extractSlug(url: string): string | null {
   return match ? match[1] : null;
 }
 
+const listQuery = (after: string, before: string) => `
+query {
+  posts(first: 50, order: VOTES, postedAfter: "${after}", postedBefore: "${before}") {
+    edges {
+      node {
+        name
+        tagline
+        description
+        votesCount
+        website
+        url
+        featuredAt
+        thumbnail { url }
+        topics(first: 5) { edges { node { name } } }
+      }
+    }
+  }
+}`;
+
+const slugQuery = (slug: string) => `
+query {
+  post(slug: "${slug}") {
+    website
+    comments(first: 8) { edges { node { body user { name username } } } }
+  }
+}`;
+
+async function gql(token: string, query: string): Promise<any> {
+  const res = await fetch(API_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+      'User-Agent': 'IranHunt/2.0 (+https://iranhunt.vercel.app)',
+    },
+    body: JSON.stringify({ query }),
+  });
+  if (!res.ok) throw new Error(`API HTTP ${res.status}`);
+  const json = (await res.json()) as any;
+  if (json.errors) throw new Error(`GraphQL: ${json.errors[0]?.message}`);
+  return json.data;
+}
+
 async function getRealWebsiteUrl(redirectUrl: string): Promise<string> {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 5000);
-
     const res = await fetch(redirectUrl, {
       redirect: 'follow',
       headers: COMMON_HEADERS,
       signal: controller.signal,
     });
     clearTimeout(timeout);
-
-    if (!res.url.includes('producthunt.com')) {
-      return res.url;
-    }
-    return redirectUrl;
+    return res.url.includes('producthunt.com') ? redirectUrl : res.url;
   } catch {
     return redirectUrl;
   }
 }
 
-const buildSlugQuery = (slug: string) => `
-query {
-  post(slug: "${slug}") {
-    name
-    tagline
-    description
-    votesCount
-    website
-    url
-    featuredAt
-    thumbnail { url }
-    topics(first: 5) { edges { node { name } } }
-    comments(first: 8) { edges { node { body user { name username } } } }
-  }
-}`;
+async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]> {
+  const { after, before } = periodBounds(key);
+  const data = await gql(token, listQuery(after, before));
 
-async function fetchPostDetails(token: string, slug: string): Promise<any> {
-  const res = await fetch(API_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-      'User-Agent': 'IranHunt/1.0 (+https://iranhunt.vercel.app)',
-    },
-    body: JSON.stringify({ query: buildSlugQuery(slug) }),
-  });
+  const nodes: any[] = data?.posts?.edges?.map((e: any) => e.node).filter(Boolean) ?? [];
 
-  if (!res.ok) throw new Error(`API HTTP ${res.status}`);
-  const json = (await res.json()) as any;
-  if (json.errors) throw new Error(`GraphQL: ${json.errors[0]?.message}`);
-  return json?.data?.post ?? null;
+  // Only featured posts, dedupe, sort by votes
+  const seen = new Set<string>();
+  const pool = nodes
+    .filter((n) => n.featuredAt && n.name && !seen.has(n.name) && (seen.add(n.name), true))
+    .sort((a, b) => (b.votesCount ?? 0) - (a.votesCount ?? 0))
+    .slice(0, TOP_COUNT);
+
+  return pool.map((n, i) => ({
+    id: `ph-${key}-${i + 1}`,
+    date: (n.featuredAt ?? '').slice(0, 10),
+    rank: i + 1,
+    name: n.name,
+    tagline: n.tagline ?? '',
+    description: n.description ?? n.tagline ?? '',
+    category:
+      (n.topics?.edges ?? [])
+        .map((t: any) => t.node?.name)
+        .filter(Boolean)
+        .join(' • ') || 'General',
+    url: n.url ?? 'https://www.producthunt.com',
+    thumbnail: n.thumbnail?.url,
+    votes: n.votesCount ?? 0,
+    websiteUrl: n.website ?? '',
+    comments: [],
+  }));
 }
 
-async function getTodaysProducts(): Promise<Array<{ name: string; slug: string; phUrl: string; tagline: string; atomDescription: string }>> {
-  console.log('📡 Step 1: Fetching Atom feed for today\'s products...');
-  const res = await fetch(ATOM_URL, { headers: COMMON_HEADERS });
-  if (!res.ok) throw new Error(`Atom feed HTTP ${res.status}`);
-
-  const $ = cheerio.load(await res.text(), { xmlMode: true });
-  const items: Array<{ name: string; slug: string; phUrl: string; tagline: string; atomDescription: string }> = [];
-
-  $('entry').each((i, el) => {
-    if (items.length >= TOP_COUNT) return false;
-    const $el = $(el);
-    const name = $el.find('title').text().trim();
-    const rawUrl = $el.find('link[href]').first().attr('href') ?? '';
-    const content = $el.find('content').text().trim();
-    const tagline = cheerio.load(content)('p').first().text().trim() || name;
-
-    const slug = extractSlug(rawUrl);
-    if (!slug) return;
-
-    if (!items.some((item) => item.slug === slug)) {
-      items.push({
-        name,
-        slug,
-        phUrl: rawUrl,
-        tagline,
-        atomDescription: stripHtml(content),
-      });
-    }
-  });
-
-  console.log(`   ✅ Got ${items.length} today's products from Atom feed`);
-  return items;
-}
-
-async function enrichFromGraphQL(
-  token: string,
-  items: Array<{ name: string; slug: string; phUrl: string; tagline: string; atomDescription: string }>,
-  date: string,
-): Promise<Product[]> {
-  console.log('🔑 Step 2: Enriching with GraphQL API (votesCount, topics, comments)...');
-
-  const products: Product[] = [];
-
-  for (const item of items) {
+async function enrichWithDetails(token: string, products: Product[]): Promise<void> {
+  for (const p of products) {
     try {
-      const details = await fetchPostDetails(token, item.slug);
+      const slug = extractSlug(p.url);
+      if (!slug) continue;
 
-      if (!details) {
-        console.warn(`   ⚠️  No details for ${item.name}`);
-        continue;
-      }
+      const data = await gql(token, slugQuery(slug));
+      const post = data?.post;
+      if (!post) continue;
 
-      // Get real website URL
-      let websiteUrl = details.website ?? '';
+      // Real website URL
+      let websiteUrl = post.website ?? p.websiteUrl;
       if (websiteUrl.includes('producthunt.com/r/')) {
-        const realUrl = await getRealWebsiteUrl(websiteUrl);
-        if (!realUrl.includes('producthunt.com')) {
-          websiteUrl = realUrl;
-        }
+        const real = await getRealWebsiteUrl(websiteUrl);
+        if (!real.includes('producthunt.com')) websiteUrl = real;
       }
+      p.websiteUrl = websiteUrl;
 
-      // Use GraphQL description or fallback to Atom description
-      const description =
-        details.description?.trim() || item.atomDescription || details.tagline || item.tagline;
-
-      // Filter spam comments and use real username
-      const comments = (details.comments?.edges ?? [])
+      // Comments (spam-filtered)
+      p.comments = (post.comments?.edges ?? [])
         .map((c: any) => ({
           user: c.node?.user?.name || c.node?.user?.username || 'Hunter',
           text: stripHtml(c.node?.body ?? ''),
         }))
         .filter((c: PHComment) => c.text.length > 10 && !isSpamComment(c.text)) as PHComment[];
-
-      products.push({
-        id: `ph-${date}-${products.length + 1}`,
-        date,
-        rank: products.length + 1,
-        name: details.name ?? item.name,
-        tagline: details.tagline ?? item.tagline,
-        description,
-        category:
-          (details.topics?.edges ?? [])
-            .map((t: any) => t.node?.name)
-            .filter(Boolean)
-            .join(' • ') || 'General',
-        url: details.url ?? item.phUrl,
-        thumbnail: details.thumbnail?.url,
-        votes: details.votesCount ?? 0,
-        websiteUrl,
-        comments,
-      });
-
-      console.log(
-        `   ✅ ${details.name} — ${details.votesCount ?? 0} votes, ${(details.topics?.edges ?? []).length} topics, ${comments.length} comments`,
-      );
-    } catch (err) {
-      console.warn(`   ⚠️  Failed to enrich ${item.name}: ${err}`);
+    } catch {
+      // keep basic data
     }
-
-    await new Promise((resolve) => setTimeout(resolve, 300));
+    await new Promise((r) => setTimeout(r, 250));
   }
-
-  // Sort by votes descending
-  products.sort((a, b) => b.votes - a.votes);
-  products.forEach((p, i) => (p.rank = i + 1));
-
-  return products;
 }
 
-async function fetchViaAtomOnly(date: string): Promise<Product[]> {
-  console.log('📡 Fallback: Atom feed only (no API token)...');
+async function fetchViaAtom(date: string): Promise<Product[]> {
+  console.log('   📡 Atom feed fallback...');
   const res = await fetch(ATOM_URL, { headers: COMMON_HEADERS });
   if (!res.ok) throw new Error(`Atom feed HTTP ${res.status}`);
 
@@ -210,7 +202,7 @@ async function fetchViaAtomOnly(date: string): Promise<Product[]> {
     const tagline = cheerio.load(content)('p').first().text().trim();
 
     products.push({
-      id: `ph-${date}-${products.length + 1}`,
+      id: `ph-today-${products.length + 1}`,
       date,
       rank: products.length + 1,
       name: $el.find('title').text().trim(),
@@ -227,20 +219,30 @@ async function fetchViaAtomOnly(date: string): Promise<Product[]> {
   return products;
 }
 
-export async function scrapeProductHunt(date: string): Promise<Product[]> {
-  const token = process.env.PH_API_TOKEN;
-
+export async function scrapePeriod(
+  token: string | undefined,
+  key: PeriodKey,
+  date: string,
+): Promise<Product[]> {
   if (!token) {
-    console.warn('⚠️  PH_API_TOKEN not set, using Atom feed only');
-    return fetchViaAtomOnly(date);
+    if (key === 'today') return fetchViaAtom(date);
+    return [];
   }
 
   try {
-    const items = await getTodaysProducts();
-    if (items.length === 0) throw new Error('No products from Atom feed');
-    return await enrichFromGraphQL(token, items, date);
+    const products = await fetchPeriodList(token, key);
+    console.log(`   ✅ Got ${products.length} featured products`);
+
+    if (products.length < 3 && (key === 'today' || key === 'yesterday')) {
+      const atom = await fetchViaAtom(date);
+      if (atom.length > products.length) return atom;
+    }
+
+    await enrichWithDetails(token, products);
+    return products;
   } catch (err) {
-    console.warn(`⚠️  Combined approach failed (${err}), falling back to Atom only`);
-    return fetchViaAtomOnly(date);
+    console.warn(`   ⚠️  Period ${key} failed (${err})`);
+    if (key === 'today') return fetchViaAtom(date);
+    return [];
   }
 }
