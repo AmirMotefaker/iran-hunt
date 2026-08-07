@@ -23,6 +23,7 @@ export async function PATCH(req: NextRequest) {
   const city = String(b.city ?? '').slice(0, 40);
   const mobile = String(b.mobile ?? '').trim();
   const avatar = String(b.avatar ?? '');
+  const alerts = b.alerts === undefined ? undefined : !!b.alerts;
 
   if (mobile && !/^09\d{9}$/.test(mobile))
     return NextResponse.json({ error: 'شماره موبایل معتبر نیست (مثال: 09123456789)' }, { status: 400 });

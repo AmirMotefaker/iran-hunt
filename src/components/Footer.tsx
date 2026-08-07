@@ -36,6 +36,7 @@ export function Footer() {
               <li><Link href="/" className="transition hover:text-[#ff6154]">ایده‌های ترند</Link></li>
               <li><Link href="/categories" className="transition hover:text-[#ff6154]">دسته‌بندی‌ها</Link></li>
               <li><Link href="/about" className="transition hover:text-[#ff6154]">درباره ما</Link></li>
+              <li><Link href="/pricing" className="transition hover:text-[#ff6154]">پلن‌ها و قیمت‌ها</Link></li>
               <li><Link href="/login" className="transition hover:text-[#ff6154]">ورود / ثبت‌نام</Link></li>
             </ul>
           </div>

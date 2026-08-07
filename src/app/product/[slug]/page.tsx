@@ -1,6 +1,7 @@
 import { ArrowRight, Calendar, ExternalLink, Flame, User } from 'lucide-react';
 import Link from 'next/link';
 import { GatedContent } from '@/components/GatedContent';
+import { BookmarkButton } from '@/components/BookmarkButton';
 import { LikeButton } from '@/components/LikeButton';
 import { Screenshot } from '@/components/Screenshot';
 import { ShareButtons } from '@/components/ShareButtons';
@@ -95,7 +96,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             </div>
           </div>
           <div className="flex flex-col items-end gap-2">
-            <LikeButton slug={product.slug} />
+            <div className="flex items-center gap-2"><LikeButton slug={product.slug} /><BookmarkButton slug={product.slug} /></div>
             {product.websiteUrl && (
               <a href={product.websiteUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-xl bg-gray-900 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200">
                 <ExternalLink size={12} /> وب‌سایت رسمی

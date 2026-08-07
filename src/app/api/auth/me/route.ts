@@ -1,8 +1,13 @@
 import { NextResponse } from 'next/server';
-import { getSessionEmail } from '@/lib/auth-server';
+import { getSessionUser } from '@/lib/auth-server';
 
 export async function GET() {
-  const email = await getSessionEmail();
-  if (!email) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  return NextResponse.json({ email, isAdmin: email === process.env.ADMIN_EMAIL });
+  const user = await getSessionUser();
+  if (!user) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
+  return NextResponse.json({
+    email: user.email,
+    isAdmin: user.email === process.env.ADMIN_EMAIL,
+    plan: user.plan,
+    planExpiresAt: user.planExpiresAt,
+  });
 }

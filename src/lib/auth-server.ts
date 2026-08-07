@@ -1,6 +1,7 @@
 import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
 import { cookies } from 'next/headers';
 import sql from '@/lib/db';
+import type { PlanId } from '@/lib/plans';
 
 export function hashPassword(password: string): string {
   const salt = randomBytes(16).toString('hex');
@@ -23,10 +24,7 @@ export async function createSession(email: string): Promise<void> {
   await sql`INSERT INTO sessions (token, email) VALUES (${token}, ${email})`;
   const store = await cookies();
   store.set('ih_session', token, {
-    httpOnly: true,
-    secure: true,
-    sameSite: 'lax',
-    path: '/',
+    httpOnly: true, secure: true, sameSite: 'lax', path: '/',
     maxAge: 60 * 60 * 24 * 30,
   });
 }
@@ -44,4 +42,22 @@ export async function deleteSession(): Promise<void> {
   const token = store.get('ih_session')?.value;
   if (token) await sql`DELETE FROM sessions WHERE token = ${token}`;
   store.delete('ih_session');
+}
+
+export interface SessionUser {
+  email: string;
+  plan: PlanId;
+  planExpiresAt: string | null;
+}
+
+// پلن فعال کاربر (اگه اشتراک منقضی شده باشه -> free)
+export async function getSessionUser(): Promise<SessionUser | null> {
+  const email = await getSessionEmail();
+  if (!email) return null;
+  const rows = await sql`SELECT plan, plan_expires_at FROM users WHERE email=${email}`;
+  if (!rows.length) return { email, plan: 'free', planExpiresAt: null };
+  let plan = (rows[0].plan as PlanId) || 'free';
+  const exp = rows[0].plan_expires_at ? new Date(rows[0].plan_expires_at) : null;
+  if (plan !== 'free' && (!exp || exp.getTime() < Date.now())) plan = 'free';
+  return { email, plan, planExpiresAt: exp ? exp.toISOString() : null };
 }
