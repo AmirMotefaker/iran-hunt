@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.2...v1.9.3) (2026-08-07)
+
+
+### Bug Fixes
+
+* prevent neon() crash in CI builds without DATABASE_URL ([8a51b52](https://github.com/AmirMotefaker/iran-hunt/commit/8a51b5255d56f68c7013fafea3aac75923f81350))
+
 ## [1.9.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.1...v1.9.2) (2026-08-06)
 
 
