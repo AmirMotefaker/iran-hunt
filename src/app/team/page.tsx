@@ -14,7 +14,7 @@ export default function TeamPage() {
     (async () => {
       const u = await me();
       if (!u?.email) { window.location.href = '/login?next=/team'; return; }
-      setPlan(u.plan);
+      setPlan(u.plan ?? 'free');
       const res = await fetch('/api/team/key');
       if (res.ok) setApiKey((await res.json()).apiKey);
       else setError('این بخش مخصوص پلن تیم و سازمان است.');

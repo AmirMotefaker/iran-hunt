@@ -27,7 +27,7 @@ export default function DashboardPage() {
     (async () => {
       const u = await me();
       if (!u?.email) { window.location.href = '/login?next=/dashboard'; return; }
-      setPlan(u.plan); setExpires(u.planExpiresAt);
+      setPlan(u.plan ?? 'free'); setExpires(u.planExpiresAt ?? null);
       const res = await fetch('/api/profile');
       if (!res.ok) return;
       const j = await res.json();
