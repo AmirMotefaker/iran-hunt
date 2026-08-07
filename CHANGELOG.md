@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.10.0...v1.10.1) (2026-08-07)
+
+
+### Bug Fixes
+
+* add plan to MeResult + create pricing page folder ([f81cfea](https://github.com/AmirMotefaker/iran-hunt/commit/f81cfea8ba9ae64eb3d26a5ee98b3859e89b1e35))
+
 # [1.10.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.3...v1.10.0) (2026-08-07)
 
 
