@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.3...v1.10.0) (2026-08-07)
+
+
+### Features
+
+* pricing page + ZarinPal payment + plan gating + bookmarks + insights + team API ([c279f3c](https://github.com/AmirMotefaker/iran-hunt/commit/c279f3cfd7e45c9f3b9463ed110b098309dec67f))
+
 ## [1.9.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.9.2...v1.9.3) (2026-08-07)
 
 
