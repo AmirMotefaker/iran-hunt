@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.10.1...v1.10.2) (2026-08-07)
+
+
+### Bug Fixes
+
+* default values for plan state ([db7411a](https://github.com/AmirMotefaker/iran-hunt/commit/db7411a6ec5dbc6513455c4961a4ede1125ce3a6))
+
 ## [1.10.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.10.0...v1.10.1) (2026-08-07)
 
 
