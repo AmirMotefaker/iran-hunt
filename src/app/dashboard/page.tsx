@@ -6,10 +6,18 @@ import { useEffect, useRef, useState } from 'react';
 import { me } from '@/lib/auth-client';
 import { CITIES } from '@/lib/cities';
 import { PROVINCES } from '@/lib/provinces';
-import { PLANS, toman } from '@/lib/plans';
+import { PLANS } from '@/lib/plans';
 
-const fa = (iso: string) =>
-  new Intl.DateTimeFormat('fa-IR', { dateStyle: 'full', timeStyle: 'short' }).format(new Date(iso));
+const faFull = (iso: string) => {
+  const d = new Date(iso);
+  const dayName = new Intl.DateTimeFormat('fa-IR', { weekday: 'long' }).format(d);
+  const date = new Intl.DateTimeFormat('fa-IR', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+  const time = new Intl.DateTimeFormat('fa-IR', { hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
+  return `${dayName}، ${date}، ساعت ${time}`;
+};
+
+const inputCls = 'w-full rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white';
+const labelCls = 'mb-1 block text-xs font-bold text-gray-500 dark:text-gray-400';
 
 export default function DashboardPage() {
   const [profile, setProfile] = useState<any>(null);
@@ -37,7 +45,8 @@ export default function DashboardPage() {
       setForm({
         first_name: j.profile.first_name ?? '', last_name: j.profile.last_name ?? '',
         province: j.profile.province ?? '', city: j.profile.city ?? '',
-        mobile: j.profile.mobile ?? '', avatar: j.profile.avatar ?? '', company: j.profile.company ?? '', role: j.profile.role ?? '', expertise: j.profile.expertise ?? '',
+        mobile: j.profile.mobile ?? '', avatar: j.profile.avatar ?? '',
+        company: j.profile.company ?? '', role: j.profile.role ?? '', expertise: j.profile.expertise ?? '',
       });
       const b = await fetch('/api/bookmarks').then((x) => x.json());
       setBookmarks(b.bookmarks ?? []);
@@ -73,7 +82,7 @@ export default function DashboardPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-12">
       <h1 className="text-2xl font-black text-gray-900 dark:text-white">👤 داشبورد من</h1>
-      <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">عضو ایده‌جو از: <b>{fa(profile.created_at)}</b></p>
+      <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">عضو ایده‌جو از: <b>{faFull(profile.created_at)}</b></p>
 
       {/* کارت پلن */}
       <div className="mt-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-900">
@@ -83,23 +92,26 @@ export default function DashboardPage() {
               <Crown size={18} className="text-[#ff6154]" /> پلن {planDef.fa}
             </p>
             <p className="mt-1 text-xs font-bold text-gray-500 dark:text-gray-400">
-              {plan === 'free' ? 'رایگان برای همیشه' : expires ? `اعتبار تا ${fa(expires)}` : ''}
+              {plan === 'free'
+                ? 'رایگان برای همیشه — بدون انقضا'
+                : expires
+                  ? `اعتبار تا ${faFull(expires)}`
+                  : 'بدون انقضا ♾️ (دسترسی کامل بنیان‌گذار)'}
             </p>
           </div>
           <div className="flex gap-2">
             {plan !== 'team' && (
-              <Link href="/pricing" className="rounded-xl bg-[#ff6154] px-4 py-2 text-xs font-black text-white hover:bg-[#e5544a]"> ارتقا پلن</Link>
+              <Link href="/pricing" className="rounded-xl bg-[#ff6154] px-4 py-2 text-xs font-black text-white hover:bg-[#e5544a]">ارتقا پلن ⬆</Link>
             )}
-            {plan === 'investor' || plan === 'team' ? (
+            {(plan === 'investor' || plan === 'team') && (
               <Link href="/insights" className="rounded-xl bg-indigo-600 px-4 py-2 text-xs font-black text-white">📊 هوش رقابتی</Link>
-            ) : null}
+            )}
             {plan === 'team' && (
               <Link href="/team" className="rounded-xl bg-purple-600 px-4 py-2 text-xs font-black text-white">👥 فضای تیمی</Link>
             )}
           </div>
         </div>
 
-        {/* هشدار روزانه (Pro+) */}
         <div className="mt-4 flex items-center justify-between rounded-2xl bg-gray-50 px-4 py-3 dark:bg-gray-800">
           <p className="flex items-center gap-2 text-sm font-bold text-gray-700 dark:text-gray-200">
             <Bell size={15} className="text-[#ff6154]" /> هشدار روزانه ایده‌های حوزه من (۱۷:۰۰)
@@ -136,6 +148,7 @@ export default function DashboardPage() {
       {/* پروفایل */}
       <div className="mt-8 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-900">
         <h2 className="font-extrabold text-gray-800 dark:text-gray-100">ویرایش پروفایل</h2>
+
         <div className="mt-5 flex items-center gap-4">
           {form.avatar ? (
             // eslint-disable-next-line @next/next/no-img-element
@@ -151,19 +164,45 @@ export default function DashboardPage() {
           <input ref={fileRef} type="file" accept="image/*" className="hidden" onChange={(e) => onFile(e.target.files?.[0] ?? null)} />
         </div>
 
-        <div className="mt-5 grid gap-3 sm:grid-cols-2">
-          <input value={form.first_name} onChange={(e) => setForm({ ...form, first_name: e.target.value })} placeholder="نام" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
-          <input value={form.last_name} onChange={(e) => setForm({ ...form, last_name: e.target.value })} placeholder="نام خانوادگی" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
-          <select value={form.province} onChange={(e) => setForm({ ...form, province: e.target.value })} className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
-            <option value="">استان…</option>
-            {PROVINCES.map((p) => <option key={p} value={p}>{p}</option>)}
-          </select>
-          <select value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white"><option value="">شهر…</option>{(CITIES[form.province] ?? []).map((ct) => <option key={ct} value={ct}>{ct}</option>)}</select>
-          <input value={form.mobile} onChange={(e) => setForm({ ...form, mobile: e.target.value })} placeholder="09xxxxxxxxx" dir="ltr" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
-          <input value={form.company} onChange={(e) => setForm({ ...form, company: e.target.value })} placeholder="نام شرکت / استارتاپ" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
-          <input value={form.role} onChange={(e) => setForm({ ...form, role: e.target.value })} placeholder="سمت (مثلاً بنیان‌گذار، مدیر محصول)" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
-          <input value={form.expertise} onChange={(e) => setForm({ ...form, expertise: e.target.value })} placeholder="تخصص (مثلاً فرانت‌اند، مارکتینگ)" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
-          <input value={profile.email} disabled className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm text-gray-400 dark:border-gray-700 dark:bg-gray-800" dir="ltr" />
+        <div className="mt-5 grid gap-4 sm:grid-cols-2">
+          <div>
+            <label className={labelCls}>نام</label>
+            <input value={form.first_name} onChange={(e) => setForm({ ...form, first_name: e.target.value })} className={inputCls} />
+          </div>
+          <div>
+            <label className={labelCls}>نام خانوادگی</label>
+            <input value={form.last_name} onChange={(e) => setForm({ ...form, last_name: e.target.value })} className={inputCls} />
+          </div>
+          <div>
+            <label className={labelCls}>استان</label>
+            <select value={form.province} onChange={(e) => setForm({ ...form, province: e.target.value, city: '' })} className={inputCls}>
+              <option value="">انتخاب استان…</option>
+              {PROVINCES.map((p) => <option key={p} value={p}>{p}</option>)}
+            </select>
+          </div>
+          <div>
+            <label className={labelCls}>شهر</label>
+            <select value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} className={inputCls} disabled={!form.province}>
+              <option value="">{form.province ? 'انتخاب شهر…' : 'اول استان را انتخاب کنید'}</option>
+              {(CITIES[form.province] ?? []).map((ct) => <option key={ct} value={ct}>{ct}</option>)}
+            </select>
+          </div>
+          <div>
+            <label className={labelCls}>موبایل</label>
+            <input value={form.mobile} onChange={(e) => setForm({ ...form, mobile: e.target.value })} placeholder="09xxxxxxxxx" dir="ltr" className={inputCls} />
+          </div>
+          <div>
+            <label className={labelCls}>نام شرکت / استارتاپ</label>
+            <input value={form.company} onChange={(e) => setForm({ ...form, company: e.target.value })} className={inputCls} />
+          </div>
+          <div>
+            <label className={labelCls}>سمت</label>
+            <input value={form.role} onChange={(e) => setForm({ ...form, role: e.target.value })} placeholder="مثلاً بنیان‌گذار، مدیر محصول" className={inputCls} />
+          </div>
+          <div>
+            <label className={labelCls}>تخصص</label>
+            <input value={form.expertise} onChange={(e) => setForm({ ...form, expertise: e.target.value })} placeholder="مثلاً فرانت‌اند، مارکتینگ" className={inputCls} />
+          </div>
         </div>
 
         {msg && <p className="mt-3 text-xs font-bold text-[#ff6154]">{msg}</p>}
