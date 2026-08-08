@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { faDigits } from '@/lib/plans';
 
-interface Row { email: string; created_at: string; first_name: string; last_name: string; province: string; city: string; mobile: string; }
+interface Row { email: string; created_at: string; first_name: string; last_name: string; province: string; city: string; mobile: string; company: string; role: string; expertise: string; }
 
 // فرمت تاریخ شمسی حرفه‌ای: «پنجشنبه، ۱۵ مرداد ۱۴۰۵، ساعت ۱۴:۵۸»
 const toPersianDigits = (s: string) => s.replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d]);
@@ -63,6 +64,7 @@ export default function CrmPage() {
                 <th className="p-4">#</th>
                 <th className="p-4">نام</th>
                 <th className="p-4">ایمیل</th>
+                <th className="p-4">شرکت / سمت</th>
                 <th className="p-4">موبایل</th>
                 <th className="p-4">استان / شهر</th>
                 <th className="p-4">تاریخ عضویت</th>
@@ -74,7 +76,8 @@ export default function CrmPage() {
                   <td className="p-4 font-bold text-gray-400">{(i + 1).toLocaleString('fa-IR')}</td>
                   <td className="p-4 font-bold text-gray-800 dark:text-white">{r.first_name || r.last_name ? `${r.first_name} ${r.last_name}`.trim() : '—'}</td>
                   <td className="p-4 font-bold" dir="ltr">{r.email}</td>
-                  <td className="p-4" dir="ltr">{r.mobile || '—'}</td>
+                  <td className="p-4 text-gray-600 dark:text-gray-300">{r.company || '—'}{r.role ?  ·  : ''}</td>
+                  <td className="p-4">{r.mobile ? faDigits(r.mobile) : '—'}</td>
                   <td className="p-4">{r.province || '—'}{r.city ? `، ${r.city}` : ''}</td>
                   <td className="p-4 text-xs text-gray-600 dark:text-gray-300">{formatShamsiFull(r.created_at)}</td>
                 </tr>

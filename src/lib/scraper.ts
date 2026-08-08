@@ -150,7 +150,8 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
   for (const p of products) {
     try {
       if (!p.slug) continue;
-      const data = await gql(token, slugQuery(p.slug));
+      let data: any;
+      try { data = await gql(token, slugQuery(p.slug, true)); } catch { data = await gql(token, slugQuery(p.slug, false)); }
       const post = data?.post;
       if (!post) continue;
 
@@ -160,6 +161,7 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
         if (!real.includes('producthunt.com')) websiteUrl = real;
       }
       p.websiteUrl = websiteUrl;
+      p.makerTwitter = post.makers?.[0]?.twitter ?? p.makerTwitter ?? '';
       if (post.description && post.description.length > (p.description?.length ?? 0)) {
         p.longDescription = post.description;
       }

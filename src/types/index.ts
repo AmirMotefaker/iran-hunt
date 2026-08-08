@@ -46,6 +46,8 @@ export interface Product {
   websiteUrl: string;
   comments?: PHComment[];
   faComments?: PHComment[];
+  makerTwitter?: string;
+  aiReview?: string;
   iranEquivalent?: IranEquivalent;
 }
 

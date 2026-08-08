@@ -5,7 +5,7 @@ import sql from '@/lib/db';
 export async function GET() {
   const email = await getSessionEmail();
   if (!email) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  const rows = await sql`SELECT email, first_name, last_name, province, city, mobile, avatar, created_at FROM users WHERE email=${email}`;
+  const rows = await sql`SELECT email, first_name, last_name, province, city, mobile, avatar, company, role, expertise, alerts, created_at FROM users WHERE email=${email}`;
   if (!rows.length) return NextResponse.json({ error: 'not found' }, { status: 404 });
   const likes = await sql`SELECT count(*)::int AS n FROM likes WHERE email=${email}`;
   const comments = await sql`SELECT count(*)::int AS n FROM comments WHERE email=${email}`;
@@ -23,6 +23,9 @@ export async function PATCH(req: NextRequest) {
   const city = String(b.city ?? '').slice(0, 40);
   const mobile = String(b.mobile ?? '').trim();
   const avatar = String(b.avatar ?? '');
+  const company = String(b.company ?? '').slice(0, 80);
+  const role = String(b.role ?? '').slice(0, 80);
+  const expertise = String(b.expertise ?? '').slice(0, 80);
   const alerts = b.alerts === undefined ? undefined : !!b.alerts;
 
   if (mobile && !/^09\d{9}$/.test(mobile))
@@ -30,6 +33,6 @@ export async function PATCH(req: NextRequest) {
   if (avatar && (!avatar.startsWith('data:image/') || avatar.length > 400000))
     return NextResponse.json({ error: 'تصویر پروفایل معتبر نیست' }, { status: 400 });
 
-  await sql`UPDATE users SET first_name=${first_name}, last_name=${last_name}, province=${province}, city=${city}, mobile=${mobile}, avatar=${avatar || ''} WHERE email=${email}`;
+  await sql`UPDATE users SET first_name=${first_name}, last_name=${last_name}, province=${province}, city=${city}, mobile=${mobile}, avatar=${avatar || ''}, company=${company}, role=${role}, expertise=${expertise}, alerts=COALESCE(${alerts}, alerts) WHERE email=${email}`;
   return NextResponse.json({ ok: true });
 }

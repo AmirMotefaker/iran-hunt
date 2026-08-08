@@ -35,6 +35,7 @@ for (const { key, en } of PERIODS) {
       p.faDescription = ai.faDescription;
       p.faComments = ai.faComments;
       p.iranEquivalent = ai.iranEquivalent;
+        p.aiReview = ai.aiReview;
       aiCache.set(p.name, ai);
       await new Promise((r) => setTimeout(r, 2000));
     }

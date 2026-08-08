@@ -1,5 +1,6 @@
 import { ArrowRight, Calendar, ExternalLink, Flame, User } from 'lucide-react';
 import Link from 'next/link';
+import { AiReview } from '@/components/AiReview';
 import { GatedContent } from '@/components/GatedContent';
 import { BookmarkButton } from '@/components/BookmarkButton';
 import { LikeButton } from '@/components/LikeButton';
@@ -154,6 +155,37 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div className="rounded-2xl border border-gray-200 bg-gray-50/50 p-4 dark:border-gray-700 dark:bg-gray-800/50">
             <ShareButtons url={`/product/${product.slug}`} name={product.name} />
           </div>
+
+                    {product.aiReview && <AiReview text={product.aiReview} />}
+
+          {(product.websiteUrl || product.makerTwitter || product.url) && (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-bold text-gray-500 dark:text-gray-400">لینک‌های رسمی:</span>
+              {product.websiteUrl && (
+                <a href={product.websiteUrl} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🌐 وب‌سایت رسمی</a>
+              )}
+              {product.makerTwitter && (
+                <a href={https://twitter.com/} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🐦 توییتر سازنده</a>
+              )}
+              {product.url && (
+                <a href={product.url} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🚀 صفحه ProductHunt</a>
+              )}
+            </div>
+          )}
+
+          {product.faComments && product.faComments.length > 0 && (
+            <div className="rounded-2xl bg-gray-50 p-5 dark:bg-gray-800/50">
+              <h4 className="font-extrabold text-gray-800 dark:text-gray-100">💬 نظرات جامعه ProductHunt (ترجمه فارسی)</h4>
+              <ul className="mt-3 space-y-3">
+                {product.faComments.map((cm, i) => (
+                  <li key={i} className="rounded-2xl bg-white p-4 shadow-sm dark:bg-gray-900">
+                    <span className="block text-xs font-black text-[#ff6154]">{cm.user}</span>
+                    <span className="text-sm leading-7 text-gray-700 dark:text-gray-200">{cm.text}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           <UserComments slug={product.slug} />
         </div>

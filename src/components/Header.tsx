@@ -1,6 +1,6 @@
 'use client';
 
-import { Compass, Crown, Home, LayoutGrid, LogOut, Moon, ShieldCheck, Sun, TrendingUp, User } from 'lucide-react';
+import { Compass, Crown, Home, LayoutGrid, LogOut, Moon, Search, ShieldCheck, Sun, User } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
@@ -9,19 +9,77 @@ import { CATEGORY_TREE, slugifyMainCategory } from '@/lib/categoryTree';
 import { Logo } from './Logo';
 import { useTheme } from './ThemeProvider';
 
+function SearchBox() {
+  const [q, setQ] = useState('');
+  const [res, setRes] = useState<any[]>([]);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (q.trim().length < 2) { setRes([]); setOpen(false); return; }
+    const t = setTimeout(async () => {
+      const r = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
+      const j = await r.json();
+      setRes(j.results ?? []);
+      setOpen(true);
+    }, 250);
+    return () => clearTimeout(t);
+  }, [q]);
+
+  return (
+    <div className="relative hidden lg:block">
+      <Search size={15} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" />
+      <input
+        value={q}
+        onChange={(e) => setQ(e.target.value)}
+        placeholder="جستجوی ایده یا محصول…"
+        className="w-56 rounded-xl border border-gray-200 bg-gray-50 py-2 pl-3 pr-9 text-sm text-gray-800 focus:border-[#ff6154] focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100"
+      />
+      {open && res.length > 0 && (
+        <div className="absolute right-0 top-full z-50 mt-2 w-80 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-2xl dark:border-gray-700 dark:bg-gray-900">
+          {res.map((r) => (
+            <Link key={r.slug} href={`/product/${r.slug}`} onClick={() => { setOpen(false); setQ(''); }} className="flex items-center gap-3 px-4 py-2.5 transition hover:bg-orange-50 dark:hover:bg-gray-800">
+              {r.thumbnail ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={r.thumbnail} alt={r.name} className="h-8 w-8 rounded-lg object-cover" />
+              ) : (
+                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ff6154]/10 text-xs font-black text-[#ff6154]">{(r.name ?? '؟').slice(0, 1)}</span>
+              )}
+              <span className="flex-1 truncate text-sm font-bold text-gray-800 dark:text-gray-100" dir="ltr">{r.name}</span>
+              <span className="text-xs font-black text-[#ff6154]">{r.votes.toLocaleString('fa-IR')} 🔥</span>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function Header() {
-  const [email, setEmail] = useState<string | null>(null);
+  const [prof, setProf] = useState<{ email: string; name: string; avatar: string } | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [catOpen, setCatOpen] = useState(false);
   const closeTimer = useRef<any>(null);
   const pathname = usePathname();
   const { theme, toggle } = useTheme();
 
+  // با هر تغییر مسیر (مثل لاگین) دوباره پروفایل رو می‌خونه → بدون نیاز به ریفرش
   useEffect(() => {
-    me().then((r) => {
-      if (r) { setEmail(r.email); setIsAdmin(!!r.isAdmin); }
-    });
-  }, []);
+    (async () => {
+      const u = await me();
+      if (!u?.email) { setProf(null); setIsAdmin(false); return; }
+      setIsAdmin(!!u.isAdmin);
+      try {
+        const r = await fetch('/api/profile');
+        if (r.ok) {
+          const j = await r.json();
+          const full = [j.profile.first_name, j.profile.last_name].filter(Boolean).join(' ');
+          setProf({ email: u.email, name: full || u.email, avatar: j.profile.avatar ?? '' });
+          return;
+        }
+      } catch {}
+      setProf({ email: u.email, name: u.email, avatar: '' });
+    })();
+  }, [pathname]);
 
   const openMenu = () => { clearTimeout(closeTimer.current); setCatOpen(true); };
   const scheduleClose = () => { closeTimer.current = setTimeout(() => setCatOpen(false), 250); };
@@ -34,17 +92,15 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-xl dark:border-gray-800 dark:bg-gray-950/95">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <div className="flex items-center gap-8">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4">
+        <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center gap-2.5">
             <Logo size={34} />
             <span className="text-lg font-black tracking-tight text-gray-900 dark:text-white">ایده‌جو</span>
           </Link>
 
           <nav className="hidden items-center gap-1 md:flex">
-            <Link href="/" className={navCls(pathname === '/')}>
-              <Home size={15} /> خانه
-            </Link>
+            <Link href="/" className={navCls(pathname === '/')}><Home size={15} /> خانه</Link>
 
             <div className="relative" onMouseEnter={openMenu} onMouseLeave={scheduleClose}>
               <button type="button" onClick={() => { if (catOpen) setCatOpen(false); else window.location.href = '/categories'; }} className={navCls(pathname.startsWith('/category') || pathname.startsWith('/main-category') || pathname === '/categories')}>
@@ -68,17 +124,8 @@ export function Header() {
               )}
             </div>
 
-            <Link href="/pricing" className={navCls(pathname === '/pricing')}>
-              <Crown size={15} /> پلن‌ها
-            </Link>
-            <Link href="/about" className={navCls(pathname === '/about')}>
-              <Compass size={15} /> درباره ما
-            </Link>
-            {email && (
-              <Link href="/dashboard" className={navCls(pathname === '/dashboard')}>
-                <TrendingUp size={15} /> داشبورد من
-              </Link>
-            )}
+            <Link href="/pricing" className={navCls(pathname === '/pricing')}><Crown size={15} /> پلن‌ها</Link>
+            <Link href="/about" className={navCls(pathname === '/about')}><Compass size={15} /> درباره ما</Link>
             {isAdmin && (
               <Link href="/crm" className={`flex items-center gap-1.5 rounded-xl px-3.5 py-2 text-sm font-bold transition ${pathname === '/crm' ? 'bg-[#ff6154] text-white' : 'text-[#ff6154] hover:bg-orange-50 dark:hover:bg-orange-900/20'}`}>
                 <ShieldCheck size={15} /> CRM
@@ -88,13 +135,28 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-2">
+          <SearchBox />
           <button onClick={toggle} title={theme === 'dark' ? 'حالت روشن' : 'حالت تیره'} className="rounded-xl p-2 text-gray-700 transition hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800">
             {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-          {email ? (
-            <button onClick={doLogout} className="flex items-center gap-1 rounded-xl border border-gray-300 px-3 py-1.5 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800">
-              <LogOut size={13} /> خروج
-            </button>
+
+          {prof ? (
+            <>
+              <Link href="/dashboard" title={prof.name} className="flex items-center gap-2 rounded-xl border border-gray-200 py-1 pl-3 pr-1 transition hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+                {prof.avatar ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={prof.avatar} alt={prof.name} className="h-8 w-8 rounded-lg object-cover" />
+                ) : (
+                  <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ff6154]/10 text-sm font-black text-[#ff6154]">
+                    {prof.name.slice(0, 1)}
+                  </span>
+                )}
+                <span className="hidden max-w-[110px] truncate text-xs font-bold text-gray-700 dark:text-gray-200 sm:block">{prof.name}</span>
+              </Link>
+              <button onClick={doLogout} className="flex items-center gap-1 rounded-xl border border-gray-300 px-3 py-1.5 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800">
+                <LogOut size={13} /> خروج
+              </button>
+            </>
           ) : (
             <Link href="/login" className="flex items-center gap-1.5 rounded-xl bg-[#ff6154] px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-[#e5544a]">
               <User size={15} /> ورود / ثبت‌نام

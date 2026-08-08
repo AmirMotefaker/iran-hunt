@@ -4,6 +4,7 @@ import { Bell, Bookmark, Camera, Crown, Heart, MessageCircle, Save } from 'lucid
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { me } from '@/lib/auth-client';
+import { CITIES } from '@/lib/cities';
 import { PROVINCES } from '@/lib/provinces';
 import { PLANS, toman } from '@/lib/plans';
 
@@ -18,7 +19,7 @@ export default function DashboardPage() {
   const [expires, setExpires] = useState<string | null>(null);
   const [bookmarks, setBookmarks] = useState<any[]>([]);
   const [alerts, setAlerts] = useState(false);
-  const [form, setForm] = useState({ first_name: '', last_name: '', province: '', city: '', mobile: '', avatar: '' });
+  const [form, setForm] = useState({ first_name: '', last_name: '', province: '', city: '', mobile: '', avatar: '', company: '', role: '', expertise: '' });
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState('');
   const fileRef = useRef<HTMLInputElement>(null);
@@ -36,7 +37,7 @@ export default function DashboardPage() {
       setForm({
         first_name: j.profile.first_name ?? '', last_name: j.profile.last_name ?? '',
         province: j.profile.province ?? '', city: j.profile.city ?? '',
-        mobile: j.profile.mobile ?? '', avatar: j.profile.avatar ?? '',
+        mobile: j.profile.mobile ?? '', avatar: j.profile.avatar ?? '', company: j.profile.company ?? '', role: j.profile.role ?? '', expertise: j.profile.expertise ?? '',
       });
       const b = await fetch('/api/bookmarks').then((x) => x.json());
       setBookmarks(b.bookmarks ?? []);
@@ -157,8 +158,11 @@ export default function DashboardPage() {
             <option value="">استان…</option>
             {PROVINCES.map((p) => <option key={p} value={p}>{p}</option>)}
           </select>
-          <input value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} placeholder="شهر" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
+          <select value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white"><option value="">شهر…</option>{(CITIES[form.province] ?? []).map((ct) => <option key={ct} value={ct}>{ct}</option>)}</select>
           <input value={form.mobile} onChange={(e) => setForm({ ...form, mobile: e.target.value })} placeholder="09xxxxxxxxx" dir="ltr" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
+          <input value={form.company} onChange={(e) => setForm({ ...form, company: e.target.value })} placeholder="نام شرکت / استارتاپ" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
+          <input value={form.role} onChange={(e) => setForm({ ...form, role: e.target.value })} placeholder="سمت (مثلاً بنیان‌گذار، مدیر محصول)" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
+          <input value={form.expertise} onChange={(e) => setForm({ ...form, expertise: e.target.value })} placeholder="تخصص (مثلاً فرانت‌اند، مارکتینگ)" className="rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white" />
           <input value={profile.email} disabled className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2.5 text-sm text-gray-400 dark:border-gray-700 dark:bg-gray-800" dir="ltr" />
         </div>
 

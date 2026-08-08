@@ -4,150 +4,64 @@ export interface AIAnalysis {
   faDescription: string;
   faComments: PHComment[];
   iranEquivalent: IranEquivalent;
+  aiReview: string;
 }
 
-const EMPTY: AIAnalysis = {
-  faDescription: '',
-  faComments: [],
-  iranEquivalent: {
-    productName: 'نامشخص',
-    description: '',
-    marketOpportunity: '',
-    estimatedBudget: '',
-    targetAudience: '',
-    challenges: [],
-    monetization: [],
-    techStack: [],
-    confidence: 0,
-  },
-};
+const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-
-async function callGroq(apiKey: string, prompt: string, retries = 2): Promise<string> {
-  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
-
-  for (const model of models) {
-    for (let attempt = 0; attempt < retries; attempt++) {
-      try {
-        const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${apiKey}`,
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126.0.0.0',
-          },
-          body: JSON.stringify({
-            model,
-            messages: [
-              {
-                role: 'system',
-                content: 'You are a startup advisor and professional English-to-Persian translator. Respond ONLY with valid JSON. No markdown, no explanation.',
-              },
-              { role: 'user', content: prompt },
-            ],
-            temperature: 0.7,
-            max_tokens: 2000,
-            response_format: { type: 'json_object' },
-          }),
-        });
-
-        if (response.status === 429) {
-          const wait = Math.pow(2, attempt) * 3000;
-          console.warn(`      ⏳ Rate limit (${model}), waiting ${wait / 1000}s...`);
-          await sleep(wait);
-          continue;
-        }
-
-        if (!response.ok) {
-          const errText = await response.text();
-          console.warn(`      ⚠️ ${model} HTTP ${response.status}: ${errText.slice(0, 80)}`);
-          break;
-        }
-
-        const json = (await response.json()) as any;
-        const content = json.choices?.[0]?.message?.content ?? '{}';
-        console.log(`      ✅ ${model}`);
-        return content;
-      } catch (err: any) {
-        if (attempt < retries - 1) {
-          await sleep(Math.pow(2, attempt) * 1000);
-        } else {
-          break;
-        }
-      }
-    }
-  }
-  throw new Error('Groq failed');
+function cleanJson(text: string): string {
+  return text.replace(/```json/gi, '').replace(/```/g, '').trim();
 }
 
-export async function analyzeProduct(product: Product): Promise<AIAnalysis> {
+export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
   const key = process.env.GROQ_API_KEY;
-  if (!key) {
-    console.warn('⚠️  GROQ_API_KEY not set — skipping AI (will be filled by GitHub Actions)');
-    return EMPTY;
-  }
+  if (!key) throw new Error('GROQ_API_KEY not set');
 
-  const commentsText = (product.comments ?? [])
-    .slice(0, 3)
-    .map((c) => `[${c.user}]: ${c.text.slice(0, 150)}`)
-    .join('\n');
+  const commentsEn = (p.comments ?? []).slice(0, 5).map((c) => `${c.user}: ${c.text}`).join('\n');
 
-  const prompt = `Analyze this ProductHunt product for the Iranian market:
+  const prompt = `تو یک تحلیل‌گر ارشد استارتاپ هستی. برای محصول زیر خروجی JSON فارسی بده.
 
-NAME: ${product.name}
-TAGLINE: ${product.tagline}
-DESCRIPTION: ${product.description.slice(0, 500)}
-CATEGORY: ${product.category}
-COMMENTS:
-${commentsText || '(none)'}
+نام: ${p.name}
+تگلاین: ${p.tagline}
+توضیحات: ${(p.description ?? '').slice(0, 800)}
+نظرات کاربران ProductHunt:
+${commentsEn || '—'}
 
-Tasks:
-1. Translate description to fluent Persian.
-2. Translate 3 best comments to fluent Persian, keeping usernames.
-3. Suggest an Iranian equivalent startup (consider Shaparak, Persian/RTL, local culture).
-4. Format estimatedBudget like "۵۰۰ میلیون تومان".
-
-Return ONLY valid JSON:
+خروجی دقیقاً یک JSON با این فیلدها (بدون توضیح اضافه):
 {
-  "faDescription": "توضیح روان فارسی",
-  "faComments": [{"user": "username", "text": "ترجمه"}],
+  "faDescription": "ترجمه روان و دقیق توضیحات محصول به فارسی (۲-۳ جمله)",
+  "faComments": [{"user": "نام کاربر", "text": "ترجمه روان و دقیق نظر به فارسی"}],
   "iranEquivalent": {
-    "productName": "نام فارسی",
-    "description": "توضیح مشابه ایرانی",
-    "marketOpportunity": "فرصت بازار",
-    "estimatedBudget": "۵۰۰ میلیون تومان",
-    "targetAudience": "مخاطب",
-    "challenges": ["چالش۱","چالش۲","چالش۳"],
-    "monetization": ["روش۱","روش۲"],
-    "techStack": ["تک۱","تک۲"],
-    "confidence": 85
-  }
+    "productName": "نام نزدیک‌ترین محصول/استارتاپ ایرانی مشابه (یا پیشنهاد ساخت)",
+    "description": "توضیح نسخه ایرانی",
+    "marketOpportunity": "فرصت بازار در ایران",
+    "estimatedBudget": "بودجه تقریبی ساخت (تومان)",
+    "targetAudience": "مخاطب هدف در ایران",
+    "challenges": ["چالش ۱", "چالش ۲"],
+    "monetization": ["روش درآمد ۱"],
+    "techStack": ["تکنولوژی ۱"],
+    "confidence": 75
+  },
+  "aiReview": "یک تحلیل جذاب، کامل، دقیق و فنی از این محصول به فارسی (۴-۶ جمله): معماری و تکنولوژی احتمالی، مدل درآمدی، نقاط قوت و ضعف فنی، و چرا ترند شده."
 }`;
 
-  try {
-    const content = await callGroq(key, prompt);
-    const match = content.match(/\{[\s\S]*\}/);
-    const p = JSON.parse(match ? match[0] : '{}');
+  const res = await fetch(GROQ_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+    body: JSON.stringify({
+      model: 'llama-3.3-70b-versatile',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.6,
+    }),
+  });
+  if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
+  const json = await res.json();
+  const parsed = JSON.parse(cleanJson(json.choices?.[0]?.message?.content ?? '{}'));
 
-    return {
-      faDescription: p.faDescription ?? '',
-      faComments: Array.isArray(p.faComments) ? p.faComments.slice(0, 3) : [],
-      iranEquivalent: {
-        productName: p.iranEquivalent?.productName ?? 'نامشخص',
-        description: p.iranEquivalent?.description ?? '',
-        marketOpportunity: p.iranEquivalent?.marketOpportunity ?? '',
-        estimatedBudget: p.iranEquivalent?.estimatedBudget ?? '',
-        targetAudience: p.iranEquivalent?.targetAudience ?? '',
-        challenges: p.iranEquivalent?.challenges ?? [],
-        monetization: p.iranEquivalent?.monetization ?? [],
-        techStack: p.iranEquivalent?.techStack ?? [],
-        confidence: p.iranEquivalent?.confidence ?? 50,
-      },
-    };
-  } catch (err) {
-    console.error(`❌ AI failed for ${product.name}:`, err);
-    return EMPTY;
-  }
+  return {
+    faDescription: parsed.faDescription ?? p.tagline,
+    faComments: Array.isArray(parsed.faComments) ? parsed.faComments : [],
+    iranEquivalent: parsed.iranEquivalent ?? { productName: '', description: '', marketOpportunity: '', estimatedBudget: '', targetAudience: '', challenges: [], monetization: [], techStack: [], confidence: 0 },
+    aiReview: parsed.aiReview ?? '',
+  };
 }
-
