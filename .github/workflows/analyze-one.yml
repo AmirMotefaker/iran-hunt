@@ -1,0 +1,39 @@
+name: Analyze One
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Product slug (e.g. coldtea)'
+        required: false
+        default: 'coldtea'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Analyze one product (US IP)
+        env:
+          PH_API_TOKEN: ${{ secrets.PH_API_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TARGET_SLUG: ${{ github.event.inputs.slug }}
+        run: bun run src/scripts/test-one.ts
+
+      - name: Commit data
+        run: |
+          git config user.name "ربات ایده‌جو"
+          git config user.email "bot@idehjo.ir"
+          git add data
+          git diff --cached --quiet || git commit -m "data: AI analysis for ${{ github.event.inputs.slug }} [skip ci]"
+          git push

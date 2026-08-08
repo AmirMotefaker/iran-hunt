@@ -7,13 +7,10 @@ export interface AIAnalysis {
   aiReview: string;
 }
 
-const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
-
 function normalizeDigits(text: string): string {
-  // تبدیل اعداد فارسی/عربی به انگلیسی (JSON فقط انگلیسی قبول می‌کنه)
   return text
     .replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)))
-    .replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d)));
+    .replace(/[٠-٩]/g, (d) => String('٠١٣٤٥٦٧٨٩'.indexOf(d)));
 }
 
 function cleanJson(text: string): string {
@@ -22,65 +19,77 @@ function cleanJson(text: string): string {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-async function callGroq(key: string, prompt: string, retries = 3): Promise<any> {
-  for (let i = 0; i < retries; i++) {
-    const res = await fetch(GROQ_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-      body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
-        messages: [{ role: 'user', content: prompt }],
-        temperature: 0.6,
-      }),
-    });
-    if (res.status === 429) {
-      // Rate limit — تا ۶۰ ثانیه صبر کن و دوباره امتحان کن
-      const wait = Math.min(60000, 10000 * (i + 1));
-      console.log(`   ⏳ Rate limit hit — waiting ${Math.round(wait / 1000)}s (attempt ${i + 1}/${retries})`);
-      await sleep(wait);
-      continue;
-    }
-    if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
-    return await res.json();
-  }
-  throw new Error('Groq 429: max retries exceeded');
-}
-
-export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
-  const key = process.env.GROQ_API_KEY;
-  if (!key) throw new Error('GROQ_API_KEY not set');
-
-  const commentsEn = (p.comments ?? []).slice(0, 5).map((c) => `${c.user}: ${c.text}`).join('\n');
-
-  const prompt = `تو یک تحلیل‌گر ارشد استارتاپ هستی. برای محصول زیر خروجی JSON فارسی بده.
+export function buildPrompt(p: Product): string {
+  const commentsEn = (p.comments ?? []).slice(0, 6).map((c) => `${c.user}: ${c.text}`).join('\n');
+  return `تو یک تحلیل‌گر ارشد استارتاپ و مترجم حرفه‌ای هستی. برای محصول زیر خروجی JSON فارسی بده.
 
 نام: ${p.name}
 تگلاین: ${p.tagline}
 توضیحات: ${(p.description ?? '').slice(0, 800)}
-نظرات کاربران:
+نظرات واقعی کاربران در ProductHunt:
 ${commentsEn || '—'}
 
-خروجی دقیقاً یک JSON با این فیلدها (بدون توضیح اضافه):
+وظایف:
+1) faDescription: ترجمه روان و دقیق توضیحات محصول به فارسی (۲-۳ جمله)
+2) faComments: تک‌تک نظرات بالا را به فارسی روان و دقیق ترجمه کن (همون تعداد، بدون حذف)
+3) iranEquivalent: برای بازار ایران یک محصول مشابه پیشنهاد بده (نام، توضیح، فرصت بازار، بودجه، مخاطب، چالش‌ها، درآمد، tech stack، ضریب اطمینان)
+4) aiReview: تحلیل جذاب، کامل، دقیق و فنی (۴-۶ جمله): معماری احتمالی، مدل درآمدی، نقاط قوت/ضعف فنی، چرا ترند شده
+
+خروجی دقیقاً یک JSON (بدون توضیح اضافه):
 {
-  "faDescription": "ترجمه روان و دقیق توضیحات محصول به فارسی (۲-۳ جمله)",
-  "faComments": [{"user": "نام کاربر", "text": "ترجمه روان و دقیق نظر به فارسی"}],
+  "faDescription": "...",
+  "faComments": [{"user": "نام کاربر", "text": "ترجمه فارسی نظر"}],
   "iranEquivalent": {
-    "productName": "نام نزدیک‌ترین محصول/استارتاپ ایرانی مشابه (یا پیشنهاد ساخت)",
-    "description": "توضیح نسخه ایرانی",
-    "marketOpportunity": "فرصت بازار در ایران",
-    "estimatedBudget": "بودجه تقریبی ساخت (تومان)",
-    "targetAudience": "مخاطب هدف در ایران",
-    "challenges": ["چالش ۱", "چالش ۲"],
-    "monetization": ["روش درآمد ۱"],
-    "techStack": ["تکنولوژی ۱"],
-    "confidence": 75
+    "productName": "...", "description": "...", "marketOpportunity": "...",
+    "estimatedBudget": "...", "targetAudience": "...",
+    "challenges": ["..."], "monetization": ["..."], "techStack": ["..."], "confidence": 75
   },
-  "aiReview": "یک تحلیل جذاب، کامل، دقیق و فنی از این محصول به فارسی (۴-۶ جمله): معماری و تکنولوژی احتمالی، مدل درآمدی، نقاط قوت و ضعف فنی، و چرا ترند شده."
+  "aiReview": "..."
 }`;
+}
 
-  const json = await callGroq(key, prompt);
-  const parsed = JSON.parse(cleanJson(json.choices?.[0]?.message?.content ?? '{}'));
+async function callGroq(key: string, prompt: string): Promise<string> {
+  for (let i = 0; i < 2; i++) {
+    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.6 }),
+    });
+    if (res.status === 429) { await sleep(15000); continue; }
+    if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
+    const json = await res.json();
+    return json.choices?.[0]?.message?.content ?? '';
+  }
+  throw new Error('Groq 429');
+}
 
+async function callGemini(key: string, prompt: string): Promise<string> {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+  });
+  if (!res.ok) throw new Error(`Gemini HTTP ${res.status}`);
+  const json = await res.json();
+  return json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+}
+
+export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
+  const prompt = buildPrompt(p);
+  let text = '';
+  const errors: string[] = [];
+
+  if (process.env.GROQ_API_KEY) {
+    try { text = await callGroq(process.env.GROQ_API_KEY, prompt); }
+    catch (e: any) { errors.push(`groq: ${e.message}`); }
+  }
+  if (!text && process.env.GEMINI_API_KEY) {
+    try { text = await callGemini(process.env.GEMINI_API_KEY, prompt); }
+    catch (e: any) { errors.push(`gemini: ${e.message}`); }
+  }
+  if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no provider key'}`);
+
+  const parsed = JSON.parse(cleanJson(text));
   return {
     faDescription: parsed.faDescription ?? p.tagline,
     faComments: Array.isArray(parsed.faComments) ? parsed.faComments : [],
