@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.5...v1.14.0) (2026-08-08)
+
+
+### Features
+
+* real PH comments + Gemini fallback + analyze-one workflow ([ef021e2](https://github.com/AmirMotefaker/iran-hunt/commit/ef021e2fb82c7f3a4adf5f9c284bb5fde678f016))
+
 ## [1.13.5](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.4...v1.13.5) (2026-08-08)
 
 
