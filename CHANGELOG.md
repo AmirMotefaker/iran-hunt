@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.10.2...v1.11.0) (2026-08-08)
+
+
+### Features
+
+* official PH categories + admin team plan + pricing polish + rebrand IdehJo ([8e46a33](https://github.com/AmirMotefaker/iran-hunt/commit/8e46a334acd870fc2a2adfe10f5218c502424d94))
+
 ## [1.10.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.10.1...v1.10.2) (2026-08-07)
 
 
