@@ -151,7 +151,7 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
     try {
       if (!p.slug) continue;
       let data: any;
-      try { data = await gql(token, slugQuery(p.slug, true)); } catch { data = await gql(token, slugQuery(p.slug, false)); }
+      data = await gql(token, slugQuery(p.slug));
       const post = data?.post;
       if (!post) continue;
 

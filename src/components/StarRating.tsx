@@ -29,7 +29,7 @@ export function StarRating({ slug }: { slug: string }) {
     setBusy(false);
   };
 
-  const faAvg = faDigits(avg.toFixed(1));
+  const faAvg = faDigits(String(avg.toFixed(1)));
 
   return (
     <div className="flex flex-col items-center gap-2">

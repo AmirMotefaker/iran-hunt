@@ -87,4 +87,4 @@ export function priceFor(monthly: number, cycle: CycleId) {
 }
 
 export const toman = (n: number) => n.toLocaleString('fa-IR');
-export const faDigits = (n: number) => String(n).replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d]);
+export const faDigits = (n: number | string) => String(n).replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d]);
