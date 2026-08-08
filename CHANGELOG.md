@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.11.0...v1.11.1) (2026-08-08)
+
+
+### Bug Fixes
+
+* remove categories prop from Header in layout ([ea4b594](https://github.com/AmirMotefaker/iran-hunt/commit/ea4b59435948e4d660449983aa8a970c00dc2bfc))
+
 # [1.11.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.10.2...v1.11.0) (2026-08-08)
 
 
