@@ -1,3 +1,10 @@
+## [1.13.4](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.3...v1.13.4) (2026-08-08)
+
+
+### Bug Fixes
+
+* groq rate limit (429) with retry + caching + delay ([25f5659](https://github.com/AmirMotefaker/iran-hunt/commit/25f5659b40137d0a276a24300161ec4693f4c4ec))
+
 ## [1.13.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.2...v1.13.3) (2026-08-08)
 
 
