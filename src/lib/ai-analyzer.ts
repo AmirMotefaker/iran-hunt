@@ -9,8 +9,15 @@ export interface AIAnalysis {
 
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
+function normalizeDigits(text: string): string {
+  // تبدیل اعداد فارسی/عربی به انگلیسی (JSON فقط انگلیسی قبول می‌کنه)
+  return text
+    .replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)))
+    .replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d)));
+}
+
 function cleanJson(text: string): string {
-  return text.replace(/```json/gi, '').replace(/```/g, '').trim();
+  return normalizeDigits(text.replace(/```json/gi, '').replace(/```/g, '').trim());
 }
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
