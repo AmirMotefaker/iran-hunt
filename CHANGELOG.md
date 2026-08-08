@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.12.2...v1.13.0) (2026-08-08)
+
+
+### Features
+
+* dashboard labels + plan expiry + admin no-expiry + AI data (faComments + aiReview) ([9be2fad](https://github.com/AmirMotefaker/iran-hunt/commit/9be2fadad6288e726b697281d0e53f3e3f7d6457))
+
 ## [1.12.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.12.1...v1.12.2) (2026-08-08)
 
 
