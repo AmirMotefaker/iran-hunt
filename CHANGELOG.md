@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.0...v1.13.1) (2026-08-08)
+
+
+### Bug Fixes
+
+* founder photo + AI workflow env + cumulative data + CRM full info ([042af4d](https://github.com/AmirMotefaker/iran-hunt/commit/042af4dec12f4d7d1ec0ee3723dcd3b1319b8f6a))
+
 # [1.13.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.12.2...v1.13.0) (2026-08-08)
 
 
