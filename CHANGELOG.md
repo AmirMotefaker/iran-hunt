@@ -1,3 +1,10 @@
+## [1.13.5](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.4...v1.13.5) (2026-08-08)
+
+
+### Bug Fixes
+
+* normalize Persian/Arabic digits in Groq JSON output ([937185c](https://github.com/AmirMotefaker/iran-hunt/commit/937185c7d533f4a8de08fe8e88606f3b5570afde))
+
 ## [1.13.4](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.3...v1.13.4) (2026-08-08)
 
 
