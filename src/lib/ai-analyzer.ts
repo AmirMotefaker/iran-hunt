@@ -13,6 +13,32 @@ function cleanJson(text: string): string {
   return text.replace(/```json/gi, '').replace(/```/g, '').trim();
 }
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+async function callGroq(key: string, prompt: string, retries = 3): Promise<any> {
+  for (let i = 0; i < retries; i++) {
+    const res = await fetch(GROQ_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+      body: JSON.stringify({
+        model: 'llama-3.3-70b-versatile',
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.6,
+      }),
+    });
+    if (res.status === 429) {
+      // Rate limit — تا ۶۰ ثانیه صبر کن و دوباره امتحان کن
+      const wait = Math.min(60000, 10000 * (i + 1));
+      console.log(`   ⏳ Rate limit hit — waiting ${Math.round(wait / 1000)}s (attempt ${i + 1}/${retries})`);
+      await sleep(wait);
+      continue;
+    }
+    if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
+    return await res.json();
+  }
+  throw new Error('Groq 429: max retries exceeded');
+}
+
 export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
   const key = process.env.GROQ_API_KEY;
   if (!key) throw new Error('GROQ_API_KEY not set');
@@ -24,7 +50,7 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
 نام: ${p.name}
 تگلاین: ${p.tagline}
 توضیحات: ${(p.description ?? '').slice(0, 800)}
-نظرات کاربران ProductHunt:
+نظرات کاربران:
 ${commentsEn || '—'}
 
 خروجی دقیقاً یک JSON با این فیلدها (بدون توضیح اضافه):
@@ -45,17 +71,7 @@ ${commentsEn || '—'}
   "aiReview": "یک تحلیل جذاب، کامل، دقیق و فنی از این محصول به فارسی (۴-۶ جمله): معماری و تکنولوژی احتمالی، مدل درآمدی، نقاط قوت و ضعف فنی، و چرا ترند شده."
 }`;
 
-  const res = await fetch(GROQ_URL, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-    body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.6,
-    }),
-  });
-  if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
-  const json = await res.json();
+  const json = await callGroq(key, prompt);
   const parsed = JSON.parse(cleanJson(json.choices?.[0]?.message?.content ?? '{}'));
 
   return {
