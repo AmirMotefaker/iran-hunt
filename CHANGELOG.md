@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.1...v1.14.2) (2026-08-08)
+
+
+### Bug Fixes
+
+* real usernames + no redaction + no chinese chars + Gemini first ([2ed82ea](https://github.com/AmirMotefaker/iran-hunt/commit/2ed82ea43a97abe5f3d361669930d1056e00e584))
+
 ## [1.14.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.0...v1.14.1) (2026-08-08)
 
 
