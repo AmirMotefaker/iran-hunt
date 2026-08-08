@@ -168,14 +168,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <a href={`https://twitter.com/${product.makerTwitter}`} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🐦 توییتر سازنده</a>
               )}
               {product.url && (
-                <a href={product.url} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🚀 صفحه ProductHunt</a>
+                <a href={product.url} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🚀 صفحه لانچ</a>
               )}
             </div>
           )}
 
           {product.faComments && product.faComments.length > 0 && (
             <div className="rounded-2xl bg-gray-50 p-5 dark:bg-gray-800/50">
-              <h4 className="font-extrabold text-gray-800 dark:text-gray-100">💬 نظرات جامعه ProductHunt (ترجمه فارسی)</h4>
+              <h4 className="font-extrabold text-gray-800 dark:text-gray-100">💬 نظرات جامعه جهانی (ترجمه فارسی)</h4>
               <ul className="mt-3 space-y-3">
                 {product.faComments.map((cm, i) => (
                   <li key={i} className="rounded-2xl bg-white p-4 shadow-sm dark:bg-gray-900">
