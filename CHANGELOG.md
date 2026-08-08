@@ -1,3 +1,11 @@
+## [1.12.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.12.0...v1.12.1) (2026-08-08)
+
+
+### Bug Fixes
+
+* escape backticks in JSX expressions ([f6fd820](https://github.com/AmirMotefaker/iran-hunt/commit/f6fd82033c4742c89301abcd5ef9577e836e3a84))
+* product page backtick regex ([13edfbf](https://github.com/AmirMotefaker/iran-hunt/commit/13edfbfed7217b8abc7b66c01e9b4d9ba5fee34e))
+
 # [1.12.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.11.1...v1.12.0) (2026-08-08)
 
 
