@@ -10,16 +10,14 @@ export interface AIAnalysis {
 function normalizeDigits(text: string): string {
   return text
     .replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)))
-    .replace(/[٠-٩]/g, (d) => String('٠١٢٤٥٦٨٩'.indexOf(d)));
+    .replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d)));
 }
 
-// حذف [REDACTED] + کاراکترهای چینی/ژاپنی + فاصله‌های اضافه
 function sanitize(text: string): string {
   return text
     .replace(/\[REDACTED\]/gi, '')
-    .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff00-\uffef]/g, '')
+    .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/g, '')
     .replace(/\s{2,}/g, ' ')
-    .replace(/\s+([.,،۔؛;!؟?])/g, '$1')
     .trim();
 }
 
@@ -36,34 +34,36 @@ export function buildPrompt(p: Product): string {
 
 محصول: ${p.name}
 تگلاین: ${p.tagline}
-توضیحات: ${(p.description ?? '').slice(0, 800)}
+توضیحات: ${(p.description ?? '').slice(0, 900)}
 
-نظرات واقعی کاربران (فقط متن، بدون نام):
+نظرات واقعی کاربران (فقط متن):
 ${commentsEn || '—'}
 
-قوانین سخت (حتماً رعایت کن):
-- خروجی فقط یک JSON معتبر، بدون هیچ توضیح اضافه
-- تمام متن‌ها فقط به فارسی روان و طبیعی؛ استفاده از کاراکترهای چینی/کره‌ای/ژاپنی اکیداً ممنوع
-- کلمات انگلیسی فقط برای نام محصول، برند یا اصطلاح فنی (مثل API) مجاز است
-- هرگز از [REDACTED] یا هر نوع سانسور استفاده نکن؛ نام برندها و محصولات را دست‌نخورده بنویس
-- faComments باید آرایه‌ای از رشته‌ها باشد: ترجمه روان نظرات بالا، به همان ترتیب و همان تعداد
+قوانین سخت:
+- خروجی فقط یک JSON معتبر
+- تمام متن‌ها به فارسی روان، طبیعی و حرفه‌ای؛ جمله‌بندی دقیق و بدون غلط
+- استفاده از کاراکترها یا کلمات چینی، ویتنامی، کره‌ای، چکی و هر زبان دیگر اکیداً ممنوع؛ کلمه نامفهوم ممنوع
+- انگلیسی فقط برای نام محصول/برند/اصطلاح فنی (API، SaaS)
+- هرگز سانسور نکن؛ [REDACTED] ممنوع
+- faComments: آرایه رشته‌ها = ترجمه دقیق و روان نظرات بالا، به همان ترتیب و همان تعداد
+- estimatedBudget فقط به صورت متن فارسی واقعی، مثل: «۲ تا ۴ میلیارد تومان»
 
 خروجی:
 {
-  "faDescription": "ترجمه روان توضیحات محصول (۲- جمله)",
-  "faComments": ["ترجمه نظر ۱", "ترجمه نظر ۲"],
+  "faDescription": "ترجمه روان توضیحات (۲-۳ جمله)",
+  "faComments": ["ترجمه نظر ۱", "..."],
   "iranEquivalent": {
-    "productName": "نام پیشنهادی محصول ایرانی",
-    "description": "توضیح نسخه ایرانی",
-    "marketOpportunity": "فرصت بازار در ایران",
-    "estimatedBudget": "بودجه تقریبی (تومان)",
-    "targetAudience": "مخاطب هدف",
-    "challenges": ["چالش ۱", "چالش ۲"],
-    "monetization": ["روش درآمد ۱"],
-    "techStack": ["Next.js"],
+    "productName": "نام پیشنهادی برند ایرانی",
+    "description": "توضیح کامل نسخه ایرانی (۲-۳ جمله)",
+    "marketOpportunity": "تحلیل فرصت بازار ایران (۲ جمله)",
+    "estimatedBudget": "مثلاً: ۲ تا ۴ میلیارد تومان",
+    "targetAudience": "مخاطب هدف دقیق",
+    "challenges": ["چالش ۱", "چالش ۲", "چالش ۳"],
+    "monetization": ["روش ۱", "روش ۲"],
+    "techStack": ["Next.js", "PostgreSQL"],
     "confidence": 75
   },
-  "aiReview": "تحلیل جذاب و فنی (۴-۶ جمله): معماری احتمالی، مدل درآمدی، نقاط قوت/ضعف فنی، دلیل ترند شدن"
+  "aiReview": "تحلیل جامع، حرفه‌ای و فنی در حداقل ۸ جمله: مسئله‌ای که حل می‌کند، معماری و تکنولوژی احتمالی، مدل درآمدی، مزیت رقابتی، نقاط قوت و ضعف فنی، دلیل ترند شدن، و چشم‌انداز بازار ایران"
 }`;
 }
 
@@ -71,7 +71,7 @@ async function callGemini(key: string, prompt: string): Promise<string> {
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.4 } }),
   });
   if (!res.ok) throw new Error(`Gemini HTTP ${res.status}`);
   const json = await res.json();
@@ -83,7 +83,7 @@ async function callGroq(key: string, prompt: string): Promise<string> {
     const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.5 }),
+      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.4 }),
     });
     if (res.status === 429) { await sleep(15000); continue; }
     if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
@@ -96,31 +96,34 @@ async function callGroq(key: string, prompt: string): Promise<string> {
 export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
   const prompt = buildPrompt(p);
   let text = '';
+  let provider = '';
   const errors: string[] = [];
 
-  // Gemini اول (فارسی بهتر + بدون سانسور)، بعد Groq
   if (process.env.GEMINI_API_KEY) {
-    try { text = await callGemini(process.env.GEMINI_API_KEY, prompt); }
+    try { text = await callGemini(process.env.GEMINI_API_KEY, prompt); provider = 'gemini'; }
     catch (e: any) { errors.push(`gemini: ${e.message}`); }
   }
   if (!text && process.env.GROQ_API_KEY) {
-    try { text = await callGroq(process.env.GROQ_API_KEY, prompt); }
+    try { text = await callGroq(process.env.GROQ_API_KEY, prompt); provider = 'groq'; }
     catch (e: any) { errors.push(`groq: ${e.message}`); }
   }
-  if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no provider key'}`);
+  if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no key'}`);
+  console.log(`   🤖 provider: ${provider}`);
 
   const parsed = JSON.parse(cleanJson(text));
 
-  // نام کاربران از دیتای واقعی PH — فقط متن‌ها از AI
+  // نام کاربران ۱۰۰٪ از دیتای واقعی ProductHunt
   const originals = (p.comments ?? []).slice(0, 6);
   let texts: string[] = [];
   if (Array.isArray(parsed.faComments)) {
     texts = parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''));
   }
-  const faComments: PHComment[] = originals.map((c, i) => ({
-    user: c.user,
-    text: sanitize(texts[i] || c.text),
-  })).filter((c) => c.text.length > 5);
+  const faComments: PHComment[] = originals
+    .map((c, i) => ({
+      user: c.user?.includes('REDACTED') ? `کاربر ProductHunt ${i + 1}` : c.user,
+      text: sanitize(texts[i] || c.text),
+    }))
+    .filter((c) => c.text.length > 5);
 
   const eqRaw = parsed.iranEquivalent ?? {};
   const iranEquivalent: IranEquivalent = {

@@ -47,7 +47,7 @@ async function main() {
   console.log(`\n🎯 ${target.name} (${target.votes} votes)`);
 
   // 1) کامنت‌های واقعی از ProductHunt
-  if (!target.comments?.length && process.env.PH_API_TOKEN) {
+  if (process.env.PH_API_TOKEN) {
     console.log('   📥 Fetching real comments from ProductHunt...');
     target.comments = await fetchRealComments(process.env.PH_API_TOKEN, TARGET_SLUG);
   }

@@ -23,6 +23,10 @@ function formatShamsiFull(isoStr: string): string {
   return toPersianDigits(`${dayName}، ${date}`);
 }
 
+function formatBudget(s: string): string {
+  return /^\\d+$/.test(s) ? Number(s).toLocaleString('fa-IR') + ' تومان' : s;
+}
+
 function findRank(data: any, slug: string): { key: PeriodKey; fa: string; rank: number } | null {
   for (const p of PERIODS) {
     const list = (data.periods as any)[p.key] ?? [];
@@ -145,10 +149,27 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               {eq.description && <p className="mt-2 text-sm leading-8 text-green-900 dark:text-green-100">{eq.description}</p>}
               <div className="mt-3 grid gap-3 text-sm text-green-900 dark:text-green-100 sm:grid-cols-2">
                 {eq.marketOpportunity && <div className="rounded-xl bg-white/70 p-3 dark:bg-gray-800/50">🎯 {eq.marketOpportunity}</div>}
-                {eq.estimatedBudget && <div className="rounded-xl bg-white/70 p-3 dark:bg-gray-800/50">💰 {eq.estimatedBudget}</div>}
+                {eq.estimatedBudget && <div className="rounded-xl bg-white/70 p-3 dark:bg-gray-800/50">💰 {formatBudget(eq.estimatedBudget)}</div>}
                 {eq.targetAudience && <div className="rounded-xl bg-white/70 p-3 dark:bg-gray-800/50">👥 {eq.targetAudience}</div>}
                 <div className="rounded-xl bg-white/70 p-3 dark:bg-gray-800/50">📊 اطمینان: {eq.confidence.toLocaleString('fa-IR')}٪</div>
               </div>
+              {eq.challenges?.length > 0 && (
+                <div className="mt-3 rounded-xl bg-white/70 p-4 dark:bg-gray-800/50">
+                  <p className="font-black">⚠️ چالش‌های پیش‌رو:</p>
+                  <ul className="mt-2 list-inside list-disc space-y-1.5">{eq.challenges.map((x) => <li key={x}>{x}</li>)}</ul>
+                </div>
+              )}
+              {eq.monetization?.length > 0 && (
+                <div className="mt-3 rounded-xl bg-white/70 p-4 dark:bg-gray-800/50">
+                  <p className="font-black">💵 مدل‌های درآمدی پیشنهادی:</p>
+                  <ul className="mt-2 list-inside list-disc space-y-1.5">{eq.monetization.map((x) => <li key={x}>{x}</li>)}</ul>
+                </div>
+              )}
+              {eq.techStack?.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {eq.techStack.map((t) => <span key={t} className="rounded-full bg-green-600/10 px-3 py-1 text-xs font-bold text-green-800 dark:text-green-300">{t}</span>)}
+                </div>
+              )}
             </div>
           )}
 
