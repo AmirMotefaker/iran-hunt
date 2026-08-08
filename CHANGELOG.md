@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.0...v1.14.1) (2026-08-08)
+
+
+### Bug Fixes
+
+* add permissions for analyze-one workflow ([fe282aa](https://github.com/AmirMotefaker/iran-hunt/commit/fe282aa667a796a0f23262846b76e31cbff48a1f))
+
 # [1.14.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.5...v1.14.0) (2026-08-08)
 
 
