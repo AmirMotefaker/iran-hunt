@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.1...v1.13.2) (2026-08-08)
+
+
+### Bug Fixes
+
+* about comment + groq secret fallback + beautiful category page + remove PH word ([b137f69](https://github.com/AmirMotefaker/iran-hunt/commit/b137f69573ce5a6e6a09ebf3a8b90b42ddd3eb37))
+
 ## [1.13.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.0...v1.13.1) (2026-08-08)
 
 
