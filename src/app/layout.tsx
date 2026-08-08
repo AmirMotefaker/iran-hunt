@@ -18,23 +18,23 @@ const SITE = 'https://iranhunt.vercel.app';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default: 'ایده‌یاب | ایده‌های ترند استارتاپی جهان به زبان فارسی ۲۰۲۶',
-    template: '%s | ایده‌یاب',
+    default: 'ایده‌جو | ایده‌های ترند استارتاپی جهان به زبان فارسی ۲۰۲۶',
+    template: '%s | ایده‌جو',
   },
   description:
-    'ایده‌یاب، پلتفرم هوشمند ایده‌یابی استارتاپی در سال ۱۴۰۵؛ هر روز ۱۰ ایده ترند جهانی در ۵ بازه زمانی با رتبه‌بندی واقعی، ترجمه فارسی روان و تحلیل مشابه ایرانی با هوش مصنوعی.',
+    'ایده‌جو، پلتفرم هوشمند ایده‌جوی استارتاپی در سال ۱۴۰۵؛ هر روز ۱۰ ایده ترند جهانی در ۵ بازه زمانی با رتبه‌بندی واقعی، ترجمه فارسی روان و تحلیل مشابه ایرانی با هوش مصنوعی.',
   keywords: [
     'ایده استارتاپی', 'ایده کسب و کار', 'ایده‌های ترند', 'استارتاپ ایران',
-    'ایده هوش مصنوعی', 'ایده یاب', 'ایده‌یاب', 'ترندهای ۲۰۲۶', 'ایده AI',
+    'ایده هوش مصنوعی', 'ایده یاب', 'ایده‌جو', 'ترندهای ۲۰۲۶', 'ایده AI',
   ],
   authors: [{ name: 'امیر متفکر', url: 'https://amirmotefaker.ir' }],
   openGraph: {
-    type: 'website', locale: 'fa_IR', url: SITE, siteName: 'ایده‌یاب',
-    title: 'ایده‌یاب | ایده‌های ترند استارتاپی جهان به زبان فارسی',
+    type: 'website', locale: 'fa_IR', url: SITE, siteName: 'ایده‌جو',
+    title: 'ایده‌جو | ایده‌های ترند استارتاپی جهان به زبان فارسی',
     description: 'هر روز ۱۰ ایده برتر جهانی در ۵ بازه زمانی + تحلیل مشابه ایرانی با AI',
-    images: [{ url: '/favicon.svg', width: 512, height: 512, alt: 'ایده‌یاب' }],
+    images: [{ url: '/favicon.svg', width: 512, height: 512, alt: 'ایده‌جو' }],
   },
-  twitter: { card: 'summary', title: 'ایده‌یاب | ایده‌های ترند استارتاپی ۲۰۲۶', description: 'ایده‌های ترند جهانی + تحلیل مشابه ایرانی با AI', images: ['/favicon.svg'] },
+  twitter: { card: 'summary', title: 'ایده‌جو | ایده‌های ترند استارتاپی ۲۰۲۶', description: 'ایده‌های ترند جهانی + تحلیل مشابه ایرانی با AI', images: ['/favicon.svg'] },
   icons: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   alternates: { canonical: '/' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
@@ -44,11 +44,11 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'Organization', name: 'ایده‌یاب', url: SITE, logo: `${SITE}/favicon.svg`,
+      '@type': 'Organization', name: 'ایده‌جو', url: SITE, logo: `${SITE}/favicon.svg`,
       founder: { '@type': 'Person', name: 'امیر متفکر', url: 'https://amirmotefaker.ir', sameAs: ['https://github.com/AmirMotefaker', 'https://amirmotefaker.ir'] },
       sameAs: ['https://github.com/AmirMotefaker', 'https://amirmotefaker.ir'],
     },
-    { '@type': 'WebSite', name: 'ایده‌یاب', url: SITE, inLanguage: 'fa-IR', description: 'پلتفرم هوشمند ایده‌های ترند استارتاپی — ۱۴۰۵' },
+    { '@type': 'WebSite', name: 'ایده‌جو', url: SITE, inLanguage: 'fa-IR', description: 'پلتفرم هوشمند ایده‌های ترند استارتاپی — ۱۴۰۵' },
   ],
 };
 

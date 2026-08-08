@@ -11,7 +11,7 @@ export function Footer() {
           <div className="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
           <h2 className="relative text-3xl font-black sm:text-4xl">هر روز، یک قدم جلوتر از بازار</h2>
           <p className="relative mx-auto mt-4 max-w-xl text-sm leading-7 text-white/90 sm:text-base">
-            عضو <Link href="/" className="font-black underline decoration-white/60 underline-offset-2">ایده‌یاب</Link> شو تا قفل توضیحات تکمیلی، وب‌سایت رسمی ایده‌ها و تحلیل‌های اختصاصی مشابه ایرانی برات باز بشه — کاملاً رایگان.
+            عضو <Link href="/" className="font-black underline decoration-white/60 underline-offset-2">ایده‌جو</Link> شو تا قفل توضیحات تکمیلی، وب‌سایت رسمی ایده‌ها و تحلیل‌های اختصاصی مشابه ایرانی برات باز بشه — کاملاً رایگان.
           </p>
           <Link href="/login" className="relative mt-7 inline-flex items-center gap-2 rounded-2xl bg-white px-7 py-3.5 text-sm font-black text-[#ff6154] shadow-xl transition hover:scale-105">
             <Sparkles size={17} /> شروع رایگان
@@ -24,7 +24,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2.5">
               <Logo size={34} />
-              <span className="text-lg font-black dark:text-white">ایده‌یاب</span>
+              <span className="text-lg font-black dark:text-white">ایده‌جو</span>
             </div>
             <p className="mt-4 text-sm leading-7 text-gray-500 dark:text-gray-400">
               پلتفرم هوشمند ایده‌های جذاب و ترند استارتاپی — هر روز برترین ایده‌های جهانی با تحلیل فارسی روان و پیشنهاد مشابه ایرانی برای اکوسیستم استارتاپی ایران.
@@ -51,7 +51,7 @@ export function Footer() {
         <div className="border-t border-gray-100 py-5 text-center text-xs text-gray-500 dark:border-gray-800 dark:text-gray-400">
           ساخته شده با <Heart size={11} className="inline fill-[#ff6154] text-[#ff6154]" /> برای
           اکوسیستم استارتاپی ایران — © ۱۴۰۵{' '}
-          <Link href="/" className="font-black text-gray-800 hover:text-[#ff6154] dark:text-gray-200">ایده‌یاب</Link> —{' '}
+          <Link href="/" className="font-black text-gray-800 hover:text-[#ff6154] dark:text-gray-200">ایده‌جو</Link> —{' '}
           <a href="https://amirmotefaker.ir" target="_blank" rel="noreferrer" className="font-black text-gray-800 hover:text-[#ff6154] dark:text-gray-200">امیر متفکر</a>
         </div>
       </div>

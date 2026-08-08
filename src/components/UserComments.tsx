@@ -42,7 +42,7 @@ export function UserComments({ slug }: { slug: string }) {
   return (
     <div className="rounded-2xl border border-gray-100 bg-white p-5">
       <h4 className="flex items-center gap-2 font-extrabold text-gray-800">
-        <MessageCircle size={17} className="text-[#ff6154]" /> نظرات کاربران ایده‌یاب
+        <MessageCircle size={17} className="text-[#ff6154]" /> نظرات کاربران ایده‌جو
       </h4>
 
       <ul className="mt-4 space-y-3">

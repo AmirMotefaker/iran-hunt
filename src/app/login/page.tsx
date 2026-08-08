@@ -27,7 +27,7 @@ function LoginInner() {
     <main className="mx-auto max-w-md px-4 py-16">
       <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-xl dark:border-gray-700 dark:bg-gray-900">
         <h1 className="text-center text-2xl font-black text-gray-900 dark:text-white">
-          {mode === 'signup' ? 'ثبت‌نام در ایده‌یاب' : 'ورود به ایده‌یاب'}
+          {mode === 'signup' ? 'ثبت‌نام در ایده‌جو' : 'ورود به ایده‌جو'}
         </h1>
         <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-300">
           برای دسترسی به توضیحات تکمیلی و وب‌سایت رسمی ایده‌ها
@@ -66,7 +66,7 @@ function LoginInner() {
           >
             {busy ? 'لطفاً صبر کنید…' : mode === 'signup' ? 'ثبت‌نام' : 'ورود'}
           </button>
-          <p className="text-center text-[11px] text-gray-500 dark:text-gray-400">با فشردن Enter هم می‌توانی وارد شوی ⏎</p>
+          
         </form>
       </div>
     </main>

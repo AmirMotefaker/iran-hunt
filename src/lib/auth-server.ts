@@ -58,6 +58,7 @@ export async function getSessionUser(): Promise<SessionUser | null> {
   if (!rows.length) return { email, plan: 'free', planExpiresAt: null };
   let plan = (rows[0].plan as PlanId) || 'free';
   const exp = rows[0].plan_expires_at ? new Date(rows[0].plan_expires_at) : null;
-  if (plan !== 'free' && (!exp || exp.getTime() < Date.now())) plan = 'free';
+  if (email === process.env.ADMIN_EMAIL) plan = 'team';
+  else if (plan !== 'free' && (!exp || exp.getTime() < Date.now())) plan = 'free';
   return { email, plan, planExpiresAt: exp ? exp.toISOString() : null };
 }

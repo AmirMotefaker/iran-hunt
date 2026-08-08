@@ -18,7 +18,7 @@ const FEATURES = [
 
 export const metadata = {
   title: 'درباره ما',
-  description: 'داستان ایده‌یاب و بنیان‌گذار آن امیر متفکر؛ پلتفرم هوشمند ایده‌های ترند استارتاپی با تحلیل هوش مصنوعی برای اکوسیستم کارآفرینی ایران.',
+  description: 'داستان ایده‌جو و بنیان‌گذار آن امیر متفکر؛ پلتفرم هوشمند ایده‌های ترند استارتاپی با تحلیل هوش مصنوعی برای اکوسیستم کارآفرینی ایران.',
 };
 
 export default function AboutPage() {
@@ -32,13 +32,13 @@ export default function AboutPage() {
         <span className="text-[#ff6154]"> ترندها را ببیند</span>
       </h1>
       <p className="mt-6 text-base leading-9 text-gray-700 dark:text-gray-300">
-        ایده‌یاب از یک پرسش ساده متولد شد: هر روز هزاران ایده استارتاپی در جهان متولد می‌شود؛ چرا کارآفرینان ایرانی باید این ترندها را دیر، پراکنده و بدون تحلیل بومی ببینند؟ ما هر روز برترین ایده‌های جهانی را در پنج بازه زمانی گلچین می‌کنیم، به فارسی روان برمی‌گردانیم و برای هر کدام، نسخه ایرانی ممکن را با در نظر گرفتن بازار محلی، پرداخت شاپرک، فرهنگ و رقابت داخلی تحلیل می‌کنیم.
+        ایده‌جو از یک پرسش ساده متولد شد: هر روز هزاران ایده استارتاپی در جهان متولد می‌شود؛ چرا کارآفرینان ایرانی باید این ترندها را دیر، پراکنده و بدون تحلیل بومی ببینند؟ ما هر روز برترین ایده‌های جهانی را در پنج بازه زمانی گلچین می‌کنیم، به فارسی روان برمی‌گردانیم و برای هر کدام، نسخه ایرانی ممکن را با در نظر گرفتن بازار محلی، پرداخت شاپرک، فرهنگ و رقابت داخلی تحلیل می‌کنیم.
       </p>
       <p className="mt-4 text-base leading-9 text-gray-700 dark:text-gray-300">
-        امروز ایده‌یاب یک پلتفرم کامل است: دسته‌بندی سلسله‌مراتبی به سبک ProductHunt، امتیازدهی ستاره‌ای، لایک و کامنت، اشتراک‌گذاری اجتماعی، اسکرین‌شات محصولات، تاریخ شمسی، دارک‌مود و CRM اختصاصی بنیان‌گذار — همه در کنار تحلیل هوش مصنوعی.
+        امروز ایده‌جو یک پلتفرم کامل است: دسته‌بندی سلسله‌مراتبی به سبک ProductHunt، امتیازدهی ستاره‌ای، لایک و کامنت، اشتراک‌گذاری اجتماعی، اسکرین‌شات محصولات، تاریخ شمسی، دارک‌مود و CRM اختصاصی بنیان‌گذار — همه در کنار تحلیل هوش مصنوعی.
       </p>
 
-      <h2 className="mt-14 text-xl font-black text-gray-900 dark:text-white">چرا ایده‌یاب؟</h2>
+      <h2 className="mt-14 text-xl font-black text-gray-900 dark:text-white">چرا ایده‌جو؟</h2>
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         {FEATURES.map((f) => (
           <div key={f.title} className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md dark:border-gray-700 dark:bg-gray-900">
@@ -51,7 +51,7 @@ export default function AboutPage() {
         <div className="rounded-3xl bg-gray-900 p-6 text-white shadow-lg dark:bg-gray-800 dark:ring-1 dark:ring-gray-700">
           <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#ff6154] text-lg font-black">ا</div>
           <h3 className="mt-4 text-lg font-black">امیر متفکر</h3>
-          <p className="mt-1 text-xs font-bold text-gray-400">بنیان‌گذار ایده‌یاب</p>
+          <p className="mt-1 text-xs font-bold text-gray-400">بنیان‌گذار ایده‌جو</p>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             «باور دارم ایده‌ها ارزان‌ترین و در عین حال ارزشمندترین دارایی جهان‌اند؛ هنر، دیدنِ آن‌ها در زمان درست است.»
           </p>

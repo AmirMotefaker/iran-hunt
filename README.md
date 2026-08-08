@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AmirMotefaker/iran-hunt/main/public/favicon.svg" width="96" alt="لوگوی ایده‌یاب" />
+<img src="https://raw.githubusercontent.com/AmirMotefaker/iran-hunt/main/public/favicon.svg" width="96" alt="لوگوی ایده‌جو" />
 
-# 🚀 ایده‌یاب — IdehYab
+# 🚀 ایده‌جو — IdehYab
 
 **ایده‌ی درست، در زمان درست**
 
@@ -108,7 +108,7 @@
 |---|---|---|
 | راه‌اندازی اولیه | اسکرپر Atom + ساختار Next.js | [Releases](https://github.com/AmirMotefaker/iran-hunt/releases) |
 | اسکرپر هیبرید | Atom + GraphQL با رأی واقعی | [Releases](https://github.com/AmirMotefaker/iran-hunt/releases) |
-| برند ایده‌یاب | لوگوی موشک، دارک‌مود، حذف IranHunt | [Releases](https://github.com/AmirMotefaker/iran-hunt/releases) |
+| برند ایده‌جو | لوگوی موشک، دارک‌مود، حذف IranHunt | [Releases](https://github.com/AmirMotefaker/iran-hunt/releases) |
 | کاربر و CRM | ثبت‌نام، لایک/کامنت، CRM شمسی | [Releases](https://github.com/AmirMotefaker/iran-hunt/releases) |
 | نسخه ۵ | امتیاز ستاره‌ای، اشتراک‌گذاری، اسکرین‌شات، دسته‌بندی سلسله‌مراتبی | [Releases](https://github.com/AmirMotefaker/iran-hunt/releases) |
 

@@ -33,10 +33,10 @@ export default async function Home() {
         <div className="fade-up mx-auto flex h-24 w-24 items-center justify-center rounded-[2rem] bg-white shadow-xl shadow-orange-100 ring-1 ring-gray-200 dark:bg-gray-900 dark:shadow-black/40 dark:ring-gray-800">
           <Logo size={64} />
         </div>
-        <h1 className="fade-up-1 mt-6 text-5xl font-black tracking-tight text-gray-900 dark:text-white sm:text-6xl">ایده‌یاب</h1>
+        <h1 className="fade-up-1 mt-6 text-5xl font-black tracking-tight text-gray-900 dark:text-white sm:text-6xl">ایده‌جو</h1>
         <p className="fade-up-1 mt-3 text-lg font-bold text-[#ff6154] sm:text-xl">ایده‌ی درست، در زمان درست</p>
         <p className="fade-up-2 mx-auto mt-4 max-w-2xl text-sm leading-8 text-gray-600 dark:text-gray-400 sm:text-base">
-          هر روز ۱۰ ایده برتر جهانی در ۵ بازه زمانی — با رتبه‌بندی واقعی، ترجمه روان، نظرات جامعه و تحلیل هوش مصنوعی از مشابه ایرانی هر ایده.
+          نبض نوآوری جهان در دستان تو؛ هر روز ۱۰ ایده برتر جهانی با رأی واقعی، ترجمه روان و تحلیل هوش مصنوعی از نسخه ایرانی — قبل از اینکه بقیه بفهمن!
         </p>
 
         <div className="fade-up-3 mx-auto mt-9 grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-5">

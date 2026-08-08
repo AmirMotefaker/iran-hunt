@@ -1,6 +1,6 @@
 export function Logo({ size = 40, className = '' }: { size?: number; className?: string }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 64 64" fill="none" className={className} role="img" aria-label="لوگوی ایده‌یاب">
+    <svg width={size} height={size} viewBox="0 0 64 64" fill="none" className={className} role="img" aria-label="لوگوی ایده‌جو">
       <defs>
         <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#ff7a6b" />

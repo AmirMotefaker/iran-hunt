@@ -5,7 +5,7 @@ import { useState } from 'react';
 export function ShareButtons({ url, name }: { url: string; name: string }) {
   const [copied, setCopied] = useState(false);
   const abs = typeof window !== 'undefined' ? `${window.location.origin}${url}` : url;
-  const text = `${name} | ایده‌یاب`;
+  const text = `${name} | ایده‌جو`;
 
   const copy = async () => {
     try {
