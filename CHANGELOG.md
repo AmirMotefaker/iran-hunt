@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.2...v1.13.3) (2026-08-08)
+
+
+### Bug Fixes
+
+* groq key error handling + standard workflow ([381a06b](https://github.com/AmirMotefaker/iran-hunt/commit/381a06b9fcc55471ec62e31a8f6caca6da50dd43))
+
 ## [1.13.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.13.1...v1.13.2) (2026-08-08)
 
 
