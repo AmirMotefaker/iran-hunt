@@ -165,7 +165,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <a href={product.websiteUrl} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🌐 وب‌سایت رسمی</a>
               )}
               {product.makerTwitter && (
-                <a href={https://twitter.com/} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🐦 توییتر سازنده</a>
+                <a href={``https://twitter.com/`${product.makerTwitter} ``} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🐦 توییتر سازنده</a>
               )}
               {product.url && (
                 <a href={product.url} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🚀 صفحه ProductHunt</a>

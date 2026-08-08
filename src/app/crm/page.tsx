@@ -76,7 +76,7 @@ export default function CrmPage() {
                   <td className="p-4 font-bold text-gray-400">{(i + 1).toLocaleString('fa-IR')}</td>
                   <td className="p-4 font-bold text-gray-800 dark:text-white">{r.first_name || r.last_name ? `${r.first_name} ${r.last_name}`.trim() : '—'}</td>
                   <td className="p-4 font-bold" dir="ltr">{r.email}</td>
-                  <td className="p-4 text-gray-600 dark:text-gray-300">{r.company || '—'}{r.role ?  ·  : ''}</td>
+                  <td className="p-4 text-gray-600 dark:text-gray-300">{r.company || '—'}{r.role ? `  · ${r.role} ` : ''}</td>
                   <td className="p-4">{r.mobile ? faDigits(r.mobile) : '—'}</td>
                   <td className="p-4">{r.province || '—'}{r.city ? `، ${r.city}` : ''}</td>
                   <td className="p-4 text-xs text-gray-600 dark:text-gray-300">{formatShamsiFull(r.created_at)}</td>
