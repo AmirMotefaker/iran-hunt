@@ -1,3 +1,10 @@
+## [1.14.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.2...v1.14.3) (2026-08-08)
+
+
+### Bug Fixes
+
+* gemini-first + rich iran equivalent + real budgets + fresh comments ([3a972db](https://github.com/AmirMotefaker/iran-hunt/commit/3a972dbc855d30dec484ad5df30a4004675a2dc6))
+
 ## [1.14.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.1...v1.14.2) (2026-08-08)
 
 
