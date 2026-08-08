@@ -49,7 +49,8 @@ export default function AboutPage() {
         ))}
 
         <div className="rounded-3xl bg-gray-900 p-6 text-white shadow-lg dark:bg-gray-800 dark:ring-1 dark:ring-gray-700">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#ff6154] text-lg font-black">ا</div>
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src="/founder.jpg" alt="امیر متفکر" className="h-20 w-20 rounded-2xl object-cover ring-2 ring-[#ff6154]/40" />
           <h3 className="mt-4 text-lg font-black">امیر متفکر</h3>
           <p className="mt-1 text-xs font-bold text-gray-400">بنیان‌گذار ایده‌جو</p>
           <p className="mt-3 text-sm leading-7 text-gray-300">

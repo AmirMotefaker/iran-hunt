@@ -7,6 +7,6 @@ export async function GET() {
   if (!email || email !== process.env.ADMIN_EMAIL)
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
 
-  const rows = await sql`SELECT email, first_name, last_name, province, city, mobile, created_at FROM users ORDER BY created_at DESC`;
+  const rows = await sql`SELECT email, first_name, last_name, province, city, mobile, company, role, expertise, created_at FROM users ORDER BY created_at DESC`;
   return NextResponse.json({ rows });
 }
