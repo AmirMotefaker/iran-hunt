@@ -1,3 +1,10 @@
+## [1.12.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.12.1...v1.12.2) (2026-08-08)
+
+
+### Bug Fixes
+
+* faDigits type + slugQuery signature + StarRating string ([2242da1](https://github.com/AmirMotefaker/iran-hunt/commit/2242da13fa164aa119b3af10b807be103d3059ce))
+
 ## [1.12.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.12.0...v1.12.1) (2026-08-08)
 
 
