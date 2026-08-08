@@ -3,8 +3,6 @@ import { Vazirmatn } from 'next/font/google';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { ThemeProvider } from '@/components/ThemeProvider';
-import { getAllCategories, slugifyCategory } from '@/lib/categories';
-import { translateCategory } from '@/lib/translate';
 import './globals.css';
 
 const vazirmatn = Vazirmatn({
@@ -52,21 +50,13 @@ const jsonLd = {
   ],
 };
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const rawCategories = await getAllCategories();
-  const categories = rawCategories.map((c) => ({
-    name: c.name,
-    nameFa: translateCategory(c.name),
-    count: c.count,
-    slug: slugifyCategory(c.name),
-  }));
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fa" dir="rtl" suppressHydrationWarning>
       <body className={vazirmatn.className}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <ThemeProvider>
-          <Header categories={categories} />
+          <Header />
           {children}
           <Footer />
         </ThemeProvider>
