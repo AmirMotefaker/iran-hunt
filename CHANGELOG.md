@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.11.1...v1.12.0) (2026-08-08)
+
+
+### Features
+
+* header avatar + live search + dependent cities + AI review gating + PH comments + social links + persian digits ([69681ca](https://github.com/AmirMotefaker/iran-hunt/commit/69681cacaa97ac9395f822d39ab6ead615933caa))
+
 ## [1.11.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.11.0...v1.11.1) (2026-08-08)
 
 
