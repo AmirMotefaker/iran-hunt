@@ -12,6 +12,25 @@ function stripHtml(html: string): string {
 }
 
 // خواندن کامنت‌های واقعی از خود ProductHunt
+async function scrapeCommentsFromHtml(slug: string): Promise<PHComment[]> {
+  const { load } = await import('cheerio');
+  const res = await fetch(`https://www.producthunt.com/posts/${slug}`, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36' },
+  });
+  if (!res.ok) return [];
+  const html = await res.text();
+  const $ = load(html);
+  const out: PHComment[] = [];
+  // نام‌های کاربران معمولاً در data-test="comment-author" یا لینک‌های پروفایل هستند
+  $('[data-test="comment-author"], a[href^="/@"]').each((_, el) => {
+    const name = $(el).text().trim();
+    if (name && name.length > 1 && name.length < 40 && !name.includes('REDACTED')) {
+      out.push({ user: name, text: '' });
+    }
+  });
+  return out;
+}
+
 async function fetchRealComments(token: string, slug: string): Promise<PHComment[]> {
   const query = `query { post(slug: "${slug}") { comments(first: 8) { edges { node { body user { name username } } } } } }`;
   const res = await fetch(PH_API, {
@@ -22,12 +41,28 @@ async function fetchRealComments(token: string, slug: string): Promise<PHComment
   if (!res.ok) { console.warn(`   ⚠️  PH comments HTTP ${res.status}`); return []; }
   const json: any = await res.json();
   const edges = json.data?.post?.comments?.edges ?? [];
-  return edges
+
+  const fromApi: PHComment[] = edges
     .map((e: any) => ({
-      user: e.node?.user?.name || e.node?.user?.username || 'Hunter',
+      user: e.node?.user?.name || e.node?.user?.username || '',
       text: stripHtml(e.node?.body ?? ''),
     }))
     .filter((c: PHComment) => c.text.length > 10);
+
+  // اگر همه نام‌ها REDACTED بود، از scraping استفاده کن
+  const allRedacted = fromApi.every((c) => c.user.includes('REDACTED') || !c.user);
+  if (allRedacted) {
+    console.log('   🔍 Scraping HTML for real usernames...');
+    const scraped = await scrapeCommentsFromHtml(slug);
+    if (scraped.length) {
+      return fromApi.map((c, i) => ({
+        user: scraped[i]?.user || c.user,
+        text: c.text,
+      }));
+    }
+  }
+
+  return fromApi;
 }
 
 async function main() {

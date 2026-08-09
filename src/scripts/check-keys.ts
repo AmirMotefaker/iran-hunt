@@ -1,5 +1,5 @@
 const ph = process.env.PH_API_TOKEN ?? '';
-const q = `query { post(slug: "coldtea") { name makers { name } comments(first: 3) { edges { node { body user { name username } } } } } }`;
+const q = `query { post(slug: "coldtea") { name makers { name username } comments(first: 3) { edges { node { body user { name username } } } } } }`;
 const r = await fetch('https://api.producthunt.com/v2/api/graphql', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${ph}` },
@@ -9,9 +9,9 @@ console.log('PH HTTP:', r.status);
 if (r.ok) {
   const j: any = await r.json();
   console.log('محصول:', j.data?.post?.name);
-  console.log('سازنده واقعی:', j.data?.post?.makers?.[0]?.name);
+  console.log('سازنده:', j.data?.post?.makers?.[0]?.name, '| username:', j.data?.post?.makers?.[0]?.username);
   (j.data?.post?.comments?.edges ?? []).forEach((e: any) =>
-    console.log('   نام کاربر واقعی:', e.node?.user?.name ?? e.node?.user?.username));
+    console.log('   کامنت‌گذار: name=', e.node?.user?.name, '| username=', e.node?.user?.username));
 } else {
   console.log('❌ توکن PH معتبر نیست!');
 }
@@ -24,3 +24,5 @@ if (g) {
   });
   console.log('Gemini HTTP:', gr.status, gr.status === 200 ? '✅' : '❌');
 } else console.log('Gemini: کلید لوکال نیست (در GitHub مهمه)');
+
+export {};
