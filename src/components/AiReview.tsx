@@ -32,7 +32,17 @@ export function AiReview({ text }: { text?: string }) {
       <h4 className="flex items-center gap-2 font-extrabold text-purple-900 dark:text-purple-200">
         <Sparkles size={18} /> تحلیل تخصصی و فنی با هوش مصنوعی
       </h4>
-      <p className="mt-3 whitespace-pre-line text-sm leading-8 text-purple-900 dark:text-purple-100">{text}</p>
+      <div className="mt-3 space-y-1 text-sm leading-8 text-purple-900 dark:text-purple-100">
+        {text.split('\n').map((line, i) => {
+          const t = line.trim();
+          if (!t) return null;
+          return t.startsWith('🔹') ? (
+            <strong key={i} className="block pt-3 font-black text-purple-900 dark:text-purple-200">{t}</strong>
+          ) : (
+            <p key={i} className={t.startsWith('-') ? 'pr-5' : ''}>{t}</p>
+          );
+        })}
+      </div>
     </div>
   );
 }

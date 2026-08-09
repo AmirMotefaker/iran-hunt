@@ -16,8 +16,10 @@ function normalizeDigits(text: string): string {
 function sanitize(text: string): string {
   return text
     .replace(/\[REDACTED\]/gi, '')
-    .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/g, '')
-    .replace(/(^|\s)IR(?=\s|$|[.,،؛:!؟?])/g, ' ')
+    .replace(/\\n/g, '\n')
+    .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\u0400-\u04ff\uac00-\ud7af\u3131-\u3163]/g, '')
+    .replace(/(^|[\s،.؛:!؟?])IR(?=[\s،.؛:!؟?]|$)/g, ' ')
+    .replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d])
     .replace(/[ \t]{2,}/g, ' ')
     .trim();
 }
