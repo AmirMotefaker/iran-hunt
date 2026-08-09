@@ -1,3 +1,10 @@
+## [1.14.4](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.3...v1.14.4) (2026-08-09)
+
+
+### Bug Fixes
+
+* own UTM + real usernames + professional structured AI texts ([bee7580](https://github.com/AmirMotefaker/iran-hunt/commit/bee758049a091f0a285ba0db7b8237643a2bd53e))
+
 ## [1.14.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.2...v1.14.3) (2026-08-08)
 
 
