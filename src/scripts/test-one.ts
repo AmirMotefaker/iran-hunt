@@ -22,9 +22,12 @@ async function scrapeCommentsFromHtml(slug: string): Promise<PHComment[]> {
   const $ = load(html);
   const out: PHComment[] = [];
   // نام‌های کاربران معمولاً در data-test="comment-author" یا لینک‌های پروفایل هستند
-  $('[data-test="comment-author"], a[href^="/@"]').each((_, el) => {
+  $('a[href^="/@"]').each((_, el) => {
     const name = $(el).text().trim();
-    if (name && name.length > 1 && name.length < 40 && !name.includes('REDACTED')) {
+    if (
+      name && !name.startsWith('@') && name.length > 2 && name.length < 40 &&
+      !name.includes('REDACTED') && /[A-Za-z]/.test(name) && !/^\d+$/.test(name)
+    ) {
       out.push({ user: name, text: '' });
     }
   });
