@@ -10,6 +10,7 @@ import { StarRating } from '@/components/StarRating';
 import { UserComments } from '@/components/UserComments';
 import { loadLatest } from '@/lib/storage';
 import { PERIODS } from '@/lib/scraper';
+import { withUtm } from '@/lib/utm';
 import type { PeriodKey } from '@/types';
 
 export const dynamic = 'force-dynamic';
@@ -103,7 +104,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div className="flex flex-col items-end gap-2">
             <div className="flex items-center gap-2"><LikeButton slug={product.slug} /><BookmarkButton slug={product.slug} /></div>
             {product.websiteUrl && (
-              <a href={product.websiteUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-xl bg-gray-900 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200">
+              <a href={withUtm(product.websiteUrl)} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-xl bg-gray-900 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200">
                 <ExternalLink size={12} /> وب‌سایت رسمی
               </a>
             )}
@@ -183,7 +184,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-xs font-bold text-gray-500 dark:text-gray-400">لینک‌های رسمی:</span>
               {product.websiteUrl && (
-                <a href={product.websiteUrl} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🌐 وب‌سایت رسمی</a>
+                <a href={withUtm(product.websiteUrl)} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🌐 وب‌سایت رسمی</a>
               )}
               {product.makerTwitter && (
                 <a href={`https://twitter.com/${product.makerTwitter}`} target="_blank" rel="noreferrer" className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-bold text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200">🐦 توییتر سازنده</a>
@@ -196,7 +197,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
           {product.faComments && product.faComments.length > 0 && (
             <div className="rounded-2xl bg-gray-50 p-5 dark:bg-gray-800/50">
-              <h4 className="font-extrabold text-gray-800 dark:text-gray-100">💬 نظرات جامعه جهانی (ترجمه فارسی)</h4>
+              <h4 className="font-extrabold text-gray-800 dark:text-gray-100">💬 نظرات</h4>
               <ul className="mt-3 space-y-3">
                 {product.faComments.map((cm, i) => (
                   <li key={i} className="rounded-2xl bg-white p-4 shadow-sm dark:bg-gray-900">

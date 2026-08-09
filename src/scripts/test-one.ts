@@ -49,8 +49,10 @@ async function main() {
   // 1) کامنت‌های واقعی از ProductHunt
   if (process.env.PH_API_TOKEN) {
     console.log('   📥 Fetching real comments from ProductHunt...');
-    target.comments = await fetchRealComments(process.env.PH_API_TOKEN, TARGET_SLUG);
+    const fresh = await fetchRealComments(process.env.PH_API_TOKEN, TARGET_SLUG);
+    if (fresh.length) target.comments = fresh;
   }
+  target.comments = (target.comments ?? []).filter((c: any) => !String(c.user).includes('REDACTED'));
   console.log(`   💬 Real comments: ${target.comments?.length ?? 0}`);
 
   // 2) ترجمه + پیشنهاد ایرانی با AI

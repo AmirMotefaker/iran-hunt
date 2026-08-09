@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { me } from '@/lib/auth-client';
 import type { Product } from '@/types';
+import { withUtm } from '@/lib/utm';
 
 export function GatedContent({ product }: { product: Product }) {
   const [plan, setPlan] = useState<string>('free');
@@ -65,7 +66,7 @@ export function GatedContent({ product }: { product: Product }) {
           </div>
         </div>
         {product.websiteUrl && (
-          <a href={product.websiteUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-green-600 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-green-700">
+          <a href={withUtm(product.websiteUrl)} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-green-600 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-green-700">
             🌐 وب‌سایت رسمی محصول
           </a>
         )}

@@ -9,7 +9,7 @@ export interface AIAnalysis {
 
 function normalizeDigits(text: string): string {
   return text
-    .replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)))
+    .replace(/[۰-۹]/g, (d) => String('۰۱۳۴۵۷۸۹'.indexOf(d)))
     .replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d)));
 }
 
@@ -17,7 +17,8 @@ function sanitize(text: string): string {
   return text
     .replace(/\[REDACTED\]/gi, '')
     .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/g, '')
-    .replace(/\s{2,}/g, ' ')
+    .replace(/(^|\s)IR(?=\s|$|[.,،؛:!؟?])/g, ' ')
+    .replace(/[ \t]{2,}/g, ' ')
     .trim();
 }
 
@@ -34,28 +35,28 @@ export function buildPrompt(p: Product): string {
 
 محصول: ${p.name}
 تگلاین: ${p.tagline}
-توضیحات: ${(p.description ?? '').slice(0, 900)}
+توضیحات کامل: ${(p.description ?? '').slice(0, 1200)}
 
 نظرات واقعی کاربران (فقط متن):
 ${commentsEn || '—'}
 
 قوانین سخت:
 - خروجی فقط یک JSON معتبر
-- تمام متن‌ها به فارسی روان، طبیعی و حرفه‌ای؛ جمله‌بندی دقیق و بدون غلط
-- استفاده از کاراکترها یا کلمات چینی، ویتنامی، کره‌ای، چکی و هر زبان دیگر اکیداً ممنوع؛ کلمه نامفهوم ممنوع
-- انگلیسی فقط برای نام محصول/برند/اصطلاح فنی (API، SaaS)
-- هرگز سانسور نکن؛ [REDACTED] ممنوع
+- تمام متن‌ها فارسی روان، حرفه‌ای و بدون غلط؛ جمله‌بندی دقیق
+- کاراکتر/کلمه چینی، ویتنامی یا هر زبان دیگر ممنوع؛ کلمه نامفهوم ممنوع
+- هیچ پیشوند/پسوند اضافی (مثل IR یا FA) به نام محصول نچسبان
+- [REDACTED] و سانسور ممنوع
 - faComments: آرایه رشته‌ها = ترجمه دقیق و روان نظرات بالا، به همان ترتیب و همان تعداد
-- estimatedBudget فقط به صورت متن فارسی واقعی، مثل: «۲ تا ۴ میلیارد تومان»
+- estimatedBudget فقط متن فارسی واقعی مثل: «۲ تا  میلیارد تومان»
 
 خروجی:
 {
-  "faDescription": "ترجمه روان توضیحات (۲-۳ جمله)",
+  "faDescription": "ترجمه کامل و جامع تمام توضیحات محصول به فارسی؛ حداقل ۴ جمله؛ روان و دقیق",
   "faComments": ["ترجمه نظر ۱", "..."],
   "iranEquivalent": {
     "productName": "نام پیشنهادی برند ایرانی",
-    "description": "توضیح کامل نسخه ایرانی (۲-۳ جمله)",
-    "marketOpportunity": "تحلیل فرصت بازار ایران (۲ جمله)",
+    "description": "توضیح کامل و حرفه‌ای نسخه ایرانی (۳-۴ جمله)",
+    "marketOpportunity": "تحلیل عمیق فرصت بازار ایران (۳ جمله)",
     "estimatedBudget": "مثلاً: ۲ تا ۴ میلیارد تومان",
     "targetAudience": "مخاطب هدف دقیق",
     "challenges": ["چالش ۱", "چالش ۲", "چالش ۳"],
@@ -63,7 +64,7 @@ ${commentsEn || '—'}
     "techStack": ["Next.js", "PostgreSQL"],
     "confidence": 75
   },
-  "aiReview": "تحلیل جامع، حرفه‌ای و فنی در حداقل ۸ جمله: مسئله‌ای که حل می‌کند، معماری و تکنولوژی احتمالی، مدل درآمدی، مزیت رقابتی، نقاط قوت و ضعف فنی، دلیل ترند شدن، و چشم‌انداز بازار ایران"
+  "aiReview": "تحلیل جامع و حرفه‌ای با این ساختار دقیق (هر بخش ۲-۴ جمله یا بولت):\\n🔹 مسئله و راه‌حل:\\n...\\n🔹 معماری و تکنولوژی احتمالی:\\n...\\n🔹 مدل درآمدی:\\n...\\n🔹 نقاط قوت:\\n- ...\\n🔹 نقاط ضعف و ریسک‌ها:\\n- ...\\n🔹 نکته طلایی برای بازار ایران:\\n..."
 }`;
 }
 
@@ -119,11 +120,8 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
     texts = parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''));
   }
   const faComments: PHComment[] = originals
-    .map((c, i) => ({
-      user: c.user?.includes('REDACTED') ? `کاربر ProductHunt ${i + 1}` : c.user,
-      text: sanitize(texts[i] || c.text),
-    }))
-    .filter((c) => c.text.length > 5);
+    .map((c, i) => ({ user: c.user, text: sanitize(texts[i] || c.text) }))
+    .filter((c) => c.text.length > 5 && !String(c.user).includes('REDACTED'));
 
   const eqRaw = parsed.iranEquivalent ?? {};
   const iranEquivalent: IranEquivalent = {
