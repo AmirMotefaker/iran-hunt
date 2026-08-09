@@ -1,3 +1,10 @@
+## [1.14.7](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.6...v1.14.7) (2026-08-09)
+
+
+### Bug Fixes
+
+* correct selector for real PH commenter names ([6d970cb](https://github.com/AmirMotefaker/iran-hunt/commit/6d970cb1edac92e827297f9856345edd9bc383e7))
+
 ## [1.14.6](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.5...v1.14.6) (2026-08-09)
 
 
