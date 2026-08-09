@@ -1,3 +1,10 @@
+## [1.14.5](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.4...v1.14.5) (2026-08-09)
+
+
+### Bug Fixes
+
+* persian digits + strip cyrillic/korean + headline rendering + key check ([6cbd96f](https://github.com/AmirMotefaker/iran-hunt/commit/6cbd96f47fa5f771c6ea37b9fc55615a1ed1045d))
+
 ## [1.14.4](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.3...v1.14.4) (2026-08-09)
 
 
