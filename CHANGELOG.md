@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.8...v1.15.0) (2026-08-10)
+
+
+### Features
+
+* analyze-all script + daily backfill + batch processing ([123ccb9](https://github.com/AmirMotefaker/iran-hunt/commit/123ccb9edb7c27463841d44c5b3c677cb79b8da7))
+
 ## [1.14.8](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.7...v1.14.8) (2026-08-10)
 
 
