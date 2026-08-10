@@ -194,33 +194,90 @@
         "featuredAt": "2026-08-07T07:01:00Z",
         "votes": 468,
         "websiteUrl": "https://www.producthunt.com/r/WB4IUOEMBNYG5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [],
+        "comments": [
+          {
+            "user": "Ohans Emmanuel",
+            "text": "Hi Product&nbsp;Hunt, Ohans here from @Coldtea.ai . Coldtea brings your terminal, end-to-end testing and production monitoring into one agentic development environment. Terminal : Run the agents you already use, in parallel, with shared context between them. No lock-in. Your workflows stay yours. Visual QA agents : They drive your real app and catch regressions before your users do. And let you automate every release testing (supports iOS, Android and web) AI production monitoring : Watches production after the deploy and tells you what broke, in plain language. Connects your logging, observability tools, and agent traces in one place, so you wake up to investigated fixes, not blind alerts Tasks : Brings your engineering tasks closer to where you work. One place your team and your agents both work from, whether locally or in the cloud Try it now: coldtea.ai Would love your feedback; I'm in the comments all day. Thanks! Shipping faster was never our hardest problem. When I was a Staff Engineer at the world's largest meal kit brand, HelloFresh, what I personally obsessed over was the part after merging a PR: how do you know a regression didn't slip through, how do you know what production is doing right now, have we architected the product right, and where does the whole team go to see it all of this in one place? That question followed me home. Then agents arrived and made it louder. I tried every tool out there, and my day turned into context-switching between them or stringing together a custom workflow. Orchestration in one tab, QA in another, monitoring somewhere else. It took me a while to see why none of them fixed it. Every other agentic development environment out there is pointed at the same thing: build. Run more agents in parallel, ship faster, orchestrate better. All of that is genuinely good, and all of it is the first act. Software delivery was never just building, so the tools that only do build hand the rest back to you to figure out. So we spent the last five months rethinking what a holistic agentic development environment for engineering teams could look like, alongside some fast-moving teams. This is how Coldtea was born. Coldtea is an agentic development environment for the entire software lifecycle. Not bolted on, not an afterthought. Day zero. Agents can already work across the entire stack. The next era of development environments has to do the same. That's our thought process. Would love your feedback, especially if you're the one who gets paged when the thing your agent shipped breaks."
+          },
+          {
+            "user": "Mohsin Ali",
+            "text": "That self-driving angle is a bold way to frame delivery, and I like that you didn't just call it \"another CI/CD tool.\""
+          },
+          {
+            "user": "Ohans Emmanuel",
+            "text": "Really looking forward to checking this out!"
+          },
+          {
+            "user": "Amrani Yasser",
+            "text": "Congrats Ohans! The “every agentic environment is pointed at build, and build is only the first act” framing is the sharpest thing I’ve read on a launch page this month. Here’s a case I’d love your take on. We run QA on a product whose output is itself AI-generated, so a given user action produces different content every run. Visual regression assumes a stable ground truth to compare against, and we don’t have one. Two runs of the same flow look completely different and both are correct. Today our QA people end up checking structural things instead, whether layouts hold, nothing overlaps, no empty states. Can a Coldtea QA agent be pointed at that kind of check, where the intent is a property that must hold rather than a screen that should match? Feels like a growing category of app given how many products now generate their own output."
+          },
+          {
+            "user": "Ohans Emmanuel",
+            "text": "Does everything work as one integrated system, or can the different parts be used independently? We're currently developing with Claude Code and Claude Design, but we don't have any really good tools for QA. Could we use your service specifically for QA, independently of the other parts?"
+          },
+          {
+            "user": "fmerian",
+            "text": "What about downtine? How is that taken care of?"
+          },
+          {
+            "user": "Farhan Nazir",
+            "text": "Congrats on the launch.. My big build issues lie upstream of the QA agent. Where does the test intent come from? If the coding agent and the QA agent both work off the same idea of what the feature should do, the check is a mirror. And can Coldtea catch a test that always passes? Mine sat green for a week while a bunch of stuff was breaking, because it was only checking that a metadata column was present. That column could never be null, so every run came back legit. A check that has never failed once is the thing I want flagged."
+          },
+          {
+            "user": "Priya K",
+            "text": "Congrats @fmerian for hunting another gem and Congrats #makers for the successful launch. What happens when two agents make conflicting changes to the same part of the code?"
+          }
+        ],
         "makerTwitter": "",
-        "faDescription": "Coldtea.ai یک محیط توسعه یکپارچه هوشمند است که به تیم‌های توسعه نرم‌افزار کمک می‌کند تا با سرعت و پایداری بیشتر، نرم‌افزارهای خود را تولید کنند. این محیط با استفاده از هوش مصنوعی، امکان ساخت، تست و نظارت بر تولید نرم‌افزار را به صورت خودکار فراهم می‌کند. با استفاده از Coldtea.ai، تیم‌های توسعه می‌توانند با سرعت بیشتری نرم‌افزارهای خود را تولید کنند بدون اینکه نگران پایداری تولید باشند. این محیط شامل ابزارهای مختلفی مانند اژانس‌های کدگذاری، اژانس‌های تست بصری و نظارت بر تولید است که به طور خودکار کارهای مختلف را انجام می‌دهند.",
-        "faComments": [],
+        "faDescription": "Coldtea.ai یک محیط توسعه هوشمند است که به تیم‌های توسعه نرم‌افزار کمک می‌کند تا نرم‌افزارهای خود را به صورت خودکار و بدون وقفه تولید کنند. این محیط توسعه هوشمند از سه جزء اصلی تشکیل شده است: محیط ترمینال، تست کیفیت بصری و نظارت بر تولید. محیط ترمینال به توسعه‌دهندگان این امکان را می‌دهد تا برنامه‌های خود را به صورت موازی و با استفاده از ابزارهای موجود اجرا کنند. تست کیفیت بصری به عنوان یک عامل هوشمند عمل می‌کند که برنامه‌های واقعی را اجرا کرده و هرگونه افت در عملکرد را شناسایی می‌کند. همچنین، نظارت بر تولید به صورت مداوم بر روی محیط تولید نظارت داشته و در صورت بروز هرگونه مشکل، توسعه‌دهندگان را مطلع می‌کند. Coldtea.ai به توسعه‌دهندگان این امکان را می‌دهد تا کارهای خود را به صورت یکپارچه و بدون نیاز به ابزارهای مختلف انجام دهند.",
+        "faComments": [
+          {
+            "user": "Ohans Emmanuel",
+            "text": "سلام، من Ohans از Coldtea.ai هستم. Coldtea محیط توسعه هوشمندی است که محیط ترمینال، تست کیفیت بصری و نظارت بر تولید را در یک جا جمع‌آوری کرده است. محیط ترمینال به شما این امکان را می‌دهد تا برنامه‌های خود را به صورت موازی و با استفاده از ابزارهای موجود اجرا کنید. تست کیفیت بصری به عنوان یک عامل هوشمند عمل می‌کند که برنامه‌های واقعی را اجرا کرده و هرگونه افت در عملکرد را شناسایی می‌کند. همچنین، نظارت بر تولید به صورت مداوم بر روی محیط تولید نظارت داشته و در صورت بروز هرگونه مشکل، توسعه‌دهندگان را مطلع می‌کند."
+          },
+          {
+            "user": "Mohsin Ali",
+            "text": "زاویه خودکار بودن تحویل نرم‌افزار بسیار جالب است و خوشبختانه شما فقط آن را یک ابزار دیگر برای یکپارچه‌سازی و تحویل مداوم نخوانده‌اید."
+          },
+          {
+            "user": "Ohans Emmanuel",
+            "text": "به شدت مشتاق هستم تا این محصول را بررسی کنم."
+          },
+          {
+            "user": "Amrani Yasser",
+            "text": "تبریک می‌گویم! چارچوب «هر محیط توسعه هوشمند فقط بر روی ساخت متمرکز است و ساخت فقط اولین مرحله است» بسیار تیز و هوشمندانه است. من یک مورد خاص را برایتان توضیح می‌دهم. ما بر روی یک محصول کار می‌کنیم که خروجی آن به خودی خود توسط هوش مصنوعی تولید می‌شود، بنابراین هر بار که یک کاربر عمل خاصی را انجام می‌دهد، محتوای متفاوتی تولید می‌شود. تست کیفیت بصری فرض می‌کند که یک واقعیت ثابت برای مقایسه وجود دارد، اما ما چنین واقعیتی نداریم. دو بار اجرای یک جریان می‌تواند نتایج کاملاً متفاوتی داشته باشد و هر دو نتیجه صحیح هستند. در حال حاضر، تست‌کنندگان ما فقط مواردی مانند ساختار را بررسی می‌کنند، آیا طرح‌بندی‌ها حفظ می‌شوند، آیا هیچ چیز روی هم قرار نمی‌گیرد، آیا هیچ حالت خالی وجود ندارد. آیا می‌توان یک عامل تست کیفیت Coldtea را برای چنین بررسی‌هایی تنظیم کرد که هدف آن بررسی یک ویژگی خاص است و نه یک صفحه خاص؟"
+          },
+          {
+            "user": "Ohans Emmanuel",
+            "text": "آیا همه اجزای این سیستم به صورت یکپارچه کار می‌کنند یا می‌توان از هر یک به صورت مستقل استفاده کرد؟ ما در حال حاضر با Claude Code و Claude Design در حال توسعه هستیم، اما ابزار مناسبی برای تست کیفیت نداریم. آیا می‌توانیم فقط از بخش تست کیفیت شما استفاده کنیم، به صورت مستقل از سایر بخش‌ها؟"
+          },
+          {
+            "user": "fmerian",
+            "text": "چطور در مورد زمان توقف تولید عمل می‌کنید؟"
+          }
+        ],
         "iranEquivalent": {
           "productName": "نرم‌افزار خودران",
-          "description": "نرم‌افزار خودران یک محیط توسعه یکپارچه هوشمند است که به تیم‌های توسعه نرم‌افزار در ایران کمک می‌کند تا با سرعت و پایداری بیشتر، نرم‌افزارهای خود را تولید کنند. این محیط با استفاده از هوش مصنوعی، امکان ساخت، تست و نظارت بر تولید نرم‌افزار را به صورت خودکار فراهم می‌کند. نرم‌افزار خودران می‌تواند به طور خاص برای نیازهای بازار ایران توسعه یابد.",
-          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای توسعه نرم‌افزارهای خودران است. با توجه به رشد روزافزون صنعت نرم‌افزار در ایران، نیاز به محیط‌های توسعه یکپارچه هوشمند که بتوانند به تیم‌های توسعه کمک کنند تا با سرعت و پایداری بیشتر نرم‌افزارهای خود را تولید کنند، روز به روز بیشتر می‌شود. نرم‌افزار خودران می‌تواند به عنوان یک راه حل مناسب برای این نیازها باشد.",
-          "estimatedBudget": "۴ تا ۱۰ میلیارد تومان",
-          "targetAudience": "تیم‌های توسعه نرم‌افزار در ایران",
+          "description": "نرم‌افزار خودران یک محیط توسعه هوشمند است که به تیم‌های توسعه نرم‌افزار کمک می‌کند تا نرم‌افزارهای خود را به صورت خودکار و بدون وقفه تولید کنند. این محیط توسعه هوشمند از سه جزء اصلی تشکیل شده است: محیط ترمینال، تست کیفیت بصری و نظارت بر تولید. محیط ترمینال به توسعه‌دهندگان این امکان را می‌دهد تا برنامه‌های خود را به صورت موازی و با استفاده از ابزارهای موجود اجرا کنند. تست کیفیت بصری به عنوان یک عامل هوشمند عمل می‌کند که برنامه‌های واقعی را اجرا کرده و هرگونه افت در عملکرد را شناسایی می‌کند. همچنین، نظارت بر تولید به صورت مداوم بر روی محیط تولید نظارت داشته و در صورت بروز هرگونه مشکل، توسعه‌دهندگان را مطلع می‌کند.",
+          "marketOpportunity": "در ایران، بازار نرم‌افزارهای خودکار و هوشمند در حال رشد است. بسیاری از شرکت‌های ایرانی در حال توسعه نرم‌افزارهای خود هستند و به ابزارهای توسعه هوشمند نیاز دارند. نرم‌افزار خودران می‌تواند به عنوان یک محیط توسعه هوشمند، به این شرکت‌ها کمک کند تا نرم‌افزارهای خود را به صورت خودکار و بدون وقفه تولید کنند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "تیم‌های توسعه نرم‌افزار",
           "challenges": [
-            "رقابت با محیط‌های توسعه یکپارچه موجود",
-            "نیاز به آموزش و destek برای استفاده از محیط",
-            "نیاز به تطبیق با نیازهای خاص بازار ایران"
+            "رقابت با شرکت‌های خارجی",
+            "نیاز به آموزش و پشتیبانی",
+            "نیاز به سازگاری با سیستم‌های موجود"
           ],
           "monetization": [
-            "فروش محیط توسعه یکپارچه",
-            "ارائه خدمات پشتیبانی و آموزش"
+            "فروش نرم‌افزار",
+            "پشتیبانی و آموزش"
           ],
           "techStack": [
             "Next.js",
-            "PostgreSQL",
-            "TensorFlow"
+            "PostgreSQL"
           ],
-          "confidence": 80
+          "confidence": 75
         },
-        "aiReview": "🔹 مسئله و راه‌حل:\nColdtea.ai یک محیط توسعه یکپارچه هوشمند است که به تیم‌های توسعه نرم‌افزار کمک می‌کند تا با سرعت و پایداری بیشتر، نرم‌افزارهای خود را تولید کنند. این محیط با استفاده از هوش مصنوعی، امکان ساخت، تست و نظارت بر تولید نرم‌افزار را به صورت خودکار فراهم می‌کند.\n🔹 معماری و تکنولوژی احتمالی:\nColdtea.ai می‌تواند با استفاده از تکنولوژی‌های مختلفی مانند Next.js، PostgreSQL و TensorFlow توسعه یابد.\n🔹 مدل درآمدی:\nColdtea.ai می‌تواند با فروش محیط توسعه یکپارچه و ارائه خدمات پشتیبانی و آموزش به تیم‌های توسعه نرم‌افزار، درآمد ایجاد کند.\n🔹 نقاط قوت:\n- سرعت و پایداری بیشتر در تولید نرم‌افزار\n- امکان استفاده از هوش مصنوعی برای ساخت، تست و نظارت بر تولید\n🔹 نقاط ضعف و ریسک‌ها:\n- نیاز به آموزش و پشتیبانی برای استفاده از محیط\n- رقابت با محیط‌های توسعه یکپارچه موجود\n🔹 نکته طلایی برای بازار ایران:\nColdtea.ai می‌تواند به طور خاص برای نیازهای بازار ایران توسعه یابد و به عنوان یک راه حل مناسب برای تیم‌های توسعه نرم‌افزار در ایران باشد."
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nColdtea.ai یک محیط توسعه هوشمند است که به تیم‌های توسعه نرم‌افزار کمک می‌کند تا نرم‌افزارهای خود را به صورت خودکار و بدون وقفه تولید کنند. این محیط توسعه هوشمند از سه جزء اصلی تشکیل شده است: محیط ترمینال، تست کیفیت بصری و نظارت بر تولید.\n🔹 معماری و تکنولوژی احتمالی:\nColdtea.ai از فناوری‌های پیشرفته‌ای مانند Next.js و PostgreSQL استفاده می‌کند.\n🔹 مدل درآمدی:\nColdtea.ai از طریق فروش نرم‌افزار و ارائه پشتیبانی و آموزش درآمد خود را کسب می‌کند.\n🔹 نقاط قوت:\n- محیط توسعه هوشمند\n- تست کیفیت بصری\n- نظارت بر تولید\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با شرکت‌های خارجی\n- نیاز به آموزش و پشتیبانی\n- نیاز به سازگاری با سیستم‌های موجود\n🔹 نکته طلایی برای بازار ایران:\nColdtea.ai می‌تواند به عنوان یک محیط توسعه هوشمند، به شرکت‌های ایرانی کمک کند تا نرم‌افزارهای خود را به صورت خودکار و بدون وقفه تولید کنند."
       },
       {
         "id": "ph-yesterday-2",
