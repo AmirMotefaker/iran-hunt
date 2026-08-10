@@ -2583,38 +2583,79 @@
         "websiteUrl": "https://www.producthunt.com/r/7E5DIGQSMJROEQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
-            "user": "[REDACTED]",
-            "text": "Hi everyone 👋I’m Frank, CEO of YouMind. I’m super excited (and a bit nervous!) to share our very first launch here.We started YouMind because we believe everyone has ideas worth creating. But turning those sparks into finished works is often hard. That’s why we built YouMind — an AI creation studio where you can capture inspiration, explore materials, draft content, and polish it into articles, podcasts, videos, and more.This is just our beginning, and we’d love your feedback. Try it out, break it, tell us what feels useful (or not). Every comment will help us make YouMind better for creators everywhere.Thanks for checking us out ❤️ Excited to hear what you think!"
+            "user": "LEVY CHENG",
+            "text": "Hi everyone 👋 I’m Frank, CEO of YouMind. I’m super excited (and a bit nervous!) to share our very first launch here. We started YouMind because we believe everyone has ideas worth creating. But turning those sparks into finished works is often hard. That’s why we built YouMind — an AI creation studio where you can capture inspiration, explore materials, draft content, and polish it into articles, podcasts, videos, and more. This is just our beginning, and we’d love your feedback. Try it out, break it, tell us what feels useful (or not). Every comment will help us make YouMind better for creators everywhere. Thanks for checking us out ❤️ Excited to hear what you think!"
           },
           {
-            "user": "[REDACTED]",
+            "user": "1 review",
             "text": "Would love to try!"
           },
           {
-            "user": "[REDACTED]",
+            "user": "CaiCai",
             "text": "It's a lovely app, but I'm a bit confused about what makes it different from GPT. I tried to create and design an interaction diagram for a website, and obviously, I failed~ But that doesn't stop me from liking it a lot."
           },
           {
-            "user": "[REDACTED]",
-            "text": "Absolutely loving YouMind! It’s the ultimate AI Creation Studio for learners and creators — one click to save content, automatic video/podcast summaries and transcriptions, plus an Agent that helps organize, brainstorm, draft, polish, and even create visuals. It makes turning ideas into polished work effortless!"
+            "user": "Aditya",
+            "text": "Absolutely loving YouMind ! It’s the ultimate AI Creation Studio for learners and creators — one click to save content, automatic video/podcast summaries and transcriptions, plus an Agent that helps organize, brainstorm, draft, polish, and even create visuals. It makes turning ideas into polished work effortless!"
           },
           {
-            "user": "[REDACTED]",
-            "text": "I have just ask YouMind to create a iPhone17 purchase guide, and it rapidly generate a full report from multiple sources, and summarize all the information. The mind graph is beautiful and the structure is very clear!Amazing graph here with all the information I need ! Keep it going YouMind !!"
+            "user": "17 reviews",
+            "text": "I have just ask YouMind to create a iPhone17 purchase guide, and it rapidly generate a full report from multiple sources, and summarize all the information. The mind graph is beautiful and the structure is very clear! Amazing graph here with all the information I need ! Keep it going YouMind !!"
           },
           {
-            "user": "[REDACTED]",
+            "user": "ahmed nunjik",
             "text": "great tool!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love how YouMind helps me turn rough ideas into well-structured content. Super intuitive and feels like a real creative partner."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Great product! Very suitable for creators"
           }
-        ]
+        ],
+        "faDescription": "YouMind یک استودیوی خلاقیت هوش مصنوعی است که در آن یادگیری و نوشتن با هم ترکیب می‌شوند. این پلتفرم به هر کسی کمک می‌کند تا ایده‌های خود را به واقعیت تبدیل کند، از گرفتن ایده‌ها تا پیش‌نویس و ویرایش مقالات، پادکست‌ها، ویدئوها و بیشتر. با YouMind، هر کسی می‌تواند کنجکاوی خود را به خلاقیت تبدیل کند. این پلتفرم به کاربران امکان می‌دهد تا ایده‌های خود را به اشتراک بگذارند، مواد را کاوش کنند، محتوا را پیش‌نویس کنند و آن را به آثار تمام شده تبدیل کنند. YouMind یک ابزار قدرتمند برای خلاقان و یادگیرندگان است که به آنها کمک می‌کند تا ایده‌های خود را به واقعیت تبدیل کنند.",
+        "faComments": [
+          {
+            "user": "LEVY CHENG",
+            "text": "سلام به همه! من فرانک، مدیرعامل YouMind هستم. من بسیار هیجان‌زده (و کمی عصبی!) هستم که اولین نسخه ما را در اینجا به اشتراک می‌گذارم. ما YouMind را شروع کردیم زیرا معتقدیم که هر کسی ایده‌های ارزشمندی برای خلق دارد. اما تبدیل این ایده‌ها به آثار تمام شده اغلب difficile است. به همین دلیل YouMind را ساختیم - یک استودیوی خلاقیت هوش مصنوعی که در آن می‌توانید الهام را بگیرید، مواد را کاوش کنید، محتوا را پیش‌نویس کنید و آن را به آثار تمام شده تبدیل کنید."
+          },
+          {
+            "user": "1 review",
+            "text": "می‌خواهم آن را امتحان کنم!"
+          },
+          {
+            "user": "CaiCai",
+            "text": "این یک برنامه بسیار خوب است، اما من کمی در مورد آنچه آن را از GPT متمایز می‌کند، سردرگم هستم. سعی کردم یک نمودار تعامل برای یک وب‌سایت ایجاد کنم و به وضوح، شکست خوردم! اما این مانع از این نمی‌شود که آن را بسیار دوست داشته باشم."
+          },
+          {
+            "user": "Aditya",
+            "text": "به طور کامل YouMind را دوست دارم! این استودیوی خلاقیت هوش مصنوعی برای یادگیرندگان و خلاقان است - با یک کلیک، محتوا را ذخیره کنید، خلاصه‌های خودکار ویدئو/پادکست و همچنین یک نماینده که به سازماندهی، ایده‌پردازی، پیش‌نویس، ویرایش و حتی ایجاد تصاویر کمک می‌کند. این تبدیل ایده‌ها به آثار تمام شده راتاً آسان می‌کند!"
+          },
+          {
+            "user": "17 reviews",
+            "text": "من از YouMind خواستم تا یک راهنمای خرید iPhone۱۷ ایجاد کند و آن به سرعت یک گزارش کامل از منابع مختلف ایجاد کرد و تمام اطلاعات را خلاصه کرد. نمودار ذهنی بسیار زیبا و ساختار آن بسیار واضح است! یک نمودار شگفت‌انگیز اینجا با تمام اطلاعاتی که به آن نیاز دارم! YouMind را ادامه دهید!"
+          },
+          {
+            "user": "ahmed nunjik",
+            "text": "ابزار بسیار خوبی است!"
+          }
+        ],
+        "iranEquivalent": {
+          "productName": "ایده‌بان",
+          "description": "ایده‌بان یک پلتفرم خلاقیت هوش مصنوعی است که به کاربران کمک می‌کند تا ایده‌های خود را به واقعیت تبدیل کنند. این پلتفرم به کاربران امکان می‌دهد تا ایده‌های خود را به اشتراک بگذارند، مواد را کاوش کنند، محتوا را پیش‌نویس کنند و آن را به آثار تمام شده تبدیل کنند. ایده‌بان یک ابزار قدرتمند برای خلاقان و یادگیرندگان است که به آنها کمک می‌کند تا ایده‌های خود را به واقعیت تبدیل کنند.",
+          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای توسعه پلتفرم‌های خلاقیت هوش مصنوعی است. با توجه به افزایش استفاده از فناوری‌های دیجیتال در ایران، ایده‌بان می‌تواند به عنوان یک ابزار قدرتمند برای خلاقان و یادگیرندگان معرفی شود. همچنین، با توجه به نیاز به توسعه محتوای کیفیت بالا در ایران، ایده‌بان می‌تواند به عنوان یک ابزار مفید برای تولید کنندگان محتوا معرفی شود.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "خلاقان، یادگیرندگان، تولید کنندگان محتوا",
+          "challenges": [
+            "رقابت با پلتفرم‌های مشابه",
+            "نیاز به توسعه تیم توسعه",
+            "نیاز به توسعه محتوای کیفیت بالا"
+          ],
+          "monetization": [
+            "عضویت ماهیانه",
+            "پرداخت برای هر پروژه"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": ""
       },
       {
         "id": "ph-year-8",
