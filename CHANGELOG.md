@@ -1,3 +1,10 @@
+## [1.14.8](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.7...v1.14.8) (2026-08-10)
+
+
+### Bug Fixes
+
+* 12:00 schedule + resilient scrape + robust JSON parsing ([42f3bf6](https://github.com/AmirMotefaker/iran-hunt/commit/42f3bf6e64e921e4ab321956196b98852c5accdf))
+
 ## [1.14.7](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.6...v1.14.7) (2026-08-09)
 
 
