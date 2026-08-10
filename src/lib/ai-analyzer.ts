@@ -86,7 +86,7 @@ async function callGroq(key: string, prompt: string): Promise<string> {
     const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.4 }),
+      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.4, max_tokens: 4096 }),
     });
     if (res.status === 429) { await sleep(15000); continue; }
     if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
@@ -94,6 +94,23 @@ async function callGroq(key: string, prompt: string): Promise<string> {
     return json.choices?.[0]?.message?.content ?? '';
   }
   throw new Error('Groq 429');
+}
+
+function tryParse(text: string): any {
+  const clean = cleanJson(text);
+  try { return JSON.parse(clean); } catch { /* ادامه */ }
+  const s = clean.slice(clean.indexOf('{'), clean.lastIndexOf('}') + 1);
+  try { return JSON.parse(s); } catch { /* ادامه */ }
+  let t = s;
+  for (let i = 0; i < 5; i++) {
+    const cut = Math.max(t.lastIndexOf(','), t.lastIndexOf('",'));
+    if (cut <= 0) break;
+    t = t.slice(0, cut);
+    for (const cand of [t + '}', t + ']}', t + '"}]', t + '}]}']) {
+      try { return JSON.parse(cand); } catch { /* ادامه */ }
+    }
+  }
+  throw new Error('JSON parse failed');
 }
 
 export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
@@ -113,7 +130,7 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
   if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no key'}`);
   console.log(`   🤖 provider: ${provider}`);
 
-  const parsed = JSON.parse(cleanJson(text));
+  const parsed = tryParse(text);
 
   // نام کاربران ۱۰۰٪ از دیتای واقعی ProductHunt
   const originals = (p.comments ?? []).slice(0, 6);
