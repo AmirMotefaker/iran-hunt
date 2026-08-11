@@ -1,3 +1,10 @@
+## [1.15.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.1...v1.15.2) (2026-08-11)
+
+
+### Bug Fixes
+
+* add permissions + token to daily-scrape workflow ([3d17157](https://github.com/AmirMotefaker/iran-hunt/commit/3d1715755fc221c72fe5e0c4514ab0a7a66f9299))
+
 ## [1.15.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.0...v1.15.1) (2026-08-11)
 
 
