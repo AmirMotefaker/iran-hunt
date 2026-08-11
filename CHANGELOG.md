@@ -1,3 +1,10 @@
+## [1.15.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.2...v1.15.3) (2026-08-11)
+
+
+### Bug Fixes
+
+* rewrite daily-scrape.yml (valid YAML + permissions) ([71677ca](https://github.com/AmirMotefaker/iran-hunt/commit/71677ca089d0de927f037bafda9b70bc55b2d850))
+
 ## [1.15.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.1...v1.15.2) (2026-08-11)
 
 
