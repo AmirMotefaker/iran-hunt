@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.0...v1.15.1) (2026-08-11)
+
+
+### Bug Fixes
+
+* daily AI only today + gemini error logging + 30min timeout ([8d5e1b6](https://github.com/AmirMotefaker/iran-hunt/commit/8d5e1b65e1e744873dffeeceb7bbbdf0b40ab290))
+
 # [1.15.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.14.8...v1.15.0) (2026-08-10)
 
 
