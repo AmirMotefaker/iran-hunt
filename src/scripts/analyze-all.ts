@@ -5,7 +5,7 @@ import type { Product } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const BATCH_SIZE = 15; // هر بار 15 محصول
-const DELAY = 4000; // 4 ثانیه بین هر محصول
+const DELAY = 6000; // 4 ثانیه بین هر محصول
 
 function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
