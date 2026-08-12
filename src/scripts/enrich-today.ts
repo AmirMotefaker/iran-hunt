@@ -26,7 +26,7 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
     .filter((c: PHComment) => c.text.length > 10);
 
   // اگه API نام‌ها رو سانسور کرد، از HTML صفحه واقعی بخون
-  if (fromApi.length && fromApi.every((c) => c.user.includes('REDACTED') || !c.user)) {
+  if (fromApi.length && fromApi.every((c: PHComment) => c.user.includes('REDACTED') || !c.user)) {
     try {
       const { load } = await import('cheerio');
       const htmlRes = await fetch(`https://www.producthunt.com/posts/${slug}`, {
@@ -39,7 +39,7 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
           const name = $(el).text().trim();
           if (name && !name.startsWith('@') && name.length > 2 && name.length < 40 && !name.includes('REDACTED') && /[A-Za-z]/.test(name)) names.push(name);
         });
-        if (names.length) return fromApi.map((c, i) => ({ user: names[i] || c.user, text: c.text }));
+        if (names.length) return fromApi.map((c: PHComment, i: number) => ({ user: names[i] || c.user, text: c.text }));
       }
     } catch { /* ادامه */ }
   }
