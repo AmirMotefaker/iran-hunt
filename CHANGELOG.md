@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.16.0...v1.16.1) (2026-08-12)
+
+
+### Bug Fixes
+
+* add TypeScript types to enrich-today ([871dbe2](https://github.com/AmirMotefaker/iran-hunt/commit/871dbe2ab9bdda5f19547db2344dfd4cbd34203d))
+
 # [1.16.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.3...v1.16.0) (2026-08-12)
 
 
