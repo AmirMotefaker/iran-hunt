@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.3...v1.16.0) (2026-08-12)
+
+
+### Features
+
+* two-stage automation (products 12am + AI/comments 2am) ([ba75c23](https://github.com/AmirMotefaker/iran-hunt/commit/ba75c235b0c671b4701b56a43e48e9efb13aa816))
+
 ## [1.15.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.15.2...v1.15.3) (2026-08-11)
 
 
