@@ -1,3 +1,10 @@
+## [1.16.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.16.1...v1.16.2) (2026-08-12)
+
+
+### Bug Fixes
+
+* dashboard tab switching with useEffect + unique keys ([b861a2e](https://github.com/AmirMotefaker/iran-hunt/commit/b861a2e95f7f1d534fd597d50760f7c807b394dc))
+
 ## [1.16.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.16.0...v1.16.1) (2026-08-12)
 
 
