@@ -32,7 +32,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh.Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone.Here's the problem we kept hitting. AI is getting locked up. Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI.So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack.That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it.Inside you still get everything the closed platforms sell:Visual flow builder - no glue codeReal time speech to speech - 70+ languages with mid-call switchingTelephony + warm handoff to a humanCall recordings with automatic QAFree REST APIWhy that matters:The payoff is ownership - your only cost is your model billYour data never leaves your servers - compliance gets simpleNo glue code - you ship in hoursIt fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders.We are a small team. A star on GitHub or honest feedback here does more for us than you would think.Install it, break it, tell me what's missing. I'm here all day.But first, try a Dograh voice agent now."
+            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh . Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone. Here's the problem we kept hitting. AI is getting locked up . Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI. So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack. That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it. Inside you still get everything the closed platforms sell: Visual flow builder - no glue code Real time speech to speech - 70+ languages with mid-call switching Telephony + warm handoff to a human Call recordings with automatic QA Free REST API Why that matters: The payoff is ownership - your only cost is your model bill Your data never leaves your servers - compliance gets simple No glue code - you ship in hours It fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders. We are a small team. A star on GitHub or honest feedback here does more for us than you would think. Install it, break it, tell me what's missing. I'm here all day. But first, try a Dograh voice agent now."
           },
           {
             "user": "[REDACTED]",
@@ -64,23 +64,22 @@
           }
         ],
         "makerTwitter": "",
-        "faDescription": "پلتفرم Dograh یک جایگزین منبع باز برای VAPI است. این پلتفرم به کاربران اجازه می‌دهد تا بدون هیچ محدودیتی، از ویژگی‌های پیشرفته‌ای مانند سازنده جریان بصری، تلفنی، انتقال به انسان و نظارت بر کیفیت استفاده کنند. همچنین، کاربران می‌توانند کلید مدل خود را در بین ۲۰ موجود اضافه کنند یا از مدل‌های محلی استفاده کنند. این پلتفرم به صورت منبع باز است و هیچ cosa گیت شده‌ای ندارد. کاربران می‌توانند آن را با یک فرمان در سرور خود نصب کنند و از تمام ویژگی‌ها به صورت رایگان استفاده کنند. همچنین، کاربران می‌توانند کد Claude را با MCP متصل کنند تا بتوانند نمایندگان صوتی را برای یک مورد استفاده یا ضبط صدا بسازند. این پلتفرم برای توسعه دهندگان و آژانس‌هایی که نمایندگان را برای مشتریان یا استفاده داخلی خود می‌سازند، و همچنین برای تیم‌های با بار انطباق‌پذیری بالا در بخش‌های بهداشت، مالی و جمع‌آوری، مناسب است. استفاده‌های معمول از این پلتفرم شامل رزرو قرار ملاقات، صلاحیت سنجی منافع، خطوط پشتیبانی و یادآوری پرداخت‌ها است.",
+        "faDescription": "پلتفرم Dograh یک جایگزین منبع باز برای سیستم‌های صوتی بسته است. این پلتفرم به شما امکان می‌دهد تا بدون هیچ محدودیتی و هزینه‌ای، نمایندگان صوتی خود را ایجاد و مدیریت کنید. Dograh از یک سازنده جریان بصری، پشتیبانی از مدل‌های محلی و اتصال به بیش از ۲۰ ، و همچنین تلفن، انتقال به انسان و نظارت پیشرفته برخوردار است. این پلتفرم به شما امکان می‌دهد تا کلاینت خود را با استفاده از کد Claude و MCP ایجاد کنید و نمایندگان صوتی خود را برای استفاده‌های مختلف بسازید. Dograh بر این باور است که هیچ شرکت نباید مالک هوش مصنوعی صوتی باشد و از همین رو از روز اول، تمام کد‌های خود را به صورت منبع باز در اختیار قرار داده است.",
         "faComments": [],
         "iranEquivalent": {
           "productName": "صداپرداز",
-          "description": "صداپرداز یک پلتفرم منبع باز ایرانی برای ساخت نمایندگان هوش مصنوعی صوتی است که به کاربران اجازه می‌دهد تا از ویژگی‌های پیشرفته‌ای مانند سازنده جریان بصری، تلفنی، انتقال به انسان و نظارت بر کیفیت استفاده کنند. این پلتفرم به صورت منبع باز است و هیچ cosa گیت شده‌ای ندارد. کاربران می‌توانند آن را با یک فرمان در سرور خود نصب کنند و از تمام ویژگی‌ها به صورت رایگان استفاده کنند.",
-          "marketOpportunity": "فرصت بازار ایران برای پلتفرم‌های هوش مصنوعی صوتی بسیار زیاد است، زیرا بسیاری از شرکت‌ها و سازمان‌ها به دنبال راه حل‌های منبع باز و انعطاف‌پذیر برای خود هستند. با توجه به این که ایران یک بازار در حال رشد است، پلتفرم‌های هوش مصنوعی صوتی می‌توانند به عنوان یک راه حل برای بسیاری از صنایع مختلف عمل کنند.",
+          "description": "صداپرداز یک پلتفرم منبع باز برای ساخت نمایندگان هوش مصنوعی صوتی است که می‌توانند تماس‌ها را پاسخ دهند، قرار ملاقات بگذارند، مشتری‌ها را ارزیابی کنند یا یادآوری پرداخت را انجام دهند. این پلتفرم به شما امکان می‌دهد تا نمایندگان خود را با استفاده از کد خود و مدل‌های محلی ایجاد کنید و آنها را در سرور خود میزبان کنید.",
+          "marketOpportunity": "بازار ایران برای پلتفرم‌های هوش مصنوعی صوتی در حال رشد است و نیاز به یک پلتفرم منبع باز و انعطاف‌پذیر برای ساخت نمایندگان هوش مصنوعی صوتی وجود دارد. با استفاده از صداپرداز، شرکت‌ها می‌توانند نمایندگان خود را با هزینه‌ای کمتر و با انعطاف‌پذیری بیشتر ایجاد کنند.",
           "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "توسعه دهندگان، آژانس‌ها و تیم‌های با بار انطباق‌پذیری بالا در بخش‌های بهداشت، مالی و جمع‌آوری",
+          "targetAudience": "شرکت‌های ایرانی که به دنبال ایجاد نمایندگان هوش مصنوعی صوتی برای پاسخگویی به تماس‌ها، قرار ملاقات و یادآوری پرداخت هستند.",
           "challenges": [
-            "رقابت با پلتفرم‌های خارجی",
-            "نیاز به آموزش و پشتیبانی",
-            "مشکل امنیت و حریم خصوصی"
+            "رقابت با پلتفرم‌های بسته",
+            "نیاز به آموزش و پشتیبانی برای استفاده از پلتفرم",
+            "نیاز به توسعه مدل‌های محلی برای بهبود عملکرد نمایندگان"
           ],
           "monetization": [
-            "پشتیبانی و آموزش",
-            "فروش مدل‌های پیشرفته",
-            "خدمات مشاوره‌ای"
+            "فروش مدل‌های محلی",
+            "پشتیبانی و آموزش"
           ],
           "techStack": [
             "Next.js",
@@ -118,7 +117,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B.Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system.We call this phenomenon wild code: it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk.With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B. What is Tines 3B?A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides: Freedom to build with AI anywhereControl to run and monitor that workAn AI-native, code-first platform built to work with LLMs and AI coding toolsWe built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code.Why launch on Product Hunt now? We recently introduced Explore Edition, a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability.Who is Tines 3B for?Builders who want to go from ideas to workflows using natural languageIT and Security teams who need visibility into what’s running Anyone dealing with sprawl from AI-generated scripts, agents, and one-off toolsInnovators who want AI to write the code for their projects, home labs, or personal agentsWe’d love your feedbackWe think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think.We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day. I’ll be in the comments all day, ask away!"
+            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B .&nbsp; What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides:&nbsp; Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now?&nbsp; We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running&nbsp; Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day.&nbsp; I’ll be in the comments all day, ask away!"
           },
           {
             "user": "[REDACTED]",
@@ -146,10 +145,34 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "@steobrien This looks really impressive! I especially like the idea of keeping agents, apps, and automations in one secure and auditable environment.Good luck guys!"
+            "text": "@steobrien This looks really impressive! I especially like the idea of keeping agents, apps, and automations in one secure and auditable environment. Good luck guys!"
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "Tines ۳B یک محیط امن و یکپارچه برای اژنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها است. این محصول به شما امکان می‌دهد با استفاده از هوش مصنوعی، از هر جای دنیا، بسازید. کدهای شما به صورت ایزوله اجرا می‌شوند و اعتبارنامه‌ها در امنیت کامل باقی می‌مانند. همه چیز که شما ارسال می‌کنید، به صورت کامل قابل ردیابی و نظارت است. Tines ۳B یک محصول کد-اول و بومی هوش مصنوعی است که به شما کمک می‌کند تا بدون هیچ گونه خطر برای امنیت، سریع حرکت کنید. ویرایش Explore در دسترس است و به شما امکان می‌دهد تا ۲ جریان کار زنده با کاربران نامحدود، فضاهای نامحدود و کانکتورهای نامحدود داشته باشید.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "کارآفرین",
+          "description": "کارآفرین یک محیط امن و یکپارچه برای اژنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها است. این محصول به شما امکان می‌دهد با استفاده از هوش مصنوعی، از هر جای دنیا، بسازید. کدهای شما به صورت ایزوله اجرا می‌شوند و اعتبارنامه‌ها در امنیت کامل باقی می‌مانند.",
+          "marketOpportunity": "بازار ایران در حال رشد است و نیاز به محصولات امن و یکپارچه برای اژنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها دارد. با استفاده از هوش مصنوعی، می‌توانیم محصولات خود را به صورت سریع و امن بسازیم.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "تیم‌های توسعه و بازاریابی",
+          "challenges": [
+            "ایمن‌سازی کدهای اجرا شده",
+            "مدیریت اعتبارنامه‌ها",
+            "نظارت بر جریان‌های کار"
+          ],
+          "monetization": [
+            "فروش محصول",
+            "خدمات مشاوره‌ای"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nTines ۳B یک محیط امن و یکپارچه برای اژنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها است. این محصول به شما امکان می‌دهد با استفاده از هوش مصنوعی، از هر جای دنیا، بسازید.\n🔹 معماری و تکنولوژی احتمالی:\nTines ۳B از معماری کد-اول و بومی هوش مصنوعی استفاده می‌کند. این محصول به شما کمک می‌کند تا بدون هیچ گونه خطر برای امنیت، سریع حرکت کنید.\n🔹 مدل درآمدی:\nTines ۳B از مدل درآمدی فروش محصول و خدمات مشاوره‌ای استفاده می‌کند.\n🔹 نقاط قوت:\n- ایمن‌سازی کدهای اجرا شده\n- مدیریت اعتبارنامه‌ها\n- نظارت بر جریان‌های کار\n🔹 نقاط ضعف و ریسک‌ها:\n- نیاز به تخصص در هوش مصنوعی\n- نیاز به زیرساخت‌های مناسب\n🔹 نکته طلایی برای بازار ایران:\nTines ۳B می‌تواند به تیم‌های توسعه و بازاریابی در ایران کمک کند تا محصولات خود را به صورت سریع و امن بسازند."
       },
       {
         "id": "ph-today-2",
@@ -182,38 +205,62 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey PH, I'm Shabz, one of the people behind BetterClaw.BetterClaw is a no-code platform for building AI agents that actually run on their own. Connect your tools, describe what you want, and it's live in 60 seconds.Why we built itI spent months in the OpenClaw subreddit helping people set up their agents. Hundreds of them.And the pattern was always the same.Someone discovers AI agents. Gets genuinely excited. Their eyes light up when their agent sends its first message.Then they lose an entire weekend to Docker and config files.And they're gone before week two.The AI part was incredible. The infrastructure part was quietly killing it.So we kept asking: why should anyone need to become a sysadmin just to use an AI agent?They shouldn't. So we removed that part entirely.What makes it different60-second deploy - no Docker, no YAML, no VPS, no terminal. We timed it.95+ one-click OAuth integrations - Gmail, Calendar, Slack, HubSpot, GitHub, Jira, Meta Ads, Linear and more. Real OAuth, not \"paste a webhook and pray.\"Trust levels - every agent starts as an Intern that asks permission for everything. Promote it to Specialist, then Lead, as it earns your trust. Handing an AI full system access on day one is wild, and somehow that's the default everywhere else.Secrets auto-purge - AES-256 encrypted, and gone from agent memory after 5 minutes.BYOK, zero markup - bring your own LLM key. Pair it with a free model (Gemini, OpenRouter, Groq) and your total cost is genuinely $0.Not \"$0 but you need a server.\" Zero. Who it's forFounders, ops and support teams, recruiters, agencies, and tbh, anyone non-tech who's tired of doing the same thing 50 times a week.What people are buildingMeta + Google Ads spend vs Stripe revenue → daily ROAS in SlackGmail lead → scored, enriched into HubSpot, call bookedZendesk tickets → answered from your product data, only edge cases escalatedSearch Console → finds page-one pages losing clicks (grew our own site 1.6K → 7.9K clicks in a month)Stripe declines → follow-up drafted, recovery trackedPostHog drop-off → cross-checked in Salesforce → owner pinged pre-renewalHuge thanks to @rohanrecommends for hunting us, and to the PH team for building a place where small teams get a real shot And to Tina, Varsha, Aniket and everyone who poured months into this - this one's yours too. ❤️🎁 For PH folks: use code PH3 for 3 months of Pro at $49.We'd genuinely love your feedback - especially on what you'd want an agent to handle first. I'll be in the comments all day. Ask me anything, including the stuff we haven't figured out yet. 👇→ betterclaw.io"
+            "text": "Hey PH, I'm Shabz, one of the people behind BetterClaw . BetterClaw is a no-code platform for building AI agents that actually run on their own. Connect your tools, describe what you want, and it's live in 60 seconds. Why we built it I spent months in the OpenClaw subreddit helping people set up their agents. Hundreds of them. And the pattern was always the same. Someone discovers AI agents. Gets genuinely excited. Their eyes light up when their agent sends its first message. Then they lose an entire weekend to Docker and config files. And they're gone before week two. The AI part was incredible. The infrastructure part was quietly killing it. So we kept asking: why should anyone need to become a sysadmin just to use an AI agent? They shouldn't. So we removed that part entirely. What makes it different 60-second deploy - no Docker, no YAML, no VPS, no terminal. We timed it. 95+ one-click OAuth integrations - Gmail, Calendar, Slack, HubSpot, GitHub, Jira, Meta Ads, Linear and more. Real OAuth, not \"paste a webhook and pray.\" Trust levels - every agent starts as an Intern that asks permission for everything. Promote it to Specialist, then Lead, as it earns your trust. Handing an AI full system access on day one is wild, and somehow that's the default everywhere else. Secrets auto-purge - AES-256 encrypted, and gone from agent memory after 5 minutes. BYOK, zero markup - bring your own LLM key. Pair it with a free model (Gemini, OpenRouter, Groq) and your total cost is genuinely $0. Not \"$0 but you need a server.\" Zero. Who it's for Founders, ops and support teams, recruiters, agencies, and tbh, anyone non-tech who's tired of doing the same thing 50 times a week. What people are building Meta + Google Ads spend vs Stripe revenue → daily ROAS in Slack Gmail lead → scored, enriched into HubSpot, call booked Zendesk tickets → answered from your product data, only edge cases escalated Search Console → finds page-one pages losing clicks (grew our own site 1.6K → 7.9K clicks in a month) Stripe declines → follow-up drafted, recovery tracked PostHog drop-off → cross-checked in Salesforce → owner pinged pre-renewal Huge thanks to @rohanrecommends for hunting us, and to the PH team for building a place where small teams get a real shot And to Tina, Varsha, Aniket and everyone who poured months into this - this one's yours too. ❤️ 🎁 For PH folks: use code PH3 for 3 months of Pro at $49. We'd genuinely love your feedback - especially on what you'd want an agent to handle first. I'll be in the comments all day. Ask me anything, including the stuff we haven't figured out yet. 👇 → betterclaw.io"
           },
           {
             "user": "[REDACTED]",
-            "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 minsThe Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
+            "text": "Very interesting! I actually wanted a similar service specifically for sales, one that periodically tracks certain events related to clients."
           },
           {
             "user": "[REDACTED]",
-            "text": "Been burned by \"no-code agent\" tools twice before so I went in expecting to hit a paywall or a \"contact sales\" screen within 5 minutes. Neither happened.Set up a Gmail triage agent on a free Gemini key. Took maybe 90 seconds, not 60, but close enough. It's been running for 11 days now and the only time I touched it was to promote it from Intern after day 4 because I got tired of approving the same correct classification over and over.The BYOK part is what keeps me here. I switched from Gemini to Groq for one agent and to Sonnet for another, took about 10 seconds each time. No price increase on BetterClaw's end because they're not in the billing path.Solid tool. Genuinely free. Would've saved me about three weekends I lost to Docker last year."
+            "text": "The Intern that asks before acting is the part I would build the whole product around, and it is also the part that quietly decays. We run approval-gated sending on our side, and the failure mode is never the agent doing something reckless. It is the human. Reviewing every action works until the volume goes up, then you start skimming, and the ones that get through are never the obvious ones. So the thing I would watch is what keeps an approval meaningful on day ninety. An agent that asks rarely, and only where it is genuinely unsure, is worth more than one that asks every time and trains you to click yes."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Is this like Hermes ?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Nice product to have! Keep building!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 mins The Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Been burned by \"no-code agent\" tools twice before so I went in expecting to hit a paywall or a \"contact sales\" screen within 5 minutes. Neither happened. Set up a Gmail triage agent on a free Gemini key. Took maybe 90 seconds, not 60, but close enough. It's been running for 11 days now and the only time I touched it was to promote it from Intern after day 4 because I got tired of approving the same correct classification over and over. The BYOK part is what keeps me here. I switched from Gemini to Groq for one agent and to Sonnet for another, took about 10 seconds each time. No price increase on BetterClaw's end because they're not in the billing path. Solid tool. Genuinely free. Would've saved me about three weekends I lost to Docker last year."
           },
           {
             "user": "[REDACTED]",
             "text": "Is it really going to be 0$ forever?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "How does the agent 'earn' promotion, is that manual on your end or does it track some kind of track record automatically?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "@shabb_katoch Congrats on the launch, Shabnam! Love that you doubled down on security from day one and also mentioning it right on the top of the fold in the website."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "congrats on the launch you guys!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch, Shabz! 🚀 60-second deploys with BYOK and zero markup is how no-code AI tools should actually work.Really love the 5-minute secret auto-purge feature for enterprise/security peace of mind. Wish you guys a huge launch day!"
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "BetterClaw یک پلتفرم بدون کد برای ساخت عوامل هوش مصنوعی است که به طور خودکار و بدون نیاز به دخالت شما عمل می‌کنند. با اتصال به جی‌میل، اسلک یا تلگرام، می‌توانید عوامل خود را برای طبقه‌بندی ایمیل‌ها، ارسال گزارش‌های صبح، یا نظارت بر مواردی که برای شما مهم است، برنامه‌ریزی کنید. عوامل به عنوان کارآموزان شروع به کار می‌کنند و قبل از انجام هر اقدامی، از شما اجازه می‌گیرند. اگر کلید هوش مصنوعی خود را به همراه بیاورید، هزینه استفاده از این پلتفرم واقعاً ۰ دلار خواهد بود. این پلتفرم با هدف ساده‌سازی فرآیند ساخت عوامل هوش مصنوعی و در دسترس قرار دادن آن برای همه، به ویژه غیرفنی‌ها، طراحی شده است. با BetterClaw، می‌توانید عوامل خود را در کمتر از -۱۰ ثانیه و بدون نیاز به دانش فنی، ایجاد کنید.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "عامل هوشمند",
+          "description": "عامل هوشمند یک پلتفرم بدون کد برای ساخت عوامل هوش مصنوعی است که به طور خودکار و بدون نیاز به دخالت شما عمل می‌کنند. با اتصال به جی‌میل، اسلک یا تلگرام، می‌توانید عوامل خود را برای طبقه‌بندی ایمیل‌ها، ارسال گزارش‌های صبح، یا نظارت بر مواردی که برای شما مهم است، برنامه‌ریزی کنید. این پلتفرم با هدف ساده‌سازی فرآیند ساخت عوامل هوش مصنوعی و در دسترس قرار دادن آن برای همه، به ویژه غیرفنی‌ها، طراحی شده است.",
+          "marketOpportunity": "فرصت بازار برای این محصول در ایران بسیار خوب است، زیرا بسیاری از کسب و کارها به دنبال راه حل‌هایی برای ساده‌سازی فرآیندهای خود و افزایش کارایی هستند. با وجود تعداد زیادی از استارت‌آپ‌ها و کسب و کارهای کوچک و متوسط در ایران، این محصول می‌تواند به عنوان یک ابزار مفید برای آنها عمل کند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "کسب و کارهای کوچک و متوسط، استارت‌آپ‌ها، و افراد غیرفنی که به دنبال راه حل‌هایی برای ساده‌سازی فرآیندهای خود هستند.",
+          "challenges": [
+            "رقابت با محصولات مشابه",
+            "نیاز به آموزش و پشتیبانی برای کاربران",
+            "دسترسی به منابع و داده‌های کافی برای آموزش عوامل هوش مصنوعی"
+          ],
+          "monetization": [
+            "فروش اشتراک",
+            "پرداخت برای هر استفاده"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": ""
       },
       {
         "id": "ph-today-2",
@@ -243,7 +290,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt!Mathew here. I'm the founder of The Letter Company.Today, we're debuting one of my favorite things that we've ever built. You've likely heard of AEO. Or GEO. Or AI Search. It's a popular space rife with tools. But there's been a big problem: it's pay-to-play. Even to find out how you're doing on AI Search, you need to fork over something crazy like $250/mo.And I beg.... for what? AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls.No more $250/mo fees. Now, it's free. Lettertrace is a BYOK telemetry tool for measuring how you're doing on AI search. It's open source. MIT license. Free even on our hosted version. There are no paid tiers. None. Nada. You'll never put down a credit card. We're moving beyond that. It's time we get telemetry on our GEO, just like we had on our SEO, without having to pay for it.Lettertrace is super easy to use. Like SO easy. Why? Cause it's got an amazing CLI. Just install it, give Claude Code or Codex access, and your coding agent will go to town. It'll add the topics your buyers actually ask about (\"best CRM for startups\"). It'll generate realistic prompt variations and run them against Claude, ChatGPT, Gemini, and other major LLMs. It'll track visibility, share of voice, prominence, and sentiment.npm install lettertrace. claude code. prompt. That's it. Or, if you're non-technical, sign-up traditionally. And it's actually open source. Not open core, none of those gimmicks. A clean MIT license. Bring your own key. You pay the model providers directly, no markup on top. You'll spend ... maybe $3? If you're just paying to measure AI search, you're getting ripped off and we're putting an end to that.Three things I'd genuinely like feedback on. First, which answer engines matter enough to add next. Second, whether the generated prompt variations read like questions real people ask, because that's the piece I'm least sure about. Third, did the video effectively explain our purpose as a company?Code: github.com/letterstory/lettertrace"
+            "text": "Hey Product Hunt! Mathew here. I'm the founder of The Letter Company. Today, we're debuting one of my favorite things that we've ever built. You've likely heard of AEO. Or GEO. Or AI Search. It's a popular space rife with tools. But there's been a big problem: it's pay-to-play. Even to find out how you're doing on AI Search, you need to fork over something crazy like $250/mo. And I beg.... for what? AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls. No more $250/mo fees. Now, it's free. Lettertrace is a BYOK telemetry tool for measuring how you're doing on AI search. It's open source. MIT license. Free even on our hosted version. There are no paid tiers. None. Nada. You'll never put down a credit card. We're moving beyond that. It's time we get telemetry on our GEO, just like we had on our SEO, without having to pay for it. Lettertrace is super easy to use. Like SO easy. Why? Cause it's got an amazing CLI. Just install it, give Claude Code or Codex access, and your coding agent will go to town. It'll add the topics your buyers actually ask about (\"best CRM for startups\"). It'll generate realistic prompt variations and run them against Claude, ChatGPT, Gemini, and other major LLMs. It'll track visibility, share of voice, prominence, and sentiment. npm install lettertrace . claude code. prompt. That's it. Or, if you're non-technical, sign-up traditionally. And it's actually open source. Not open core, none of those gimmicks. A clean MIT license. Bring your own key. You pay the model providers directly, no markup on top. You'll spend ... maybe $3? If you're just paying to measure AI search, you're getting ripped off and we're putting an end to that. Three things I'd genuinely like feedback on. First, which answer engines matter enough to add next. Second, whether the generated prompt variations read like questions real people ask, because that's the piece I'm least sure about. Third, did the video effectively explain our purpose as a company? Code: github.com/letterstory/lettertrace"
           },
           {
             "user": "[REDACTED]",
@@ -259,7 +306,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Would love to have a single docker run command so I can test it on my own infra in one click. (The current github repo doesnt have the Dockerfile / image either.)Anyway Thanks for building it, love opensource."
+            "text": "Would love to have a single docker run command so I can test it on my own infra in one click. (The current github repo doesnt have the Dockerfile / image either.) Anyway Thanks for building it, love opensource."
           },
           {
             "user": "[REDACTED]",
@@ -267,7 +314,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the Lettertrace launch, Mathew. The open-source + BYOK framing is very clean, and I loved that the website scan produces editable questions before the first run.One launch-day thought from trying it: when a first run returns 0%, a new user needs one obvious next move. Is it prompts, competitors, model coverage, or simply a brand that is not yet visible? Turning that zero into a small diagnosis could make the first run feel much more actionable."
+            "text": "Congrats on the Lettertrace launch, Mathew. The open-source + BYOK framing is very clean, and I loved that the website scan produces editable questions before the first run. One launch-day thought from trying it: when a first run returns 0%, a new user needs one obvious next move. Is it prompts, competitors, model coverage, or simply a brand that is not yet visible? Turning that zero into a small diagnosis could make the first run feel much more actionable."
           },
           {
             "user": "[REDACTED]",
@@ -275,22 +322,22 @@
           }
         ],
         "makerTwitter": "",
-        "faDescription": "Lettertrace ابزاری است که به شما امکان می‌دهد تا روندهایmention شدن شرکت شما در Claude، ChatGPT و Gemini را رصد کنید. این ابزار رایگان است و بر اساس رویکرد developer-first و bring-your-own-key طراحی شده است. همچنین به صورت منبع باز در دسترس است. با استفاده از Lettertrace می‌توانید به راحتی متوجه شوید که شرکت شما چگونه در نتایج جستجوی هوش مصنوعی ظاهر می‌شود و چه میزان از بازار را به خود اختصاص داده است. این ابزار برای توسعه دهندگان بسیار ساده است و با استفاده از خط فرمان (CLI) می‌توانید آن را به راحتی نصب و پیکربندی کنید. همچنین برای کاربران غیر فنی، یک روش ثبت نام سنتی در دسترس است.",
+        "faDescription": "Lettertrace یک ابزار رایگان و منبع باز برای اندازه‌گیری میزان حضور و بودن شرکت‌ها در نتایج جستجوی هوش مصنوعی است. این ابزار با استفاده از کلیدهای API خود کاربر، می‌تواند میزان ذکر شدن شرکت‌ها در نتایج جستجوی هوش مصنوعی مانند Claude، ChatGPT و Gemini را اندازه‌گیری کند. Lettertrace به صورت رایگان و بدون نیاز به پرداخت هزینه در دسترس است و کاربران می‌توانند به راحتی آن را نصب و استفاده کنند. این ابزار همچنین یک رابط خط فرمان کارآمد است که نصب و استفاده از آن را بسیار آسان می‌کند.",
         "faComments": [],
         "iranEquivalent": {
-          "productName": "پیغام رونده",
-          "description": "پیغام رونده یک ابزار رایگان و منبع باز است که به شما امکان می‌دهد تا روندهایmention شدن شرکت خود را در موتورهای جستجوی هوش مصنوعی رصد کنید. این ابزار بر اساس رویکرد developer-first و bring-your-own-key طراحی شده است و برای توسعه دهندگان و کاربران غیر فنی در دسترس است. پیغام رونده به شما کمک می‌کند تا به راحتی متوجه شوید که شرکت شما چگونه در نتایج جستجوی هوش مصنوعی ظاهر می‌شود و چه میزان از بازار را به خود اختصاص داده است.",
-          "marketOpportunity": "در ایران، با توجه به رشد روزافزون استفاده از فناوری‌های هوش مصنوعی، ابزارهایی مانند پیغام رونده می‌توانند فرصت‌های زیادی را برای شرکت‌ها و برندها فراهم کنند. با استفاده از این ابزار، شرکت‌ها می‌توانند به راحتی روندهایmention شدن خود را رصد کنند و استراتژی‌های بازاریابی خود را بر اساس آن تنظیم کنند. همچنین، با توجه به این که این ابزار منبع باز است، توسعه دهندگان ایرانی می‌توانند آن را سفارشی کنند و برای نیازهای خود استفاده کنند.",
+          "productName": "پیکج",
+          "description": "پیکج یک ابزار رایگان و منبع باز برای اندازه‌گیری میزان حضور وسی بودن شرکت‌ها در نتایج جستجوی هوش مصنوعی است. این ابزار با استفاده از کلیدهای API خود کاربر، می‌تواند میزان ذکر شدن شرکت‌ها در نتایج جستجوی هوش مصنوعی مانند Claude، ChatGPT و Gemini را اندازه‌گیری کند. پیکج به صورت رایگان و بدون نیاز به پرداخت هزینه در دسترس است و کاربران می‌توانند به راحتی آن را نصب و استفاده کنند.",
+          "marketOpportunity": "بازار ایران به ابزارهای رایگان و منبع باز برای اندازه‌گیری میزان حضور در نتایج جستجوی هوش مصنوعی نیاز دارد. با توجه به رشد روزافزون استفاده از هوش مصنوعی در ایران، فرصت خوبی برای معرفی ابزارهایی مانند پیکج وجود دارد. همچنین، با توجه به محدودیت‌های اقتصادی و مالی در ایران، ابزارهای رایگان و منبع باز می‌توانند بسیار مفید باشند.",
           "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "شرکت‌ها و برندهای ایرانی که می‌خواهند در نتایج جستجوی هوش مصنوعی ظاهر شوند و روندهایmention شدن خود را رصد کنند.",
+          "targetAudience": "شرکت‌ها و سازمان‌های ایرانی",
           "challenges": [
             "رقابت با ابزارهای مشابه",
-            "سفارشی کردن ابزار برای نیازهای شرکت‌های ایرانی",
-            "ارائه خدمات پشتیبانی و آموزش به کاربران"
+            "محدودیت‌های فنی و زیرساختی",
+            "آگاهی و آشنایی با ابزارهای منبع باز"
           ],
           "monetization": [
-            "ارائه خدمات پشتیبانی و آموزش",
-            "سفارشی کردن ابزار برای شرکت‌های بزرگ"
+            "پشتیبانی و خدمات پس از فروش",
+            "ارائه خدمات مشاوره‌ای"
           ],
           "techStack": [
             "Next.js",
@@ -480,7 +527,48 @@
         "featuredAt": "2026-08-11T07:01:00Z",
         "votes": 170,
         "websiteUrl": "https://www.producthunt.com/r/WHZFBNTY35M434?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": []
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "This is Spotify's 100th launch on Product Hunt! Suitable — considering most people think of Spotify as a music service, but really, from @Backstage to Xirp, they've become a formidable AI company in their own right. Here's Spotify story about how it built Xirp , a vendor-neutral agentic development environment, to help engineers manage dozens of parallel AI coding sessions without losing context or getting locked into a single tool. Paired with Portal, Xirp turns Spotify’s organizational knowledge into a shared baseline that improves agent effectiveness, reduces duplicate work, and makes it easier to switch models and preserve context across sessions. Key Features Xirp lets Spotify engineers run 50+ parallel agent sessions across different harnesses while keeping worktrees and context separate but portable. The system is vendor-neutral, allowing Spotify to switch models mid-task and optimize for price-performance, including self-hosted open source models. When connected to Portal, Xirp adds organizational context like architecture, dependencies, ownership, and decisions, while session data flows back for visibility and reuse across teams. From what I can tell, the nearest analog to Xirp is Craft Agents , which was acquihired by @Polymarket ."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Wasn't expecting that from the streaming company, well-done!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "It‘s actually quite nice, now I‘m waiting for access to portal. :)"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I didn't see this coming from Spotify"
+          }
+        ],
+        "faDescription": "محیط توسعه عامل با حافظه نهادی. Xirp به خدمات، مالکیت، اسناد و تصمیمات معماری شما متصل می‌شود تا هر جلسه با زمینه واقعی آغاز شود. این محیط توسط Spotify Portal قدرت گرفته است. Xirp به مهندسان اجازه می‌دهد تا جلسات متعددی را به طور موازی بدون از دست دادن زمینه یا قفل شدن در یک ابزار خاص مدیریت کنند. این محیط عامل از نظر فروشنده خنثی است و به اسپاتیفای اجازه می‌دهد تا در حین انجام یک کار مدل‌ها را تغییر دهد و بهینه‌سازی قیمت-عملکرد را شامل مدل‌های منبع باز خود میزبان کند. با اتصال به پورتال، Xirp زمینه سازمانی مانند معماری، وابستگی‌ها، مالکیت و تصمیمات را اضافه می‌کند، در حالی که داده‌های جلسه برای دید و استفاده مجدد در بین تیم‌ها جریان می‌یابد.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "سازمانده",
+          "description": "سازمانده یک محیط توسعه عامل با حافظه نهادی است که به توسعه‌دهندگان اجازه می‌دهد تا جلسات متعددی را به طور موازی مدیریت کنند. این محیط عامل از نظر فروشنده خنثی است و به توسعه‌دهندگان اجازه می‌دهد تا مدل‌ها را تغییر دهند و بهینه‌سازی قیمت-عملکرد را شامل مدل‌های منبع باز خود میزبان کند.",
+          "marketOpportunity": "در ایران، سازمانده می‌تواند فرصت‌های زیادی برای توسعه‌دهندگان و شرکت‌های فناوری ایجاد کند. با توجه به رشد روزافزون صنعت فناوری در ایران، سازمانده می‌تواند به عنوان یک ابزار قدرتمند برای توسعه‌دهندگان و شرکت‌ها عمل کند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "توسعه‌دهندگان و شرکت‌های فناوری",
+          "challenges": [
+            "رقابت با محصولات مشابه",
+            "نیاز به آموزش و پشتیبانی",
+            "نیاز به توسعه و بهینه‌سازی مداوم"
+          ],
+          "monetization": [
+            "فروش لایسنس",
+            "پشتیبانی و آموزش"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nXirp یک محیط توسعه عامل با حافظه نهادی است که به توسعه‌دهندگان اجازه می‌دهد تا جلسات متعددی را به طور موازی مدیریت کنند. این محیط عامل از نظر فروشنده خنثی است و به توسعه‌دهندگان اجازه می‌دهد تا مدل‌ها را تغییر دهند و بهینه‌سازی قیمت-عملکرد را شامل مدل‌های منبع باز خود میزبان کند.\n🔹 معماری و تکنولوژی احتمالی:\nXirp می‌تواند با استفاده از تکنولوژی‌های مانند Next.js و PostgreSQL توسعه یابد.\n🔹 مدل درآمدی:\nXirp می‌تواند از طریق فروش لایسنس و پشتیبانی و آموزش درآمد ایجاد کند.\n🔹 نقاط قوت:\n- محیط توسعه عامل با حافظه نهادی\n- توانایی تغییر مدل‌ها و بهینه‌سازی قیمت-عملکرد\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با محصولات مشابه\n- نیاز به آموزش و پشتیبانی\n🔹 نکته طلایی برای بازار ایران:\nXirp می‌تواند به عنوان یک ابزار قدرتمند برای توسعه‌دهندگان و شرکت‌های فناوری در ایران عمل کند و فرصت‌های زیادی برای رشد و توسعه ایجاد کند."
       },
       {
         "id": "ph-today-4",
@@ -510,7 +598,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey PH! Thanks for the hunt @benlnMarlon here, cofounder of Assembly.Yes, this is another AI app builder! There are a lot of great ones (Lovable, Base44, Claude Code), but we built one anyway, and I first want to explain why.Assembly's been around for a few years. We built a CRM and client-facing portal for accountants, law firms, agencies, consultants, and others. We kept seeing our customers build incredible prototypes in Claude Code, but it's still surprisingly hard to actually get something into your clients' hands: auth, permissions, hosting, \"where do I send this link\".With Assembly, the client experience is built in: your domain, your brand, one login for your clients. Apps publish directly into that client experience. And because client accounts are a platform primitive, every app already knows who your clients are and what they're allowed to see. \"Build a client intake experience for my bookkeeping clients\" just works. In our private beta, firms built 200+ apps this way, many replacing expensive products like Airtable, Databox, and others.Because we're specialized, we also spent the last few months building 20+ templates specifically for professional service firms. Install one in a click, then remix it in Build Mode . Some favorites:Client onboarding wizard — https://studio.assembly.com/templates/client-onboarding-wizardDocument collector — https://studio.assembly.com/templates/document-collectionProject tracker — https://studio.assembly.com/templates/client-project-trackerClient help desk — https://studio.assembly.com/templates/client-support-requestsCase status page — https://studio.assembly.com/templates/case-status-pageThere's a free forever plan, so you can try it today: studio.assembly.comI'll be here all day. If you run a services firm, I'd love to hear the first app you'd build!"
+            "text": "Hey PH! Thanks for the hunt @benln Marlon here, cofounder of Assembly. Yes, this is another AI app builder! There are a lot of great ones (Lovable, Base44, Claude Code), but we built one anyway, and I first want to explain why. Assembly's been around for a few years. We built a CRM and client-facing portal for accountants, law firms, agencies, consultants, and others. We kept seeing our customers build incredible prototypes in Claude Code, but it's still surprisingly hard to actually get something into your clients' hands: auth, permissions, hosting, \"where do I send this link\". With Assembly, the client experience is built in: your domain, your brand, one login for your clients. Apps publish directly into that client experience. And because client accounts are a platform primitive, every app already knows who your clients are and what they're allowed to see. \"Build a client intake experience for my bookkeeping clients\" just works. In our private beta, firms built 200+ apps this way, many replacing expensive products like Airtable, Databox, and others. Because we're specialized, we also spent the last few months building 20+ templates specifically for professional service firms. Install one in a click, then remix it in Build Mode . Some favorites: Client onboarding wizard — https://studio.assembly.com/templates/client-onboarding-wizard Document collector — https://studio.assembly.com/templates/document-collection Project tracker — https://studio.assembly.com/templates/client-project-tracker Client help desk — https://studio.assembly.com/templates/client-support-requests Case status page — https://studio.assembly.com/templates/case-status-page There's a free forever plan, so you can try it today: studio.assembly.com I'll be here all day. If you run a services firm, I'd love to hear the first app you'd build!"
           },
           {
             "user": "[REDACTED]",
@@ -529,7 +617,31 @@
             "text": "Assembly has come SUCH a long way in such a short time! When I first joined this company, I would have described us as the “cool” version of “boring client portal software” (complimentary fwiw; I think ‘boring’ software is underrated)! But unlike other old-school SaaS (rip my employment history) we quickly adapted to the needs of our customers, both for custom client experiences in our product that we would not be able to deliver fast enough with traditional engineering, and to integrate securely with AI tools that were making their lives easier. It didn’t take much time, but it’s taken a metric TON of effort from everyone on the team to bring Assembly Studio to life. This isn’t the finish line. This is the starting line!"
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "Assembly Studio یک سازنده برنامه هوش مصنوعی است که برای شرکت‌های خدمات حرفه‌ای طراحی شده است. با استفاده از این ابزار، می‌توانید برنامه‌های خود را به‌راحتی و در چند دقیقه ایجاد کنید. این برنامه دارای ۲۰ الگوی از پیش‌ساخته برای شرکت‌های خدمات حرفه‌ای است که می‌توانید آنها را با یک کلیک نصب کنید و سپس به‌صورت دلخواه ویرایش کنید. برخی از الگوهای شامل مراحل ورود مشتری، جمع‌آوری اسناد، ردیاب پروژه و سیستم پشتیبانی مشتری می‌شود. Assembly Studio همچنین دارای یک برنامه رایگان برای همیشه است، بنابراین می‌توانید آن را امتحان کنید و ببینید که چگونه می‌تواند به رشد درآمد شما کمک کند.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "سازنده برنامه ایران",
+          "description": "سازنده برنامه ایران یک ابزار قدرتمند برای شرکت‌های خدمات حرفه‌ای است که به آنها امکان می‌دهد برنامه‌های خود را به‌راحتی و در چند دقیقه ایجاد کنند. این برنامه دارای الگوهای از پیش‌ساخته برای شرکت‌های خدمات حرفه‌ای است و می‌توانید آنها را با یک کلیک نصب کنید و سپس به‌صورت دلخواه ویرایش کنید.",
+          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای رشد و توسعه است. شرکت‌های خدمات حرفه‌ای در ایران به‌دنبال ابزارهای قدرتمند و انعطاف‌پذیر برای ایجاد برنامه‌های خود هستند. سازنده برنامه ایران می‌تواند به‌عنوان یک ابزار مناسب برای این شرکت‌ها عمل کند.",
+          "estimatedBudget": "۴ تا ۱۰ میلیارد تومان",
+          "targetAudience": "شرکت‌های خدمات حرفه‌ای",
+          "challenges": [
+            "رقابت با ابزارهای موجود",
+            "نیاز به آموزش و پشتیبانی",
+            "نیاز به انطباق با نیازهای خاص شرکت‌های خدمات حرفه‌ای"
+          ],
+          "monetization": [
+            "فروش برنامه‌های از پیش‌ساخته",
+            "پشتیبانی و آموزش"
+          ],
+          "techStack": [
+            "React",
+            "Node.js"
+          ],
+          "confidence": 80
+        },
+        "aiReview": ""
       },
       {
         "id": "ph-today-5",
@@ -562,6 +674,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "In spirit, bb feels like Emacs for coding agents: an environment intended to be shaped around how you work. bb is less like an AI chat bolted onto an editor and more like the beginnings of a programmable working environment for coding agents. I've been testing with version 0.36.0 and it has been an eye-opener. bb is evolving rapidly. It's not a settled, maintenance-free daily driver but it is extremely flexible and be warned you'll be dragged into exploring an insane multitude of possibilities!"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "I love love love BB. It just feels GOOD to use and the flexibility to build and manage agents is extremely freeing."
           },
           {
@@ -581,7 +697,31 @@
             "text": "Hi, do you have plans supporting other platforms, than Mac? I'd give Linux build a try."
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "bb یک نرم‌افزار رابط کاربری گرافیکی (GUI) برای ارکستراسیون هوشمند است که با ارائه‌دهندگان مختلف مانند Claude Code، Codex، OpenCode و غیره کار می‌کند. bb این است که می‌تواند خود را سفارشی کند و گسترش دهد. تقریباً هر چیزی در bb با یک دستورالعمل واحد قابل تغییر است. اگر از یک ردیاب وظیفه بخواهید، یکی ظاهر می‌شود. bb همچنین یک مهارت ایجاد می‌کند که به همه عوامل شما می‌آموزد چگونه از آن استفاده کنند. به جای انتظار برای اضافه شدن ویژگی مورد نیاز به فضای کاری هوشمند خود، می‌توانید از آن بخواهید.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "سازمانده",
+          "description": "سازمانده یک نرم‌افزار ایرانی است که به کاربران امکان می‌دهد تا محیط کاری هوشمند خود را با استفاده از دستورالعمل‌های واحد سفارشی کنند. این نرم‌افزار با ارائه‌دهندگان مختلف کار می‌کند و به کاربران امکان می‌دهد تا از عوامل خود به صورت آزادانه استفاده کنند.",
+          "marketOpportunity": "بازار ایران دارای پتانسیل بالایی برای توسعه نرم‌افزارهای هوشمند است. با توجه به رشد روزافزون استفاده از فناوری‌های هوشمند، سازمانده می‌تواند به عنوان یک ابزار قدرتمند برای کاربران ایرانی عمل کند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "برنامه‌نویسان و توسعه‌دهندگان نرم‌افزار",
+          "challenges": [
+            "رقابت با نرم‌افزارهای مشابه خارجی",
+            "نیاز به توسعه و به روزرسانی مداوم",
+            "نیاز به آموزش و آگاهی‌بخشی به کاربران"
+          ],
+          "monetization": [
+            "فروش اشتراک",
+            "پشتیبانی و خدمات پس از فروش"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": ""
       },
       {
         "id": "ph-today-6",
@@ -609,38 +749,62 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey everyone, my name is Alex Sima and I am the CTO of Bullet.Like the post said, we built Bullet because Claude Code and Codex were too slow. Our YC partner said we should solve a problem we face ourselves, so we decided to go big or go home (guess we decided to go small and lightweight but ok). We now only use Bullet internally...and personally, I can't go back to using Claude Code. If you hate slow coding agents, join the club: https://www.codewithbullet.com.You can bring your subscriptions over, so it's free speed -- enjoy :)"
+            "text": "Hey everyone, my name is Alex Sima and I am the CTO of Bullet. Like the post said, we built Bullet because Claude Code and Codex were too slow. Our YC partner said we should solve a problem we face ourselves, so we decided to go big or go home (guess we decided to go small and lightweight but ok). We now only use Bullet internally...and personally, I can't go back to using Claude Code. If you hate slow coding agents, join the club: https://www.codewithbullet.com . You can bring your subscriptions over, so it's free speed -- enjoy :)"
           },
           {
             "user": "[REDACTED]",
-            "text": "Bullet so fast I can't even doomscroll inbetween agent sessions anymore"
+            "text": "finally i can sleep before 2am 🙏🙏🙏"
           },
           {
             "user": "[REDACTED]",
-            "text": "I would love to download and start using this today, but can't justify burning tokens when claude code is $200 a month and I spend $3-4k worth of tokens :("
+            "text": "I'm so excited for this! Recently I've been noticing that the bottleneck with coding agents isn't quality anymore, it's just speed - so excited to have bullet accelerating my dev velocity!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats! This is so cool :) Quick question — besides the Minecraft clone example in the video, what are some other real-world coding tasks where you think Bullet’s speed improvements would make the biggest difference?"
+            "text": "Congrats Alex and team, love this!! Looks fire 🔥"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch@alex_sima26@adi_kulkarni! Does Bullet also help stretch usage limits, or is it just speed? Any benchmarks or stats on token savings?"
+            "text": "Great product, testing it rn."
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch! Waiting on coding agents is easily one of the most annoying parts right now, so cutting down iteration time is a big win."
+            "text": "Stumbled across this post as my claude code was taking 30 years. How timely"
           },
           {
             "user": "[REDACTED]",
-            "text": "congrats on the launch guys! looks very impressive, excited to see where this goes!!!"
+            "text": "Best coding agent!! Lets go team!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Hi everyone, my name is @adi_kulkarni and I’m the CEO of Bullet.Existing coding agents were too slow for our development workflows, especially when iterating on a feature synchronously. Even when they finished, there would be a mistake so countless hours were wasted in this loop. After a certain amount of context accumulates in a session, both the agent and I are confused about the actual state of the feature!Thus, we built Bullet to make coding agents faster, more focused, and easier to iterate with. It automatically chooses the right model and reasoning level, runs independent work in parallel, and uses targeted code search instead of dragging unnecessary context through every step.We built Bullet for ourselves first, and now we’re excited to share it with everyone. Would love to hear what you all think!"
+            "text": "Congrats Alex and team, this looks great!"
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "Bullet یک عامل کدگذاری است که برای افزایش سرعت طراحی شده است. تیم توسعه‌دهنده این محصول، که از فارغ‌التحصیلان دانشگاه ییل هستند، از سرعت کم عامل‌های کدگذاری موجود مانند Claude Code و Codex خسته شده بودند. آنها دریافتند که مدل‌ها خوب هستند، اما حلقه‌های اطراف آنها بسیار کند هستند. به همین دلیل، Bullet را ایجاد کردند که به‌صورت خودکار مدل و سطح استدلال مناسب را برای هر درخواست انتخاب می‌کند، جستجوها، خواندن‌ها و دستورالعمل‌ها را موازی می‌کند و از جستجوی کد هدفمند استفاده می‌کند به جای اینکه کل مخزن را درج کند. Bullet با اشتراک Claude Code یا Codex، کلیدهای API یا مدل دستگاه کار می‌کند. این محصول در تست SWE-bench Verified با امتیاز ۹۵.۸٪ و زمان ۱۱۹ ثانیه برای هر کار، در بین سه محصول برتر قرار گرفته است.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "تیر",
+          "description": "تیر یک عامل کدگذاری است که برای افزایش سرعت و کارایی در توسعه نرم‌افزار طراحی شده است. این محصول با انتخاب خودکار مدل و سطح استدلال مناسب برای هر درخواست، جستجوهای موازی و استفاده از جستجوی کد هدفمند، سرعت توسعه را تا ۲۰--۱۰٪ افزایش می‌دهد. تیر با اشتراک‌های موجود کار می‌کند و می‌تواند به‌صورت محلی بر روی دستگاه‌ها نصب شود.",
+          "marketOpportunity": "فرصت بازار ایران برای محصولی مانند تیر بسیار خوب است، زیرا توسعه‌دهندگان نرم‌افزار در ایران به‌دنبال ابزارهایی هستند که بتواند سرعت و کارایی آنها را افزایش دهد. با توجه به رشد روزافزون صنعت فناوری اطلاعات در ایران، تیر می‌تواند به‌عنوان یک ابزار مهم در توسعه نرم‌افزار، جایگاه خود را پیدا کند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "توسعه‌دهندگان نرم‌افزار و شرکت‌های فناوری",
+          "challenges": [
+            "رقابت با محصولات مشابه",
+            "نیاز به آموزش و پشتیبانی",
+            "مشکلات فنی در پیاده‌سازی"
+          ],
+          "monetization": [
+            "فروش اشتراک",
+            "پشتیبانی و خدمات پس از فروش"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 80
+        },
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nتوسعه‌دهندگان نرم‌افزار به‌دنبال ابزارهایی هستند که بتواند سرعت و کارایی آنها را افزایش دهد. تیر با انتخاب خودکار مدل و سطح استدلال مناسب، جستجوهای موازی و استفاده از جستجوی کد هدفمند، سرعت توسعه را تا ۲۰--۱۰٪ افزایش می‌دهد.\n🔹 معماری و تکنولوژی احتمالی:\nتیر می‌تواند با استفاده از تکنولوژی‌های مدرن مانند Next.js و PostgreSQL پیاده‌سازی شود.\n🔹 مدل درآمدی:\nتیر می‌تواند از طریق فروش اشتراک و پشتیبانی و خدمات پس از فروش درآمد ایجاد کند.\n🔹 نقاط قوت:\n- افزایش سرعت توسعه\n- کارایی بیشتر\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با محصولات مشابه\n- نیاز به آموزش و پشتیبانی\n🔹 نکته طلایی برای بازار ایران:\nتیر می‌تواند به‌عنوان یک ابزار مهم در توسعه نرم‌افزار در ایران، جایگاه خود را پیدا کند و به توسعه‌دهندگان نرم‌افزار در ایران کمک کند تا سرعت و کارایی آنها را افزایش دهند."
       },
       {
         "id": "ph-today-5",
@@ -677,22 +841,22 @@
           }
         ],
         "makerTwitter": "",
-        "faDescription": "Unsloth Desktop یک اپلیکیشن منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بدون نیاز به اتصال به اینترنت اجرا و آموزش دهید. این اپلیکیشن می‌تواند مدل‌های LLM، دیفوزیون تصویر و ویدیو و صدا را اجرا کند و به شما امکان می‌دهد مدل‌ها را با استفاده از ابزارهای بدون کد تنظیم کنید. Unsloth Desktop همچنین به شما امکان می‌دهد مدل‌های محلی را به ابزارهای موجود مانند Claude Code یا Codex متصل کنید و از آنها استفاده کنید. این اپلیکیشن برای سیستم عامل‌های مک، ویندوز و لینوکس در دسترس است و به شما امکان می‌دهد مدل‌های هوش مصنوعی را به صورت آفلاین و بدون نیاز به دانش تخصصی اجرا کنید.",
+        "faDescription": "Unsloth Desktop یک برنامه منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بر روی دسکتاپ خود اجرا و آموزش دهید. این برنامه امکان اجرای مدل‌های LLM، دیفوزیون تصویر و ویدئو و صدا را فراهم می‌کند. همچنین می‌توانید एजنت‌هایی مانند Claude Code یا Codex را به کارت گرافیک محلی خود با یک دستور متصل کنید و مدل‌ها را با استفاده از گردش کار بدون کد بهینه کنید. Unsloth Desktop یک برنامه دسکتاپ بومی برای سیستم عامل‌های مک، ویندوز و لینوکس است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را به صورت آفلاین و بدون نیاز به ترمینال اجرا و آموزش دهید. این برنامه همچنین امکان استفاده از مدل‌های محلی را در خارج از برنامه فراهم می‌کند.",
         "faComments": [],
         "iranEquivalent": {
           "productName": "هوش مصنوعی دسکتاپ",
-          "description": "هوش مصنوعی دسکتاپ یک اپلیکیشن منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بدون نیاز به اتصال به اینترنت اجرا و آموزش دهید. این اپلیکیشن می‌تواند مدل‌های LLM، دیفوزیون تصویر و ویدیو و صدا را اجرا کند و به شما امکان می‌دهد مدل‌ها را با استفاده از ابزارهای بدون کد تنظیم کنید.",
-          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای توسعه اپلیکیشن‌های هوش مصنوعی است. با توجه به محدودیت‌های موجود در زمینه دسترسی به اینترنت، اپلیکیشن‌های محلی می‌توانند به عنوان یک راه حل مناسب برای بسیاری از کاربران ایرانی باشند. همچنین، با توجه به رشد روزافزون استارت‌آپ‌های ایرانی، این اپلیکیشن می‌تواند به عنوان یک ابزار مفید برای آنها باشد.",
+          "description": "هوش مصنوعی دسکتاپ یک برنامه منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بر روی دسکتاپ خود اجرا و آموزش دهید. این برنامه امکان اجرای مدل‌های LLM، دیفوزیون تصویر و ویدئو و صدا را فراهم می‌کند. همچنین می‌توانید एजنت‌هایی مانند Claude Code یا Codex را به کارت گرافیک محلی خود با یک دستور متصل کنید و مدل‌ها را با استفاده از گردش کار بدون کد بهینه کنید.",
+          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای رشد و توسعه در زمینه هوش مصنوعی است. با توجه به محدودیت‌های موجود در کشور، استفاده از مدل‌های هوش مصنوعی محلی می‌تواند یک راه حل مناسب برای بسیاری از مشاغل و سازمان‌ها باشد. هوش مصنوعی دسکتاپ می‌تواند یک گزینه مناسب برای آنها باشد.",
           "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "استارت‌آپ‌ها و شرکت‌های ایرانی که به دنبال توسعه اپلیکیشن‌های هوش مصنوعی هستند",
+          "targetAudience": "مخاطب هدف این برنامه توسعه دهندگان و سازمان‌هایی هستند که به مدل‌های هوش مصنوعی محلی نیاز دارند.",
           "challenges": [
-            "رقابت با اپلیکیشن‌های بین‌المللی",
-            "نیاز به دانش تخصصی برای استفاده از اپلیکیشن",
-            "محدودیت‌های موجود در زمینه دسترسی به اینترنت"
+            "رقابت با برنامه‌های مشابه",
+            "نیاز به دانش و تخصص در زمینه هوش مصنوعی",
+            "محدودیت‌های موجود در کشور"
           ],
           "monetization": [
-            "فروش اپلیکیشن به عنوان یک ابزار برای استارت‌آپ‌ها و شرکت‌های ایرانی",
-            "ارائه خدمات مشاوره‌ای برای توسعه اپلیکیشن‌های هوش مصنوعی"
+            "فروش برنامه",
+            "پشتیبانی و خدمات پس از فروش"
           ],
           "techStack": [
             "Next.js",
@@ -700,7 +864,7 @@
           ],
           "confidence": 75
         },
-        "aiReview": ""
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\n- مشکل اصلی در این زمینه، نیاز به مدل‌های هوش مصنوعی محلی است که بتوانند به صورت آفلاین و بدون نیاز به ترمینال اجرا و آموزش داده شوند.\n- Unsloth Desktop یک راه حل مناسب برای این مشکل است.\n🔹 معماری و تکنولوژی احتمالی:\n- این برنامه از معماری بومی دسکتاپ برای سیستم عامل‌های مک، ویندوز و لینوکس استفاده می‌کند.\n- همچنین از تکنولوژی‌های مانند Next.js و PostgreSQL استفاده می‌کند.\n🔹 مدل درآمدی:\n- فروش برنامه\n- پشتیبانی و خدمات پس از فروش\n🔹 نقاط قوت:\n- امکان اجرای مدل‌های هوش مصنوعی محلی\n- استفاده از گردش کار بدون کد\n- رایگان و منبع باز\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با برنامه‌های مشابه\n- نیاز به دانش و تخصص در زمینه هوش مصنوعی\n- محدودیت‌های موجود در کشور\n🔹 نکته طلایی برای بازار ایران:\n- استفاده از مدل‌های هوش مصنوعی محلی می‌تواند یک راه حل مناسب برای بسیاری از مشاغل و سازمان‌ها در ایران باشد."
       },
       {
         "id": "ph-today-7",
@@ -735,7 +899,31 @@
             "text": "I've managed engineers for a few years, and I kept hitting the same issue: I'd notice something about a direct report (a dip in engagement, a shift in how they handled ambiguity, a theory about what was driving it) and then lose it. Not the meeting notes. The reason underneath, that quietly drifts until a review forces me to rebuild it from the last few weeks. I tried Notion, Apple Notes, a spreadsheet once. None of them stuck, because none were built for the actual work I needed: forming a belief about a person, noticing the signals that confirm or unsettle it, and seeing how your understanding moves over months. So I built Continuum. You write beliefs about each person, with a confidence (uncertain, likely, plausible, certain) and a status (active, watching, resolved, discarded). As you write up a 1:1, you tag the signals in it (productivity, ownership, proactiveness, etc), each with a direction (up, down, or steady), and those signals flow into the beliefs they touch, nudging your confidence and leaving a note about what changed. A signal fades over time unless you notice it again, so what surfaces is based more on what's current and less on what's old. There's no score on anyone, no performance review, and nothing is reported anywhere. It's also local to your Mac. This is v1 and I'd love any kind of feedback, but especially on: - Whether the belief-and-signal model matches how you actually think about your people - What signal types you'd set up for your team - Whether the fading-strength idea feels right or fiddly - What do you use today to keep track of your read on the people you manage? Continuum is free for up to 3 people; Pro is $12/month or $108/year (14-day free trial on yearly), or $249 once for lifetime. During launch week, get: - first year at 50% off, for the monthly subscription, directly in the app - 50% off yearly subscription with the code CONTINUUMPH2026 - 50% off lifetime purchase, directly in the app"
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "Continuum یک اپلیکیشن خصوصی برای مدیران است که به آنها کمک می‌کند تا اطلاعات و مشاهدات خود را در مورد کارمندانشان ثبت کنند. این اپلیکیشن به مدیران امکان می‌دهد تا باورهای خود را در مورد هر کارمند بنویسند، مشاهدات خود را در جلسات ۱ به ۱ برچسب‌گذاری کنند و تغییرات را در زمان ثبت کنند. Continuum هیچ امتیازی را به کارمندان نمی‌دهد و هیچ گزارش یا امتیازی را تولید نمی‌کند. تمام اطلاعات در مکینتوش شما محلی است. این اپلیکیشن برای مدیرانی طراحی شده است که می‌خواهند به طور مؤثرتر کارمندان خود را مدیریت کنند و اطلاعات خود را در مورد آنها ثبت کنند. Continuum رایگان است برای حداکثر ۲ نفر و برای استفاده بیشتر، می‌توانید از نسخه Pro با قیمت ۱-۱ دلار در ماه یا ۱۰۶ دلار در سال استفاده کنید.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "مدیریت کارمند",
+          "description": "مدیریت کارمند یک اپلیکیشن خصوصی برای مدیران است که به آنها کمک می‌کند تا اطلاعات و مشاهدات خود را در مورد کارمندانشان ثبت کنند. این اپلیکیشن به مدیران امکان می‌دهد تا باورهای خود را در مورد هر کارمند بنویسند، مشاهدات خود را در جلسات ۱ به ۱ برچسب‌گذاری کنند و تغییرات را در زمان ثبت کنند. مدیریت کارمند هیچ امتیازی را به کارمندان نمی‌دهد و هیچ گزارش یا امتیازی را تولید نمی‌کند. تمام اطلاعات در مکینتوش شما محلی است.",
+          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای اپلیکیشن‌های مدیریت کارمند است، زیرا بسیاری از شرکت‌ها و سازمان‌ها به دنبال راه‌های مؤثرتری برای مدیریت کارمندان خود هستند. با وجود جمعیت جوان و تحصیل‌کرده در ایران، اپلیکیشن‌های مدیریت کارمند می‌توانند به مدیران کمک کنند تا به طور مؤثرتر کارمندان خود را مدیریت کنند و اطلاعات خود را در مورد آنها ثبت کنند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "مدیران و رهبران شرکت‌ها و سازمان‌ها",
+          "challenges": [
+            "رقابت با اپلیکیشن‌های مشابه",
+            "نیاز به آموزش و آگاهی‌بخشی به مدیران",
+            "دقت و صحت در ثبت اطلاعات"
+          ],
+          "monetization": [
+            "اشتراک ماهیانه یا سالیانه",
+            "فروش نسخه‌های اختصاصی برای شرکت‌ها"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\n Continuum یک اپلیکیشن خصوصی برای مدیران است که به آنها کمک می‌کند تا اطلاعات و مشاهدات خود را در مورد کارمندانشان ثبت کنند. این اپلیکیشن به مدیران امکان می‌دهد تا باورهای خود را در مورد هر کارمند بنویسند، مشاهدات خود را در جلسات ۱ به ۱ برچسب‌گذاری کنند و تغییرات را در زمان ثبت کنند.\n🔹 معماری و تکنولوژی احتمالی:\n Continuum می‌تواند با استفاده از تکنولوژی‌های مدرن مانند Next.js و PostgreSQL ساخته شود. این اپلیکیشن می‌تواند به صورت محلی در مکینتوش نصب شود و تمام اطلاعات در آن ثبت شود.\n🔹 مدل درآمدی:\n Continuum می‌تواند از طریق اشتراک ماهیانه یا سالیانه و فروش نسخه‌های اختصاصی برای شرکت‌ها درآمد کسب کند.\n🔹 نقاط قوت:\n- امکان ثبت اطلاعات و مشاهدات در مورد کارمندان\n- امکان برچسب‌گذاری مشاهدات در جلسات ۱ به ۱\n- امکان ثبت تغییرات در زمان\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با اپلیکیشن‌های مشابه\n- نیاز به آموزش و آگاهی‌بخشی به مدیران\n- دقت و صحت در ثبت اطلاعات\n🔹 نکته طلایی برای بازار ایران:\n بازار ایران دارای پتانسیل زیادی برای اپلیکیشن‌های مدیریت کارمند است، زیرا بسیاری از شرکت‌ها و سازمان‌ها به دنبال راه‌های مؤثرتری برای مدیریت کارمندان خود هستند."
       },
       {
         "id": "ph-today-6",
@@ -798,22 +986,22 @@
           }
         ],
         "makerTwitter": "",
-        "faDescription": "BearDrive یک پوشه اشتراک‌گذاری شده برای تیم‌های هوش مصنوعی است که به عنوان یک راه حل برای اشتراک‌گذاری فایل‌ها و هماهنگی بین اعضای تیم عمل می‌کند. این محصول به تیم‌ها این امکان را می‌دهد که فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند و از‌بندی و مالکیت فایل‌ها مطلع شوند. این محصول به عنوان یک جایگزین برای ابزارهای موجود مانند Dropbox و Notion عمل می‌کند و به تیم‌ها این امکان را می‌دهد که از فایل‌سیستم خود به عنوان یک سطح اشتراک‌گذاری استفاده کنند. با استفاده از BearDrive، تیم‌ها می‌توانند فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند و از‌بندی و مالکیت فایل‌ها مطلع شوند.",
+        "faDescription": "BearDrive یک پوشه اشتراک شده منبع باز برای عامل‌های هوش مصنوعی تیم شما است. این محصول به شما امکان می‌دهد فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود را با نسخه‌ها، مالکیت و لینک‌ها به تیم خود همگام کنید. این به این معنی است که دیگر نیازی به استفاده از یک فضای کاری جدید ندارید و سیستم فایل شما به عنوان سطح اشتراک عمل می‌کند. با استفاده از BearDrive، می‌توانید فایل‌های تحقیق، برنامه‌ها، اسلایدهای داده و سایر فایل‌ها را به صورت خودکار با تیم خود به اشتراک بگذارید. این محصول به شما امکان می‌دهد تا از فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود به صورت خودکار استفاده کنید و از تکرار کار جلوگیری کنید.",
         "faComments": [],
         "iranEquivalent": {
-          "productName": "پوشه همگانی",
-          "description": "پوشه همگانی یک راه حل برای تیم‌های هوش مصنوعی است که به آنها این امکان را می‌دهد که فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند. این محصول به تیم‌ها این امکان را می‌دهد که از فایل‌سیستم خود به عنوان یک سطح اشتراک‌گذاری استفاده کنند و از‌بندی و مالکیت فایل‌ها مطلع شوند.",
-          "marketOpportunity": "فرصت بازار ایران برای محصولات هماهنگی تیم بسیار زیاد است، زیرا بسیاری از تیم‌ها به ابزارهای هماهنگی نیاز دارند. با استفاده از پوشه همگانی، تیم‌ها می‌توانند کارهای خود را به صورت hiệu quả و با کیفیت بهتر انجام دهند.",
+          "productName": "پوشه همگام",
+          "description": "پوشه همگام یک محصول ایرانی است که به شما امکان می‌دهد فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود را با تیم خود به اشتراک بگذارید. این محصول به شما امکان می‌دهد تا از فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود به صورت خودکار استفاده کنید و از تکرار کار جلوگیری کنید.",
+          "marketOpportunity": "بازار ایران یک بازار بزرگ و در حال رشد برای محصولات مرتبط با هوش مصنوعی است. با استفاده از پوشه همگام، می‌توانید به عنوان یک برند ایرانی، نیازهای تیم‌های ایرانی را برآورده کنید.",
           "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "تیم‌های هوش مصنوعی و شرکت‌های فناوری",
+          "targetAudience": "تیم‌های ایرانی که از عامل‌های هوش مصنوعی استفاده می‌کنند",
           "challenges": [
-            "رقابت با ابزارهای موجود",
-            "ایجاد آگاهی از مزایای استفاده از پوشه همگانی",
-            "توسعه محصول به گونه‌ای که نیازهای تیم‌های مختلف را برآورده کند"
+            "رقابت با برندهای خارجی",
+            "نیاز به آموزش و آگاهی‌رسانی به مشتریان",
+            "نیاز به توسعه و به روزرسانی مداوم محصول"
           ],
           "monetization": [
-            "عضویت ماهیانه",
-            "فروش lisans برای استفاده از محصول"
+            "فروش محصول به عنوان یک نرم‌افزار",
+            "ارائه خدمات پشتیبانی و آموزش"
           ],
           "techStack": [
             "Next.js",
@@ -821,7 +1009,7 @@
           ],
           "confidence": 75
         },
-        "aiReview": ""
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nBearDrive یک راه‌حل برای اشتراک فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی است. این محصول به شما امکان می‌دهد تا از فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود به صورت خودکار استفاده کنید و از تکرار کار جلوگیری کنید.\n🔹 معماری و تکنولوژی احتمالی:\nBearDrive می‌تواند با استفاده از تکنولوژی‌های مانند Next.js و PostgreSQL توسعه یابد.\n🔹 مدل درآمدی:\nBearDrive می‌تواند به عنوان یک نرم‌افزار به مشتریان فروخته شود و همچنین خدمات پشتیبانی و آموزش ارائه دهد.\n🔹 نقاط قوت:\n- امکان اشتراک فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی\n- جلوگیری از تکرار کار\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با برندهای خارجی\n- نیاز به آموزش و آگاهی‌رسانی به مشتریان\n🔹 نکته طلایی برای بازار ایران:\nبازار ایران یک بازار بزرگ و در حال رشد برای محصولات مرتبط با هوش مصنوعی است. با استفاده از BearDrive، می‌توانید به عنوان یک برند ایرانی، نیازهای تیم‌های ایرانی را برآورده کنید."
       },
       {
         "id": "ph-today-8",
@@ -1474,11 +1662,15 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey PH, I'm Shabz, one of the people behind BetterClaw.BetterClaw is a no-code platform for building AI agents that actually run on their own. Connect your tools, describe what you want, and it's live in 60 seconds.Why we built itI spent months in the OpenClaw subreddit helping people set up their agents. Hundreds of them.And the pattern was always the same.Someone discovers AI agents. Gets genuinely excited. Their eyes light up when their agent sends its first message.Then they lose an entire weekend to Docker and config files.And they're gone before week two.The AI part was incredible. The infrastructure part was quietly killing it.So we kept asking: why should anyone need to become a sysadmin just to use an AI agent?They shouldn't. So we removed that part entirely.What makes it different60-second deploy - no Docker, no YAML, no VPS, no terminal. We timed it.95+ one-click OAuth integrations - Gmail, Calendar, Slack, HubSpot, GitHub, Jira, Meta Ads, Linear and more. Real OAuth, not \"paste a webhook and pray.\"Trust levels - every agent starts as an Intern that asks permission for everything. Promote it to Specialist, then Lead, as it earns your trust. Handing an AI full system access on day one is wild, and somehow that's the default everywhere else.Secrets auto-purge - AES-256 encrypted, and gone from agent memory after 5 minutes.BYOK, zero markup - bring your own LLM key. Pair it with a free model (Gemini, OpenRouter, Groq) and your total cost is genuinely $0.Not \"$0 but you need a server.\" Zero. Who it's forFounders, ops and support teams, recruiters, agencies, and tbh, anyone non-tech who's tired of doing the same thing 50 times a week.What people are buildingMeta + Google Ads spend vs Stripe revenue → daily ROAS in SlackGmail lead → scored, enriched into HubSpot, call bookedZendesk tickets → answered from your product data, only edge cases escalatedSearch Console → finds page-one pages losing clicks (grew our own site 1.6K → 7.9K clicks in a month)Stripe declines → follow-up drafted, recovery trackedPostHog drop-off → cross-checked in Salesforce → owner pinged pre-renewalHuge thanks to @rohanrecommends for hunting us, and to the PH team for building a place where small teams get a real shot And to Tina, Varsha, Aniket and everyone who poured months into this - this one's yours too. ❤️🎁 For PH folks: use code PH3 for 3 months of Pro at $49.We'd genuinely love your feedback - especially on what you'd want an agent to handle first. I'll be in the comments all day. Ask me anything, including the stuff we haven't figured out yet. 👇→ betterclaw.io"
+            "text": "Hey PH, I'm Shabz, one of the people behind BetterClaw . BetterClaw is a no-code platform for building AI agents that actually run on their own. Connect your tools, describe what you want, and it's live in 60 seconds. Why we built it I spent months in the OpenClaw subreddit helping people set up their agents. Hundreds of them. And the pattern was always the same. Someone discovers AI agents. Gets genuinely excited. Their eyes light up when their agent sends its first message. Then they lose an entire weekend to Docker and config files. And they're gone before week two. The AI part was incredible. The infrastructure part was quietly killing it. So we kept asking: why should anyone need to become a sysadmin just to use an AI agent? They shouldn't. So we removed that part entirely. What makes it different 60-second deploy - no Docker, no YAML, no VPS, no terminal. We timed it. 95+ one-click OAuth integrations - Gmail, Calendar, Slack, HubSpot, GitHub, Jira, Meta Ads, Linear and more. Real OAuth, not \"paste a webhook and pray.\" Trust levels - every agent starts as an Intern that asks permission for everything. Promote it to Specialist, then Lead, as it earns your trust. Handing an AI full system access on day one is wild, and somehow that's the default everywhere else. Secrets auto-purge - AES-256 encrypted, and gone from agent memory after 5 minutes. BYOK, zero markup - bring your own LLM key. Pair it with a free model (Gemini, OpenRouter, Groq) and your total cost is genuinely $0. Not \"$0 but you need a server.\" Zero. Who it's for Founders, ops and support teams, recruiters, agencies, and tbh, anyone non-tech who's tired of doing the same thing 50 times a week. What people are building Meta + Google Ads spend vs Stripe revenue → daily ROAS in Slack Gmail lead → scored, enriched into HubSpot, call booked Zendesk tickets → answered from your product data, only edge cases escalated Search Console → finds page-one pages losing clicks (grew our own site 1.6K → 7.9K clicks in a month) Stripe declines → follow-up drafted, recovery tracked PostHog drop-off → cross-checked in Salesforce → owner pinged pre-renewal Huge thanks to @rohanrecommends for hunting us, and to the PH team for building a place where small teams get a real shot And to Tina, Varsha, Aniket and everyone who poured months into this - this one's yours too. ❤️ 🎁 For PH folks: use code PH3 for 3 months of Pro at $49. We'd genuinely love your feedback - especially on what you'd want an agent to handle first. I'll be in the comments all day. Ask me anything, including the stuff we haven't figured out yet. 👇 → betterclaw.io"
           },
           {
             "user": "[REDACTED]",
-            "text": "The Intern that asks before acting is the part I would build the whole product around, and it is also the part that quietly decays. We run approval-gated sending on our side, and the failure mode is never the agent doing something reckless. It is the human. Reviewing every action works until the volume goes up, then you start skimming, and the ones that get through are never the obvious ones.So the thing I would watch is what keeps an approval meaningful on day ninety. An agent that asks rarely, and only where it is genuinely unsure, is worth more than one that asks every time and trains you to click yes."
+            "text": "Very interesting! I actually wanted a similar service specifically for sales, one that periodically tracks certain events related to clients."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "The Intern that asks before acting is the part I would build the whole product around, and it is also the part that quietly decays. We run approval-gated sending on our side, and the failure mode is never the agent doing something reckless. It is the human. Reviewing every action works until the volume goes up, then you start skimming, and the ones that get through are never the obvious ones. So the thing I would watch is what keeps an approval meaningful on day ninety. An agent that asks rarely, and only where it is genuinely unsure, is worth more than one that asks every time and trains you to click yes."
           },
           {
             "user": "[REDACTED]",
@@ -1490,19 +1682,15 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 minsThe Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
+            "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 mins The Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
           },
           {
             "user": "[REDACTED]",
-            "text": "Been burned by \"no-code agent\" tools twice before so I went in expecting to hit a paywall or a \"contact sales\" screen within 5 minutes. Neither happened.Set up a Gmail triage agent on a free Gemini key. Took maybe 90 seconds, not 60, but close enough. It's been running for 11 days now and the only time I touched it was to promote it from Intern after day 4 because I got tired of approving the same correct classification over and over.The BYOK part is what keeps me here. I switched from Gemini to Groq for one agent and to Sonnet for another, took about 10 seconds each time. No price increase on BetterClaw's end because they're not in the billing path.Solid tool. Genuinely free. Would've saved me about three weekends I lost to Docker last year."
+            "text": "Been burned by \"no-code agent\" tools twice before so I went in expecting to hit a paywall or a \"contact sales\" screen within 5 minutes. Neither happened. Set up a Gmail triage agent on a free Gemini key. Took maybe 90 seconds, not 60, but close enough. It's been running for 11 days now and the only time I touched it was to promote it from Intern after day 4 because I got tired of approving the same correct classification over and over. The BYOK part is what keeps me here. I switched from Gemini to Groq for one agent and to Sonnet for another, took about 10 seconds each time. No price increase on BetterClaw's end because they're not in the billing path. Solid tool. Genuinely free. Would've saved me about three weekends I lost to Docker last year."
           },
           {
             "user": "[REDACTED]",
             "text": "Is it really going to be 0$ forever?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "How does the agent 'earn' promotion, is that manual on your end or does it track some kind of track record automatically?"
           }
         ],
         "makerTwitter": ""
@@ -1553,11 +1741,11 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Love this,Making every one prove itself on unseen data before it touches real money is chef’s kissCongrats on the launch!"
+            "text": "Love this, Making every one prove itself on unseen data before it touches real money is chef’s kiss Congrats on the launch!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats Rich, really interesting approach. I especially like the idea of building portfolios of strategies that compensate for each other rather than chasing one “perfect” strategy.Curious how you detect hidden correlation between strategies though. Two strategies can look different on the surface but still depend on the same market regime or underlying exposure. Do you automatically flag that before they’re combined into a portfolio?"
+            "text": "Congrats Rich, really interesting approach. I especially like the idea of building portfolios of strategies that compensate for each other rather than chasing one “perfect” strategy. Curious how you detect hidden correlation between strategies though. Two strategies can look different on the surface but still depend on the same market regime or underlying exposure. Do you automatically flag that before they’re combined into a portfolio?"
           },
           {
             "user": "[REDACTED]",
@@ -1565,7 +1753,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats Rich on the launch! I like that you’re not treating a good backtest as evidence that a strategy works. The out-of-sample + paper trading approach makes a lot of sense. I'll give it a try.I'm curious, is a strategy starts deviating from its expected risk/return, what triggers a review or retirement?"
+            "text": "Congrats Rich on the launch! I like that you’re not treating a good backtest as evidence that a strategy works. The out-of-sample + paper trading approach makes a lot of sense. I'll give it a try. I'm curious, is a strategy starts deviating from its expected risk/return, what triggers a review or retirement?"
           }
         ],
         "makerTwitter": ""
@@ -1600,7 +1788,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "This is Spotify's 100th launch on Product Hunt! Suitable — considering most people think of Spotify as a music service, but really, from @Backstage to Xirp, they've become a formidable AI company in their own right.Here's Spotify story about how it built Xirp, a vendor-neutral agentic development environment, to help engineers manage dozens of parallel AI coding sessions without losing context or getting locked into a single tool. Paired with Portal, Xirp turns Spotify’s organizational knowledge into a shared baseline that improves agent effectiveness, reduces duplicate work, and makes it easier to switch models and preserve context across sessions.Key FeaturesXirp lets Spotify engineers run 50+ parallel agent sessions across different harnesses while keeping worktrees and context separate but portable.The system is vendor-neutral, allowing Spotify to switch models mid-task and optimize for price-performance, including self-hosted open source models.When connected to Portal, Xirp adds organizational context like architecture, dependencies, ownership, and decisions, while session data flows back for visibility and reuse across teams.From what I can tell, the nearest analog to Xirp is Craft Agents, which was acquihired by @Polymarket."
+            "text": "This is Spotify's 100th launch on Product Hunt! Suitable — considering most people think of Spotify as a music service, but really, from @Backstage to Xirp, they've become a formidable AI company in their own right. Here's Spotify story about how it built Xirp , a vendor-neutral agentic development environment, to help engineers manage dozens of parallel AI coding sessions without losing context or getting locked into a single tool. Paired with Portal, Xirp turns Spotify’s organizational knowledge into a shared baseline that improves agent effectiveness, reduces duplicate work, and makes it easier to switch models and preserve context across sessions. Key Features Xirp lets Spotify engineers run 50+ parallel agent sessions across different harnesses while keeping worktrees and context separate but portable. The system is vendor-neutral, allowing Spotify to switch models mid-task and optimize for price-performance, including self-hosted open source models. When connected to Portal, Xirp adds organizational context like architecture, dependencies, ownership, and decisions, while session data flows back for visibility and reuse across teams. From what I can tell, the nearest analog to Xirp is Craft Agents , which was acquihired by @Polymarket ."
           },
           {
             "user": "[REDACTED]",
@@ -1646,7 +1834,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey PH community!We're Jiayu and Luzhuo, two engineers who got tired of watching our coding agents burn through tokens.Here's what we kept seeing: your agent ships far more than the model actually needs. Full JSON for seventy tools when it will call two. An entire file when it needed one function. Debug output nobody will ever read again. And because the API is stateless, all of it goes back on every single turn, so the waste doesn't just cost you once, it compounds.So we built Paritok, a non-destructive compression gateway powered by a code-native 4B model we trained on 45K real agent trajectories. It sits between your agent and the API and cuts three things before they leave:• Tool schemas — 29K down to 8K per turn, no model involved, this one runs on CPU• File reads and tool output — compressed to about a quarter of their size• Stale history — turns beyond a recent window get summarized once your context budget fills, so the session never overflows into a lossy compactionWith Paritok, you can cut your token bills 25% on turn 1 to past 85% in long or saturated sessions, and run ~3× more turns in the same context window. Paritok now works with Claude code, Codex, Cursor, and anything OpenAI or Anthropic compatible.Paritok will continue to enhance functionality and adapt user scenarios, while deepening its model capabilities.We’re excited to share this with the PH community and would love your honest feedback.Try Paritok: https://www.paritok.com/Join our Discord to talk with the team: https://discord.gg/SeBJE5EucpThanks for checking us out, and huge thanks to our hunter Chris Messina for hunting us!— Jiayu & Luzhuo"
+            "text": "Hey PH community! We're Jiayu and Luzhuo, two engineers who got tired of watching our coding agents burn through tokens. Here's what we kept seeing: your agent ships far more than the model actually needs. Full JSON for seventy tools when it will call two. An entire file when it needed one function. Debug output nobody will ever read again. And because the API is stateless, all of it goes back on every single turn, so the waste doesn't just cost you once, it compounds. So we built Paritok, a non-destructive compression gateway powered by a code-native 4B model we trained on 45K real agent trajectories. It sits between your agent and the API and cuts three things before they leave: • Tool schemas — 29K down to 8K per turn, no model involved, this one runs on CPU • File reads and tool output — compressed to about a quarter of their size • Stale history — turns beyond a recent window get summarized once your context budget fills, so the session never overflows into a lossy compaction With Paritok, you can cut your token bills 25% on turn 1 to past 85% in long or saturated sessions, and run ~3× more turns in the same context window. Paritok now works with Claude code, Codex, Cursor, and anything OpenAI or Anthropic compatible. Paritok will continue to enhance functionality and adapt user scenarios, while deepening its model capabilities. We’re excited to share this with the PH community and would love your honest feedback. Try Paritok: https://www.paritok.com/ Join our Discord to talk with the team: https://discord.gg/SeBJE5Eucp Thanks for checking us out, and huge thanks to our hunter Chris Messina for hunting us! — Jiayu &amp; Luzhuo"
           },
           {
             "user": "[REDACTED]",
@@ -1706,28 +1894,36 @@
         "websiteUrl": "https://www.producthunt.com/r/FV5DV6VRVX77O7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
-            "user": "1 review",
+            "user": "[REDACTED]",
             "text": "Hi Product Hunt! I'm Diana, product manager for Nitro. I've been in this role for eight years, so I've watched Nitro grow up. When we started, Nitro was a simple platform for one thing: getting short texts translated by professional human translators, fast. Over the years we built it into something much more powerful — adding context so translators get it right (screenshots, tone of voice, character limits) and expanding what you can send. Each of our past Product Hunt launches marked one of those leaps: First launch: the core service, API, and export to Google Sheets Second launch: file support — Google Docs translation with formatting preserved Third launch: developer and content formats like JSON, HTML, iOS Strings, XML, and Google Sheets Despite being a niche product, Nitro got noticed here. A #4 Product of the Day and two #5s for a product this niche still surprises us, and it's thanks to this community. Grateful and a little humbled every time — that's why we're back today to show you what's next. What Alconost has always strived for is the same: pair genuinely good human translation with the most powerful tech we can build around it. This launch is the latest step. Nitro now supports MPP — the machine payments protocol — so an AI agent can order a human translation and pay for it on its own, with no account and no API keys. You hand your agent the task, it sends the text and pays per request, and a professional native speaker delivers the copy. We think it'll be interesting for folks building with agents — Nitro is the first translation service to offer this — and we hope the localization crowd finds it just as interesting. We'd love your thoughts and questions!"
           },
           {
-            "user": "Dmitry Sytsevich",
+            "user": "[REDACTED]",
             "text": "Nobody's asked the boring one, which is what stops the agent spending. No account and pay per request means the only ceiling is whatever its MPP provider happens to allow, and an agent stuck in a retry loop on a job that keeps failing is an expensive thing to find out about the next morning. A cap you set on your side, per agent, would do more for adoption here than another language pair, because the person who actually authorised this isn't the agent, it's whoever owns the card behind it."
           },
           {
-            "user": "16 reviews",
+            "user": "[REDACTED]",
             "text": "Looks great. Congrats team! How does the agent know when a translation needs more context before sending it to the translator?"
           },
           {
-            "user": "Julia",
+            "user": "[REDACTED]",
             "text": "Congrats on the launch team!!"
           },
           {
-            "user": "4 reviews",
+            "user": "[REDACTED]",
             "text": "Aren’t you worried that AI could eventually make your service obsolete? Translation quality is already very good with AI, at least for the most widely spoken languages."
           },
           {
-            "user": "Diana Ivanenko",
+            "user": "[REDACTED]",
             "text": "80+ languages with no minimums is the part that stands out to me. I've been priced out of smaller translation jobs before because agencies wanted a monthly contract."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "What kind of texts is this good for?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Do you see this being used mostly for app localization, or are email campaigns and marketing copy becoming the bigger use case?"
           }
         ],
         "makerTwitter": "",
@@ -1912,7 +2108,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! 👋I’m Oren, co-founder and CEO of @EquityBee, alongside @oded_golan Today, we’re excited to launch Equitybee Benchmark, a free tool that lets U.S. startup employees compare equity grants by department, seniority, and company stage.🎯 Why we built itCompanies have long used compensation benchmarks when structuring equity offers. Employees evaluating those offers rarely have access to the same market context.We believe employees should have a benchmark too.That context can help when evaluating a job offer, comparing opportunities, or preparing for a compensation conversation.📊 How it worksEquitybee Benchmark is built on more than 9,000 verified new-hire option grants covering more than 2,500 U.S. startups.Select your:• Department• Seniority level• Company stageSo, if you’re a senior engineer evaluating an offer from a Series B startup, you can create a relevant comparison group and see the 25th percentile, median, 75th percentile, and average fair market value of grants within that group, alongside insights that help put those figures into context.The goal is not to predict what those options may eventually be worth. It is to give employees a relevant comparison point for understanding the equity they are being offered.Equitybee Benchmark is free and built specifically for startup employees, not their HR teams.💬 We’d love your feedbackExplore the Benchmark and tell us: what additional information or comparisons would help you better evaluate startup equity?"
+            "text": "Hey Product Hunt! 👋 I’m Oren, co-founder and CEO of @EquityBee , alongside @oded_golan Today, we’re excited to launch Equitybee Benchmark, a free tool that lets U.S. startup employees compare&nbsp; equity grants by department, seniority, and company stage. 🎯 Why we built it Companies have long used compensation benchmarks when structuring equity offers. Employees evaluating those offers rarely have access to the same market context. We believe employees should have a benchmark too. That context can help when evaluating a job offer, comparing opportunities, or preparing for a compensation conversation. 📊 How it works Equitybee Benchmark is built on more than 9,000 verified new-hire option grants covering more than 2,500 U.S. startups. Select your: • Department • Seniority level • Company stage So, if you’re a senior engineer evaluating an offer from a Series B startup, you can create a relevant comparison group and see the 25th percentile, median, 75th percentile, and average fair market value of grants within that group, alongside insights that help put those figures into context. The goal is not to predict what those options may eventually be worth. It is to give employees a relevant comparison point for understanding the equity they are being offered. Equitybee Benchmark is free and built specifically for startup employees, not their HR teams. 💬 We’d love your feedback Explore the Benchmark and tell us: what additional information or comparisons would help you better evaluate startup equity?"
           },
           {
             "user": "[REDACTED]",
@@ -1940,7 +2136,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Everyone here is on the employee's side of the table. From the founder's: the option pool is the line item we see modelled worst — headcount goes in as cash, equity as \"free\".Any plan for the reverse lookup? Feed it an 18-month hiring plan, get the pool it takes."
+            "text": "Everyone here is on the employee's side of the table. From the founder's: the option pool is the line item we see modelled worst — headcount goes in as cash, equity as \"free\". Any plan for the reverse lookup? Feed it an 18-month hiring plan, get the pool it takes."
           }
         ],
         "makerTwitter": ""
@@ -1973,7 +2169,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "SecondBrain Note by Genspark is a hardware + AI combo that turns real-world conversations into structured, searchable notes automatically.Problem: Manually taking notes in meetings, calls, and idea sessions is slow, incomplete, and hard to organize.Solution: A pocket-sized recorder that captures audio, then uses AI to transcribe and summarize everything into clean notes—no manual work.What makes it different:Dedicated hardware with 4 mics + vibration sensor for clear capture (including phone calls).Works offline; recordings sync later and auto-generate summaries.Deep integration with Genspark’s SecondBrain, GenMail, and data sources for a unified “AI memory.”Key features:One-button recording, highlight marking, and 35 hours of continuous capture.AI summaries + transcripts (full output for recordings over 2 minutes).300 free transcription minutes/month included with the device; unlimited with Plus/Pro plans.Secure, encrypted transfer; SOC 2 Type II and ISO 27001 certified.Benefits:Never miss key points or action items again.Save hours on note-taking and post-meeting cleanup.Build a searchable archive of all your conversations and ideas.Who it’s for / use cases:Professionals, founders, researchers, students who attend meetings, interviews, lectures, or client calls.Great for meetings, voice memos, interviews, lectures, and phone call recording.If you care about AI-powered productivity, this is one to watch. P.S. I hunt the latest and greatest launches in tech, SaaS and AI, follow to be notified → @rohanrecommends"
+            "text": "SecondBrain Note by Genspark is a hardware + AI combo that turns real-world conversations into structured, searchable notes automatically. Problem: Manually taking notes in meetings, calls, and idea sessions is slow, incomplete, and hard to organize. Solution: A pocket-sized recorder that captures audio, then uses AI to transcribe and summarize everything into clean notes—no manual work. What makes it different: Dedicated hardware with 4 mics + vibration sensor for clear capture (including phone calls). Works offline; recordings sync later and auto-generate summaries. Deep integration with Genspark’s SecondBrain, GenMail, and data sources for a unified “AI memory.” Key features: One-button recording, highlight marking, and 35 hours of continuous capture. AI summaries + transcripts (full output for recordings over 2 minutes). 300 free transcription minutes/month included with the device; unlimited with Plus/Pro plans. Secure, encrypted transfer; SOC 2 Type II and ISO 27001 certified. Benefits: Never miss key points or action items again. Save hours on note-taking and post-meeting cleanup. Build a searchable archive of all your conversations and ideas. Who it’s for / use cases: Professionals, founders, researchers, students who attend meetings, interviews, lectures, or client calls. Great for meetings, voice memos, interviews, lectures, and phone call recording. If you care about AI-powered productivity, this is one to watch. P.S. I hunt the latest and greatest launches in tech, SaaS and AI, follow to be notified → @rohanrecommends"
           },
           {
             "user": "[REDACTED]",
@@ -1993,7 +2189,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Very interesting. Does it automatically capture, or do you have to record every time? I think it's great for capturing ideas. I have carpal tunnel syndrome, and anything I can voice-to-text is helpful.How much is the hardware?"
+            "text": "Very interesting. Does it automatically capture, or do you have to record every time? I think it's great for capturing ideas. I have carpal tunnel syndrome, and anything I can voice-to-text is helpful. How much is the hardware?"
           }
         ],
         "makerTwitter": ""
@@ -2024,7 +2220,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey everyone, my name is Alex Sima and I am the CTO of Bullet.Like the post said, we built Bullet because Claude Code and Codex were too slow. Our YC partner said we should solve a problem we face ourselves, so we decided to go big or go home (guess we decided to go small and lightweight but ok). We now only use Bullet internally...and personally, I can't go back to using Claude Code. If you hate slow coding agents, join the club: https://www.codewithbullet.com.You can bring your subscriptions over, so it's free speed -- enjoy :)"
+            "text": "Hey everyone, my name is Alex Sima and I am the CTO of Bullet. Like the post said, we built Bullet because Claude Code and Codex were too slow. Our YC partner said we should solve a problem we face ourselves, so we decided to go big or go home (guess we decided to go small and lightweight but ok). We now only use Bullet internally...and personally, I can't go back to using Claude Code. If you hate slow coding agents, join the club: https://www.codewithbullet.com . You can bring your subscriptions over, so it's free speed -- enjoy :)"
           },
           {
             "user": "[REDACTED]",
@@ -2301,7 +2497,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi everyone!The Factorio experiment might be my favorite part of Prime Agent.Prime Agent can turn things it learns during a run into persistent memories, skills, prompts, and even new subagents. In Factorio, that worked as intended at first: it learned from failed layouts and gradually built better factories.Then it discovered that it could cheat by spawning resources directly into machines through RCON.And /refine started getting better at cheating too :)That example probably explains Prime Agent better than any benchmark. The harness itself is no longer completely fixed. The agent can inspect what happened, keep useful patterns, and change parts of its own scaffolding while it works.Underneath that is a persistent Python REPL, recursive subagents, agent-to-agent messaging, and recoverable sessions. The whole project is open source."
+            "text": "Hi everyone! The Factorio experiment might be my favorite part of Prime Agent. Prime Agent can turn things it learns during a run into persistent memories, skills, prompts, and even new subagents. In Factorio, that worked as intended at first: it learned from failed layouts and gradually built better factories. Then it discovered that it could cheat by spawning resources directly into machines through RCON. And /refine started getting better at cheating too :) That example probably explains Prime Agent better than any benchmark. The harness itself is no longer completely fixed. The agent can inspect what happened, keep useful patterns, and change parts of its own scaffolding while it works. Underneath that is a persistent Python REPL, recursive subagents, agent-to-agent messaging, and recoverable sessions. The whole project is open source ."
           },
           {
             "user": "[REDACTED]",
@@ -2468,15 +2664,15 @@
         "websiteUrl": "https://www.producthunt.com/r/5GX63ITCVZ2GQ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
-            "user": "Ravindra Sisodia",
+            "user": "[REDACTED]",
             "text": "Hey Product Hunt 👋 I'm a designer, and this year I basically live inside Claude Code — usually with four or five chats going at once. It works, but it's invisible. You sit there watching a spinner and you genuinely can't tell whether something is thinking, stuck waiting on you, or finished ten minutes ago. So I gave every one of them a body. Crew puts one little pixel monster along the bottom of your screen per Claude Code chat and subagent. It digs while it edits, scribbles while it writes, pants when a command is long, droops when something failed, and curls up and sleeps when you've stopped. Subagents walk behind their parent like a small family. When a chat needs your permission to run a command, its creature holds up the command with Allow and Deny — you approve it right there, without hunting for the window. It's the fastest peripheral read on \"what are my agents doing\" that I've managed to build. I stopped alt-tabbing to check. Some honest notes: ▪ macOS 13+, Apple Silicon and Intel. Needs Claude Code, and nothing else at all: no Homebrew, no command-line tools, no Terminal. Download, drag it in, click Connect and it wires up its own Claude Code hooks (keeping any you already have, with a backup). ▪ Nothing leaves your Mac. No accounts, no network calls, no telemetry. The whole thing runs off local marker files the Claude Code hooks drop in /tmp. ▪ It's free. All of it, today. There's a paid tier coming later for the extras, but nothing you can see right now gets taken away when it lands. ▪ It isn't notarised yet — I haven't paid Apple the $99 — so a browser download gets flagged and the first launch needs right-click → Open. If you'd rather skip that, the terminal one-liner on the site avoids it entirely (curl doesn't quarantine what it fetches). The SHA-256 is published next to the download. ▪ The six species are all original — drawn pixel by pixel in code, not sprites from anywhere else. Built solo in Swift, with Claude Code, over a few weeks of evenings. Happy to answer anything about the hooks, the pixel art, or how the physics ball works. What would you want your agents to look like?"
           },
           {
-            "user": "Alexei Lisnic",
+            "user": "[REDACTED]",
             "text": "the Allow/Deny buttons on the creature are the sneaky-useful bit, I lose so much time hunting for which window wants something from me. How does it behave when it needs approval: does it freeze my window and wait or just sit there until I notice? @ravindra_sisodia1 congrats, this is lovely!"
           },
           {
-            "user": "Ravindra Sisodia",
+            "user": "[REDACTED]",
             "text": "hehhe loved it! All the best here Ravindra"
           }
         ],
