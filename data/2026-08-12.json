@@ -1,8 +1,95 @@
 {
   "date": "2026-08-12",
-  "scrapedAt": "2026-08-12T09:43:42.528Z",
+  "scrapedAt": "2026-08-12T13:10:30.616Z",
   "periods": {
     "today": [
+      {
+        "id": "ph-today-1",
+        "date": "2026-08-12",
+        "rank": 1,
+        "name": "Dograh",
+        "slug": "dograh-3",
+        "tagline": "The open source VAPI alternative",
+        "description": "Closed voice platforms make you rent your own agents. Dograh is completely open source- nothing is gated. Visual flow builder, add your model key across 30+ integrations or use local models, telephony, human transfer, and advanced QA & monitoring - all free to self-host in one command. Also connect your claude code with MCP to build voice agents for a use case or call recordings.",
+        "category": "Open Source • Developer Tools • GitHub • Audio",
+        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • گیت‌هاب • صدا",
+        "url": "https://www.producthunt.com/products/dograh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/eab1a163-fbfe-4b8b-9356-f94e45feca98.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/3e786432-ae63-4c7f-8096-185d60bbfd2b.jpeg?auto=format",
+          "https://ph-files.imgix.net/59430999-5403-4040-8ed8-8fa94fc30d8c.png?auto=format",
+          "https://ph-files.imgix.net/76041dbf-66a8-4ba3-94bb-b2aeaf583dd8.png?auto=format",
+          "https://ph-files.imgix.net/36c02ed5-4d3a-44ae-9430-364a932da611.jpeg?auto=format",
+          "https://ph-files.imgix.net/d8bb4e32-54cf-4888-8f21-275a0e81b179.jpeg?auto=format",
+          "https://ph-files.imgix.net/338e2233-6ec3-4ff6-bbf6-f8bb776bb98f.png?auto=format",
+          "https://ph-files.imgix.net/07016089-62c3-4b0d-8a99-5f208c71d4f2.png?auto=format"
+        ],
+        "maker": "Pritesh Kumar",
+        "makerTitle": "Open Source Voice Agent Platform- Dograh",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 327,
+        "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh.Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone.Here's the problem we kept hitting. AI is getting locked up. Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI.So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack.That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it.Inside you still get everything the closed platforms sell:Visual flow builder - no glue codeReal time speech to speech - 70+ languages with mid-call switchingTelephony + warm handoff to a humanCall recordings with automatic QAFree REST APIWhy that matters:The payoff is ownership - your only cost is your model billYour data never leaves your servers - compliance gets simpleNo glue code - you ship in hoursIt fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders.We are a small team. A star on GitHub or honest feedback here does more for us than you would think.Install it, break it, tell me what's missing. I'm here all day.But first, try a Dograh voice agent now."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats, team! Long-awaited launch! Could you add more built-in observability around latency, token usage, model performance, and call quality?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Open source voice agents with this much flexibility is 🔥 The fact that you can self-host, use local models, and connect Claude Code via MCP makes this especially interesting. Congrats on the launch! 🚀"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch. Can teams customize the QA metrics and scoring rules for different industries or call types?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "How does the human handoff work when an agent reaches a conversation it cannot confidently handle?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "The ability to bring your own model keys across 30+ integrations makes this feel much more developer-friendly."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Great product!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@pritesh_kumar3 This looks very promising. Will users be able to build agents without writing any code"
+          }
+        ],
+        "makerTwitter": "",
+        "faDescription": "پلتفرم Dograh یک جایگزین منبع باز برای VAPI است. این پلتفرم به کاربران اجازه می‌دهد تا بدون هیچ محدودیتی، از ویژگی‌های پیشرفته‌ای مانند سازنده جریان بصری، تلفنی، انتقال به انسان و نظارت بر کیفیت استفاده کنند. همچنین، کاربران می‌توانند کلید مدل خود را در بین ۲۰ موجود اضافه کنند یا از مدل‌های محلی استفاده کنند. این پلتفرم به صورت منبع باز است و هیچ cosa گیت شده‌ای ندارد. کاربران می‌توانند آن را با یک فرمان در سرور خود نصب کنند و از تمام ویژگی‌ها به صورت رایگان استفاده کنند. همچنین، کاربران می‌توانند کد Claude را با MCP متصل کنند تا بتوانند نمایندگان صوتی را برای یک مورد استفاده یا ضبط صدا بسازند. این پلتفرم برای توسعه دهندگان و آژانس‌هایی که نمایندگان را برای مشتریان یا استفاده داخلی خود می‌سازند، و همچنین برای تیم‌های با بار انطباق‌پذیری بالا در بخش‌های بهداشت، مالی و جمع‌آوری، مناسب است. استفاده‌های معمول از این پلتفرم شامل رزرو قرار ملاقات، صلاحیت سنجی منافع، خطوط پشتیبانی و یادآوری پرداخت‌ها است.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "صداپرداز",
+          "description": "صداپرداز یک پلتفرم منبع باز ایرانی برای ساخت نمایندگان هوش مصنوعی صوتی است که به کاربران اجازه می‌دهد تا از ویژگی‌های پیشرفته‌ای مانند سازنده جریان بصری، تلفنی، انتقال به انسان و نظارت بر کیفیت استفاده کنند. این پلتفرم به صورت منبع باز است و هیچ cosa گیت شده‌ای ندارد. کاربران می‌توانند آن را با یک فرمان در سرور خود نصب کنند و از تمام ویژگی‌ها به صورت رایگان استفاده کنند.",
+          "marketOpportunity": "فرصت بازار ایران برای پلتفرم‌های هوش مصنوعی صوتی بسیار زیاد است، زیرا بسیاری از شرکت‌ها و سازمان‌ها به دنبال راه حل‌های منبع باز و انعطاف‌پذیر برای خود هستند. با توجه به این که ایران یک بازار در حال رشد است، پلتفرم‌های هوش مصنوعی صوتی می‌توانند به عنوان یک راه حل برای بسیاری از صنایع مختلف عمل کنند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "توسعه دهندگان، آژانس‌ها و تیم‌های با بار انطباق‌پذیری بالا در بخش‌های بهداشت، مالی و جمع‌آوری",
+          "challenges": [
+            "رقابت با پلتفرم‌های خارجی",
+            "نیاز به آموزش و پشتیبانی",
+            "مشکل امنیت و حریم خصوصی"
+          ],
+          "monetization": [
+            "پشتیبانی و آموزش",
+            "فروش مدل‌های پیشرفته",
+            "خدمات مشاوره‌ای"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": ""
+      },
       {
         "id": "ph-today-1",
         "date": "2026-08-11",
@@ -129,6 +216,159 @@
         "makerTwitter": ""
       },
       {
+        "id": "ph-today-2",
+        "date": "2026-08-12",
+        "rank": 2,
+        "name": "Lettertrace",
+        "slug": "lettertrace-2",
+        "tagline": "Track your AI visibility for free (using your own API keys!)",
+        "description": "Lettertrace measures how often Claude, ChatGPT, and Gemini mention your company. But there's a catch: it's free, developer-first, bring-your-own-key, and open source.",
+        "category": "Open Source • Analytics • Marketing • GitHub",
+        "categoryFa": "متن‌باز • تحلیل داده • بازاریابی • گیت‌هاب",
+        "url": "https://www.producthunt.com/products/lettertrace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/e6d1a93f-5c42-443e-92c6-6e0853fd5cc0.jpeg?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/ebbabf40-d179-47e3-b0d3-25f5384ba709.png?auto=format",
+          "https://ph-files.imgix.net/1fb785ed-7e88-47fe-9acb-c75f45ce41c8.png?auto=format",
+          "https://ph-files.imgix.net/31614ea3-37c0-4468-9ebd-bbc183e8588f.png?auto=format",
+          "https://ph-files.imgix.net/bcf5ac11-5396-43c6-aca6-08de1ba3722a.png?auto=format",
+          "https://ph-files.imgix.net/c85aac4e-569f-43b1-a814-ac3fb00af58b.png?auto=format",
+          "https://ph-files.imgix.net/8b55c452-18cc-4881-954c-09e1386a8a1c.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 220,
+        "websiteUrl": "https://www.producthunt.com/r/PERZM7L6ETGORE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt!Mathew here. I'm the founder of The Letter Company.Today, we're debuting one of my favorite things that we've ever built. You've likely heard of AEO. Or GEO. Or AI Search. It's a popular space rife with tools. But there's been a big problem: it's pay-to-play. Even to find out how you're doing on AI Search, you need to fork over something crazy like $250/mo.And I beg.... for what? AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls.No more $250/mo fees. Now, it's free. Lettertrace is a BYOK telemetry tool for measuring how you're doing on AI search. It's open source. MIT license. Free even on our hosted version. There are no paid tiers. None. Nada. You'll never put down a credit card. We're moving beyond that. It's time we get telemetry on our GEO, just like we had on our SEO, without having to pay for it.Lettertrace is super easy to use. Like SO easy. Why? Cause it's got an amazing CLI. Just install it, give Claude Code or Codex access, and your coding agent will go to town. It'll add the topics your buyers actually ask about (\"best CRM for startups\"). It'll generate realistic prompt variations and run them against Claude, ChatGPT, Gemini, and other major LLMs. It'll track visibility, share of voice, prominence, and sentiment.npm install lettertrace. claude code. prompt. That's it. Or, if you're non-technical, sign-up traditionally. And it's actually open source. Not open core, none of those gimmicks. A clean MIT license. Bring your own key. You pay the model providers directly, no markup on top. You'll spend ... maybe $3? If you're just paying to measure AI search, you're getting ripped off and we're putting an end to that.Three things I'd genuinely like feedback on. First, which answer engines matter enough to add next. Second, whether the generated prompt variations read like questions real people ask, because that's the piece I'm least sure about. Third, did the video effectively explain our purpose as a company?Code: github.com/letterstory/lettertrace"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Incredible team with deep domain expertise here! Have already enjoyed using their product"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congratulations on the launch @pregasen ! The SEO community needs more such open source and free to use products (like openSEO). Love this and thanks for launching (Profound made a hole in my pocket!)"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Ooh, love love love that this is dev-first and oss! Some insight on what you asked - \"which answer engines matter enough to add next\" - you've hit the main ones we track at Progress, but Grok could be good and for certain niches also Meta AI"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Would love to have a single docker run command so I can test it on my own infra in one click. (The current github repo doesnt have the Dockerfile / image either.)Anyway Thanks for building it, love opensource."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Good luck with the launch"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the Lettertrace launch, Mathew. The open-source + BYOK framing is very clean, and I loved that the website scan produces editable questions before the first run.One launch-day thought from trying it: when a first run returns 0%, a new user needs one obvious next move. Is it prompts, competitors, model coverage, or simply a brand that is not yet visible? Turning that zero into a small diagnosis could make the first run feel much more actionable."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Following this closely since I track something similar for my own site. One methodology question that would actually change how I read the numbers: how do you tell the difference between a page getting pulled in as a citation or source versus the AI actually naming the brand in the answer text itself? I have watched my own citation count jump sharply on one engine in a single day while actual brand mention count stayed flat at zero the whole time, so those two clearly do not move together for me. Curious whether you track them as separate metrics or treat citation as a proxy for visibility."
+          }
+        ],
+        "makerTwitter": "",
+        "faDescription": "Lettertrace ابزاری است که به شما امکان می‌دهد تا روندهایmention شدن شرکت شما در Claude، ChatGPT و Gemini را رصد کنید. این ابزار رایگان است و بر اساس رویکرد developer-first و bring-your-own-key طراحی شده است. همچنین به صورت منبع باز در دسترس است. با استفاده از Lettertrace می‌توانید به راحتی متوجه شوید که شرکت شما چگونه در نتایج جستجوی هوش مصنوعی ظاهر می‌شود و چه میزان از بازار را به خود اختصاص داده است. این ابزار برای توسعه دهندگان بسیار ساده است و با استفاده از خط فرمان (CLI) می‌توانید آن را به راحتی نصب و پیکربندی کنید. همچنین برای کاربران غیر فنی، یک روش ثبت نام سنتی در دسترس است.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "پیغام رونده",
+          "description": "پیغام رونده یک ابزار رایگان و منبع باز است که به شما امکان می‌دهد تا روندهایmention شدن شرکت خود را در موتورهای جستجوی هوش مصنوعی رصد کنید. این ابزار بر اساس رویکرد developer-first و bring-your-own-key طراحی شده است و برای توسعه دهندگان و کاربران غیر فنی در دسترس است. پیغام رونده به شما کمک می‌کند تا به راحتی متوجه شوید که شرکت شما چگونه در نتایج جستجوی هوش مصنوعی ظاهر می‌شود و چه میزان از بازار را به خود اختصاص داده است.",
+          "marketOpportunity": "در ایران، با توجه به رشد روزافزون استفاده از فناوری‌های هوش مصنوعی، ابزارهایی مانند پیغام رونده می‌توانند فرصت‌های زیادی را برای شرکت‌ها و برندها فراهم کنند. با استفاده از این ابزار، شرکت‌ها می‌توانند به راحتی روندهایmention شدن خود را رصد کنند و استراتژی‌های بازاریابی خود را بر اساس آن تنظیم کنند. همچنین، با توجه به این که این ابزار منبع باز است، توسعه دهندگان ایرانی می‌توانند آن را سفارشی کنند و برای نیازهای خود استفاده کنند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "شرکت‌ها و برندهای ایرانی که می‌خواهند در نتایج جستجوی هوش مصنوعی ظاهر شوند و روندهایmention شدن خود را رصد کنند.",
+          "challenges": [
+            "رقابت با ابزارهای مشابه",
+            "سفارشی کردن ابزار برای نیازهای شرکت‌های ایرانی",
+            "ارائه خدمات پشتیبانی و آموزش به کاربران"
+          ],
+          "monetization": [
+            "ارائه خدمات پشتیبانی و آموزش",
+            "سفارشی کردن ابزار برای شرکت‌های بزرگ"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 80
+        },
+        "aiReview": ""
+      },
+      {
+        "id": "ph-today-3",
+        "date": "2026-08-12",
+        "rank": 3,
+        "name": "Grok Bot",
+        "slug": "grok-bot",
+        "tagline": "AI teammates that you can give real work to",
+        "description": "Introducing Grok Bot: AI teammates you can give real work to. Bots sign into your tools, use them like you do, and come back with finished work. Message them like a teammate. They keep context, multitask, and learn your working style on their own cloud computer. Ask Bots to run outbound overnight, code expenses from Gmail, schedule a recruiting onsite, rebalance paid ads, or ship a bug pack. They only come back when something needs your approval.",
+        "category": "Productivity • Task Management • Artificial Intelligence",
+        "categoryFa": "بهره‌وری • مدیریت وظایف • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/3d40497c-8d0e-45c1-a28c-d3f198c06b33.png?auto=format",
+          "https://ph-files.imgix.net/2253bde2-836e-4703-a3d7-2b6ce98a2c66.png?auto=format",
+          "https://ph-files.imgix.net/e53fd891-fd01-4549-82eb-9709c348573a.png?auto=format",
+          "https://ph-files.imgix.net/a4c906af-5257-424c-9920-580d2e263554.png?auto=format",
+          "https://ph-files.imgix.net/bee2454a-11b6-412b-b1e6-7b139057b1c4.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 202,
+        "websiteUrl": "https://www.producthunt.com/r/QE45KIR5XX72OH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Thank you PH community! We're very excited to share Grok Bot with you all. Our team would love to hear any feedback or questions you have for us. We'll be around throughout the day!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "This is so awesome. I've been playing with it since yesterday, and it has already become my favorite tech of the year."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Big launch from Cursor.@benln what's the biggest change/surprise building Grok Bot since you all started?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Can this be used to amplify a post reach on X?"
+          }
+        ],
+        "makerTwitter": "",
+        "faDescription": "با معرفی Grok Bot، می‌توانید به تیمی از همکاران هوش مصنوعی دسترسی داشته باشید که می‌توانید به آنها کارهای واقعی بسپارید. این ربات‌ها به ابزارهای شما ورود می‌کنند، مانند شما از آنها استفاده می‌کنند و با کارهای تمام شده برمی‌گردند. می‌توانید با آنها مانند یک همکار ارتباط برقرار کنید. آنها با حفظ زمینه، چند وظیفه را انجام می‌دهند و سبک کار شما را به طور خودکار روی کامپیوتر ابری خود یادمی‌گیرند. از ربات‌ها بخواهید که کارهای خروجی را در طول شب انجام دهند، هزینه‌ها را از جی‌میل کدگذاری کنند، یک مصاحبه استخدامی را برنامه‌ریزی کنند، تبلیغات پرداخت شده را متعادل کنند یا یک بسته باگ را ارسال کنند. آنها فقط زمانی برمی‌گردند که چیزی نیاز به تأیید شما دارد. این ربات‌ها می‌توانند به طور مؤثر به افزایش بهره‌وری و کارایی تیم شما کمک کنند. با استفاده از Grok Bot، می‌توانید زمان خود را به کارهای مهم‌تر اختصاص دهید و ربات‌ها را برای کارهای تکراری و زمان‌بر استفاده کنید.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "همکار هوشمند",
+          "description": "همکار هوشمند یک ابزار انقلابی است که به شما امکان می‌دهد تا به تیمی از همکاران هوش مصنوعی دسترسی داشته باشید که می‌توانید به آنها کارهای واقعی بسپارید. این ربات‌ها می‌توانند به ابزارهای شما ورود کنند، مانند شما از آنها استفاده کنند و با کارهای تمام شده برمی‌گردند. همکار هوشمند می‌تواند به افزایش بهره‌وری و کارایی تیم شما کمک کند.",
+          "marketOpportunity": "بازار ایران در حال حاضر نیاز به ابزارهای هوشمند و خودکار دارد که بتواند به افزایش بهره‌وری و کارایی کمک کند. همکار هوشمند می‌تواند به عنوان یک ابزار نوآور در این بازار معرفی شود. با توجه به رشد روزافزون استارتاپ‌ها و شرکت‌های کوچک و متوسط در ایران، نیاز به ابزارهای هوشمند و خودکار بیشتر احساس می‌شود.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "استارتاپ‌ها و شرکت‌های کوچک و متوسط",
+          "challenges": [
+            "رقابت با ابزارهای مشابه",
+            "نیاز به آموزش و پشتیبانی",
+            "حفظ امنیت و حریم خصوصی داده‌ها"
+          ],
+          "monetization": [
+            "عضویت ماهیانه",
+            "پرداخت به ازای هر استفاده"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nGrok Bot یک راه حل نوآور برای افزایش بهره‌وری و کارایی تیم‌ها است. با استفاده از این ربات‌ها، می‌توانید زمان خود را به کارهای مهم‌تر اختصاص دهید و ربات‌ها را برای کارهای تکراری و زمان‌بر استفاده کنید.\n🔹 معماری و تکنولوژی احتمالی:\nGrok Bot از تکنولوژی‌های نوآور مانند Next.js و PostgreSQL استفاده می‌کند. این ابزار می‌تواند به عنوان یک سیستم خودگردان و هوشمند معرفی شود.\n🔹 مدل درآمدی:\nGrok Bot می‌تواند از طریق عضویت ماهیانه یا پرداخت به ازای هر استفاده درآمد خود را تامین کند.\n🔹 نقاط قوت:\n- افزایش بهره‌وری و کارایی تیم‌ها\n- امکان استفاده از ربات‌ها برای کارهای تکراری و زمان‌بر\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای مشابه\n- نیاز به آموزش و پشتیبانی\n🔹 نکته طلایی برای بازار ایران:\nGrok Bot می‌تواند به عنوان یک ابزار نوآور در بازار ایران معرفی شود و به افزایش بهره‌وری و کارایی تیم‌ها کمک کند."
+      },
+      {
         "id": "ph-today-3",
         "date": "2026-08-11",
         "rank": 3,
@@ -243,6 +483,55 @@
         "comments": []
       },
       {
+        "id": "ph-today-4",
+        "date": "2026-08-12",
+        "rank": 4,
+        "name": "Assembly Studio",
+        "slug": "assembly-studio",
+        "tagline": "AI app builder that grows your revenue",
+        "description": "Assembly Studio is the AI app builder made for professional service firms. Describe what you want: onboarding agents, analytics dashboards, community hubs, and get production-grade apps in minutes. 20+ templates to remix. Connects to any 3rd-party tool. Clone any overpriced app charging you per seat. Free forever plan. Stop paying for someone else's software. Build the firm only you can build.",
+        "category": "Web App • SaaS • Artificial Intelligence",
+        "categoryFa": "وب اپلیکیشن • نرم‌افزار ابری • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/assembly-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/4c7e30d6-2deb-4b5c-96f7-47466ee4c956.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/f6580cc8-1c1d-48e4-bfa7-d747fc37061d.png?auto=format",
+          "https://ph-files.imgix.net/d3ecc894-80b1-461d-a035-fd404774d0e0.png?auto=format",
+          "https://ph-files.imgix.net/5e097988-5e9e-440f-bdca-7ec854dfb544.png?auto=format",
+          "https://ph-files.imgix.net/03b0af61-6942-46c8-98a4-07a92347210b.png?auto=format",
+          "https://ph-files.imgix.net/464a246c-e1d0-4147-927c-a1f43159cad2.png?auto=format",
+          "https://ph-files.imgix.net/0257b660-6792-49d4-853a-846dd32837e6.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 159,
+        "websiteUrl": "https://www.producthunt.com/r/BHXHHSAE44JNNA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey PH! Thanks for the hunt @benlnMarlon here, cofounder of Assembly.Yes, this is another AI app builder! There are a lot of great ones (Lovable, Base44, Claude Code), but we built one anyway, and I first want to explain why.Assembly's been around for a few years. We built a CRM and client-facing portal for accountants, law firms, agencies, consultants, and others. We kept seeing our customers build incredible prototypes in Claude Code, but it's still surprisingly hard to actually get something into your clients' hands: auth, permissions, hosting, \"where do I send this link\".With Assembly, the client experience is built in: your domain, your brand, one login for your clients. Apps publish directly into that client experience. And because client accounts are a platform primitive, every app already knows who your clients are and what they're allowed to see. \"Build a client intake experience for my bookkeeping clients\" just works. In our private beta, firms built 200+ apps this way, many replacing expensive products like Airtable, Databox, and others.Because we're specialized, we also spent the last few months building 20+ templates specifically for professional service firms. Install one in a click, then remix it in Build Mode . Some favorites:Client onboarding wizard — https://studio.assembly.com/templates/client-onboarding-wizardDocument collector — https://studio.assembly.com/templates/document-collectionProject tracker — https://studio.assembly.com/templates/client-project-trackerClient help desk — https://studio.assembly.com/templates/client-support-requestsCase status page — https://studio.assembly.com/templates/case-status-pageThere's a free forever plan, so you can try it today: studio.assembly.comI'll be here all day. If you run a services firm, I'd love to hear the first app you'd build!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "The future of software is fully custom! It took the whole team (and then some) to get this over the line. Excited to see what everyone builds with Assembly Studio."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "So excited to have helped design and shape Assembly Studio. It’s been such a fun product to build, and even better to finally see it out in the world!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Marlon! I'm sure Assembly can beat Lovable and all of them. Wish you all the best on this impressive launch!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Assembly has come SUCH a long way in such a short time! When I first joined this company, I would have described us as the “cool” version of “boring client portal software” (complimentary fwiw; I think ‘boring’ software is underrated)! But unlike other old-school SaaS (rip my employment history) we quickly adapted to the needs of our customers, both for custom client experiences in our product that we would not be able to deliver fast enough with traditional engineering, and to integrate securely with AI tools that were making their lives easier. It didn’t take much time, but it’s taken a metric TON of effort from everyone on the team to bring Assembly Studio to life. This isn’t the finish line. This is the starting line!"
+          }
+        ],
+        "makerTwitter": ""
+      },
+      {
         "id": "ph-today-5",
         "date": "2026-08-11",
         "rank": 5,
@@ -354,6 +643,66 @@
         "makerTwitter": ""
       },
       {
+        "id": "ph-today-5",
+        "date": "2026-08-12",
+        "rank": 5,
+        "name": "Unsloth Desktop",
+        "slug": "unsloth-desktop",
+        "tagline": "Run and train AI models locally on your desktop",
+        "description": "Unsloth Desktop is an open-source app to run and train AI models locally. Run LLMs, image/video diffusion, and audio. Connect agents like Claude Code or Codex to your local GPU with one command, and fine-tune models with no-code workflows.",
+        "category": "Open Source • Artificial Intelligence • GitHub • Development",
+        "categoryFa": "متن‌باز • هوش مصنوعی • گیت‌هاب • Development",
+        "url": "https://www.producthunt.com/products/unsloth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/cf1b2a70-e1d9-43f3-857c-350433c6e28b.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/eca600ff-cf8f-4a7b-ab7f-3da948d306b3.png?auto=format",
+          "https://ph-files.imgix.net/6b6c9817-eb6a-43b1-80b5-66bb6782c7b3.png?auto=format",
+          "https://ph-files.imgix.net/5b76776b-0d20-4eb8-9359-b4a3d95ad164.png?auto=format",
+          "https://ph-files.imgix.net/2fb67b09-1559-4587-9942-ea3f35936234.png?auto=format",
+          "https://ph-files.imgix.net/430faaf1-ea09-48d5-b0c0-8f496d07f701.png?auto=format",
+          "https://ph-files.imgix.net/9ab6b435-db80-4014-a421-21813b7d40ec.png?auto=format",
+          "https://ph-files.imgix.net/162693cd-7098-40b6-a489-01571a64f955.png?auto=format",
+          "https://ph-files.imgix.net/f041caaa-465f-46c2-918a-bfe28456a8a2.png?auto=format",
+          "https://ph-files.imgix.net/397c4c2d-4817-420f-bff0-27793feabd85.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 134,
+        "websiteUrl": "https://www.producthunt.com/r/V5SG67QSMWW4I2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hi everyone!Always a big fan of @Unsloth — from the original codebase to the web version, it has kept getting easier to actually use. Desktop is the most complete version of what they’re building.It wraps everything into a native Mac, Windows, and Linux app. You can run and train LLMs, image/video diffusion, and audio models entirely offline without touching a terminal.This is probably the first Unsloth release I could recommend to someone who likes local models but doesn’t want local AI to become a weekend setup project. Pick a model and quantization, download it, and you’re in.It also makes those local models useful outside the app. unsloth start lets the agent tools you already use call them directly.Free, open source, and finally a proper desktop app 🦥"
+          }
+        ],
+        "makerTwitter": "",
+        "faDescription": "Unsloth Desktop یک اپلیکیشن منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بدون نیاز به اتصال به اینترنت اجرا و آموزش دهید. این اپلیکیشن می‌تواند مدل‌های LLM، دیفوزیون تصویر و ویدیو و صدا را اجرا کند و به شما امکان می‌دهد مدل‌ها را با استفاده از ابزارهای بدون کد تنظیم کنید. Unsloth Desktop همچنین به شما امکان می‌دهد مدل‌های محلی را به ابزارهای موجود مانند Claude Code یا Codex متصل کنید و از آنها استفاده کنید. این اپلیکیشن برای سیستم عامل‌های مک، ویندوز و لینوکس در دسترس است و به شما امکان می‌دهد مدل‌های هوش مصنوعی را به صورت آفلاین و بدون نیاز به دانش تخصصی اجرا کنید.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "هوش مصنوعی دسکتاپ",
+          "description": "هوش مصنوعی دسکتاپ یک اپلیکیشن منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بدون نیاز به اتصال به اینترنت اجرا و آموزش دهید. این اپلیکیشن می‌تواند مدل‌های LLM، دیفوزیون تصویر و ویدیو و صدا را اجرا کند و به شما امکان می‌دهد مدل‌ها را با استفاده از ابزارهای بدون کد تنظیم کنید.",
+          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای توسعه اپلیکیشن‌های هوش مصنوعی است. با توجه به محدودیت‌های موجود در زمینه دسترسی به اینترنت، اپلیکیشن‌های محلی می‌توانند به عنوان یک راه حل مناسب برای بسیاری از کاربران ایرانی باشند. همچنین، با توجه به رشد روزافزون استارت‌آپ‌های ایرانی، این اپلیکیشن می‌تواند به عنوان یک ابزار مفید برای آنها باشد.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "استارت‌آپ‌ها و شرکت‌های ایرانی که به دنبال توسعه اپلیکیشن‌های هوش مصنوعی هستند",
+          "challenges": [
+            "رقابت با اپلیکیشن‌های بین‌المللی",
+            "نیاز به دانش تخصصی برای استفاده از اپلیکیشن",
+            "محدودیت‌های موجود در زمینه دسترسی به اینترنت"
+          ],
+          "monetization": [
+            "فروش اپلیکیشن به عنوان یک ابزار برای استارت‌آپ‌ها و شرکت‌های ایرانی",
+            "ارائه خدمات مشاوره‌ای برای توسعه اپلیکیشن‌های هوش مصنوعی"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": ""
+      },
+      {
         "id": "ph-today-7",
         "date": "2026-08-11",
         "rank": 7,
@@ -387,6 +736,92 @@
           }
         ],
         "makerTwitter": ""
+      },
+      {
+        "id": "ph-today-6",
+        "date": "2026-08-12",
+        "rank": 6,
+        "name": "BearDrive",
+        "slug": "beardrive",
+        "tagline": " The open-source shared folder for your team's AI agents",
+        "description": "Your AI agents create real files on your laptop: research, plans, decks, data. BearDrive syncs them to your team with versions, authorship, and links, so teammates and their agents can reuse them. No new workspace to adopt. Your filesystem is the shared surface.",
+        "category": "Productivity • Developer Tools • Artificial Intelligence • GitHub",
+        "categoryFa": "بهره‌وری • ابزار توسعه‌دهندگان • هوش مصنوعی • گیت‌هاب",
+        "url": "https://www.producthunt.com/products/beardrive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/bb18cb62-29d6-4b4f-b564-41b79fa8f4b6.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/a6dcda96-fb00-4db8-a639-cab79250cdff.png?auto=format",
+          "https://ph-files.imgix.net/0e988f1f-5415-4f53-9c30-a9a3d270c508.png?auto=format",
+          "https://ph-files.imgix.net/1495e8a2-3edc-4703-8ecd-18502834fd79.png?auto=format",
+          "https://ph-files.imgix.net/7007b8d6-3cd7-4970-9aa2-19fab23dd048.png?auto=format",
+          "https://ph-files.imgix.net/650c2921-1c12-4992-8dd1-f01528ff3fef.png?auto=format",
+          "https://ph-files.imgix.net/b12d15a7-72de-4f3c-8bab-21e57f641ae2.png?auto=format",
+          "https://ph-files.imgix.net/802a4706-1ce5-48f0-a5a4-34f21a7ca11e.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 112,
+        "websiteUrl": "https://www.producthunt.com/r/M5MZKVAGCTAZLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt, I'm Snow, founder of Runbear. Here's the moment that made us build BearDrive: everyone on our team uses Claude Code daily. Each of us had an agent producing genuinely good work: competitive research, launch plans, analytics reports, decks. And every one of those files lived and died on one person's laptop. My co-worker would re-research something my agent had already figured out, because neither he nor his agent had any way to know the file existed. The obvious fixes all failed us. Pasting into Notion was a manual chore nobody kept up. Git is wrong for research and ops artifacts, and non-engineers won't touch it. Dropbox syncs bytes but tells you nothing about who made what, when, or whether it's still current. So we built the thing we wanted: a shared folder that is actually built for how agent teams work. - Your agents keep working where they already work: your local filesystem, any file format, any tool. - BearDrive syncs that folder to your team in seconds, with full change history: who, when, from which device. - Every file gets a link you can drop in Slack, and a web view teammates can read without installing anything. - Other people's agents read from the same folder, so context moves between agents without a human re-explaining it. We run our whole company on it. Our strategy wiki, sales collateral, and research sync across the CEO, marketing, dev, and support projects through BearDrive, and each team's agents read and write it every day. This launch was planned in it. What it's not: it's not an agent memory system and not another workspace to migrate into. It's your files, made team-owned. I'd love brutal feedback on one question in particular: when your teammate's agent produces something useful, how does it reach you today? That answer shapes what we build next."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Maker here. What changed for me: I stopped being the middleman between my teammates' agent and mine. My teammate's agent writes a research doc, my agent reads it from the same folder an hour later - with the authorship and history attached, so I don't have to narrate the context first. Humans and agents on both sides just stay in sync. Small mechanic, but it quietly removed most of the \"let me catch you up\" overhead from our week."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Nice launch and glad this streamlined your team's productivity. :)I'm still unsure why this should replace workspace setups like Notion/ClickUp connecting via MCP or a team Shared Drive folder though. At my previous company we were particularly concerned about the same docs centralization problem you're describing, which is why we would have still chosen Notion/ClickUp over an extra drive to store key resources and collaborate on docs."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch guys!! 🎉 Great to see BearDrive out in the wild!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "May be I am missing some thing here, we use Notion for this now. How do you differ from that approch ?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Disclosure: I'm a friend of Snow's. That said, the framing here is sharp — \"your filesystem is the shared surface\" is a much better bet than asking teams to migrate into yet another workspace. The versioning + authorship layer is what makes it more than a sync tool. Congrats on the launch!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Regarding your question, how teammate’s output reach me today: through Notion. Agents write there via mcp, the team already lives there, and it works. What’s the specific reasons to migrate?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Having a shared folder for each customer has made working together so much easier for our team. So excited that we got to build this together! Thank you so much for your support! 🐻🚀"
+          }
+        ],
+        "makerTwitter": "",
+        "faDescription": "BearDrive یک پوشه اشتراک‌گذاری شده برای تیم‌های هوش مصنوعی است که به عنوان یک راه حل برای اشتراک‌گذاری فایل‌ها و هماهنگی بین اعضای تیم عمل می‌کند. این محصول به تیم‌ها این امکان را می‌دهد که فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند و از‌بندی و مالکیت فایل‌ها مطلع شوند. این محصول به عنوان یک جایگزین برای ابزارهای موجود مانند Dropbox و Notion عمل می‌کند و به تیم‌ها این امکان را می‌دهد که از فایل‌سیستم خود به عنوان یک سطح اشتراک‌گذاری استفاده کنند. با استفاده از BearDrive، تیم‌ها می‌توانند فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند و از‌بندی و مالکیت فایل‌ها مطلع شوند.",
+        "faComments": [],
+        "iranEquivalent": {
+          "productName": "پوشه همگانی",
+          "description": "پوشه همگانی یک راه حل برای تیم‌های هوش مصنوعی است که به آنها این امکان را می‌دهد که فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند. این محصول به تیم‌ها این امکان را می‌دهد که از فایل‌سیستم خود به عنوان یک سطح اشتراک‌گذاری استفاده کنند و از‌بندی و مالکیت فایل‌ها مطلع شوند.",
+          "marketOpportunity": "فرصت بازار ایران برای محصولات هماهنگی تیم بسیار زیاد است، زیرا بسیاری از تیم‌ها به ابزارهای هماهنگی نیاز دارند. با استفاده از پوشه همگانی، تیم‌ها می‌توانند کارهای خود را به صورت hiệu quả و با کیفیت بهتر انجام دهند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "تیم‌های هوش مصنوعی و شرکت‌های فناوری",
+          "challenges": [
+            "رقابت با ابزارهای موجود",
+            "ایجاد آگاهی از مزایای استفاده از پوشه همگانی",
+            "توسعه محصول به گونه‌ای که نیازهای تیم‌های مختلف را برآورده کند"
+          ],
+          "monetization": [
+            "عضویت ماهیانه",
+            "فروش lisans برای استفاده از محصول"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": ""
       },
       {
         "id": "ph-today-8",
@@ -466,6 +901,127 @@
         "makerTwitter": ""
       },
       {
+        "id": "ph-today-7",
+        "date": "2026-08-12",
+        "rank": 7,
+        "name": "LaraCopilot",
+        "slug": "laracopilot-2",
+        "tagline": "Agentic AI Engineer that builds real apps",
+        "description": "LaraCopilot is an agentic AI engineer that builds real, production-ready apps. Describe your idea in your own language and it builds the whole thing: UI, backend, database, auth, and APIs, wired together and ready to deploy. One-click deploy to the cloud or your own server, GitHub export, instant rollback. No lock-in. The code is yours.",
+        "category": "SaaS • Developer Tools • Artificial Intelligence",
+        "categoryFa": "نرم‌افزار ابری • ابزار توسعه‌دهندگان • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/laracopilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/5abac064-1566-42f2-840d-74a4410e9c66.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/f4246fa3-08c7-412b-84da-8237afd0ab00.jpeg?auto=format",
+          "https://ph-files.imgix.net/d766bd1a-7d1e-4074-a6d7-d167e621db88.png?auto=format",
+          "https://ph-files.imgix.net/d7dea1a8-9395-42f2-aa9a-dfb6d3eddd21.png?auto=format",
+          "https://ph-files.imgix.net/7eb1aca3-6b2d-4f16-9946-76a3f39e5f6c.png?auto=format",
+          "https://ph-files.imgix.net/38bb50eb-b1c9-42d9-925f-e33e69283bed.png?auto=format",
+          "https://ph-files.imgix.net/1d58ec69-8a35-45ba-8755-5f788d97f186.png?auto=format",
+          "https://ph-files.imgix.net/5db52675-4d08-4b7f-820d-2921b2069235.png?auto=format",
+          "https://ph-files.imgix.net/a0f263ce-40d0-4e66-9853-4d392f3d1dc6.png?auto=format",
+          "https://ph-files.imgix.net/1dc11697-936a-43c5-8ad4-6e54c56a0fd0.png?auto=format",
+          "https://ph-files.imgix.net/9bfcad07-f175-4589-b88f-4315f4f38bbf.png?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 106,
+        "websiteUrl": "https://www.producthunt.com/r/7NRE4MBHHDCUWM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt! 👋 We’re back. A year ago we launched LaraCopilot Beta right here (live from Laracon US). Since then, thousands of developers have built with it and generated 2.4M+ lines of code. We listened to every piece of feedback, and today we’re launching V2. The problem we solve hasn’t changed: AI app builders are great for prototypes, but the moment you need a real backend, real auth, a real database, and code you can own and hand to a team, things fall apart. LaraCopilot builds complete, production-ready apps from a description of your idea, in whatever language you think in. What’s new in V2: → Build and Prototype Mode: validate ideas fast, then switch to Build for the production app → Import existing projects: bring your codebase in, refactor it, and build new features on top → Multi-language prompts: describe your idea in your own language, not just English → Frontend choice: Blade, Livewire, React, or Vue → Instant rollback: revert any change with one click → Team workspaces: invite members, private projects, role-based access, private repo integration → Deploy anywhere: one click to the cloud or your own server, zero-downtime, instant rollback And the core is the same: full backend generated as real code (database, auth, jobs, APIs, admin panels), exportable to GitHub, zero lock-in. Your app, your code. Everyone who supported the Beta launch: thank you, V2 exists because of your feedback. If you tried us then, try us again. It’s a different product. What will you build? 🚀"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "can't believe the quality of Laravel code it produces, amazing"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "It's a great tool. Helped me a lot for crafting my work/idea easily without leaving laravel ecosystem."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch! How does it compare to Lovable?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "LaraCopilot has been a great boost for speeding up software development and turning ideas into working code faster. Excited to see what v2 brings—congrats on the launch! 🚀"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I’ve been working on LaraCopilot for more than a year, and during this journey I’ve seen hundreds of people build real apps with it.What makes me really happy is seeing people start with a simple idea and turn it into a complete app with a real backend, database, auth, APIs, and everything working together.We built LaraCopilot because we wanted AI to do more than just create prototypes. We wanted people to build real products that they can actually use and grow.Today, people are building real products with LaraCopilot, and some of them are already getting real users and revenue. Seeing this has been amazing for us.We’ve put a lot of work into making LaraCopilot better, and I’m excited to share it with the Product Hunt community.If you have tried LaraCopilot before, I would love to hear what you think.And if you are trying it for the first time, build something and let us know what you create. 🚀What will you build?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Have an app idea? Just tell LaraCopilot what you want in your own words.LaraCopilot takes your idea and builds the whole application for you — from the design and frontend to the backend, database, login, APIs, and everything needed to make it work.Once your app is ready, you can deploy it with one click, host it on your own server, or export the code to GitHub.You always stay in control.• Build your complete app with AI• Get the UI and backend built together• Authentication, database, and APIs included• Deploy to the cloud or your own server• Roll back changes instantly• Export your code to GitHub• No lock-in — your code belongs to youJust explain what you want. LaraCopilot builds it."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I've been working on LaraCopilot's growth for more than a year, and I've seen hundreds of people build end-to-end, production-ready apps for their own needs.Seeing the quality of these full-stack applications, with real backends and everything working together, is honestly mind-blowing to me.We’ve built something truly amazing. Compared to other AI app builders out there, what LaraCopilot can do is on a completely different level.I too love LaraCopilot, I have build few amazing app using laracopilot and now it have thousand of users and real MRR as well."
+          }
+        ],
+        "makerTwitter": ""
+      },
+      {
+        "id": "ph-today-8",
+        "date": "2026-08-12",
+        "rank": 8,
+        "name": "RightCard",
+        "slug": "rightcard",
+        "tagline": "The honest credit card picker — no bank login",
+        "description": "RightCard tells you which of your cards to use at any store and auto-adds the bank offers you'd forget to activate (Amex, Chase, Citi, Wells Fargo). It keeps rotating 5% categories straight so you don't have to remember them, and warns you before card credits and annual fees renew. No bank login, no account, no tracking — the Safari extension reads the offers page you're already signed into, and recommendations are computed on your phone, even offline. Honest numbers only. Free, no ads.",
+        "category": "iOS • Fintech • Personal Finance",
+        "categoryFa": "آی‌او‌اس • فین‌تک • Personal Finance",
+        "url": "https://www.producthunt.com/products/rightcard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/25043541-7b13-4316-a72c-4b5861e09592.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/de90fd57-a7cc-4893-b9ea-256b82bee584.jpeg?auto=format",
+          "https://ph-files.imgix.net/28bf82af-9d64-4ad7-b803-c9af85ac3733.png?auto=format",
+          "https://ph-files.imgix.net/fd2cec7d-45c8-47f0-b716-27df61fc68e5.png?auto=format",
+          "https://ph-files.imgix.net/232e5395-8ec8-4247-b81e-450bf926b7d2.png?auto=format",
+          "https://ph-files.imgix.net/2cc107dd-e4a0-43cc-9487-9c66fb270eb8.png?auto=format",
+          "https://ph-files.imgix.net/81ef249c-9842-43c2-8aea-42f2c780091d.png?auto=format",
+          "https://ph-files.imgix.net/def4f416-a812-4bf6-86cc-e246a43d3875.png?auto=format",
+          "https://ph-files.imgix.net/80a6c551-07d3-4700-9a3e-eb6739f9ac37.png?auto=format",
+          "https://ph-files.imgix.net/c80d0f2c-6531-4c2a-b4c3-76ddc4b50ea3.png?auto=format"
+        ],
+        "maker": "Parikshit Madahar",
+        "makerTitle": "Building RightCard — no bank login",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 106,
+        "websiteUrl": "https://www.producthunt.com/r/QBAV2SQH3UB2NZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hi PH — solo developer here. RightCard tells you which of your cards to use at any store and auto-adds the bank offers you'd forget to activate. What makes it different from the apps already doing card rewards: No bank login, by architecture. Every competitor asks you to link your bank accounts or hand over credentials to read your offers. RightCard's Safari extension reads the offers page you're already signed into, on your own phone — credentials never enter the picture. Recommendations are computed on-device and work offline. No account, no ads, no tracking SDKs. One-tap offer activation is free. Auto-adding Amex, Chase, Citi and Wells Fargo offers in one pass is the paid tier elsewhere. Here it's just what the app does. You don't have to remember anything. Rotating 5% categories flip every quarter and nobody remembers — RightCard's answers already include them, it reminds you when new ones go live (and to activate), and it gives you a heads-up before card credits and annual fees renew. Honest numbers. No invented \"you saved $X\" math — only the banks' own stated ceilings (\"up to $X\"). And it warns you when a bonus won't post: Walmart usually codes as a superstore, not a grocery store, so grocery bonuses don't apply there. Most apps won't tell you that. It's free. A lot of the last two months shipped straight from user bug reports — some the same day — so tell me what's broken or missing and there's a decent chance it ships this week."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@parikshit_builds Do you think people with fewer cards would find this useful too, or is it mainly for reward enthusiasts?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@parikshit_builds I like that you removed the bank login setup. That's actually where I stop trying apps like this."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@parikshit_builds Do you think the biggest challenge is teaching people to trust the recommendation?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@parikshit_builds I always end up using the same card because checking rewards feels like too much work. This fixes that habit."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@RightCard I've definitely forgotten to activate an offer and remembered about it after the purchase?"
+          }
+        ],
+        "makerTwitter": ""
+      },
+      {
         "id": "ph-today-10",
         "date": "2026-08-11",
         "rank": 10,
@@ -504,814 +1060,77 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-today-1",
-        "date": "2026-08-08",
-        "rank": 1,
-        "name": "The GTM Co-Founder",
-        "slug": "the-gtm-co-founder",
-        "tagline": "Open-source GTM skills for technical founders",
-        "description": "Most AI hands dev-tool founders the same generic sales and marketing advice. The GTM Co-Founder doesn't. It's a set of open-source skills that interview you once, learn your real product and market, then walk you move by move through a prioritised GTM roadmap: who it's for, positioning, your first 50 users, launch, pricing, etc. Grounded in the playbooks of Adam Frankl and Jakub Czakon, plus my own time as a Founding AE and GTM advisor. Free and open source.",
-        "category": "Open Source • Marketing • Developer Tools",
-        "categoryFa": "متن‌باز • بازاریابی • ابزار توسعه‌دهندگان",
-        "url": "https://www.producthunt.com/products/the-gtm-co-founder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/46743940-bda5-46f0-b113-a776781e76a3.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/9e9d0ad5-6421-4a91-909d-db9567828a79.png?auto=format",
-          "https://ph-files.imgix.net/af34bf55-5bed-47bc-8438-8a12d38a1fac.jpeg?auto=format",
-          "https://ph-files.imgix.net/216ea3e2-2a2e-4900-8e0c-fb7e01dbd4e1.png?auto=format",
-          "https://ph-files.imgix.net/5929b21f-017c-4423-916b-262618c13694.jpeg?auto=format"
-        ],
-        "maker": "Thibault Le Ouay",
-        "makerTitle": "building openstatus.dev 🫖",
-        "featuredAt": "2026-08-08T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/VPBAUGHOUKAU4E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "Shane O'Connor",
-            "text": "\" If you're in dev tools, @fmerian is a great [Hunter] to ask. \" appreciate for the mention, @gtmnerd ! enjoy the launch, keep up the great work"
-          },
-          {
-            "user": "fmerian",
-            "text": "The “first 50 users” skill sounds especially useful if it forces the founder to get specific about the trigger, not just the persona. I learned this the slow way with a small WordPress site: “people interested in X” was too broad to act on, but “someone just hit this problem this week and is already searching or asking about it” gave me much clearer places to look. For technical founders, that distinction turns GTM from generic advice into a concrete daily search habit."
-          },
-          {
-            "user": "Shane O'Connor",
-            "text": "this is really really great. any chance we can connect it with chatgpt as well?"
-          },
-          {
-            "user": "Grace Lee",
-            "text": "Good to see a prod like this … curious how do you handle knowledge drift ??"
-          },
-          {
-            "user": "Shane O'Connor",
-            "text": "I love the brutal website design!"
-          },
-          {
-            "user": "Alper Tayfur",
-            "text": "I love that the README reads like therapy for solo tech founders!"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "The GTM Co-Founder یک مجموعه مهارت‌های بازمتن (open-source) برای بنیان‌گذاران فنی است که به آن‌ها کمک می‌کند تا استراتژی ورود به بازار (GTM) خود را با استفاده از یک نقشه راه اولویت‌بندی شده توسعه دهند. این محصول با انجام یک مصاحبه اولیه با بنیان‌گذار، محصول و بازار آن را می‌شناسد و سپس گام به گام آن‌ها را در توسعه استراتژی ورود به بازار راهنمایی می‌کند. این مجموعه مهارت‌ها بر اساس کتاب‌های راهنمای آدام فرانکل و یاکوب چاکون و همچنین تجربه بنیان‌گذار به عنوان مشاور GTM و AE بنیان‌گذار توسعه یافته است. The GTM Co-Founder رایگان و بازمتن است.",
-        "faComments": [
-          {
-            "user": "Shane O'Connor",
-            "text": "اگر در حوزه ابزارهای توسعه هستید، @fmerian یک شخص مناسب برای پرسش است. قدردان این اشاره هستم، @gtmnerd! از پرتاب و کار خوب لذت ببرید"
-          },
-          {
-            "user": "fmerian",
-            "text": "مهارت «۴۰ کاربر اول» به ویژه مفید به نظر می‌رسد اگر بنیان‌گذار را مجبور کند تا در مورد محرک، نه فقط شخصیت، خاص شود. من این را به روش سخت با یک سایت کوچک وردپرس یاد گرفتم: «افراد علاقه‌مند به X» بسیار گسترده بود تا بتوانم بر اساس آن عمل کنم، اما «کسی که این مشکل را این هفته حل کرده است و در حال جستجو یا سوال در مورد آن است» به من مکان‌های rõتری برای جستجو داد. برای بنیان‌گذاران فنی، این تمایز GTM را از یک توصیه کلی به یک عادت جستجوی روزمره تبدیل می‌کند."
-          },
-          {
-            "user": "Shane O'Connor",
-            "text": "این واقعاً بسیار عالی است. آیا امکان اتصال آن به ChatGPT نیز وجود دارد؟"
-          },
-          {
-            "user": "Grace Lee",
-            "text": "خوب است که یک محصول مانند این را ببینیم… کنجکاو هستم که چگونه از انحراف دانش جلوگیری می‌کنید؟"
-          },
-          {
-            "user": "Shane O'Connor",
-            "text": "طراحی وب‌سایت بسیار زیباست!"
-          },
-          {
-            "user": "Alper Tayfur",
-            "text": "دوست دارم که README مانند یک ی برای بنیان‌گذاران تک فنی نوشته شده است!"
-          }
-        ],
-        "iranEquivalent": {
-          "productName": "همراه راه‌اندازی",
-          "description": "همراه راه‌اندازی یک مجموعه بازمتن از مهارت‌های ورود به بازار برای بنیان‌گذاران فنی ایرانی است که به آن‌ها کمک می‌کند تا استراتژی ورود به بازار خود را با استفاده از یک نقشه راه اولویت‌بندی شده توسعه دهند. این محصول با انجام یک مصاحبه اولیه با بنیان‌گذار، محصول و بازار آن را می‌شناسد و سپس گام به گام آن‌ها را در توسعه استراتژی ورود به بازار راهنمایی می‌کند.",
-          "marketOpportunity": "فرصت بازار ایران برای همراه راه‌اندازی بسیار گسترده است، زیرا بسیاری از استارت‌آپ‌های ایرانی به استراتژی‌های مؤثر ورود به بازار نیاز دارند. با استفاده از این محصول، بنیان‌گذاران می‌توانند استراتژی‌های خود را توسعه دهند و به بازار هدف خود برسند.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "بنیان‌گذاران استارت‌آپ‌های ایرانی",
-          "challenges": [
-            "رقابت در بازار",
-            "کمبود منابع مالی",
-            "نبود تجربه کافی در ورود به بازار"
-          ],
-          "monetization": [
-            "پرداخت مبتنی بر استفاده",
-            "پشتیبانی و مشاوره"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 80
-        },
-        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nThe GTM Co-Founder یک راه‌حل جامع برای بنیان‌گذاران فنی است که به آن‌ها کمک می‌کند تا استراتژی ورود به بازار خود را توسعه دهند. این محصول با استفاده از یک نقشه راه اولویت‌بندی شده، بنیان‌گذاران را راهنمایی می‌کند تا استراتژی‌های خود را توسعه دهند.\n🔹 معماری و تکنولوژی احتمالی:\nThe GTM Co-Founder بر اساس تکنولوژی‌های بازمتن مانند Next.js و PostgreSQL توسعه یافته است. این محصول می‌تواند به راحتی با سایر ابزارها و سیستم‌ها یکپارچه شود.\n🔹 مدل درآمدی:\nThe GTM Co-Founder می‌تواند از طریق پرداخت مبتنی بر استفاده و پشتیبانی و مشاوره درآمدزایی کند.\n🔹 نقاط قوت:\n- ارائه یک نقشه راه اولویت‌بندی شده برای توسعه استراتژی ورود به بازار\n- پشتیبانی از بنیان‌گذاران در توسعه استراتژی‌های خود\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت در بازار\n- کمبود منابع مالی\n🔹 نکته طلایی برای بازار ایران:\nThe GTM Co-Founder می‌تواند به بنیان‌گذاران استارت‌آپ‌های ایرانی کمک کند تا استراتژی‌های خود را توسعه دهند و به بازار هدف خود برسند."
-      },
-      {
-        "id": "ph-today-2",
-        "date": "2026-08-08",
-        "rank": 2,
-        "name": "AstraPixels",
-        "slug": "astrapixels",
-        "tagline": "​​A pixel-art solar system at its real current positions.​",
-        "description": "An animated pixel-art map of the solar system with every body at its real current position, computed from published orbital elements rather than copied from a list. Zoom from the Sun to the Kuiper belt, browse 171 catalogued objects with sourced facts, and see what the sky is doing for the next six months. Every rock is also for sale: claim an asteroid for $5, keep it forever, name it whatever you like. A name here is shown on AstraPixels only, and is not an IAU designation.",
-        "category": "Web App • Art • Advertising",
-        "categoryFa": "وب اپلیکیشن • Art • Advertising",
-        "url": "https://www.producthunt.com/products/astrapixels?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/2849f813-bd82-4704-bea6-992e43ca7a35.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/81672151-a06d-4f05-8bb6-8f05ea1cfc7b.png?auto=format",
-          "https://ph-files.imgix.net/e8fb4169-744a-402b-9eb0-5e048f911507.png?auto=format",
-          "https://ph-files.imgix.net/10bbfab0-d5d2-4638-8fd8-539574e38290.png?auto=format",
-          "https://ph-files.imgix.net/f5ad4e79-39c0-45f6-8cd4-4d41776be20a.png?auto=format",
-          "https://ph-files.imgix.net/e788ce93-3749-432d-bd7a-91b94119e2f3.png?auto=format",
-          "https://ph-files.imgix.net/7d2b800a-1afc-40ee-9881-e54496dda007.png?auto=format",
-          "https://ph-files.imgix.net/de05600a-59b3-4347-8015-860ac6685753.png?auto=format"
-        ],
-        "maker": "Nick Launches",
-        "makerTitle": "Helping builders get discovered 🔥",
-        "featuredAt": "2026-08-08T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/6BOFNHUVVMY6Q6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "Nick Launches",
-            "text": "Hi Product Hunt. AstraPixels is a pixel-art map of the solar system where everything is where it actually is. Positions are computed from published orbital elements with astronomy-engine, not copied from a list, so the map you open is the sky you are standing under. You can wind time forward a week, flip to true scale to see how much the map is lying to you, and open any of 171 bodies for its sourced facts and its position right now. The other half is that every body is also for sale. An asteroid is $5, once, kept forever. A moon is $49. The Sun is leased. I built the commercial side around the three ways a Million Dollar Homepage clone normally dies: - Inventory sells out, or never does. The main belt is 3,000 procedurally generated rocks, so there is a $5 floor that cannot sell out, while the things that are genuinely scarce (the Sun, the eight planet skins, the comets) are leased rather than sold. - Nobody ever comes back. So it is an astronomy tool first. Real positions, and a sky-events page that computes the next six months of conjunctions, oppositions, meteor showers and eclipses. - Link rot. 22% of the original's links died within a decade. Links here are checked monthly, and three failures turn the rock into a visibly decaying derelict sprite before it recycles back into inventory. One thing I want to be blunt about, because the resemblance is unavoidable: a name you put on a body is shown on AstraPixels and nowhere else. It is not an IAU designation, it is not submitted to anybody, and no observatory will recognise it. Official minor planet names are assigned by the IAU and cannot be bought. That disclosure is on every page that shows a custom name, not buried in the terms. There is no sign-up. Stripe asks for your email and that is the whole account system. I would rather have your criticism than your upvote. The thing I am least sure about is whether the map reads as a toy or as an instrument, so tell me which one it looked like in the first five seconds."
-          },
-          {
-            "user": "Aman Gupta",
-            "text": "I love this one and I've already claimed Juliet. The graphic style might have seemed a little overwhelming for me at first glance, but after a short while I really came to appreciate it, especially when zooming in. Great job!"
-          },
-          {
-            "user": "Nick Launches",
-            "text": "I think this is weak. I'd make graphics actually better. Poor graphics stopped me from digging deeper."
-          },
-          {
-            "user": "Leopold",
-            "text": "This made me smile. Best way to wake up fr. It's wonderful to see this world has joy in it still."
-          },
-          {
-            "user": "Nick Launches",
-            "text": "Opened on my phone half-asleep. First glance: toy vibe (cute pixels). Then I hit time scrub + true scale and it clicked—this is an instrument. Sky events page is handy. Naming/sales bit feels like optional noise to me. Mobile zoom a tad twitchy, but I kept poking."
-          },
-          {
-            "user": "Alex Cloudstar",
-            "text": "Wow! Love to see this kind of projects launching here. Guessing what’s the main goal. Anyway wish you all the best"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "AstraPixels یک نقشه متحرک از منظومه شمسی است که هر جسم در موقعیت واقعی خود قرار دارد. این موقعیت‌ها از عناصر مداری منتشر شده محاسبه می‌شوند و نه از یک لیست کپی شده. شما می‌توانید از خورشید تا کمربند کوئیپر بروید، ۱۵۱ جسم فهرست شده را با حقایق منبع‌دار مرور کنید و ببینید آسمان در شش ماه آینده چه خواهد کرد. هر سنگ نیز به فروش می‌رسد: یک سیارک را برای ۴ دلار خریداری کنید، آن را برای همیشه نگه دارید و نامی دلخواه به آن بدهید. این نام فقط در AstraPixels نمایش داده می‌شود و یک نام رسمی IAU نیست.",
-        "faComments": [
-          {
-            "user": "Nick Launches",
-            "text": "سلام. AstraPixels یک نقشه متحرک از منظومه شمسی است که هر جسم در موقعیت واقعی خود قرار دارد. موقعیت‌ها از عناصر مداری منتشر شده محاسبه می‌شوند و نه از یک لیست کپی شده. شما می‌توانید زمان را به جلو ببرید، به مقیاس واقعی بروید و ببینید که نقشه چقدر به شما دروغ می‌گوید. هر جسم را می‌توانید برای حقایق منبع‌دار و موقعیت فعلی آن باز کنید. نیمی دیگر از این محصول این است که هر جسم به فروش می‌رسد. یک سیارک ۴ دلار است، یک بار خریداری می‌شود و برای همیشه نگهداری می‌شود. ماه ۳۷ دلار است. خورشید اجاره داده می‌شود."
-          },
-          {
-            "user": "Aman Gupta",
-            "text": "من این محصول را دوست دارم و یک سیارک به نام جولیت خریداری کرده‌ام. سبک گرافیکی ممکن است در ابتدا کمی غریب به نظر برسد، اما پس از مدتی واقعاً از آن لذت بردم، به خصوص وقتی که زوم می‌کردم."
-          },
-          {
-            "user": "Nick Launches",
-            "text": "فکر می‌کنم این محصول ضعیف است. من گرافیک را واقعاً بهتر می‌کردم. گرافیک ضعیف من را از کردن بیشتر محصول بازداشت."
-          },
-          {
-            "user": "Leopold",
-            "text": "این محصول من را خوشحال کرد. بهترین راه برای بیدار شدن از خواب. خوشحالم که می‌بینم این جهان هنوز شادی در آن وجود دارد."
-          },
-          {
-            "user": "Nick Launches",
-            "text": "من این محصول را با تلفن همراهم باز کردم و در ابتدا کمی گیج شدم، اما پس از اینکه زمان را به جلو بردم و به مقیاس واقعی رفتم، فهمیدم که این محصول واقعاً یک ابزار است. صفحه رویدادهای آسمانی بسیار مفید است. بخش نام‌گذاری و فروش برای من مانند یک صدا در پس‌زمینه است. زوم در تلفن همراه لگ دارد، اما من همچنان به کردن ادامه دادم."
-          },
-          {
-            "user": "Alex Cloudstar",
-            "text": "وای! دوست دارم که این نوع پروژه‌ها در اینجا راه‌اندازی می‌شوند. حدس می‌زنم که هدف اصلی چیست. در هر صورت برای شما آرزوی بهترین‌ها را دارم"
-          }
-        ],
-        "iranEquivalent": {
-          "productName": "نقشه آسمانی",
-          "description": "نقشه آسمانی یک محصول ایرانی است که کاربران را قادر می‌سازد تا موقعیت واقعی جسم‌های آسمانی را مشاهده کنند. این محصول شامل یک نقشه متحرک از منظومه شمسی است که هر جسم در موقعیت واقعی خود قرار دارد. کاربران می‌توانند از خورشید تا کمربند کوئیپر بروند و ۱۵۱ جسم فهرست شده را با حقایق منبع‌دار مرور کنند.",
-          "marketOpportunity": "فرصت بازار ایران برای محصولاتی مانند نقشه آسمانی بسیار خوب است، زیرا مردم ایران به علوم و فناوری‌های مربوط به آسمان و فضا علاقه زیادی دارند. با توجه به رشد روزافزون فناوری‌های دیجیتال در ایران، یک محصول مانند نقشه آسمانی می‌تواند بسیار موفق باشد.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "مردم ایران که به علوم و فناوری‌های مربوط به آسمان و فضا علاقه دارند",
-          "challenges": [
-            "رقابت با محصولات مشابه",
-            "دسترسی به داده‌های دقیق و به‌روز از جسم‌های آسمانی",
-            "توسعه یک رابط کاربری جذاب و کاربردی"
-          ],
-          "monetization": [
-            "فروش محصولات مرتبط",
-            "تبلیغات در ứng dụng"
-          ],
-          "techStack": [
-            "React",
-            "Node.js"
-          ],
-          "confidence": 80
-        },
-        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nAstraPixels یک نقشه متحرک از منظومه شمسی است که هر جسم در موقعیت واقعی خود قرار دارد. این محصول به کاربران امکان می‌دهد تا موقعیت واقعی جسم‌های آسمانی را مشاهده کنند و از خورشید تا کمربند کوئیپر بروند.\n🔹 معماری و تکنولوژی احتمالی:\nاین محصول می‌تواند با استفاده از فناوری‌های دیجیتال مانند React و Node.js توسعه یابد. همچنین، استفاده از داده‌های دقیق و به‌روز از جسم‌های آسمانی برای توسعه این محصول ضروری است.\n🔹 مدل درآمدی:\nاین محصول می‌تواند از طریق فروش محصولات مرتبط و تبلیغات در ứng dụng درآمد زایی کند.\n🔹 نقاط قوت:\n- ارائه یک نقشه متحرک از منظومه شمسی\n- امکان مشاهده موقعیت واقعی جسم‌های آسمانی\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با محصولات مشابه\n- دسترسی به داده‌های دقیق و به‌روز از جسم‌های آسمانی\n🔹 نکته طلایی برای بازار ایران:\n- توسعه یک رابط کاربری جذاب و کاربردی برای کاربران ایرانی"
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-08-08",
-        "rank": 3,
-        "name": "Basedash Subscriptions",
-        "slug": "basedash-subscriptions",
-        "tagline": "Subscribe to any dashboard. Delivered on schedule.",
-        "description": "Subscribe to any Basedash dashboard or chart and get a fresh snapshot delivered on a schedule—straight to your inbox or a Slack channel. Pick the cadence (every Monday at 9am, daily, monthly on the 1st), choose who receives it, and each delivery arrives with up-to-date charts and a link back to the live dashboard. No exporting, no screenshotting, no remembering to share. The Monday metrics email your team wants, without anyone building it. Your dashboards, delivered on schedule.",
-        "category": "Artificial Intelligence • Data & Analytics • Business Intelligence",
-        "categoryFa": "هوش مصنوعی • Data & Analytics • Business Intelligence",
-        "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/5036f64e-9d05-46e9-b5ce-f7f5c261e9c0.jpeg?auto=format",
-          "https://ph-files.imgix.net/5994d865-e263-4147-824a-0baea51297bd.png?auto=format",
-          "https://ph-files.imgix.net/8afd2564-c68b-4bad-889b-740c3519cb88.png?auto=format",
-          "https://ph-files.imgix.net/7a49b0cb-6b2f-4008-a3ff-cb716e4cc65a.png?auto=format",
-          "https://ph-files.imgix.net/c6254037-87b9-4bde-bb0b-cdc7e7980089.png?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-08T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/AWQTOUN4LM6VG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "Max Musing",
-            "text": "Hey everyone, Max here from Basedash. Today we're launching Basedash Subscriptions: subscribe to any dashboard or chart and it gets delivered to your inbox or a Slack channel on a schedule you pick. Every team has a reporting ritual—the Monday metrics review, the Friday pipeline check, the first-of-the-month board pack. And someone always has to remember to open the dashboard, screenshot it, and post it. Now you set it once. Pick a dashboard, choose \"every Monday at 9:00 AM\", point it at #metrics or a set of teammates, and Basedash sends a fresh snapshot of every chart with a link back to the live version. Schedules run from daily to quarterly, you can stack multiple subscriptions on one dashboard, and pausing takes one switch. We've been running Basedash on this ourselves: our Monday revenue review and daily KPI digest now just show up in Slack before standup. Nobody has manually posted a dashboard screenshot since. Subscriptions are live today for all Basedash users. PH community gets an extra week on the trial this week. Happy to answer anything."
-          },
-          {
-            "user": "Max Musing",
-            "text": "We run metrics reviews for a few different stakeholders (team, investors, community leads) and right now someone manually screenshots different chart subsets into separate Slack channels each week. Can one Basedash subscription target multiple channels with different chart selections, or does each destination need its own setup?"
-          },
-          {
-            "user": "Max Musing",
-            "text": "The \"someone has to remember to screenshot it\" line is exactly how our Monday numbers happen right now, someone opens the dashboard, screenshots it, pastes it in Slack. Does the schedule respect each recipient's own timezone, or is a subscription fixed to whichever timezone it was created in?"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "با Basedash Subscriptions می‌توانید به هر داشبورد یا نمودار Basedash کنید و یک نسخه تازه از آن را بر اساس برنامه‌ای که انتخاب می‌کنید، دریافت کنید. این نسخه مستقیماً به ایمیل یا کانال اسلک شما ارسال می‌شود. شما می‌توانید زمان ارسال را انتخاب کنید (هر دوشنبه ساعت ۷ صبح، روزانه، ماهانه در روز اول)، انتخاب کنید که چه کسی آن را دریافت کند، و هر بار که ارسال می‌شود، همراه با نمودارها و پیوندی به نسخه زنده داشبورد ارسال می‌شود. دیگر نیازی به صادرات، عکس‌برداری از صفحه، یا به یاد داشتن اشتراک نیست. ایمیل بررسی معیار دوشنبه که تیم شما می‌خواهد، بدون اینکه کسی آن را بسازد. داشبورد شما، بر اساس برنامه ارسال می‌شود.",
-        "faComments": [
-          {
-            "user": "Max Musing",
-            "text": "سلام همه، من مکس از Basedash هستم. امروز Basedash Subscriptions را معرفی می‌کنیم: می‌توانید به هر داشبورد یا نمودار subscribe کنید و آن را بر اساس برنامه‌ای که انتخاب می‌کنید، دریافت کنید. هر تیمی مراسمی برای گزارش دارد—مرور معیار دوشنبه، بررسی خط لوله جمعه، بسته هیئت مدیره اول ماه. و همیشه کسی باید به یاد بیاورد که داشبورد را باز کند، از آن عکس بگیرد و ارسال کند. حالا شما فقط یک بار تنظیم می‌کنید. یک داشبورد را انتخاب کنید، «هر دوشنبه ساعت ۷ صبح» را انتخاب کنید، آن را به #metrics یا مجموعه‌ای از همکاران نشان دهید، و Basedash یک نسخه تازه از هر نمودار را با پیوندی به نسخه زنده ارسال می‌کند. برنامه‌ها از روزانه تا سه‌ماهه هستند، می‌توانید چندین اشتراک را در یک داشبورد قرار دهید، و تعلیق آن فقط با یک سوئیچ انجام می‌شود. ما Basedash را برای خودمان با این روش اجرا کرده‌ایم: مرور درآمد دوشنبه و خلاصه معیار روزانه ما الآن فقط قبل از استندآپ در اسلک ظاهر می‌شود. هیچ‌کس از زمان معرفی این ویژگی دیگر به صورت دستی عکس داشبورد را ارسال نکرده است. اشتراک‌ها از امروز برای همه کاربران Basedash در دسترس است. جامعه Product Hunt یک هفته آزمایشی اضافی دریافت می‌کند. خوشحالیم که به سوالات شما پاسخ دهیم."
-          },
-          {
-            "user": "Max Musing",
-            "text": "ما برای چندین گروه از سهامداران (تیم، سرمایه‌گذاران، رهبران جامعه) بررسی معیار انجام می‌دهیم و در حال حاضر کسی به صورت دستی زیرمجموعه‌های مختلف نمودار را در کانال‌های اسلک جداگانه هر هفته عکس می‌گیرد. آیا یک اشتراک Basedash می‌تواند چندین کانال با انتخاب‌های نمودار مختلف را هدف قرار دهد یا هر مقصد نیاز به تنظیم جداگانه دارد؟"
-          },
-          {
-            "user": "Max Musing",
-            "text": "خط 'کسی باید به یاد بیاورد که آن را عکس بگیرد' دقیقاً همان چیزی است که برای اعداد دوشنبه ما اتفاق می‌افتد، کسی داشبورد را باز می‌کند، از آن عکس می‌گیرد و در اسلک می‌چسباند. آیا برنامه ارسال به زمان‌بندی هر گیرنده احترام می‌گذارد یا یک اشتراک به زمان‌بندی شده در زمان ایجاد آن متصل است؟"
-          }
-        ],
-        "iranEquivalent": {
-          "productName": "داشبورد ایرانی",
-          "description": "داشبورد ایرانی یک ابزار قدرتمند برای مدیریت و نظارت بر داده‌ها است که به کاربران امکان می‌دهد به هر داشبورد یا نمودار subscribe کنند و یک نسخه تازه از آن را بر اساس برنامه‌ای که انتخاب می‌کنند، دریافت کنند. این ابزار به کاربران کمک می‌کند تا زمان و منابع خود را بهینه کنند و تمرکز خود را بر روی تصمیم‌گیری‌های مهم قرار دهند.",
-          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای ابزارهای مدیریت داده است. با افزایش استفاده از فناوری‌های دیجیتال در بخش‌های مختلف، نیاز به ابزارهای قدرتمند و انعطاف‌پذیر برای مدیریت و داده‌ها روز به روز بیشتر می‌شود. داشبورد ایرانی می‌تواند به عنوان یک ابزار جامع و قابل انعطاف‌پذیر در این بازار ظاهر شود.",
-          "estimatedBudget": "۴ تا ۱۰ میلیارد تومان",
-          "targetAudience": "مدیران و کارشناسان بخش‌های مختلف",
-          "challenges": [
-            "رقابت با ابزارهای مشابه خارجی",
-            "نیاز به آموزش و پشتیبانی مناسب برای کاربران",
-            "تامین امنیت و حریم خصوصی داده‌ها"
-          ],
-          "monetization": [
-            "عضویت ماهانه یا سالانه",
-            "پرداخت بر اساس استفاده"
-          ],
-          "techStack": [
-            "React",
-            "Node.js"
-          ],
-          "confidence": 80
-        },
-        "aiReview": ""
-      },
-      {
-        "id": "ph-today-4",
-        "date": "2026-08-08",
-        "rank": 4,
-        "name": "Hexis",
-        "slug": "hexis-3",
-        "tagline": "Git-backed skills, tools & context for AI agents",
-        "description": "One place where your company's AI skills, tools and knowledge live - centrally managed, reviewed and access-controlled, and usable from any AI agent. Hexis is a layer on top of Git: same core (versioning, PRs), plus a clean UX so anyone can use skills, suggest changes, and submit new ones and admins can govern which context, tools, and skills each person, team, or agent can access. Consumed via MCP, works in any agent in the company.",
-        "category": "Artificial Intelligence",
-        "categoryFa": "هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/bevel-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/c122d314-c8c5-419e-ad79-8ceed93935e3.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/0c9aaabb-c19e-49aa-8b20-4621bc9a4441.png?auto=format",
-          "https://ph-files.imgix.net/69c2943a-5e73-4a59-bb80-2437fde8075d.png?auto=format",
-          "https://ph-files.imgix.net/df6f3bb7-f25b-4ad6-a6fc-f428dc57c2f1.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-08T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/ATYYXLA223CYM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "Ali Raza",
-            "text": "Hey Product Hunt! 👋 We're launching Hexis because we've seen everyone (including ourselves) putting skills and context into GitHub. Versioning, PRs, review; it works for a bit. But then non-technical people have to learn the whole workflow. GitHub was built for software development, and it breaks down when you use it at scale for something it wasn't built for. Hexis is a layer on top of Git. It keeps the core (versioning, PRs) and adds a non-dev friendly UX on top, and allows file-based access management (that just doesn't work with Github/Gitlab) Users in companies can simply connect any agent of their choice through an MCP server, and can use skills, suggest changes, and submit new ones without ever touching a Git workflow. Admins manage which context, tools, and skills each person, team, or agent has access to. They approve requested changes and review submitted skills. P.S: In Aristotelian philosophy, 'hexis' is a skill you don't just perform once, but genuinely possess."
-          },
-          {
-            "user": "Ali Raza",
-            "text": "the Git-as-source-of-truth angle is the right call for enterprise. versioning and PR reviews are already the trust layer devs understand, so layering agent skill governance on top means you're not asking orgs to adopt a new trust model from scratch. curious how you handle conflicts when two teams submit competing versions of the same skill, does it go through a standard PR review flow or is there a separate governance step for that?"
-          },
-          {
-            "user": "Juan Viera Garcia",
-            "text": "The access control angle is the interesting part to me. I load skills through a per-directory scoped Skill tool day to day, and the one thing that trips me up is resolution order when the same skill name exists at two governance levels (say a team-wide skill and a project-local override). Does Hexis pick the more specific one automatically, or is that a conflict an admin has to resolve by hand?"
-          },
-          {
-            "user": "Abdullah Javaid",
-            "text": "Hi team! Really proud of what we’ve built here. Over and over, people we’ve talked to have mentioned how hard it is to share and connect to skills, tools and context in their organizations. Specifically for two reasons: Sharing skills between coworkers is slow and clunky when you have to share files and folders Using GitHub to store and distribute skills is a big learning curve for non-technical users By open sourcing our work, we hope you have now a simple way to upload, share and improve on your team’s context, skills and tool! Would love your feedback ❤️"
-          },
-          {
-            "user": "Razvan Ion Radulescu",
-            "text": "It is crazy how easy this makes switching the agent I'm working in, and how easy it makes creating background agents for various tasks! You can also test the demo before looking into self-hosting directly at demo.bevel.software"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "Hexis یک لایه بر روی Git است که به شرکت‌ها امکان مدیریت، بازبینی و کنترل دسترسی به مهارت‌ها، ابزارها و دانش را در یک مکان متمرکز می‌دهد. این محصول با حفظ هسته Git (نسخه‌بندی، PRها) و اضافه کردن یک رابط کاربری تمیز و آسان برای استفاده از مهارت‌ها، پیشنهاد تغییرات و ارسال مهارت‌های جدید، به کاربران و مدیران اجازه می‌دهد تا به راحتی با مهارت‌ها و ابزارها کار کنند. Hexis از طریق MCP مصرف می‌شود و در هر एजنت شرکت کار می‌کند. این محصول به شرکت‌ها کمک می‌کند تا مهارت‌ها و ابزارهای خود را به راحتی به اشتراک بگذارند و مدیریت کنند. همچنین، Hexis به کاربران غیر فنی اجازه می‌دهد تا بدون نیاز به یادگیری جریان کار Git، مهارت‌ها و ابزارها را استفاده کنند. با Hexis، مدیران می‌توانند دسترسی به مهارت‌ها، ابزارها و دانش را برای هر فرد، تیم یا एजنت کنترل کنند.",
-        "faComments": [
-          {
-            "user": "Ali Raza",
-            "text": "سلام Product Hunt! ما Hexis را راه‌اندازی می‌کنیم زیرا دیده‌ایم که همه (از جمله خودمان) مهارت‌ها و زمینه‌ها را در GitHub قرار می‌دهند. نسخه‌بندی، PRها، بازبینی؛ برای مدتی کار می‌کند. اما سپس افراد غیر فنی باید کل جریان کار را یاد بگیرند. GitHub برای توسعه نرم‌افزار ساخته شده است و cuando آن را برای مقیاس بزرگ استفاده می‌کنیم، خراب می‌شود. Hexis یک لایه بر روی Git است. هسته آن (نسخه‌بندی، PRها) را حفظ می‌کند و یک رابط کاربری آسان برای غیر توسعه‌دهندگان اضافه می‌کند و مدیریت دسترسی بر اساس فایل را امکان‌پذیر می‌کند (که با GitHub/Gitlab کار نمی‌کند). کاربران در شرکت‌ها می‌توانند به راحتی هر एजنت مورد نظر خود را از طریق یک سرور MCP متصل کنند و مهارت‌ها را استفاده کنند، تغییرات را پیشنهاد دهند و مهارت‌های جدید را ارسال کنند بدون اینکه कभی کار Git را لمس کنند. مدیران دسترسی به زمینه، ابزارها و مهارت‌ها را برای هر فرد، تیم یا एजنت مدیریت می‌کنند."
-          },
-          {
-            "user": "Ali Raza",
-            "text": "زاویه Git-as-source-of-truth برای مناسب است. نسخه‌بندی و بازبینی PRها یک لایه اعتماد برای توسعه‌دهندگان است، بنابراین اضافه کردن مدیریت مهارت‌های एजنت بر روی آن به این معنی است که از سازمان‌ها نمی‌خواهید که یک مدل اعتماد جدید را از ابتدا اتخاذ کنند. من کنجکاوم که چگونه درگیری‌ها را دو تیم نسخه‌های رقیب از یک مهارت را ارسال کنند، آیا از طریق یک جریان بازبینی PR استاندارد یا یک گام مدیریت جداگانه برای آن است؟"
-          },
-          {
-            "user": "Juan Viera Garcia",
-            "text": "زاویه کنترل دسترسی برای من جالب است. من مهارت‌ها را از طریق یک ابزار Skill با دامنه directory روزانه بارگیری می‌کنم و چیزی که مرا اذیت می‌کند، ترتیب حلقه زمانی که یک مهارت با نام مشابه در دو سطح مدیریت وجود دارد (مانند یک مهارت در سطح تیم و یک مهارت در سطح پروژه). آیا Hexis خودکار مهارت‌های خاص‌تر را انتخاب می‌کند یا این یک درگیری است که یک مدیر باید به صورت دستی حل کند؟"
-          },
-          {
-            "user": "Abdullah Javaid",
-            "text": "سلام تیم! واقعاً از آنچه ساخته‌ایم افتخار می‌کنم. بارها و بارها، مردم که با آنها صحبت کرده‌ایم، گفته‌اند که به اشتراک گذاری و اتصال به مهارت‌ها، ابزارها و زمینه‌ها در سازمان‌های خود چقدر difícil است. به طور خاص به دو دلیل: به اشتراک گذاری مهارت‌ها بین همکاران هنگامی که باید فایل‌ها و پوشه‌ها را به اشتراک بگذارید، کند و ناخوشایند است استفاده از GitHub برای ذخیره و توزیع مهارت‌ها یک منحنی یادگیری بزرگ برای کاربران غیر فنی است با انتشار کد منبع کار خود، امیدواریم که اکنون یک راه آسان برای بارگیری، به اشتراک گذاری و بهبود زمینه، مهارت‌ها و ابزارهای تیم خود داشته باشید! می‌خواهم نظر شما را بشنوم"
-          },
-          {
-            "user": "Razvan Ion Radulescu",
-            "text": "این چقدر راحتر می‌کند که एजنت‌هایی را که روی آنها کار می‌کنم، عوض کنم و چقدر راحتر می‌کند که एजنت‌های زمینه برای وظایف مختلف ایجاد کنم! همچنین می‌توانید قبل از اینکه به سراغ میزبانی خود بروید، از نسخه آزمایشی در demo.bevel.software استفاده کنید"
-          }
-        ],
-        "iranEquivalent": {
-          "productName": "مهارت‌سان",
-          "description": "Hexis یک لایه بر روی Git است که به شرکت‌ها امکان مدیریت، بازبینی و کنترل دسترسی به مهارت‌ها، ابزارها و دانش را در یک مکان متمرکز می‌دهد. این محصول با حفظ هسته Git (نسخه‌بندی، PRها) و اضافه کردن یک رابط کاربری تمیز و آسان برای استفاده از مهارت‌ها، پیشنهاد تغییرات و ارسال مهارت‌های جدید، به کاربران و مدیران اجازه می‌دهد تا به راحتی با مهارت‌ها و ابزارها کار کنند.",
-          "marketOpportunity": "در ایران، بسیاری از شرکت‌ها با مشکل مدیریت و به اشتراک گذاری مهارت‌ها و ابزارها مواجه هستند. Hexis می‌تواند به آنها کمک کند تا این مشکل را حل کنند و کارایی خود را دهند. همچنین، Hexis می‌تواند به شرکت‌های ایرانی کمک کند تا در رقابت با شرکت‌های خارجی پیشتاز شوند.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "شرکت‌های ایرانی که با مشکل مدیریت و به اشتراک گذاری مهارت‌ها و ابزارها مواجه هستند",
-          "challenges": [
-            "رقابت با شرکت‌های خارجی",
-            "کمبود تخصص در زمینه مدیریت مهارت‌ها و ابزارها",
-            "مشکل به اشتراک گذاری و مدیریت مهارت‌ها و ابزارها در شرکت‌ها"
-          ],
-          "monetization": [
-            "فروش نرم‌افزار به شرکت‌ها",
-            "ارائه خدمات مشاوره‌ای برای شرکت‌ها"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 75
-        },
-        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nHexis یک لایه بر روی Git است که به شرکت‌ها امکان مدیریت، بازبینی و کنترل دسترسی به مهارت‌ها، ابزارها و دانش را در یک مکان متمرکز می‌دهد. این محصول با حفظ هسته Git (نسخه‌بندی، PRها) و اضافه کردن یک رابط کاربری تمیز و آسان برای استفاده از مهارت‌ها، پیشنهاد تغییرات و ارسال مهارت‌های جدید، به کاربران و مدیران اجازه می‌دهد تا به راحتی با مهارت‌ها و ابزارها کار کنند.\n🔹 معماری و تکنولوژی احتمالی:\nHexis از tecnولوژی‌های Next.js و PostgreSQL استفاده می‌کند. همچنین، از Git برای مدیریت نسخه‌بندی و بازبینی استفاده می‌کند.\n🔹 مدل درآمدی:\nHexis می‌تواند از طریق فروش نرم‌افزار به شرکت‌ها و ارائه خدمات مشاوره‌ای برای شرکت‌ها درآمد خود را تامین کند.\n🔹 نقاط قوت:\n- Hexis به شرکت‌ها کمک می‌کند تا مهارت‌ها و ابزارهای خود را به راحتی به اشتراک بگذارند و مدیریت کنند.\n- Hexis به کاربران غیر فنی اجازه می‌دهد تا بدون نیاز به یادگیری جریان کار Git، مهارت‌ها و ابزارها را استفاده کنند.\n🔹 نقاط ضعف و ریسک‌ها:\n- Hexis ممکن است با مشکل رقابت با شرکت‌های خارجی مواجه شود.\n- Hexis ممکن است با مشکل کمبود تخصص در زمینه مدیریت مهارت‌ها و ابزارها مواجه شود.\n🔹 نکته طلایی برای بازار ایران:\nHexis می‌تواند به شرکت‌های ایرانی کمک کند تا در رقابت با شرکت‌های خارجی پیشتاز شوند و کارایی خود را دهند."
-      },
-      {
-        "id": "ph-today-5",
-        "date": "2026-08-08",
-        "rank": 5,
-        "name": "Toolport",
-        "slug": "toolport",
-        "tagline": "Every tool, one port. One MCP setup for all your AI agents",
-        "description": "A free, open source, local MCP gateway. Set up each server once and every AI agent shares it (Claude, Cursor, VS Code, Codex, and 29 more). Instead of dumping every tool definition into context, it exposes a few meta-tools your agent searches on demand. Benchmarked and graded for correct answers, that's up to 91% fewer tokens at the same task success. Secrets live in your OS keychain, not client configs. Rug-pulls and tool poisoning get flagged, and destructive calls can wait for your approval.",
-        "category": "Open Source • Developer Tools • Artificial Intelligence • GitHub",
-        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • هوش مصنوعی • گیت‌هاب",
-        "url": "https://www.producthunt.com/products/conduit-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/50cb57ef-53db-47bd-a677-54b4760deff4.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/342521e8-1165-401d-b281-30110db4f212.jpeg?auto=format",
-          "https://ph-files.imgix.net/fe010cb6-0bd0-4127-9a54-04d346fd5400.png?auto=format",
-          "https://ph-files.imgix.net/1458026b-63cc-4f1e-967f-f88a9aac14cb.png?auto=format",
-          "https://ph-files.imgix.net/0a2d62bd-4f0a-4f56-a02a-99fc52b52824.png?auto=format",
-          "https://ph-files.imgix.net/03e9c9cb-1607-43f5-b15f-394e625619a3.png?auto=format",
-          "https://ph-files.imgix.net/8a283fe4-8953-4d2b-affa-54f984f8fdec.png?auto=format",
-          "https://ph-files.imgix.net/dfde1003-5914-433c-b49c-269b70167710.png?auto=format",
-          "https://ph-files.imgix.net/17c41ad8-4c2b-411a-8d1f-6c8042e61b97.png?auto=format",
-          "https://ph-files.imgix.net/9957b62d-0f43-4453-99a3-6b7266fa3dfd.png?auto=format"
-        ],
-        "maker": "Tyler",
-        "makerTitle": "Cybersecurity vet turned AI solo builder",
-        "featuredAt": "2026-08-08T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/5CMO6NALORXKZD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "Tyler",
-            "text": "Hey everyone, Tyler here. I built Toolport because I was configuring the same MCP servers over and over. Claude Desktop, Claude Code, Cursor, Codex, VS Code, each one wanted its own JSON file with the same API keys pasted in as plain text. The second problem showed up after the servers were connected. Every MCP server dumps its full tool list into context on every request. Three servers cost me about 24,000 tokens of definitions before I'd asked anything. Toolport sits between your agents and your servers and advertises a handful of small meta-tools instead, so the agent searches for tools when it actually needs them. Benchmarked on a frontier model and graded for correct answers, that works out to up to 91% fewer total tokens at the same task success. On a real 415-tool catalog the definition overhead drops 99.5%. Since a gateway is on the path anyway, I used that position for security. Toolport fingerprints every tool and flags rug-pulls and tool poisoning, marks injection-looking tool output as data rather than instructions, and can pause destructive calls until you approve them from the app. Your agent asks before it drops the table. If you saw the Teams launch back in July, the free app has moved a lot since then. Toolport now speaks the latest MCP spec (2026-07-28) on both sides, while older clients and servers keep working untouched. Code mode lets an agent run a whole tool sequence as one sandboxed server-side script instead of round-tripping every call through the model. Approvals are bound to the exact arguments you saw when you approved them. Client support is up to 33 apps, and there's a headless Docker gateway if you don't want the desktop app at all. It's MIT licensed and fully local, nothing routes through my servers. If you try it, tell me which client or server you'd want supported next. That list drives the roadmap."
-          },
-          {
-            "user": "Abdullah Javaid",
-            "text": "This is the exact problem I'm working around right now in Claude Code, dozens of MCP servers deferred so schemas only load into context when a tool actually gets called instead of all upfront. The tradeoff I haven't seen anyone measure: does the search call itself become a tax on turns that end up needing 8 or 9 different tools, or does the savings hold even then?"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "Toolport یک درگاه آزاد و منبع باز است که به شما امکان می‌دهد همه ابزارهای خود را در یک مکان مدیریت کنید. این محصول به شما این امکان را می‌دهد که هر سرور را فقط یک بار تنظیم کنید و همه ابزارهای هوش مصنوعی شما از آن استفاده کنند. Toolport به جای بارگذاری تمام تعریف ابزارها در متن، چند ابزار متا را در اختیار شما قرار می‌دهد که می‌توانید به آنها دسترسی داشته باشید. این محصول همچنین از امنیت بالایی برخوردار است و اسرار شما را در زنجیره کلیدهای سیستم عامل شما ذخیره می‌کند، نه در پیکربندی مشتری. Toolport همچنین می‌تواند درخواست‌های مخرب را تا زمان تایید شما به تاخیر اندازد. این محصول بر روی یک مدل مرزی بنچمارک شده است و برای پاسخ‌های صحیح ارزیابی شده است، که به طور میانگین ۹۱ درصد کاهش در تعداد توکن‌ها را در اختیار شما قرار می‌دهد.",
-        "faComments": [
-          {
-            "user": "Tyler",
-            "text": "من Toolport را ساخته‌ام زیرا مجبور بودم چندین بار سرورهای MCP را با همان کلیدهای API تنظیم کنم. Toolport بین ابزارهای شما و سرورهای شما قرار می‌گیرد و به جای بارگذاری تمام تعریف ابزارها، چند ابزار متا را در اختیار شما قرار می‌دهد."
-          },
-          {
-            "user": "Abdullah Javaid",
-            "text": "این مشکل دقیقاً مشکلی است که من در حال حاضر در Claude Code با آن مواجه هستم، چندین سرور MCP را به تاخیر انداخته‌ام تا فقط ابزار واقعاً فراخوانی شود، اسکیماها در متن بارگذاری شوند. معامله‌ای که من تاکنون ندیده‌ام کسی آن را اندازه‌گیری کند: آیا خود درخواست جستجو به عنوان یک مالیات بر دورهای که در نهایت به ۸ یا ۹ ابزار مختلف نیاز دارند، تبدیل می‌شود یا آیا پس‌انداز حتی در آن نیز حفظ می‌شود؟"
-          }
-        ],
-        "iranEquivalent": {
-          "productName": "ابزارپورت",
-          "description": "ابزارپورت یک درگاه آزاد و منبع باز است که به شما امکان می‌دهد همه ابزارهای خود را در یک مکان مدیریت کنید. این محصول به شما این امکان را می‌دهد که هر سرور را فقط یک بار تنظیم کنید و همه ابزارهای هوش مصنوعی شما از آن استفاده کنند. ابزارپورت به جای بارگذاری تمام تعریف ابزارها در متن، چند ابزار متا را در اختیار شما قرار می‌دهد که می‌توانید به آنها دسترسی داشته باشید.",
-          "marketOpportunity": "فرصت بازار ایران برای ابزارپورت بسیار خوب است، زیرا بسیاری از شرکت‌ها و سازمان‌ها به دنبال راه‌هایی برای مدیریت ابزارهای خود هستند. ابزارپورت می‌تواند به آنها کمک کند تا زمان و منابع خود را به طور موثرتری مدیریت کنند. همچنین، ابزارپورت می‌تواند به عنوان یک ابزار امنیتی استفاده شود تا از اسرار شرکت‌ها محافظت کند.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "شرکت‌ها و سازمان‌های بزرگ",
-          "challenges": [
-            "رقابت با محصولات مشابه",
-            "نیاز به آموزش و پشتیبانی",
-            "امنیت و حفاظت از داده‌ها"
-          ],
-          "monetization": [
-            "فروش محصول",
-            "پشتیبانی و آموزش"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 80
-        },
-        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nToolport یک درگاه آزاد و منبع باز است که به شما امکان می‌دهد همه ابزارهای خود را در یک مکان مدیریت کنید. این محصول به شما این امکان را می‌دهد که هر سرور را فقط یک بار تنظیم کنید و همه ابزارهای هوش مصنوعی شما از آن استفاده کنند.\n🔹 معماری و تکنولوژی احتمالی:\nToolport بر روی یک مدل مرزی بنچمارک شده است و برای پاسخ‌های صحیح ارزیابی شده است، که به طور میانگین ۹۱ درصد کاهش در تعداد توکن‌ها را در اختیار شما قرار می‌دهد.\n🔹 مدل درآمدی:\nفروش محصول و پشتیبانی و آموزش.\n🔹 نقاط قوت:\n- مدیریت ابزارها در یک مکان\n- امنیت و حفاظت از داده‌ها\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با محصولات مشابه\n- نیاز به آموزش و پشتیبانی\n🔹 نکته طلایی برای بازار ایران:\nابزارپورت می‌تواند به شرکت‌ها و سازمان‌های ایرانی کمک کند تا زمان و منابع خود را به طور موثرتری مدیریت کنند و از اسرار خود محافظت کنند."
-      },
-      {
-        "id": "ph-today-1",
+        "id": "ph-today-9",
         "date": "2026-08-12",
-        "rank": 1,
-        "name": "Dograh",
-        "slug": "dograh-3",
-        "tagline": "The open source VAPI alternative",
-        "description": "Closed voice platforms make you rent your own agents. Dograh is completely open source- nothing is gated. Visual flow builder, add your model key across 30+ integrations or use local models, telephony, human transfer, and advanced QA & monitoring - all free to self-host in one command. Also connect your claude code with MCP to build voice agents for a use case or call recordings.",
-        "category": "Open Source • Developer Tools • GitHub • Audio",
-        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • گیت‌هاب • صدا",
-        "url": "https://www.producthunt.com/products/dograh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/eab1a163-fbfe-4b8b-9356-f94e45feca98.png?auto=format",
+        "rank": 9,
+        "name": "Click",
+        "slug": "click-7",
+        "tagline": "Live research context for ChatGPT and Claude",
+        "description": "Click is an MCP that provides extensive research connectors to give external context that the built-in web search misses. It provides live context from professional & social platforms, marketplaces, financials, and more. A simple 1-min installation of the MCP in ChatGPT or Claude enables you to do more inside chat.",
+        "category": "Productivity • Artificial Intelligence",
+        "categoryFa": "بهره‌وری • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/4fa686f4-dc04-4fc5-a48f-4b68fcf9a153.png?auto=format",
         "screenshots": [
-          "https://ph-files.imgix.net/3e786432-ae63-4c7f-8096-185d60bbfd2b.jpeg?auto=format",
-          "https://ph-files.imgix.net/59430999-5403-4040-8ed8-8fa94fc30d8c.png?auto=format",
-          "https://ph-files.imgix.net/76041dbf-66a8-4ba3-94bb-b2aeaf583dd8.png?auto=format",
-          "https://ph-files.imgix.net/36c02ed5-4d3a-44ae-9430-364a932da611.jpeg?auto=format",
-          "https://ph-files.imgix.net/d8bb4e32-54cf-4888-8f21-275a0e81b179.jpeg?auto=format",
-          "https://ph-files.imgix.net/338e2233-6ec3-4ff6-bbf6-f8bb776bb98f.png?auto=format",
-          "https://ph-files.imgix.net/07016089-62c3-4b0d-8a99-5f208c71d4f2.png?auto=format"
+          "https://ph-files.imgix.net/fb011c6b-b23e-4306-a5a8-381e3b95f749.png?auto=format",
+          "https://ph-files.imgix.net/f93cdb10-be6c-47fe-8e58-4bc48136ed59.png?auto=format",
+          "https://ph-files.imgix.net/2f23f53d-c136-4079-8dd4-cb57bb8f125f.png?auto=format",
+          "https://ph-files.imgix.net/94e71bd5-af05-4b17-bafb-5b2faa25eb52.jpeg?auto=format"
         ],
-        "maker": "Pritesh Kumar",
-        "makerTitle": "Open Source Voice Agent Platform- Dograh",
+        "maker": "Aditya Asgaonkar",
+        "makerTitle": "Click | prev. Ethereum Foundation",
         "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "votes": 102,
+        "websiteUrl": "https://www.producthunt.com/r/LPBGWEQU47MYOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh.Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone.Here's the problem we kept hitting. AI is getting locked up. Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI.So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack.That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it.Inside you still get everything the closed platforms sell:Visual flow builder - no glue codeReal time speech to speech - 70+ languages with mid-call switchingTelephony + warm handoff to a humanCall recordings with automatic QAFree REST APIWhy that matters:The payoff is ownership - your only cost is your model billYour data never leaves your servers - compliance gets simpleNo glue code - you ship in hoursIt fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders.We are a small team. A star on GitHub or honest feedback here does more for us than you would think.Install it, break it, tell me what's missing. I'm here all day.But first, try a Dograh voice agent now."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Can I get free credits ?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is a great direction for voice AI!Do you have better support for multi-step conversations as well?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is really nice. Do we need to provide custom data for training or is it ready from the go?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "What do you lose when you move to speech to speech?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "It is exciting to see voice AI move toward open source. As these models scale, how are you approaching the challenge of real-time sentiment analysis and behavioral tracking for agents during live calls, and what metrics do you prioritize to measure conversational quality without compromising user privacy?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "At floworks, we tried a few voice agent platforms before landing on Dograh, and the self hosted option made it a no brainer. Feels like it's built by people who actually build voice agents themselves. Excited to see where this goes."
+            "text": "Hi, I'm Aditya! Click is largely motivated by a change in my own behavior. Codex & Claude are amazing products. I live inside their surface now - using it more than my browser. It feels like home, to the point that I’m annoyed to have to leave. Most often, I’m stepping outside to do external-facing tasks, like researching my leads on LinkedIn or comparing flight options. I want my agents to do these tasks as well. Currently, those can’t be completed because their gateway to the world (in-built web search) has limited access. Often the agent also asks to use the browser with a logged-in session, which I’m uncomfortable with. So, I built the connector layer that I wish existed. My vision with Click is to provide useful that meet users right inside the chat. I'm building out one trusted service at a time, starting with research."
           }
         ],
-        "makerTwitter": "",
-        "faDescription": "پلتفرم Dograh یک جایگزین منبع باز برای VAPI است. این پلتفرم به کاربران اجازه می‌دهد تا بدون هیچ محدودیتی، از ویژگی‌های پیشرفته‌ای مانند سازنده جریان بصری، تلفنی، انتقال به انسان و نظارت بر کیفیت استفاده کنند. همچنین، کاربران می‌توانند کلید مدل خود را در بین ۲۰ موجود اضافه کنند یا از مدل‌های محلی استفاده کنند. این پلتفرم به صورت منبع باز است و هیچ cosa گیت شده‌ای ندارد. کاربران می‌توانند آن را با یک فرمان در سرور خود نصب کنند و از تمام ویژگی‌ها به صورت رایگان استفاده کنند. همچنین، کاربران می‌توانند کد Claude را با MCP متصل کنند تا بتوانند نمایندگان صوتی را برای یک مورد استفاده یا ضبط صدا بسازند. این پلتفرم برای توسعه دهندگان و آژانس‌هایی که نمایندگان را برای مشتریان یا استفاده داخلی خود می‌سازند، و همچنین برای تیم‌های با بار انطباق‌پذیری بالا در بخش‌های بهداشت، مالی و جمع‌آوری، مناسب است. استفاده‌های معمول از این پلتفرم شامل رزرو قرار ملاقات، صلاحیت سنجی منافع، خطوط پشتیبانی و یادآوری پرداخت‌ها است.",
-        "faComments": [],
-        "iranEquivalent": {
-          "productName": "صداپرداز",
-          "description": "صداپرداز یک پلتفرم منبع باز ایرانی برای ساخت نمایندگان هوش مصنوعی صوتی است که به کاربران اجازه می‌دهد تا از ویژگی‌های پیشرفته‌ای مانند سازنده جریان بصری، تلفنی، انتقال به انسان و نظارت بر کیفیت استفاده کنند. این پلتفرم به صورت منبع باز است و هیچ cosa گیت شده‌ای ندارد. کاربران می‌توانند آن را با یک فرمان در سرور خود نصب کنند و از تمام ویژگی‌ها به صورت رایگان استفاده کنند.",
-          "marketOpportunity": "فرصت بازار ایران برای پلتفرم‌های هوش مصنوعی صوتی بسیار زیاد است، زیرا بسیاری از شرکت‌ها و سازمان‌ها به دنبال راه حل‌های منبع باز و انعطاف‌پذیر برای خود هستند. با توجه به این که ایران یک بازار در حال رشد است، پلتفرم‌های هوش مصنوعی صوتی می‌توانند به عنوان یک راه حل برای بسیاری از صنایع مختلف عمل کنند.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "توسعه دهندگان، آژانس‌ها و تیم‌های با بار انطباق‌پذیری بالا در بخش‌های بهداشت، مالی و جمع‌آوری",
-          "challenges": [
-            "رقابت با پلتفرم‌های خارجی",
-            "نیاز به آموزش و پشتیبانی",
-            "مشکل امنیت و حریم خصوصی"
-          ],
-          "monetization": [
-            "پشتیبانی و آموزش",
-            "فروش مدل‌های پیشرفته",
-            "خدمات مشاوره‌ای"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 75
-        },
-        "aiReview": ""
+        "makerTwitter": ""
       },
       {
-        "id": "ph-today-2",
+        "id": "ph-today-10",
         "date": "2026-08-12",
-        "rank": 2,
-        "name": "Grok Bot",
-        "slug": "grok-bot",
-        "tagline": "AI teammates that you can give real work to",
-        "description": "Introducing Grok Bot: AI teammates you can give real work to. Bots sign into your tools, use them like you do, and come back with finished work. Message them like a teammate. They keep context, multitask, and learn your working style on their own cloud computer. Ask Bots to run outbound overnight, code expenses from Gmail, schedule a recruiting onsite, rebalance paid ads, or ship a bug pack. They only come back when something needs your approval.",
-        "category": "Productivity • Task Management • Artificial Intelligence",
-        "categoryFa": "بهره‌وری • مدیریت وظایف • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
+        "rank": 10,
+        "name": "Swipe",
+        "slug": "swipe-b634924f-c4ba-4d96-9c6c-530b95ce8b34",
+        "tagline": "Swipe right on your next customer ",
+        "description": "Type who you sell to. Swipe deals a ranked deck of real companies. Keep the ones worth an email, skip the rest, export to CSV. No signup, no credits, no scraped inboxes.",
+        "category": "Productivity • Sales • Marketing",
+        "categoryFa": "بهره‌وری • فروش • بازاریابی",
+        "url": "https://www.producthunt.com/products/swipe-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/d32d7d6f-0ea2-4d15-b7a0-2b32e9aa1274.png?auto=format",
         "screenshots": [
-          "https://ph-files.imgix.net/3d40497c-8d0e-45c1-a28c-d3f198c06b33.png?auto=format",
-          "https://ph-files.imgix.net/2253bde2-836e-4703-a3d7-2b6ce98a2c66.png?auto=format",
-          "https://ph-files.imgix.net/e53fd891-fd01-4549-82eb-9709c348573a.png?auto=format",
-          "https://ph-files.imgix.net/a4c906af-5257-424c-9920-580d2e263554.png?auto=format",
-          "https://ph-files.imgix.net/bee2454a-11b6-412b-b1e6-7b139057b1c4.jpeg?auto=format"
+          "https://ph-files.imgix.net/8c0a7e65-70a7-4c7d-a0eb-7eba8053afd0.png?auto=format",
+          "https://ph-files.imgix.net/783e26e9-9eb1-4bd0-ad9c-c98b7944e79f.png?auto=format",
+          "https://ph-files.imgix.net/e543f67f-a3b9-4992-8b28-76db65b1cbb4.png?auto=format",
+          "https://ph-files.imgix.net/5b7cfaba-59b7-44e5-a6e7-7a5638644175.png?auto=format",
+          "https://ph-files.imgix.net/382443bd-73b0-4d37-8b6c-ffc08d2c4135.png?auto=format",
+          "https://ph-files.imgix.net/e47d0ff4-0e47-47f7-825d-86a7b7050eb6.png?auto=format",
+          "https://ph-files.imgix.net/c40da5d0-4714-4245-b0cc-84711b37917b.jpeg?auto=format"
         ],
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/QE45KIR5XX72OH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "votes": 99,
+        "websiteUrl": "https://www.producthunt.com/r/GQEYPG4ZF2HMVQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Thank you PH community! We're very excited to share Grok Bot with you all. Our team would love to hear any feedback or questions you have for us. We'll be around throughout the day!"
+            "text": "Hey Product Hunt 👋 Building a prospect list is the worst part of selling. Open a directory, filter, copy a name into a sheet, go read what the company actually does, repeat two hundred times. So: type who you sell to, get a deck of real companies, keep the ones worth an email, export the list. One deliberate choice: no harvested emails. There are personal addresses sitting all over the sources we pulled from and we left every one out. You get the company and a link to go find the right person yourself. Free, no signup, open source. Swipe was built with Agently, which is what we actually make: a company brain that does the busywork. Shipping something useful felt like a better demo than another landing page. What ICP did you type, and were the first ten cards any good?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Very nice way to filter leads! Can I import my own list ?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Nice concept! So basically, it is Tinder for salespeople? Congrats @omarships 🤗"
           }
         ],
-        "makerTwitter": "",
-        "faDescription": "با معرفی Grok Bot، می‌توانید به تیمی از همکاران هوش مصنوعی دسترسی داشته باشید که می‌توانید به آنها کارهای واقعی بسپارید. این ربات‌ها به ابزارهای شما ورود می‌کنند، مانند شما از آنها استفاده می‌کنند و با کارهای تمام شده برمی‌گردند. می‌توانید با آنها مانند یک همکار ارتباط برقرار کنید. آنها با حفظ زمینه، چند وظیفه را انجام می‌دهند و سبک کار شما را به طور خودکار روی کامپیوتر ابری خود یادمی‌گیرند. از ربات‌ها بخواهید که کارهای خروجی را در طول شب انجام دهند، هزینه‌ها را از جی‌میل کدگذاری کنند، یک مصاحبه استخدامی را برنامه‌ریزی کنند، تبلیغات پرداخت شده را متعادل کنند یا یک بسته باگ را ارسال کنند. آنها فقط زمانی برمی‌گردند که چیزی نیاز به تأیید شما دارد. این ربات‌ها می‌توانند به طور مؤثر به افزایش بهره‌وری و کارایی تیم شما کمک کنند. با استفاده از Grok Bot، می‌توانید زمان خود را به کارهای مهم‌تر اختصاص دهید و ربات‌ها را برای کارهای تکراری و زمان‌بر استفاده کنید.",
-        "faComments": [],
-        "iranEquivalent": {
-          "productName": "همکار هوشمند",
-          "description": "همکار هوشمند یک ابزار انقلابی است که به شما امکان می‌دهد تا به تیمی از همکاران هوش مصنوعی دسترسی داشته باشید که می‌توانید به آنها کارهای واقعی بسپارید. این ربات‌ها می‌توانند به ابزارهای شما ورود کنند، مانند شما از آنها استفاده کنند و با کارهای تمام شده برمی‌گردند. همکار هوشمند می‌تواند به افزایش بهره‌وری و کارایی تیم شما کمک کند.",
-          "marketOpportunity": "بازار ایران در حال حاضر نیاز به ابزارهای هوشمند و خودکار دارد که بتواند به افزایش بهره‌وری و کارایی کمک کند. همکار هوشمند می‌تواند به عنوان یک ابزار نوآور در این بازار معرفی شود. با توجه به رشد روزافزون استارتاپ‌ها و شرکت‌های کوچک و متوسط در ایران، نیاز به ابزارهای هوشمند و خودکار بیشتر احساس می‌شود.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "استارتاپ‌ها و شرکت‌های کوچک و متوسط",
-          "challenges": [
-            "رقابت با ابزارهای مشابه",
-            "نیاز به آموزش و پشتیبانی",
-            "حفظ امنیت و حریم خصوصی داده‌ها"
-          ],
-          "monetization": [
-            "عضویت ماهیانه",
-            "پرداخت به ازای هر استفاده"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 75
-        },
-        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nGrok Bot یک راه حل نوآور برای افزایش بهره‌وری و کارایی تیم‌ها است. با استفاده از این ربات‌ها، می‌توانید زمان خود را به کارهای مهم‌تر اختصاص دهید و ربات‌ها را برای کارهای تکراری و زمان‌بر استفاده کنید.\n🔹 معماری و تکنولوژی احتمالی:\nGrok Bot از تکنولوژی‌های نوآور مانند Next.js و PostgreSQL استفاده می‌کند. این ابزار می‌تواند به عنوان یک سیستم خودگردان و هوشمند معرفی شود.\n🔹 مدل درآمدی:\nGrok Bot می‌تواند از طریق عضویت ماهیانه یا پرداخت به ازای هر استفاده درآمد خود را تامین کند.\n🔹 نقاط قوت:\n- افزایش بهره‌وری و کارایی تیم‌ها\n- امکان استفاده از ربات‌ها برای کارهای تکراری و زمان‌بر\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای مشابه\n- نیاز به آموزش و پشتیبانی\n🔹 نکته طلایی برای بازار ایران:\nGrok Bot می‌تواند به عنوان یک ابزار نوآور در بازار ایران معرفی شود و به افزایش بهره‌وری و کارایی تیم‌ها کمک کند."
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-08-12",
-        "rank": 3,
-        "name": "Lettertrace",
-        "slug": "lettertrace-2",
-        "tagline": "Track your AI visibility for free (using your own API keys!)",
-        "description": "Lettertrace measures how often Claude, ChatGPT, and Gemini mention your company. But there's a catch: it's free, developer-first, bring-your-own-key, and open source.",
-        "category": "Open Source • Analytics • Marketing • GitHub",
-        "categoryFa": "متن‌باز • تحلیل داده • بازاریابی • گیت‌هاب",
-        "url": "https://www.producthunt.com/products/lettertrace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/e6d1a93f-5c42-443e-92c6-6e0853fd5cc0.jpeg?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/ebbabf40-d179-47e3-b0d3-25f5384ba709.png?auto=format",
-          "https://ph-files.imgix.net/1fb785ed-7e88-47fe-9acb-c75f45ce41c8.png?auto=format",
-          "https://ph-files.imgix.net/31614ea3-37c0-4468-9ebd-bbc183e8588f.png?auto=format",
-          "https://ph-files.imgix.net/bcf5ac11-5396-43c6-aca6-08de1ba3722a.png?auto=format",
-          "https://ph-files.imgix.net/c85aac4e-569f-43b1-a814-ac3fb00af58b.png?auto=format",
-          "https://ph-files.imgix.net/8b55c452-18cc-4881-954c-09e1386a8a1c.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/PERZM7L6ETGORE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt!Mathew here. I'm the founder of The Letter Company.Today, we're debuting one of my favorite things that we've ever built. You've likely heard of AEO. Or GEO. Or AI Search. It's a popular space rife with tools. But there's been a big problem: it's pay-to-play. Even to find out how you're doing on AI Search, you need to fork over something crazy like $250/mo.And I beg.... for what? AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls.No more $250/mo fees. Now, it's free. Lettertrace is a BYOK telemetry tool for measuring how you're doing on AI search. It's open source. MIT license. Free even on our hosted version. There are no paid tiers. None. Nada. You'll never put down a credit card. We're moving beyond that. It's time we get telemetry on our GEO, just like we had on our SEO, without having to pay for it.Lettertrace is super easy to use. Like SO easy. Why? Cause it's got an amazing CLI. Just install it, give Claude Code or Codex access, and your coding agent will go to town. It'll add the topics your buyers actually ask about (\"best CRM for startups\"). It'll generate realistic prompt variations and run them against Claude, ChatGPT, Gemini, and other major LLMs. It'll track visibility, share of voice, prominence, and sentiment.npm install lettertrace. claude code. prompt. That's it. Or, if you're non-technical, sign-up traditionally. And it's actually open source. Not open core, none of those gimmicks. A clean MIT license. Bring your own key. You pay the model providers directly, no markup on top. You'll spend ... maybe $3? If you're just paying to measure AI search, you're getting ripped off and we're putting an end to that.Three things I'd genuinely like feedback on. First, which answer engines matter enough to add next. Second, whether the generated prompt variations read like questions real people ask, because that's the piece I'm least sure about. Third, did the video effectively explain our purpose as a company?Code: github.com/letterstory/lettertrace"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats! Tracking how you show up inside LLM chats is quickly becoming as important as ranking on Google was, and most people have zero visibility into that. Respect for making it open source."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Looks good! Congratulations team"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I really like the idea of making AI search visibility more accessible, especially with the open-source and BYOK approach.The fact that there are no paid tiers or extra markup is a refreshing change, and the CLI sounds great for developers who want to get started quickly.Congrats on the launch! 🎉"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is cool! There are so many metrics out there used to measure growth or market penetration, this will be helpful in filling the AI marketing analytics gap"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "What will be the monetisation model then?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I am so tired of share of voice tools charging money just for me to see if they work. I love that this is BYOK. I dont know why somwone didnt do this sooner. Kudos to the Letter Company. Appreciate that the video explains the business model too. Super smart"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats, Matthew! This feels like one of those tools you don’t realize you needed until you see it. Curious to see how Lettertrace changes the way teams track AI visibility. 🚀"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "Lettertrace ابزاری است که به شما امکان می‌دهد تا روندهایmention شدن شرکت شما در Claude، ChatGPT و Gemini را رصد کنید. این ابزار رایگان است و بر اساس رویکرد developer-first و bring-your-own-key طراحی شده است. همچنین به صورت منبع باز در دسترس است. با استفاده از Lettertrace می‌توانید به راحتی متوجه شوید که شرکت شما چگونه در نتایج جستجوی هوش مصنوعی ظاهر می‌شود و چه میزان از بازار را به خود اختصاص داده است. این ابزار برای توسعه دهندگان بسیار ساده است و با استفاده از خط فرمان (CLI) می‌توانید آن را به راحتی نصب و پیکربندی کنید. همچنین برای کاربران غیر فنی، یک روش ثبت نام سنتی در دسترس است.",
-        "faComments": [],
-        "iranEquivalent": {
-          "productName": "پیغام رونده",
-          "description": "پیغام رونده یک ابزار رایگان و منبع باز است که به شما امکان می‌دهد تا روندهایmention شدن شرکت خود را در موتورهای جستجوی هوش مصنوعی رصد کنید. این ابزار بر اساس رویکرد developer-first و bring-your-own-key طراحی شده است و برای توسعه دهندگان و کاربران غیر فنی در دسترس است. پیغام رونده به شما کمک می‌کند تا به راحتی متوجه شوید که شرکت شما چگونه در نتایج جستجوی هوش مصنوعی ظاهر می‌شود و چه میزان از بازار را به خود اختصاص داده است.",
-          "marketOpportunity": "در ایران، با توجه به رشد روزافزون استفاده از فناوری‌های هوش مصنوعی، ابزارهایی مانند پیغام رونده می‌توانند فرصت‌های زیادی را برای شرکت‌ها و برندها فراهم کنند. با استفاده از این ابزار، شرکت‌ها می‌توانند به راحتی روندهایmention شدن خود را رصد کنند و استراتژی‌های بازاریابی خود را بر اساس آن تنظیم کنند. همچنین، با توجه به این که این ابزار منبع باز است، توسعه دهندگان ایرانی می‌توانند آن را سفارشی کنند و برای نیازهای خود استفاده کنند.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "شرکت‌ها و برندهای ایرانی که می‌خواهند در نتایج جستجوی هوش مصنوعی ظاهر شوند و روندهایmention شدن خود را رصد کنند.",
-          "challenges": [
-            "رقابت با ابزارهای مشابه",
-            "سفارشی کردن ابزار برای نیازهای شرکت‌های ایرانی",
-            "ارائه خدمات پشتیبانی و آموزش به کاربران"
-          ],
-          "monetization": [
-            "ارائه خدمات پشتیبانی و آموزش",
-            "سفارشی کردن ابزار برای شرکت‌های بزرگ"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 80
-        },
-        "aiReview": ""
-      },
-      {
-        "id": "ph-today-4",
-        "date": "2026-08-12",
-        "rank": 4,
-        "name": "Unsloth Desktop",
-        "slug": "unsloth-desktop",
-        "tagline": "Run and train AI models locally on your desktop",
-        "description": "Unsloth Desktop is an open-source app to run and train AI models locally. Run LLMs, image/video diffusion, and audio. Connect agents like Claude Code or Codex to your local GPU with one command, and fine-tune models with no-code workflows.",
-        "category": "Open Source • Artificial Intelligence • GitHub • Development",
-        "categoryFa": "متن‌باز • هوش مصنوعی • گیت‌هاب • Development",
-        "url": "https://www.producthunt.com/products/unsloth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/cf1b2a70-e1d9-43f3-857c-350433c6e28b.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/eca600ff-cf8f-4a7b-ab7f-3da948d306b3.png?auto=format",
-          "https://ph-files.imgix.net/6b6c9817-eb6a-43b1-80b5-66bb6782c7b3.png?auto=format",
-          "https://ph-files.imgix.net/5b76776b-0d20-4eb8-9359-b4a3d95ad164.png?auto=format",
-          "https://ph-files.imgix.net/2fb67b09-1559-4587-9942-ea3f35936234.png?auto=format",
-          "https://ph-files.imgix.net/430faaf1-ea09-48d5-b0c0-8f496d07f701.png?auto=format",
-          "https://ph-files.imgix.net/9ab6b435-db80-4014-a421-21813b7d40ec.png?auto=format",
-          "https://ph-files.imgix.net/162693cd-7098-40b6-a489-01571a64f955.png?auto=format",
-          "https://ph-files.imgix.net/f041caaa-465f-46c2-918a-bfe28456a8a2.png?auto=format",
-          "https://ph-files.imgix.net/397c4c2d-4817-420f-bff0-27793feabd85.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/V5SG67QSMWW4I2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hi everyone!Always a big fan of @Unsloth — from the original codebase to the web version, it has kept getting easier to actually use. Desktop is the most complete version of what they’re building.It wraps everything into a native Mac, Windows, and Linux app. You can run and train LLMs, image/video diffusion, and audio models entirely offline without touching a terminal.This is probably the first Unsloth release I could recommend to someone who likes local models but doesn’t want local AI to become a weekend setup project. Pick a model and quantization, download it, and you’re in.It also makes those local models useful outside the app. unsloth start lets the agent tools you already use call them directly.Free, open source, and finally a proper desktop app 🦥"
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "Unsloth Desktop یک اپلیکیشن منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بدون نیاز به اتصال به اینترنت اجرا و آموزش دهید. این اپلیکیشن می‌تواند مدل‌های LLM، دیفوزیون تصویر و ویدیو و صدا را اجرا کند و به شما امکان می‌دهد مدل‌ها را با استفاده از ابزارهای بدون کد تنظیم کنید. Unsloth Desktop همچنین به شما امکان می‌دهد مدل‌های محلی را به ابزارهای موجود مانند Claude Code یا Codex متصل کنید و از آنها استفاده کنید. این اپلیکیشن برای سیستم عامل‌های مک، ویندوز و لینوکس در دسترس است و به شما امکان می‌دهد مدل‌های هوش مصنوعی را به صورت آفلاین و بدون نیاز به دانش تخصصی اجرا کنید.",
-        "faComments": [],
-        "iranEquivalent": {
-          "productName": "هوش مصنوعی دسکتاپ",
-          "description": "هوش مصنوعی دسکتاپ یک اپلیکیشن منبع باز است که به شما امکان می‌دهد مدل‌های هوش مصنوعی را محلی و بدون نیاز به اتصال به اینترنت اجرا و آموزش دهید. این اپلیکیشن می‌تواند مدل‌های LLM، دیفوزیون تصویر و ویدیو و صدا را اجرا کند و به شما امکان می‌دهد مدل‌ها را با استفاده از ابزارهای بدون کد تنظیم کنید.",
-          "marketOpportunity": "بازار ایران دارای پتانسیل زیادی برای توسعه اپلیکیشن‌های هوش مصنوعی است. با توجه به محدودیت‌های موجود در زمینه دسترسی به اینترنت، اپلیکیشن‌های محلی می‌توانند به عنوان یک راه حل مناسب برای بسیاری از کاربران ایرانی باشند. همچنین، با توجه به رشد روزافزون استارت‌آپ‌های ایرانی، این اپلیکیشن می‌تواند به عنوان یک ابزار مفید برای آنها باشد.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "استارت‌آپ‌ها و شرکت‌های ایرانی که به دنبال توسعه اپلیکیشن‌های هوش مصنوعی هستند",
-          "challenges": [
-            "رقابت با اپلیکیشن‌های بین‌المللی",
-            "نیاز به دانش تخصصی برای استفاده از اپلیکیشن",
-            "محدودیت‌های موجود در زمینه دسترسی به اینترنت"
-          ],
-          "monetization": [
-            "فروش اپلیکیشن به عنوان یک ابزار برای استارت‌آپ‌ها و شرکت‌های ایرانی",
-            "ارائه خدمات مشاوره‌ای برای توسعه اپلیکیشن‌های هوش مصنوعی"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 75
-        },
-        "aiReview": ""
-      },
-      {
-        "id": "ph-today-5",
-        "date": "2026-08-12",
-        "rank": 5,
-        "name": "BearDrive",
-        "slug": "beardrive",
-        "tagline": " The open-source shared folder for your team's AI agents",
-        "description": "Your AI agents create real files on your laptop: research, plans, decks, data. BearDrive syncs them to your team with versions, authorship, and links, so teammates and their agents can reuse them. No new workspace to adopt. Your filesystem is the shared surface.",
-        "category": "Productivity • Developer Tools • Artificial Intelligence • GitHub",
-        "categoryFa": "بهره‌وری • ابزار توسعه‌دهندگان • هوش مصنوعی • گیت‌هاب",
-        "url": "https://www.producthunt.com/products/beardrive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/bb18cb62-29d6-4b4f-b564-41b79fa8f4b6.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/a6dcda96-fb00-4db8-a639-cab79250cdff.png?auto=format",
-          "https://ph-files.imgix.net/0e988f1f-5415-4f53-9c30-a9a3d270c508.png?auto=format",
-          "https://ph-files.imgix.net/1495e8a2-3edc-4703-8ecd-18502834fd79.png?auto=format",
-          "https://ph-files.imgix.net/7007b8d6-3cd7-4970-9aa2-19fab23dd048.png?auto=format",
-          "https://ph-files.imgix.net/650c2921-1c12-4992-8dd1-f01528ff3fef.png?auto=format",
-          "https://ph-files.imgix.net/b12d15a7-72de-4f3c-8bab-21e57f641ae2.png?auto=format",
-          "https://ph-files.imgix.net/802a4706-1ce5-48f0-a5a4-34f21a7ca11e.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 0,
-        "websiteUrl": "https://www.producthunt.com/r/M5MZKVAGCTAZLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt, I'm Snow, founder of Runbear. Here's the moment that made us build BearDrive: everyone on our team uses Claude Code daily. Each of us had an agent producing genuinely good work: competitive research, launch plans, analytics reports, decks. And every one of those files lived and died on one person's laptop. My co-worker would re-research something my agent had already figured out, because neither he nor his agent had any way to know the file existed. The obvious fixes all failed us. Pasting into Notion was a manual chore nobody kept up. Git is wrong for research and ops artifacts, and non-engineers won't touch it. Dropbox syncs bytes but tells you nothing about who made what, when, or whether it's still current. So we built the thing we wanted: a shared folder that is actually built for how agent teams work. - Your agents keep working where they already work: your local filesystem, any file format, any tool. - BearDrive syncs that folder to your team in seconds, with full change history: who, when, from which device. - Every file gets a link you can drop in Slack, and a web view teammates can read without installing anything. - Other people's agents read from the same folder, so context moves between agents without a human re-explaining it. We run our whole company on it. Our strategy wiki, sales collateral, and research sync across the CEO, marketing, dev, and support projects through BearDrive, and each team's agents read and write it every day. This launch was planned in it. What it's not: it's not an agent memory system and not another workspace to migrate into. It's your files, made team-owned. I'd love brutal feedback on one question in particular: when your teammate's agent produces something useful, how does it reach you today? That answer shapes what we build next."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Disclosure: I'm a friend of Snow's. That said, the framing here is sharp — \"your filesystem is the shared surface\" is a much better bet than asking teams to migrate into yet another workspace. The versioning + authorship layer is what makes it more than a sync tool. Congrats on the launch!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Regarding your question, how teammate’s output reach me today: through Notion. Agents write there via mcp, the team already lives there, and it works. What’s the specific reasons to migrate?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Having a shared folder for each customer has made working together so much easier for our team. So excited that we got to build this together! Thank you so much for your support! 🐻🚀"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "So happy this is finally out 🎉 It's already changed how our team works."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Maker here. Really proud of the team for bringing BearDrive to life🔥AI agents are having their Dropbox moment!Our agents can produce dozens of HTML pages and PDFs in a day: quick dashboards, analysis reports, launch docs.Creating useful files is easy now.Finding them again is not.A week later, I know the report exists. I just don’t know whether it’s on someone’s laptop, attached in Slack, or buried under a filename nobody remembers.And when I do find it, I’m not always sure it’s the latest version.That’s the Dropbox moment: not another place to dump files, but a way to stop agent-made work from feeling scattered and disposable.The part I care about most is the handoff. One agent creates something, and another teammate’s agent can actually find it and build on it later.When an agent creates a useful file on your team, how does the next person find it a week later?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Glad this is finally out. We built BearDrive to solve a problem we kept running into ourselves: useful agent files getting stuck on one person's laptop. Nice work, team."
-          }
-        ],
-        "makerTwitter": "",
-        "faDescription": "BearDrive یک پوشه اشتراک‌گذاری شده برای تیم‌های هوش مصنوعی است که به عنوان یک راه حل برای اشتراک‌گذاری فایل‌ها و هماهنگی بین اعضای تیم عمل می‌کند. این محصول به تیم‌ها این امکان را می‌دهد که فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند و از‌بندی و مالکیت فایل‌ها مطلع شوند. این محصول به عنوان یک جایگزین برای ابزارهای موجود مانند Dropbox و Notion عمل می‌کند و به تیم‌ها این امکان را می‌دهد که از فایل‌سیستم خود به عنوان یک سطح اشتراک‌گذاری استفاده کنند. با استفاده از BearDrive، تیم‌ها می‌توانند فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند و از‌بندی و مالکیت فایل‌ها مطلع شوند.",
-        "faComments": [],
-        "iranEquivalent": {
-          "productName": "پوشه همگانی",
-          "description": "پوشه همگانی یک راه حل برای تیم‌های هوش مصنوعی است که به آنها این امکان را می‌دهد که فایل‌های تولید شده توسط هوش مصنوعی را به صورت خودکار با یکدیگر به اشتراک بگذارند. این محصول به تیم‌ها این امکان را می‌دهد که از فایل‌سیستم خود به عنوان یک سطح اشتراک‌گذاری استفاده کنند و از‌بندی و مالکیت فایل‌ها مطلع شوند.",
-          "marketOpportunity": "فرصت بازار ایران برای محصولات هماهنگی تیم بسیار زیاد است، زیرا بسیاری از تیم‌ها به ابزارهای هماهنگی نیاز دارند. با استفاده از پوشه همگانی، تیم‌ها می‌توانند کارهای خود را به صورت hiệu quả و با کیفیت بهتر انجام دهند.",
-          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
-          "targetAudience": "تیم‌های هوش مصنوعی و شرکت‌های فناوری",
-          "challenges": [
-            "رقابت با ابزارهای موجود",
-            "ایجاد آگاهی از مزایای استفاده از پوشه همگانی",
-            "توسعه محصول به گونه‌ای که نیازهای تیم‌های مختلف را برآورده کند"
-          ],
-          "monetization": [
-            "عضویت ماهیانه",
-            "فروش lisans برای استفاده از محصول"
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL"
-          ],
-          "confidence": 75
-        },
-        "aiReview": ""
+        "makerTwitter": ""
       }
     ],
     "yesterday": [
@@ -1527,7 +1346,7 @@
         "maker": "Kelsey Evans",
         "makerTitle": "Passionate about PLG. ",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 406,
+        "votes": 409,
         "websiteUrl": "https://www.producthunt.com/r/YIH4E6DK7N5RLY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1650,7 +1469,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 316,
+        "votes": 317,
         "websiteUrl": "https://www.producthunt.com/r/RSXEQOXULUOFQR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1776,7 +1595,7 @@
         "maker": "Gustav Soderstrom",
         "makerTitle": "",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 267,
+        "votes": 268,
         "websiteUrl": "https://www.producthunt.com/r/WHZFBNTY35M434?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2088,12 +1907,16 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 239,
+        "votes": 240,
         "websiteUrl": "https://www.producthunt.com/r/IP5NV4IA2YCYKO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hey Product Hunt! 👋I’m Oren, co-founder and CEO of @EquityBee, alongside @oded_golan Today, we’re excited to launch Equitybee Benchmark, a free tool that lets U.S. startup employees compare equity grants by department, seniority, and company stage.🎯 Why we built itCompanies have long used compensation benchmarks when structuring equity offers. Employees evaluating those offers rarely have access to the same market context.We believe employees should have a benchmark too.That context can help when evaluating a job offer, comparing opportunities, or preparing for a compensation conversation.📊 How it worksEquitybee Benchmark is built on more than 9,000 verified new-hire option grants covering more than 2,500 U.S. startups.Select your:• Department• Seniority level• Company stageSo, if you’re a senior engineer evaluating an offer from a Series B startup, you can create a relevant comparison group and see the 25th percentile, median, 75th percentile, and average fair market value of grants within that group, alongside insights that help put those figures into context.The goal is not to predict what those options may eventually be worth. It is to give employees a relevant comparison point for understanding the equity they are being offered.Equitybee Benchmark is free and built specifically for startup employees, not their HR teams.💬 We’d love your feedbackExplore the Benchmark and tell us: what additional information or comparisons would help you better evaluate startup equity?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "How complete is the data? I tried searching for Tripadvisor, and the service only found Tripadvisor Japan."
           },
           {
             "user": "[REDACTED]",
@@ -2118,10 +1941,6 @@
           {
             "user": "[REDACTED]",
             "text": "Everyone here is on the employee's side of the table. From the founder's: the option pool is the line item we see modelled worst — headcount goes in as cash, equity as \"free\".Any plan for the reverse lookup? Feed it an 18-month hiring plan, get the pool it takes."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 I’m Oded, co-founder and CPO at @Equitybee.One of the things we’ve seen again and again is how little context startup employees have when it comes to their equity. You can know the number of options you were granted, but still have no idea whether that grant is actually competitive.That’s a big part of why we built Equitybee Benchmark: to give employees access to real comparison data by department, seniority, and company stage. It’s built on 9,000+ verified new-hire grants across 2,500+ U.S. startups.Really proud of what the team has built, and I’d love to hear what you think - especially what other data or comparisons would make this more useful for you."
           }
         ],
         "makerTwitter": ""
@@ -2200,7 +2019,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 221,
+        "votes": 223,
         "websiteUrl": "https://www.producthunt.com/r/UMTDOOSFBWY54H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2413,7 +2232,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 186,
+        "votes": 187,
         "websiteUrl": "https://www.producthunt.com/r/JHAOO6HSRA3SKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -3118,7 +2937,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-07T07:01:00Z",
-        "votes": 495,
+        "votes": 497,
         "websiteUrl": "https://www.producthunt.com/r/K3YBVXDB7SFOVL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -3840,7 +3659,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-11T07:01:00Z",
-        "votes": 406,
+        "votes": 409,
         "websiteUrl": "https://www.producthunt.com/r/YIH4E6DK7N5RLY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -4065,8 +3884,70 @@
       },
       {
         "id": "ph-week-9",
-        "date": "2026-08-10",
+        "date": "2026-08-12",
         "rank": 9,
+        "name": "Dograh",
+        "slug": "dograh-3",
+        "tagline": "The open source VAPI alternative",
+        "description": "Closed voice platforms make you rent your own agents. Dograh is completely open source- nothing is gated. Visual flow builder, add your model key across 30+ integrations or use local models, telephony, human transfer, and advanced QA & monitoring - all free to self-host in one command. Also connect your claude code with MCP to build voice agents for a use case or call recordings.",
+        "category": "Open Source • Developer Tools • GitHub • Audio",
+        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • گیت‌هاب • صدا",
+        "url": "https://www.producthunt.com/products/dograh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/eab1a163-fbfe-4b8b-9356-f94e45feca98.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/3e786432-ae63-4c7f-8096-185d60bbfd2b.jpeg?auto=format",
+          "https://ph-files.imgix.net/59430999-5403-4040-8ed8-8fa94fc30d8c.png?auto=format",
+          "https://ph-files.imgix.net/76041dbf-66a8-4ba3-94bb-b2aeaf583dd8.png?auto=format",
+          "https://ph-files.imgix.net/36c02ed5-4d3a-44ae-9430-364a932da611.jpeg?auto=format",
+          "https://ph-files.imgix.net/d8bb4e32-54cf-4888-8f21-275a0e81b179.jpeg?auto=format",
+          "https://ph-files.imgix.net/338e2233-6ec3-4ff6-bbf6-f8bb776bb98f.png?auto=format",
+          "https://ph-files.imgix.net/07016089-62c3-4b0d-8a99-5f208c71d4f2.png?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-12T07:01:00Z",
+        "votes": 327,
+        "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh.Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone.Here's the problem we kept hitting. AI is getting locked up. Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI.So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack.That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it.Inside you still get everything the closed platforms sell:Visual flow builder - no glue codeReal time speech to speech - 70+ languages with mid-call switchingTelephony + warm handoff to a humanCall recordings with automatic QAFree REST APIWhy that matters:The payoff is ownership - your only cost is your model billYour data never leaves your servers - compliance gets simpleNo glue code - you ship in hoursIt fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders.We are a small team. A star on GitHub or honest feedback here does more for us than you would think.Install it, break it, tell me what's missing. I'm here all day.But first, try a Dograh voice agent now."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats, team! Long-awaited launch! Could you add more built-in observability around latency, token usage, model performance, and call quality?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Open source voice agents with this much flexibility is 🔥 The fact that you can self-host, use local models, and connect Claude Code via MCP makes this especially interesting. Congrats on the launch! 🚀"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch. Can teams customize the QA metrics and scoring rules for different industries or call types?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "How does the human handoff work when an agent reaches a conversation it cannot confidently handle?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "The ability to bring your own model keys across 30+ integrations makes this feel much more developer-friendly."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Great product!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@pritesh_kumar3 This looks very promising. Will users be able to build agents without writing any code"
+          }
+        ],
+        "makerTwitter": ""
+      },
+      {
+        "id": "ph-week-10",
+        "date": "2026-08-10",
+        "rank": 10,
         "name": "Portfolio Lab",
         "slug": "portfolio-lab-2",
         "tagline": "AI investing, done responsibly",
@@ -4506,9 +4387,9 @@
         "aiReview": ""
       },
       {
-        "id": "ph-month-4",
+        "id": "ph-month-5",
         "date": "2026-07-29",
-        "rank": 4,
+        "rank": 5,
         "name": "Prelint",
         "slug": "prelint",
         "tagline": "Prevent product drift in AI-written code",
@@ -4589,9 +4470,9 @@
         "aiReview": ""
       },
       {
-        "id": "ph-month-5",
+        "id": "ph-month-4",
         "date": "2026-07-17",
-        "rank": 5,
+        "rank": 4,
         "name": "Unabyss for Claude",
         "slug": "unabyss-for-claude",
         "tagline": "Shared memory across all apps and LLMs. In Claude",
@@ -5173,9 +5054,9 @@
         "aiReview": ""
       },
       {
-        "id": "ph-month-9",
+        "id": "ph-month-10",
         "date": "2026-08-04",
-        "rank": 9,
+        "rank": 10,
         "name": "Hey Noah",
         "slug": "hey-noah",
         "tagline": "A proactive AI executive assistant for founders",
@@ -5234,9 +5115,9 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-month-10",
+        "id": "ph-month-9",
         "date": "2026-08-05",
-        "rank": 10,
+        "rank": 9,
         "name": "AdAnt AI",
         "slug": "adant-ai",
         "tagline": "Claude for viral, high-converting social ads",
