@@ -18,7 +18,18 @@ function mergePeriods(oldP: PeriodsData | undefined, newP: PeriodsData): Periods
       if (!p?.slug) continue;
       const prev = map.get(p.slug);
       if (!prev) map.set(p.slug, p);
-      else map.set(p.slug, { ...prev, ...p, votes: Math.max(prev.votes ?? 0, p.votes ?? 0) });
+      else {
+        // merge عمیق: دیتای قدیمی حفظ میشه، دیتای جدید آپدیت میشه
+        const m: any = { ...prev, ...p, votes: Math.max(prev.votes ?? 0, p.votes ?? 0) };
+        if (!m.comments?.length && prev.comments?.length) m.comments = prev.comments;
+        if (!m.faComments?.length && prev.faComments?.length) m.faComments = prev.faComments;
+        if (!m.faDescription && prev.faDescription) m.faDescription = prev.faDescription;
+        if (!m.aiReview && prev.aiReview) m.aiReview = prev.aiReview;
+        if (!m.iranEquivalent && prev.iranEquivalent) m.iranEquivalent = prev.iranEquivalent;
+        if (!m.description && prev.description) m.description = prev.description;
+        if (!m.makerTwitter && prev.makerTwitter) m.makerTwitter = prev.makerTwitter;
+        map.set(p.slug, m);
+      }
     }
     out[k] = [...map.values()].sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0)).slice(0, CAPS[k]);
   });
