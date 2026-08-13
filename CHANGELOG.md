@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.16.2...v1.17.0) (2026-08-13)
+
+
+### Features
+
+* deep merge (never lose data) + backlog-aware nightly AI ([bed843c](https://github.com/AmirMotefaker/iran-hunt/commit/bed843c7d5ee6a11741541737bddb45a7c655451))
+
 ## [1.16.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.16.1...v1.16.2) (2026-08-12)
 
 
