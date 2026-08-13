@@ -1,4 +1,4 @@
-name: Nightly AI
+name: Nightly AI (Auto 2am)
 
 on:
   schedule:

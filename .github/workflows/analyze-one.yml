@@ -1,4 +1,4 @@
-name: Analyze One
+name: Analyze One (Manual)
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: Daily Scrape
+name: Daily Scrape (Auto 12am)
 
 on:
   schedule:
