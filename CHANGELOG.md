@@ -1,3 +1,10 @@
+## [1.17.4](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.3...v1.17.4) (2026-08-17)
+
+
+### Bug Fixes
+
+* guaranteed comments fallback when AI fails ([7516215](https://github.com/AmirMotefaker/iran-hunt/commit/751621538aed0fdc0f5ded7cdd10dd128c3bdf01))
+
 ## [1.17.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.2...v1.17.3) (2026-08-17)
 
 
