@@ -36,6 +36,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Being able to self-host the whole stack and drop in local models is massive, just what i was looking for, congrats."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Congratulations @pritesh_kumar3 on the launch. Love the flexibility on the hosting and the models across the stack."
           },
           {
@@ -57,10 +61,6 @@
           {
             "user": "[REDACTED]",
             "text": "Dograh looks great. Can Dograh agents call APIs and take actions during a conversation?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "congratulations on the launch. Good product for enterprises who want to self hosted voicebot."
           }
         ],
         "makerTwitter": "",
@@ -120,6 +120,14 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "The product question feels solved faster than the pricing question. Once a bot actually owns work, I’d want cost per completed workflow + value of the human time replaced. Seat pricing feels very 2024."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Thanks for sharing @benln .. good wishes for Grok Team for its success.. do you know how is it different from Grok Automations by any chance.. thanks.."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "'They only come back when something needs your approval' — who decides what that threshold is? The bot or you? That's the whole trust question. Congrats on the launch!"
           },
           {
@@ -128,7 +136,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "It feels like PPLX Computer. But with the extra \"bots can also collaborate between them\" aspect bolted on and the fact that its on a virtual computer (Unlike PPLX computer which requires a dedicated macbook or macmini). Question. This is a single player platform today. Do you think it will open up for a more team based control plane in the future? Another question. Since its a virtual computer. that means logins etc will need to be piped in. There will be alots of unkown IP logging into XYZ etc. And solve this captch because new IP walls. Any insight here? Whats the exeperience and friction level?thanks!"
+            "text": "It feels like PPLX Computer. But with the extra \"bots can also collaborate between them\" aspect bolted on and the fact that its on a virtual computer (Unlike PPLX computer which requires a dedicated macbook or macmini). Question. This is a single player platform today. Do you think it will open up for a more team based control plane in the future? Another question. Since its a virtual computer. that means logins etc will need to be piped in. There will be alots of unkown IP logging into XYZ etc. And solve this captch because new IP walls. Any insight here? Whats the exeperience and friction level? thanks!"
           },
           {
             "user": "[REDACTED]",
@@ -137,14 +145,6 @@
           {
             "user": "[REDACTED]",
             "text": "This is so awesome. I've been playing with it since yesterday, and it has already become my favorite tech of the year."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Big launch from Cursor.@benln what's the biggest change/surprise building Grok Bot since you all started?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Can this be used to amplify a post reach on X?"
           }
         ],
         "makerTwitter": "",
@@ -550,6 +550,22 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Congrats on this launch! Amazing product!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "We use AWS significantly more than GCP, mainly to avoid the learning curve associated with GCP. This tool looks like it can help lower the learning curve for operating new platforms. Right?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "AI agents that understand your infrastructure and can investigate production issues is a powerful direction. The shared workspace angle makes this feel especially practical. Congrats on the launch!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats! Is it free?"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Quesstion: Who is the ideal cstomer here? Who do you solve this for? With which customer does this fit the best?"
           },
           {
@@ -559,22 +575,6 @@
           {
             "user": "[REDACTED]",
             "text": "This looks really exciting! One thing I’m curious about: how would you see Nuphos fitting into the workflow of a solo developer or a one-person team? I build and experiment with multiple small products and AI projects, but I don’t necessarily have a large SaaS infrastructure or a dedicated DevOps team. Would Nuphos still be useful at this stage? If so, what would be a good real-world use case for someone like me to start with? Or is Nuphos currently more suited to larger teams that already have a fairly complex production infrastructure? Would love to understand where a solo builder fits into the Nuphos vision."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "We’ve been using @Nuphos as their design partner. This is pretty much how I want AI to work with our production infra. Congrats @yuaanlin"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "the read-only-by-default plus approval-for-writes model makes sense for trust. during an active incident when minutes matter, does that approval step ever become the bottleneck itself, or is there a break-glass path for that moment?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This feels like the right direction for AI in DevOps. Running commands is the easy part — understanding the infrastructure, permissions, past incidents, and how a team actually operates is much harder. Really like the read-only-by-default + approval approach too. Agents touching prod need context and guardrails, not just more autonomy. Congrats on the launch!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This looks promising. I would be curious to see how Nuphos handles situations where the agent is unsure or finds conflicting signals. Knowing when to pause and ask a human could be just as important as knowing what action to take."
           }
         ],
         "makerTwitter": "",
@@ -634,6 +634,18 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Congrats on the launch from the Signify team! 🚀 Content workflows get messy fast when jumping between multiple apps, so having a block-based structure to organize and refine content is a real time-saver. Definitely bookmarking this. Good luck!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love this idea. Turning existing content into something interactive and personalized feels much more useful than another static lead magnet. For example, a creator could turn a long guide into a quick assessment that tells each reader exactly which section or next step is most relevant to them. Really smart way to get more value from content that already exists."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "the \"static is fast, AI is 10-30 seconds\" tradeoff you mentioned in another reply is the part I'd want to pressure-test. this is fed by a cold CTA off a YouTube video - low intent, easy to bounce. if someone answers 4-5 questions and then closes the tab during that 10-30s generation window, do you still have a usable lead (the answers, at least) or is that person just gone with nothing captured? feels like the value prop of \"give something away to build trust\" only works if the drop-off during the wait doesn't quietly eat a chunk of exactly the people who almost converted."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "@dzaitzow congrats on the launch"
           },
           {
@@ -647,18 +659,6 @@
           {
             "user": "[REDACTED]",
             "text": "@dzaitzow Congratulations. And happy product launch."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Really interesting approach to making quizzes actually useful and personalized. Congrats on the launch, @dzaitzow"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Nice product, well done!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "You made responses and extra funnels free and only charge for the personalization. Most tools do that backwards. Congrats on hitting number one with it."
           }
         ],
         "makerTwitter": "",
@@ -810,6 +810,14 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I used it directly on scrimba.com/explain"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I remember using this for the first time. Was literally awestruck. I am visual learner, and the finesse this tool has ! Great job Per and Team"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "That is super cool! TIL you can ask it questions in general, not just about arcane JS things!"
           },
           {
@@ -822,19 +830,11 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I tried out the explain feature and was plesantly surprised. The speed of generation and the coherance of the analogies and explanations hold up. I can also see the vision of how this could naturally integrate with pre-existing curated lessons. I do think the explainations can be too short and high level, even when prompted for technical detail, but overall a solid product idea."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Oh my goodness, I am blown away. I made it explain to me MedusaJS. Wow!!! I had to let my wife try it, she loves it."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I've been giving this a spin! Lot's of fun, and the implementation is fast, intuitive and delightful. I've used it on my code base to understand it better, and a few things I've been curious about."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I have personally tried scrimba explain feature number of times til lnow and it is really amazing. It not only solve your confusion but also force you to think about other aspects as well. Great work by Per and Scrimba team by adding this feature to Scrimba. Really love it. Thanks for sharing with it learners community."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I like the idea of turning a question or file into something you can actually watch instead of reading through another wall of text. Feels especially useful for more complex topics. Congrats on the launch! 🙌"
           }
         ],
         "makerTwitter": "",
@@ -891,31 +891,31 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "The fact that this can actually compete with some of the paid options is pretty wild"
+            "text": "the ads are very informative and do not feel like its useless ads"
           },
           {
             "user": "[REDACTED]",
-            "text": "Using it for months, can't recommend it enough. Add MCP and it'll be a winner, not only a keeper."
+            "text": "Free coding agents make a lot of sense, especially for consumers and indie developers. I wonder how long it’ll take enterprises to adopt - when will people in real SWE jobs be convinced that they are just as good as paid models?"
           },
           {
             "user": "[REDACTED]",
-            "text": "What a fantastic product! I love using it. Clicking on the interesting ads that pop up from time to time is also a lot of fun :)"
+            "text": "This actually sounds pretty interesting… how is the rollout going so far? Everything costs money these days so the ads and free use is kind of nice for your wallet."
           },
           {
             "user": "[REDACTED]",
-            "text": "596 messages. 196.6M tokens. €0 spent on model access. The trade-off? You watch ads. what a time to be alive"
+            "text": "Very Helpfull for us students. Thank you so much freebuff :)"
           },
           {
             "user": "[REDACTED]",
-            "text": "Excellent product! Been using it for the past 2 weeks ago."
+            "text": "I've tested every harness out there, Freebuff is the best, hands down."
           },
           {
             "user": "[REDACTED]",
-            "text": "Free coding agents without another subscription or API key to manage? That’s actually a pretty interesting approach 👀 Curious to try how Freebuff compares in real-world builds. Congrats team!"
+            "text": "The buissness model is simple and genius. Intelligence shouldn't come at a premium cost for the end consumer. Financing tokens with Ads is lit. Checked it. loved it."
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch!"
+            "text": "Ever since i started using freebuff, Ive really loved it. So far i have spent over r a billion tokens in a few weeks, Thanks to the founders, for making this free for all of us."
           }
         ],
         "makerTwitter": "",
@@ -1127,6 +1127,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Congrats on the launch from the Signify team! 🚀 So much product design relies on guesswork, so having clearer insights into human behavior and decision-making makes a massive difference for growth and retention. Definitely bookmarking this. Good luck!"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Love this. Do users have to opt in or are there any privacy issues?"
           },
           {
@@ -1148,10 +1152,6 @@
           {
             "user": "[REDACTED]",
             "text": "the dogfood stat is the most convincing part, 16 PRs out of 15k sessions with none arriving as a bug report first. of those 16, how many merged clean vs needed a human to say actually that's expected behavior?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The era of dashboards is coming to an end, great use of AI here. Congrats on the launch!"
           }
         ],
         "makerTwitter": "",
@@ -1293,35 +1293,35 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! 👋I’m Oren, co-founder and CEO of @EquityBee, alongside @oded_golan Today, we’re excited to launch Equitybee Benchmark, a free tool that lets U.S. startup employees compare equity grants by department, seniority, and company stage.🎯 Why we built itCompanies have long used compensation benchmarks when structuring equity offers. Employees evaluating those offers rarely have access to the same market context.We believe employees should have a benchmark too.That context can help when evaluating a job offer, comparing opportunities, or preparing for a compensation conversation.📊 How it worksEquitybee Benchmark is built on more than 9,000 verified new-hire option grants covering more than 2,500 U.S. startups.Select your:• Department• Seniority level• Company stageSo, if you’re a senior engineer evaluating an offer from a Series B startup, you can create a relevant comparison group and see the 25th percentile, median, 75th percentile, and average fair market value of grants within that group, alongside insights that help put those figures into context.The goal is not to predict what those options may eventually be worth. It is to give employees a relevant comparison point for understanding the equity they are being offered.Equitybee Benchmark is free and built specifically for startup employees, not their HR teams.💬 We’d love your feedbackExplore the Benchmark and tell us: what additional information or comparisons would help you better evaluate startup equity?"
+            "text": "Hey Product Hunt! 👋 I’m Oren, co-founder and CEO of @EquityBee , alongside @oded_golan Today, we’re excited to launch Equitybee Benchmark, a free tool that lets U.S. startup employees compare&nbsp; equity grants by department, seniority, and company stage. 🎯 Why we built it Companies have long used compensation benchmarks when structuring equity offers. Employees evaluating those offers rarely have access to the same market context. We believe employees should have a benchmark too. That context can help when evaluating a job offer, comparing opportunities, or preparing for a compensation conversation. 📊 How it works Equitybee Benchmark is built on more than 9,000 verified new-hire option grants covering more than 2,500 U.S. startups. Select your: • Department • Seniority level • Company stage So, if you’re a senior engineer evaluating an offer from a Series B startup, you can create a relevant comparison group and see the 25th percentile, median, 75th percentile, and average fair market value of grants within that group, alongside insights that help put those figures into context. The goal is not to predict what those options may eventually be worth. It is to give employees a relevant comparison point for understanding the equity they are being offered. Equitybee Benchmark is free and built specifically for startup employees, not their HR teams. 💬 We’d love your feedback Explore the Benchmark and tell us: what additional information or comparisons would help you better evaluate startup equity?"
           },
           {
             "user": "[REDACTED]",
-            "text": "When it comes to stock option grants in the startup ecosystem, the information gap is real. Startup employees (myself included) have struggled with this issue for far too long. Equitybee Benchmark was launched to promote greater transparency across the ecosystem and empower startup employees to make better-informed decisions about what can easily become their most valuable asset: their equity.Proud to be part of this company!"
+            "text": "Love this. It’s surprisingly hard to know whether an equity grant is actually competitive. Congrats guys, and good luck with the launch! 🚀"
           },
           {
             "user": "[REDACTED]",
-            "text": "Great job helping to bring transparency to the equity compensation space! Nice work!"
+            "text": "This is an interesting idea! It would be especially useful in instances where equity is the negotiation lever in initial salary convos"
           },
           {
             "user": "[REDACTED]",
-            "text": "So great to see it in the air! Good luck to the Equitybee team!"
+            "text": "How complete is the data? I tried searching for Tripadvisor, and the service only found Tripadvisor Japan."
           },
           {
             "user": "[REDACTED]",
-            "text": "Tried a few combinations of department, seniority, and stage. Looks good!Are you planing to add more dimensions? industry? company valuation?"
+            "text": "Congrats on the launch! I've personally seen the lack of awareness around company equity incentives so love what the team at EquityBee is building!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Great work!"
+            "text": "This is the kind of transparency the equity comp space has needed for a while. Well done!"
           },
           {
             "user": "[REDACTED]",
-            "text": "@orenbarzilai @guy_elbaz1 , This fills such a big gap to help hiring with startups a fair play where both startups and talent can negotiate a full cash + equity in a transparent and data driven way. Congrats on the launch!"
+            "text": "Really interesting tool! Equity grants can be pretty difficult to compare with one another, so having more context around how a grant stacks up across companies/industries seems like a great way to assess one's position."
           },
           {
             "user": "[REDACTED]",
-            "text": "Super excited to see Equitybee Benchmark live today! 🚀It’s been really rewarding to work on this product and turn a large, complex dataset into something simple and useful for startup employees. Equity compensation can be hard to put into context, and our goal was to make it much easier to understand how your grant compares to the market.Really proud of what the team built, and excited to hear your feedback. Give it a try and let us know what you think! 🙌"
+            "text": "Congratulations on the launch :) Are people using it more when weighing an offer, or later when deciding whether to exercise?"
           }
         ],
         "makerTwitter": "",
@@ -1379,6 +1379,18 @@
         "comments": [
           {
             "user": "[REDACTED]",
+            "text": "auditing your own inference bill is such an obvious gap 🔍 nice one. seeing much overbilling in the wild yet?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch of Inferock Bench. Love the idea of having an independent receipt for every LLM API call. Transparent usage, billing, and overpayment tracking can be a huge win for teams working with multiple LLM providers."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Retries are the part I’d put in giant font. ‘$0.04/call’ means nothing if a successful job secretly takes 6 calls. I want cost per accepted outcome."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "The failed-calls and retries breakdown is the part I'd use first. One case I keep hitting might not show up there: a tool call that returns 200 with a silently corrupted value. I measured this on Anthropic models, 40 calls, none flagged the value was wrong, so it bills as a clean success and the retry logic never fires. Can the receipt catch a call that looked fine but wasn't? Or is that out of scope by design?"
           },
           {
@@ -1396,18 +1408,6 @@
           {
             "user": "[REDACTED]",
             "text": "The bill dispute question is interesting. have you personally managed to get a provider to credit a charge after showing them one of these per call receipts or is that still something you are testing?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The two setting setup makes this feel unusally easy to try."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Which API call actually cost me this money? is a question every AI app eventually needs to answer."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "changing the baseURL and apiKey instead of rewriting the application is a nice touch. makes this much easier to test on an existing project."
           }
         ],
         "makerTwitter": "",
@@ -1471,6 +1471,14 @@
           {
             "user": "[REDACTED]",
             "text": "the maker of @Ultracite keeps cooking. @haydenbleasel just introduced @Blume , an open-source alternative to @Mintlify and @Fumadocs that is fast, AI-ready, and zero-config. view source code here"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Amazing stuff! We generally use Fuma or Nextra, but it seems like found a better alternative. Congrats on the launch, and thanks for building this."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Huge congratulations on the release! The decision to ship AI-ready endpoints alongside static Astro performance is a massive win for modern docs. Does Blume support custom MDX components out of the box, or do those require extending the config? Upvoted and wishing you a great launch day!"
           },
           {
             "user": "[REDACTED]",
@@ -1538,7 +1546,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi everyone!Always a big fan of @Unsloth — from the original codebase to the web version, it has kept getting easier to actually use. Desktop is the most complete version of what they’re building.It wraps everything into a native Mac, Windows, and Linux app. You can run and train LLMs, image/video diffusion, and audio models entirely offline without touching a terminal.This is probably the first Unsloth release I could recommend to someone who likes local models but doesn’t want local AI to become a weekend setup project. Pick a model and quantization, download it, and you’re in.It also makes those local models useful outside the app. unsloth start lets the agent tools you already use call them directly.Free, open source, and finally a proper desktop app 🦥"
+            "text": "Hi everyone! Always a big fan of @Unsloth — from the original codebase to the web version , it has kept getting easier to actually use. Desktop is the most complete version of what they’re building. It wraps everything into a native Mac, Windows, and Linux app. You can run and train LLMs, image/video diffusion, and audio models entirely offline without touching a terminal. This is probably the first Unsloth release I could recommend to someone who likes local models but doesn’t want local AI to become a weekend setup project. Pick a model and quantization, download it, and you’re in. It also makes those local models useful outside the app. unsloth start lets the agent tools you already use call them directly. Free, open source , and finally a proper desktop app 🦥"
           }
         ],
         "makerTwitter": "",
@@ -1597,6 +1605,14 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Would love to see more screenshots of the GUI and how subscriptions can be brought over vs API routing. Settings are also of interest to me to see how customizable this thing is. I've been using Claude Code CLI for a long time now (since beta days), so I have all of my scaffolding in place. As you know, old habits die hard so it's hard for me to just make the jump and bite the bullet, pun intended. I'm convinced it's unbelievably fast compared to my setup, but my setup does so much of the work for me that it's hard to compare the delta between both..."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I burn a billion token a day. What can this do for me?"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "finally i can sleep before 2am 🙏🙏🙏"
           },
           {
@@ -1614,14 +1630,6 @@
           {
             "user": "[REDACTED]",
             "text": "Stumbled across this post as my claude code was taking 30 years. How timely"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Best coding agent!! Lets go team!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats Alex and team, this looks great!"
           }
         ],
         "makerTwitter": "",
@@ -3124,10 +3132,6 @@
           {
             "user": "[REDACTED]",
             "text": "cutting the token bill 85% is a no brainer for anyone running agents 🔥 fully local is a nice touch too, congrats!!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Every long session I run eventually hits my own harness's compaction, where older turns get summarized once context grows, completely separate from anything Paritok does upstream. If a compressed segment's REF id pointer lives inside a turn that the host later summarizes away before the agent ever calls read_original on it, is that byte range still recoverable, or does recall depend on the referencing turn staying intact in the live context window?"
           },
           {
             "user": "[REDACTED]",
@@ -5437,11 +5441,11 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "finally, an open-source alternative to @Ahrefs and @SEMrush. it's about time.S/O to @bensenescu, keep up the great work. oss ftw!"
+            "text": "finally, an open-source alternative to @Ahrefs and @SEMrush . it's about time. S/O to @bensenescu , keep up the great work. oss ftw!"
           },
           {
             "user": "[REDACTED]",
-            "text": "The pricing is definitely compelling.As someone who's recently been working on SEO for my own product, I realized that having access to data is only half the battle, knowing which actions to prioritize is often the harder part.Do you see OpenSEO staying focused on providing data, or do you also want to help users decide what to do with it?"
+            "text": "The pricing is definitely compelling. As someone who's recently been working on SEO for my own product, I realized that having access to data is only half the battle, knowing which actions to prioritize is often the harder part. Do you see OpenSEO staying focused on providing data, or do you also want to help users decide what to do with it?"
           },
           {
             "user": "[REDACTED]",
@@ -5453,7 +5457,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "🎯 OpenSEOOpen-source SEO has a lot of momentum lately.Have you found users switching because of cost, transparency, or because they actually want something different from traditional SEO platforms?That answer probably shapes the roadmap."
+            "text": "🎯 OpenSEO Open-source SEO has a lot of momentum lately. Have you found users switching because of cost, transparency, or because they actually want something different from traditional SEO platforms? That answer probably shapes the roadmap."
           },
           {
             "user": "[REDACTED]",
@@ -5461,11 +5465,11 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Liked the tool, Ben was very supportive in fixing some onboarding issues, enjoying it :)Thank you for building this guys."
+            "text": "Liked the tool, Ben was very supportive in fixing some onboarding issues, enjoying it :) Thank you for building this guys."
           },
           {
             "user": "[REDACTED]",
-            "text": "SemRush and Ahrefs are insanely expensive, been looking for an alternative for quite a while. Thank you for building and sharing this! One quick question - when playing around with the keyword research tool, I'm having the same issue I've seen in multiple other tools: getting very generic keywords that are not related to the keyword I've put in. For example:When searching for \"sales pitch deck automation\" (I know pretty niche), results are the following below. How should I think about refining keyword research as it seems exact or broad match didn't work in the search bar. Would love to give this a proper shot, pretty sure it's highly effective and I'm just using it incorrectly!"
+            "text": "SemRush and Ahrefs are insanely expensive, been looking for an alternative for quite a while. Thank you for building and sharing this! One quick question - when playing around with the keyword research tool, I'm having the same issue I've seen in multiple other tools: getting very generic keywords that are not related to the keyword I've put in. For example: When searching for \"sales pitch deck automation\" (I know pretty niche), results are the following below. How should I think about refining keyword research as it seems exact or broad match didn't work in the search bar. Would love to give this a proper shot, pretty sure it's highly effective and I'm just using it incorrectly!"
           }
         ],
         "makerTwitter": "",
@@ -5958,7 +5962,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi Product Hunt - Matt here, co-founder of Prefactor with Simon. We've been heads-down on this one for a while, so finally getting to show you is a real thrill.Let me start with the question this whole thing is built around: do you actually know what your agents are doing in production right now?For most teams we talk to, the honest answer is \"…not really.\" Your evals pass, everything's green, you ship - and then every real run vanishes into a black box. Quality quietly drifts. Risk creeps in. Costs climb. And eventually someone asks which of your agents are still doing their job, and the room goes quiet.That silence is the entire reason Prefactor exists. Gartner reckons 40%+ of agentic AI projects get scrapped by 2027 - and honestly, this gap is a big part of why.So we built the thing we kept wishing we had: Prefactor scores every run in production the moment it happens - quality, drift, risk - then wires those scores straight into action. A failing agent gets caught live, not charted three days later.How it actually worksprefactor init - one command connects your workspace and discovers your agents across your runtimes. First traced run in under 5 minutes.Drop in the SDK (TypeScript or Python) - native for LangChain, Claude, Vercel AI, OpenClaw and LiveKit. Every call becomes a span, streaming in live with cost and data risk attached.Run the evals you define on every run - LLM-as-judge, technical checks, qualitative metrics. Custom spans pull context from GitHub, Linear, Jira or your database, so every eval is grounded in what actually happened, not a guess.Act. Hold, approve or block the second a run crosses a line - automatically at runtime, or routed to a human. Every decision logged and enforced through the SDK or API.The payoff: you get to ship agents like real software — versioned, staged, promoted through dev → staging → prod only when evals pass, with instant rollback when they don't.Why it's differentMost tools observe and score, then hand you the problem. Prefactor closes the loop - observe, evaluate, act, all inside the same run. A risky agent gets caught, not just charted.My favourite bit of feedback so far: a customer with 40 agents in production and, in their words, \"no honest way to say which ones were still doing their job.\" We gave them that answer - and the brake pedal for when one wasn't.Who it's forEngineering teams shipping agents to real customers, on any stack. Agent frameworks work natively; everything else plugs in through OpenTelemetry or the core SDK.A little something for the PH communitySign up today and you get 1,000,000 free agent steps. Every span counts, so that's a serious amount of live production evaluation on us. Valid until Friday 11:59pm PT, once you've set up your first agent.Our askIf you're running agents in production, tell us how you keep tabs on them today - even if the honest answer is \"we're mostly hoping.\" We'll be in the comments all day and we'd genuinely love to hear what's working, what's breaking, and what you'd want a tool like this to do next.Get started free at prefactor.tech. First 25,000 spans a month free, no card needed. @simon_russell1 @joshgillies @ethan_lee8 @rheu @joeys and I will be here all day.Big thanks to @rohanrecommends @rohanchaubey4 hunting us."
+            "text": "Hi Product Hunt - Matt here, co-founder of Prefactor with Simon. We've been heads-down on this one for a while, so finally getting to show you is a real thrill. Let me start with the question this whole thing is built around: do you actually know what your agents are doing in production right now? For most teams we talk to, the honest answer is \"…not really.\" Your evals pass, everything's green , you ship - and then every real run vanishes into a black box . Quality quietly drifts. Risk creeps in. Costs climb. And eventually someone asks which of your agents are still doing their job, and the room goes quiet. That silence is the entire reason Prefactor exists. Gartner reckons 40%+ of agentic AI projects get scrapped by 2027 - and honestly, this gap is a big part of why. So we built the thing we kept wishing we had: Prefactor scores every run in production the moment it happens - quality, drift, risk - then wires those scores straight into action. A failing agent gets caught live, not charted three days later. How it actually works prefactor init - one command connects your workspace and discovers your agents across your runtimes. First traced run in under 5 minutes. Drop in the SDK (TypeScript or Python) - native for LangChain, Claude, Vercel AI, OpenClaw and LiveKit. Every call becomes a span, streaming in live with cost and data risk attached. Run the evals you define on every run - LLM-as-judge, technical checks, qualitative metrics. Custom spans pull context from GitHub, Linear, Jira or your database, so every eval is grounded in what actually happened, not a guess. Act. Hold, approve or block the second a run crosses a line - automatically at runtime, or routed to a human. Every decision logged and enforced through the SDK or API. The payoff: you get to ship agents like real software — versioned, staged, promoted through dev → staging → prod only when evals pass, with instant rollback when they don't. Why it's different Most tools observe and score, then hand you the problem. Prefactor closes the loop - observe, evaluate, act, all inside the same run. A risky agent gets caught, not just charted. My favourite bit of feedback so far: a customer with 40 agents in production and, in their words, \"no honest way to say which ones were still doing their job.\" We gave them that answer - and the brake pedal for when one wasn't. Who it's for Engineering teams shipping agents to real customers, on any stack. Agent frameworks work natively; everything else plugs in through OpenTelemetry or the core SDK. A little something for the PH community Sign up today and you get 1,000,000 free agent steps . Every span counts, so that's a serious amount of live production evaluation on us. Valid until Friday 11:59pm PT, once you've set up your first agent. Our ask If you're running agents in production, tell us how you keep tabs on them today - even if the honest answer is \"we're mostly hoping.\" We'll be in the comments all day and we'd genuinely love to hear what's working, what's breaking, and what you'd want a tool like this to do next. Get started free at prefactor.tech . First 25,000 spans a month free, no card needed. @simon_russell1 @joshgillies @ethan_lee8 @rheu @joeys and I will be here all day. Big thanks to @rohanrecommends @rohanchaubey4 hunting us."
           },
           {
             "user": "[REDACTED]",
@@ -5982,7 +5986,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Hey @matt_doughty — the observe → evaluate → act loop closing all inside one run is the part I keep coming back to. Most eval tooling only gets you the first two, then hands you a dashboard and a black box. I've been digging into agent-initiated payment flows lately, and \"catch it live and block before it commits\" is exactly the primitive you'd want on any payment-adjacent tool call, not a retro three days later.Also really like that you open-sourced the deterministic core (no LLM in the loop by construction) as prefactor-evals — most eval startups keep that bit proprietary as the moat. Good trust signal for a category people are rightly skeptical of right now."
+            "text": "Hey @matt_doughty — the observe → evaluate → act loop closing all inside one run is the part I keep coming back to. Most eval tooling only gets you the first two, then hands you a dashboard and a black box. I've been digging into agent-initiated payment flows lately, and \"catch it live and block before it commits\" is exactly the primitive you'd want on any payment-adjacent tool call, not a retro three days later. Also really like that you open-sourced the deterministic core (no LLM in the loop by construction) as prefactor-evals — most eval startups keep that bit proprietary as the moat. Good trust signal for a category people are rightly skeptical of right now."
           },
           {
             "user": "[REDACTED]",
@@ -6049,7 +6053,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi Product Hunt! 👋I'm Ajay, CTO and co-founder of Velo.When we started building Velo, we thought the challenge was making it easier to create work videos.As we worked with more teams, we realized that wasn't the real bottleneck.The hardest part wasn't creating the video, it was finding the right knowledge to put into it.The context behind every product demo, onboarding guide, support reply, or training video already exists somewhere. It's just scattered across docs, help centers, Slack, Teams, tickets, and conversations.That's what led us to build Velo 3.0✨ What's new:Simply describe what you want to explain and Velo finds the right company knowledge, grounds itself in that context and turns it into a polished videoWe taught every Velo to speak 37 languages, so the same explanation can reach teams and customers anywhereThis launch is a big step toward what we believe the future of workplace video looks like: not just creating videos faster, but making company knowledge instantly explainable.We're excited to hear what you think, answer your questions, and learn from your feedback throughout the day. Thanks for stopping by! 🚀Try for free: usevelo.ai"
+            "text": "Hi Product Hunt!&nbsp;👋 I'm Ajay, CTO and co-founder of Velo. When we started building Velo, we thought the challenge was making it easier to create work videos. As we worked with more teams, we realized that wasn't the real bottleneck. The hardest part wasn't creating the video, it was finding the right knowledge to put into it. The context behind every product demo, onboarding guide, support reply, or training video already exists somewhere. It's just scattered across docs, help centers, Slack, Teams, tickets, and conversations. That's what led us to build Velo 3.0 ✨&nbsp;What's new: Simply describe what you want to explain and Velo finds the right company knowledge, grounds itself in that context and turns it into a polished video We taught every Velo to speak 37 languages, so the same explanation can reach teams and customers anywhere This launch is a big step toward what we believe the future of workplace video looks like: not just creating videos faster, but making company knowledge instantly explainable. We're excited to hear what you think, answer your questions, and learn from your feedback throughout the day. Thanks for stopping by!&nbsp;🚀 Try for free:&nbsp; usevelo.ai"
           },
           {
             "user": "[REDACTED]",
@@ -6061,7 +6065,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Looks cool.I would like to try this tool and I wonder what kind of video it will produce based on my screen recording."
+            "text": "Looks cool. I would like to try this tool and I wonder what kind of video it will produce based on my screen recording."
           },
           {
             "user": "[REDACTED]",
@@ -6073,7 +6077,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch!Finding the right company knowledge and turning it into easy digestable content, is amazing!I have build a quick demo for your app, with my open-source tool, feel free to check it outhttps://app.livedemo.ai/livedemos/6a58305f311c044e916e3d3d"
+            "text": "Congrats on the launch! Finding the right company knowledge and turning it into easy digestable content, is amazing! I have build a quick demo for your app, with my open-source tool, feel free to check it out https://app.livedemo.ai/livedemos/6a58305f311c044e916e3d3d"
           },
           {
             "user": "[REDACTED]",
@@ -6884,7 +6888,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋I’m Jarod, Co-founder & CEO of Happycapy, previously at Trickle.Over the past year, we’ve all watched vibe coding go mainstream.Tools like Claude Code showed what agentic AI can do for developers.Open-source projects like OpenClaw proved agents can work 24/7 in the real world.But there’s a gap.Most of today’s agent tools are either:built for developers and terminals, orpowerful but hard to self-host, configure, and secure.We believe agentic AI shouldn’t be limited to people who know how to set up infrastructure or deal with security issues.That’s why we built Happycapy.Happycapy — The agent-native computer, for the rest of us.An OpenClaw alternative that runs directly in your browser — and now on your phone.No setup. No learning curve. No plugins.Built-in sandboxing, designed from day one for safety and trust.Just open it, talk to it, and let your agent work with you.We’re the original team behind Trickle, and this is our clean break into what we believe is the real shape of 2026:agent-native computing, with a human-first GUI.Would love your feedback, questions, and ideas 👇Thanks for checking out Happycapy 🦫✨Fun Easter egg 🥳: our design team hid a little tribute to the very first GUI computers on the landing page — see if you can spot it. 👀"
+            "text": "Hey Product Hunt 👋 I’m Jarod , Co-founder &amp; CEO of Happycapy , previously at Trickle . Over the past year, we’ve all watched vibe coding go mainstream. Tools like Claude Code showed what agentic AI can do for developers. Open-source projects like OpenClaw proved agents can work 24/7 in the real world. But there’s a gap. Most of today’s agent tools are either: built for developers and terminals, or powerful but hard to self-host, configure, and secure. We believe agentic AI shouldn’t be limited to people who know how to set up infrastructure or deal with security issues. That’s why we built Happycapy . Happycapy — The agent-native computer, for the rest of us. An OpenClaw alternative that runs directly in your browser — and now on your phone . No setup. No learning curve. No plugins. Built-in sandboxing, designed from day one for safety and trust. Just open it, talk to it, and let your agent work with you. We’re the original team behind Trickle, and this is our clean break into what we believe is the real shape of 2026: agent-native computing, with a human-first GUI. Would love your feedback, questions, and ideas 👇 Thanks for checking out Happycapy 🦫✨ Fun Easter egg 🥳: our design team hid a little tribute to the very first GUI computers on the landing page — see if you can spot it. 👀"
           },
           {
             "user": "[REDACTED]",
@@ -6892,15 +6896,15 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "the \"no setup, no learning curve\" framing is exactly the problem i kept hitting with agent tools. you spend an hour configuring something and it still doesn't do the thing you actually wanted. and then you're back to doing it manually anywaysaw this happen with non-technical teammates trying agents for the first time. they bounced before ever getting to the useful part. something that just works straight from the browser changes who can actually use this stuffcurious what the skill store unlocks, are skills more like prebuilt workflows, or closer to plugins that extend what the agent can do?"
+            "text": "the \"no setup, no learning curve\" framing is exactly the problem i kept hitting with agent tools. you spend an hour configuring something and it still doesn't do the thing you actually wanted. and then you're back to doing it manually anyway saw this happen with non-technical teammates trying agents for the first time. they bounced before ever getting to the useful part. something that just works straight from the browser changes who can actually use this stuff curious what the skill store unlocks, are skills more like prebuilt workflows, or closer to plugins that extend what the agent can do?"
           },
           {
             "user": "[REDACTED]",
-            "text": "been following Happycapy for a while and the \"no setup, just open it\" angle is genuinely the right call for a broad audience. the friction of setting up claude code locally or managing credentials is non-trivial for most people who aren't already deep into dev tooling.what i'm most curious about is how it handles context between sessions, especially for longer running tasks. that's usually where browser-based agents get awkward - the agent has to rebuild mental context on every open. would love to know if there's any session persistence built in or if that's on the roadmap."
+            "text": "been following Happycapy for a while and the \"no setup, just open it\" angle is genuinely the right call for a broad audience. the friction of setting up claude code locally or managing credentials is non-trivial for most people who aren't already deep into dev tooling. what i'm most curious about is how it handles context between sessions, especially for longer running tasks. that's usually where browser-based agents get awkward - the agent has to rebuild mental context on every open. would love to know if there's any session persistence built in or if that's on the roadmap."
           },
           {
             "user": "[REDACTED]",
-            "text": "Really cool concept, congrats on the launch!The idea of making agent-native computing accessible without the terminal/self-hosting overhead resonates a lot. I've been building in the OpenClaw space since day one, and the security threat vectors are...let's just say...terrible (putting it nicely lol). When you're giving an agent full shell access to your actual system, the attack vectors get pretty real pretty fast. Prompt injection, unintended file modifications, credential exposure, etc.Love that you guys are leaning into built-in sandboxing and running directly in the browser as the approach here. Curious to hear more about what that looks like in practice though:How does the browser sandbox constrain what the agent can do?Is there a permission model for different actions (like file access vs. web requests vs. system commands)?How are you thinking about prompt injection risks specifically, since the agent is still interacting with untrusted web content even inside a sandboxed browser environment?Genuinely rooting for you guys on this! If the sandboxing story is solid, this could be a huge differentiator over the self-hosted alternatives. My current multi-agent OS includes a mixture of protocols, not just openclaw, so always looking for new tools and methods."
+            "text": "Really cool concept, congrats on the launch! The idea of making agent-native computing accessible without the terminal/self-hosting overhead resonates a lot. I've been building in the OpenClaw space since day one, and the security threat vectors are...let's just say...terrible (putting it nicely lol). When you're giving an agent full shell access to your actual system, the attack vectors get pretty real pretty fast. Prompt injection, unintended file modifications, credential exposure, etc. Love that you guys are leaning into built-in sandboxing and running directly in the browser as the approach here. Curious to hear more about what that looks like in practice though: How does the browser sandbox constrain what the agent can do? Is there a permission model for different actions (like file access vs. web requests vs. system commands)? How are you thinking about prompt injection risks specifically, since the agent is still interacting with untrusted web content even inside a sandboxed browser environment? Genuinely rooting for you guys on this! If the sandboxing story is solid, this could be a huge differentiator over the self-hosted alternatives. My current multi-agent OS includes a mixture of protocols, not just openclaw, so always looking for new tools and methods."
           },
           {
             "user": "[REDACTED]",
