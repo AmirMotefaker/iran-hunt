@@ -139,8 +139,11 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
     texts = parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''));
   }
   const faComments: PHComment[] = originals
-    .map((c, i) => ({ user: c.user, text: sanitize(texts[i] || c.text) }))
-    .filter((c) => c.text.length > 5 && !String(c.user).includes('REDACTED'));
+    .map((c, i) => {
+      const name = c.user && !String(c.user).includes('REDACTED') ? c.user : `کاربر ProductHunt ${i + 1}`;
+      return { user: name, text: sanitize(texts[i] || c.text) };
+    })
+    .filter((c) => c.text.length > 5);
 
   const eqRaw = parsed.iranEquivalent ?? {};
   const iranEquivalent: IranEquivalent = {

@@ -36,9 +36,12 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
       if (htmlRes.ok) {
         const $ = load(await htmlRes.text());
         const names: string[] = [];
-        $('a[href^="/@"]').each((_, el) => {
-          const name = $(el).text().trim();
-          if (name && !name.startsWith('@') && name.length > 2 && name.length < 40 && !name.includes('REDACTED') && /[A-Za-z]/.test(name)) names.push(name);
+        // چندین سلکتور مختلف برای یافتن نام‌ها
+        $('a[href^="/@"], [data-test="comment-author"], .comment-author-name, [class*="author"]').each((_, el) => {
+          const name = $(el).text().trim().replace(/^@/, '');
+          if (name && name.length > 2 && name.length < 40 && !name.includes('REDACTED') && /[A-Za-z]/.test(name)) {
+            if (!names.includes(name)) names.push(name);
+          }
         });
         if (names.length) return fromApi.map((c: PHComment, i: number) => ({ user: names[i] || c.user, text: c.text }));
       }

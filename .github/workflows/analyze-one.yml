@@ -6,7 +6,7 @@ on:
       slug:
         description: 'Product slug (e.g. coldtea)'
         required: false
-        default: 'coldtea'
+        default: '__backfill__'
 
 permissions:
   contents: write
@@ -33,7 +33,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TARGET_SLUG: ${{ github.event.inputs.slug }}
-        run: bun run src/scripts/test-one.ts
+        run: if [ "$TARGET_SLUG" = "__backfill__" ]; then bun run src/scripts/backfill-comments.ts; else bun run src/scripts/test-one.ts; fi
 
       - name: Commit data
         run: |
