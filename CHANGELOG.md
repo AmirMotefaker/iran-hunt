@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.0...v1.17.1) (2026-08-17)
+
+
+### Bug Fixes
+
+* lenient comment filter + better scraping + backfill workflow ([1337987](https://github.com/AmirMotefaker/iran-hunt/commit/13379876700477a8e79667928f7fc646c6d0bf3a))
+
 # [1.17.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.16.2...v1.17.0) (2026-08-13)
 
 
