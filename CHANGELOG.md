@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.1...v1.17.2) (2026-08-17)
+
+
+### Bug Fixes
+
+* rewrite ai-analyzer with lenient filter (CRLF-safe) ([9b9842b](https://github.com/AmirMotefaker/iran-hunt/commit/9b9842b1a9acee89128bcad6b765822bdcb342db))
+
 ## [1.17.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.0...v1.17.1) (2026-08-17)
 
 
