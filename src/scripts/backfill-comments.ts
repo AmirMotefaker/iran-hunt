@@ -28,6 +28,13 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
     .filter((c: PHComment) => c.text.length > 10);
 }
 
+function fallbackComments(p: Product): PHComment[] {
+  return (p.comments ?? []).slice(0, 4).map((c, i) => ({
+    user: c.user && !String(c.user).includes('REDACTED') ? c.user : `کاربر ProductHunt ${i + 1}`,
+    text: c.text,
+  }));
+}
+
 async function main() {
   const token = process.env.PH_API_TOKEN;
   if (!token) { console.error('❌ PH_API_TOKEN missing'); process.exit(1); }
@@ -43,10 +50,7 @@ async function main() {
     }
   }
 
-  const targets = [...uniq.values()]
-    .filter((p) => !p.faComments?.length)
-    .slice(0, MAX);
-
+  const targets = [...uniq.values()].filter((p) => !p.faComments?.length).slice(0, MAX);
   console.log(`🔄 Backfill: ${targets.length} products need comments`);
 
   let done = 0;
@@ -55,11 +59,18 @@ async function main() {
     try {
       const fresh = await fetchComments(token, p.slug);
       if (fresh.length) p.comments = fresh;
-      const ai = await analyzeProduct(p);
-      p.faDescription = ai.faDescription;
-      p.faComments = ai.faComments;
-      p.iranEquivalent = ai.iranEquivalent;
-      p.aiReview = ai.aiReview;
+
+      let ai: any = null;
+      try { ai = await analyzeProduct(p); } catch (e: any) { console.warn(`   ⚠️  AI: ${e.message}`); }
+
+      if (ai) {
+        p.faDescription = ai.faDescription;
+        p.faComments = ai.faComments;
+        p.iranEquivalent = ai.iranEquivalent;
+        p.aiReview = ai.aiReview;
+      }
+      // ✅ تضمین: اگه AI خراب شد، کامنت اصلی رو بذار تا بخش خالی نمونه
+      if (!p.faComments?.length) p.faComments = fallbackComments(p);
 
       for (const k of KEYS) {
         for (const t of data.periods[k] ?? []) {
