@@ -1,3 +1,10 @@
+## [1.17.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.2...v1.17.3) (2026-08-17)
+
+
+### Bug Fixes
+
+* multi-model Gemini fallback + smaller backfill batches ([9a5bba3](https://github.com/AmirMotefaker/iran-hunt/commit/9a5bba37640b26c94534cce8193bd0e8e9068be7))
+
 ## [1.17.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.1...v1.17.2) (2026-08-17)
 
 
