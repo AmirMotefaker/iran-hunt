@@ -37,7 +37,7 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
         const $ = load(await htmlRes.text());
         const names: string[] = [];
         // چندین سلکتور مختلف برای یافتن نام‌ها
-        $('a[href^="/@"], [data-test="comment-author"], .comment-author-name, [class*="author"]').each((_, el) => {
+        $('a[href^="/@"], [data-test="comment-author"], [class*="author"]').each((_, el) => {
           const name = $(el).text().trim().replace(/^@/, '');
           if (name && name.length > 2 && name.length < 40 && !name.includes('REDACTED') && /[A-Za-z]/.test(name)) {
             if (!names.includes(name)) names.push(name);

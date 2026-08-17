@@ -9,7 +9,7 @@ export interface AIAnalysis {
 
 function normalizeDigits(text: string): string {
   return text
-    .replace(/[۰-۹]/g, (d) => String('۰۱۳۴۵۷۸۹'.indexOf(d)))
+    .replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)))
     .replace(/[٠-٩]/g, (d) => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d)));
 }
 
@@ -44,21 +44,20 @@ ${commentsEn || '—'}
 
 قوانین سخت:
 - خروجی فقط یک JSON معتبر
-- تمام متن‌ها فارسی روان، حرفه‌ای و بدون غلط؛ جمله‌بندی دقیق
-- کاراکتر/کلمه چینی، ویتنامی یا هر زبان دیگر ممنوع؛ کلمه نامفهوم ممنوع
-- هیچ پیشوند/پسوند اضافی (مثل IR یا FA) به نام محصول نچسبان
+- تمام متن‌ها فارسی روان، حرفه‌ای و بدون غلط
+- کاراکتر/کلمه چینی، ویتنامی، روسی یا هر زبان دیگر ممنوع
 - [REDACTED] و سانسور ممنوع
-- faComments: آرایه رشته‌ها = ترجمه دقیق و روان نظرات بالا، به همان ترتیب و همان تعداد
-- estimatedBudget فقط متن فارسی واقعی مثل: «۲ تا  میلیارد تومان»
+- faComments: آرایه رشته‌ها = ترجمه دقیق نظرات بالا، به همان ترتیب و همان تعداد
+- estimatedBudget فقط متن فارسی مثل: «۲ تا  میلیارد تومان»
 
 خروجی:
 {
-  "faDescription": "ترجمه کامل و جامع تمام توضیحات محصول به فارسی؛ حداقل ۴ جمله؛ روان و دقیق",
+  "faDescription": "ترجمه کامل توضیحات محصول به فارسی؛ حداقل ۴ جمله",
   "faComments": ["ترجمه نظر ۱", "..."],
   "iranEquivalent": {
     "productName": "نام پیشنهادی برند ایرانی",
-    "description": "توضیح کامل و حرفه‌ای نسخه ایرانی (۳-۴ جمله)",
-    "marketOpportunity": "تحلیل عمیق فرصت بازار ایران (۳ جمله)",
+    "description": "توضیح کامل نسخه ایرانی (۳-۴ جمله)",
+    "marketOpportunity": "تحلیل فرصت بازار ایران (۳ جمله)",
     "estimatedBudget": "مثلاً: ۲ تا ۴ میلیارد تومان",
     "targetAudience": "مخاطب هدف دقیق",
     "challenges": ["چالش ۱", "چالش ۲", "چالش ۳"],
@@ -66,7 +65,7 @@ ${commentsEn || '—'}
     "techStack": ["Next.js", "PostgreSQL"],
     "confidence": 75
   },
-  "aiReview": "تحلیل جامع و حرفه‌ای با این ساختار دقیق (هر بخش ۲-۴ جمله یا بولت):\\n🔹 مسئله و راه‌حل:\\n...\\n🔹 معماری و تکنولوژی احتمالی:\\n...\\n🔹 مدل درآمدی:\\n...\\n🔹 نقاط قوت:\\n- ...\\n🔹 نقاط ضعف و ریسک‌ها:\\n- ...\\n🔹 نکته طلایی برای بازار ایران:\\n..."
+  "aiReview": "تحلیل جامع با ساختار (هر بخش ۲-۴ جمله یا بولت):\\n🔹 مسئله و راه‌حل:\\n...\\n🔹 معماری و تکنولوژی:\\n...\\n🔹 مدل درآمدی:\\n...\\n🔹 نقاط قوت:\\n- ...\\n🔹 نقاط ضعف و ریسک‌ها:\\n- ...\\n🔹 نکته طلایی برای بازار ایران:\\n..."
 }`;
 }
 
@@ -121,18 +120,18 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
 
   if (process.env.GEMINI_API_KEY) {
     try { text = await callGemini(process.env.GEMINI_API_KEY, prompt); provider = 'gemini'; }
-    catch (e: any) { errors.push(`gemini: ${e.message}`); }
+    catch (e: any) { errors.push(`gemini: ${e.message}`); console.warn(`   ⚠️  gemini: ${e.message}`); }
   }
   if (!text && process.env.GROQ_API_KEY) {
     try { text = await callGroq(process.env.GROQ_API_KEY, prompt); provider = 'groq'; }
-    catch (e: any) { errors.push(`groq: ${e.message}`); }
+    catch (e: any) { errors.push(`groq: ${e.message}`); console.warn(`   ⚠️  groq: ${e.message}`); }
   }
   if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no key'}`);
   console.log(`   🤖 provider: ${provider}`);
 
   const parsed = tryParse(text);
 
-  // نام کاربران ۱۰۰٪ از دیتای واقعی ProductHunt
+  // ✅ فیلتر آسان‌گیر: اگه نام واقعی نبود، fallback — کامنت هرگز حذف نمیشه
   const originals = (p.comments ?? []).slice(0, 6);
   let texts: string[] = [];
   if (Array.isArray(parsed.faComments)) {
