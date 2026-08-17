@@ -19,7 +19,7 @@ function sanitize(text: string): string {
     .replace(/\\n/g, '\n')
     .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\u0400-\u04ff\uac00-\ud7af\u3131-\u3163]/g, '')
     .replace(/(^|[\s،.؛:!؟?])IR(?=[\s،.؛:!؟?]|$)/g, ' ')
-    .replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d])
+    .replace(/[0-9]/g, (d) => '۰۱۳۴۵۶۷۸۹'[+d])
     .replace(/[ \t]{2,}/g, ' ')
     .trim();
 }
@@ -31,53 +31,52 @@ function cleanJson(text: string): string {
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export function buildPrompt(p: Product): string {
-  const originals = (p.comments ?? []).slice(0, 6);
+  const originals = (p.comments ?? []).slice(0, 4);
   const commentsEn = originals.map((c, i) => `${i + 1}) ${c.text}`).join('\n');
   return `تو یک مترجم حرفه‌ای فارسی و تحلیل‌گر ارشد استارتاپ هستی.
 
 محصول: ${p.name}
 تگلاین: ${p.tagline}
-توضیحات کامل: ${(p.description ?? '').slice(0, 1200)}
+توضیحات: ${(p.description ?? '').slice(0, 800)}
 
 نظرات واقعی کاربران (فقط متن):
 ${commentsEn || '—'}
 
-قوانین سخت:
-- خروجی فقط یک JSON معتبر
-- تمام متن‌ها فارسی روان، حرفه‌ای و بدون غلط
-- کاراکتر/کلمه چینی، ویتنامی، روسی یا هر زبان دیگر ممنوع
-- [REDACTED] و سانسور ممنوع
-- faComments: آرایه رشته‌ها = ترجمه دقیق نظرات بالا، به همان ترتیب و همان تعداد
-- estimatedBudget فقط متن فارسی مثل: «۲ تا  میلیارد تومان»
+قوانین: خروجی فقط JSON معتبر؛ متن‌ها فارسی روان؛ کلمات چینی/روس/ویتنامی ممنوع؛ [REDACTED] ممنوع؛ faComments آرایه رشته‌ها به همان ترتیب و تعداد؛ estimatedBudget متن فارسی مثل «۲ تا ۴ میلیارد تومان».
 
 خروجی:
 {
-  "faDescription": "ترجمه کامل توضیحات محصول به فارسی؛ حداقل ۴ جمله",
+  "faDescription": "ترجمه کامل توضیحات (حداقل ۴ جمله)",
   "faComments": ["ترجمه نظر ۱", "..."],
   "iranEquivalent": {
-    "productName": "نام پیشنهادی برند ایرانی",
-    "description": "توضیح کامل نسخه ایرانی (۳-۴ جمله)",
-    "marketOpportunity": "تحلیل فرصت بازار ایران (۳ جمله)",
-    "estimatedBudget": "مثلاً: ۲ تا ۴ میلیارد تومان",
-    "targetAudience": "مخاطب هدف دقیق",
-    "challenges": ["چالش ۱", "چالش ۲", "چالش ۳"],
-    "monetization": ["روش ۱", "روش ۲"],
-    "techStack": ["Next.js", "PostgreSQL"],
-    "confidence": 75
+    "productName": "...", "description": "(۳ جمله)", "marketOpportunity": "(۲ جمله)",
+    "estimatedBudget": "۲ تا  میلیارد تومان", "targetAudience": "...",
+    "challenges": ["...", "..."], "monetization": ["...", "..."],
+    "techStack": ["Next.js", "PostgreSQL"], "confidence": 75
   },
-  "aiReview": "تحلیل جامع با ساختار (هر بخش ۲-۴ جمله یا بولت):\\n🔹 مسئله و راه‌حل:\\n...\\n🔹 معماری و تکنولوژی:\\n...\\n🔹 مدل درآمدی:\\n...\\n🔹 نقاط قوت:\\n- ...\\n🔹 نقاط ضعف و ریسک‌ها:\\n- ...\\n🔹 نکته طلایی برای بازار ایران:\\n..."
+  "aiReview": "تحلیل جامع با ساختار:\\n🔹 مسئله و راه‌حل:\\n...\\n🔹 معماری و تکنولوژی:\\n...\\n🔹 مدل درآمدی:\\n...\\n🔹 نقاط قوت:\\n- ...\\n🔹 نقاط ضعف:\\n- ...\\n🔹 نکته طلایی برای ایران:\\n..."
 }`;
 }
 
 async function callGemini(key: string, prompt: string): Promise<string> {
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.4 } }),
-  });
-  if (!res.ok) throw new Error(`Gemini HTTP ${res.status}`);
-  const json = await res.json();
-  return json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+  const models = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+  let lastErr = '';
+  for (const model of models) {
+    try {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.4 } }),
+      });
+      if (res.ok) {
+        const json = await res.json();
+        const t = json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+        if (t) { console.log(`   ✨ model: ${model}`); return t; }
+      }
+      lastErr = `Gemini ${model}: HTTP ${res.status}`;
+    } catch (e: any) { lastErr = e.message; }
+  }
+  throw new Error(lastErr);
 }
 
 async function callGroq(key: string, prompt: string): Promise<string> {
@@ -87,7 +86,7 @@ async function callGroq(key: string, prompt: string): Promise<string> {
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
       body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.4, max_tokens: 4096 }),
     });
-    if (res.status === 429) { await sleep(15000); continue; }
+    if (res.status === 429) { await sleep(8000); continue; }
     if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
     const json = await res.json();
     return json.choices?.[0]?.message?.content ?? '';
@@ -131,8 +130,7 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
 
   const parsed = tryParse(text);
 
-  // ✅ فیلتر آسان‌گیر: اگه نام واقعی نبود، fallback — کامنت هرگز حذف نمیشه
-  const originals = (p.comments ?? []).slice(0, 6);
+  const originals = (p.comments ?? []).slice(0, 4);
   let texts: string[] = [];
   if (Array.isArray(parsed.faComments)) {
     texts = parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''));
