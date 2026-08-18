@@ -27,7 +27,7 @@
         "maker": "Pritesh Kumar",
         "makerTitle": "Open Source Voice Agent Platform- Dograh",
         "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 548,
+        "votes": 551,
         "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -128,7 +128,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 505,
+        "votes": 508,
         "websiteUrl": "https://www.producthunt.com/r/QE45KIR5XX72OH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -338,7 +338,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-13T07:01:00Z",
-        "votes": 445,
+        "votes": 448,
         "websiteUrl": "https://www.producthunt.com/r/ZLCM32IRDVPZ5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -639,7 +639,7 @@
         "maker": "Daniel Zaitzow",
         "makerTitle": "Spearheading Ops at Outcome 🚀",
         "featuredAt": "2026-08-14T07:01:00Z",
-        "votes": 387,
+        "votes": 388,
         "websiteUrl": "https://www.producthunt.com/r/GBFHMSYXVPFMF7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -847,12 +847,24 @@
         "maker": "Akarsh Hegde",
         "makerTitle": "Founder @ meridiona.com",
         "featuredAt": "2026-08-17T07:01:00Z",
-        "votes": 324,
+        "votes": 435,
         "websiteUrl": "https://www.producthunt.com/r/Q3UR7I2PIWKD7D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hey Product Hunt! 👋 Three months ago, I quit my job to build Meridian. My co-founder and I kept running into the same problem many developers face: we would ask claude to write an update, then spend ten minutes reconstructing the context it had missed. It knew what we told it, but not the four unexpected problems we had solved along the way. That unplanned work is real, and bigger than most people think. I posted about it on Reddit: \"We software developers massively underestimate how much unplanned work we do every single sprint\" and it went viral, which told us we weren't the only ones feeling this. Meridian does the remembering for us. It runs quietly in the background, groups the day into a timeline, matches the work to open Jira and GitHub tickets, and drafts the update - so by the end of the day there's a work log, a standup note, and a daily summary ready to paste, not write. A few things I care about, as a developer myself: - We care deeply about privacy - nothing leaves your device until you hit approve. - Open source - you can audit exactly what it's doing. - Free for individual developers. No seat, no credit card. - Bring your own AI - runs on the Claude Code, Cursor, or Codex CLI you already have, or Groq for free if you don't. Try it Free download — Meridian for macOS (Apple Silicon, macOS 14+) or Meridian for Windows (Win 10/11, 64-bit). Everything else is at meridiona.com , and if you like what we're building, star us on GitHub ."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I'm excited to give it a try! But I'm running into this issue where it's not recognizing Claude Code on my computer – I've double checked all the permissions it needed and restarted my computer, unsure if it would potentially be a setting on the Claude end or something. Would appreciate any advice, thanks!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I love this idea but I ran into the same issue I have run into with other similar tools. They consume way too much memory. Do you think it works well only with computers with a lot of RAM."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@adityaharish2002 the AIdrafting keeps timing out after running for 1-2 minutes. love the concept. will keep trying!"
           },
           {
             "user": "[REDACTED]",
@@ -869,18 +881,6 @@
           {
             "user": "[REDACTED]",
             "text": "Loved the onboarding @akarsh_hegde"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch! Being a dev myself, this is hitting home."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Two more questions: This seems like it could replace obsidian for creating a 2nd brain that Claude leverages. Does it integrate/pull context from granola transcripts?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Can it post a weekly bullet point list of work a user completed? I spend about an hour creating a bullet point list of what I completed the previous week."
           }
         ],
         "makerTwitter": "",
@@ -930,19 +930,23 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 We’re excited to introduce Clara - an AI SDR by TruGen AI.For the past few months, our team has been heads-down building Clara with one goal in mind: helping companies turn website traffic into qualified pipeline.We kept seeing the same challenge - companies invest heavily in bringing visitors to their websites, but most websites still rely on forms, chatbots, or waiting for a sales rep to follow up. High-intent visitors don’t always wait.That’s where Clara comes in.🤖 What can Clara do?✅ Engage website visitors in real time✅ Qualify leads based on their intent✅ Give personalized product demos✅ Answer questions and handle objections✅ Book meetings automatically✅ Integrate with your CRM and existing sales stack✅ Work 24/7 across major languagesClara learns from your product docs, pitch decks, FAQs, and sales content, so every conversation is tailored to your product and your customers.🚀 The result?More conversations with the right prospects.More qualified leads.More meetings from the traffic you already have.No forms. No waiting. No extra headcount.Clara runs on your website 24/7, giving every visitor the opportunity to have a sales conversation whenever they’re ready.We built Clara as part of our vision at TruGen AI to create AI teammates that can actually work alongside your team - not just answer questions.👉 Try Clara: https://clarasdr.ai/We’d love to hear your feedback, thoughts, and ideas as we continue building Clara. 🚀"
+            "text": "Hey Product Hunt 👋 We’re excited to introduce Clara - an AI SDR by TruGen AI. For the past few months, our team has been heads-down building Clara with one goal in mind: helping companies turn website traffic into qualified pipeline. We kept seeing the same challenge - companies invest heavily in bringing visitors to their websites, but most websites still rely on forms, chatbots, or waiting for a sales rep to follow up. High-intent visitors don’t always wait. That’s where Clara comes in. 🤖 What can Clara do? ✅ Engage website visitors in real time ✅ Qualify leads based on their intent ✅ Give personalized product demos ✅ Answer questions and handle objections ✅ Book meetings automatically ✅ Integrate with your CRM and existing sales stack ✅ Work 24/7 across major languages Clara learns from your product docs, pitch decks, FAQs, and sales content, so every conversation is tailored to your product and your customers. 🚀 The result? More conversations with the right prospects. More qualified leads. More meetings from the traffic you already have. No forms. No waiting. No extra headcount. Clara runs on your website 24/7, giving every visitor the opportunity to have a sales conversation whenever they’re ready. We built Clara as part of our vision at TruGen AI to create AI teammates that can actually work alongside your team - not just answer questions. 👉 Try Clara: https://clarasdr.ai/ We’d love to hear your feedback, thoughts, and ideas as we continue building Clara. 🚀"
           },
           {
             "user": "[REDACTED]",
-            "text": "congrats on the launch @bhavyasree @hemantha_vijay1 . Good to see you folks are trending at #1.curious, how are you thinking about measuring Clara’s performance beyond meetings booked? would love to know what signals you use to decide whether a conversation is actually a qualified opportunity."
+            "text": "congrats on the launch @bhavyasree @hemantha_vijay1 . Good to see you folks are trending at #1. curious, how are you thinking about measuring Clara’s performance beyond meetings booked ? would love to know what signals you use to decide whether a conversation is actually a qualified opportunity."
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch Bhavya 🙌🏾Reading this from South Africa and cheering the TruGen team from the sidelines. The framing of \"the website itself as the first sales conversation\" (Zac's line, but you built the thing) is the shift a lot of founders are still catching up to. Wishing you a huge launch day and week🚀"
+            "text": "Congrats on the launch Bhavya 🙌🏾 Reading this from South Africa and cheering the TruGen team from the sidelines. The framing of \"the website itself as the first sales conversation\" (Zac's line, but you built the thing) is the shift a lot of founders are still catching up to. Wishing you a huge launch day and week🚀"
           },
           {
             "user": "[REDACTED]",
-            "text": "Always happy to share what we’ve been building with the Product Hunt community : )We’ve been working on making website conversations more meaningful - helping teams engage visitors, understand their intent, give personalized demos, and turn those conversations into real sales opportunities.👉 Try Clara: https://clarasdr.ai/Looking forward to hearing your feedback and thoughts! 🙌"
+            "text": "Hello Product Hunt community! 👋 I’m the CTO &amp; Co-founder at TruGen AI , and for the past few months, our team has been building @Clara AI SDR with one mindset: every website visitor is an opportunity and shouldn’t go unattended. Instead of making visitors fill out forms or wait for a sales rep, Clara engages them in real time, understands their intent, qualifies them, gives personalized demos, and helps move the conversation forward. We’re finally excited to share what we’ve built with the Product Hunt community! 🚀 👉 Try Clara: https://clarasdr.ai/ Would really appreciate your feedback and thoughts as you check out Clara. Thanks so much for the support! 🙌"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Always happy to share what we’ve been building with the Product Hunt community : ) We’ve been working on making website conversations more meaningful - helping teams engage visitors, understand their intent, give personalized demos, and turn those conversations into real sales opportunities. 👉 Try Clara: https://clarasdr.ai/ Looking forward to hearing your feedback and thoughts! 🙌"
           },
           {
             "user": "[REDACTED]",
@@ -1401,7 +1405,11 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 Austin here, founder of Taku.Taku is changing how people discover and use AI, the way TikTok changed how we watch video.Before Taku: install Codex, hunt down the right tools, write your prompts, set up APIs, iterate, repeat. Then babysit the whole thing.With Taku: the best setups find you. Copy from the pros, done.I previously cofounded Sapient Intelligence that raised over $22million in seed funding, and assembled a team from frontier labs like, Anthropic, Deepmind, Deepseek etc.I was building a coding agent at the time and I realized AI wasn't making my life easier. It was making it harder. A new tool every week. New prompts, new configs, new workflows to babysit.And me? I'm a lazy potato. I want shortcuts. I wanted to copy, or honestly just steal, from people who know their shit. That one lazy thought resonated with more people than anything I'd actually built. So we built Taku.For the everyday Joe: copy a pro's setup and it runs out of the box. From there, Taku learns from every interaction and recommends the tools pros built for exactly what you need. The more you use it, the better it gets.For creators: you've pumped out an incredible wave of skills and open-source projects, but getting noticed is hard, and getting paid is even harder. Taku turns your work into user-friendly AI apps and recommends them to people at the exact moment they need them.Give it a try and tell us how to make it better."
+            "text": "Hey Product Hunt 👋 Austin here, founder of Taku. Taku is changing how people discover and use AI, the way TikTok changed how we watch video. Before Taku: install Codex, hunt down the right tools, write your prompts, set up APIs, iterate, repeat. Then babysit the whole thing. With Taku: the best setups find you. Copy from the pros, done. I previously cofounded Sapient Intelligence that raised over $22million in seed funding, and assembled a team from frontier labs like, Anthropic, Deepmind, Deepseek etc. I was building a coding agent at the time and I realized AI wasn't making my life easier. It was making it harder. A new tool every week. New prompts, new configs, new workflows to babysit. And me? I'm a lazy potato. I want shortcuts. I wanted to copy, or honestly just steal, from people who know their shit. That one lazy thought resonated with more people than anything I'd actually built. So we built Taku. For the everyday Joe: copy a pro's setup and it runs out of the box. From there, Taku learns from every interaction and recommends the tools pros built for exactly what you need. The more you use it, the better it gets. For creators: you've pumped out an incredible wave of skills and open-source projects, but getting noticed is hard, and getting paid is even harder. Taku turns your work into user-friendly AI apps and recommends them to people at the exact moment they need them. Give it a try and tell us how to make it better."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "the creator side is the part I'm most curious about. you said getting paid is even harder than getting noticed, and Taku turns work into apps and recommends them at the right moment - but what does the actual payout look like for the creator when someone runs their setup, is there a rev share per use, a one-time fee, or is discovery itself the whole value prop for now"
           },
           {
             "user": "[REDACTED]",
@@ -1413,7 +1421,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "As a designer (zero coding), this is the best AI desktop app I've used. I am not a coder at all, I've lost count of the hours spent reading instruction.md files on GitHub trying to make \"agent skills\" work, and Taku turned that all into just a few clicks.Made an album app in like 10 mins, more design skills and bundles please 🙏"
+            "text": "As a designer (zero coding), this is the best AI desktop app I've used. I am not a coder at all, I've lost count of the hours spent reading instruction.md files on GitHub trying to make \"agent skills\" work, and Taku turned that all into just a few clicks. Made an album app in like 10 mins, more design skills and bundles please 🙏"
           },
           {
             "user": "[REDACTED]",
@@ -1426,10 +1434,6 @@
           {
             "user": "[REDACTED]",
             "text": "\"copy from the pros, done\" is the sharp bit here. when two pros have opposite setups for the same job, does taku surface both or just converge on whichever's more popular?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Very interesting idea! I know I get overwhelmed with the stops to try all these new AI projects, and Taku is making it easier!I'm trying it out now and want to look at specific use cases for this platform. Can't wait!"
           }
         ],
         "makerTwitter": ""
@@ -1558,7 +1562,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-17T07:01:00Z",
-        "votes": 278,
+        "votes": 379,
         "websiteUrl": "https://www.producthunt.com/r/VHCEJOVH4KWCVJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1567,31 +1571,31 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Huge congrats on the launch! \"Stop babysitting your AI agents\" hits the exact pain point so many builders and teams are facing right now as agentic workflows scale. Love seeing tools that focus on execution reliability and autonomy rather than just hype. Excited to see how this evolves and saves teams endless hours!"
+            "text": "This feels like the missing layer between “we should build an agent for this” and actually having one running in production. Really curious to see how Omni handles debugging and improving agents once they’re live. Congrats on the launch!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch! sounds like an interesting tech. Can you please share more details about the runtime environment? are you using some off-the-shelf harness or did you build your own?"
+            "text": "Congrats on the launch! Moving agents from local setups to cloud environments with automated testing on mock data solves a massive bottleneck. The custom runtime and model benchmarking capabilities sound impressive. Best of luck today! 🚀"
           },
           {
             "user": "[REDACTED]",
-            "text": "the \"stopping when the lid closes\" line hit home - I was literally in a forum thread yesterday about caffeinate vs actual lid-close sleep on macOS for this exact reason, so this feels like the real fix past that hack. curious about the \"compares models to pick the right one for the task\" part specifically - once an agent is running fine on a given model, what triggers a re-comparison? is it every scheduled run, only on failure, or only when I ask, and if it decides to switch mid-flight does that need my approval or does it just swap silently"
+            "text": "Really like how this takes away a lot of the annoying setup around running agents in the cloud. The auto-debugging part is especially interesting — feels like something that could save a ton of time. Curious to see how it works in practice!"
           },
           {
             "user": "[REDACTED]",
-            "text": "The mock data testing before putting an agent in the cloud is a really useful touch. It could save a lot of debugging time later."
+            "text": "@ran_sheinberg The mock-data-to-cloud path is the part that stands out here. For an agent that can repair failed runs, what is the default approval boundary: can Omni change prompts, models, schedules, and tool permissions autonomously, or are higher-risk changes proposed with a diff and rollback point first? That audit trail seems especially important when the same agent can reach production systems."
           },
           {
             "user": "[REDACTED]",
-            "text": "Real question, how much of the 'fixes itself' actually works vs needs me to step in. Not being cynical, I've just been let down by this claim before."
+            "text": "needed this!!"
           },
           {
             "user": "[REDACTED]",
-            "text": "what happens if a scheduled run hits something that needs a human decision. does it wait, ping someone, or just die?"
+            "text": "Really like the “stop babysitting your agents” framing. Getting an agent working locally is pretty easy now, but keeping it running reliably in the cloud is still way more annoying than it should be. Curious how Omni handles long-running agents when something fails halfway through a task. Does it automatically retry/resume with the existing context, or does the developer need to define that behavior? Congrats on the launch!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch! BTW, when a target site changes its layout, does the Bot auto-detect the break and self-heal, or does it silently start returning bad data until you notice?"
+            "text": "The “stop babysitting your agents” part got me 😅 I’ve had way too many workflows that work perfectly until I close my laptop or something quietly breaks overnight. Really like the idea of taking care of the deployment and the messy debugging afterward. Congrats on the launch!"
           }
         ],
         "makerTwitter": ""
@@ -1692,7 +1696,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-17T07:01:00Z",
-        "votes": 274,
+        "votes": 366,
         "websiteUrl": "https://www.producthunt.com/r/XEDS2MD2VPICZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1701,27 +1705,31 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Really cool! Delivering a software end to end by doing whole things using workflows. Congrats on launch."
+            "text": "delivery not just coding is the right frame 🚀 congrats on #3! whos the first buyer, eng leads?"
           },
           {
             "user": "[REDACTED]",
-            "text": "Super cool concept moving from coding to full agentic software delivery. Congrats on the launch!"
+            "text": "Interesting launch! What was the original “aha” moment that made you decide this problem was worth building a dedicated product for? Would love to hear the story behind Clears."
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch! The risk/confidence scoring before autonomous execution is the part I want to understand better, is that scoring done statically from the ticket description, or does Clears actually inspect the codebase to calibrate complexity before spinning up the agent session?"
+            "text": "One thing I always look for with products like this is how quickly they fit into an existing workflow without adding another layer of complexity. Would love to hear what early users think."
           },
           {
             "user": "[REDACTED]",
-            "text": "A lot of teams have AI tools already, but connecting them into one workflow is where things seems to get messy. Intersting direction."
+            "text": "@danielnakash Moving from just AI autocomplete to full SDLC execution makes so much sense. Jumping straight from user stories to PRs removes a massive chunk of context switching for devs. Curious how Clears handles complex CI pipelines and existing repos when testing those PRs before human review?"
           },
           {
             "user": "[REDACTED]",
-            "text": "What caught my attention is the focus on the whole software delivery process, not just code generation. That feels like the harder problem to slove."
+            "text": "Code generation is getting pretty good already, but validation still feels like a huge bottleneck. How far does Clears go on the QA side — unit tests, CI, system tests, E2E?"
           },
           {
             "user": "[REDACTED]",
-            "text": "👋 Hi Product Hunt, I’m Tzahi, co-founder and CEO of Clears.ai . Before starting Clears, I spent more than 10 years leading R&amp;D teams. Over the last two years, my Co-founder and I have spoken with hundreds of CTOs and VP R&amp;Ds about how AI is changing software development. We kept seeing the same thing: developers were writing code faster with tools like Claude Code and Cursor, but their organizations weren’t shipping significantly faster. The bottleneck had shifted from coding to execution. Tasks still require context, clarification, coordination, validation, and constant follow-up before they become production-ready code. We built Clears to automate that process. Clears is an agentic execution platform for autonomous software delivery, helping R&amp;D organizations move beyond individual AI tools to agentic execution across the entire SDLC.&nbsp; What makes Clears different: 🔹 Starts with the right context Clears creates and continuously maintains a deep organizational context layer that enables agents to execute complete workflows, from requirements and implementation through validation.&nbsp;&nbsp; 🔹 Delegates the right work Clears scores tickets for risk, complexity, and confidence before determining what is ready for autonomous execution. 🔹 Runs the whole backlog Every ticket gets its own live agent session, so teams can execute work in parallel and step in whenever needed. 🔹 Keep your existing workflow Two-way sync with your existing tools means there’s no new system for your team to adopt. Teams can connect Clears in about 30 minutes and start running real tasks the same day. We’re excited to launch on Product Hunt and hear what builders and engineering leaders think. We’ll be here throughout the day answering questions and listening to your feedback. You can try Clears with your own team through our free trial and see how it fits into your workflow: [FREE TRIAL] Thank you for checking out Clears 🙏 Tzahi Co-founder &amp; CEO, Clears.ai"
+            "text": "The simplicity here is what caught my attention. Products that remove friction from an everyday workflow can end up being surprisingly valuable. Excited to see where Clears goes next!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love how Clears tackles the real bottleneck—execution, not just coding speed. Excited to see how teams adapt when the backlog itself can run in parallel. How do you envision this changing the role of engineering leads day-to-day? Congratulations!"
           }
         ],
         "makerTwitter": ""
@@ -3095,7 +3103,7 @@
         "maker": "Richard Song",
         "makerTitle": "Co-founder of Epsilla",
         "featuredAt": "2026-08-16T07:01:00Z",
-        "votes": 358,
+        "votes": 383,
         "websiteUrl": "https://www.producthunt.com/r/C247JURJJIF5WQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -3159,6 +3167,10 @@
         "votes": 343,
         "websiteUrl": "https://www.producthunt.com/r/XMJNYPK5RL7FBI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋 I'm Nour, cofounder of Vendo (YC S26). Vendo embeds an agent inside your product that lets each of your customers build their own features and micro-apps directly on top of it, just by describing what they want. We built it because every SaaS team we talked to had the same problem. Every customer wants the product to work a little differently, the requests never stop, and no roadmap can keep up. Most teams answer that with a chatbot bolted to the corner of the screen. Software has always been rigid, and every customer had to adapt to it. Now it's dynamic, and your product shapes itself around each customer. Everything runs on your existing API, renders natively in your own theme and components, and never touches your source code. You can plug Vendo into an agent you already have, or deploy a production-ready one that takes actions in the product, generates UI, connects hundreds of external tools, and draws on a built-in knowledge base. It's open source and installs with a single command. 👉 Try it at https://vendo.run/ and check out the repo: https://github.com/runvendo/vendo"
+          },
           {
             "user": "[REDACTED]",
             "text": "users building their own features inside the app is a bold bet 👏 how do you keep the guardails tight?"
@@ -6390,7 +6402,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋I’m Serena, founder of Fuzzy AI.We kept seeing the same thing happen: someone sends a cold message to a complete stranger, it gets ignored, and they’re told to solve the problem by sending even more messages.But what if volume isn’t the real problem?What if the problem is that you’re still a stranger?That’s why we built Fuzzy.Fuzzy is a relationship-first AI sales platform that warms up your prospects before you ever reach out, so your first message doesn’t feel cold.Instead of stitching together separate tools for research, LinkedIn engagement, content, outreach, follow-ups, and replies, you can manage the entire journey in one place.Here’s what you can do with Fuzzy:🔎 Find the right prospectsTell the Fuzzy Agent who you want to reach. It can research companies, build targeted lists, enrich contacts, and find people already engaging with relevant creators or competitors.💬 Build familiarity before reaching outMy Feed brings together posts from your prospects and key accounts. Fuzzy helps you write thoughtful comments and LinkedIn posts in your voice. You can also choose who Fuzzy engages with automatically.🧠 Create outreach that sounds like youMemories teach Fuzzy about your company, product, audience, offer, and writing style. Fuzzy combines that knowledge with prospect research to create personalised LinkedIn and email outreach.⚡ Keep campaigns movingLaunch multi-step campaigns and let Fuzzy handle the follow-ups without manually managing every step.📥 Turn replies into conversationsFuzzy can draft or send replies using the full context of each prospect and conversation. You decide how much control to keep: review everything yourself, automate selected steps, or let Fuzzy continue until it’s time for you to step in.👥 Work from shared contextYour team can share company knowledge, research, contacts, templates, conversations, and reporting in one workspace.Fuzzy is built for founders, sales teams, agencies, consultants, recruiters, and anyone who relies on relationships to generate business.Our goal is simple: less manual work and warmer conversations.🎥 Watch the demo: https://youtu.be/PNs_VTpEbPo👉 Try Fuzzy: www.getfuzzy.aiThank you to everyone who has supported Fuzzy. I’m excited to hear what you think 🙌Serena"
+            "text": "Hey Product Hunt 👋 I’m Serena, founder of Fuzzy AI. We kept seeing the same thing happen: someone sends a cold message to a complete stranger, it gets ignored, and they’re told to solve the problem by sending even more messages. But what if volume isn’t the real problem? What if the problem is that you’re still a stranger? That’s why we built Fuzzy. Fuzzy is a relationship-first AI sales platform that warms up your prospects before you ever reach out, so your first message doesn’t feel cold. Instead of stitching together separate tools for research, LinkedIn engagement, content, outreach, follow-ups, and replies, you can manage the entire journey in one place. Here’s what you can do with Fuzzy: 🔎 Find the right prospects Tell the Fuzzy Agent who you want to reach. It can research companies, build targeted lists, enrich contacts, and find people already engaging with relevant creators or competitors. 💬 Build familiarity before reaching out My Feed brings together posts from your prospects and key accounts. Fuzzy helps you write thoughtful comments and LinkedIn posts in your voice. You can also choose who Fuzzy engages with automatically. 🧠 Create outreach that sounds like you Memories teach Fuzzy about your company, product, audience, offer, and writing style. Fuzzy combines that knowledge with prospect research to create personalised LinkedIn and email outreach. ⚡ Keep campaigns moving Launch multi-step campaigns and let Fuzzy handle the follow-ups without manually managing every step. 📥 Turn replies into conversations Fuzzy can draft or send replies using the full context of each prospect and conversation. You decide how much control to keep: review everything yourself, automate selected steps, or let Fuzzy continue until it’s time for you to step in. 👥 Work from shared context Your team can share company knowledge, research, contacts, templates, conversations, and reporting in one workspace. Fuzzy is built for founders, sales teams, agencies, consultants, recruiters, and anyone who relies on relationships to generate business. Our goal is simple: less manual work and warmer conversations. 🎥 Watch the demo: https://youtu.be/PNs_VTpEbPo 👉 Try Fuzzy: www.getfuzzy.ai Thank you to everyone who has supported Fuzzy. I’m excited to hear what you think 🙌 Serena"
           },
           {
             "user": "[REDACTED]",
@@ -6473,7 +6485,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi Product Hunt, I’m Wojtek, one of the founders of Prelint.Coding agents now produce more code than most teams can properly review. The obvious risk is bad code, but the more dangerous risk is good code that quietly builds the wrong product.We saw this repeatedly in large production projects when we started using agents. A change would clear technical review, pass CI, yet still skip the transactional outbox pattern, introduce an unapproved dependency, change a permission rule or invent a business requirement. Nobody had made that decision, but it was now part of the product.Prelint catches these decisions before they ship. It reads each change alongside your specifications, tickets and existing product context, then explains what the agent decided, what the consequences are and how difficult the choice will be to reverse. Your team can approve, correct or replace the decision, and Prelint carries that context into the next piece of work.If you work with ADRs, our clients say it is the best tool they found for enforcing them with agents. On teams running Prelint alongside other AI reviewers, ~40% of the review comments that actually get fixed come from Prelint.We started in GitHub and now support CLI and MCP, allowing agents to check product decisions while they work instead of waiting for a human to discover the problem at the end.Prelint is not another technical code reviewer. These tell you whether the code works. Prelint tells you whether you should be building it.If coding agents are contributing to your product, sign up at https://prelint.com, connect a GitHub repo and see what they've been deciding on your behalf. Then tell us what you like and what you'd love to see on top of it!Use code: PH100 to get 100$ in additional free credits"
+            "text": "Hi Product Hunt, I’m Wojtek, one of the founders of Prelint. Coding agents now produce more code than most teams can properly review. The obvious risk is bad code, but the more dangerous risk is good code that quietly builds the wrong product. We saw this repeatedly in large production projects when we started using agents. A change would clear technical review, pass CI, yet still skip the transactional outbox pattern, introduce an unapproved dependency, change a permission rule or invent a business requirement. Nobody had made that decision, but it was now part of the product. Prelint catches these decisions before they ship. It reads each change alongside your specifications, tickets and existing product context, then explains what the agent decided, what the consequences are and how difficult the choice will be to reverse. Your team can approve, correct or replace the decision, and Prelint carries that context into the next piece of work. If you work with ADRs, our clients say it is the best tool they found for enforcing them with agents. On teams running Prelint alongside other AI reviewers, ~40% of the review comments that actually get fixed come from Prelint. We started in GitHub and now support CLI and MCP, allowing agents to check product decisions while they work instead of waiting for a human to discover the problem at the end. Prelint is not another technical code reviewer. These tell you whether the code works. Prelint tells you whether you should be building it. If coding agents are contributing to your product, sign up at https://prelint.com , connect a GitHub repo and see what they've been deciding on your behalf. Then tell us what you like and what you'd love to see on top of it! Use code: PH100 to get 100$ in additional free credits"
           },
           {
             "user": "[REDACTED]",
@@ -6481,7 +6493,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch! 🚀I really like the distinction between reviewing whether code is correct and whether it's the right thing to build.As AI becomes part of the development workflow, I think that second question will become just as important as traditional code review."
+            "text": "Congrats on the launch! 🚀 I really like the distinction between reviewing whether code is correct and whether it's the right thing to build . As AI becomes part of the development workflow, I think that second question will become just as important as traditional code review."
           },
           {
             "user": "[REDACTED]",
@@ -6726,7 +6738,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 I'm Anand, one of the makers.We build with coding agents every day, and kept catching ourselves typing a three-sentence prompt we could've said out loud in four seconds. Thinking is fast. Typing is not.So we built SKI. You hold the Function key, say what you want, and your agent goes and does it — then answers you out loud, like a real person. It's an ambient thing: it sits in your notch and never interrupts your flow.Three things we care about:• It answers. Voice input for agents already exists — it's one-directional, words in, text out. SKI closes the loop: it speaks the result back.• It comes to meetings. Bring your coding session into a call as a real teammate and build live — or send your agent in your place to speak for you.• It's local. Speech in and voice out both run on your machine. No cloud, works offline.Free for life — Mac and Windows today, Linux next. First launch for us, so hard questions are genuinely welcome. What agent do you use, and what would make you keep this open all day?"
+            "text": "Hey Product Hunt 👋 I'm Anand, one of the makers. We build with coding agents every day, and kept catching ourselves typing a three-sentence prompt we could've said out loud in four seconds. Thinking is fast. Typing is not. So we built SKI. You hold the Function key, say what you want, and your agent goes and does it — then answers you out loud, like a real person. It's an ambient thing: it sits in your notch and never interrupts your flow. Three things we care about: • It answers. Voice input for agents already exists — it's one-directional, words in, text out. SKI closes the loop: it speaks the result back. • It comes to meetings. Bring your coding session into a call as a real teammate and build live — or send your agent in your place to speak for you. • It's local. Speech in and voice out both run on your machine. No cloud, works offline. Free for life — Mac and Windows today, Linux next. First launch for us, so hard questions are genuinely welcome. What agent do you use, and what would make you keep this open all day?"
           },
           {
             "user": "[REDACTED]",
@@ -6998,7 +7010,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "👋 Hey Product Hunters,I'm Tony Zhang, co-founder of Lev8 , the fastest agent to find and reach your target people and companies across every corner of the internet and reach across multiple channels.Here are a few searches our early users have thrown at Lev8:“Find me VPs of Sales at fast-growing voice agent startups in the Bay Area that raised funding recently.”“Find everyone who starred our GitHub repo, then reach out to them across multiple channels.”“Find coffee shops in San Francisco with a 4.5+ rating and no website.”AI has made it easier to build products. Getting the right people to notice them is still hard.We felt this ourselves. Our team spent hours jumping between search tools, databases, spreadsheets, and enrichment services just to answer a simple question:Who should we talk to, and why?So we built Lev8.What Lev8 doesLev8 turns the live web into people and business intelligence.Describe who you’re looking for in plain language, and Lev8:Searches across public sourcesVerifies identitiesAdds relevant contextSurfaces the signals that explain who matters right nowWhat happens behind the scenesOur crawler reaches sources that static databases miss. Parallel agents explore the web, while our identity system makes sure the facts belong to the right person or company.The goal isn’t to create another oversized lead list.It’s to help you discover the companies and people others miss—and provide reliable intelligence that both people and AI agents can use to make better decisions."
+            "text": "👋 Hey Product Hunters, I'm Tony Zhang, co-founder of Lev8 , the fastest agent to find and reach your target people and companies across every corner of the internet and reach across multiple channels. Here are a few searches our early users have thrown at Lev8: “Find me VPs of Sales at fast-growing voice agent startups in the Bay Area that raised funding recently.” “Find everyone who starred our GitHub repo, then reach out to them across multiple channels.” “Find coffee shops in San Francisco with a 4.5+ rating and no website.” AI has made it easier to build products. Getting the right people to notice them is still hard. We felt this ourselves. Our team spent hours jumping between search tools, databases, spreadsheets, and enrichment services just to answer a simple question: Who should we talk to, and why? So we built Lev8. What Lev8 does Lev8 turns the live web into people and business intelligence. Describe who you’re looking for in plain language, and Lev8: Searches across public sources Verifies identities Adds relevant context Surfaces the signals that explain who matters right now What happens behind the scenes Our crawler reaches sources that static databases miss. Parallel agents explore the web, while our identity system makes sure the facts belong to the right person or company. The goal isn’t to create another oversized lead list. It’s to help you discover the companies and people others miss—and provide reliable intelligence that both people and AI agents can use to make better decisions."
           },
           {
             "user": "[REDACTED]",
@@ -7010,7 +7022,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Sales tools often win less because they find more leads and more because they help teams focus on the right ones.Curious—have you found that users value Lev8 more for discovery, or for improving the quality of outreach decisions afterward?"
+            "text": "Sales tools often win less because they find more leads and more because they help teams focus on the right ones. Curious—have you found that users value Lev8 more for discovery, or for improving the quality of outreach decisions afterward?"
           },
           {
             "user": "[REDACTED]",
@@ -7018,7 +7030,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Congratulations on the release. Since I don’t use LinkedIn, it’s great that I can search for X accounts as well.I do have one concern, though.When I searched for the X account of a ranch that takes in retired racehorses, the search automatically looked for influencer accounts and narrowed the search to a specific region. (Since this is a niche industry, there aren’t any influencers, and even if I included all regions, there aren’t even 50 accounts, so there’s no need to limit the search by region.)Is thisSpecified behavior?"
+            "text": "Congratulations on the release. Since I don’t use LinkedIn, it’s great that I can search for X accounts as well. I do have one concern, though. When I searched for the X account of a ranch that takes in retired racehorses, the search automatically looked for influencer accounts and narrowed the search to a specific region. (Since this is a niche industry, there aren’t any influencers, and even if I included all regions, there aren’t even 50 accounts, so there’s no need to limit the search by region.) Is thisSpecified behavior?"
           },
           {
             "user": "[REDACTED]",
@@ -7465,7 +7477,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! 👋 I'm Anna, founder of Fundraisly.I spent 2.5 years as an investment analyst at $600M+ AUM VC Fund, portfolio includes 10 unicorns. I reviewed thousands of pitch decks — and saw firsthand how broken fundraising is. Brilliant founders wasting months cold-emailing the wrong investors. Meanwhile, the right ones were just sitting in databases nobody knew how to use.So I built what I wished founders had when they came to us: an AI agent that analyzes 300K+ investors and millions of deals to find exactly who's active, relevant, and likely to respond — in minutes, not months.The results blew my own expectations:🎯 60–70% open rates. We only reach investors who are actively investing in your space, not generic cold lists📞 On average, founders conduct 20-40 qualified investor meetings within the first 90 days with funds actively investing in their space💼 3k+ VC calls conducted in last 6 months with funds like a16z, Sequoia, Index Ventures💰 $100M+ raised for founders through the platformFundraisly isn't a CRM or a database. It's an AI agent that does the entire investor research, outreach, and follow-up for you — so you can focus on building your company.I'd love your feedback — especially from founders who've been through the fundraising grind. What was the most painful part for you? Happy to answer any questions! 🚀"
+            "text": "Hey Product Hunt! 👋 I'm Anna, founder of Fundraisly. I spent 2.5 years as an investment analyst at $600M+ AUM VC Fund, portfolio includes 10 unicorns. I reviewed thousands of pitch decks — and saw firsthand how broken fundraising is. Brilliant founders wasting months cold-emailing the wrong investors. Meanwhile, the right ones were just sitting in databases nobody knew how to use. So I built what I wished founders had when they came to us: an AI agent that analyzes 300K+ investors and millions of deals to find exactly who's active, relevant, and likely to respond — in minutes, not months. The results blew my own expectations: 🎯 60–70% open rates. We only reach investors who are actively investing in your space, not generic cold lists 📞 On average, founders conduct 20-40 qualified investor meetings within the first 90 days with funds actively investing in their space 💼 3k+ VC calls conducted in last 6 months with funds like a16z, Sequoia, Index Ventures 💰 $100M+ raised for founders through the platform Fundraisly isn't a CRM or a database. It's an AI agent that does the entire investor research, outreach, and follow-up for you — so you can focus on building your company. I'd love your feedback — especially from founders who've been through the fundraising grind. What was the most painful part for you? Happy to answer any questions! 🚀"
           },
           {
             "user": "[REDACTED]",
@@ -7473,7 +7485,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Fundraising gets a lot more interesting when the bottleneck shifts from finding investors to telling a story that resonates.Curious—what's the biggest pattern Fundraisly has uncovered between founders who consistently book meetings and those who don't?"
+            "text": "Fundraising gets a lot more interesting when the bottleneck shifts from finding investors to telling a story that resonates. Curious—what's the biggest pattern Fundraisly has uncovered between founders who consistently book meetings and those who don't?"
           },
           {
             "user": "[REDACTED]",
@@ -7481,7 +7493,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Love this. The investor meeting booking process is one of those things that's painful for both sides. Founders spend weeks on outreach, investors get flooded with irrelevant inbound.How do you handle the matching quality? Is it based on stated preferences or does it learn from actual meeting outcomes?"
+            "text": "Love this. The investor meeting booking process is one of those things that's painful for both sides. Founders spend weeks on outreach, investors get flooded with irrelevant inbound. How do you handle the matching quality? Is it based on stated preferences or does it learn from actual meeting outcomes?"
           },
           {
             "user": "[REDACTED]",
@@ -7720,11 +7732,11 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋We made Brila. It audits your business based on your Google Reviews – and shows you exactly how to market it.The problem: every website generator gives you a template stuffed with placeholder copy. Then you're stuck rewriting it by hand – big effort, bad result. You still end up with \"quality service\" and \"customer-first approach\" that nobody believes.Our approach: content first, design second. Google Maps reviews are an incredibly rich data source – people describe the exact situation they were in, what they needed, and why they chose this place. With enough reviews, the patterns often surprise even the business owners.The methodology is Jobs to Be Done – the same framework billion-dollar companies use to understand their customers. Brila automates it. It's not a single prompt – it's a serious AI system we've been building for months.Paste a Google Maps link, try it free. We're giving away 100 promo codes for a year of Pro: PHBRILA100If it’s already gone by the time you try, leave a comment on PH and we’ll send you a code.Thank you!"
+            "text": "Hey Product Hunt 👋 We made Brila. It audits your business based on your Google Reviews – and shows you exactly how to market it. The problem: every website generator gives you a template stuffed with placeholder copy. Then you're stuck rewriting it by hand – big effort, bad result. You still end up with \"quality service\" and \"customer-first approach\" that nobody believes. Our approach: content first, design second. Google Maps reviews are an incredibly rich data source – people describe the exact situation they were in, what they needed, and why they chose this place. With enough reviews, the patterns often surprise even the business owners. The methodology is Jobs to Be Done – the same framework billion-dollar companies use to understand their customers. Brila automates it. It's not a single prompt – it's a serious AI system we've been building for months. Paste a Google Maps link, try it free. We're giving away 100 promo codes for a year of Pro: PHBRILA100 If it’s already gone by the time you try, leave a comment on PH and we’ll send you a code. Thank you!"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch and I love the landing pages! Curious about two things: 1) How do you plan on allowing more customization to the site by the business owners?2) Do you plan on offering an API for developers to get the \"special touches\" of the business offered? Cool stuff and will follow along!"
+            "text": "Congrats on the launch and I love the landing pages! Curious about two things: 1) How do you plan on allowing more customization to the site by the business owners? 2) Do you plan on offering an API for developers to get the \"special touches\" of the business offered? Cool stuff and will follow along!"
           },
           {
             "user": "[REDACTED]",
@@ -7732,7 +7744,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Cool app, I tried it out and does exactly what it promises. ReviewThere are options to Modify the content of the generated siteOptions to customize logoExport the generated siteUse your own domain (it gives you a sitename[.]brilla[.]ai link by default. If interested I tested this on a hotel from google maps and received this pageI would definitely recommend. Congratulations on launch🙌One questionThe only question I couldn't answer is whether it automatically updates as the reviews change, or whether there is a kind of refresh button for the user.Great app though"
+            "text": "Cool app, I tried it out and does exactly what it promises. Review There are options to Modify the content of the generated site Options to customize logo Export the generated site Use your own domain (it gives you a sitename[.]brilla[.]ai link by default. If interested I tested this on a hotel from google maps and received this page I would definitely recommend. Congratulations on launch🙌 One question The only question I couldn't answer is whether it automatically updates as the reviews change, or whether there is a kind of refresh button for the user. Great app though"
           },
           {
             "user": "[REDACTED]",
@@ -7744,7 +7756,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Hey Team,Really appreciate what you’ve built here—this is a super cool product! 👏I actually explored a similar idea as a POC using the Google Places API along with some external scraping tools, and came to a similar conclusion that it’s possible to generate a one-page website based on review data. However, during my initial R&D, I realized there are some limitations around Google’s Terms of Service Violation, which made me pause and rethink the approach. (To be honest, I lost some motivation after that)That said, it’s genuinely inspiring to see how you’ve brought this idea to life. I might revisit something along these lines in the future, probably with a different approach and at a smaller scale.Great work again—excited to see where you take this! 🚀"
+            "text": "Hey Team, Really appreciate what you’ve built here—this is a super cool product! 👏 I actually explored a similar idea as a POC using the Google Places API along with some external scraping tools, and came to a similar conclusion that it’s possible to generate a one-page website based on review data. However, during my initial R&amp;D, I realized there are some limitations around Google’s Terms of Service Violation, which made me pause and rethink the approach. (To be honest, I lost some motivation after that) That said, it’s genuinely inspiring to see how you’ve brought this idea to life. I might revisit something along these lines in the future, probably with a different approach and at a smaller scale. Great work again—excited to see where you take this! 🚀"
           },
           {
             "user": "[REDACTED]",
@@ -7804,7 +7816,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋I’m Jarod, Co-founder & CEO of Happycapy, previously at Trickle.Over the past year, we’ve all watched vibe coding go mainstream.Tools like Claude Code showed what agentic AI can do for developers.Open-source projects like OpenClaw proved agents can work 24/7 in the real world.But there’s a gap.Most of today’s agent tools are either:built for developers and terminals, orpowerful but hard to self-host, configure, and secure.We believe agentic AI shouldn’t be limited to people who know how to set up infrastructure or deal with security issues.That’s why we built Happycapy.Happycapy — The agent-native computer, for the rest of us.An OpenClaw alternative that runs directly in your browser — and now on your phone.No setup. No learning curve. No plugins.Built-in sandboxing, designed from day one for safety and trust.Just open it, talk to it, and let your agent work with you.We’re the original team behind Trickle, and this is our clean break into what we believe is the real shape of 2026:agent-native computing, with a human-first GUI.Would love your feedback, questions, and ideas 👇Thanks for checking out Happycapy 🦫✨Fun Easter egg 🥳: our design team hid a little tribute to the very first GUI computers on the landing page — see if you can spot it. 👀"
+            "text": "Hey Product Hunt 👋 I’m Jarod , Co-founder &amp; CEO of Happycapy , previously at Trickle . Over the past year, we’ve all watched vibe coding go mainstream. Tools like Claude Code showed what agentic AI can do for developers. Open-source projects like OpenClaw proved agents can work 24/7 in the real world. But there’s a gap. Most of today’s agent tools are either: built for developers and terminals, or powerful but hard to self-host, configure, and secure. We believe agentic AI shouldn’t be limited to people who know how to set up infrastructure or deal with security issues. That’s why we built Happycapy . Happycapy — The agent-native computer, for the rest of us. An OpenClaw alternative that runs directly in your browser — and now on your phone . No setup. No learning curve. No plugins. Built-in sandboxing, designed from day one for safety and trust. Just open it, talk to it, and let your agent work with you. We’re the original team behind Trickle, and this is our clean break into what we believe is the real shape of 2026: agent-native computing, with a human-first GUI. Would love your feedback, questions, and ideas 👇 Thanks for checking out Happycapy 🦫✨ Fun Easter egg 🥳: our design team hid a little tribute to the very first GUI computers on the landing page — see if you can spot it. 👀"
           },
           {
             "user": "[REDACTED]",
@@ -7812,15 +7824,15 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "the \"no setup, no learning curve\" framing is exactly the problem i kept hitting with agent tools. you spend an hour configuring something and it still doesn't do the thing you actually wanted. and then you're back to doing it manually anywaysaw this happen with non-technical teammates trying agents for the first time. they bounced before ever getting to the useful part. something that just works straight from the browser changes who can actually use this stuffcurious what the skill store unlocks, are skills more like prebuilt workflows, or closer to plugins that extend what the agent can do?"
+            "text": "the \"no setup, no learning curve\" framing is exactly the problem i kept hitting with agent tools. you spend an hour configuring something and it still doesn't do the thing you actually wanted. and then you're back to doing it manually anyway saw this happen with non-technical teammates trying agents for the first time. they bounced before ever getting to the useful part. something that just works straight from the browser changes who can actually use this stuff curious what the skill store unlocks, are skills more like prebuilt workflows, or closer to plugins that extend what the agent can do?"
           },
           {
             "user": "[REDACTED]",
-            "text": "been following Happycapy for a while and the \"no setup, just open it\" angle is genuinely the right call for a broad audience. the friction of setting up claude code locally or managing credentials is non-trivial for most people who aren't already deep into dev tooling.what i'm most curious about is how it handles context between sessions, especially for longer running tasks. that's usually where browser-based agents get awkward - the agent has to rebuild mental context on every open. would love to know if there's any session persistence built in or if that's on the roadmap."
+            "text": "been following Happycapy for a while and the \"no setup, just open it\" angle is genuinely the right call for a broad audience. the friction of setting up claude code locally or managing credentials is non-trivial for most people who aren't already deep into dev tooling. what i'm most curious about is how it handles context between sessions, especially for longer running tasks. that's usually where browser-based agents get awkward - the agent has to rebuild mental context on every open. would love to know if there's any session persistence built in or if that's on the roadmap."
           },
           {
             "user": "[REDACTED]",
-            "text": "Really cool concept, congrats on the launch!The idea of making agent-native computing accessible without the terminal/self-hosting overhead resonates a lot. I've been building in the OpenClaw space since day one, and the security threat vectors are...let's just say...terrible (putting it nicely lol). When you're giving an agent full shell access to your actual system, the attack vectors get pretty real pretty fast. Prompt injection, unintended file modifications, credential exposure, etc.Love that you guys are leaning into built-in sandboxing and running directly in the browser as the approach here. Curious to hear more about what that looks like in practice though:How does the browser sandbox constrain what the agent can do?Is there a permission model for different actions (like file access vs. web requests vs. system commands)?How are you thinking about prompt injection risks specifically, since the agent is still interacting with untrusted web content even inside a sandboxed browser environment?Genuinely rooting for you guys on this! If the sandboxing story is solid, this could be a huge differentiator over the self-hosted alternatives. My current multi-agent OS includes a mixture of protocols, not just openclaw, so always looking for new tools and methods."
+            "text": "Really cool concept, congrats on the launch! The idea of making agent-native computing accessible without the terminal/self-hosting overhead resonates a lot. I've been building in the OpenClaw space since day one, and the security threat vectors are...let's just say...terrible (putting it nicely lol). When you're giving an agent full shell access to your actual system, the attack vectors get pretty real pretty fast. Prompt injection, unintended file modifications, credential exposure, etc. Love that you guys are leaning into built-in sandboxing and running directly in the browser as the approach here. Curious to hear more about what that looks like in practice though: How does the browser sandbox constrain what the agent can do? Is there a permission model for different actions (like file access vs. web requests vs. system commands)? How are you thinking about prompt injection risks specifically, since the agent is still interacting with untrusted web content even inside a sandboxed browser environment? Genuinely rooting for you guys on this! If the sandboxing story is solid, this could be a huge differentiator over the self-hosted alternatives. My current multi-agent OS includes a mixture of protocols, not just openclaw, so always looking for new tools and methods."
           },
           {
             "user": "[REDACTED]",
