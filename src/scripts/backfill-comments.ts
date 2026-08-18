@@ -1,32 +1,15 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { analyzeProduct } from '@/lib/ai-analyzer';
+import { fetchRealComments } from '@/lib/ph-comments';
 import type { PHComment, Product } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
-const PH_API = 'https://api.producthunt.com/v2/api/graphql';
 const DELAY = 6000;
 const MAX = 12;
 const KEYS = ['today', 'yesterday', 'week', 'month', 'year'] as const;
-
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-}
-
-async function fetchComments(token: string, slug: string): Promise<PHComment[]> {
-  const query = `query { post(slug: "${slug}") { comments(first: 8) { edges { node { body user { name username } } } } } }`;
-  const res = await fetch(PH_API, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-    body: JSON.stringify({ query }),
-  });
-  if (!res.ok) return [];
-  const json: any = await res.json();
-  const edges = json.data?.post?.comments?.edges ?? [];
-  return edges
-    .map((e: any) => ({ user: e.node?.user?.name || e.node?.user?.username || '', text: stripHtml(e.node?.body ?? '') }))
-    .filter((c: PHComment) => c.text.length > 10);
-}
+const isPersian = (s: string) => /[\u0600-\u06FF]/.test(s);
+const hasFakeName = (p: Product) => (p.faComments ?? []).some((c) => String(c.user).startsWith('کاربر ProductHunt'));
 
 function fallbackComments(p: Product): PHComment[] {
   return (p.comments ?? []).slice(0, 4).map((c, i) => ({
@@ -44,21 +27,21 @@ async function main() {
   const data = JSON.parse(await readFile(file, 'utf8'));
 
   const uniq = new Map<string, Product>();
-  for (const k of KEYS) {
-    for (const p of data.periods[k] ?? []) {
-      if (!uniq.has(p.slug)) uniq.set(p.slug, p);
-    }
-  }
+  for (const k of KEYS) for (const p of data.periods[k] ?? []) if (!uniq.has(p.slug)) uniq.set(p.slug, p);
 
-  const targets = [...uniq.values()].filter((p) => !p.faComments?.length).slice(0, MAX);
-  console.log(`🔄 Backfill: ${targets.length} products need comments`);
+  // هدف: بدون کامنت | کامنت غیرفارسی | نام فیک | بدون aiReview
+  const targets = [...uniq.values()]
+    .filter((p) => !p.faComments?.length || !isPersian(p.faComments[0]?.text ?? '') || !p.aiReview || hasFakeName(p))
+    .slice(0, MAX);
+
+  console.log(`🔄 Backfill: ${targets.length} products`);
 
   let done = 0;
   for (const p of targets) {
     console.log(`\n🤖 ${p.name}`);
     try {
-      const fresh = await fetchComments(token, p.slug);
-      if (fresh.length) p.comments = fresh;
+      const { list, real } = await fetchRealComments(token, p.slug);
+      if (list.length) p.comments = list;
 
       let ai: any = null;
       try { ai = await analyzeProduct(p); } catch (e: any) { console.warn(`   ⚠️  AI: ${e.message}`); }
@@ -69,8 +52,15 @@ async function main() {
         p.iranEquivalent = ai.iranEquivalent;
         p.aiReview = ai.aiReview;
       }
-      // ✅ تضمین: اگه AI خراب شد، کامنت اصلی رو بذار تا بخش خالی نمونه
       if (!p.faComments?.length) p.faComments = fallbackComments(p);
+
+      // ارتقای نام‌ها اگه نام واقعی پیدا شد
+      if (real && p.comments?.length) {
+        p.faComments = (p.faComments ?? []).map((c, i) => {
+          const ru = p.comments![i]?.user ?? '';
+          return ru && !ru.includes('REDACTED') ? { ...c, user: ru } : c;
+        });
+      }
 
       for (const k of KEYS) {
         for (const t of data.periods[k] ?? []) {
@@ -84,7 +74,7 @@ async function main() {
         }
       }
       done++;
-      console.log(`   ✅ [${done}/${targets.length}] ${p.faComments.length} comments`);
+      console.log(`   ✅ [${done}/${targets.length}] ${p.faComments.length} comments | real names: ${real}`);
     } catch (e: any) {
       console.warn(`   ⚠️  ${e.message}`);
     }
