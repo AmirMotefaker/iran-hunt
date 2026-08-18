@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.5...v1.18.0) (2026-08-18)
+
+
+### Features
+
+* wayback machine for real usernames + retranslate pipeline ([373f79a](https://github.com/AmirMotefaker/iran-hunt/commit/373f79a083605424714f5bccbea82a91029f3e80))
+
 ## [1.17.5](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.4...v1.17.5) (2026-08-18)
 
 
