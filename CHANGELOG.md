@@ -1,3 +1,10 @@
+## [1.17.5](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.4...v1.17.5) (2026-08-18)
+
+
+### Bug Fixes
+
+* remove skip-ci so Vercel deploys data commits ([82c65f4](https://github.com/AmirMotefaker/iran-hunt/commit/82c65f41ffb986c35c87ea3d8326e4bcd0f34a67))
+
 ## [1.17.4](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.3...v1.17.4) (2026-08-17)
 
 
