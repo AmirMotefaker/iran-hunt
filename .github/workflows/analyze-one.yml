@@ -40,5 +40,5 @@ jobs:
           git config user.name "ربات ایده‌جو"
           git config user.email "bot@idehjo.ir"
           git add data
-          git diff --cached --quiet || git commit -m "data: AI analysis for ${{ github.event.inputs.slug }} [skip ci]"
+          git diff --cached --quiet || git commit -m "data: AI analysis for ${{ github.event.inputs.slug }}"
           git push

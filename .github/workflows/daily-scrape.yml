@@ -34,5 +34,5 @@ jobs:
           git config user.name "ربات ایده‌جو"
           git config user.email "bot@idehjo.ir"
           git add data
-          git diff --cached --quiet || git commit -m "scrape: daily products $(date +%F) [skip ci]"
+          git diff --cached --quiet || git commit -m "scrape: daily products $(date +%F)"
           git push
