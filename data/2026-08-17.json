@@ -137,6 +137,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I'm experimenting and, so far, I'm impressed. Do you have a recommended set of bots and traits they should have? I think the discovery part on the setup process is what I'm struggling with the most."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "The product question feels solved faster than the pricing question. Once a bot actually owns work, I’d want cost per completed workflow + value of the human time replaced. Seat pricing feels very 2024."
           },
           {
@@ -158,10 +162,6 @@
           {
             "user": "[REDACTED]",
             "text": "If someone is already experimenting with OpenAI Operator or Claude’s computer-use experiences, what are the 2–3 concrete things Grok Bot does better today (e.g., parallel bots, routines learned by demonstration, long-running work while your laptop is closed), and where are you intentionally not competing yet?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is so awesome. I've been playing with it since yesterday, and it has already become my favorite tech of the year."
           }
         ],
         "makerTwitter": "",
@@ -343,7 +343,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt. I'm Evan, cofounder of Ito. Coding agents produce more code than you can review. Existing code review tools only stare at the code, so you still have to review tons of code or build complex internal systems to verify it. Ito is a runtime code review tool. On every pull request: Creates test plan from code, PR description, ticket, your input Builds your app in a single-use isolated container with the ability to use credentials, seed data to reach the state that matters, and use external services just as an engineer would on their local machine. Mocks data/code when it doesn’t have access. Drives the app with a swarm of agents (click, navigate, API call, db verification) Catches runtime issues: concurrency, failure handling, data migration, authentication, etc. Posts results on PR with evidence: video, logs, screenshots We built Ito with a team of 8 MIT engineers, and spent many cycles to arbitrarily build any application.&nbsp; Ito gets better the more you use it: Responds to feedback Faster runtimes every run as Ito learns how to navigate your application and builds tools to manipulate your environment Reviews focused on the areas you care about (sees what gets fixed vs ignored) Test instruction per org, per repo, or per author First 100 reviews free, no card. $40/mo after that. Free forever for open source (already supporting &gt;100k stars): app.ito.ai?ph You can also try out open source PRs without signing up here: https://www.ito.ai/review?ph"
+            "text": "Hey Product Hunt. I'm Evan, cofounder of Ito. Coding agents produce more code than you can review. Existing code review tools only stare at the code, so you still have to review tons of code or build complex internal systems to verify it. Ito is a runtime code review tool. On every pull request: Creates test plan from code, PR description, ticket, your input Builds your app in a single-use isolated container with the ability to use credentials, seed data to reach the state that matters, and use external services just as an engineer would on their local machine. Mocks data/code when it doesn’t have access. Drives the app with a swarm of agents (click, navigate, API call, db verification) Catches runtime issues: concurrency, failure handling, data migration, authentication, etc. Posts results on PR with evidence: video, logs, screenshots We built Ito with a team of 8 MIT engineers, and spent many cycles to arbitrarily build any application. Ito gets better the more you use it: Responds to feedback Faster runtimes every run as Ito learns how to navigate your application and builds tools to manipulate your environment Reviews focused on the areas you care about (sees what gets fixed vs ignored) Test instruction per org, per repo, or per author First 100 reviews free, no card. $40/mo after that. Free forever for open source (already supporting >100k stars): app.ito.ai?ph You can also try out open source PRs without signing up here: https://www.ito.ai/review?ph"
           },
           {
             "user": "[REDACTED]",
@@ -441,7 +441,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B .&nbsp; What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides:&nbsp; Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now?&nbsp; We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running&nbsp; Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day.&nbsp; I’ll be in the comments all day, ask away!"
+            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B . What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides: Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now? We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day. I’ll be in the comments all day, ask away!"
           },
           {
             "user": "[REDACTED]",
@@ -749,7 +749,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Hunters, Makers, and PH regulars 👋 I'm Dan, co-founder at Outcome, somewhere around day 1,103 of my PH streak, and today's the first time I'm hitting the \"Ship It\" button instead of commenting on someone else's launch. Feels good.. and a little terrifying haha. What we built: Outcome takes a video, an article or just an idea you describe, and turns it into a short quiz. You decide the outcome you want people to walk away with, a score, an audit, a plan, whatever you want your audience to leave holding. Every person who takes the quiz gets that outcome, built from two things: what you know, and what they just told you. That's the whole value prop : give something personally curated away for free and trust does more of the selling/converting than a cold pitch could. An example that'll make it click: Say you've got a YouTube channel walking people through how to build something, an app, an automation, whatever your thing is, and it ends with a CTA - \"join my Discord\" or \"check the docs,\" and most viewers just... don't. Drop that video into Outcome and build a quiz instead: \"What are you trying to build? What's your stack? Where are you stuck?\" Takes someone thirty seconds to answer. What they get back isn't a generic \"thanks for watching\" page, it's built from what you taught in the video, mixed with their specific answers: A plain-English breakdown of exactly where they're stuck in their stack and why A checklist trimmed to just the steps their setup actually needs A calculator that estimates what they'd save, or need, to actually build it A follow-up email, written by our email writer skill, with next steps already spelled out All four (or any number) of these could live on the same outcome page - one quiz - one result stacked with whatever blocks make sense for your specific use case. And it's not just better for them. You get something too: every quiz is a data point. Instead of just knowing how many people watched and when they dropped off - you actually get to see their responses and the report each one generated. That's the part that got us excited building this, it's not \"pick a template,\" it's \"here's every shape a result can take, built from what you know, mixed with what they just told you, all in one clean output.\" If you want to see the product in action as an end user, and even get a read on your own launch readiness while you're at it, we built a Roast Your PH Launch using Outcome, drawing on our own scramble to get ready today plus a genuinely great framework from Andre's Substack . We don't have it all figured out, we just tried to build the thing we wish we'd had. How this compares to ScoreApp, Typeform &amp; Other Quiz Tools: We can do the bucketed-segment thing too, if that's genuinely all you need. Sort leads, show them one of a few pre-written pages, free plan, unlimited. But that's not really the point of Outcome. Most of the platform's power isn't in the segments - it's in the specific, curated outputs the AI builds per person. Once that's running, nobody in that funnel gets a page someone wrote months ago. The AI runs your insight against their answers (in real time) and builds a result unique to each lead. The team: Built this with my co-founder Dylan Jones, who co-founded ClickFunnels. Funnels move someone through steps. They were never built to actually respond to who's on the other end - that gap is why we built Outcome. Try it: Would love for you to try it (here if you're having trouble finding the link haha) and give us your honest feedback. This is our V1, and we'd genuinely love this community's insight as we keep building it out. Thanks for having me on this side of the launch for once. 🙏"
+            "text": "Hey Hunters, Makers, and PH regulars 👋 I'm Dan, co-founder at Outcome, somewhere around day 1,103 of my PH streak, and today's the first time I'm hitting the \"Ship It\" button instead of commenting on someone else's launch. Feels good.. and a little terrifying haha. What we built: Outcome takes a video, an article or just an idea you describe, and turns it into a short quiz. You decide the outcome you want people to walk away with, a score, an audit, a plan, whatever you want your audience to leave holding. Every person who takes the quiz gets that outcome, built from two things: what you know, and what they just told you. That's the whole value prop : give something personally curated away for free and trust does more of the selling/converting than a cold pitch could. An example that'll make it click: Say you've got a YouTube channel walking people through how to build something, an app, an automation, whatever your thing is, and it ends with a CTA - \"join my Discord\" or \"check the docs,\" and most viewers just... don't. Drop that video into Outcome and build a quiz instead: \"What are you trying to build? What's your stack? Where are you stuck?\" Takes someone thirty seconds to answer. What they get back isn't a generic \"thanks for watching\" page, it's built from what you taught in the video, mixed with their specific answers: A plain-English breakdown of exactly where they're stuck in their stack and why A checklist trimmed to just the steps their setup actually needs A calculator that estimates what they'd save, or need, to actually build it A follow-up email, written by our email writer skill, with next steps already spelled out All four (or any number) of these could live on the same outcome page - one quiz - one result stacked with whatever blocks make sense for your specific use case. And it's not just better for them. You get something too: every quiz is a data point. Instead of just knowing how many people watched and when they dropped off - you actually get to see their responses and the report each one generated. That's the part that got us excited building this, it's not \"pick a template,\" it's \"here's every shape a result can take, built from what you know, mixed with what they just told you, all in one clean output.\" If you want to see the product in action as an end user, and even get a read on your own launch readiness while you're at it, we built a Roast Your PH Launch using Outcome, drawing on our own scramble to get ready today plus a genuinely great framework from Andre's Substack . We don't have it all figured out, we just tried to build the thing we wish we'd had. How this compares to ScoreApp, Typeform & Other Quiz Tools: We can do the bucketed-segment thing too, if that's genuinely all you need. Sort leads, show them one of a few pre-written pages, free plan, unlimited. But that's not really the point of Outcome. Most of the platform's power isn't in the segments - it's in the specific, curated outputs the AI builds per person. Once that's running, nobody in that funnel gets a page someone wrote months ago. The AI runs your insight against their answers (in real time) and builds a result unique to each lead. The team: Built this with my co-founder Dylan Jones, who co-founded ClickFunnels. Funnels move someone through steps. They were never built to actually respond to who's on the other end - that gap is why we built Outcome. Try it: Would love for you to try it (here if you're having trouble finding the link haha) and give us your honest feedback. This is our V1, and we'd genuinely love this community's insight as we keep building it out. Thanks for having me on this side of the launch for once. 🙏"
           },
           {
             "user": "[REDACTED]",
@@ -856,34 +856,52 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "is it only built for the devs? who notices the PMs unspoken work 😅🥲 ps- im a PM myself...trying to log my work every week and transfer that into ai platform to articulate it better for presentation on weekly reviews. can we do anything with Meridian on that part?"
+            "text": "i've been doing such notes manually so definitely will give Meridian a try!"
           },
           {
             "user": "[REDACTED]",
-            "text": "nobody is going to believe that I actually got something done while just being at my macbook all day long. :)"
+            "text": "Congrats on the launch, guys! 🎊"
           },
           {
             "user": "[REDACTED]",
-            "text": "I was always reluctant to post, but wanted to do Day 1, Day 2 kind of post for #buildinpublic, With Meridian, finally I can do it , glad to discover the product."
+            "text": "Congrats on the launch! Capturing unplanned work and context switching is such a pain point when drafting end-of-day updates or standup notes. Love the local-first, BYO-AI approach. Looking forward to testing it out! 🚀"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats Adithya and Akarsh! The local-first approach and automatic Jira/GitHub updates solve a real developer pain point. Looking forward to seeing Meridian grow. 🚀"
+            "text": "Loved the onboarding @akarsh_hegde"
           },
           {
             "user": "[REDACTED]",
-            "text": "I have been using the product for more than 2 months now and I am one of the beta users, I love the product and how it's shaping up, great going!"
+            "text": "Congrats on the launch! Being a dev myself, this is hitting home."
           },
           {
             "user": "[REDACTED]",
-            "text": "This is a fascinating product, congratulations! If a lot of my work happens on a remote VM that I SSH into from a local computer, does this support that, or plans to support that?"
+            "text": "Two more questions: This seems like it could replace obsidian for creating a 2nd brain that Claude leverages. Does it integrate/pull context from granola transcripts?"
           },
           {
             "user": "[REDACTED]",
-            "text": "You quit your job three months ago to build this, and it's MIT-licensed and free for individual developers. That's a lot to give away on day one. Congrats."
+            "text": "Can it post a weekly bullet point list of work a user completed? I spend about an hour creating a bullet point list of what I completed the previous week."
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faComments": [
+          {
+            "user": "کاربر ProductHunt 1",
+            "text": "Hey Product Hunt! 👋 Three months ago, I quit my job to build Meridian. My co-founder and I kept running into the same problem many developers face: we would ask claude to write an update, then spend ten minutes reconstructing the context it had missed. It knew what we told it, but not the four unexpected problems we had solved along the way. That unplanned work is real, and bigger than most people think. I posted about it on Reddit: \"We software developers massively underestimate how much unplanned work we do every single sprint\" and it went viral, which told us we weren't the only ones feeling this. Meridian does the remembering for us. It runs quietly in the background, groups the day into a timeline, matches the work to open Jira and GitHub tickets, and drafts the update - so by the end of the day there's a work log, a standup note, and a daily summary ready to paste, not write. A few things I care about, as a developer myself: - We care deeply about privacy - nothing leaves your device until you hit approve. - Open source - you can audit exactly what it's doing. - Free for individual developers. No seat, no credit card. - Bring your own AI - runs on the Claude Code, Cursor, or Codex CLI you already have, or Groq for free if you don't. Try it Free download — Meridian for macOS (Apple Silicon, macOS 14+) or Meridian for Windows (Win 10/11, 64-bit). Everything else is at meridiona.com , and if you like what we're building, star us on GitHub ."
+          },
+          {
+            "user": "کاربر ProductHunt 2",
+            "text": "i've been doing such notes manually so definitely will give Meridian a try!"
+          },
+          {
+            "user": "کاربر ProductHunt 3",
+            "text": "Congrats on the launch, guys! 🎊"
+          },
+          {
+            "user": "کاربر ProductHunt 4",
+            "text": "Congrats on the launch! Capturing unplanned work and context switching is such a pain point when drafting end-of-day updates or standup notes. Love the local-first, BYO-AI approach. Looking forward to testing it out! 🚀"
+          }
+        ]
       },
       {
         "id": "ph-today-4",
@@ -1025,6 +1043,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Just saw this now and signed up to try, but all free agents are sold out. Will more be added? I'd like to test drive before paying."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Its the best product in my opinion! Just a tip, it should have a copy button to the tasks. That would help too much."
           },
           {
@@ -1046,10 +1068,6 @@
           {
             "user": "[REDACTED]",
             "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 mins The Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Is it really going to be 0$ forever?"
           }
         ],
         "makerTwitter": "",
@@ -1157,7 +1175,24 @@
         ],
         "makerTwitter": "",
         "faDescription": "Inferock Bench یک پراکسی محلی است که بین برنامه شما و API‌های OpenAI، Anthropic، Gemini یا OpenRouter قرار می‌گیرد. این ابزار از هر تماس API، استفاده از توکن‌ها، شکست‌ها و تلاش‌های مجدد را ثبت می‌کند و سپس یک رسید مستقل ایجاد می‌کند که نشان می‌دهد شما چقدر هزینه پرداخت کرده‌اید و چقدر برای خدمات بیش از حد پرداخت می‌کنید. این ابزار به شما کمک می‌کند تا هزینه‌های خود را به‌طور دقیق‌تر مدیریت کنید و از پرداخت‌های اضافی جلوگیری کنید. Inferock Bench می‌تواند به شما در بهینه‌سازی استفاده از API‌ها و کاهش هزینه‌ها کمک کند.",
-        "faComments": [],
+        "faComments": [
+          {
+            "user": "کاربر ProductHunt 1",
+            "text": "auditing your own inference bill is such an obvious gap 🔍 nice one. seeing much overbilling in the wild yet?"
+          },
+          {
+            "user": "کاربر ProductHunt 2",
+            "text": "Congrats on the launch of Inferock Bench. Love the idea of having an independent receipt for every LLM API call. Transparent usage, billing, and overpayment tracking can be a huge win for teams working with multiple LLM providers."
+          },
+          {
+            "user": "کاربر ProductHunt 3",
+            "text": "Retries are the part I’d put in giant font. ‘$0.04/call’ means nothing if a successful job secretly takes 6 calls. I want cost per accepted outcome."
+          },
+          {
+            "user": "کاربر ProductHunt 4",
+            "text": "The failed-calls and retries breakdown is the part I'd use first. One case I keep hitting might not show up there: a tool call that returns 200 with a silently corrupted value. I measured this on Anthropic models, 40 calls, none flagged the value was wrong, so it bills as a clean success and the retry logic never fires. Can the receipt catch a call that looked fine but wasn't? Or is that out of scope by design?"
+          }
+        ],
         "iranEquivalent": {
           "productName": "صندوق هوشمند",
           "description": "صندوق هوشمند یک ابزار ایرانی است که به کاربران کمک می‌کند تا هزینه‌های خود را به‌طور دقیق‌تر مدیریت کنند و از پرداخت‌های اضافی جلوگیری کنند. این ابزار می‌تواند به کاربران در بهینه‌سازی استفاده از API‌ها و کاهش هزینه‌ها کمک کند.",
@@ -2107,6 +2142,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I'm experimenting and, so far, I'm impressed. Do you have a recommended set of bots and traits they should have? I think the discovery part on the setup process is what I'm struggling with the most."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "The product question feels solved faster than the pricing question. Once a bot actually owns work, I’d want cost per completed workflow + value of the human time replaced. Seat pricing feels very 2024."
           },
           {
@@ -2128,10 +2167,6 @@
           {
             "user": "[REDACTED]",
             "text": "If someone is already experimenting with OpenAI Operator or Claude’s computer-use experiences, what are the 2–3 concrete things Grok Bot does better today (e.g., parallel bots, routines learned by demonstration, long-running work while your laptop is closed), and where are you intentionally not competing yet?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is so awesome. I've been playing with it since yesterday, and it has already become my favorite tech of the year."
           }
         ],
         "makerTwitter": "",
@@ -2313,7 +2348,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt. I'm Evan, cofounder of Ito. Coding agents produce more code than you can review. Existing code review tools only stare at the code, so you still have to review tons of code or build complex internal systems to verify it. Ito is a runtime code review tool. On every pull request: Creates test plan from code, PR description, ticket, your input Builds your app in a single-use isolated container with the ability to use credentials, seed data to reach the state that matters, and use external services just as an engineer would on their local machine. Mocks data/code when it doesn’t have access. Drives the app with a swarm of agents (click, navigate, API call, db verification) Catches runtime issues: concurrency, failure handling, data migration, authentication, etc. Posts results on PR with evidence: video, logs, screenshots We built Ito with a team of 8 MIT engineers, and spent many cycles to arbitrarily build any application.&nbsp; Ito gets better the more you use it: Responds to feedback Faster runtimes every run as Ito learns how to navigate your application and builds tools to manipulate your environment Reviews focused on the areas you care about (sees what gets fixed vs ignored) Test instruction per org, per repo, or per author First 100 reviews free, no card. $40/mo after that. Free forever for open source (already supporting &gt;100k stars): app.ito.ai?ph You can also try out open source PRs without signing up here: https://www.ito.ai/review?ph"
+            "text": "Hey Product Hunt. I'm Evan, cofounder of Ito. Coding agents produce more code than you can review. Existing code review tools only stare at the code, so you still have to review tons of code or build complex internal systems to verify it. Ito is a runtime code review tool. On every pull request: Creates test plan from code, PR description, ticket, your input Builds your app in a single-use isolated container with the ability to use credentials, seed data to reach the state that matters, and use external services just as an engineer would on their local machine. Mocks data/code when it doesn’t have access. Drives the app with a swarm of agents (click, navigate, API call, db verification) Catches runtime issues: concurrency, failure handling, data migration, authentication, etc. Posts results on PR with evidence: video, logs, screenshots We built Ito with a team of 8 MIT engineers, and spent many cycles to arbitrarily build any application. Ito gets better the more you use it: Responds to feedback Faster runtimes every run as Ito learns how to navigate your application and builds tools to manipulate your environment Reviews focused on the areas you care about (sees what gets fixed vs ignored) Test instruction per org, per repo, or per author First 100 reviews free, no card. $40/mo after that. Free forever for open source (already supporting >100k stars): app.ito.ai?ph You can also try out open source PRs without signing up here: https://www.ito.ai/review?ph"
           },
           {
             "user": "[REDACTED]",
@@ -2411,7 +2446,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B .&nbsp; What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides:&nbsp; Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now?&nbsp; We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running&nbsp; Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day.&nbsp; I’ll be in the comments all day, ask away!"
+            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B . What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides: Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now? We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day. I’ll be in the comments all day, ask away!"
           },
           {
             "user": "[REDACTED]",
@@ -2802,7 +2837,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Hunters, Makers, and PH regulars 👋 I'm Dan, co-founder at Outcome, somewhere around day 1,103 of my PH streak, and today's the first time I'm hitting the \"Ship It\" button instead of commenting on someone else's launch. Feels good.. and a little terrifying haha. What we built: Outcome takes a video, an article or just an idea you describe, and turns it into a short quiz. You decide the outcome you want people to walk away with, a score, an audit, a plan, whatever you want your audience to leave holding. Every person who takes the quiz gets that outcome, built from two things: what you know, and what they just told you. That's the whole value prop : give something personally curated away for free and trust does more of the selling/converting than a cold pitch could. An example that'll make it click: Say you've got a YouTube channel walking people through how to build something, an app, an automation, whatever your thing is, and it ends with a CTA - \"join my Discord\" or \"check the docs,\" and most viewers just... don't. Drop that video into Outcome and build a quiz instead: \"What are you trying to build? What's your stack? Where are you stuck?\" Takes someone thirty seconds to answer. What they get back isn't a generic \"thanks for watching\" page, it's built from what you taught in the video, mixed with their specific answers: A plain-English breakdown of exactly where they're stuck in their stack and why A checklist trimmed to just the steps their setup actually needs A calculator that estimates what they'd save, or need, to actually build it A follow-up email, written by our email writer skill, with next steps already spelled out All four (or any number) of these could live on the same outcome page - one quiz - one result stacked with whatever blocks make sense for your specific use case. And it's not just better for them. You get something too: every quiz is a data point. Instead of just knowing how many people watched and when they dropped off - you actually get to see their responses and the report each one generated. That's the part that got us excited building this, it's not \"pick a template,\" it's \"here's every shape a result can take, built from what you know, mixed with what they just told you, all in one clean output.\" If you want to see the product in action as an end user, and even get a read on your own launch readiness while you're at it, we built a Roast Your PH Launch using Outcome, drawing on our own scramble to get ready today plus a genuinely great framework from Andre's Substack . We don't have it all figured out, we just tried to build the thing we wish we'd had. How this compares to ScoreApp, Typeform &amp; Other Quiz Tools: We can do the bucketed-segment thing too, if that's genuinely all you need. Sort leads, show them one of a few pre-written pages, free plan, unlimited. But that's not really the point of Outcome. Most of the platform's power isn't in the segments - it's in the specific, curated outputs the AI builds per person. Once that's running, nobody in that funnel gets a page someone wrote months ago. The AI runs your insight against their answers (in real time) and builds a result unique to each lead. The team: Built this with my co-founder Dylan Jones, who co-founded ClickFunnels. Funnels move someone through steps. They were never built to actually respond to who's on the other end - that gap is why we built Outcome. Try it: Would love for you to try it (here if you're having trouble finding the link haha) and give us your honest feedback. This is our V1, and we'd genuinely love this community's insight as we keep building it out. Thanks for having me on this side of the launch for once. 🙏"
+            "text": "Hey Hunters, Makers, and PH regulars 👋 I'm Dan, co-founder at Outcome, somewhere around day 1,103 of my PH streak, and today's the first time I'm hitting the \"Ship It\" button instead of commenting on someone else's launch. Feels good.. and a little terrifying haha. What we built: Outcome takes a video, an article or just an idea you describe, and turns it into a short quiz. You decide the outcome you want people to walk away with, a score, an audit, a plan, whatever you want your audience to leave holding. Every person who takes the quiz gets that outcome, built from two things: what you know, and what they just told you. That's the whole value prop : give something personally curated away for free and trust does more of the selling/converting than a cold pitch could. An example that'll make it click: Say you've got a YouTube channel walking people through how to build something, an app, an automation, whatever your thing is, and it ends with a CTA - \"join my Discord\" or \"check the docs,\" and most viewers just... don't. Drop that video into Outcome and build a quiz instead: \"What are you trying to build? What's your stack? Where are you stuck?\" Takes someone thirty seconds to answer. What they get back isn't a generic \"thanks for watching\" page, it's built from what you taught in the video, mixed with their specific answers: A plain-English breakdown of exactly where they're stuck in their stack and why A checklist trimmed to just the steps their setup actually needs A calculator that estimates what they'd save, or need, to actually build it A follow-up email, written by our email writer skill, with next steps already spelled out All four (or any number) of these could live on the same outcome page - one quiz - one result stacked with whatever blocks make sense for your specific use case. And it's not just better for them. You get something too: every quiz is a data point. Instead of just knowing how many people watched and when they dropped off - you actually get to see their responses and the report each one generated. That's the part that got us excited building this, it's not \"pick a template,\" it's \"here's every shape a result can take, built from what you know, mixed with what they just told you, all in one clean output.\" If you want to see the product in action as an end user, and even get a read on your own launch readiness while you're at it, we built a Roast Your PH Launch using Outcome, drawing on our own scramble to get ready today plus a genuinely great framework from Andre's Substack . We don't have it all figured out, we just tried to build the thing we wish we'd had. How this compares to ScoreApp, Typeform & Other Quiz Tools: We can do the bucketed-segment thing too, if that's genuinely all you need. Sort leads, show them one of a few pre-written pages, free plan, unlimited. But that's not really the point of Outcome. Most of the platform's power isn't in the segments - it's in the specific, curated outputs the AI builds per person. Once that's running, nobody in that funnel gets a page someone wrote months ago. The AI runs your insight against their answers (in real time) and builds a result unique to each lead. The team: Built this with my co-founder Dylan Jones, who co-founded ClickFunnels. Funnels move someone through steps. They were never built to actually respond to who's on the other end - that gap is why we built Outcome. Try it: Would love for you to try it (here if you're having trouble finding the link haha) and give us your honest feedback. This is our V1, and we'd genuinely love this community's insight as we keep building it out. Thanks for having me on this side of the launch for once. 🙏"
           },
           {
             "user": "[REDACTED]",
@@ -3059,6 +3094,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Just saw this now and signed up to try, but all free agents are sold out. Will more be added? I'd like to test drive before paying."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Its the best product in my opinion! Just a tip, it should have a copy button to the tasks. That would help too much."
           },
           {
@@ -3080,10 +3119,6 @@
           {
             "user": "[REDACTED]",
             "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 mins The Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Is it really going to be 0$ forever?"
           }
         ],
         "makerTwitter": "",
@@ -3334,7 +3369,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch @himashwetha_gowda. Good find @fmerian. Question regarding accuracy, is it possible it might not be able to distinguish a genuinely billable provider failure from valid hidden token usage, such as reasoning, refusal, cache, or tool-call tokens?"
+            "text": "Congrats on the launch @himashwetha_gowda . Good find @fmerian . Question regarding accuracy, is it possible it might not be able to distinguish a genuinely billable provider failure from valid hidden token usage, such as reasoning, refusal, cache, or tool-call tokens?"
           },
           {
             "user": "[REDACTED]",
@@ -3349,7 +3384,48 @@
             "text": "The bill dispute question is interesting. have you personally managed to get a provider to credit a charge after showing them one of these per call receipts or is that still something you are testing?"
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faDescription": "Inferock Bench یک پراکسی محلی است که بین برنامه شما و API‌های OpenAI، Anthropic، Gemini یا OpenRouter قرار می‌گیرد. این ابزار از هر تماس API، استفاده از توکن‌ها، شکست‌ها و تلاش‌های مجدد را ثبت می‌کند و سپس یک رسید مستقل ایجاد می‌کند که نشان می‌دهد شما چقدر هزینه پرداخت کرده‌اید و چقدر برای خدمات بیش از حد پرداخت می‌کنید. این ابزار به شما کمک می‌کند تا هزینه‌های خود را به‌طور دقیق‌تر مدیریت کنید و از پرداخت‌های اضافی جلوگیری کنید. Inferock Bench می‌تواند به شما در بهینه‌سازی استفاده از API‌ها و کاهش هزینه‌ها کمک کند.",
+        "faComments": [
+          {
+            "user": "کاربر ProductHunt 1",
+            "text": "auditing your own inference bill is such an obvious gap 🔍 nice one. seeing much overbilling in the wild yet?"
+          },
+          {
+            "user": "کاربر ProductHunt 2",
+            "text": "Congrats on the launch of Inferock Bench. Love the idea of having an independent receipt for every LLM API call. Transparent usage, billing, and overpayment tracking can be a huge win for teams working with multiple LLM providers."
+          },
+          {
+            "user": "کاربر ProductHunt 3",
+            "text": "Retries are the part I’d put in giant font. ‘$0.04/call’ means nothing if a successful job secretly takes 6 calls. I want cost per accepted outcome."
+          },
+          {
+            "user": "کاربر ProductHunt 4",
+            "text": "The failed-calls and retries breakdown is the part I'd use first. One case I keep hitting might not show up there: a tool call that returns 200 with a silently corrupted value. I measured this on Anthropic models, 40 calls, none flagged the value was wrong, so it bills as a clean success and the retry logic never fires. Can the receipt catch a call that looked fine but wasn't? Or is that out of scope by design?"
+          }
+        ],
+        "iranEquivalent": {
+          "productName": "صندوق هوشمند",
+          "description": "صندوق هوشمند یک ابزار ایرانی است که به کاربران کمک می‌کند تا هزینه‌های خود را به‌طور دقیق‌تر مدیریت کنند و از پرداخت‌های اضافی جلوگیری کنند. این ابزار می‌تواند به کاربران در بهینه‌سازی استفاده از API‌ها و کاهش هزینه‌ها کمک کند.",
+          "marketOpportunity": "فرصت بازار ایران برای ابزارهای مدیریت هزینه و بهینه‌سازی استفاده از API‌ها بسیار خوب است. بسیاری از شرکت‌ها و سازمان‌ها در ایران به دنبال راه‌های کاهش هزینه‌ها و بهبود کارایی خود هستند. صندوق هوشمند می‌تواند به این شرکت‌ها کمک کند تا هزینه‌های خود را کاهش دهند و کارایی خود را بهبود بخشند.",
+          "estimatedBudget": "-۱ تا ۳ میلیارد تومان",
+          "targetAudience": "شرکت‌ها و سازمان‌های ایرانی",
+          "challenges": [
+            "رقابت با ابزارهای خارجی",
+            "نیاز به آموزش و آگاهی‌رسانی به کاربران",
+            "نیاز به پشتیبانی و به‌روزرسانی مداوم"
+          ],
+          "monetization": [
+            "فروش ابزار به شرکت‌ها و سازمان‌ها",
+            "ارائه خدمات مشاوره و آموزش"
+          ],
+          "techStack": [
+            "Next.js",
+            "PostgreSQL"
+          ],
+          "confidence": 75
+        },
+        "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nInferock Bench یک ابزار است که به کاربران کمک می‌کند تا هزینه‌های خود را به‌طور دقیق‌تر مدیریت کنند و از پرداخت‌های اضافی جلوگیری کنند. این ابزار می‌تواند به کاربران در بهینه‌سازی استفاده از API‌ها و کاهش هزینه‌ها کمک کند.\n🔹 معماری و تکنولوژی احتمالی:\nاین ابزار می‌تواند با استفاده از تکنولوژی‌های Next.js و PostgreSQL ساخته شود.\n🔹 مدل درآمدی:\nاین ابزار می‌تواند با فروش به شرکت‌ها و سازمان‌ها و ارائه خدمات مشاوره و آموزش درآمدزایی کند.\n🔹 نقاط قوت:\n- کمک به کاربران در مدیریت هزینه‌ها\n- بهینه‌سازی استفاده از API‌ها\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای خارجی\n- نیاز به آموزش و آگاهی‌رسانی به کاربران\n🔹 نکته طلایی برای بازار ایران:\nصندوق هوشمند می‌تواند به شرکت‌ها و سازمان‌های ایرانی کمک کند تا هزینه‌های خود را کاهش دهند و کارایی خود را بهبود بخشند."
       },
       {
         "id": "ph-yesterday-2",
@@ -3909,7 +3985,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh.Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone.Here's the problem we kept hitting. AI is getting locked up. Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI.So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack.That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it.Inside you still get everything the closed platforms sell:Visual flow builder - no glue codeReal time speech to speech - 70+ languages with mid-call switchingTelephony + warm handoff to a humanCall recordings with automatic QAFree REST APIWhy that matters:The payoff is ownership - your only cost is your model billYour data never leaves your servers - compliance gets simpleNo glue code - you ship in hoursIt fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders.We are a small team. A star on GitHub or honest feedback here does more for us than you would think.Install it, break it, tell me what's missing. I'm here all day.But first, try a Dograh voice agent now."
+            "text": "Hey Product Hunt, I'm Pritesh, one of the makers of Dograh . Dograh is an open source platform for building voice AI agents - calling agents that answer calls, book appointments, qualify leads, or run payment reminders over the phone. Here's the problem we kept hitting. AI is getting locked up . Closed platforms make you rent your own agents on their cloud, at their price. And right now big labs are lobbying to restrict open source AI itself. We run on one belief: no company should own voice AI. So from day 0 we open sourced every line. BSD-2 license, one command to install, nothing held back, nothing gated. Everything runs on your own server, and it's yours. You build phone agents and also own the whole stack. That is the difference. There is no platform to rent here. No per-minute fee, no gated tier. Bring your own keys, or run local models completely offline, even air-gapped. And it's MCP native - connect Claude Code and build a voice agent by chatting with it. Inside you still get everything the closed platforms sell: Visual flow builder - no glue code Real time speech to speech - 70+ languages with mid-call switching Telephony + warm handoff to a human Call recordings with automatic QA Free REST API Why that matters: The payoff is ownership - your only cost is your model bill Your data never leaves your servers - compliance gets simple No glue code - you ship in hours It fits developers and agencies building agents for clients or their internal use case, and compliance-heavy teams in healthcare, finance, and collections. Common uses today include appointment booking, lead qualification, support lines, payment reminders. We are a small team. A star on GitHub or honest feedback here does more for us than you would think. Install it, break it, tell me what's missing. I'm here all day. But first, try a Dograh voice agent now."
           },
           {
             "user": "[REDACTED]",
@@ -4100,6 +4176,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I'm experimenting and, so far, I'm impressed. Do you have a recommended set of bots and traits they should have? I think the discovery part on the setup process is what I'm struggling with the most."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "The product question feels solved faster than the pricing question. Once a bot actually owns work, I’d want cost per completed workflow + value of the human time replaced. Seat pricing feels very 2024."
           },
           {
@@ -4116,15 +4196,11 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "It feels like PPLX Computer. But with the extra \"bots can also collaborate between them\" aspect bolted on and the fact that its on a virtual computer (Unlike PPLX computer which requires a dedicated macbook or macmini). Question. This is a single player platform today. Do you think it will open up for a more team based control plane in the future? Another question. Since its a virtual computer. that means logins etc will need to be piped in. There will be alots of unkown IP logging into XYZ etc. And solve this captch because new IP walls. Any insight here? Whats the exeperience and friction level?thanks!"
+            "text": "It feels like PPLX Computer. But with the extra \"bots can also collaborate between them\" aspect bolted on and the fact that its on a virtual computer (Unlike PPLX computer which requires a dedicated macbook or macmini). Question. This is a single player platform today. Do you think it will open up for a more team based control plane in the future? Another question. Since its a virtual computer. that means logins etc will need to be piped in. There will be alots of unkown IP logging into XYZ etc. And solve this captch because new IP walls. Any insight here? Whats the exeperience and friction level? thanks!"
           },
           {
             "user": "[REDACTED]",
             "text": "If someone is already experimenting with OpenAI Operator or Claude’s computer-use experiences, what are the 2–3 concrete things Grok Bot does better today (e.g., parallel bots, routines learned by demonstration, long-running work while your laptop is closed), and where are you intentionally not competing yet?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is so awesome. I've been playing with it since yesterday, and it has already become my favorite tech of the year."
           }
         ],
         "makerTwitter": "",
@@ -4559,7 +4635,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi, I'm Jay Singh, Co-Founder of TestMu AI.Every technology wave has the same shape. Capability jumps first. Trust catches up later. We saw it with cloud, and we are watching it again with AI.The gap we kept seeing⚡ AI writes the code in minutes now🖱️ But someone still has to open the app and confirm it actually works⏳ The building got fast. The assurance never didThat gap is the defining problem of this era of software, and it is why we built Kane CLI.How it closes the loop📥 Ingests your source or PRD🧩 Designs the use cases and test scenarios🌐 Runs them in a real Chrome browser, or on Android emulators and iOS simulators📸 Returns an evidence pack, AC coverage, and a verdictNot just \"did it run\". Did it work, and can you prove it. ✅We believe the next generation of software teams will not be measured by how fast they build. Everyone will build fast. They will be measured by how fast they can trust what they built. 🚀Would love to hear how your team is dealing with this gap.Learn more: https://www.testmuai.com/kane-cli-ph/"
+            "text": "Hi, I'm Jay Singh, Co-Founder of TestMu AI. Every technology wave has the same shape. Capability jumps first. Trust catches up later. We saw it with cloud, and we are watching it again with AI. The gap we kept seeing ⚡ AI writes the code in minutes now 🖱️ But someone still has to open the app and confirm it actually works ⏳ The building got fast. The assurance never did That gap is the defining problem of this era of software, and it is why we built Kane CLI. How it closes the loop 📥 Ingests your source or PRD 🧩 Designs the use cases and test scenarios 🌐 Runs them in a real Chrome browser, or on Android emulators and iOS simulators 📸 Returns an evidence pack, AC coverage, and a verdict Not just \"did it run\". Did it work, and can you prove it. ✅ We believe the next generation of software teams will not be measured by how fast they build. Everyone will build fast. They will be measured by how fast they can trust what they built. 🚀 Would love to hear how your team is dealing with this gap. Learn more: https://www.testmuai.com/kane-cli-ph/"
           },
           {
             "user": "[REDACTED]",
@@ -4661,7 +4737,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt. I'm Evan, cofounder of Ito.Coding agents produce more code than you can review. Existing code review tools only stare at the code, so you still have to review tons of code or build complex internal systems to verify it.Ito is a runtime code review tool. On every pull request:Creates test plan from code, PR description, ticket, your inputBuilds your app in a single-use isolated container with the ability to use credentials, seed data to reach the state that matters, and use external services just as an engineer would on their local machine. Mocks data/code when it doesn’t have access.Drives the app with a swarm of agents (click, navigate, API call, db verification)Catches runtime issues: concurrency, failure handling, data migration, authentication, etc.Posts results on PR with evidence: video, logs, screenshotsWe built Ito with a team of 8 MIT engineers, and spent many cycles to arbitrarily build any application. Ito gets better the more you use it:Responds to feedbackFaster runtimes every run as Ito learns how to navigate your application and builds tools to manipulate your environmentReviews focused on the areas you care about (sees what gets fixed vs ignored)Test instruction per org, per repo, or per authorFirst 100 reviews free, no card. $40/mo after that. Free forever for open source (already supporting >100k stars): app.ito.ai?phYou can also try out open source PRs without signing up here: https://www.ito.ai/review?ph"
+            "text": "Hey Product Hunt. I'm Evan, cofounder of Ito. Coding agents produce more code than you can review. Existing code review tools only stare at the code, so you still have to review tons of code or build complex internal systems to verify it. Ito is a runtime code review tool. On every pull request: Creates test plan from code, PR description, ticket, your input Builds your app in a single-use isolated container with the ability to use credentials, seed data to reach the state that matters, and use external services just as an engineer would on their local machine. Mocks data/code when it doesn’t have access. Drives the app with a swarm of agents (click, navigate, API call, db verification) Catches runtime issues: concurrency, failure handling, data migration, authentication, etc. Posts results on PR with evidence: video, logs, screenshots We built Ito with a team of 8 MIT engineers, and spent many cycles to arbitrarily build any application. Ito gets better the more you use it: Responds to feedback Faster runtimes every run as Ito learns how to navigate your application and builds tools to manipulate your environment Reviews focused on the areas you care about (sees what gets fixed vs ignored) Test instruction per org, per repo, or per author First 100 reviews free, no card. $40/mo after that. Free forever for open source (already supporting >100k stars): app.ito.ai?ph You can also try out open source PRs without signing up here: https://www.ito.ai/review?ph"
           },
           {
             "user": "[REDACTED]",
@@ -4673,11 +4749,11 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Running the app before reading the diff is the actual difference here, and it creates a question I have not seen a runtime reviewer answer well.What does Ito post on the PR when the container itself never came up? Build failed, seed data unavailable, external service refused the credential. If that lands as \"no runtime issues found\", then a broken environment and a clean PR are the same result, and it fails silently in the direction that looks fine.So: what does a run that could not run report as?"
+            "text": "Running the app before reading the diff is the actual difference here, and it creates a question I have not seen a runtime reviewer answer well. What does Ito post on the PR when the container itself never came up? Build failed, seed data unavailable, external service refused the credential. If that lands as \"no runtime issues found\", then a broken environment and a clean PR are the same result, and it fails silently in the direction that looks fine. So: what does a run that could not run report as?"
           },
           {
             "user": "[REDACTED]",
-            "text": "Grayson here, one of Ito's cofounders.I love that the hard part of Ito is often overlooked: generalizing the ability to run code is the difficult problem. Everyone assumes it's a \"deciding what to test\" problem (which is definitely hard too!). But the challenge of standing up an actual application is insanely hard. Get that wrong and the smartest agent in the world clicks around a broken login page. Internal teams at DoorDash or Ramp have spent quarters of engineering time trying to build this internally because they know it's important. Most teams cannot, and shouldn't have to.That is why runtime review didn't exist until now. Nobody wanted to build the unglamorous layer, and you cannot fake it by bolting a sandbox onto a static reviewer.That layer is where most of our engineering was spent prior to launch, and it's the reason the reviews surface verifiable bugs instead of suspicions. Just wait to see what else we do :)"
+            "text": "Grayson here, one of Ito's cofounders. I love that the hard part of Ito is often overlooked: generalizing the ability to run code is the difficult problem. Everyone assumes it's a \"deciding what to test\" problem (which is definitely hard too!). But the challenge of standing up an actual application is insanely hard. Get that wrong and the smartest agent in the world clicks around a broken login page. Internal teams at DoorDash or Ramp have spent quarters of engineering time trying to build this internally because they know it's important. Most teams cannot, and shouldn't have to. That is why runtime review didn't exist until now. Nobody wanted to build the unglamorous layer, and you cannot fake it by bolting a sandbox onto a static reviewer. That layer is where most of our engineering was spent prior to launch, and it's the reason the reviews surface verifiable bugs instead of suspicions. Just wait to see what else we do :)"
           },
           {
             "user": "[REDACTED]",
@@ -4685,7 +4761,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "Hi, I'm Geoff, a software engineer on the Ito team. 👋The thing I love most about Ito: it actually runs the code. 🚀 Every PR I open comes back with a test plan that wasexecuted, not just read.⚡ Automates the manual testing I used to do by hand — click through the flow, check the edge cases, confirm nothing else broke. That's hours back every week.🐛 Catches bugs I would have missed. Real runtime failures that linters and static analysis structurally can't see,because they never execute anything.🤖 Makes agentic loops genuinely feasible. When an agent writes the code, something has to verify it actually worksIto is that step, so I can let the loop run longer and trust what comes out the other end.Getting to build this as an engineer who also uses it every day has been the most fun I've had on a product. 🎉Easy to try and see how Ito can help your team: app.ito.ai"
+            "text": "Hi, I'm Geoff, a software engineer on the Ito team. 👋 The thing I love most about Ito: it actually runs the code. 🚀 Every PR I open comes back with a test plan that was executed, not just read. ⚡ Automates the manual testing I used to do by hand — click through the flow, check the edge cases, confirm nothing else broke. That's hours back every week. 🐛 Catches bugs I would have missed. Real runtime failures that linters and static analysis structurally can't see, because they never execute anything. 🤖 Makes agentic loops genuinely feasible. When an agent writes the code, something has to verify it actually works Ito is that step, so I can let the loop run longer and trust what comes out the other end. Getting to build this as an engineer who also uses it every day has been the most fun I've had on a product. 🎉 Easy to try and see how Ito can help your team: app.ito.ai"
           }
         ],
         "makerTwitter": "",
@@ -4929,7 +5005,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B.Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system.We call this phenomenon wild code: it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk.With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B. What is Tines 3B?A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides: Freedom to build with AI anywhereControl to run and monitor that workAn AI-native, code-first platform built to work with LLMs and AI coding toolsWe built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code.Why launch on Product Hunt now? We recently introduced Explore Edition, a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability.Who is Tines 3B for?Builders who want to go from ideas to workflows using natural languageIT and Security teams who need visibility into what’s running Anyone dealing with sprawl from AI-generated scripts, agents, and one-off toolsInnovators who want AI to write the code for their projects, home labs, or personal agentsWe’d love your feedbackWe think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think.We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day. I’ll be in the comments all day, ask away!"
+            "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B . What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides: Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now? We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day. I’ll be in the comments all day, ask away!"
           },
           {
             "user": "[REDACTED]",
@@ -4957,7 +5033,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "@steobrien This looks really impressive! I especially like the idea of keeping agents, apps, and automations in one secure and auditable environment.Good luck guys!"
+            "text": "@steobrien This looks really impressive! I especially like the idea of keeping agents, apps, and automations in one secure and auditable environment. Good luck guys!"
           }
         ],
         "makerTwitter": "",
@@ -5201,7 +5277,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt!Mathew here. I'm the founder of The Letter Company.Today, we're debuting one of my favorite things that we've ever built. You've likely heard of AEO. Or GEO. Or AI Search. It's a popular space rife with tools. But there's been a big problem: it's pay-to-play. Even to find out how you're doing on AI Search, you need to fork over something crazy like $250/mo.And I beg.... for what? AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls.No more $250/mo fees. Now, it's free. Lettertrace is a BYOK telemetry tool for measuring how you're doing on AI search. It's open source. MIT license. Free even on our hosted version. There are no paid tiers. None. Nada. You'll never put down a credit card. We're moving beyond that. It's time we get telemetry on our GEO, just like we had on our SEO, without having to pay for it.Lettertrace is super easy to use. Like SO easy. Why? Cause it's got an amazing CLI. Just install it, give Claude Code or Codex access, and your coding agent will go to town. It'll add the topics your buyers actually ask about (\"best CRM for startups\"). It'll generate realistic prompt variations and run them against Claude, ChatGPT, Gemini, and other major LLMs. It'll track visibility, share of voice, prominence, and sentiment.npm install lettertrace. claude code. prompt. That's it. Or, if you're non-technical, sign-up traditionally. And it's actually open source. Not open core, none of those gimmicks. A clean MIT license. Bring your own key. You pay the model providers directly, no markup on top. You'll spend ... maybe $3? If you're just paying to measure AI search, you're getting ripped off and we're putting an end to that.Three things I'd genuinely like feedback on. First, which answer engines matter enough to add next. Second, whether the generated prompt variations read like questions real people ask, because that's the piece I'm least sure about. Third, did the video effectively explain our purpose as a company?Code: github.com/letterstory/lettertrace"
+            "text": "Hey Product Hunt! Mathew here. I'm the founder of The Letter Company. Today, we're debuting one of my favorite things that we've ever built. You've likely heard of AEO. Or GEO. Or AI Search. It's a popular space rife with tools. But there's been a big problem: it's pay-to-play. Even to find out how you're doing on AI Search, you need to fork over something crazy like $250/mo. And I beg.... for what? AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls. No more $250/mo fees. Now, it's free. Lettertrace is a BYOK telemetry tool for measuring how you're doing on AI search. It's open source. MIT license. Free even on our hosted version. There are no paid tiers. None. Nada. You'll never put down a credit card. We're moving beyond that. It's time we get telemetry on our GEO, just like we had on our SEO, without having to pay for it. Lettertrace is super easy to use. Like SO easy. Why? Cause it's got an amazing CLI. Just install it, give Claude Code or Codex access, and your coding agent will go to town. It'll add the topics your buyers actually ask about (\"best CRM for startups\"). It'll generate realistic prompt variations and run them against Claude, ChatGPT, Gemini, and other major LLMs. It'll track visibility, share of voice, prominence, and sentiment. npm install lettertrace . claude code. prompt. That's it. Or, if you're non-technical, sign-up traditionally. And it's actually open source. Not open core, none of those gimmicks. A clean MIT license. Bring your own key. You pay the model providers directly, no markup on top. You'll spend ... maybe $3? If you're just paying to measure AI search, you're getting ripped off and we're putting an end to that. Three things I'd genuinely like feedback on. First, which answer engines matter enough to add next. Second, whether the generated prompt variations read like questions real people ask, because that's the piece I'm least sure about. Third, did the video effectively explain our purpose as a company? Code: github.com/letterstory/lettertrace"
           },
           {
             "user": "[REDACTED]",
@@ -5209,7 +5285,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "\"AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls\" is the sentence that should be at the top of the page. Naming the thing you are commoditising is the whole pitch.One property of BYOK worth putting in the docs before a user finds it themselves: everyone queries from their own account, which increasingly means their own model version, their own region, and whatever personalisation has accumulated there. Two people running Lettertrace against the same company on the same afternoon can get materially different share of voice, and neither of them is wrong. So the number is comparable to itself over time only if the model underneath held still, and it never does.Not a flaw, it is the shape of the problem. But \"mentioned in 15 of 40 prompts\" reads like a measurement and behaves like a sample, and that gap is where this category loses trust.Cheap thing that would help more than it sounds: pin the model version into the output line."
+            "text": "\"AI search is effectively measured by a crafty cron job that orchestrates a bunch of model provider calls\" is the sentence that should be at the top of the page. Naming the thing you are commoditising is the whole pitch. One property of BYOK worth putting in the docs before a user finds it themselves: everyone queries from their own account, which increasingly means their own model version, their own region, and whatever personalisation has accumulated there. Two people running Lettertrace against the same company on the same afternoon can get materially different share of voice, and neither of them is wrong. So the number is comparable to itself over time only if the model underneath held still, and it never does. Not a flaw, it is the shape of the problem. But \"mentioned in 15 of 40 prompts\" reads like a measurement and behaves like a sample, and that gap is where this category loses trust. Cheap thing that would help more than it sounds: pin the model version into the output line."
           },
           {
             "user": "[REDACTED]",
@@ -5225,7 +5301,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "The question I have not seen asked yet is what makes the number stable enough to trend. Ask the same model the same thing twice and you get different answers, and a silent model update moves your baseline without telling you. So a line going up is mixing your own work with drift you cannot see.Cheap fix, and I think your architecture already allows it. Measure a control set in the same run, a few competitors or unrelated brands you are not touching. Then drift shows up as a common shift across all of them and you can subtract it out. Being BYOK and open source also means you can pin model versions and re-run history, which the 250 a month tools cannot really offer."
+            "text": "The question I have not seen asked yet is what makes the number stable enough to trend. Ask the same model the same thing twice and you get different answers, and a silent model update moves your baseline without telling you. So a line going up is mixing your own work with drift you cannot see. Cheap fix, and I think your architecture already allows it. Measure a control set in the same run, a few competitors or unrelated brands you are not touching. Then drift shows up as a common shift across all of them and you can subtract it out. Being BYOK and open source also means you can pin model versions and re-run history, which the 250 a month tools cannot really offer."
           },
           {
             "user": "[REDACTED]",
@@ -5302,11 +5378,11 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Hunters, Makers, and PH regulars 👋I'm Dan, co-founder at Outcome, somewhere around day 1,103 of my PH streak, and today's the first time I'm hitting the \"Ship It\" button instead of commenting on someone else's launch. Feels good.. and a little terrifying haha.What we built:Outcome takes a video, an article or just an idea you describe, and turns it into a short quiz. You decide the outcome you want people to walk away with, a score, an audit, a plan, whatever you want your audience to leave holding. Every person who takes the quiz gets that outcome, built from two things: what you know, and what they just told you. That's the whole value prop: give something personally curated away for free and trust does more of the selling/converting than a cold pitch could.An example that'll make it click:Say you've got a YouTube channel walking people through how to build something, an app, an automation, whatever your thing is, and it ends with a CTA - \"join my Discord\" or \"check the docs,\" and most viewers just... don't.Drop that video into Outcome and build a quiz instead: \"What are you trying to build? What's your stack? Where are you stuck?\" Takes someone thirty seconds to answer.What they get back isn't a generic \"thanks for watching\" page, it's built from what you taught in the video, mixed with their specific answers:A plain-English breakdown of exactly where they're stuck in their stack and whyA checklist trimmed to just the steps their setup actually needsA calculator that estimates what they'd save, or need, to actually build itA follow-up email, written by our email writer skill, with next steps already spelled outAll four (or any number) of these could live on the same outcome page - one quiz - one result stacked with whatever blocks make sense for your specific use case.And it's not just better for them. You get something too: every quiz is a data point. Instead of just knowing how many people watched and when they dropped off - you actually get to see their responses and the report each one generated.That's the part that got us excited building this, it's not \"pick a template,\" it's \"here's every shape a result can take, built from what you know, mixed with what they just told you, all in one clean output.\"If you want to see the product in action as an end user, and even get a read on your own launch readiness while you're at it, we built a Roast Your PH Launch using Outcome, drawing on our own scramble to get ready today plus a genuinely great framework from Andre's Substack. We don't have it all figured out, we just tried to build the thing we wish we'd had.How this compares to ScoreApp, Typeform & Other Quiz Tools:We can do the bucketed-segment thing too, if that's genuinely all you need. Sort leads, show them one of a few pre-written pages, free plan, unlimited. But that's not really the point of Outcome. Most of the platform's power isn't in the segments - it's in the specific, curated outputs the AI builds per person. Once that's running, nobody in that funnel gets a page someone wrote months ago. The AI runs your insight against their answers (in real time) and builds a result unique to each lead.The team:Built this with my co-founder Dylan Jones, who co-founded ClickFunnels. Funnels move someone through steps. They were never built to actually respond to who's on the other end - that gap is why we built Outcome.Try it:Would love for you to try it (here if you're having trouble finding the link haha) and give us your honest feedback. This is our V1, and we'd genuinely love this community's insight as we keep building it out.Thanks for having me on this side of the launch for once. 🙏"
+            "text": "Hey Hunters, Makers, and PH regulars 👋 I'm Dan, co-founder at Outcome, somewhere around day 1,103 of my PH streak, and today's the first time I'm hitting the \"Ship It\" button instead of commenting on someone else's launch. Feels good.. and a little terrifying haha. What we built: Outcome takes a video, an article or just an idea you describe, and turns it into a short quiz. You decide the outcome you want people to walk away with, a score, an audit, a plan, whatever you want your audience to leave holding. Every person who takes the quiz gets that outcome, built from two things: what you know, and what they just told you. That's the whole value prop : give something personally curated away for free and trust does more of the selling/converting than a cold pitch could. An example that'll make it click: Say you've got a YouTube channel walking people through how to build something, an app, an automation, whatever your thing is, and it ends with a CTA - \"join my Discord\" or \"check the docs,\" and most viewers just... don't. Drop that video into Outcome and build a quiz instead: \"What are you trying to build? What's your stack? Where are you stuck?\" Takes someone thirty seconds to answer. What they get back isn't a generic \"thanks for watching\" page, it's built from what you taught in the video, mixed with their specific answers: A plain-English breakdown of exactly where they're stuck in their stack and why A checklist trimmed to just the steps their setup actually needs A calculator that estimates what they'd save, or need, to actually build it A follow-up email, written by our email writer skill, with next steps already spelled out All four (or any number) of these could live on the same outcome page - one quiz - one result stacked with whatever blocks make sense for your specific use case. And it's not just better for them. You get something too: every quiz is a data point. Instead of just knowing how many people watched and when they dropped off - you actually get to see their responses and the report each one generated. That's the part that got us excited building this, it's not \"pick a template,\" it's \"here's every shape a result can take, built from what you know, mixed with what they just told you, all in one clean output.\" If you want to see the product in action as an end user, and even get a read on your own launch readiness while you're at it, we built a Roast Your PH Launch using Outcome, drawing on our own scramble to get ready today plus a genuinely great framework from Andre's Substack . We don't have it all figured out, we just tried to build the thing we wish we'd had. How this compares to ScoreApp, Typeform & Other Quiz Tools: We can do the bucketed-segment thing too, if that's genuinely all you need. Sort leads, show them one of a few pre-written pages, free plan, unlimited. But that's not really the point of Outcome. Most of the platform's power isn't in the segments - it's in the specific, curated outputs the AI builds per person. Once that's running, nobody in that funnel gets a page someone wrote months ago. The AI runs your insight against their answers (in real time) and builds a result unique to each lead. The team: Built this with my co-founder Dylan Jones, who co-founded ClickFunnels. Funnels move someone through steps. They were never built to actually respond to who's on the other end - that gap is why we built Outcome. Try it: Would love for you to try it (here if you're having trouble finding the link haha) and give us your honest feedback. This is our V1, and we'd genuinely love this community's insight as we keep building it out. Thanks for having me on this side of the launch for once. 🙏"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats on the launch from the Signify team! 🚀Content workflows get messy fast when jumping between multiple apps, so having a block-based structure to organize and refine content is a real time-saver.Definitely bookmarking this. Good luck!"
+            "text": "Congrats on the launch from the Signify team! 🚀 Content workflows get messy fast when jumping between multiple apps, so having a block-based structure to organize and refine content is a real time-saver. Definitely bookmarking this. Good luck!"
           },
           {
             "user": "[REDACTED]",
@@ -5407,7 +5483,7 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 Yuanlin here, founder of Zeabur and now building Nuphos.Nuphos started from something we learned while building Zeabur.We used to describe where Zeabur was going as “Your AI DevOps Engineer.”But eventually we realized:A PaaS asks you to adapt to its rules. A DevOps engineer adapts to your team’s infrastructure.They learn the systems you already have, work within your permissions, and follow the way your team operates.AI DevOps engineers should too.Nuphos is an AI-native DevOps workspace that brings AI agents into the infrastructure your team already runs, without giving up control.Our team of fewer than 10 engineers operates across 8+ clouds, 20+ Kubernetes clusters, and more than 10,000 hosts. We’d already been using coding and terminal agents in production, and they were surprisingly capable.The hard part wasn’t getting an agent to run kubectl or inspect logs. It was everything around the action:Whose permissions is it using?What can it change?Who approved it?What exactly changed?That’s what we built Nuphos around.With Nuphos, you can connect your existing AWS, GCP, Kubernetes, and observability stack, keep agents read-only by default, require approval for write actions, and keep the context and audit trail shared with your team.You can try it with your own infrastructure, or use the live demo on our homepage without signing up.🎁 Use code PH100OFF to get your first month of Nuphos free.👉 Got questions or want to follow what we’re building? Join our Discord: https://nuphos.ai/dcAnd I’d love to hear from people running production:What kind of experience would make an AI feel like a real DevOps engineer on your team, rather than just another AI agent?"
+            "text": "Hey Product Hunt 👋 Yuanlin here, founder of Zeabur and now building Nuphos . Nuphos started from something we learned while building Zeabur . We used to describe where Zeabur was going as “Your AI DevOps Engineer.” But eventually we realized: A PaaS asks you to adapt to its rules. A DevOps engineer adapts to your team’s infrastructure. They learn the systems you already have, work within your permissions, and follow the way your team operates. AI DevOps engineers should too. Nuphos is an AI-native DevOps workspace that brings AI agents into the infrastructure your team already runs, without giving up control. Our team of fewer than 10 engineers operates across 8+ clouds, 20+ Kubernetes clusters, and more than 10,000 hosts. We’d already been using coding and terminal agents in production, and they were surprisingly capable. The hard part wasn’t getting an agent to run kubectl or inspect logs. It was everything around the action: Whose permissions is it using? What can it change? Who approved it? What exactly changed? That’s what we built Nuphos around. With Nuphos, you can connect your existing AWS, GCP, Kubernetes, and observability stack, keep agents read-only by default , require approval for write actions, and keep the context and audit trail shared with your team. You can try it with your own infrastructure, or use the live demo on our homepage without signing up. 🎁 Use code PH100OFF to get your first month of Nuphos free. 👉 Got questions or want to follow what we’re building? Join our Discord: https://nuphos.ai/dc And I’d love to hear from people running production: What kind of experience would make an AI feel like a real DevOps engineer on your team, rather than just another AI agent?"
           },
           {
             "user": "[REDACTED]",
@@ -5435,7 +5511,7 @@
           },
           {
             "user": "[REDACTED]",
-            "text": "This looks really exciting! One thing I’m curious about: how would you see Nuphos fitting into the workflow of a solo developer or a one-person team?I build and experiment with multiple small products and AI projects, but I don’t necessarily have a large SaaS infrastructure or a dedicated DevOps team.Would Nuphos still be useful at this stage? If so, what would be a good real-world use case for someone like me to start with?Or is Nuphos currently more suited to larger teams that already have a fairly complex production infrastructure?Would love to understand where a solo builder fits into the Nuphos vision."
+            "text": "This looks really exciting! One thing I’m curious about: how would you see Nuphos fitting into the workflow of a solo developer or a one-person team? I build and experiment with multiple small products and AI projects, but I don’t necessarily have a large SaaS infrastructure or a dedicated DevOps team. Would Nuphos still be useful at this stage? If so, what would be a good real-world use case for someone like me to start with? Or is Nuphos currently more suited to larger teams that already have a fairly complex production infrastructure? Would love to understand where a solo builder fits into the Nuphos vision."
           }
         ],
         "makerTwitter": "",
@@ -5828,38 +5904,56 @@
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt! 👋Three months ago, I quit my job to build Meridian. My co-founder and I kept running into the same problem many developers face: we would ask claude to write an update, then spend ten minutes reconstructing the context it had missed. It knew what we told it, but not the four unexpected problems we had solved along the way.That unplanned work is real, and bigger than most people think. I posted about it on Reddit: \"We software developers massively underestimate how much unplanned work we do every single sprint\" and it went viral, which told us we weren't the only ones feeling this.Meridian does the remembering for us. It runs quietly in the background, groups the day into a timeline, matches the work to open Jira and GitHub tickets, and drafts the update - so by the end of the day there's a work log, a standup note, and a daily summary ready to paste, not write.A few things I care about, as a developer myself:- We care deeply about privacy - nothing leaves your device until you hit approve.- Open source - you can audit exactly what it's doing.- Free for individual developers. No seat, no credit card.- Bring your own AI - runs on the Claude Code, Cursor, or Codex CLI you already have, or Groq for free if you don't.Try itFree download — Meridian for macOS (Apple Silicon, macOS 14+) or Meridian for Windows (Win 10/11, 64-bit). Everything else is at meridiona.com, and if you like what we're building, star us on GitHub."
+            "text": "Hey Product Hunt! 👋 Three months ago, I quit my job to build Meridian. My co-founder and I kept running into the same problem many developers face: we would ask claude to write an update, then spend ten minutes reconstructing the context it had missed. It knew what we told it, but not the four unexpected problems we had solved along the way. That unplanned work is real, and bigger than most people think. I posted about it on Reddit: \"We software developers massively underestimate how much unplanned work we do every single sprint\" and it went viral, which told us we weren't the only ones feeling this. Meridian does the remembering for us. It runs quietly in the background, groups the day into a timeline, matches the work to open Jira and GitHub tickets, and drafts the update - so by the end of the day there's a work log, a standup note, and a daily summary ready to paste, not write. A few things I care about, as a developer myself: - We care deeply about privacy - nothing leaves your device until you hit approve. - Open source - you can audit exactly what it's doing. - Free for individual developers. No seat, no credit card. - Bring your own AI - runs on the Claude Code, Cursor, or Codex CLI you already have, or Groq for free if you don't. Try it Free download — Meridian for macOS (Apple Silicon, macOS 14+) or Meridian for Windows (Win 10/11, 64-bit). Everything else is at meridiona.com , and if you like what we're building, star us on GitHub ."
           },
           {
             "user": "[REDACTED]",
-            "text": "is it only built for the devs? who notices the PMs unspoken work 😅🥲 ps- im a PM myself...trying to log my work every week and transfer that into ai platform to articulate it better for presentation on weekly reviews. can we do anything with Meridian on that part?"
+            "text": "i've been doing such notes manually so definitely will give Meridian a try!"
           },
           {
             "user": "[REDACTED]",
-            "text": "nobody is going to believe that I actually got something done while just being at my macbook all day long. :)"
+            "text": "Congrats on the launch, guys! 🎊"
           },
           {
             "user": "[REDACTED]",
-            "text": "I was always reluctant to post, but wanted to do Day 1, Day 2 kind of post for #buildinpublic, With Meridian, finally I can do it , glad to discover the product."
+            "text": "Congrats on the launch! Capturing unplanned work and context switching is such a pain point when drafting end-of-day updates or standup notes. Love the local-first, BYO-AI approach. Looking forward to testing it out! 🚀"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congrats Adithya and Akarsh! The local-first approach and automatic Jira/GitHub updates solve a real developer pain point. Looking forward to seeing Meridian grow. 🚀"
+            "text": "Loved the onboarding @akarsh_hegde"
           },
           {
             "user": "[REDACTED]",
-            "text": "I have been using the product for more than 2 months now and I am one of the beta users, I love the product and how it's shaping up, great going!"
+            "text": "Congrats on the launch! Being a dev myself, this is hitting home."
           },
           {
             "user": "[REDACTED]",
-            "text": "This is a fascinating product, congratulations! If a lot of my work happens on a remote VM that I SSH into from a local computer, does this support that, or plans to support that?"
+            "text": "Two more questions: This seems like it could replace obsidian for creating a 2nd brain that Claude leverages. Does it integrate/pull context from granola transcripts?"
           },
           {
             "user": "[REDACTED]",
-            "text": "You quit your job three months ago to build this, and it's MIT-licensed and free for individual developers. That's a lot to give away on day one. Congrats."
+            "text": "Can it post a weekly bullet point list of work a user completed? I spend about an hour creating a bullet point list of what I completed the previous week."
           }
         ],
-        "makerTwitter": ""
+        "makerTwitter": "",
+        "faComments": [
+          {
+            "user": "کاربر ProductHunt 1",
+            "text": "Hey Product Hunt! 👋 Three months ago, I quit my job to build Meridian. My co-founder and I kept running into the same problem many developers face: we would ask claude to write an update, then spend ten minutes reconstructing the context it had missed. It knew what we told it, but not the four unexpected problems we had solved along the way. That unplanned work is real, and bigger than most people think. I posted about it on Reddit: \"We software developers massively underestimate how much unplanned work we do every single sprint\" and it went viral, which told us we weren't the only ones feeling this. Meridian does the remembering for us. It runs quietly in the background, groups the day into a timeline, matches the work to open Jira and GitHub tickets, and drafts the update - so by the end of the day there's a work log, a standup note, and a daily summary ready to paste, not write. A few things I care about, as a developer myself: - We care deeply about privacy - nothing leaves your device until you hit approve. - Open source - you can audit exactly what it's doing. - Free for individual developers. No seat, no credit card. - Bring your own AI - runs on the Claude Code, Cursor, or Codex CLI you already have, or Groq for free if you don't. Try it Free download — Meridian for macOS (Apple Silicon, macOS 14+) or Meridian for Windows (Win 10/11, 64-bit). Everything else is at meridiona.com , and if you like what we're building, star us on GitHub ."
+          },
+          {
+            "user": "کاربر ProductHunt 2",
+            "text": "i've been doing such notes manually so definitely will give Meridian a try!"
+          },
+          {
+            "user": "کاربر ProductHunt 3",
+            "text": "Congrats on the launch, guys! 🎊"
+          },
+          {
+            "user": "کاربر ProductHunt 4",
+            "text": "Congrats on the launch! Capturing unplanned work and context switching is such a pain point when drafting end-of-day updates or standup notes. Love the local-first, BYO-AI approach. Looking forward to testing it out! 🚀"
+          }
+        ]
       },
       {
         "id": "ph-week-10",
@@ -6088,6 +6182,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "Just saw this now and signed up to try, but all free agents are sold out. Will more be added? I'd like to test drive before paying."
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Its the best product in my opinion! Just a tip, it should have a copy button to the tasks. That would help too much."
           },
           {
@@ -6109,10 +6207,6 @@
           {
             "user": "[REDACTED]",
             "text": "Someone on our team shared this and I set up an agent that pulls my calendar and Slack messages in the morning and sends me a briefing at 8am. That's it. That's my whole use case. Took about 2 mins The Intern thing is smart. I would not have connected my work Gmail to something that could just do whatever it wanted. Knowing it has to ask me first made me actually try it instead of closing the tab."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Is it really going to be 0$ forever?"
           }
         ],
         "makerTwitter": "",
