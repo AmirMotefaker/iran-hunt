@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.18.0...v1.19.0) (2026-08-20)
+
+
+### Features
+
+* fully automated nightly scrape+enrich (no manual runs) ([e07d48a](https://github.com/AmirMotefaker/iran-hunt/commit/e07d48a4821bb67462229e84d415c9c96b3fba6f))
+
 # [1.18.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.17.5...v1.18.0) (2026-08-18)
 
 
