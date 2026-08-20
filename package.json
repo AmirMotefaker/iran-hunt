@@ -20,6 +20,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "test": "bun test",
     "type-check": "tsc --noEmit",
     "scrape": "bun src/scripts/scrape.ts",
     "release": "semantic-release"

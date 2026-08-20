@@ -1,21 +1,15 @@
 'use client';
 
 import { Flame, Trophy } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { ProductCard } from './ProductCard';
+import { selectDefaultPeriod } from '@/lib/data-freshness';
 import { PERIODS } from '@/lib/scraper';
 import type { DailyData, PeriodKey } from '@/types';
 
 export function Dashboard({ data }: { data: DailyData }) {
-  const [tab, setTab] = useState<PeriodKey>('yesterday');
-  const [products, setProducts] = useState<any[]>([]);
-
-  // وقتی tab عوض شد، products رو آپدیت کن
-  useEffect(() => {
-    const p = (data.periods as any)[tab] ?? [];
-    console.log('🔄 Tab changed to:', tab, '| Products:', p.length);
-    setProducts(p);
-  }, [tab, data]);
+  const [tab, setTab] = useState<PeriodKey>(() => selectDefaultPeriod(data.periods));
+  const products = data.periods[tab] ?? [];
 
   const totalVotes = products.reduce((s: number, p: any) => s + (p.votes ?? 0), 0);
   const activePeriod = PERIODS.find((p) => p.key === tab)!;
@@ -26,10 +20,8 @@ export function Dashboard({ data }: { data: DailyData }) {
         {PERIODS.map((t) => (
           <button
             key={t.key}
-            onClick={() => {
-              console.log('👆 Clicked tab:', t.key);
-              setTab(t.key);
-            }}
+            onClick={() => setTab(t.key)}
+            aria-pressed={tab === t.key}
             className={`min-w-max flex-1 rounded-2xl px-4 py-3 text-center text-sm font-extrabold transition ${
               tab === t.key ? 'bg-gray-900 text-white dark:bg-white dark:text-gray-900' : 'text-gray-500 hover:bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800'
             }`}
@@ -55,7 +47,7 @@ export function Dashboard({ data }: { data: DailyData }) {
 
       <div className="mt-7 space-y-6">
         {products.length > 0 ? (
-          products.map((p: any, idx) => (
+          products.map((p, idx) => (
             <ProductCard 
               key={`${tab}-${p.slug || p.id || idx}`} 
               product={p} 
