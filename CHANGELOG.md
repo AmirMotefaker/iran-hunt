@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.0...v1.19.1) (2026-08-20)
+
+
+### Bug Fixes
+
+* define MAX_BACKLOG constant ([991dce6](https://github.com/AmirMotefaker/iran-hunt/commit/991dce643bb0c819e9e1f9f8272713a8a038e7ed))
+
 # [1.19.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.18.0...v1.19.0) (2026-08-20)
 
 
