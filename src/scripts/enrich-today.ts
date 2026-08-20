@@ -88,14 +88,12 @@ async function main() {
   const todaySet = new Set<string>((data.periods.today ?? []).map((p: Product) => p.slug));
 
   // اولویت: 1) امروز/دیروز بدون AI  2) backlog بدون AI  3) امروز با کامنت خالی
-  const targets = [...uniq.values()]
-    .filter((p) => !p.aiReview || (!(p.faComments?.length) && (p.comments?.length ?? 0) === 0))
-    .sort((a, b) => {
-      const at = todaySet.has(a.slug) ? 2 : (a.votes ?? 0) > 300 ? 1 : 0;
-      const bt = todaySet.has(b.slug) ? 2 : (b.votes ?? 0) > 300 ? 1 : 0;
-      return bt - at;
-    })
-    .slice(0, MAX_PER_NIGHT);
+  const todayTargets = [...uniq.values()].filter((p) => todaySet.has(p.slug) && (!p.aiReview || !p.faComments?.length));
+  const backlog = [...uniq.values()]
+    .filter((p) => !todaySet.has(p.slug) && (!p.aiReview || !p.faComments?.length || !/[\u0600-\u06FF]/.test(p.faComments?.[0]?.text ?? '') || (p.faComments ?? []).some((c) => String(c.user).startsWith('کاربر ProductHunt'))))
+    .sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0))
+    .slice(0, MAX_BACKLOG);
+  const targets = [...todayTargets, ...backlog];
 
   console.log(`🌙 Enrich: ${targets.length} products (backlog-aware)`);
 

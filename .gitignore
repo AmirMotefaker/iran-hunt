@@ -29,3 +29,4 @@ check-*.ps1
 # Environment
 .env.local
 .env*.local
+.env*
