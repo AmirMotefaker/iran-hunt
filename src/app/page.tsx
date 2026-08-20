@@ -1,6 +1,7 @@
 import { Brain, Cpu, Database, Flame, Layers, Rocket, Trophy } from 'lucide-react';
 import { Dashboard } from '@/components/Dashboard';
 import { Logo } from '@/components/Logo';
+import { formatTehranTimestamp, getFreshnessState } from '@/lib/data-freshness';
 import { loadLatest } from '@/lib/storage';
 
 export const dynamic = 'force-dynamic';
@@ -26,6 +27,10 @@ export default async function Home() {
   const votes = all.reduce((s, p) => s + p.votes, 0);
   const cats = new Set(all.flatMap((p) => p.category.split('•').map((s) => s.trim()).filter(Boolean))).size;
   const aiCount = countAI(all);
+  const freshness = data ? getFreshnessState(data.scrapedAt) : 'unknown';
+  const lastUpdated = data ? formatTehranTimestamp(data.scrapedAt) : null;
+  const freshnessLabel = freshness === 'fresh' ? 'به‌روز' : freshness === 'stale' ? 'نیازمند به‌روزرسانی' : 'وضعیت نامشخص';
+  const freshnessColor = freshness === 'fresh' ? 'bg-emerald-500' : freshness === 'stale' ? 'bg-amber-500' : 'bg-gray-400';
 
   return (
     <main className="min-h-screen">
@@ -76,7 +81,17 @@ export default async function Home() {
               <Cpu size={18} className="text-[#ff6154]" />
               <h2 className="text-lg font-black text-gray-900 dark:text-white">ایده‌های ترند روز</h2>
             </div>
-            <span className="inline-flex items-center gap-2 text-base font-black text-[#ff6154] dark:text-[#ff7a6b]"><span className="blink h-3 w-3 rounded-full bg-[#ff6154]" />آنلاین</span>
+            <div className="text-left">
+              <span className="inline-flex items-center gap-2 text-sm font-black text-gray-700 dark:text-gray-200">
+                <span className={`h-2.5 w-2.5 rounded-full ${freshnessColor}`} />
+                {freshnessLabel}
+              </span>
+              {lastUpdated && (
+                <p className="mt-1 text-[10px] font-bold text-gray-500 dark:text-gray-400">
+                  آخرین داده: {lastUpdated}
+                </p>
+              )}
+            </div>
           </div>
           {data ? (
             <Dashboard data={data} />
