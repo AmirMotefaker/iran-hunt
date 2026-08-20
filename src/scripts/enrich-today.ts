@@ -6,7 +6,7 @@ import type { PHComment, Product } from '@/types';
 const DATA_DIR = path.join(process.cwd(), 'data');
 const PH_API = 'https://api.producthunt.com/v2/api/graphql';
 const DELAY = 6000;
-const MAX_PER_NIGHT = 20; // سقف هر شب (جلوگیری از 429)
+const MAX_BACKLOG = 10; // سقف هر شب (جلوگیری از 429)
 const KEYS = ['today', 'yesterday', 'week', 'month', 'year'] as const;
 
 function stripHtml(html: string): string {
