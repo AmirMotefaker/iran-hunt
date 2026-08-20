@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.1...v1.19.2) (2026-08-20)
+
+
+### Bug Fixes
+
+* make trend freshness state reliable ([#1](https://github.com/AmirMotefaker/iran-hunt/issues/1)) ([c4aaf02](https://github.com/AmirMotefaker/iran-hunt/commit/c4aaf026f3f47fadd0bc715f77f4eafb37de8a1f))
+
 ## [1.19.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.0...v1.19.1) (2026-08-20)
 
 
