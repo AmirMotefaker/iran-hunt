@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -23,6 +27,11 @@ jobs:
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
+
+      - name: Verify Product Hunt token
+        env:
+          PH_API_TOKEN: ${{ secrets.PH_API_TOKEN }}
+        run: test -n "$PH_API_TOKEN"
 
       - name: Scrape products (no AI — fast)
         env:
