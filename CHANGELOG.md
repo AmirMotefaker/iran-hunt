@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.24.0...v1.25.0) (2026-08-22)
+
+
+### Features
+
+* add scrape observability intelligence layer ([#8](https://github.com/AmirMotefaker/iran-hunt/issues/8)) ([3961b95](https://github.com/AmirMotefaker/iran-hunt/commit/3961b95432d8b5074799b8a2e0832072e6a05ce1))
+
 # [1.24.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.23.0...v1.24.0) (2026-08-22)
 
 
