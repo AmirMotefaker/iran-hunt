@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.20.0...v1.21.0) (2026-08-22)
+
+
+### Features
+
+* add scrape health dashboard foundation ([#4](https://github.com/AmirMotefaker/iran-hunt/issues/4)) ([cf4218c](https://github.com/AmirMotefaker/iran-hunt/commit/cf4218c06ec7aab1862ebb7f002c25f2a0f14dc4))
+
 # [1.20.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.3...v1.20.0) (2026-08-22)
 
 
