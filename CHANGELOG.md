@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.23.0...v1.24.0) (2026-08-22)
+
+
+### Features
+
+* add automated scrape reliability engine ([#7](https://github.com/AmirMotefaker/iran-hunt/issues/7)) ([270abc2](https://github.com/AmirMotefaker/iran-hunt/commit/270abc2aedc7e73164c00c6e7104c5f6963d1861))
+
 # [1.23.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.22.0...v1.23.0) (2026-08-22)
 
 
