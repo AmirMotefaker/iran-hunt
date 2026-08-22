@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.26.0...v1.27.0) (2026-08-22)
+
+
+### Features
+
+* add scrape predictive intelligence ([#10](https://github.com/AmirMotefaker/iran-hunt/issues/10)) ([f72b29b](https://github.com/AmirMotefaker/iran-hunt/commit/f72b29b50e4977595a5387d532066433db14e50f))
+
 # [1.26.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.25.0...v1.26.0) (2026-08-22)
 
 
