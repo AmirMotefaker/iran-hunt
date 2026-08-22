@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.22.0...v1.23.0) (2026-08-22)
+
+
+### Features
+
+* add scrape alerting and recovery policy ([#6](https://github.com/AmirMotefaker/iran-hunt/issues/6)) ([02c24bd](https://github.com/AmirMotefaker/iran-hunt/commit/02c24bd4a621563bf66cfb22caf8feaf140a0151))
+
 # [1.22.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.21.0...v1.22.0) (2026-08-22)
 
 
