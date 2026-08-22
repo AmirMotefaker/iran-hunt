@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.3...v1.20.0) (2026-08-22)
+
+
+### Features
+
+* add scrape health observability ([#3](https://github.com/AmirMotefaker/iran-hunt/issues/3)) ([d340a14](https://github.com/AmirMotefaker/iran-hunt/commit/d340a14462da298fc6af08efd6f68bd481f94da5))
+
 ## [1.19.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.2...v1.19.3) (2026-08-22)
 
 
