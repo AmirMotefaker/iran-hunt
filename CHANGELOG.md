@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.2...v1.19.3) (2026-08-22)
+
+
+### Bug Fixes
+
+* reject incomplete daily scrapes ([#2](https://github.com/AmirMotefaker/iran-hunt/issues/2)) ([6d4fb48](https://github.com/AmirMotefaker/iran-hunt/commit/6d4fb48c24c041502602bc4674e77f92df482b02))
+
 ## [1.19.2](https://github.com/AmirMotefaker/iran-hunt/compare/v1.19.1...v1.19.2) (2026-08-20)
 
 
