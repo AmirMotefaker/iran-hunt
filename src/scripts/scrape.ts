@@ -1,5 +1,6 @@
 import { format } from 'date-fns';
 import { analyzeProduct } from '@/lib/ai-analyzer';
+import { assertValidPeriods, requireProductHuntToken } from '@/lib/scrape-validation';
 import { PERIODS, scrapePeriod } from '@/lib/scraper';
 import { saveDaily } from '@/lib/storage';
 import type { PeriodsData } from '@/types';
@@ -7,6 +8,7 @@ import type { PeriodsData } from '@/types';
 const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const date = args[0] ?? format(new Date(), 'yyyy-MM-dd');
 const skipAI = process.argv.includes('--no-ai') || (!process.env.GROQ_API_KEY && !process.env.GEMINI_API_KEY);
+const productHuntToken = requireProductHuntToken(process.env.PH_API_TOKEN);
 
 console.log(`🕷️  ایده‌جو scrape — ${date}`);
 if (skipAI) console.log('⏭️  Skipping AI');
@@ -15,7 +17,7 @@ const periods = {} as PeriodsData;
 
 for (const { key, en } of PERIODS) {
   console.log(`\n=== 📅 ${en} ===`);
-  const products = await scrapePeriod(process.env.PH_API_TOKEN, key, date);
+  const products = await scrapePeriod(productHuntToken, key, date);
   console.log(`   🏆 Top ${products.length}:`);
   for (const p of products) console.log(`      ${p.rank}. ${p.name} — ${p.votes} votes`);
 
@@ -40,5 +42,6 @@ for (const { key, en } of PERIODS) {
   periods[key] = products;
 }
 
+assertValidPeriods(periods);
 await saveDaily(date, periods);
 console.log('\n🎉 Done!');
