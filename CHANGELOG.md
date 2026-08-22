@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.21.0...v1.22.0) (2026-08-22)
+
+
+### Features
+
+* add scrape operations center ([#5](https://github.com/AmirMotefaker/iran-hunt/issues/5)) ([f2127d6](https://github.com/AmirMotefaker/iran-hunt/commit/f2127d6b704a85c857c0b1181abec8498bfcb78f))
+
 # [1.21.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.20.0...v1.21.0) (2026-08-22)
 
 
