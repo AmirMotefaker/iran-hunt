@@ -10,6 +10,8 @@ describe('health severity', () => {
       lastFailureAt: null,
       lastFailureReason: null,
       consecutiveFailures: 0,
+      recentRuns: [],
     }, 'fresh')).toBe('healthy');
   });
 });
+
