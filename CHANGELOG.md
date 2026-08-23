@@ -1,3 +1,10 @@
+# [1.40.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.39.0...v1.40.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous action planner ([#23](https://github.com/AmirMotefaker/iran-hunt/issues/23)) ([f4f38e0](https://github.com/AmirMotefaker/iran-hunt/commit/f4f38e05e9f1aee4101aa77f66224e579d0f05e8))
+
 # [1.39.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.38.0...v1.39.0) (2026-08-23)
 
 
