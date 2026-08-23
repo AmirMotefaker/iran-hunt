@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.37.0...v1.38.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous reasoning engine ([#21](https://github.com/AmirMotefaker/iran-hunt/issues/21)) ([01d91dc](https://github.com/AmirMotefaker/iran-hunt/commit/01d91dc42e6e0d7019476ee74d0f66cc499473a5))
+
 # [1.37.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.36.0...v1.37.0) (2026-08-23)
 
 
