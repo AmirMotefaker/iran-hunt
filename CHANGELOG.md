@@ -1,3 +1,10 @@
+# [1.37.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.36.0...v1.37.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous knowledge layer ([#20](https://github.com/AmirMotefaker/iran-hunt/issues/20)) ([5129941](https://github.com/AmirMotefaker/iran-hunt/commit/5129941ad49ffc7ae99eed978f73479e99dd8802))
+
 # [1.36.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.35.0...v1.36.0) (2026-08-23)
 
 
