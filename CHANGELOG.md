@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.30.0...v1.31.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous evolution engine ([#14](https://github.com/AmirMotefaker/iran-hunt/issues/14)) ([9b6eb49](https://github.com/AmirMotefaker/iran-hunt/commit/9b6eb4920a82d86322a7df35af4559629a515923))
+
 # [1.30.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.29.0...v1.30.0) (2026-08-23)
 
 
