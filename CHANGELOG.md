@@ -1,3 +1,10 @@
+# [1.34.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.33.0...v1.34.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous control plane ([#17](https://github.com/AmirMotefaker/iran-hunt/issues/17)) ([459b47c](https://github.com/AmirMotefaker/iran-hunt/commit/459b47c17508b681795870a03ba794a5f0ffc6a5))
+
 # [1.33.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.32.0...v1.33.0) (2026-08-23)
 
 
