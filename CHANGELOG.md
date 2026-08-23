@@ -1,3 +1,10 @@
+# [1.33.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.32.0...v1.33.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous decision orchestration ([#16](https://github.com/AmirMotefaker/iran-hunt/issues/16)) ([9498457](https://github.com/AmirMotefaker/iran-hunt/commit/94984570f9940b3c652892aa395d0ee8b0ac8bf7))
+
 # [1.32.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.31.0...v1.32.0) (2026-08-23)
 
 
