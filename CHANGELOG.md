@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.34.0...v1.35.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous intelligence core ([#18](https://github.com/AmirMotefaker/iran-hunt/issues/18)) ([e1539ef](https://github.com/AmirMotefaker/iran-hunt/commit/e1539eff6ea65298cbb9eeca7aa18ee00245cd81))
+
 # [1.34.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.33.0...v1.34.0) (2026-08-23)
 
 
