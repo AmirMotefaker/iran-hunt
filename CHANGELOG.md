@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.28.0...v1.29.0) (2026-08-23)
+
+
+### Features
+
+* add self healing scrape infrastructure ([#12](https://github.com/AmirMotefaker/iran-hunt/issues/12)) ([e2da5b1](https://github.com/AmirMotefaker/iran-hunt/commit/e2da5b1606fa23e8577089f94f8a545b019bf92a))
+
 # [1.28.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.27.0...v1.28.0) (2026-08-23)
 
 
