@@ -1,3 +1,10 @@
+# [1.36.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.35.0...v1.36.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous learning orchestrator ([#19](https://github.com/AmirMotefaker/iran-hunt/issues/19)) ([27822a1](https://github.com/AmirMotefaker/iran-hunt/commit/27822a176f3ec4ed3a501b3071f77e773b918b1b))
+
 # [1.35.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.34.0...v1.35.0) (2026-08-23)
 
 
