@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.38.0...v1.39.0) (2026-08-23)
+
+
+### Features
+
+* add autonomous strategy selection engine ([#22](https://github.com/AmirMotefaker/iran-hunt/issues/22)) ([52c395c](https://github.com/AmirMotefaker/iran-hunt/commit/52c395c925a2f6056c758efc9a428980a330ba83))
+
 # [1.38.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.37.0...v1.38.0) (2026-08-23)
 
 
