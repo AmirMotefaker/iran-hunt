@@ -1,26 +1,56 @@
-import { getAutonomousDashboardState } from "@/lib/autonomous-dashboard";
+import { getAutonomousDecisionCenterState } from "@/lib/autonomous-decision-center";
+
+const statusMap = { healthy: "سالم", degraded: "نیازمند توجه", critical: "بحرانی" } as const;
+const executionMap = { ready: "آماده اجرا", running: "در حال اجرا", blocked: "متوقف" } as const;
+
+function Card({ title, value, description }: { title: string; value: string; description?: string }) {
+  return (
+    <article className="rounded-2xl border border-black/10 bg-white/75 p-5 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/[0.04]">
+      <p className="mb-2 text-xs font-medium text-black/50 dark:text-white/50">{title}</p>
+      <p className="text-lg font-black leading-8">{value}</p>
+      {description ? <p className="mt-2 text-sm leading-7 text-black/55 dark:text-white/55">{description}</p> : null}
+    </article>
+  );
+}
 
 export default function AutonomousEnginePage() {
-  const state = getAutonomousDashboardState();
-  const items = [
-    ["System Health", state.systemHealth],
-    ["Current Reasoning", state.reasoning],
-    ["Selected Strategy", state.strategy],
-    ["Planned Action", state.plannedAction],
-    ["Execution Status", state.executionStatus],
-  ];
+  const state = getAutonomousDecisionCenterState();
 
   return (
-    <main style={{ maxWidth: "960px", margin: "0 auto", padding: "32px 20px" }}>
-      <h1>Autonomous Intelligence Engine</h1>
-      <p>Operational visibility for IdehJo&apos;s autonomous intelligence stack.</p>
-      <section style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "16px", marginTop: "24px" }}>
-        {items.map(([label, value]) => (
-          <article key={label} style={{ border: "1px solid #e5e7eb", borderRadius: "12px", padding: "18px" }}>
-            <h2 style={{ fontSize: "16px", marginTop: 0 }}>{label}</h2>
-            <p style={{ marginBottom: 0 }}>{value}</p>
-          </article>
-        ))}
+    <main dir="rtl" className="mx-auto max-w-6xl px-5 py-10">
+      <section className="overflow-hidden rounded-[2rem] border border-black/10 bg-gradient-to-br from-[#ff6154]/15 via-transparent to-[#ffb11b]/15 p-6 md:p-9 dark:border-white/10">
+        <span className="inline-flex rounded-full bg-[#ff6154]/10 px-3 py-1 text-xs font-bold text-[#ff6154]">مرکز تصمیم‌گیری خودکار</span>
+        <div className="mt-4 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h1 className="text-3xl font-black md:text-4xl">مغز عملیاتی ایده‌جو</h1>
+            <p className="mt-3 max-w-2xl text-sm leading-8 text-black/60 dark:text-white/60">نمای زنده‌ای از استدلال، استراتژی، اقدام برنامه‌ریزی‌شده و وضعیت اجرای موتور هوشمند.</p>
+          </div>
+          <div className="rounded-2xl border border-black/10 bg-white/80 px-5 py-4 text-center dark:border-white/10 dark:bg-black/20">
+            <p className="text-xs text-black/50 dark:text-white/50">اعتماد تصمیم</p>
+            <p className="mt-1 text-3xl font-black">{state.confidence}%</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-6 grid gap-4 md:grid-cols-3">
+        <Card title="سلامت سیستم" value={statusMap[state.health]} description="زیرساخت تصمیم‌گیری و اجرای خودکار فعال است." />
+        <Card title="استراتژی منتخب" value={state.strategy} description="استراتژی فعلی بر اساس وضعیت عملیاتی انتخاب شده است." />
+        <Card title="وضعیت اجرا" value={executionMap[state.execution]} description="برنامه بعدی برای اجرا در صف تصمیم قرار دارد." />
+      </section>
+
+      <section className="mt-4 grid gap-4 lg:grid-cols-2">
+        <Card title="استدلال هوش مصنوعی" value={state.reasoning} />
+        <Card title="اقدام بعدی" value={state.action} />
+      </section>
+
+      <section className="mt-4 rounded-2xl border border-dashed border-black/15 p-5 dark:border-white/15">
+        <div className="flex items-center justify-between gap-4">
+          <div>
+            <h2 className="font-black">Human Override</h2>
+            <p className="mt-1 text-sm text-black/55 dark:text-white/55">کنترل انسانی برای تصمیم‌های حساس در معماری حفظ شده است.</p>
+          </div>
+          <span className="rounded-full bg-black/5 px-3 py-1 text-sm font-bold dark:bg-white/10">{state.humanOverride ? "فعال" : "غیرفعال"}</span>
+        </div>
       </section>
     </main>
   );
