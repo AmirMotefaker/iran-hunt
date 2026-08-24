@@ -1,3 +1,10 @@
+# [1.44.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.43.0...v1.44.0) (2026-08-24)
+
+
+### Features
+
+* add autonomous learning loop ([#27](https://github.com/AmirMotefaker/iran-hunt/issues/27)) ([ca6cb16](https://github.com/AmirMotefaker/iran-hunt/commit/ca6cb161ab47783e575bc1bf002e292b60c13d29))
+
 # [1.43.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.42.0...v1.43.0) (2026-08-24)
 
 
