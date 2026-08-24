@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.41.0...v1.42.0) (2026-08-24)
+
+
+### Features
+
+* add autonomous intelligence dashboard ([#25](https://github.com/AmirMotefaker/iran-hunt/issues/25)) ([6cba318](https://github.com/AmirMotefaker/iran-hunt/commit/6cba318135f3ef2f767810449d5f3399173fba2e))
+
 # [1.41.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.40.0...v1.41.0) (2026-08-24)
 
 
