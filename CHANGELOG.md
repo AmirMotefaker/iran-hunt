@@ -1,3 +1,10 @@
+# [1.41.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.40.0...v1.41.0) (2026-08-24)
+
+
+### Features
+
+* add autonomous execution orchestrator ([#24](https://github.com/AmirMotefaker/iran-hunt/issues/24)) ([9c3f2c8](https://github.com/AmirMotefaker/iran-hunt/commit/9c3f2c8d6ab2469ecc9ebeaed7ce68da69f05ce2))
+
 # [1.40.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.39.0...v1.40.0) (2026-08-23)
 
 
