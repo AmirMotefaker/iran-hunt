@@ -1,3 +1,10 @@
+# [1.43.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.42.0...v1.43.0) (2026-08-24)
+
+
+### Features
+
+* add autonomous decision center ([#26](https://github.com/AmirMotefaker/iran-hunt/issues/26)) ([45e63cd](https://github.com/AmirMotefaker/iran-hunt/commit/45e63cdec451a1d62f468428bfb035a5422f3b8e))
+
 # [1.42.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.41.0...v1.42.0) (2026-08-24)
 
 
