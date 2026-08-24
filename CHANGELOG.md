@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.44.0...v1.45.0) (2026-08-24)
+
+
+### Features
+
+* add learning observability ([#28](https://github.com/AmirMotefaker/iran-hunt/issues/28)) ([622ddc9](https://github.com/AmirMotefaker/iran-hunt/commit/622ddc9bb48a2bdc939c01ddfc3f5f7c4ff450cc))
+
 # [1.44.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.43.0...v1.44.0) (2026-08-24)
 
 
