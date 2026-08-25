@@ -1,3 +1,10 @@
+## [1.45.1](https://github.com/AmirMotefaker/iran-hunt/compare/v1.45.0...v1.45.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* resolve autonomous runtime dashboard typing ([#29](https://github.com/AmirMotefaker/iran-hunt/issues/29)) ([0d88593](https://github.com/AmirMotefaker/iran-hunt/commit/0d88593d01304f9c7d01312ba170d836795c542a))
+
 # [1.45.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.44.0...v1.45.0) (2026-08-24)
 
 
