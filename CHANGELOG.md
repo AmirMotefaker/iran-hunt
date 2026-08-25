@@ -1,3 +1,10 @@
+# [1.48.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.47.0...v1.48.0) (2026-08-25)
+
+
+### Features
+
+* add autonomous policy engine ([#32](https://github.com/AmirMotefaker/iran-hunt/issues/32)) ([58e11fc](https://github.com/AmirMotefaker/iran-hunt/commit/58e11fcd39dec6281d66450a1f03f5692e3413a5))
+
 # [1.47.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.46.0...v1.47.0) (2026-08-25)
 
 
