@@ -1,3 +1,10 @@
+# [1.47.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.46.0...v1.47.0) (2026-08-25)
+
+
+### Features
+
+* add autonomous governance layer ([#31](https://github.com/AmirMotefaker/iran-hunt/issues/31)) ([453cbaa](https://github.com/AmirMotefaker/iran-hunt/commit/453cbaaf7b46e6295daf73a0847cfddf5a765df4))
+
 # [1.46.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.45.1...v1.46.0) (2026-08-25)
 
 
