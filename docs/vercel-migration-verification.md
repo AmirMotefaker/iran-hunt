@@ -7,3 +7,5 @@ IdehJo/idehjo
 No runtime, database, domain, or environment configuration is changed.
 
 Tracked by the Vercel migration verification issue.
+
+Git integration verification event: 2026-08-26.
