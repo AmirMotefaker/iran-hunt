@@ -36,6 +36,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: bun run src/scripts/enrich-today.ts
 
+      - name: Audit corpus after enrichment
+        run: bun run corpus:audit
+
       - name: Commit data
         run: |
           git config user.name "ربات ایده‌جو"
@@ -43,3 +46,4 @@ jobs:
           git add data
           git diff --cached --quiet || git commit -m "data: nightly scrape+enrich $(date +%F)"
           git push
+

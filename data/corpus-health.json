@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-08-27T10:10:53.748Z",
+  "latestDataset": "2026-08-26.json",
+  "before": 186,
+  "after": 186,
+  "added": 0,
+  "audit": {
+    "products": 186,
+    "withRealComments": 186,
+    "withPersianComments": 41,
+    "withPersianDescription": 78,
+    "withAiReview": 61,
+    "withIranEquivalent": 78,
+    "totalRealComments": 1119
+  }
+}

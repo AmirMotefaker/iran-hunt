@@ -35,6 +35,12 @@ jobs:
           PH_API_TOKEN: ${{ secrets.PH_API_TOKEN }}
         run: bun run src/scripts/scrape-with-recovery.ts --no-ai
 
+      - name: Update persistent corpus
+        run: bun run corpus:update
+
+      - name: Audit corpus health
+        run: bun run corpus:audit
+
       - name: Commit scrape result
         if: always() && steps.scrape.outcome != 'skipped'
         run: |
@@ -47,3 +53,4 @@ jobs:
       - name: Preserve scrape failure
         if: steps.scrape.outcome == 'failure'
         run: exit 1
+

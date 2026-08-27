@@ -4,7 +4,13 @@
   "private": false,
   "type": "module",
   "description": "🇮🇷 Daily ProductHunt top products with AI-powered Iranian market equivalents",
-  "keywords": ["producthunt", "iran", "startup", "ai", "entrepreneurship"],
+  "keywords": [
+    "producthunt",
+    "iran",
+    "startup",
+    "ai",
+    "entrepreneurship"
+  ],
   "author": "Amir Motefaker",
   "license": "MIT",
   "repository": {
@@ -23,7 +29,9 @@
     "test": "bun test",
     "type-check": "tsc --noEmit",
     "scrape": "bun src/scripts/scrape.ts",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "corpus:update": "bun src/scripts/update-corpus.ts",
+    "corpus:audit": "bun src/scripts/audit-corpus.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
