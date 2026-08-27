@@ -3,6 +3,8 @@ import { Dashboard } from '@/components/Dashboard';
 import { Logo } from '@/components/Logo';
 import { formatTehranTimestamp, getFreshnessState } from '@/lib/data-freshness';
 import { loadLatest } from '@/lib/storage';
+import { loadCorpusProducts } from '@/lib/corpus';
+import Link from 'next/link';
 
 export const dynamic = 'force-dynamic';
 
@@ -105,4 +107,5 @@ export default async function Home() {
     </main>
   );
 }
+
 

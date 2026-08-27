@@ -1,12 +1,15 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { analyzeProduct } from '@/lib/ai-analyzer';
+import { isDailyDataFilename } from '@/lib/storage';
+import { loadCorpus, mergeCorpusProduct, auditCorpus } from '@/lib/corpus';
 import type { PHComment, Product } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
+const CORPUS_FILE = path.join(DATA_DIR, 'corpus.json');
 const PH_API = 'https://api.producthunt.com/v2/api/graphql';
 const DELAY = 6000;
-const MAX_BACKLOG = 10; // سقف هر شب (جلوگیری از 429)
+const MAX_BACKLOG = Number(process.env.ENRICH_BACKLOG_LIMIT ?? '10');
 const KEYS = ['today', 'yesterday', 'week', 'month', 'year'] as const;
 
 function stripHtml(html: string): string {
@@ -36,7 +39,6 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
       if (htmlRes.ok) {
         const $ = load(await htmlRes.text());
         const names: string[] = [];
-        // چندین سلکتور مختلف برای یافتن نام‌ها
         $('a[href^="/@"], [data-test="comment-author"], [class*="author"]').each((_, el) => {
           const name = $(el).text().trim().replace(/^@/, '');
           if (name && name.length > 2 && name.length < 40 && !name.includes('REDACTED') && /[A-Za-z]/.test(name)) {
@@ -45,12 +47,11 @@ async function fetchComments(token: string, slug: string): Promise<PHComment[]> 
         });
         if (names.length) return fromApi.map((c: PHComment, i: number) => ({ user: names[i] || c.user, text: c.text }));
       }
-    } catch { /* ادامه */ }
+    } catch { /* continue with API comments */ }
   }
   return fromApi;
 }
 
-// انتشار نتیجه به همه بازه‌هایی که این محصول رو دارن
 function propagate(data: any, slug: string, src: Product) {
   for (const k of KEYS) {
     for (const t of data.periods[k] ?? []) {
@@ -70,55 +71,96 @@ async function main() {
   const token = process.env.PH_API_TOKEN;
   if (!token) { console.error('❌ PH_API_TOKEN missing'); process.exit(1); }
 
-  const files = (await readdir(DATA_DIR)).filter((f) => f.endsWith('.json')).sort().reverse();
-  if (!files.length) { console.error('❌ no data'); process.exit(1); }
+  const files = (await readdir(DATA_DIR))
+    .filter(isDailyDataFilename)
+    .sort()
+    .reverse();
+
+  if (!files.length) { console.error('❌ no daily data'); process.exit(1); }
+
   const file = path.join(DATA_DIR, files[0]);
   const data = JSON.parse(await readFile(file, 'utf8'));
 
-  // یکتاسازی محصولات بین بازه‌ها
+  const corpus = await loadCorpus();
+  const corpusMap = new Map<string, Product>(corpus.products.map((p) => [p.slug, p]));
+
   const uniq = new Map<string, Product>();
   for (const k of KEYS) {
     for (const p of data.periods[k] ?? []) {
-      const ex = uniq.get(p.slug);
-      if (!ex) uniq.set(p.slug, p);
-      else ex.votes = Math.max(ex.votes ?? 0, p.votes ?? 0);
+      const recovered = corpusMap.get(p.slug);
+      const merged = mergeCorpusProduct(recovered, p);
+      uniq.set(p.slug, mergeCorpusProduct(uniq.get(p.slug), merged));
     }
+  }
+
+  for (const p of corpus.products) {
+    if (!uniq.has(p.slug)) uniq.set(p.slug, p);
   }
 
   const todaySet = new Set<string>((data.periods.today ?? []).map((p: Product) => p.slug));
 
-  // اولویت: 1) امروز/دیروز بدون AI  2) backlog بدون AI  3) امروز با کامنت خالی
-  const todayTargets = [...uniq.values()].filter((p) => todaySet.has(p.slug) && (!p.aiReview || !p.faComments?.length));
+  const needsEnrichment = (p: Product) =>
+    !p.aiReview ||
+    !p.faDescription ||
+    !p.faComments?.length ||
+    !/[\u0600-\u06FF]/.test(p.faComments?.[0]?.text ?? '');
+
+  const todayTargets = [...uniq.values()].filter((p) => todaySet.has(p.slug) && needsEnrichment(p));
   const backlog = [...uniq.values()]
-    .filter((p) => !todaySet.has(p.slug) && (!p.aiReview || !p.faComments?.length || !/[\u0600-\u06FF]/.test(p.faComments?.[0]?.text ?? '') || (p.faComments ?? []).some((c) => String(c.user).startsWith('کاربر ProductHunt'))))
+    .filter((p) => !todaySet.has(p.slug) && needsEnrichment(p))
     .sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0))
     .slice(0, MAX_BACKLOG);
-  const targets = [...todayTargets, ...backlog];
 
-  console.log(`🌙 Enrich: ${targets.length} products (backlog-aware)`);
+  const targetMap = new Map<string, Product>();
+  for (const p of [...todayTargets, ...backlog]) targetMap.set(p.slug, p);
+  const targets = [...targetMap.values()];
+
+  console.log(`🌙 Enrich: ${targets.length} products (${todayTargets.length} today + ${backlog.length} backlog)`);
 
   let done = 0;
   for (const p of targets) {
     console.log(`\n🤖 ${p.name}`);
     try {
       const fresh = await fetchComments(token, p.slug);
-      if (fresh.length) { p.comments = fresh; console.log(`   💬 ${fresh.length} real comments`); }
+      if (fresh.length) {
+        p.comments = fresh;
+        console.log(`   💬 ${fresh.length} real comments`);
+      }
+
       const ai = await analyzeProduct(p);
       p.faDescription = ai.faDescription;
       p.faComments = ai.faComments;
       p.iranEquivalent = ai.iranEquivalent;
       p.aiReview = ai.aiReview;
+
       propagate(data, p.slug, p);
+      corpusMap.set(p.slug, mergeCorpusProduct(corpusMap.get(p.slug), p));
       done++;
       console.log('   ✅ enriched + propagated');
     } catch (e: any) {
       console.warn(`   ⚠️  failed: ${e.message}`);
     }
+
     await new Promise((r) => setTimeout(r, DELAY));
   }
 
+  for (const p of [...uniq.values()]) {
+    corpusMap.set(p.slug, mergeCorpusProduct(corpusMap.get(p.slug), p));
+  }
+
+  const corpusProducts = [...corpusMap.values()].sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0));
+  const updatedCorpus = {
+    generatedAt: data.scrapedAt,
+    sourceFiles: corpus.sourceFiles,
+    products: corpusProducts,
+    audit: auditCorpus(corpusProducts),
+  };
+
   await writeFile(file, JSON.stringify(data, null, 2), 'utf8');
+  await writeFile(CORPUS_FILE, JSON.stringify(updatedCorpus, null, 2), 'utf8');
+
   console.log(`\n🎉 Enriched ${done} products → ${files[0]}`);
+  console.log(`📚 Corpus: ${updatedCorpus.audit.products} products, ${updatedCorpus.audit.withRealComments} with real comments`);
 }
 
 main().catch((e) => { console.error('❌', e.message); process.exit(1); });

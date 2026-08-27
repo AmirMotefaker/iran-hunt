@@ -9,6 +9,7 @@ import { ShareButtons } from '@/components/ShareButtons';
 import { StarRating } from '@/components/StarRating';
 import { UserComments } from '@/components/UserComments';
 import { loadLatest } from '@/lib/storage';
+import { loadCorpusProduct } from '@/lib/corpus';
 import { PERIODS } from '@/lib/scraper';
 import { withUtm } from '@/lib/utm';
 import type { PeriodKey } from '@/types';
@@ -215,3 +216,4 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     </main>
   );
 }
+
