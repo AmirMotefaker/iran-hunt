@@ -3,13 +3,16 @@ import path from 'node:path';
 import type { DailyData, PeriodKey, PeriodsData, Product } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
+const DAILY_DATA_FILE_RE = /^\d{4}-\d{2}-\d{2}\.json$/;
 
-// سقف هر بازه (تا دیتا هر روز رشد کنه ولی بی‌نهایت نشه)
 const CAPS: Record<PeriodKey, number> = {
   today: 20, yesterday: 20, week: 50, month: 100, year: 200,
 };
 
-// ادغام دیتای قدیم + جدید (بدون تکرار، با بیشترین رأی)
+export function isDailyDataFilename(filename: string): boolean {
+  return DAILY_DATA_FILE_RE.test(filename);
+}
+
 function mergePeriods(oldP: PeriodsData | undefined, newP: PeriodsData): PeriodsData {
   const out = {} as PeriodsData;
   (Object.keys(CAPS) as PeriodKey[]).forEach((k) => {
@@ -19,7 +22,6 @@ function mergePeriods(oldP: PeriodsData | undefined, newP: PeriodsData): Periods
       const prev = map.get(p.slug);
       if (!prev) map.set(p.slug, p);
       else {
-        // merge عمیق: دیتای قدیمی حفظ میشه، دیتای جدید آپدیت میشه
         const m: any = { ...prev, ...p, votes: Math.max(prev.votes ?? 0, p.votes ?? 0) };
         if (!m.comments?.length && prev.comments?.length) m.comments = prev.comments;
         if (!m.faComments?.length && prev.faComments?.length) m.faComments = prev.faComments;
@@ -53,10 +55,12 @@ export async function saveDaily(date: string, periods: PeriodsData): Promise<voi
 export async function loadLatest(): Promise<DailyData | null> {
   try {
     const files = (await readdir(DATA_DIR))
-      .filter((f) => f.endsWith('.json'))
+      .filter(isDailyDataFilename)
       .sort()
       .reverse();
+
     if (files.length === 0) return null;
+
     const raw = await readFile(path.join(DATA_DIR, files[0]), 'utf8');
     const parsed = JSON.parse(raw) as any;
 
@@ -70,6 +74,7 @@ export async function loadLatest(): Promise<DailyData | null> {
         },
       };
     }
+
     if (!parsed.periods.year) parsed.periods.year = [];
     return parsed as DailyData;
   } catch {
