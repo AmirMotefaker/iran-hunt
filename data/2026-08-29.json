@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "scrapedAt": "2026-08-29T12:11:56.213Z",
+  "scrapedAt": "2026-08-29T22:45:29.804Z",
   "periods": {
     "today": [
       {
@@ -169,6 +169,66 @@
         "makerTwitter": ""
       },
       {
+        "id": "ph-today-1",
+        "date": "2026-08-29",
+        "rank": 1,
+        "name": "1752vc Pitch Deck Analyzer",
+        "slug": "1752vc-pitch-deck-analyzer",
+        "tagline": "Know what investors will say before you ever hit send.",
+        "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
+        "category": "Venture Capital • Artificial Intelligence • Fundraising",
+        "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
+        "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
+          "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
+          "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
+          "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
+          "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
+          "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+        ],
+        "maker": "Lucas Pols",
+        "makerTitle": "GP of 1752vc",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 240,
+        "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "<sigh>I guess I'll be that guy. Folks, here are some rules you might want to consider.It's five core slides. 1) the problem 2) how big is it 3) the solution 4) how much do they pay 5) why you. Everything else builds upon 5 core points: problem/solution/how big/who pays/why you. Everything else builds on that. Which means:Don't pay for this stuff. I don't know what \"five free deck reviews\" means for this offer as it's not explained on their site, but like the nutty VC Boom stuff (look at the similar products ---->), this should not be your priority when it comes to spending money. build the MVP instead of obsessing over slides. Get on LinkedIn, Reddit, FB, wherever, and get some customers to see if the dogs will eat it. The friction to build is very low and the long tail theory says find customers for your solution as that's the best validation possible. A \"try it\" email, trumps 5 or 50 slides every. single. day. No investor (ever) has tried a product, loved it, and then bailed because of a crappy slide deck. VC firms, Angel Networks, Accelerators, all need deal flow and all have ways of getting it with this lemmie review your deck being one of them. Our man @ben_kahan, here posted a spray and pray list on LinkedIn of so-called angels with no links or any contact information. Head over there and look at the comments. Not saying Ben is a bad guy or doing evil things. I am pointing out that all of this not rainbows and puppy dogs or pro bono love. Ben wants deal flow. Nothing wrong with that. You, the new founder should go into this process with your eyes wide open.Your 20 dollar a month plan with get you a lot of help. Ask your chat bot to identify the nearest angel group in your area. There are tons of true pro bono types willing to help you with your end goals in mind; not theirs. And before you ask, I was a VC for 9 years and built 3 start up companies. I've seen this movie a few times.Good luck"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Such a great tool. The feedback was great!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Anything that will help us put our best foot forward when working to secure funding is deply appreciated. Having access to a tool built by investors to help identify where a deck needs improvement is invaluable."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on shipping! Thx for creating resources to help founders :)"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I loved this when I was testing. Definitely a tool I can share with founders I know!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Really impressed by the accuracy of the stage calibration on this. Testing our pre-seed deck surfaced issues ranging from missing technical lead context to unsourced figures. The distinction between critical fixes and quick wins makes prioritizing updates effortless."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
+          }
+        ]
+      },
+      {
         "id": "ph-today-4",
         "date": "2026-08-26",
         "rank": 4,
@@ -234,6 +294,47 @@
         "makerTwitter": ""
       },
       {
+        "id": "ph-today-2",
+        "date": "2026-08-29",
+        "rank": 2,
+        "name": "Hy4 preview",
+        "slug": "hy4-preview",
+        "tagline": "Tencent’s 770B open model for long-horizon work",
+        "description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
+        "category": "Open Source • Artificial Intelligence",
+        "categoryFa": "متن‌باز • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/52cfdc3c-65a6-4d2e-ae8b-68ae2984735c.svg?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
+          "https://ph-files.imgix.net/eb4a34b8-0573-4551-8fbe-2ee5ac316f82.png?auto=format",
+          "https://ph-files.imgix.net/6c7a7aae-ae69-4fe5-a084-95b8e5f91dfd.png?auto=format",
+          "https://ph-files.imgix.net/a6c49e98-68b2-4109-b148-f4642c2ff96a.png?auto=format",
+          "https://ph-files.imgix.net/ecbc71eb-03a6-478b-bc19-c44b79d2b990.png?auto=format",
+          "https://ph-files.imgix.net/2995ac52-fc30-4fc9-b5aa-593c7c0ddccc.gif?auto=format",
+          "https://ph-files.imgix.net/50fbe1f8-2513-45d9-aed7-8f307cc6b38b.png?auto=format",
+          "https://ph-files.imgix.net/3e9a2d5e-f264-47d7-b5f1-3a79371f4ddf.png?auto=format",
+          "https://ph-files.imgix.net/63712e7c-523c-4f97-b39e-0b77b10e7508.png?auto=format",
+          "https://ph-files.imgix.net/1c1d4452-f090-40bc-97a6-e366d6294b4b.png?auto=format",
+          "https://ph-files.imgix.net/7a74577d-f2ba-477b-95f5-daed016542b1.jpeg?auto=format"
+        ],
+        "maker": "",
+        "makerTitle": "",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 177,
+        "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch!"
+          }
+        ]
+      },
+      {
         "id": "ph-today-5",
         "date": "2026-08-26",
         "rank": 5,
@@ -279,6 +380,86 @@
           }
         ],
         "makerTwitter": ""
+      },
+      {
+        "id": "ph-today-3",
+        "date": "2026-08-29",
+        "rank": 3,
+        "name": "Cohere Parse 5",
+        "slug": "cohere-parse-5",
+        "tagline": "Turn complex docs, tables & images into AI-ready data",
+        "description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
+        "category": "API • Artificial Intelligence",
+        "categoryFa": "API • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
+          "https://ph-files.imgix.net/578b15dc-6e30-4e80-b085-52f73b86f9f3.png?auto=format",
+          "https://ph-files.imgix.net/d6808902-dfbd-4071-8d9b-bd288988c17e.png?auto=format",
+          "https://ph-files.imgix.net/54c4a7dd-9bca-4f7f-985e-99bc8435be7a.png?auto=format",
+          "https://ph-files.imgix.net/0b453b08-fd6f-40ad-9600-9db1109132e9.png?auto=format"
+        ],
+        "maker": "",
+        "makerTitle": "",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 155,
+        "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Parse is Cohere's document vision parsing model for turning enterprise files into AI-ready data.Problem: Enterprise documents (scans, PDFs, contracts, invoices) are messy, unstructured, and full of tables, diagrams, and charts. Most AI agents and search tools can't reliably read them, so companies end up doing manual review and data entry just to make documents usable.Solution: A document parsing model that combines OCR with multimodal understanding, turning complex files into clean, structured data that downstream AI agents and applications can actually use.What makes it different: It doesn't just extract text, it understands layout, tables, and diagrams together, and returns visual grounding (bounding boxes) so every extracted piece of data can be traced back to its exact location on the page. That's what makes citations and source attribution possible downstream.Key features:OCR for scanned and digital documentsMultimodal parsing for tables, diagrams, and images embedded in documentsVisual grounding with bounding boxes for highlighting and source attributionSupport for 9 major commercial languagesDeploy via API, Model Vault, AWS SageMaker, Azure, or fully on-prem/air-gapped Benefits: Less manual document review, more reliable AI search and retrieval, and document context AI agents can actually reason over instead of guessing at.Who it is for: Enterprises with high document volumes (claims, contracts, invoices, reports) building internal AI search, RAG pipelines, or multimodal agents.Use cases: Automating claims/contract/invoice processing, improving chunking and retrieval quality for semantic search, giving AI agents full document context including tables and visual grounding.Try here"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Wow mate! It looks awesome. I take OKR too seriously so feel it can be really helpful. Wish you all the best here"
+          }
+        ]
+      },
+      {
+        "id": "ph-today-4",
+        "date": "2026-08-29",
+        "rank": 4,
+        "name": "seendiff",
+        "slug": "seendiff",
+        "tagline": "Code diff viewer with progress tracking",
+        "description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
+        "category": "Open Source • Software Engineering • GitHub",
+        "categoryFa": "متن‌باز • Software Engineering • گیت‌هاب",
+        "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/42bdb542-49e5-40d8-a4ef-11688d0111cd.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
+          "https://ph-files.imgix.net/2bb73d68-d6d1-4e1e-a620-00f0273e49c0.png?auto=format",
+          "https://ph-files.imgix.net/38c37fa4-107e-4364-9013-c4c252eb0665.png?auto=format",
+          "https://ph-files.imgix.net/1b3ffc59-16a2-4403-916b-d117b0641616.png?auto=format",
+          "https://ph-files.imgix.net/8c4a1da9-60cf-41ad-a14a-4fc97912f0b7.png?auto=format",
+          "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
+          "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 132,
+        "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋AI code is difficult to review. So you have two options:1. Go through the painful review process, or2. Go YOLO mode and commit without reviews.If you care about maintenance of your codebase you will want to go through the pains review your code.Most code diff tools today were built for the past world - but AI scale of code is different.So I built seendiff - to scratch my own itch. It:1. Automatically keeps track of what code you've seen in a diff2. Keeps track of manually reviewed code blocks.3. Integrates a code walkthrough that lets your AI walk you through the code4. Other nifty features that matter - local global search, minimap etc.Im putting it up at https://seendiff.com in case its useful to someone else.Free. Open source.What does your agentic code review process look like?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I often loose track of what I already reviewed and what’s pending, so I get where that pain comes from :))"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "the \"what you've seen in a diff\" tracking is the part that'd actually get me to use this daily. is that state local to the machine/clone, or does it sync somewhere if I review on my laptop and then pull the same branch on a different machine later"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love that seendiff pulls the coding agent in to explain its own diffs, turning review from a chore into a guided walkthrough of large AI generated changes."
+          }
+        ]
       },
       {
         "id": "ph-today-6",
@@ -382,62 +563,47 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-today-1",
+        "id": "ph-today-5",
         "date": "2026-08-29",
-        "rank": 1,
-        "name": "1752vc Pitch Deck Analyzer",
-        "slug": "1752vc-pitch-deck-analyzer",
-        "tagline": "Know what investors will say before you ever hit send.",
-        "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-        "category": "Venture Capital • Artificial Intelligence • Fundraising",
-        "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
-        "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+        "rank": 5,
+        "name": "Neo",
+        "slug": "neo",
+        "tagline": "A novel-writing tool from the author of Silo",
+        "description": "NEO was created after using lots of writing tools and never quite finding \"the one.\" NEO doesn't try to do everything; it just wants you to get that rough draft written. Distraction free, minimal UI, see all your WIPs in one place, and most importantly, it formats your manuscripts to look like a book while you write. All you need for formatting is the Enter key. NEO does the rest.",
+        "category": "Open Source • Writing • GitHub • Books",
+        "categoryFa": "متن‌باز • نوشتن • گیت‌هاب • کتاب",
+        "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/afa43dbe-72d0-41d4-8b74-44734b270be3.png?auto=format",
         "screenshots": [
-          "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
-          "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
-          "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
-          "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
-          "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
-          "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+          "https://ph-files.imgix.net/3f16f530-c34c-426d-bea8-aba443a3d89b.png?auto=format",
+          "https://ph-files.imgix.net/ad3beb4b-4008-4bd0-9c5a-35d92a7e3b32.png?auto=format",
+          "https://ph-files.imgix.net/45e1cc52-d1c1-4c5c-a2e1-f0dcd986c71e.png?auto=format"
         ],
-        "maker": "Lucas Pols",
-        "makerTitle": "GP of 1752vc",
+        "maker": "Hugh Howey",
+        "makerTitle": "Author",
         "featuredAt": "2026-08-29T07:01:00Z",
         "votes": 123,
-        "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "websiteUrl": "https://www.producthunt.com/r/DTBFLEA2UBAF7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
+            "text": "If I ever write my autobiography, I want to use the writing app from the writer of Silo."
           },
           {
             "user": "[REDACTED]",
-            "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
+            "text": "I like the idea of just sitting in a transatlantic flight and jotting plot ideas away without having to open a laptop. Does it also support voice notes?"
           },
           {
             "user": "[REDACTED]",
-            "text": "Congratulations on the launch! This is very needed for all startup founders!"
+            "text": "No squiggly lines! It sounds silly but when writing those really are distracting, going from creative flow to \"whoops I need to correct the misspelling\" and the mindset changes. I hope the Amazon publisher integration update is next but kudos on formatting for it.Lots of potential, I will give it a fair trial from writing to publish. Congrats on the launch!"
           },
           {
             "user": "[REDACTED]",
-            "text": "I don't know what this is, but two random people sent me requests on LinkedIn and spammed me the link to this 👎"
+            "text": "Does NEO support multiple novels or drafts at the same time?"
           },
           {
             "user": "[REDACTED]",
-            "text": "the community behind 1752 and this product is very helpful and engaged. this analyzer helped find some blindspots in my deck already!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I tried uploading our pitch deck, and the analysis turned out pretty good. For the most part, the analysis highlighted what information was missing, and it’s interesting that the recommendations even took into account that we might simply not have that information at this stage.One interesting recommendation I received was regarding how we were phrasing the problem, even though I hadn’t initially considered that the phrasing might be misunderstood."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love tools supported by actual data and not the AI fad. We'll test it out as soon as we get the deck ready 😂"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This seems really useful. If I were to raise funds again for my next venture, I'd definitely give this a shot."
+            "text": "I can see so many things related to movies and series I have watched lately :D"
           }
         ]
       },
@@ -488,43 +654,6 @@
           }
         ],
         "makerTwitter": ""
-      },
-      {
-        "id": "ph-today-2",
-        "date": "2026-08-29",
-        "rank": 2,
-        "name": "Hy4 preview",
-        "slug": "hy4-preview",
-        "tagline": "Tencent’s 770B open model for long-horizon work",
-        "description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
-        "category": "Open Source • Artificial Intelligence",
-        "categoryFa": "متن‌باز • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/52cfdc3c-65a6-4d2e-ae8b-68ae2984735c.svg?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
-          "https://ph-files.imgix.net/eb4a34b8-0573-4551-8fbe-2ee5ac316f82.png?auto=format",
-          "https://ph-files.imgix.net/6c7a7aae-ae69-4fe5-a084-95b8e5f91dfd.png?auto=format",
-          "https://ph-files.imgix.net/a6c49e98-68b2-4109-b148-f4642c2ff96a.png?auto=format",
-          "https://ph-files.imgix.net/ecbc71eb-03a6-478b-bc19-c44b79d2b990.png?auto=format",
-          "https://ph-files.imgix.net/2995ac52-fc30-4fc9-b5aa-593c7c0ddccc.gif?auto=format",
-          "https://ph-files.imgix.net/50fbe1f8-2513-45d9-aed7-8f307cc6b38b.png?auto=format",
-          "https://ph-files.imgix.net/3e9a2d5e-f264-47d7-b5f1-3a79371f4ddf.png?auto=format",
-          "https://ph-files.imgix.net/63712e7c-523c-4f97-b39e-0b77b10e7508.png?auto=format",
-          "https://ph-files.imgix.net/1c1d4452-f090-40bc-97a6-e366d6294b4b.png?auto=format",
-          "https://ph-files.imgix.net/7a74577d-f2ba-477b-95f5-daed016542b1.jpeg?auto=format"
-        ],
-        "maker": "",
-        "makerTitle": "",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 113,
-        "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
-          }
-        ]
       },
       {
         "id": "ph-today-9",
@@ -615,106 +744,46 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-today-3",
-        "date": "2026-08-29",
-        "rank": 3,
-        "name": "Cohere Parse 5",
-        "slug": "cohere-parse-5",
-        "tagline": "Turn complex docs, tables & images into AI-ready data",
-        "description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
-        "category": "API • Artificial Intelligence",
-        "categoryFa": "API • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
-          "https://ph-files.imgix.net/578b15dc-6e30-4e80-b085-52f73b86f9f3.png?auto=format",
-          "https://ph-files.imgix.net/d6808902-dfbd-4071-8d9b-bd288988c17e.png?auto=format",
-          "https://ph-files.imgix.net/54c4a7dd-9bca-4f7f-985e-99bc8435be7a.png?auto=format",
-          "https://ph-files.imgix.net/0b453b08-fd6f-40ad-9600-9db1109132e9.png?auto=format"
-        ],
-        "maker": "",
-        "makerTitle": "",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 93,
-        "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Parse is Cohere's document vision parsing model for turning enterprise files into AI-ready data.Problem: Enterprise documents (scans, PDFs, contracts, invoices) are messy, unstructured, and full of tables, diagrams, and charts. Most AI agents and search tools can't reliably read them, so companies end up doing manual review and data entry just to make documents usable.Solution: A document parsing model that combines OCR with multimodal understanding, turning complex files into clean, structured data that downstream AI agents and applications can actually use.What makes it different: It doesn't just extract text, it understands layout, tables, and diagrams together, and returns visual grounding (bounding boxes) so every extracted piece of data can be traced back to its exact location on the page. That's what makes citations and source attribution possible downstream.Key features:OCR for scanned and digital documentsMultimodal parsing for tables, diagrams, and images embedded in documentsVisual grounding with bounding boxes for highlighting and source attributionSupport for 9 major commercial languagesDeploy via API, Model Vault, AWS SageMaker, Azure, or fully on-prem/air-gapped Benefits: Less manual document review, more reliable AI search and retrieval, and document context AI agents can actually reason over instead of guessing at.Who it is for: Enterprises with high document volumes (claims, contracts, invoices, reports) building internal AI search, RAG pipelines, or multimodal agents.Use cases: Automating claims/contract/invoice processing, improving chunking and retrieval quality for semantic search, giving AI agents full document context including tables and visual grounding.Try here"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-4",
-        "date": "2026-08-29",
-        "rank": 4,
-        "name": "seendiff",
-        "slug": "seendiff",
-        "tagline": "Code diff viewer with progress tracking",
-        "description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
-        "category": "Open Source • Software Engineering • GitHub",
-        "categoryFa": "متن‌باز • Software Engineering • گیت‌هاب",
-        "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/42bdb542-49e5-40d8-a4ef-11688d0111cd.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
-          "https://ph-files.imgix.net/2bb73d68-d6d1-4e1e-a620-00f0273e49c0.png?auto=format",
-          "https://ph-files.imgix.net/38c37fa4-107e-4364-9013-c4c252eb0665.png?auto=format",
-          "https://ph-files.imgix.net/1b3ffc59-16a2-4403-916b-d117b0641616.png?auto=format",
-          "https://ph-files.imgix.net/8c4a1da9-60cf-41ad-a14a-4fc97912f0b7.png?auto=format",
-          "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
-          "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 90,
-        "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋AI code is difficult to review. So you have two options:1. Go through the painful review process, or2. Go YOLO mode and commit without reviews.If you care about maintenance of your codebase you will want to go through the pains review your code.Most code diff tools today were built for the past world - but AI scale of code is different.So I built seendiff - to scratch my own itch. It:1. Automatically keeps track of what code you've seen in a diff2. Keeps track of manually reviewed code blocks.3. Integrates a code walkthrough that lets your AI walk you through the code4. Other nifty features that matter - local global search, minimap etc.Im putting it up at https://seendiff.com in case its useful to someone else.Free. Open source.What does your agentic code review process look like?"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-5",
-        "date": "2026-08-29",
-        "rank": 5,
-        "name": "Neo",
-        "slug": "neo",
-        "tagline": "A novel-writing tool from the author of Silo",
-        "description": "NEO was created after using lots of writing tools and never quite finding \"the one.\" NEO doesn't try to do everything; it just wants you to get that rough draft written. Distraction free, minimal UI, see all your WIPs in one place, and most importantly, it formats your manuscripts to look like a book while you write. All you need for formatting is the Enter key. NEO does the rest.",
-        "category": "Open Source • Writing • GitHub • Books",
-        "categoryFa": "متن‌باز • نوشتن • گیت‌هاب • کتاب",
-        "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/afa43dbe-72d0-41d4-8b74-44734b270be3.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/3f16f530-c34c-426d-bea8-aba443a3d89b.png?auto=format",
-          "https://ph-files.imgix.net/ad3beb4b-4008-4bd0-9c5a-35d92a7e3b32.png?auto=format",
-          "https://ph-files.imgix.net/45e1cc52-d1c1-4c5c-a2e1-f0dcd986c71e.png?auto=format"
-        ],
-        "maker": "Hugh Howey",
-        "makerTitle": "Author",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 89,
-        "websiteUrl": "https://www.producthunt.com/r/DTBFLEA2UBAF7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "If I ever write my autobiography, I want to use the writing app from the writer of Silo."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I can see so many things related to movies and series I have watched lately :D"
-          }
-        ]
-      },
-      {
         "id": "ph-today-6",
         "date": "2026-08-29",
         "rank": 6,
+        "name": "Cursor Craft v2",
+        "slug": "cursor-craft-v2",
+        "tagline": "Custom Mac cursors, rebuilt for v2",
+        "description": "Cursor Craft v2 is a rebuilt macOS app for browsing, previewing, and applying custom cursor packs. The new version adds a redesigned interface, faster browsing, clearer offline states, improved cursor rendering, and prepares the app for dynamic and animated cursor packs.",
+        "category": "Mac • Design Tools • Productivity",
+        "categoryFa": "مک • ابزار طراحی • بهره‌وری",
+        "url": "https://www.producthunt.com/products/cursor-craft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/0ffcdefb-bf93-4627-aa52-34065b14bc6a.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/7465d99d-f693-49bd-b0eb-09a58c17a979.png?auto=format",
+          "https://ph-files.imgix.net/907f3abb-e655-4997-9372-23b582e2c33e.png?auto=format",
+          "https://ph-files.imgix.net/b2662ffd-f8a9-4f81-959a-bd1aff98bc6a.png?auto=format"
+        ],
+        "maker": "Birang",
+        "makerTitle": "Building apps",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 99,
+        "websiteUrl": "https://www.producthunt.com/r/47RBS54W5J4LRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋 Cursor Craft v2 is here. When we first launched Cursor Craft, the idea was simple: your Mac is beautiful, but your cursor usually stays the same, even though it’s something you use all day. The first launch gave us a lot of useful feedback. People wanted faster browsing, clearer pack pages, better previews, and a smoother way to find and apply cursor sets. So we rebuilt the app. Cursor Craft v2 has a redesigned interface that makes the app faster and easier to use. The new Home screen highlights hand-picked packs and recent releases. Explore now makes it easier to filter cursor packs by category and preview them before applying. Library keeps purchased packs together in one place. We also simplified pack pages so the preview, price, description, and apply button are all on the same screen. What’s new in v2: • Redesigned Home, Explore, Library, and pack pages • Faster browsing and smoother tab switching • Clearer offline and error states • Cached purchased packs and categories when available • Improved cursor rendering • Better foundation for dynamic and animated cursor packs The rendering work is the part I’m most excited about. It gives us more control over how cursors appear on macOS and opens the door to packs that can move or display changing information. Dynamic and animated cursor packs are still growing, and we’ll share them as they become available. I’d love feedback on: • Does the new app feel easier to browse? • Are pack previews clear enough before applying? • What dynamic or animated cursor ideas would you actually use? • What cursor categories should we improve next? Thanks again to everyone who supported the first launch and helped shape v2. Download Cursor Craft v2 for Mac: https://cursor-craft.app"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "The animated packs are the part I'd be most careful with. A cursor is the one element on screen that's meant to disappear into your hand, and motion pulls attention back onto it, so a pack that looks great in a store preview can be exhausting an hour into real work. If you can let a pack animate on click and sit still while idle, that's probably where the good ones end up."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Every demo GIF I record, the cursor is the one thing that looks wrong in the final frame. Does a custom one show up in screen recordings?"
+          }
+        ]
+      },
+      {
+        "id": "ph-today-7",
+        "date": "2026-08-29",
+        "rank": 7,
         "name": "publicdesktop.lol",
         "slug": "publicdesktop-lol",
         "tagline": "Public computer of the internet",
@@ -732,36 +801,58 @@
         "maker": "Serhan",
         "makerTitle": "building to make some fun screenshots",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 83,
+        "votes": 96,
         "websiteUrl": "https://www.producthunt.com/r/VVTE3OMXQCBVCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": []
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Public desktop crossed 3000 visits. Thank you all."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "crosspaths.me , launchspread.com and bookmoth.app just joined public desktop! welcome all."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@botric @SupDesk and Excel Help joined the recently! Welcome all!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Someone just added his resume to public desktop. 😭"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Also try: http://promptstack.space/"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Someone drew a corgi, whoever it was, it was fire."
+          }
+        ]
       },
       {
-        "id": "ph-today-7",
+        "id": "ph-today-8",
         "date": "2026-08-29",
-        "rank": 7,
+        "rank": 8,
         "name": "God’s Eye View",
         "slug": "god-s-eye-view",
         "tagline": "Spy satellite simulator in your browser but the data is real",
-        "description": "Mapped the world at Google. Now mapping the frontier of creation & computing. Your atlas to AI, AR/VR, robotics, and the technologies blurring our physical and digital worlds. Deep dives with technical depth and zero fluff. Click to read Map the World by Bilawal Sidhu, a Substack publication with tens of thousands of subscribers.",
+        "description": "A spy satellite simulator in your browser - then you realize the sources are public and the data is real. Photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Talk to the planet with hands-free voice control using a realtime AI agent. Fully open source under MIT license, runs in your browser and is designed to cost little to nothing for personal exploration. No place left behind!",
         "category": "Open Source • GitHub • Maps",
         "categoryFa": "متن‌باز • گیت‌هاب • Maps",
         "url": "https://www.producthunt.com/products/god-s-eye-view?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "thumbnail": "https://ph-files.imgix.net/4492a8d9-ef77-406c-ad36-3b61357c7f09.png?auto=format",
         "screenshots": [
-          "https://ph-files.imgix.net/aac4106a-fa71-47ec-9cfc-132100244c52.jpeg?auto=format",
-          "https://ph-files.imgix.net/4283a2e9-42d8-4191-8556-2754f288c453.gif?auto=format",
-          "https://ph-files.imgix.net/3d06f262-5652-4589-92c5-4a68eb50720a.gif?auto=format",
-          "https://ph-files.imgix.net/ad447c57-f29a-424f-8b60-7a2fb2291a29.gif?auto=format",
-          "https://ph-files.imgix.net/d119a2e0-0eb7-46dd-b101-2fae3d0a0dc9.gif?auto=format",
-          "https://ph-files.imgix.net/757dc432-beea-4615-a8d3-2c8dd5aae9d5.gif?auto=format",
-          "https://ph-files.imgix.net/767277e5-efa9-4ce8-b0de-47ab94f6df6c.gif?auto=format",
+          "https://ph-files.imgix.net/16d337d0-edb2-4d4f-a490-ce9a927375a5.jpeg?auto=format",
+          "https://ph-files.imgix.net/58b5f6d6-cc87-4bc6-97ef-0d68a428bf04.jpeg?auto=format",
+          "https://ph-files.imgix.net/486b5198-7aa9-4092-bc6b-694bf32e9ac2.jpeg?auto=format",
+          "https://ph-files.imgix.net/b4e4233f-3cdb-43e2-997b-00841ab37382.jpeg?auto=format",
           "https://ph-files.imgix.net/663433b7-0a39-4485-99e8-5248fff60789.jpeg?auto=format"
         ],
         "maker": "Bilawal Sidhu",
-        "makerTitle": "AI Creator, Ex-Google PM",
+        "makerTitle": "Blending reality and imagination",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 79,
+        "votes": 93,
         "websiteUrl": "https://www.producthunt.com/r/CFL7AKRNAWM4YD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -770,7 +861,19 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "The framing here is doing something unusual. Most products dress thin data up to look authoritative and you've gone the other way, real public feeds in a spy movie costume. The risk is that people file it as a toy and never check whether an aircraft position is actually current, so I'd put the source and the timestamp on the globe itself instead of an about page."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Well this was a genuinely pleasant surprise! I didn’t even know God’s Eye View had been hunted until it popped up in my feed today. Thank you to Chris!The premise is simple - the feeling of a spy thriller command center rebuilt from signals already broadcasting in public. Essentially a real-time \"common operational picture\" of the world we live in - aircraft, ships, satellites, traffic, public cameras, fires, earthquakes - all brought together on a photorealistic 3D globe that you can talk to using voice control.The initial demos went kind of viral on YouTube and the most common comment was \"give us the code\" - so here it is! It’s fully open source under MIT, runs in your browser, and the whole point is to break it, remix it, and add layers and modes I couldn’t even imagine. PRs are welcome so please have fun! And do tell me what should we add next?"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Brother is this for real, is the data 100% accurate?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "\"the data is real\" is the part i want to know more about - is it live satellite imagery/telemetry, or a real dataset that's just not updating in real time? those are very different demos even if they look the same in a gif"
           }
         ]
       },
@@ -778,39 +881,6 @@
         "id": "ph-today-9",
         "date": "2026-08-29",
         "rank": 9,
-        "name": "Cursor Craft v2",
-        "slug": "cursor-craft-v2",
-        "tagline": "Custom Mac cursors, rebuilt for v2",
-        "description": "Cursor Craft v2 is a rebuilt macOS app for browsing, previewing, and applying custom cursor packs. The new version adds a redesigned interface, faster browsing, clearer offline states, improved cursor rendering, and prepares the app for dynamic and animated cursor packs.",
-        "category": "Mac • Design Tools • Productivity",
-        "categoryFa": "مک • ابزار طراحی • بهره‌وری",
-        "url": "https://www.producthunt.com/products/cursor-craft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/0ffcdefb-bf93-4627-aa52-34065b14bc6a.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/7465d99d-f693-49bd-b0eb-09a58c17a979.png?auto=format",
-          "https://ph-files.imgix.net/907f3abb-e655-4997-9372-23b582e2c33e.png?auto=format",
-          "https://ph-files.imgix.net/b2662ffd-f8a9-4f81-959a-bd1aff98bc6a.png?auto=format"
-        ],
-        "maker": "Birang",
-        "makerTitle": "Building apps",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 76,
-        "websiteUrl": "https://www.producthunt.com/r/47RBS54W5J4LRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 Cursor Craft v2 is here. When we first launched Cursor Craft, the idea was simple: your Mac is beautiful, but your cursor usually stays the same, even though it’s something you use all day. The first launch gave us a lot of useful feedback. People wanted faster browsing, clearer pack pages, better previews, and a smoother way to find and apply cursor sets. So we rebuilt the app. Cursor Craft v2 has a redesigned interface that makes the app faster and easier to use. The new Home screen highlights hand-picked packs and recent releases. Explore now makes it easier to filter cursor packs by category and preview them before applying. Library keeps purchased packs together in one place. We also simplified pack pages so the preview, price, description, and apply button are all on the same screen. What’s new in v2: • Redesigned Home, Explore, Library, and pack pages • Faster browsing and smoother tab switching • Clearer offline and error states • Cached purchased packs and categories when available • Improved cursor rendering • Better foundation for dynamic and animated cursor packs The rendering work is the part I’m most excited about. It gives us more control over how cursors appear on macOS and opens the door to packs that can move or display changing information. Dynamic and animated cursor packs are still growing, and we’ll share them as they become available. I’d love feedback on: • Does the new app feel easier to browse? • Are pack previews clear enough before applying? • What dynamic or animated cursor ideas would you actually use? • What cursor categories should we improve next? Thanks again to everyone who supported the first launch and helped shape v2. Download Cursor Craft v2 for Mac: https://cursor-craft.app"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Every demo GIF I record, the cursor is the one thing that looks wrong in the final frame. Does a custom one show up in screen recordings?"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-8",
-        "date": "2026-08-29",
-        "rank": 8,
         "name": "Mossy",
         "slug": "mossy-2",
         "tagline": " A desk plant that wilts when you need a break",
@@ -829,7 +899,7 @@
         "maker": "Mossy",
         "makerTitle": "A desk plant. Breaks you write yourself",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 76,
+        "votes": 91,
         "websiteUrl": "https://www.producthunt.com/r/P5QGOSUBJ3TMWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -838,37 +908,62 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "The flower starts wilting, and suddenly you feel guilty. Much better than just a timer!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Okay, my lower back peaked right up and said, \"Click the download button!\" and I've got what for now looks like a pretty chipper cactus in the lower right corner of my second screen! This looks fun... Wish he had a ball cap. :-)"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "One of the cutest visualisations I have seen today :)"
           }
         ]
       },
       {
-        "id": "ph-today-9",
+        "id": "ph-today-10",
         "date": "2026-08-29",
-        "rank": 9,
-        "name": "Staats",
-        "slug": "staats-3",
-        "tagline": "Ask your coding agent how your site is doing",
-        "description": "Agent-native, cookieless site analytics. Your coding agent measures deploys, flags changes, and suggests next moves with evidence. No dashboard, no charts to read.",
-        "category": "Analytics • SaaS • Artificial Intelligence",
-        "categoryFa": "تحلیل داده • نرم‌افزار ابری • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/staats-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/94a6275f-25b6-4eee-8720-2bce9d98f09c.png?auto=format",
+        "rank": 10,
+        "name": "WIT",
+        "slug": "wit-2",
+        "tagline": "Spot potential misunderstandings across global Englishes",
+        "description": "WIT is an AI communication check for founders and global teams. Paste an email, Slack message or product copy to see how it may land across American, Indian and Singapore English, understand why and get a clearer alternative without losing your voice. Before you hit send, see if your message travels.",
+        "category": "Productivity • Customer Communication • Languages",
+        "categoryFa": "بهره‌وری • Customer Communication • Languages",
+        "url": "https://www.producthunt.com/products/wit-will-it-travel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/51acacad-f621-40a7-848e-9d08a3cbd5ee.jpeg?auto=format",
         "screenshots": [
-          "https://ph-files.imgix.net/78f912b8-150d-4ac3-a909-0e7f2248ec0a.png?auto=format",
-          "https://ph-files.imgix.net/26ff04bb-926f-47ea-898a-24ee84d7bf3e.png?auto=format",
-          "https://ph-files.imgix.net/c5448e8b-6062-4998-9bc1-c76ef3c9dacb.png?auto=format",
-          "https://ph-files.imgix.net/26711643-7697-4453-8009-9936e6d317b3.png?auto=format"
+          "https://ph-files.imgix.net/4b2b0ed9-2229-4b10-8c5b-1c6e215401a6.jpeg?auto=format",
+          "https://ph-files.imgix.net/4ce65505-6d34-4e3b-ad21-f1e75f796025.jpeg?auto=format",
+          "https://ph-files.imgix.net/84faa277-1c64-4f2f-b25e-bc6a8b1b8988.jpeg?auto=format",
+          "https://ph-files.imgix.net/65f6b6a7-b12f-4f95-b94e-e49dfa2b40bc.jpeg?auto=format",
+          "https://ph-files.imgix.net/8f2f892d-4f61-448f-ae5e-d386a2ce6f0a.jpeg?auto=format"
         ],
-        "maker": "Myster Violets",
-        "makerTitle": "Hobbyist programmer",
+        "maker": "[REDACTED]",
+        "makerTitle": "",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 70,
-        "websiteUrl": "https://www.producthunt.com/r/5TF6TUVXTV72WX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "votes": 77,
+        "websiteUrl": "https://www.producthunt.com/r/X45PSREHVK4XF3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hi Product Hunt 👋Coding agents have made shipping so fast that the bottleneck has moved. It's not building anymore, it's knowing what to build next and making data-backed decisions is essential.But today the loop looks like this:You and your agent ship → you check the data (if you remember to!) → you make sense of it → you decide what's next → you and your agent shipStaats collapses it to:You and your agent ship → your agent checks the data → you and your agent shipIt's a cookieless web script plus an MCP server, so your agent reads live traffic and interactions events inside your chat. Your agent will proactively warn you before you change something that was working, and push you to take another pass at something that wasn't.Free for 10,000 events per month. Works with Claude Code, Cursor, Codex.. etc.Question for you: If your agent could answer one questions about your traffic, what would you want it to be?"
+            "text": "Hi! I am Maria, one of the makers behind WIT - Will It Travel?Working in international teams, I’ve often anxiously reread a message several times before sending it, wondering whether it might sound rude, unclear or mean something different to the person receiving it.That experience inspired WIT.Paste a Slack message or email and WIT explores how it may be understood across American, Indian and Singapore English. It highlights potential misunderstandings, explains where they may come from and suggests clearer wording for an international audience.WIT doesn’t rank one variety of English above another or automatically replace your writing. It gives you the reasoning and an alternative, then you decide what to keep.We built this early version as Team Oranges & Lemons, an international team working together across countries and time zones. We’re launching early because we want real feedback before deciding how to make it better next.Please try it with and tell us what worked or what didn’t. We would especially love to know:Did WIT find something genuinely useful?Did anything feel wrong or confusing?Did the suggestion preserve what you intended to say?Before you hit send, see if your message travels✈️"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "My copy goes out to a dozen countries at once, and I only spot the confusing line when someone asks what I meant. Which phrase trips people up most?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "the use case i'd want is the reverse direction - pasting a message someone else sent me that landed weird, to check if it's actually a tone mismatch across Englishes or if i'm just reading into it. is that a use case you've thought about, or is it strictly for checking your own outgoing message before you hit send"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Not auto-replacing is the right call. Most tools go straight to the rewrite and you lose any way to argue with it. The thing I'd watch is false positives, because if it flags a sentence that was actually fine, people stop reading the flags inside a week and you never hear about it. Nobody files a bug for a tool they've quietly started ignoring. Three Englishes is a curious cut too, British was the one I expected to see first."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Hi! Communication in international spaces can be hard, and can lead to a lot of misunderstandings among colleagues. That's where WIT comes in, send your possibly unclear message and see how it might be interpreted by other English speakers. Meet WIT — Will It Travel?WIT is a language risk audit tool that explores how a message might be interpreted across different varieties of English. For our first version, we’re looking at American, Indian, and Singapore English.The goal isn’t to decide which version of English is “correct.” Instead, WIT helps make potential differences in interpretation visible, things like wording, tone, or phrases that might make sense to one audience but create confusion for another.This idea is especially meaningful to me because I’ve experienced those misunderstandings myself when communicating with international friends and collaborators. Sometimes a message can seem completely clear to you and still land very differently for someone else. We’re excited to be launching today on Product Hunt, it has been a wonderful journey so far!What’s a phrase or message you’ve sent that you later realized could have been interpreted completely differently?"
           }
         ]
       }
@@ -1023,7 +1118,7 @@
         "maker": "Mingtian Zhang",
         "makerTitle": "Founder of PageIndex",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 343,
+        "votes": 354,
         "websiteUrl": "https://www.producthunt.com/r/XN6ZYWE35L5YMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1085,7 +1180,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 301,
+        "votes": 305,
         "websiteUrl": "https://www.producthunt.com/r/4ZZ3GDQQF3O7YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1210,12 +1305,16 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 258,
+        "votes": 274,
         "websiteUrl": "https://www.producthunt.com/r/DDI5YNTYTQBWQO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hi everyone!Reachy Mini has a new little buddy 🦆Quite a week for @Hugging Face. Right after the reported big deal, they’re launching something very on-brand with Pollen Robotics: a $399 open-source biped you can train yourself.It’s desk-sized — 25cm tall, under 800g — and already walks, picks things up, gets back up after a fall, and even roller-skates.You can mess with how it moves in the browser first, then put the new behavior on the real robot.The whole software stack is open under Apache 2.0.Reachy is the one you talk to. This one you teach to walk!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Yes, I also wanted to know the gap between programming and actual movement.In the add-on packs you have NFC tags, are those to trigger specific pre-programmed actions? Does the laser pointer help reinforce already programed skills or training?How autonomous are they when you have them on the floor?For $500, (MicroDuck + add-ons) that is a great gift for anyone who is learning to program simple robotics!"
           },
           {
             "user": "[REDACTED]",
@@ -1326,7 +1425,7 @@
         "maker": "Sundar Pichai",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 201,
+        "votes": 216,
         "websiteUrl": "https://www.producthunt.com/r/A7U5SL5CKKHNAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1366,12 +1465,16 @@
         "maker": "Shelden Shi",
         "makerTitle": "Co-founder of OpenTag",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 172,
+        "votes": 176,
         "websiteUrl": "https://www.producthunt.com/r/ERKDF76UMITZKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "We are offering a 50% off for 2 months discount to celebrate this launch Tag it in a channel, hand it a task, and the result lands in the thread where the whole team can see it. As it works, OpenTag writes a wiki of how the company actually runs: how decisions get made, who owns what, which workflows repeat. That wiki compounds into a company brain, so it gets sharper with time. And because it's model-agnostic, when a better model ships, your coworker gets better the same day."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Claude Tag is restricted to Anthropic's models & expensive.OpenTag is model-agnostic (100 choices) & 10x cheaper.Makes total sense to me."
           },
           {
             "user": "[REDACTED]",
@@ -1475,7 +1578,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 164,
+        "votes": 170,
         "websiteUrl": "https://www.producthunt.com/r/D6DMT64DXNRKM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1569,7 +1672,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 146,
+        "votes": 147,
         "websiteUrl": "https://www.producthunt.com/r/MQQFXHKTAUN25N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1809,12 +1912,20 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 127,
+        "votes": 128,
         "websiteUrl": "https://www.producthunt.com/r/4SP35UNQXXHEE2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "You shouldn’t need to give your AI a long prompt, 10 screenshots, and 2 meeting transcripts before it can help with work you already did on your computer.We built screenpipe to stop the loop of pasting screenshots, recapping meetings, and explaining what changed.screenpipe records your screen, audio, and activity on your own computer, then makes that history available to the AI agents you already use through MCP.So you can ask about a customer call, a bug you chased, or a document you edited without explaining the work all over again.screenpipe is local-first, source-available, and available on Mac, Windows, and Linux.We’ll be here throughout launch day. What’s the first workflow you’d stop re-explaining?Launch-day offer: use code BUSINESS20 for a discount on annual plans. Ends August 28 at 11:59pm PT."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "My journey with Screenpipe began after I finally had a system I felt comfortable with, with a collection of agents developed using Claude Code months ago.One day I messaged Claude and said, \"What if you're not here tomorrow? I need a business continuity plan\"After a few seconds of debate, lol. Claude said ok. Then provided me with a strategy to recreate my system and itself. I asked it to rank every element of my new setup and give me a percentage of its capabilities compared to its own. Screenpipe was the one that it admitted that it couldn't compete with given its limited context memory. So I jumped in. I finished my doctorate this year as well so I took advantage of the student discount and went all in with the one time educational discount pricing. While it still wasn't cheap at $300 it has paid for itself plenty of times.As soon as Claude or my local setup seems to have lost context I tell it to check the last X (days, months etc) of Screenpipe and it immediately has whats needed. Thank you for developing this. Can't wait til iOS capabilities are available."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Been using it for a bit now and it makes tracking daily work and context so much easier."
           },
           {
             "user": "[REDACTED]",
@@ -1835,14 +1946,6 @@
           {
             "user": "[REDACTED]",
             "text": "I LOVE using screenpipe to chat with what I did during the day."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Lately, I’ve been using Screenpipe to remind me about unfinished work and create skills for tasks I repeat."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I built screenpipe because capable AI still loses the context of work that already happened on your computer.The goal is simple: let the agents you already use work from that history instead of another manual recap.I want the honest version: where does missing context hurt your AI workflow most?"
           }
         ]
       },
@@ -1924,7 +2027,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 114,
+        "votes": 115,
         "websiteUrl": "https://www.producthunt.com/r/BBRQ4XBF4J2ZA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1967,7 +2070,7 @@
         "maker": "Tushar Chopra",
         "makerTitle": "Founding engineer @ x1",
         "featuredAt": "2026-08-26T07:01:00Z",
-        "votes": 500,
+        "votes": 501,
         "websiteUrl": "https://www.producthunt.com/r/HRIWQ6DBNJOZ7W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2217,7 +2320,7 @@
         "maker": "Surbhi Singla",
         "makerTitle": "building diet claude & fun projects",
         "featuredAt": "2026-08-25T07:01:00Z",
-        "votes": 410,
+        "votes": 411,
         "websiteUrl": "https://www.producthunt.com/r/FBBFOTHWP2O4QH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2585,7 +2688,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 343,
+        "votes": 354,
         "websiteUrl": "https://www.producthunt.com/r/XN6ZYWE35L5YMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2647,7 +2750,7 @@
         "maker": "James Hawkins",
         "makerTitle": "",
         "featuredAt": "2026-08-26T07:01:00Z",
-        "votes": 342,
+        "votes": 348,
         "websiteUrl": "https://www.producthunt.com/r/2RW3QOUU4OK7XB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2869,7 +2972,7 @@
         "maker": "Ashish Toshniwal",
         "makerTitle": "Founder of Hey Noah - SMS/voice first AI",
         "featuredAt": "2026-08-04T07:01:00Z",
-        "votes": 617,
+        "votes": 620,
         "websiteUrl": "https://www.producthunt.com/r/XG4DNYGMW6GCPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2903,6 +3006,69 @@
           {
             "user": "[REDACTED]",
             "text": "Noah has been really helpful with my day to day operations. Great product."
+          }
+        ],
+        "makerTwitter": ""
+      },
+      {
+        "id": "ph-month-2",
+        "date": "2026-08-19",
+        "rank": 2,
+        "name": "Clipto MCP",
+        "slug": "clipto-mcp",
+        "tagline": "Let agents source clips from terabytes of your local video",
+        "description": "Clipto MCP gives Claude, ChatGPT, and other AI agents the ability to source clips and more from inside the videos, photos, and audio recordings stored on your computer. Instead of manually browsing files, simply describe what you need. For example, turn a script into a video by matching each sentence with your local footage; find every scene where someone mentioned a topic; create rough cuts; or search years of media as if you have a dedicated assistant editor.",
+        "category": "Productivity • Search • Video",
+        "categoryFa": "بهره‌وری • Search • ویدیو",
+        "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/307c181c-9d5c-4825-b49b-a2ccf4f23c2a.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format",
+          "https://ph-files.imgix.net/d143333b-3435-49fd-8c78-04680f1ef126.png?auto=format",
+          "https://ph-files.imgix.net/281c6db9-02c7-43ea-95ad-369a164ef1be.png?auto=format",
+          "https://ph-files.imgix.net/6878f842-9acf-4ee4-9f3f-b1a5267e851a.png?auto=format",
+          "https://ph-files.imgix.net/537c5431-37dc-492d-a23e-ced0bbd9506d.png?auto=format",
+          "https://ph-files.imgix.net/e03dd6eb-6f15-4d2b-b220-e7905e4dfb12.png?auto=format",
+          "https://ph-files.imgix.net/66f32670-ae50-4887-ae53-a0de68e0d3a8.png?auto=format",
+          "https://ph-files.imgix.net/bb835663-eee1-49f6-97af-c5f2453ef88c.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-19T07:01:00Z",
+        "votes": 610,
+        "websiteUrl": "https://www.producthunt.com/r/OTKPG4D4Y4NG66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hi Product Hunt! 👋 Henry here, a few months ago, I launched @Clipto , a fully local AI media search engine that helps people search terabytes of videos, photos, audio, meetings, and documents using natural language.Since then, one request kept coming up:“Can Claude use Clipto?”“Can ChatGPT search my media library?”“Can my agent actually edit videos using my own footage?”Today, we’re excited to launch Clipto MCP.AI agents can already access your files. What they can’t do is understand what’s inside terabytes of media.That’s what Clipto MCP changes. It gives AI agents semantic understanding of your local media, so instead of manually browsing folders or scrubbing through timelines, you can simply describe what you want.Some examples:🎬 Turn a script into a video by matching every sentence with relevant footage.🔍 Find every clip where someone mentioned a specific topic.🎤 Search years of meetings for a decision or discussion.✂️ Generate rough cuts from thousands of hours of video.Everything runs on the media already stored on your computer. No uploading your library to the cloud.This is only the beginning. As AI agents become more capable, they’ll need more than file access. They’ll need to understand the content inside our personal media.To celebrate our launch, we're offering 1 month free to anyone who signs up this week with code PHLNCH.We’d love to hear what you’d build with Clipto MCP. We’ll be here all day answering questions and collecting feedback.Thanks for giving it a try! 🚀"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Yes - the memory infrastructure that connects your personal context to whichever AI you choose to use."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch! Going fully local is the right call at this scale, since nobody's realistically uploading 2TB of footage to the cloud just to make it searchable. Smart to lead with the indexing benchmark too, because slow first-time indexing is usually what kills local AI tools. How big does the index itself end up for a 2TB library, and does search stay snappy as the library grows?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch! Local-first plus MCP is a smart combination. Being able to point an agent at years of footage without uploading any of it solves a real problem."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love the local-first approach! Curious — how does it handle matching accuracy when searching dialogue vs. visual scenes across years of footage? Congrats on the launch! 🎉"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Wow, this tool sounds amazing. Is there any free code to try it?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "What stands out to me is that Clipto does more than transcribe media—it makes an entire archive searchable and reusable. Finding an exact scene, quote, or moment through natural language could save creators hours of manual work. Keeping everything local makes the idea even more compelling. Congrats on the launch!"
           }
         ],
         "makerTwitter": ""
@@ -2962,69 +3128,6 @@
           {
             "user": "[REDACTED]",
             "text": "\"Good code that quietly builds the wrong product\" is uncomfortably specific to something I have sitting in my own guidelines file right now: a component that fetches data directly instead of going through a hook, flagged months ago as a known violation, still not fixed because it passed review and works fine. That's the exact gap you're describing: nothing was broken, so nothing forced the conversation. Question: when Prelint flags a decision, does it also catch pre-existing drift already merged, or only new changes in the current PR?"
-          }
-        ],
-        "makerTwitter": ""
-      },
-      {
-        "id": "ph-month-2",
-        "date": "2026-08-19",
-        "rank": 2,
-        "name": "Clipto MCP",
-        "slug": "clipto-mcp",
-        "tagline": "Let agents source clips from terabytes of your local video",
-        "description": "Clipto MCP gives Claude, ChatGPT, and other AI agents the ability to source clips and more from inside the videos, photos, and audio recordings stored on your computer. Instead of manually browsing files, simply describe what you need. For example, turn a script into a video by matching each sentence with your local footage; find every scene where someone mentioned a topic; create rough cuts; or search years of media as if you have a dedicated assistant editor.",
-        "category": "Productivity • Search • Video",
-        "categoryFa": "بهره‌وری • Search • ویدیو",
-        "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/307c181c-9d5c-4825-b49b-a2ccf4f23c2a.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format",
-          "https://ph-files.imgix.net/d143333b-3435-49fd-8c78-04680f1ef126.png?auto=format",
-          "https://ph-files.imgix.net/281c6db9-02c7-43ea-95ad-369a164ef1be.png?auto=format",
-          "https://ph-files.imgix.net/6878f842-9acf-4ee4-9f3f-b1a5267e851a.png?auto=format",
-          "https://ph-files.imgix.net/537c5431-37dc-492d-a23e-ced0bbd9506d.png?auto=format",
-          "https://ph-files.imgix.net/e03dd6eb-6f15-4d2b-b220-e7905e4dfb12.png?auto=format",
-          "https://ph-files.imgix.net/66f32670-ae50-4887-ae53-a0de68e0d3a8.png?auto=format",
-          "https://ph-files.imgix.net/bb835663-eee1-49f6-97af-c5f2453ef88c.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-19T07:01:00Z",
-        "votes": 607,
-        "websiteUrl": "https://www.producthunt.com/r/OTKPG4D4Y4NG66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hi Product Hunt! 👋 Henry here, a few months ago, I launched @Clipto , a fully local AI media search engine that helps people search terabytes of videos, photos, audio, meetings, and documents using natural language.Since then, one request kept coming up:“Can Claude use Clipto?”“Can ChatGPT search my media library?”“Can my agent actually edit videos using my own footage?”Today, we’re excited to launch Clipto MCP.AI agents can already access your files. What they can’t do is understand what’s inside terabytes of media.That’s what Clipto MCP changes. It gives AI agents semantic understanding of your local media, so instead of manually browsing folders or scrubbing through timelines, you can simply describe what you want.Some examples:🎬 Turn a script into a video by matching every sentence with relevant footage.🔍 Find every clip where someone mentioned a specific topic.🎤 Search years of meetings for a decision or discussion.✂️ Generate rough cuts from thousands of hours of video.Everything runs on the media already stored on your computer. No uploading your library to the cloud.This is only the beginning. As AI agents become more capable, they’ll need more than file access. They’ll need to understand the content inside our personal media.To celebrate our launch, we're offering 1 month free to anyone who signs up this week with code PHLNCH.We’d love to hear what you’d build with Clipto MCP. We’ll be here all day answering questions and collecting feedback.Thanks for giving it a try! 🚀"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Yes - the memory infrastructure that connects your personal context to whichever AI you choose to use."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch! Going fully local is the right call at this scale, since nobody's realistically uploading 2TB of footage to the cloud just to make it searchable. Smart to lead with the indexing benchmark too, because slow first-time indexing is usually what kills local AI tools. How big does the index itself end up for a 2TB library, and does search stay snappy as the library grows?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch! Local-first plus MCP is a smart combination. Being able to point an agent at years of footage without uploading any of it solves a real problem."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love the local-first approach! Curious — how does it handle matching accuracy when searching dialogue vs. visual scenes across years of footage? Congrats on the launch! 🎉"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Wow, this tool sounds amazing. Is there any free code to try it?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "What stands out to me is that Clipto does more than transcribe media—it makes an entire archive searchable and reusable. Finding an exact scene, quote, or moment through natural language could save creators hours of manual work. Keeping everything local makes the idea even more compelling. Congrats on the launch!"
           }
         ],
         "makerTwitter": ""
@@ -3217,9 +3320,9 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-month-5",
+        "id": "ph-month-6",
         "date": "2026-08-05",
-        "rank": 5,
+        "rank": 6,
         "name": "Wispr Flow Notetaker",
         "slug": "wispr-flow-notetaker",
         "tagline": "Meeting notes that get the details right.",
@@ -3250,6 +3353,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I love that WisprFlow works on my cell and my computer. I just wish it would not take over my clipboard :)"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "Dictation is one of those things I always try and abandon after 2 days, so honest question: what makes retention stick with Flow – the accuracy, or the formatting cleanup? Asking as someone who writes marketing copy all day and keeps going back to typing. The real-names-in-transcripts detail for meetings is a genuinely nice touch though."
           },
           {
@@ -3271,10 +3378,6 @@
           {
             "user": "[REDACTED]",
             "text": "I love Wispr Flow Notetaker. Just being able to jot down my thoughts and ideas, and then look back to see what steps I need to take or what my key takeaways were from things I spoke about. Huge help for actually retaining and acting on what I capture."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Long time granola user here - how does this stack up to it? Any killer features / uses cases that would make someone move over? Thank you!"
           }
         ],
         "makerTwitter": ""
@@ -3342,9 +3445,9 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-month-6",
+        "id": "ph-month-5",
         "date": "2026-08-12",
-        "rank": 6,
+        "rank": 5,
         "name": "Dograh",
         "slug": "dograh-3",
         "tagline": "The open source VAPI alternative",
@@ -3365,7 +3468,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-12T07:01:00Z",
-        "votes": 576,
+        "votes": 577,
         "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -3609,7 +3712,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-26T07:01:00Z",
-        "votes": 500,
+        "votes": 501,
         "websiteUrl": "https://www.producthunt.com/r/HRIWQ6DBNJOZ7W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
