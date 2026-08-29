@@ -1,3 +1,10 @@
+## [1.50.2](https://github.com/IdehJo/idehjo/compare/v1.50.1...v1.50.2) (2026-08-29)
+
+
+### Bug Fixes
+
+* recover real votes for today fallback products ([#49](https://github.com/IdehJo/idehjo/issues/49)) ([f1f7607](https://github.com/IdehJo/idehjo/commit/f1f76074990c2b3238cdb47b642e6f8689f82de5))
+
 ## [1.50.1](https://github.com/IdehJo/idehjo/compare/v1.50.0...v1.50.1) (2026-08-29)
 
 
