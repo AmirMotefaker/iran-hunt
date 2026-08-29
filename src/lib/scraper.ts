@@ -25,7 +25,6 @@ function startOfDayUTC(offsetDays = 0): Date {
   const now = new Date();
   return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - offsetDays, 0, 0, 0));
 }
-
 function periodBounds(key: PeriodKey): { after: string; before: string } {
   const now = new Date();
   switch (key) {
@@ -36,42 +35,37 @@ function periodBounds(key: PeriodKey): { after: string; before: string } {
     case 'year': return { after: iso(new Date(now.getTime() - 365 * 864e5)), before: iso(now) };
   }
 }
-
 function stripHtml(html: string): string { return cheerio.load(html).text().replace(/\s+/g, ' ').trim(); }
-
 function isSpamComment(text: string): boolean {
-  const spamPatterns = [
+  return [
     /https?:\/\/(?!www\.producthunt\.com)[^\s]+\.(xyz|top|click|ru|cn|tk)/i,
     /click here|check out|visit now/i,
-  ];
-  return spamPatterns.some((p) => p.test(text));
+  ].some((p) => p.test(text));
 }
-
 function extractSlug(url: string): string | null {
   const match = url.match(/\/(?:products|posts)\/([^/?#]+)/);
   return match ? match[1] : null;
 }
 
+const postFields = `
+  name tagline description votesCount website url slug featuredAt
+  thumbnail { url }
+  media { url }
+  topics(first: 5) { edges { node { name } } }
+  makers { name headline }
+`;
+
 const listQuery = (after: string, before: string) => `
 query {
   posts(first: 50, order: VOTES, postedAfter: "${after}", postedBefore: "${before}") {
-    edges {
-      node {
-        name tagline description votesCount website url slug featuredAt
-        thumbnail { url }
-        media { url }
-        topics(first: 5) { edges { node { name } } }
-        makers { name headline }
-      }
-    }
+    edges { node { ${postFields} } }
   }
 }`;
 
 const slugQuery = (slug: string) => `
 query {
   post(slug: "${slug}") {
-    website
-    description
+    ${postFields}
     comments(first: 8) { edges { node { body user { name username } } } }
   }
 }`;
@@ -82,7 +76,7 @@ async function gql(token: string, query: string): Promise<any> {
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
-      'User-Agent': 'IdehYab/3.0 (+https://iranhunt.vercel.app)',
+      'User-Agent': 'IdehJo/3.0 (+https://idehjo.ir)',
     },
     body: JSON.stringify({ query }),
   });
@@ -102,66 +96,66 @@ async function getRealWebsiteUrl(redirectUrl: string): Promise<string> {
   } catch { return redirectUrl; }
 }
 
+function productFromNode(node: any, key: PeriodKey, index: number, fallback?: Partial<Product>): Product {
+  const slug = node?.slug ?? extractSlug(node?.url ?? '') ?? fallback?.slug ?? '';
+  const categoryEn = (node?.topics?.edges ?? []).map((t: any) => t.node?.name).filter(Boolean).join(' • ') || fallback?.category || 'General';
+  const screenshots = (node?.media ?? []).map((m: any) => m.url).filter(Boolean).filter((u: string) => !u.endsWith('.mp4'));
+
+  return {
+    id: fallback?.id ?? `ph-${key}-${index + 1}`,
+    date: (node?.featuredAt ?? fallback?.featuredAt ?? fallback?.date ?? '').slice(0, 10),
+    rank: index + 1,
+    name: node?.name ?? fallback?.name ?? slug,
+    slug,
+    tagline: node?.tagline ?? fallback?.tagline ?? '',
+    description: node?.description ?? fallback?.description ?? node?.tagline ?? '',
+    category: categoryEn,
+    categoryFa: translateCategories(categoryEn),
+    url: node?.url ?? fallback?.url ?? 'https://www.producthunt.com',
+    thumbnail: node?.thumbnail?.url ?? fallback?.thumbnail,
+    screenshots: screenshots.length ? screenshots : fallback?.screenshots,
+    maker: node?.makers?.[0]?.name ?? fallback?.maker ?? '',
+    makerTitle: node?.makers?.[0]?.headline ?? fallback?.makerTitle ?? '',
+    featuredAt: node?.featuredAt ?? fallback?.featuredAt ?? '',
+    votes: Number(node?.votesCount ?? fallback?.votes ?? 0),
+    websiteUrl: node?.website ?? fallback?.websiteUrl ?? '',
+    comments: fallback?.comments ?? [],
+  };
+}
+
 async function fetchPeriodList(token: string, key: PeriodKey): Promise<Product[]> {
   const { after, before } = periodBounds(key);
   const data = await gql(token, listQuery(after, before));
   const nodes: any[] = data?.posts?.edges?.map((e: any) => e.node).filter(Boolean) ?? [];
-
   const seen = new Set<string>();
   const pool = nodes
-    .filter((n) => n.featuredAt && n.name && !seen.has(n.name) && (seen.add(n.name), true))
+    .filter((n) => {
+      const slug = n?.slug ?? extractSlug(n?.url ?? '');
+      if (!n?.featuredAt || !n?.name || !slug || seen.has(slug)) return false;
+      seen.add(slug);
+      return true;
+    })
     .sort((a, b) => (b.votesCount ?? 0) - (a.votesCount ?? 0))
     .slice(0, TOP_COUNT);
-
-  return pool.map((n, i) => {
-    const slugFromGql = n.slug ?? extractSlug(n.url ?? '') ?? '';
-    const categoryEn = (n.topics?.edges ?? []).map((t: any) => t.node?.name).filter(Boolean).join(' • ') || 'General';
-    const screenshots = (n.media ?? [])
-      .map((m: any) => m.url)
-      .filter(Boolean)
-      .filter((u: string) => !u.endsWith('.mp4'));
-    const maker = n.makers?.[0]?.name ?? '';
-    const makerTitle = n.makers?.[0]?.headline ?? '';
-
-    return {
-      id: `ph-${key}-${i + 1}`,
-      date: (n.featuredAt ?? '').slice(0, 10),
-      rank: i + 1,
-      name: n.name,
-      slug: slugFromGql,
-      tagline: n.tagline ?? '',
-      description: n.description ?? n.tagline ?? '',
-      category: categoryEn,
-      categoryFa: translateCategories(categoryEn),
-      url: n.url ?? 'https://www.producthunt.com',
-      thumbnail: n.thumbnail?.url,
-      screenshots,
-      maker,
-      makerTitle,
-      featuredAt: n.featuredAt ?? '',
-      votes: n.votesCount ?? 0,
-      websiteUrl: n.website ?? '',
-      comments: [],
-    };
-  });
+  return pool.map((n, i) => productFromNode(n, key, i));
 }
 
 async function enrichWithDetails(token: string, products: Product[]): Promise<void> {
   for (const p of products) {
     try {
       if (!p.slug) continue;
-      let data: any;
-      data = await gql(token, slugQuery(p.slug));
+      const data = await gql(token, slugQuery(p.slug));
       const post = data?.post;
       if (!post) continue;
+      p.votes = Math.max(p.votes ?? 0, Number(post.votesCount ?? 0));
 
       let websiteUrl = post.website ?? p.websiteUrl;
-      if (websiteUrl.includes('producthunt.com/r/')) {
+      if (websiteUrl?.includes('producthunt.com/r/')) {
         const real = await getRealWebsiteUrl(websiteUrl);
         if (!real.includes('producthunt.com')) websiteUrl = real;
       }
-      p.websiteUrl = websiteUrl;
-      p.makerTwitter = post.makers?.[0]?.twitter ?? p.makerTwitter ?? '';
+      p.websiteUrl = websiteUrl ?? '';
+
       if (post.description && post.description.length > (p.description?.length ?? 0)) {
         p.longDescription = post.description;
       }
@@ -172,52 +166,132 @@ async function enrichWithDetails(token: string, products: Product[]): Promise<vo
           text: stripHtml(c.node?.body ?? ''),
         }))
         .filter((c: PHComment) => c.text.length > 10 && !isSpamComment(c.text)) as PHComment[];
-    } catch { /* ignore */ }
+    } catch {}
     await new Promise((r) => setTimeout(r, 250));
   }
 }
 
 async function fetchViaAtom(date: string): Promise<Product[]> {
-  console.log('   📡 Atom feed fallback...');
+  console.log('   📡 Atom feed discovery...');
   const res = await fetch(ATOM_URL, { headers: COMMON_HEADERS });
   if (!res.ok) throw new Error(`Atom feed HTTP ${res.status}`);
   const $ = cheerio.load(await res.text(), { xmlMode: true });
   const products: Product[] = [];
-  $('entry').each((i, el) => {
+
+  $('entry').each((_, el) => {
     if (products.length >= TOP_COUNT) return false;
     const $el = $(el);
     const content = $el.find('content').text().trim();
     const tagline = cheerio.load(content)('p').first().text().trim();
     const url = $el.find('link[href]').first().attr('href') ?? '';
-    const slug = extractSlug(url) ?? `entry-${products.length + 1}`;
+    const slug = extractSlug(url);
+    if (!slug) return;
+
     products.push({
-      id: `ph-today-${products.length + 1}`,
-      date, rank: products.length + 1,
+      id: `ph-today-atom-${products.length + 1}`,
+      date,
+      rank: products.length + 1,
       name: $el.find('title').text().trim(),
-      slug, tagline: tagline || $el.find('title').text().trim(),
+      slug,
+      tagline: tagline || $el.find('title').text().trim(),
       description: stripHtml(content),
-      category: 'General', categoryFa: 'عمومی',
-      url, votes: 0, websiteUrl: '', comments: [],
+      category: 'General',
+      categoryFa: 'عمومی',
+      url,
+      votes: 0,
+      websiteUrl: '',
+      comments: [],
     });
   });
   return products;
 }
 
-export async function scrapePeriod(token: string | undefined, key: PeriodKey, date: string): Promise<Product[]> {
-  if (!token) { if (key === 'today') return fetchViaAtom(date); return []; }
-  try {
-    const products = await fetchPeriodList(token, key);
-    console.log(`   ✅ Got ${products.length} featured products`);
-    if (products.length < 3 && (key === 'today' || key === 'yesterday')) {
-      const atom = await fetchViaAtom(date);
-      if (atom.length > products.length) return atom;
+export function mergeVoteAwareProducts(apiProducts: Product[], recoveredProducts: Product[]): Product[] {
+  const merged = new Map<string, Product>();
+  for (const product of [...apiProducts, ...recoveredProducts]) {
+    if (!product?.slug || (product.votes ?? 0) <= 0) continue;
+    const existing = merged.get(product.slug);
+    if (!existing || (product.votes ?? 0) > (existing.votes ?? 0)) merged.set(product.slug, product);
+  }
+  return [...merged.values()]
+    .sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0))
+    .slice(0, TOP_COUNT)
+    .map((product, index) => ({ ...product, id: `ph-today-${index + 1}`, rank: index + 1 }));
+}
+
+async function recoverAtomWithRealVotes(token: string, atomProducts: Product[]): Promise<Product[]> {
+  const recovered: Product[] = [];
+  for (const atomProduct of atomProducts) {
+    try {
+      const data = await gql(token, slugQuery(atomProduct.slug));
+      const post = data?.post;
+      const votes = Number(post?.votesCount ?? 0);
+      if (!post || votes <= 0) {
+        console.log(`      ⏭️  ${atomProduct.name}: no trusted vote count yet`);
+        continue;
+      }
+      const product = productFromNode(post, 'today', recovered.length, atomProduct);
+      product.votes = votes;
+      product.comments = (post.comments?.edges ?? [])
+        .map((c: any) => ({
+          user: c.node?.user?.name || c.node?.user?.username || 'Hunter',
+          text: stripHtml(c.node?.body ?? ''),
+        }))
+        .filter((c: PHComment) => c.text.length > 10 && !isSpamComment(c.text)) as PHComment[];
+      recovered.push(product);
+      console.log(`      ✅ ${product.name}: recovered ${product.votes} real votes`);
+    } catch (error) {
+      console.warn(`      ⚠️  ${atomProduct.name}: vote recovery failed (${error})`);
     }
-    await enrichWithDetails(token, products);
-    return products;
-  } catch (err) {
-    console.warn(`   ⚠️  Period ${key} failed (${err})`);
+    await new Promise((r) => setTimeout(r, 250));
+  }
+  return recovered;
+}
+
+async function recoverToday(token: string, date: string, apiProducts: Product[]): Promise<Product[]> {
+  const atomProducts = await fetchViaAtom(date);
+  const recovered = await recoverAtomWithRealVotes(token, atomProducts);
+  const merged = mergeVoteAwareProducts(apiProducts, recovered);
+  if (merged.length) {
+    console.log(`   🛟 Vote-aware today recovery produced ${merged.length} trusted products`);
+    await enrichWithDetails(token, merged);
+  }
+  return merged;
+}
+
+export async function scrapePeriod(token: string | undefined, key: PeriodKey, date: string): Promise<Product[]> {
+  if (!token) {
     if (key === 'today') return fetchViaAtom(date);
     return [];
   }
-}
 
+  try {
+    const products = await fetchPeriodList(token, key);
+    console.log(`   ✅ Got ${products.length} featured products`);
+
+    if (key === 'today') {
+      const trustedVoteCount = products.filter((product) => (product.votes ?? 0) > 0).length;
+      const needsRecovery = products.length < 3 || trustedVoteCount === 0;
+
+      if (needsRecovery) {
+        console.log(
+          `   🛟 Today requires vote-aware recovery: ${products.length} products, ${trustedVoteCount} with trusted votes`,
+        );
+        return recoverToday(token, date, products);
+      }
+    }
+
+    await enrichWithDetails(token, products);
+
+    if (key === 'today' && !products.some((product) => (product.votes ?? 0) > 0)) {
+      console.log('   🛟 Today still has no trusted votes after detail enrichment; attempting recovery');
+      return recoverToday(token, date, products);
+    }
+
+    return products;
+  } catch (error) {
+    console.warn(`   ⚠️  Period ${key} failed (${error})`);
+    if (key === 'today') return recoverToday(token, date, []);
+    return [];
+  }
+}

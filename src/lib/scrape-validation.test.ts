@@ -1,4 +1,5 @@
 import { describe, expect, test } from 'bun:test';
+import { mergeVoteAwareProducts } from './scraper';
 import { assertValidPeriods, requireProductHuntToken, validatePeriods } from './scrape-validation';
 import type { PeriodKey, PeriodsData, Product } from '@/types';
 
@@ -56,5 +57,28 @@ describe('scrape validation', () => {
     expect(() => assertValidPeriods(periods)).toThrow('real vote count');
     expect(() => requireProductHuntToken(undefined)).toThrow('PH_API_TOKEN');
     expect(requireProductHuntToken(' token ')).toBe('token');
+  });
+
+  test('vote-aware recovery excludes unresolved zero-vote Atom entries', () => {
+    const atomOnly = [product('today', 0, 0), product('today', 1, 0), product('today', 2, 0)];
+    expect(mergeVoteAwareProducts([], atomOnly)).toEqual([]);
+  });
+
+  test('vote-aware recovery merges trusted products and keeps highest real vote count', () => {
+    const api = [
+      { ...product('today', 0, 2), slug: 'alpha', name: 'Alpha' },
+      { ...product('today', 1, 1), slug: 'beta', name: 'Beta' },
+    ];
+    const recovered = [
+      { ...product('today', 5, 0), slug: 'gamma', name: 'Gamma' },
+      { ...product('today', 6, 8), slug: 'beta', name: 'Beta recovered' },
+      { ...product('today', 7, 5), slug: 'delta', name: 'Delta' },
+    ];
+
+    const merged = mergeVoteAwareProducts(api, recovered);
+    expect(merged.map((item) => item.slug)).toEqual(['beta', 'delta', 'alpha']);
+    expect(merged.find((item) => item.slug === 'beta')?.votes).toBe(8);
+    expect(merged.every((item) => item.votes > 0)).toBe(true);
+    expect(merged.map((item) => item.rank)).toEqual([1, 2, 3]);
   });
 });
