@@ -1,3 +1,10 @@
+## [1.50.1](https://github.com/IdehJo/idehjo/compare/v1.50.0...v1.50.1) (2026-08-29)
+
+
+### Bug Fixes
+
+* repair repository metadata and nightly workflow ([#47](https://github.com/IdehJo/idehjo/issues/47)) ([1967705](https://github.com/IdehJo/idehjo/commit/19677054f36753d3fe294e00a1ff447e988a0f00))
+
 # [1.48.0](https://github.com/AmirMotefaker/iran-hunt/compare/v1.47.0...v1.48.0) (2026-08-25)
 
 
