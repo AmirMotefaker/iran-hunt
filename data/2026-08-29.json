@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "scrapedAt": "2026-08-29T11:35:37.889Z",
+  "scrapedAt": "2026-08-29T12:11:56.213Z",
   "periods": {
     "today": [
       {
@@ -382,6 +382,66 @@
         "makerTwitter": ""
       },
       {
+        "id": "ph-today-1",
+        "date": "2026-08-29",
+        "rank": 1,
+        "name": "1752vc Pitch Deck Analyzer",
+        "slug": "1752vc-pitch-deck-analyzer",
+        "tagline": "Know what investors will say before you ever hit send.",
+        "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
+        "category": "Venture Capital • Artificial Intelligence • Fundraising",
+        "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
+        "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
+          "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
+          "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
+          "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
+          "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
+          "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+        ],
+        "maker": "Lucas Pols",
+        "makerTitle": "GP of 1752vc",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 123,
+        "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congratulations on the launch! This is very needed for all startup founders!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I don't know what this is, but two random people sent me requests on LinkedIn and spammed me the link to this 👎"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "the community behind 1752 and this product is very helpful and engaged. this analyzer helped find some blindspots in my deck already!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "I tried uploading our pitch deck, and the analysis turned out pretty good. For the most part, the analysis highlighted what information was missing, and it’s interesting that the recommendations even took into account that we might simply not have that information at this stage.One interesting recommendation I received was regarding how we were phrasing the problem, even though I hadn’t initially considered that the phrasing might be misunderstood."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Love tools supported by actual data and not the AI fad. We'll test it out as soon as we get the deck ready 😂"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "This seems really useful. If I were to raise funds again for my next venture, I'd definitely give this a shot."
+          }
+        ]
+      },
+      {
         "id": "ph-today-8",
         "date": "2026-08-26",
         "rank": 8,
@@ -430,62 +490,39 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-today-1",
+        "id": "ph-today-2",
         "date": "2026-08-29",
-        "rank": 1,
-        "name": "1752vc Pitch Deck Analyzer",
-        "slug": "1752vc-pitch-deck-analyzer",
-        "tagline": "Know what investors will say before you ever hit send.",
-        "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-        "category": "Venture Capital • Artificial Intelligence • Fundraising",
-        "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
-        "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+        "rank": 2,
+        "name": "Hy4 preview",
+        "slug": "hy4-preview",
+        "tagline": "Tencent’s 770B open model for long-horizon work",
+        "description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
+        "category": "Open Source • Artificial Intelligence",
+        "categoryFa": "متن‌باز • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/52cfdc3c-65a6-4d2e-ae8b-68ae2984735c.svg?auto=format",
         "screenshots": [
-          "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
-          "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
-          "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
-          "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
-          "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
-          "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+          "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
+          "https://ph-files.imgix.net/eb4a34b8-0573-4551-8fbe-2ee5ac316f82.png?auto=format",
+          "https://ph-files.imgix.net/6c7a7aae-ae69-4fe5-a084-95b8e5f91dfd.png?auto=format",
+          "https://ph-files.imgix.net/a6c49e98-68b2-4109-b148-f4642c2ff96a.png?auto=format",
+          "https://ph-files.imgix.net/ecbc71eb-03a6-478b-bc19-c44b79d2b990.png?auto=format",
+          "https://ph-files.imgix.net/2995ac52-fc30-4fc9-b5aa-593c7c0ddccc.gif?auto=format",
+          "https://ph-files.imgix.net/50fbe1f8-2513-45d9-aed7-8f307cc6b38b.png?auto=format",
+          "https://ph-files.imgix.net/3e9a2d5e-f264-47d7-b5f1-3a79371f4ddf.png?auto=format",
+          "https://ph-files.imgix.net/63712e7c-523c-4f97-b39e-0b77b10e7508.png?auto=format",
+          "https://ph-files.imgix.net/1c1d4452-f090-40bc-97a6-e366d6294b4b.png?auto=format",
+          "https://ph-files.imgix.net/7a74577d-f2ba-477b-95f5-daed016542b1.jpeg?auto=format"
         ],
-        "maker": "Lucas Pols",
-        "makerTitle": "GP of 1752vc",
+        "maker": "",
+        "makerTitle": "",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 112,
-        "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "votes": 113,
+        "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congratulations on the launch! This is very needed for all startup founders!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I don't know what this is, but two random people sent me requests on LinkedIn and spammed me the link to this 👎"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "the community behind 1752 and this product is very helpful and engaged. this analyzer helped find some blindspots in my deck already!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I tried uploading our pitch deck, and the analysis turned out pretty good. For the most part, the analysis highlighted what information was missing, and it’s interesting that the recommendations even took into account that we might simply not have that information at this stage.One interesting recommendation I received was regarding how we were phrasing the problem, even though I hadn’t initially considered that the phrasing might be misunderstood."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love tools supported by actual data and not the AI fad. We'll test it out as soon as we get the deck ready 😂"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This seems really useful. If I were to raise funds again for my next venture, I'd definitely give this a shot."
+            "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
           }
         ]
       },
@@ -578,43 +615,6 @@
         "makerTwitter": ""
       },
       {
-        "id": "ph-today-2",
-        "date": "2026-08-29",
-        "rank": 2,
-        "name": "Hy4 preview",
-        "slug": "hy4-preview",
-        "tagline": "Tencent’s 770B open model for long-horizon work",
-        "description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
-        "category": "Open Source • Artificial Intelligence",
-        "categoryFa": "متن‌باز • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/52cfdc3c-65a6-4d2e-ae8b-68ae2984735c.svg?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
-          "https://ph-files.imgix.net/eb4a34b8-0573-4551-8fbe-2ee5ac316f82.png?auto=format",
-          "https://ph-files.imgix.net/6c7a7aae-ae69-4fe5-a084-95b8e5f91dfd.png?auto=format",
-          "https://ph-files.imgix.net/a6c49e98-68b2-4109-b148-f4642c2ff96a.png?auto=format",
-          "https://ph-files.imgix.net/ecbc71eb-03a6-478b-bc19-c44b79d2b990.png?auto=format",
-          "https://ph-files.imgix.net/2995ac52-fc30-4fc9-b5aa-593c7c0ddccc.gif?auto=format",
-          "https://ph-files.imgix.net/50fbe1f8-2513-45d9-aed7-8f307cc6b38b.png?auto=format",
-          "https://ph-files.imgix.net/3e9a2d5e-f264-47d7-b5f1-3a79371f4ddf.png?auto=format",
-          "https://ph-files.imgix.net/63712e7c-523c-4f97-b39e-0b77b10e7508.png?auto=format",
-          "https://ph-files.imgix.net/1c1d4452-f090-40bc-97a6-e366d6294b4b.png?auto=format",
-          "https://ph-files.imgix.net/7a74577d-f2ba-477b-95f5-daed016542b1.jpeg?auto=format"
-        ],
-        "maker": "",
-        "makerTitle": "",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 92,
-        "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
-          }
-        ]
-      },
-      {
         "id": "ph-today-3",
         "date": "2026-08-29",
         "rank": 3,
@@ -636,7 +636,7 @@
         "maker": "",
         "makerTitle": "",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 89,
+        "votes": 93,
         "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -669,7 +669,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 88,
+        "votes": 90,
         "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -698,7 +698,7 @@
         "maker": "Hugh Howey",
         "makerTitle": "Author",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 87,
+        "votes": 89,
         "websiteUrl": "https://www.producthunt.com/r/DTBFLEA2UBAF7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -732,7 +732,7 @@
         "maker": "Serhan",
         "makerTitle": "building to make some fun screenshots",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 82,
+        "votes": 83,
         "websiteUrl": "https://www.producthunt.com/r/VVTE3OMXQCBVCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": []
       },
@@ -761,19 +761,23 @@
         "maker": "Bilawal Sidhu",
         "makerTitle": "AI Creator, Ex-Google PM",
         "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 78,
+        "votes": 79,
         "websiteUrl": "https://www.producthunt.com/r/CFL7AKRNAWM4YD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "This is why vibe coding is so cool. Who would have built this 10 years ago??"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Brother is this for real, is the data 100% accurate?"
           }
         ]
       },
       {
-        "id": "ph-today-8",
+        "id": "ph-today-9",
         "date": "2026-08-29",
-        "rank": 8,
+        "rank": 9,
         "name": "Cursor Craft v2",
         "slug": "cursor-craft-v2",
         "tagline": "Custom Mac cursors, rebuilt for v2",
@@ -804,6 +808,41 @@
         ]
       },
       {
+        "id": "ph-today-8",
+        "date": "2026-08-29",
+        "rank": 8,
+        "name": "Mossy",
+        "slug": "mossy-2",
+        "tagline": " A desk plant that wilts when you need a break",
+        "description": "Mossy is a small plant that lives on your Mac desktop. The longer you sit without a break, the more it wilts. You write one sentence about what your breaks should be. Stretch my bad back. 20 push-ups. Teach me a Spanish word. Just make me stand up. An AI writes every break from that sentence, one task at a time, with a timer. It never blocks or dims your screen. Ignoring it is a normal way to use it. Free, no account, 1.4 MB, native, macOS 12+.",
+        "category": "Mac • Health & Fitness • Productivity",
+        "categoryFa": "مک • Health & Fitness • بهره‌وری",
+        "url": "https://www.producthunt.com/products/mossy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/d269b8da-d440-47b0-a722-6ba78e2b6d25.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/45b729a9-5531-4ae1-88de-e16c71403657.png?auto=format",
+          "https://ph-files.imgix.net/ef3deb7d-245b-4805-aa1c-15d5697e782c.jpeg?auto=format",
+          "https://ph-files.imgix.net/908fa3cb-8daf-491a-b22c-d246218f87f9.png?auto=format",
+          "https://ph-files.imgix.net/739c4613-6ae0-4391-a6d7-da4f4dc52a4d.png?auto=format",
+          "https://ph-files.imgix.net/e1d5a0b9-25da-4252-b176-d72bb7e483e5.jpeg?auto=format"
+        ],
+        "maker": "Mossy",
+        "makerTitle": "A desk plant. Breaks you write yourself",
+        "featuredAt": "2026-08-29T07:01:00Z",
+        "votes": 76,
+        "websiteUrl": "https://www.producthunt.com/r/P5QGOSUBJ3TMWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "I'm a developer and I sit about ten hours a day. My lower back has been going out on me for years. I also play basketball, and I tore my ACL last October, so this year has been surgery, physio, and even more chair than usual. My wife is an architect. Same laptop, same chair, same ten hours. We have a one year old, so \"just train in the evening\" is a fantasy. We built Mossy for the two of us, to kill the sitting, after deleting every break app we tried. They all failed the same way: the full screen break lands mid-sentence, you skip it, and a week later it's gone. So Mossy never blocks anything. It sits in the corner, wilts while you sit, and waits. Refusing a break is a normal way to use it, not a failure to correct. The second thing we needed was breaks that fit our own bodies. Mine needs hip and psoas work, hers doesn't, and no fixed stretch list was ever going to cover both. So you write one sentence and an AI writes each break from it. Your words decide what you do, and nothing in the app inspects what you asked for. Write \"20 push-ups\" or \"teach me a Spanish word\" and that is what you get. The key for that AI lives on a small relay, never in the app. The only things that leave your Mac are that one call and an anonymous daily ping you can switch off. No account, no tracking. It isn't medical advice, and the app says so itself. Free, native Swift, 1.4 MB, macOS 12+."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "One of the cutest visualisations I have seen today :)"
+          }
+        ]
+      },
+      {
         "id": "ph-today-9",
         "date": "2026-08-29",
         "rank": 9,
@@ -830,36 +869,6 @@
           {
             "user": "[REDACTED]",
             "text": "Hi Product Hunt 👋Coding agents have made shipping so fast that the bottleneck has moved. It's not building anymore, it's knowing what to build next and making data-backed decisions is essential.But today the loop looks like this:You and your agent ship → you check the data (if you remember to!) → you make sense of it → you decide what's next → you and your agent shipStaats collapses it to:You and your agent ship → your agent checks the data → you and your agent shipIt's a cookieless web script plus an MCP server, so your agent reads live traffic and interactions events inside your chat. Your agent will proactively warn you before you change something that was working, and push you to take another pass at something that wasn't.Free for 10,000 events per month. Works with Claude Code, Cursor, Codex.. etc.Question for you: If your agent could answer one questions about your traffic, what would you want it to be?"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-10",
-        "date": "2026-08-29",
-        "rank": 10,
-        "name": "RawToHEIC",
-        "slug": "rawtoheic",
-        "tagline": "Convert RAW to HEIC inside Apple Photos",
-        "description": "RawToHEIC converts camera RAW and ProRAW files to HEIC right from the Photos share sheet on iPhone, iPad, and Mac — up to 10× smaller, with edits, albums, and metadata intact. Entirely on-device: no uploads, no account, no analytics.",
-        "category": "Photography",
-        "categoryFa": "عکاسی",
-        "url": "https://www.producthunt.com/products/rawtoheic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/024340be-756d-4c2e-a9c4-15fa58b3d49b.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/473b91be-eff8-412b-835d-d61f369cbe5f.png?auto=format",
-          "https://ph-files.imgix.net/23c73539-d7cb-41da-a773-de8a9a05fe0f.png?auto=format",
-          "https://ph-files.imgix.net/09deefbb-090e-43d1-bbfb-44444cc9a0ae.png?auto=format",
-          "https://ph-files.imgix.net/1027f6ae-6921-4a06-964b-1b81f77c1835.png?auto=format"
-        ],
-        "maker": "Sandro Gumz",
-        "makerTitle": "",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 69,
-        "websiteUrl": "https://www.producthunt.com/r/GLCXDYQFUPGRFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 I shoot a lot of RAW and kept hitting the same wall: a 2,500-photo library eating 80+ GB, and the only fixes were deleting photos or dropping to JPEG in-camera. Neither felt good. RawToHEIC lives in the Photos share sheet. Select some RAWs, see exactly how much space you'd get back before anything happens, and decide per batch whether originals stay or go. Nothing is deleted until the HEIC is written and verified in your library. Everything runs on your device — no uploads, no account, no analytics. Supports CR3, ARW, NEF, RAF, ORF, RW2, PEF, DNG/ProRAW and more, keeps your Photos edits and HDR gain maps, and works with iCloud Photos. Free for 50 conversions a day. Unlimited is $19.99 once, or $9.99/year — one purchase covers iPhone, iPad, and Mac. Happy to answer anything, and genuinely keen for feedback on which formats or workflows to tackle next."
           }
         ]
       }
@@ -1076,7 +1085,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 300,
+        "votes": 301,
         "websiteUrl": "https://www.producthunt.com/r/4ZZ3GDQQF3O7YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1317,7 +1326,7 @@
         "maker": "Sundar Pichai",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 199,
+        "votes": 201,
         "websiteUrl": "https://www.producthunt.com/r/A7U5SL5CKKHNAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1560,7 +1569,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-28T07:01:00Z",
-        "votes": 145,
+        "votes": 146,
         "websiteUrl": "https://www.producthunt.com/r/MQQFXHKTAUN25N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {

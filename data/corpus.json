@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T11:35:37.889Z",
+  "generatedAt": "2026-08-29T12:11:56.213Z",
   "sourceFiles": 20,
   "products": [
     {
@@ -4731,6 +4731,66 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nLettertrace یک ابزار ردیابی برای اندازه‌گیری نحوه عمل کردن شرکت‌ها در نتایج جستجوی هوش مصنوعی است. این ابزار به توسعه دهندگان اجازه می‌دهد تا به راحتی و بدون نیاز به پرداخت هزینه‌های زیاد، ردیابی را انجام دهند.\n🔹 معماری و تکنولوژی احتمالی:\nLettertrace از یک معماری منبع باز و رایگان استفاده می‌کند و تحت مجوز MIT منتشر می‌شود. این ابزار از کلیدهای API خود برای ردیابی استفاده می‌کند.\n🔹 مدل درآمدی:\nLettertrace از طریق پرداخت هزینه‌های توسعه و نگهداری و ارائه خدمات مشاوره‌ای و آموزشی درآمد خود را کسب می‌کند.\n🔹 نقاط قوت:\n- استفاده از کلیدهای API خود برای ردیابی\n- منبع باز و رایگان\n- تحت مجوز MIT\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای ردیابی و بهینه‌سازی موجود\n- توسعه یک ابزار منبع باز و رایگان\n- جذب کاربر و توسعه یک جامعه حول ابزار\n🔹 نکته طلایی برای بازار ایران:\nبا توجه به رشد روزافزون استفاده از هوش مصنوعی و جستجوی آنلاین در ایران، فرصت‌های زیادی برای توسعه ابزارهای ردیابی و بهینه‌سازی وجود دارد."
     },
     {
+      "id": "ph-week-6",
+      "date": "2026-08-27",
+      "rank": 6,
+      "name": "Enter Pro",
+      "slug": "enter-pro-2",
+      "tagline": "The AI-native platform to build and scale your apps",
+      "description": "Building what runs a business takes more than code. Enter Pro is the AI-native platform that turns an idea into a working product. Plan, build, preview, launch, and scale apps, websites, and custom AI agents in one continuous workspace. Models, databases, authentication, hosting, payments, analytics, and localization are built in—so teams can ship software built for real business, not just prototypes.",
+      "category": "Developer Tools • Artificial Intelligence • No-Code",
+      "categoryFa": "ابزار توسعه‌دهندگان • هوش مصنوعی • No-Code",
+      "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/2a2e769a-18c0-436e-9c92-a7dcd96da2e9.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/3f9f66f3-f330-4eb9-b1b2-7ac4321515e3.png?auto=format",
+        "https://ph-files.imgix.net/af210230-207e-439d-a4e1-d64786ad3543.png?auto=format",
+        "https://ph-files.imgix.net/63c7ec2f-5401-4796-8351-8ee15a57c421.png?auto=format",
+        "https://ph-files.imgix.net/2c769b6f-8913-4be9-b002-a0d5462ba148.png?auto=format",
+        "https://ph-files.imgix.net/71fcb8b0-d57b-456a-93f1-5ac8fa2f0d1a.png?auto=format",
+        "https://ph-files.imgix.net/abded0f0-58c9-4384-99d1-b6b57b8c6ad4.gif?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-27T07:01:00Z",
+      "votes": 385,
+      "websiteUrl": "https://www.producthunt.com/r/BLPV3H4S2Y7TQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋 I'm Eric, one of the makers of Enter Pro.Today, we're bringing Enter Pro to Product Hunt for the first time.As AI models grow more capable, the barrier to coding keeps falling. But building what runs a business takes more than code.Enter Pro is an AI-native platform that turns idea into working apps. As the builder layer of Converge AI, teams can plan, build, preview, launch, and scale apps, websites, portals, internal tools, workflows, and AI agents in one continuous workspace—with databases, authentication, storage, hosting, payments, analytics, and localization built in.Enter started at the beginning of the year as a small experiment built around one question:Can Enter build Enter?We became our own most demanding customer. Our blog system(CMS) was the first product built entirely inside Enter. When GitHub import launched, we brought our main repository into the platform and began building Enter with Enter. Product, operations, and design could ship smaller improvements directly, while engineering stayed focused on the deeper systems behind them. Over time, more of Enter was built on the platform itself—from the Enter Forum and our internal admin system to landing pages created and shipped by non-technical teammates. The answer was yes: Enter could build more than prototypes. It could power the real systems behind our business.Along the way, we noticed that our teams were still repeating the same work every week—answering support questions, researching accounts, summarizing feedback, and preparing updates. We began turning those workflows into agents, which led to one of Enter Pro’s newest capabilities: Agent Builder.Describe what your agent should do, test it in a live preview, and publish it as a shareable link, a web agent, inside your product, in Slack or Lark, or through an SDK or embed. Enter handles the models, knowledge, tools, deployment, versioning, and infrastructure behind it. The goal isn’t another chatbot or one-off demo. It’s to turn recurring work into agents that can be deployed, maintained, and improved over time.What excites us most is the shift from AI as a chat window to AI as an operating layer. And because apps and agents are built on the same platform, AI can become part of how a product works from day one—not something added afterward. Our belief is simple: people should spend more time on judgment, creativity, and deciding what to build—and less time repeating the work required to make it happen.We still have a long roadmap ahead, and we’d love to hear what you want to build with Enter.As a small launch gift, the first 300 new Product Hunt users who sign up and try Agent Builder will receive 400 bonus Credits. First come, first served—claim them within seven days 🎉👉 https://enter.converge.ai/s/ph1"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Small businesses often know exactly which spreadsheet or email chain they want to replace. The problem is that custom software feels out of reach, while no-code tools can get awkward once the process grows beyond the happy path. Enter Pro looks like a useful middle ground: approachable enough to start without a dev team, but with enough underneath to keep using the result. I'd love to see more examples aimed at these unglamorous, highly specific business workflows."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on the launch! Is it like Lovable, but with ready-made modules?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Editing live and sharing the result in one click makes the whole product feel unusually direct."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "this looks cool! is this a web app or a desktop app? or both?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch! A lot of AI builders are great at getting you to a prototype, but the harder part is everything that comes after—auth, databases, payments, deployment, analytics, and actually maintaining the product. Bringing all of that together with an agent builder in one workspace feels genuinely useful. Curious to see how Enter Pro handles more complex apps as they scale."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The pitch clicked for me right away: describe the idea, build it, and get it online without setting up five different services first. That setup work is where a lot of good ideas die. You lose a weekend to auth, another evening to deployment, and suddenly the thing you wanted to test feels like a systems project. Taking that weight off the first version is a meaningful promise. Congrats on shipping!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Interesting product. Is this for product managers?"
+        }
+      ]
+    },
+    {
       "id": "ph-week-9",
       "date": "2026-08-13",
       "rank": 9,
@@ -4834,66 +4894,6 @@
         "confidence": 75
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nNuphos یک فضای کاری بومی هوش مصنوعی برای تیم‌های مهندسی است که به آن‌ها امکان می‌دهد محیطی مشترک داشته باشند تا عوامل هوش مصنوعی بتوانند زیرساخت‌های آن‌ها را یاد بگیرند، مسائل را بررسی کنند و سیستم‌های تولیدی را مدیریت کنند.\n🔹 معماری و تکنولوژی احتمالی:\nNuphos از فناوری‌های هوش مصنوعی و اتوماسیون استفاده می‌کند تا به تیم‌های مهندسی امکان دهد تا عوامل هوش مصنوعی را در زیرساخت‌های موجود خود ادغام کنند.\n🔹 مدل درآمدی:\nNuphos از طریق فروش محصولات و خدمات و همچنین پشتیبانی و خدمات پس از فروش درآمد خود را به دست می‌آورد.\n🔹 نقاط قوت:\n- امکان ادغام عوامل هوش مصنوعی در زیرساخت‌های موجود\n- کنترل کامل بر عوامل هوش مصنوعی\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با محصولات و خدمات مشابه\n- نیاز به تخصص و دانش کافی در زمینه هوش مصنوعی و اتوماسیون\n🔹 نکته طلایی برای بازار ایران:\nNuphos می‌تواند به تیم‌های مهندسی در ایران کمک کند تا از عوامل هوش مصنوعی در زیرساخت‌های خود استفاده کنند و کنترل کامل بر آن‌ها داشته باشند."
-    },
-    {
-      "id": "ph-week-6",
-      "date": "2026-08-27",
-      "rank": 6,
-      "name": "Enter Pro",
-      "slug": "enter-pro-2",
-      "tagline": "The AI-native platform to build and scale your apps",
-      "description": "Building what runs a business takes more than code. Enter Pro is the AI-native platform that turns an idea into a working product. Plan, build, preview, launch, and scale apps, websites, and custom AI agents in one continuous workspace. Models, databases, authentication, hosting, payments, analytics, and localization are built in—so teams can ship software built for real business, not just prototypes.",
-      "category": "Developer Tools • Artificial Intelligence • No-Code",
-      "categoryFa": "ابزار توسعه‌دهندگان • هوش مصنوعی • No-Code",
-      "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/2a2e769a-18c0-436e-9c92-a7dcd96da2e9.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/3f9f66f3-f330-4eb9-b1b2-7ac4321515e3.png?auto=format",
-        "https://ph-files.imgix.net/af210230-207e-439d-a4e1-d64786ad3543.png?auto=format",
-        "https://ph-files.imgix.net/63c7ec2f-5401-4796-8351-8ee15a57c421.png?auto=format",
-        "https://ph-files.imgix.net/2c769b6f-8913-4be9-b002-a0d5462ba148.png?auto=format",
-        "https://ph-files.imgix.net/71fcb8b0-d57b-456a-93f1-5ac8fa2f0d1a.png?auto=format",
-        "https://ph-files.imgix.net/abded0f0-58c9-4384-99d1-b6b57b8c6ad4.gif?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-27T07:01:00Z",
-      "votes": 385,
-      "websiteUrl": "https://www.producthunt.com/r/BLPV3H4S2Y7TQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋 I'm Eric, one of the makers of Enter Pro.Today, we're bringing Enter Pro to Product Hunt for the first time.As AI models grow more capable, the barrier to coding keeps falling. But building what runs a business takes more than code.Enter Pro is an AI-native platform that turns idea into working apps. As the builder layer of Converge AI, teams can plan, build, preview, launch, and scale apps, websites, portals, internal tools, workflows, and AI agents in one continuous workspace—with databases, authentication, storage, hosting, payments, analytics, and localization built in.Enter started at the beginning of the year as a small experiment built around one question:Can Enter build Enter?We became our own most demanding customer. Our blog system(CMS) was the first product built entirely inside Enter. When GitHub import launched, we brought our main repository into the platform and began building Enter with Enter. Product, operations, and design could ship smaller improvements directly, while engineering stayed focused on the deeper systems behind them. Over time, more of Enter was built on the platform itself—from the Enter Forum and our internal admin system to landing pages created and shipped by non-technical teammates. The answer was yes: Enter could build more than prototypes. It could power the real systems behind our business.Along the way, we noticed that our teams were still repeating the same work every week—answering support questions, researching accounts, summarizing feedback, and preparing updates. We began turning those workflows into agents, which led to one of Enter Pro’s newest capabilities: Agent Builder.Describe what your agent should do, test it in a live preview, and publish it as a shareable link, a web agent, inside your product, in Slack or Lark, or through an SDK or embed. Enter handles the models, knowledge, tools, deployment, versioning, and infrastructure behind it. The goal isn’t another chatbot or one-off demo. It’s to turn recurring work into agents that can be deployed, maintained, and improved over time.What excites us most is the shift from AI as a chat window to AI as an operating layer. And because apps and agents are built on the same platform, AI can become part of how a product works from day one—not something added afterward. Our belief is simple: people should spend more time on judgment, creativity, and deciding what to build—and less time repeating the work required to make it happen.We still have a long roadmap ahead, and we’d love to hear what you want to build with Enter.As a small launch gift, the first 300 new Product Hunt users who sign up and try Agent Builder will receive 400 bonus Credits. First come, first served—claim them within seven days 🎉👉 https://enter.converge.ai/s/ph1"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Small businesses often know exactly which spreadsheet or email chain they want to replace. The problem is that custom software feels out of reach, while no-code tools can get awkward once the process grows beyond the happy path. Enter Pro looks like a useful middle ground: approachable enough to start without a dev team, but with enough underneath to keep using the result. I'd love to see more examples aimed at these unglamorous, highly specific business workflows."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congratulations on the launch! Is it like Lovable, but with ready-made modules?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Editing live and sharing the result in one click makes the whole product feel unusually direct."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "this looks cool! is this a web app or a desktop app? or both?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch! A lot of AI builders are great at getting you to a prototype, but the harder part is everything that comes after—auth, databases, payments, deployment, analytics, and actually maintaining the product. Bringing all of that together with an agent builder in one workspace feels genuinely useful. Curious to see how Enter Pro handles more complex apps as they scale."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The pitch clicked for me right away: describe the idea, build it, and get it online without setting up five different services first. That setup work is where a lot of good ideas die. You lose a weekend to auth, another evening to deployment, and suddenly the thing you wanted to test feels like a systems project. Taking that weight off the first version is a meaningful promise. Congrats on shipping!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Interesting product. Is this for product managers?"
-        }
-      ]
     },
     {
       "id": "ph-week-7",
@@ -5205,67 +5205,6 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-week-6",
-      "date": "2026-08-22",
-      "rank": 6,
-      "name": "Toplify",
-      "slug": "toplify",
-      "tagline": "Track your App Store ranking worldwide",
-      "description": "Toplify is a multi server service monitoring App Store charts across 175 countries, 24/7, so you never miss your next milestone. Get alerts for new rankings and significant jumps. No API keys or App Store Connect access needed. Just add your app and Toplify takes care of the rest.",
-      "category": "Marketing • Developer Tools",
-      "categoryFa": "بازاریابی • ابزار توسعه‌دهندگان",
-      "url": "https://www.producthunt.com/products/toplify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/d211222b-49ee-4978-b7f1-24ec78ebc3c8.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/8d3a4f25-f804-4c70-81b4-35474b5123bd.webp?auto=format",
-        "https://ph-files.imgix.net/44fb4cc3-eaf2-4b06-a239-6a18c21a8112.webp?auto=format",
-        "https://ph-files.imgix.net/333776cc-95eb-4080-89ac-c96985b59fde.webp?auto=format",
-        "https://ph-files.imgix.net/2881de88-fe11-4c56-9142-5063c5d769a5.webp?auto=format",
-        "https://ph-files.imgix.net/8d3910fa-19bf-4fd7-be14-bf6f17b0176a.webp?auto=format",
-        "https://ph-files.imgix.net/cf9acf2e-8930-4fae-8109-e3d61513938c.jpeg?auto=format"
-      ],
-      "maker": "Dmytro Chuta",
-      "makerTitle": "Founder Chapps & Appps",
-      "featuredAt": "2026-08-22T07:01:00Z",
-      "votes": 368,
-      "websiteUrl": "https://www.producthunt.com/r/HQFTOUXGX42OW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt! 👋I’m Dmitry, the indie developer and designer behind Toplify. I built Toplify because I wanted a simple way to see where my apps were actually winning on the App Store, how their rankings were changing, and when something important happened.Toplify is powered by a multi cloud infrastructure that monitors App Store charts across 175 countries, 24/7, so you don’t have to. And the best part: no API keys, no App Store Connect access, and no complicated setup. Just add any app by its name or App Store link, and Toplify starts tracking it.With Toplify you can:Track iPhone and Mac rankings across 175 countriesMonitor 54 categories, including GamesGet push notifications for new rankings and significant jumpsExplore ranking history and momentum over timeTrack ratings and reviews with automatic translationCreate beautiful achievement cards to share your milestonesSync everything across iPhone, iPad, and Mac with iCloudOnce Ranking Alerts are enabled, you can simply forget about checking the charts. Toplify keeps monitoring your app in the background and lets you know when something important happens. You never miss your next milestone.I’d love to hear your feedback and ideas. Thanks for checking out Toplify! 🖤P.S. The app is indie developer friendly. It’s completely free for new apps that aren’t in the charts yet or are ranking in fewer than 4 countries."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "@dmitriychuta curious about competitive intelligence applications I build in the autism space"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "@dmitriychuta thanks for the app, have been using it for some time. It is beautiful and has many cool features. 🔥🔥🔥"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Big congrats on the launch! Tracking global App Store rankings in real-time gives indie hackers and growth teams such a clear edge. Love how focused and high-utility this is for mobile devs. Wishing you tons of momentum today!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love the concept. Having launched mine recently I would definitely want to see where I stand over time. Gonna test it out 👍🏽"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "@dmitriychuta Ok the retroactive 2 weeks on first add is a really nice touch tbh, most tools start you at zero and make you wait. Did the 2 week window come from storage costs, or did longer history just not prove useful?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Saves a lot of time for checking the stats! Best of luck today! @dmitriychuta"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Been looking for an app like this for ages! Thank you"
-        }
-      ],
-      "makerTwitter": ""
-    },
-    {
       "id": "ph-week-8",
       "date": "2026-08-23",
       "rank": 8,
@@ -5322,6 +5261,67 @@
         {
           "user": "[REDACTED]",
           "text": "LFG!!! Congrats on the launch :)"
+        }
+      ],
+      "makerTwitter": ""
+    },
+    {
+      "id": "ph-week-6",
+      "date": "2026-08-22",
+      "rank": 6,
+      "name": "Toplify",
+      "slug": "toplify",
+      "tagline": "Track your App Store ranking worldwide",
+      "description": "Toplify is a multi server service monitoring App Store charts across 175 countries, 24/7, so you never miss your next milestone. Get alerts for new rankings and significant jumps. No API keys or App Store Connect access needed. Just add your app and Toplify takes care of the rest.",
+      "category": "Marketing • Developer Tools",
+      "categoryFa": "بازاریابی • ابزار توسعه‌دهندگان",
+      "url": "https://www.producthunt.com/products/toplify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/d211222b-49ee-4978-b7f1-24ec78ebc3c8.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/8d3a4f25-f804-4c70-81b4-35474b5123bd.webp?auto=format",
+        "https://ph-files.imgix.net/44fb4cc3-eaf2-4b06-a239-6a18c21a8112.webp?auto=format",
+        "https://ph-files.imgix.net/333776cc-95eb-4080-89ac-c96985b59fde.webp?auto=format",
+        "https://ph-files.imgix.net/2881de88-fe11-4c56-9142-5063c5d769a5.webp?auto=format",
+        "https://ph-files.imgix.net/8d3910fa-19bf-4fd7-be14-bf6f17b0176a.webp?auto=format",
+        "https://ph-files.imgix.net/cf9acf2e-8930-4fae-8109-e3d61513938c.jpeg?auto=format"
+      ],
+      "maker": "Dmytro Chuta",
+      "makerTitle": "Founder Chapps & Appps",
+      "featuredAt": "2026-08-22T07:01:00Z",
+      "votes": 368,
+      "websiteUrl": "https://www.producthunt.com/r/HQFTOUXGX42OW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt! 👋I’m Dmitry, the indie developer and designer behind Toplify. I built Toplify because I wanted a simple way to see where my apps were actually winning on the App Store, how their rankings were changing, and when something important happened.Toplify is powered by a multi cloud infrastructure that monitors App Store charts across 175 countries, 24/7, so you don’t have to. And the best part: no API keys, no App Store Connect access, and no complicated setup. Just add any app by its name or App Store link, and Toplify starts tracking it.With Toplify you can:Track iPhone and Mac rankings across 175 countriesMonitor 54 categories, including GamesGet push notifications for new rankings and significant jumpsExplore ranking history and momentum over timeTrack ratings and reviews with automatic translationCreate beautiful achievement cards to share your milestonesSync everything across iPhone, iPad, and Mac with iCloudOnce Ranking Alerts are enabled, you can simply forget about checking the charts. Toplify keeps monitoring your app in the background and lets you know when something important happens. You never miss your next milestone.I’d love to hear your feedback and ideas. Thanks for checking out Toplify! 🖤P.S. The app is indie developer friendly. It’s completely free for new apps that aren’t in the charts yet or are ranking in fewer than 4 countries."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@dmitriychuta curious about competitive intelligence applications I build in the autism space"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@dmitriychuta thanks for the app, have been using it for some time. It is beautiful and has many cool features. 🔥🔥🔥"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Big congrats on the launch! Tracking global App Store rankings in real-time gives indie hackers and growth teams such a clear edge. Love how focused and high-utility this is for mobile devs. Wishing you tons of momentum today!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the concept. Having launched mine recently I would definitely want to see where I stand over time. Gonna test it out 👍🏽"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@dmitriychuta Ok the retroactive 2 weeks on first add is a really nice touch tbh, most tools start you at zero and make you wait. Did the 2 week window come from storage costs, or did longer history just not prove useful?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Saves a lot of time for checking the stats! Best of luck today! @dmitriychuta"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Been looking for an app like this for ages! Thank you"
         }
       ],
       "makerTwitter": ""
@@ -5855,67 +5855,6 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-week-10",
-      "date": "2026-08-21",
-      "rank": 10,
-      "name": "Wizstar",
-      "slug": "wizstar-2",
-      "tagline": "Digital avatars that move and act like professional actors",
-      "description": "Wizstar helps founders, creators, and makers build an expressive, accurate digital ambassador that looks and moves like you. It gestures naturally, interacts with objects, and maintains precise lip sync—even during head turns or things in front of your face. Create product updates, training, localized videos, and branded content without being on camera every time. Bring your digital presence to life and scale it across markets, languages, and channels.",
-      "category": "Productivity • Marketing • Artificial Intelligence",
-      "categoryFa": "بهره‌وری • بازاریابی • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/726c8087-efb4-4e89-b388-8ea1dc94f350.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/3923a9fc-4923-4ae3-b501-a4a3d049c9e1.jpeg?auto=format",
-        "https://ph-files.imgix.net/6412a3a9-7b43-4516-8c33-597dea721382.jpeg?auto=format",
-        "https://ph-files.imgix.net/9f1c9d09-934d-4608-9497-6e43431b1608.jpeg?auto=format",
-        "https://ph-files.imgix.net/9ad288e0-81fc-4d2e-a028-e1ee5a80ad94.jpeg?auto=format",
-        "https://ph-files.imgix.net/655fbbca-27e4-40f0-9545-24a1c5fb238f.jpeg?auto=format",
-        "https://ph-files.imgix.net/c7c413b6-af5d-484c-958d-688b13d82597.jpeg?auto=format"
-      ],
-      "maker": "starry li",
-      "makerTitle": "Cog‑Intell Grad | Marketing @ Wizstar.\n",
-      "featuredAt": "2026-08-21T07:01:00Z",
-      "votes": 332,
-      "websiteUrl": "https://www.producthunt.com/r/66CCQDPHMOWPG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hi Product Hunt! 👋 I run marketing for the team at WizStar.WizStar creates digital ambassadors that don't just look like you —they move and act like professional actors.Many AI avatars can speak, but feel stiff. They stare straight into the camera, repeat limited movements, and lack coordination between the face and body.WizStar focuses on natural expressiveness. Your digital ambassador turns its head, gestures, and interacts with objects. It coordinates facial, neck, and full-body movements—so it doesn’t just talk like you, it truly comes to life.For founders, their Wizstar avatar can act as their public ambassador, helping to stay active across everyday social channels. Or, when a last minute change threatens to scuttle a launch, a WizStar avatar can be used to create a compelling, expressive launch video in minutes.Key capabilities:👄 Precise lip sync — Maintains accuracy even with object covering the mouth or face🎥 Full-angle adaptability — Natural results from side, upward, and downward angles🧍 Smooth full-body motion — Synchronized facial, neck, and body movements⏱️ Long-video input — Supports source videos up to 5 minutes or 200MBTo start, simply upload a photo or video, add a voice sample, write the script, and generate your avatar video in seconds—without repeated filming or a complex setup.WizStar is ideal for marketing, social content, product demos, sales, training, and multilingual localization. We also support custom avatar clothing and offer a diverse library of globally localized digital avatars. Create your digital asset once, then reuse it across languages, channels, and scenarios.We’d love to hear your thoughts: what would you create with a truly expressive digital ambassador that moves like you? 🚀"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Great launch, consumer side tech that replicates facial data accurately is much needed, good wishes for its success.."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "its a very much needed product, but i have a question, how close it can make the consistency on characters. WOuld love to try it."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "That feeling when I am not more needed to be present in recording videos :D"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I like that you can start with a script or audio instead of being forced through an AI-generated content workflow."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Where Can I read how you did this?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Huge congrats on the launch! \"Digital avatars that move and act like professional actors\" solves such a massive problem for founders and creators who want to scale video content without the constant friction of sitting in front of a camera. Love seeing how you solved the head-turn lip-sync and body coordination—that’s a huge leap forward for digital ambassadors. Super excited to see how this unlocks global content for teams!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This is some sci-fi level stuff! Curious if there are other use cases you’d build for outside of marketing in the future?"
-        }
-      ],
-      "makerTwitter": ""
-    },
-    {
       "id": "ph-week-9",
       "date": "2026-08-21",
       "rank": 9,
@@ -5975,6 +5914,67 @@
         {
           "user": "[REDACTED]",
           "text": "Love that Supernova meets teams inside Claude and Codex instead of forcing everyone into yet another BI dashboard, that alone removes so much friction from getting answers."
+        }
+      ],
+      "makerTwitter": ""
+    },
+    {
+      "id": "ph-week-10",
+      "date": "2026-08-21",
+      "rank": 10,
+      "name": "Wizstar",
+      "slug": "wizstar-2",
+      "tagline": "Digital avatars that move and act like professional actors",
+      "description": "Wizstar helps founders, creators, and makers build an expressive, accurate digital ambassador that looks and moves like you. It gestures naturally, interacts with objects, and maintains precise lip sync—even during head turns or things in front of your face. Create product updates, training, localized videos, and branded content without being on camera every time. Bring your digital presence to life and scale it across markets, languages, and channels.",
+      "category": "Productivity • Marketing • Artificial Intelligence",
+      "categoryFa": "بهره‌وری • بازاریابی • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/726c8087-efb4-4e89-b388-8ea1dc94f350.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/3923a9fc-4923-4ae3-b501-a4a3d049c9e1.jpeg?auto=format",
+        "https://ph-files.imgix.net/6412a3a9-7b43-4516-8c33-597dea721382.jpeg?auto=format",
+        "https://ph-files.imgix.net/9f1c9d09-934d-4608-9497-6e43431b1608.jpeg?auto=format",
+        "https://ph-files.imgix.net/9ad288e0-81fc-4d2e-a028-e1ee5a80ad94.jpeg?auto=format",
+        "https://ph-files.imgix.net/655fbbca-27e4-40f0-9545-24a1c5fb238f.jpeg?auto=format",
+        "https://ph-files.imgix.net/c7c413b6-af5d-484c-958d-688b13d82597.jpeg?auto=format"
+      ],
+      "maker": "starry li",
+      "makerTitle": "Cog‑Intell Grad | Marketing @ Wizstar.\n",
+      "featuredAt": "2026-08-21T07:01:00Z",
+      "votes": 332,
+      "websiteUrl": "https://www.producthunt.com/r/66CCQDPHMOWPG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Product Hunt! 👋 I run marketing for the team at WizStar.WizStar creates digital ambassadors that don't just look like you —they move and act like professional actors.Many AI avatars can speak, but feel stiff. They stare straight into the camera, repeat limited movements, and lack coordination between the face and body.WizStar focuses on natural expressiveness. Your digital ambassador turns its head, gestures, and interacts with objects. It coordinates facial, neck, and full-body movements—so it doesn’t just talk like you, it truly comes to life.For founders, their Wizstar avatar can act as their public ambassador, helping to stay active across everyday social channels. Or, when a last minute change threatens to scuttle a launch, a WizStar avatar can be used to create a compelling, expressive launch video in minutes.Key capabilities:👄 Precise lip sync — Maintains accuracy even with object covering the mouth or face🎥 Full-angle adaptability — Natural results from side, upward, and downward angles🧍 Smooth full-body motion — Synchronized facial, neck, and body movements⏱️ Long-video input — Supports source videos up to 5 minutes or 200MBTo start, simply upload a photo or video, add a voice sample, write the script, and generate your avatar video in seconds—without repeated filming or a complex setup.WizStar is ideal for marketing, social content, product demos, sales, training, and multilingual localization. We also support custom avatar clothing and offer a diverse library of globally localized digital avatars. Create your digital asset once, then reuse it across languages, channels, and scenarios.We’d love to hear your thoughts: what would you create with a truly expressive digital ambassador that moves like you? 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Great launch, consumer side tech that replicates facial data accurately is much needed, good wishes for its success.."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "its a very much needed product, but i have a question, how close it can make the consistency on characters. WOuld love to try it."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "That feeling when I am not more needed to be present in recording videos :D"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I like that you can start with a script or audio instead of being forced through an AI-generated content workflow."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Where Can I read how you did this?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Huge congrats on the launch! \"Digital avatars that move and act like professional actors\" solves such a massive problem for founders and creators who want to scale video content without the constant friction of sitting in front of a camera. Love seeing how you solved the head-turn lip-sync and body coordination—that’s a huge leap forward for digital ambassadors. Super excited to see how this unlocks global content for teams!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is some sci-fi level stuff! Curious if there are other use cases you’d build for outside of marketing in the future?"
         }
       ],
       "makerTwitter": ""
@@ -6498,7 +6498,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "",
       "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 300,
+      "votes": 301,
       "websiteUrl": "https://www.producthunt.com/r/4ZZ3GDQQF3O7YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -8518,7 +8518,7 @@
       "maker": "Sundar Pichai",
       "makerTitle": "",
       "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 199,
+      "votes": 201,
       "websiteUrl": "https://www.producthunt.com/r/A7U5SL5CKKHNAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -9328,6 +9328,43 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-6",
+      "date": "2026-08-28",
+      "rank": 6,
+      "name": "Firecrawl Developer Index",
+      "slug": "firecrawl-developer-index",
+      "tagline": "A curated index of 70M+ artifacts for coding agents.",
+      "description": "Search 70M+ GitHub READMEs, issues, pull requests, and documentation from one endpoint. The highest recall of any coding-specific index, with no API key needed to start. The index is live now at /v2/search/developer on the API, CLI, and MCP. Ready to integrate with all your favorite coding agents!",
+      "category": "Developer Tools • Artificial Intelligence",
+      "categoryFa": "ابزار توسعه‌دهندگان • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/extract-by-firecrawl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/eed71365-67aa-4375-b90e-8ef52205ae2b.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/f3979eb9-20f0-4e78-ba50-c7459098125b.jpeg?auto=format",
+        "https://ph-files.imgix.net/f6606345-968e-4b76-a446-b2eaa27b0b82.jpeg?auto=format",
+        "https://ph-files.imgix.net/1191b783-f473-45a0-bae9-37bb4c647717.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-28T07:01:00Z",
+      "votes": 164,
+      "websiteUrl": "https://www.producthunt.com/r/D6DMT64DXNRKM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋 Eric, Caleb, and Nick from Firecrawl here. When AI coding agents get stuck, they turn to the web for answers. But the answers they need are often buried across millions of repos and docs, and a single debugging session can burn hundreds of thousands of tokens finding the few lines that matter. Today we're launching the Firecrawl Developer Index: 70M+ issues, pull requests, READMEs, docs, and agent skills, curated from top GitHub repos and documentation sites into one place your agent can search. Across 1,179 real developer queries, the index hits 63% recall@10, beating the next best external provider by ~10%. With our coding-specific index, your agent can answer its own questions about code behavior, API contracts, error messages, and known bugs from primary sources. Hit an error it doesn't recognize? It finds the issue where someone else ran into it and reads the merged fix that followed. Dependency upgrade break a call? It pulls the docs stating the current behavior and the PR that changed it, scoped to that library's repo. Firecrawl Developer Index is live now at /v2/search/developer on the API, CLI, and MCP. For best performance, we recommend using the Firecrawl CLI or MCP with the companion skill, which you can install with: npx -y firecrawl-cli@latest setup developer-index Learn more: https://www.firecrawl.dev/develo... Whether you're building with coding agents, creating technical knowledge bases, or training frontier models, we'd love to hear what you ship with it."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on launch number twelve. Good to see a recall number published against 1,179 real developer queries."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Pretty wild amount of developer context. Curious how much this cuts down on token usage."
+        }
+      ]
+    },
+    {
       "id": "ph-today-5",
       "date": "2026-08-26",
       "rank": 5,
@@ -9373,43 +9410,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-yesterday-6",
-      "date": "2026-08-28",
-      "rank": 6,
-      "name": "Firecrawl Developer Index",
-      "slug": "firecrawl-developer-index",
-      "tagline": "A curated index of 70M+ artifacts for coding agents.",
-      "description": "Search 70M+ GitHub READMEs, issues, pull requests, and documentation from one endpoint. The highest recall of any coding-specific index, with no API key needed to start. The index is live now at /v2/search/developer on the API, CLI, and MCP. Ready to integrate with all your favorite coding agents!",
-      "category": "Developer Tools • Artificial Intelligence",
-      "categoryFa": "ابزار توسعه‌دهندگان • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/extract-by-firecrawl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/eed71365-67aa-4375-b90e-8ef52205ae2b.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/f3979eb9-20f0-4e78-ba50-c7459098125b.jpeg?auto=format",
-        "https://ph-files.imgix.net/f6606345-968e-4b76-a446-b2eaa27b0b82.jpeg?auto=format",
-        "https://ph-files.imgix.net/1191b783-f473-45a0-bae9-37bb4c647717.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 164,
-      "websiteUrl": "https://www.producthunt.com/r/D6DMT64DXNRKM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋 Eric, Caleb, and Nick from Firecrawl here. When AI coding agents get stuck, they turn to the web for answers. But the answers they need are often buried across millions of repos and docs, and a single debugging session can burn hundreds of thousands of tokens finding the few lines that matter. Today we're launching the Firecrawl Developer Index: 70M+ issues, pull requests, READMEs, docs, and agent skills, curated from top GitHub repos and documentation sites into one place your agent can search. Across 1,179 real developer queries, the index hits 63% recall@10, beating the next best external provider by ~10%. With our coding-specific index, your agent can answer its own questions about code behavior, API contracts, error messages, and known bugs from primary sources. Hit an error it doesn't recognize? It finds the issue where someone else ran into it and reads the merged fix that followed. Dependency upgrade break a call? It pulls the docs stating the current behavior and the PR that changed it, scoped to that library's repo. Firecrawl Developer Index is live now at /v2/search/developer on the API, CLI, and MCP. For best performance, we recommend using the Firecrawl CLI or MCP with the companion skill, which you can install with: npx -y firecrawl-cli@latest setup developer-index Learn more: https://www.firecrawl.dev/develo... Whether you're building with coding agents, creating technical knowledge bases, or training frontier models, we'd love to hear what you ship with it."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on launch number twelve. Good to see a recall number published against 1,179 real developer queries."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Pretty wild amount of developer context. Curious how much this cuts down on token usage."
-        }
-      ]
     },
     {
       "id": "ph-yesterday-6",
@@ -9534,6 +9534,42 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-6",
+      "date": "2026-08-21",
+      "rank": 6,
+      "name": "Antigravity IDE Extensions",
+      "slug": "antigravity-ide-extensions",
+      "tagline": "Antigravity agents now live inside your existing editor",
+      "description": "Antigravity IDE Extensions bring Google’s agentic coding platform into VS Code, Visual Studio, JetBrains, and Zed. Keep your agent conversations and shared context while reviewing inline diffs, inspecting plans, debugging code, and handing off multi-step tasks without leaving your editor.",
+      "category": "Software Engineering • Developer Tools • Artificial Intelligence",
+      "categoryFa": "Software Engineering • ابزار توسعه‌دهندگان • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/64f05fed-5478-434e-b175-80b218391f8c.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/8245405d-5d60-4a06-8541-7cb4c79a4234.png?auto=format",
+        "https://ph-files.imgix.net/2660c3ed-9610-4a06-a9a2-33e4fd671fe7.png?auto=format",
+        "https://ph-files.imgix.net/a2abe42c-507e-44f0-a293-cfda583e129e.png?auto=format",
+        "https://ph-files.imgix.net/6e8df551-5c93-463e-9dc6-daaba4e5c187.png?auto=format",
+        "https://ph-files.imgix.net/60d7be23-77a4-4dbd-b203-13ca7c02c7f1.png?auto=format"
+      ],
+      "maker": "Richard Hyndman",
+      "makerTitle": "",
+      "featuredAt": "2026-08-21T07:01:00Z",
+      "votes": 157,
+      "websiteUrl": "https://www.producthunt.com/r/OJKMMDRQ54XCDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi everyone!Antigravity started as Google’s own agent-first app. This release is more practical: lightweight extensions for @VS Code , Visual Studio, @JetBrains, and @Zed.They are not trying to turn those editors into another Antigravity. The standalone app still owns the long multi-agent work. The extension is for the part you still do in a real editor: inspect a code path, review a diff, or step through a debugger.Same account across desktop, CLI, and the IDE. Enterprise access runs through Gemini Enterprise.Google’s coding story has been uneven. Meeting people in the editors they already use is the right kind of move, and 3.7 Flash has been looking a lot better in practice lately."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "is that plug-in compatible with Jetbrain's IntelIjIDE?"
+        }
+      ],
+      "makerTwitter": ""
+    },
+    {
       "id": "ph-yesterday-5",
       "date": "2026-08-21",
       "rank": 5,
@@ -9589,42 +9625,6 @@
         {
           "user": "[REDACTED]",
           "text": "The repo context part is what stands out. An agent that can start with the right context is much more useful than a blank workspace."
-        }
-      ],
-      "makerTwitter": ""
-    },
-    {
-      "id": "ph-yesterday-6",
-      "date": "2026-08-21",
-      "rank": 6,
-      "name": "Antigravity IDE Extensions",
-      "slug": "antigravity-ide-extensions",
-      "tagline": "Antigravity agents now live inside your existing editor",
-      "description": "Antigravity IDE Extensions bring Google’s agentic coding platform into VS Code, Visual Studio, JetBrains, and Zed. Keep your agent conversations and shared context while reviewing inline diffs, inspecting plans, debugging code, and handing off multi-step tasks without leaving your editor.",
-      "category": "Software Engineering • Developer Tools • Artificial Intelligence",
-      "categoryFa": "Software Engineering • ابزار توسعه‌دهندگان • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/64f05fed-5478-434e-b175-80b218391f8c.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/8245405d-5d60-4a06-8541-7cb4c79a4234.png?auto=format",
-        "https://ph-files.imgix.net/2660c3ed-9610-4a06-a9a2-33e4fd671fe7.png?auto=format",
-        "https://ph-files.imgix.net/a2abe42c-507e-44f0-a293-cfda583e129e.png?auto=format",
-        "https://ph-files.imgix.net/6e8df551-5c93-463e-9dc6-daaba4e5c187.png?auto=format",
-        "https://ph-files.imgix.net/60d7be23-77a4-4dbd-b203-13ca7c02c7f1.png?auto=format"
-      ],
-      "maker": "Richard Hyndman",
-      "makerTitle": "",
-      "featuredAt": "2026-08-21T07:01:00Z",
-      "votes": 157,
-      "websiteUrl": "https://www.producthunt.com/r/OJKMMDRQ54XCDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hi everyone!Antigravity started as Google’s own agent-first app. This release is more practical: lightweight extensions for @VS Code , Visual Studio, @JetBrains, and @Zed.They are not trying to turn those editors into another Antigravity. The standalone app still owns the long multi-agent work. The extension is for the part you still do in a real editor: inspect a code path, review a diff, or step through a debugger.Same account across desktop, CLI, and the IDE. Enterprise access runs through Gemini Enterprise.Google’s coding story has been uneven. Meeting people in the editors they already use is the right kind of move, and 3.7 Flash has been looking a lot better in practice lately."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "is that plug-in compatible with Jetbrain's IntelIjIDE?"
         }
       ],
       "makerTwitter": ""
@@ -9925,6 +9925,59 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nBearDrive یک راه‌حل برای اشتراک فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی است. این محصول به شما امکان می‌دهد تا از فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود به صورت خودکار استفاده کنید و از تکرار کار جلوگیری کنید.\n🔹 معماری و تکنولوژی احتمالی:\nBearDrive می‌تواند با استفاده از تکنولوژی‌های مانند Next.js و PostgreSQL توسعه یابد.\n🔹 مدل درآمدی:\nBearDrive می‌تواند به عنوان یک نرم‌افزار به مشتریان فروخته شود و همچنین خدمات پشتیبانی و آموزش ارائه دهد.\n🔹 نقاط قوت:\n- امکان اشتراک فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی\n- جلوگیری از تکرار کار\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با برندهای خارجی\n- نیاز به آموزش و آگاهی‌رسانی به مشتریان\n🔹 نکته طلایی برای بازار ایران:\nبازار ایران یک بازار بزرگ و در حال رشد برای محصولات مرتبط با هوش مصنوعی است. با استفاده از BearDrive، می‌توانید به عنوان یک برند ایرانی، نیازهای تیم‌های ایرانی را برآورده کنید."
     },
     {
+      "id": "ph-yesterday-7",
+      "date": "2026-08-28",
+      "rank": 7,
+      "name": "Almanac",
+      "slug": "almanac-5",
+      "tagline": "The agent with a second brain",
+      "description": "Almanac is an AI agent that knows your company. Connect your accounts in one click and it builds a self-updating \"brain\" from your work, then lives in Slack & iMessage to actually get tasks done. It has its own computer, so it keeps working after you close your laptop.",
+      "category": "Productivity • Artificial Intelligence • Virtual Assistants",
+      "categoryFa": "بهره‌وری • هوش مصنوعی • Virtual Assistants",
+      "url": "https://www.producthunt.com/products/almanac-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/bafb96df-6bc0-4356-b4fe-3aad8788f9ff.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/abec72eb-dc64-443a-8170-123783814ba6.png?auto=format",
+        "https://ph-files.imgix.net/1403f8a5-0ed9-462d-8d6a-b33202c48b08.jpeg?auto=format",
+        "https://ph-files.imgix.net/349f96d3-516f-4a65-aa16-a5f17dec5935.jpeg?auto=format",
+        "https://ph-files.imgix.net/45441e64-52bc-44d8-90b6-f99081148b4f.jpeg?auto=format",
+        "https://ph-files.imgix.net/c1925767-964d-4d4a-a380-93ac21a3b83e.jpeg?auto=format",
+        "https://ph-files.imgix.net/64ed0bd5-f4c0-46f7-8e4e-3cd91a92b71f.jpeg?auto=format",
+        "https://ph-files.imgix.net/50103491-6b71-4c3a-bd56-d2e74dde4d4b.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-28T07:01:00Z",
+      "votes": 146,
+      "websiteUrl": "https://www.producthunt.com/r/MQQFXHKTAUN25N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋 I'm Kushagra, one of three founders of Almanac. Almanac started because we wanted one agent that had the context of our entire company. Something we could just ask and get the right answer from. We tried to set that up ourselves and it was a pain: hosting it, building an OAuth app for every connector by hand, feeding it context manually, and constantly fighting its memory. Our YC batchmates were hitting the exact same wall, so we built the thing we wished existed. What Almanac is: an AI agent that knows your company and gets real work done. You talk to it in Slack or iMessage, hand it a task, and it goes and does it. One-click connectors. Gmail, Calendar, Granola, PostHog, GitHub, and more. Accounts are personal (only you) or shared (whole company), so I can never see my cofounders' private accounts. A self-updating brain. Almanac compiles your connected tools into two wikis: a personal one (who you are, your preferences, your people) and a company one (what you're building, the roadmap, the blockers). It reads these before doing anything, which is what creates the \"it just knows me\" feeling. The hard part is keeping that brain from rotting, so every update is reviewed against the existing wiki before it lands, deciding whether it's a new page, an edit, or a contradiction to resolve. Its own computer. A real browser and terminal. For tools with no API, it just signs in and clicks around like you would. At a login, a payment, or a big decision, it pauses and hands you the live browser. Proactively gets things done. A background worker spots tasks worth doing and pings me with suggestions. I regularly wake up to \"I already drafted your fundraising deck, want to take a look?\" Works with your tools. The agent uses the wiki through a CLI, and you can point your own Codex / Claude Code at that same CLI. We've spent the last year+ building AI-native wikis (including work for Harvard and NASA), and the big lesson was that memory has to be compiled upfront with real compute, not bolted on as an afterthought. That's the bet Almanac is built on. It's live and self-serve today, with a 7-day trial on every plan 👉 usealmanac.com I'd genuinely love your feedback: what would you hand off to an agent like this first? And if you want an agent that actually gets tasks done for your team, grab a time here: https://cal.com/team/almanac/demo Thanks for checking us out 🙏"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "saw the reply above about currently asking for all permissions upfront rather than scoped access. that's the one thing that'd stop me from connecting real accounts to something that also keeps running after i close my laptop. is scoped/read-only access per tool on the roadmap or is all-or-nothing the plan for a while"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is crazy, this is a problem every company I've talked recently is having and ourself are experiencing. This is an incredible product"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How can I control which tools Almanac has access to? What if I only want read access to my emails?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is awesome. What happens if there's conflicting context on the same topic? like an old slack thread vs a newer doc? How does the brain decide what's the latest? I mean it's not even just dates. Sometimes half the info is in slack and half in a doc."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is great! The personal vs. company wiki split is very important. How do you handle situations where private context should inform a company task without accidentally exposing that private information?"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-8",
       "date": "2026-08-05",
       "rank": 8,
@@ -9981,59 +10034,6 @@
         {
           "user": "[REDACTED]",
           "text": "the piece i would want spelled out is what permissioned covers. one record per account answers which customer's data this is. it does not answer which person inside your company may see which parts of it, and those stop being the same problem once the record includes tickets and slack.support history is full of things that are true and not sharable. an internal note saying do not give this account another refund, a pricing exception someone approved once, a comment about a customer written by a person having a bad day. if an answer is assembled from everything the company knows, someone junior asking a reasonable question can get back a sentence they could never have opened themselves.the outbound direction is worse, and it is the one i have been bitten by. a drafted reply grounded on the full record will happily repeat the internal note to the customer. inside a helpdesk the internal note and the public reply are one toggle apart, and once a model is grounding on the joined picture, nothing in the text marks which half is quotable.so does the visibility travel with the source all the way into the answer, so a response respects the permissions of whoever asked, or is it one corpus behind one set of credentials?"
-        }
-      ]
-    },
-    {
-      "id": "ph-yesterday-7",
-      "date": "2026-08-28",
-      "rank": 7,
-      "name": "Almanac",
-      "slug": "almanac-5",
-      "tagline": "The agent with a second brain",
-      "description": "Almanac is an AI agent that knows your company. Connect your accounts in one click and it builds a self-updating \"brain\" from your work, then lives in Slack & iMessage to actually get tasks done. It has its own computer, so it keeps working after you close your laptop.",
-      "category": "Productivity • Artificial Intelligence • Virtual Assistants",
-      "categoryFa": "بهره‌وری • هوش مصنوعی • Virtual Assistants",
-      "url": "https://www.producthunt.com/products/almanac-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/bafb96df-6bc0-4356-b4fe-3aad8788f9ff.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/abec72eb-dc64-443a-8170-123783814ba6.png?auto=format",
-        "https://ph-files.imgix.net/1403f8a5-0ed9-462d-8d6a-b33202c48b08.jpeg?auto=format",
-        "https://ph-files.imgix.net/349f96d3-516f-4a65-aa16-a5f17dec5935.jpeg?auto=format",
-        "https://ph-files.imgix.net/45441e64-52bc-44d8-90b6-f99081148b4f.jpeg?auto=format",
-        "https://ph-files.imgix.net/c1925767-964d-4d4a-a380-93ac21a3b83e.jpeg?auto=format",
-        "https://ph-files.imgix.net/64ed0bd5-f4c0-46f7-8e4e-3cd91a92b71f.jpeg?auto=format",
-        "https://ph-files.imgix.net/50103491-6b71-4c3a-bd56-d2e74dde4d4b.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 145,
-      "websiteUrl": "https://www.producthunt.com/r/MQQFXHKTAUN25N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋 I'm Kushagra, one of three founders of Almanac. Almanac started because we wanted one agent that had the context of our entire company. Something we could just ask and get the right answer from. We tried to set that up ourselves and it was a pain: hosting it, building an OAuth app for every connector by hand, feeding it context manually, and constantly fighting its memory. Our YC batchmates were hitting the exact same wall, so we built the thing we wished existed. What Almanac is: an AI agent that knows your company and gets real work done. You talk to it in Slack or iMessage, hand it a task, and it goes and does it. One-click connectors. Gmail, Calendar, Granola, PostHog, GitHub, and more. Accounts are personal (only you) or shared (whole company), so I can never see my cofounders' private accounts. A self-updating brain. Almanac compiles your connected tools into two wikis: a personal one (who you are, your preferences, your people) and a company one (what you're building, the roadmap, the blockers). It reads these before doing anything, which is what creates the \"it just knows me\" feeling. The hard part is keeping that brain from rotting, so every update is reviewed against the existing wiki before it lands, deciding whether it's a new page, an edit, or a contradiction to resolve. Its own computer. A real browser and terminal. For tools with no API, it just signs in and clicks around like you would. At a login, a payment, or a big decision, it pauses and hands you the live browser. Proactively gets things done. A background worker spots tasks worth doing and pings me with suggestions. I regularly wake up to \"I already drafted your fundraising deck, want to take a look?\" Works with your tools. The agent uses the wiki through a CLI, and you can point your own Codex / Claude Code at that same CLI. We've spent the last year+ building AI-native wikis (including work for Harvard and NASA), and the big lesson was that memory has to be compiled upfront with real compute, not bolted on as an afterthought. That's the bet Almanac is built on. It's live and self-serve today, with a 7-day trial on every plan 👉 usealmanac.com I'd genuinely love your feedback: what would you hand off to an agent like this first? And if you want an agent that actually gets tasks done for your team, grab a time here: https://cal.com/team/almanac/demo Thanks for checking us out 🙏"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "saw the reply above about currently asking for all permissions upfront rather than scoped access. that's the one thing that'd stop me from connecting real accounts to something that also keeps running after i close my laptop. is scoped/read-only access per tool on the roadmap or is all-or-nothing the plan for a while"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This is crazy, this is a problem every company I've talked recently is having and ourself are experiencing. This is an incredible product"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "How can I control which tools Almanac has access to? What if I only want read access to my emails?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This is awesome. What happens if there's conflicting context on the same topic? like an old slack thread vs a newer doc? How does the brain decide what's the latest? I mean it's not even just dates. Sometimes half the info is in slack and half in a doc."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This is great! The personal vs. company wiki split is very important. How do you handle situations where private context should inform a company task without accidentally exposing that private information?"
         }
       ]
     },
@@ -10418,48 +10418,6 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-yesterday-8",
-      "date": "2026-08-06",
-      "rank": 8,
-      "name": "Website to Markdown API",
-      "slug": "website-to-markdown-api",
-      "tagline": "Turn any website into LLM-ready Markdown",
-      "description": "Submit any URL, get clean Markdown back. JavaScript-rendered pages handled automatically. Navigation, footers, and cookie banners stripped. Output goes straight into an LLM context window or knowledge base with no post-processing. Anti-bot evasion built in: proxy rotation, browser fingerprinting, retries. CDN-hosted screenshot included. Same API handles PDFs, DOCX, PPTX, images, audio, and video. Free plan available.",
-      "category": "API • Developer Tools • Data",
-      "categoryFa": "API • ابزار توسعه‌دهندگان • داده",
-      "url": "https://www.producthunt.com/products/website-to-markdown-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/4e8c2ab3-baf7-485a-b79d-ecad0be8c8fd.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/306cc02b-f7bb-4008-add6-64d357dd321c.jpeg?auto=format",
-        "https://ph-files.imgix.net/d5b371f4-b514-4700-aad6-c6abe7eade62.png?auto=format",
-        "https://ph-files.imgix.net/269366b3-c076-4f7e-a263-1df5852df30f.png?auto=format",
-        "https://ph-files.imgix.net/8219d7e9-428f-46bd-8059-ae2fec70f4eb.png?auto=format"
-      ],
-      "maker": "",
-      "makerTitle": "",
-      "featuredAt": "2026-08-06T07:01:00Z",
-      "votes": 134,
-      "websiteUrl": "https://www.producthunt.com/r/HIS6N47NI7HV3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋 I'm Johnny, founder of the team behind the Website to Markdown API. We built the Website to Markdown API because turning a website into clean, usable text is still way harder than it should be. You end up maintaining a headless browser, handling JavaScript-rendered pages that return empty HTML, writing cleanup logic to strip navigation and cookie banners, and building retry logic for sites that block scrapers. It works for the first 10 sites and breaks on the 11th. So we made it one API call. Submit a URL, get clean Markdown back. The page is rendered before extraction, so React, Next.js, and Vue sites work the same as static HTML. Anti-bot handling (proxy rotation, browser fingerprinting, retries) is built in. The output is the actual content: no nav, no footers, no ads. You get a Markdown document you can drop straight into an LLM context window, a knowledge base, or a RAG pipeline. No HTML parsing, no post-processing. The same endpoint handles PDFs, DOCX, PPTX, EPUB, images, audio, and video. You learn one API and use it for everything. Pass ?format=json if you want structured output with text chunks instead of Markdown. Website to Markdown is part of the broader Exabase platform, so the same API key also gets you deep search, memory, and automation if you ever need to go further. But it works perfectly well on its own. Free plan available, no credit card required. Thanks for checking it out. I'll be here all day answering questions! Johnny"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "@johnny_makes Congrats! This looks great but I'm a little unsure of the use case for such a tool. I understand markdown is the preferred diet of LLMs so is this a more elegant form of scraping or are there more possibilities? If you can share some possible use cases that would be great. Thank you :)"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This seems super useful to me as a marketer, especially handling all different formats too. I will give it a check, upvoted!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Looks useful for AI agents. Did you think about providing an MCP server or a hook to use in claude/codex? It could replace the curl command."
-        }
-      ]
-    },
-    {
       "id": "ph-yesterday-7",
       "date": "2026-08-06",
       "rank": 7,
@@ -10498,6 +10456,48 @@
         {
           "user": "[REDACTED]",
           "text": "There is a good chance you are using your code assistant to make website, build reports or create proposals for your clients And you need to have things on brand with proper updated logosBrandfetch MCP does just that, bring it all where you need it"
+        }
+      ]
+    },
+    {
+      "id": "ph-yesterday-8",
+      "date": "2026-08-06",
+      "rank": 8,
+      "name": "Website to Markdown API",
+      "slug": "website-to-markdown-api",
+      "tagline": "Turn any website into LLM-ready Markdown",
+      "description": "Submit any URL, get clean Markdown back. JavaScript-rendered pages handled automatically. Navigation, footers, and cookie banners stripped. Output goes straight into an LLM context window or knowledge base with no post-processing. Anti-bot evasion built in: proxy rotation, browser fingerprinting, retries. CDN-hosted screenshot included. Same API handles PDFs, DOCX, PPTX, images, audio, and video. Free plan available.",
+      "category": "API • Developer Tools • Data",
+      "categoryFa": "API • ابزار توسعه‌دهندگان • داده",
+      "url": "https://www.producthunt.com/products/website-to-markdown-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/4e8c2ab3-baf7-485a-b79d-ecad0be8c8fd.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/306cc02b-f7bb-4008-add6-64d357dd321c.jpeg?auto=format",
+        "https://ph-files.imgix.net/d5b371f4-b514-4700-aad6-c6abe7eade62.png?auto=format",
+        "https://ph-files.imgix.net/269366b3-c076-4f7e-a263-1df5852df30f.png?auto=format",
+        "https://ph-files.imgix.net/8219d7e9-428f-46bd-8059-ae2fec70f4eb.png?auto=format"
+      ],
+      "maker": "",
+      "makerTitle": "",
+      "featuredAt": "2026-08-06T07:01:00Z",
+      "votes": 134,
+      "websiteUrl": "https://www.producthunt.com/r/HIS6N47NI7HV3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋 I'm Johnny, founder of the team behind the Website to Markdown API. We built the Website to Markdown API because turning a website into clean, usable text is still way harder than it should be. You end up maintaining a headless browser, handling JavaScript-rendered pages that return empty HTML, writing cleanup logic to strip navigation and cookie banners, and building retry logic for sites that block scrapers. It works for the first 10 sites and breaks on the 11th. So we made it one API call. Submit a URL, get clean Markdown back. The page is rendered before extraction, so React, Next.js, and Vue sites work the same as static HTML. Anti-bot handling (proxy rotation, browser fingerprinting, retries) is built in. The output is the actual content: no nav, no footers, no ads. You get a Markdown document you can drop straight into an LLM context window, a knowledge base, or a RAG pipeline. No HTML parsing, no post-processing. The same endpoint handles PDFs, DOCX, PPTX, EPUB, images, audio, and video. You learn one API and use it for everything. Pass ?format=json if you want structured output with text chunks instead of Markdown. Website to Markdown is part of the broader Exabase platform, so the same API key also gets you deep search, memory, and automation if you ever need to go further. But it works perfectly well on its own. Free plan available, no credit card required. Thanks for checking it out. I'll be here all day answering questions! Johnny"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@johnny_makes Congrats! This looks great but I'm a little unsure of the use case for such a tool. I understand markdown is the preferred diet of LLMs so is this a more elegant form of scraping or are there more possibilities? If you can share some possible use cases that would be great. Thank you :)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This seems super useful to me as a marketer, especially handling all different formats too. I will give it a check, upvoted!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Looks useful for AI agents. Did you think about providing an MCP server or a hook to use in claude/codex? It could replace the curl command."
         }
       ]
     },
@@ -11502,6 +11502,66 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nLaraCopilot یک ابزار جامع برای ساخت برنامه‌های واقعی و آماده تولید است که به توسعه‌دهندگان کمک می‌کند تا برنامه‌های خود را با سرعت و سهولت بیشتری بسازند. این ابزار می‌تواند برنامه‌های کامل و آماده تولید را از یک توضیح ایده شما می‌سازد.\n🔹 معماری و تکنولوژی احتمالی:\nLaraCopilot از معماری میکروسرویس‌ها و تکنولوژی‌های لاراول و ری‌اکت استفاده می‌کند.\n🔹 مدل درآمدی:\nLaraCopilot می‌تواند از طریق فروش اشتراک و پشتیبانی و آموزش درآمد کسب کند.\n🔹 نقاط قوت:\n- LaraCopilot می‌تواند برنامه‌های واقعی و تولیدی را با سرعت و سهولت بیشتری بسازد.\n- LaraCopilot به توسعه‌دهندگان کمک می‌کند تا برنامه‌های خود را به راحتی و با کیفیت بالاتر بسازند.\n🔹 نقاط ضعف و ریسک‌ها:\n- LaraCopilot ممکن است با ابزارهای مشابه رقابت کند.\n- LaraCopilot نیاز به بازخورد و بهبود مداوم دارد.\n🔹 نکته طلایی برای بازار ایران:\nLaraCopilot می‌تواند به توسعه‌دهندگان ایرانی کمک کند تا برنامه‌های خود را به راحتی و با کیفیت بالاتر بسازند و در بازار رقابتی ایران موفق شوند."
     },
     {
+      "id": "ph-today-1",
+      "date": "2026-08-29",
+      "rank": 1,
+      "name": "1752vc Pitch Deck Analyzer",
+      "slug": "1752vc-pitch-deck-analyzer",
+      "tagline": "Know what investors will say before you ever hit send.",
+      "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
+      "category": "Venture Capital • Artificial Intelligence • Fundraising",
+      "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
+      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
+        "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
+        "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
+        "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
+        "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
+        "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+      ],
+      "maker": "Lucas Pols",
+      "makerTitle": "GP of 1752vc",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 123,
+      "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on the launch! This is very needed for all startup founders!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I don't know what this is, but two random people sent me requests on LinkedIn and spammed me the link to this 👎"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the community behind 1752 and this product is very helpful and engaged. this analyzer helped find some blindspots in my deck already!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I tried uploading our pitch deck, and the analysis turned out pretty good. For the most part, the analysis highlighted what information was missing, and it’s interesting that the recommendations even took into account that we might simply not have that information at this stage.One interesting recommendation I received was regarding how we were phrasing the problem, even though I hadn’t initially considered that the phrasing might be misunderstood."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love tools supported by actual data and not the AI fad. We'll test it out as soon as we get the deck ready 😂"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This seems really useful. If I were to raise funds again for my next venture, I'd definitely give this a shot."
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-10",
       "date": "2026-08-25",
       "rank": 10,
@@ -11897,6 +11957,46 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-10",
+      "date": "2026-08-28",
+      "rank": 10,
+      "name": "Glisio",
+      "slug": "glisio",
+      "tagline": "Mac Recorder & Snap editor w/auto-zoom, audio, local MP4",
+      "description": "Glisio is a native Mac app for product demos: record cinematic clips or capture styled snapshots. Record display, window, or area with system audio, mic, and optional webcam. Smart auto-zoom follows clicks so you skip a heavy timeline. Snap opens a built-in screenshot editor: background, crop, annotate, then copy or export. Export local MP4 in 16:9, 9:16, or 1:1. Files stay on your Mac. Free with a small watermark. Pro Lifetime $79 once, or $9.99/mo (removes watermark). Windows waitlist open.",
+      "category": "Mac • Productivity • Video",
+      "categoryFa": "مک • بهره‌وری • ویدیو",
+      "url": "https://www.producthunt.com/products/glisio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/0f284cfc-1932-4d37-aec6-aa51aa5e7d24.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/fd1a25b0-12ed-444f-b175-eda98cd0a8bf.png?auto=format",
+        "https://ph-files.imgix.net/b4e8b258-83a0-4400-bf00-6fc8ec8fb873.png?auto=format",
+        "https://ph-files.imgix.net/10013885-92dc-49a8-a88a-8b95c47416ee.png?auto=format",
+        "https://ph-files.imgix.net/cdcc37ad-cf15-4bd5-986c-3004f4b7de1e.png?auto=format",
+        "https://ph-files.imgix.net/8e916db1-c7bd-4c90-aa2f-924b502ec37a.png?auto=format",
+        "https://ph-files.imgix.net/40287195-daa1-4e69-9382-16f4be826472.png?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-28T07:01:00Z",
+      "votes": 114,
+      "websiteUrl": "https://www.producthunt.com/r/BBRQ4XBF4J2ZA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Hunters 👋My wife and I built Glisio together.We wanted a simple way to create high-quality product demos and launch videos, but the tools we tried were either too expensive or didn't give us the quality and experience we were looking for.So we started building Glisio.Glisio is a native Mac app for product demos, launch videos, and tutorials. Use Clip to record with auto-zoom, system audio, mic, and optional webcam, then edit and export local MP4. Use Snap for styled screenshots: background, crop, annotate, then copy or export. No cloud uploads. Files stay on your Mac.What started as a tool we wanted for ourselves turned into a product we've been continuously building and improving.You can record, edit, copy, and export for free. Free exports have a small watermark, while Pro removes it. Pro Lifetime is $79 one-time, and we're offering 40% off for this Product Hunt launch. If you prefer monthly, Pro is $9.99/mo.We'd genuinely love your feedback. If you make SaaS demos, courses, tutorials, or launch videos, what would you want us to build next?Download Glisio: https://glisio.com/download"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Most of my Mac recordings end up as GIFs in docs, and hand-cropping the zoom is the slow part. What does the auto-zoom actually follow, clicks or the cursor?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Hunters! 👋So excited to finally see Glisio on Product Hunt! Building Glisio together has been such a fun (and sometimes challenging 😅) journey. What started as a tool we simply wanted to use ourselves slowly turned into something we’re really proud to share with others.We’ve put so much time and care into making Glisio simple, fast, and completely local on Mac — and we’d love to hear what you think!If you try it, let us know what you love, what you’d change, or what you’d like to see next. Your feedback means a lot to us. Thanks for supporting our little project!"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-9",
       "date": "2026-08-24",
       "rank": 9,
@@ -11941,42 +12041,39 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-yesterday-10",
-      "date": "2026-08-28",
-      "rank": 10,
-      "name": "Glisio",
-      "slug": "glisio",
-      "tagline": "Mac Recorder & Snap editor w/auto-zoom, audio, local MP4",
-      "description": "Glisio is a native Mac app for product demos: record cinematic clips or capture styled snapshots. Record display, window, or area with system audio, mic, and optional webcam. Smart auto-zoom follows clicks so you skip a heavy timeline. Snap opens a built-in screenshot editor: background, crop, annotate, then copy or export. Export local MP4 in 16:9, 9:16, or 1:1. Files stay on your Mac. Free with a small watermark. Pro Lifetime $79 once, or $9.99/mo (removes watermark). Windows waitlist open.",
-      "category": "Mac • Productivity • Video",
-      "categoryFa": "مک • بهره‌وری • ویدیو",
-      "url": "https://www.producthunt.com/products/glisio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/0f284cfc-1932-4d37-aec6-aa51aa5e7d24.png?auto=format",
+      "id": "ph-today-2",
+      "date": "2026-08-29",
+      "rank": 2,
+      "name": "Hy4 preview",
+      "slug": "hy4-preview",
+      "tagline": "Tencent’s 770B open model for long-horizon work",
+      "description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
+      "category": "Open Source • Artificial Intelligence",
+      "categoryFa": "متن‌باز • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/52cfdc3c-65a6-4d2e-ae8b-68ae2984735c.svg?auto=format",
       "screenshots": [
-        "https://ph-files.imgix.net/fd1a25b0-12ed-444f-b175-eda98cd0a8bf.png?auto=format",
-        "https://ph-files.imgix.net/b4e8b258-83a0-4400-bf00-6fc8ec8fb873.png?auto=format",
-        "https://ph-files.imgix.net/10013885-92dc-49a8-a88a-8b95c47416ee.png?auto=format",
-        "https://ph-files.imgix.net/cdcc37ad-cf15-4bd5-986c-3004f4b7de1e.png?auto=format",
-        "https://ph-files.imgix.net/8e916db1-c7bd-4c90-aa2f-924b502ec37a.png?auto=format",
-        "https://ph-files.imgix.net/40287195-daa1-4e69-9382-16f4be826472.png?auto=format"
+        "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
+        "https://ph-files.imgix.net/eb4a34b8-0573-4551-8fbe-2ee5ac316f82.png?auto=format",
+        "https://ph-files.imgix.net/6c7a7aae-ae69-4fe5-a084-95b8e5f91dfd.png?auto=format",
+        "https://ph-files.imgix.net/a6c49e98-68b2-4109-b148-f4642c2ff96a.png?auto=format",
+        "https://ph-files.imgix.net/ecbc71eb-03a6-478b-bc19-c44b79d2b990.png?auto=format",
+        "https://ph-files.imgix.net/2995ac52-fc30-4fc9-b5aa-593c7c0ddccc.gif?auto=format",
+        "https://ph-files.imgix.net/50fbe1f8-2513-45d9-aed7-8f307cc6b38b.png?auto=format",
+        "https://ph-files.imgix.net/3e9a2d5e-f264-47d7-b5f1-3a79371f4ddf.png?auto=format",
+        "https://ph-files.imgix.net/63712e7c-523c-4f97-b39e-0b77b10e7508.png?auto=format",
+        "https://ph-files.imgix.net/1c1d4452-f090-40bc-97a6-e366d6294b4b.png?auto=format",
+        "https://ph-files.imgix.net/7a74577d-f2ba-477b-95f5-daed016542b1.jpeg?auto=format"
       ],
-      "maker": "[REDACTED]",
+      "maker": "",
       "makerTitle": "",
-      "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 114,
-      "websiteUrl": "https://www.producthunt.com/r/BBRQ4XBF4J2ZA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 113,
+      "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
           "user": "[REDACTED]",
-          "text": "Hey Hunters 👋My wife and I built Glisio together.We wanted a simple way to create high-quality product demos and launch videos, but the tools we tried were either too expensive or didn't give us the quality and experience we were looking for.So we started building Glisio.Glisio is a native Mac app for product demos, launch videos, and tutorials. Use Clip to record with auto-zoom, system audio, mic, and optional webcam, then edit and export local MP4. Use Snap for styled screenshots: background, crop, annotate, then copy or export. No cloud uploads. Files stay on your Mac.What started as a tool we wanted for ourselves turned into a product we've been continuously building and improving.You can record, edit, copy, and export for free. Free exports have a small watermark, while Pro removes it. Pro Lifetime is $79 one-time, and we're offering 40% off for this Product Hunt launch. If you prefer monthly, Pro is $9.99/mo.We'd genuinely love your feedback. If you make SaaS demos, courses, tutorials, or launch videos, what would you want us to build next?Download Glisio: https://glisio.com/download"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Most of my Mac recordings end up as GIFs in docs, and hand-cropping the zoom is the slow part. What does the auto-zoom actually follow, clicks or the cursor?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Hunters! 👋So excited to finally see Glisio on Product Hunt! Building Glisio together has been such a fun (and sometimes challenging 😅) journey. What started as a tool we simply wanted to use ourselves slowly turned into something we’re really proud to share with others.We’ve put so much time and care into making Glisio simple, fast, and completely local on Mac — and we’d love to hear what you think!If you try it, let us know what you love, what you’d change, or what you’d like to see next. Your feedback means a lot to us. Thanks for supporting our little project!"
+          "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
         }
       ]
     },
@@ -12227,66 +12324,6 @@
         {
           "user": "[REDACTED]",
           "text": "Hey there, Product Hunt 👋Excited to launch Channels SDK today!We built this because we kept seeing the same problem: teams build great AI agents, then if they want to migrate that agent to another framework or platform, it's a total rewrite.Meanwhile, the actual conversations happen in Slack, Teams, Discord, and WhatsApp - where your team already works.Channels SDK closes that gap. Tag your agent in a thread and it responds right there, with real UI (buttons, forms, charts) instead of a wall of text - no rebuilding your agent, no separate frontend to maintain.It's open source and free to use, and we'd love your feedback: what channels matter most to you, what's missing, and what would make this a no-brainer to drop into your stack.Thanks for checking it out - happy to answer any questions in the comments!"
-        }
-      ]
-    },
-    {
-      "id": "ph-today-1",
-      "date": "2026-08-29",
-      "rank": 1,
-      "name": "1752vc Pitch Deck Analyzer",
-      "slug": "1752vc-pitch-deck-analyzer",
-      "tagline": "Know what investors will say before you ever hit send.",
-      "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-      "category": "Venture Capital • Artificial Intelligence • Fundraising",
-      "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
-      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
-        "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
-        "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
-        "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
-        "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
-        "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
-      ],
-      "maker": "Lucas Pols",
-      "makerTitle": "GP of 1752vc",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 112,
-      "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congratulations on the launch! This is very needed for all startup founders!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I don't know what this is, but two random people sent me requests on LinkedIn and spammed me the link to this 👎"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the community behind 1752 and this product is very helpful and engaged. this analyzer helped find some blindspots in my deck already!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I tried uploading our pitch deck, and the analysis turned out pretty good. For the most part, the analysis highlighted what information was missing, and it’s interesting that the recommendations even took into account that we might simply not have that information at this stage.One interesting recommendation I received was regarding how we were phrasing the problem, even though I hadn’t initially considered that the phrasing might be misunderstood."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love tools supported by actual data and not the AI fad. We'll test it out as soon as we get the deck ready 😂"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This seems really useful. If I were to raise funds again for my next venture, I'd definitely give this a shot."
         }
       ]
     },
@@ -12777,6 +12814,37 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-today-3",
+      "date": "2026-08-29",
+      "rank": 3,
+      "name": "Cohere Parse 5",
+      "slug": "cohere-parse-5",
+      "tagline": "Turn complex docs, tables & images into AI-ready data",
+      "description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
+      "category": "API • Artificial Intelligence",
+      "categoryFa": "API • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
+        "https://ph-files.imgix.net/578b15dc-6e30-4e80-b085-52f73b86f9f3.png?auto=format",
+        "https://ph-files.imgix.net/d6808902-dfbd-4071-8d9b-bd288988c17e.png?auto=format",
+        "https://ph-files.imgix.net/54c4a7dd-9bca-4f7f-985e-99bc8435be7a.png?auto=format",
+        "https://ph-files.imgix.net/0b453b08-fd6f-40ad-9600-9db1109132e9.png?auto=format"
+      ],
+      "maker": "",
+      "makerTitle": "",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 93,
+      "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Parse is Cohere's document vision parsing model for turning enterprise files into AI-ready data.Problem: Enterprise documents (scans, PDFs, contracts, invoices) are messy, unstructured, and full of tables, diagrams, and charts. Most AI agents and search tools can't reliably read them, so companies end up doing manual review and data entry just to make documents usable.Solution: A document parsing model that combines OCR with multimodal understanding, turning complex files into clean, structured data that downstream AI agents and applications can actually use.What makes it different: It doesn't just extract text, it understands layout, tables, and diagrams together, and returns visual grounding (bounding boxes) so every extracted piece of data can be traced back to its exact location on the page. That's what makes citations and source attribution possible downstream.Key features:OCR for scanned and digital documentsMultimodal parsing for tables, diagrams, and images embedded in documentsVisual grounding with bounding boxes for highlighting and source attributionSupport for 9 major commercial languagesDeploy via API, Model Vault, AWS SageMaker, Azure, or fully on-prem/air-gapped Benefits: Less manual document review, more reliable AI search and retrieval, and document context AI agents can actually reason over instead of guessing at.Who it is for: Enterprises with high document volumes (claims, contracts, invoices, reports) building internal AI search, RAG pipelines, or multimodal agents.Use cases: Automating claims/contract/invoice processing, improving chunking and retrieval quality for semantic search, giving AI agents full document context including tables and visual grounding.Try here"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-8",
       "date": "2026-08-22",
       "rank": 8,
@@ -12807,39 +12875,35 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-2",
+      "id": "ph-today-4",
       "date": "2026-08-29",
-      "rank": 2,
-      "name": "Hy4 preview",
-      "slug": "hy4-preview",
-      "tagline": "Tencent’s 770B open model for long-horizon work",
-      "description": "Hy4 Preview is a 770B MoE model (49B active, 1M context) from Tencent, built for long-horizon agentic tasks. It autonomously handles coding, game dev, and complex document analysis, running its own tests and fixing bugs before delivery.",
-      "category": "Open Source • Artificial Intelligence",
-      "categoryFa": "متن‌باز • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/52cfdc3c-65a6-4d2e-ae8b-68ae2984735c.svg?auto=format",
+      "rank": 4,
+      "name": "seendiff",
+      "slug": "seendiff",
+      "tagline": "Code diff viewer with progress tracking",
+      "description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
+      "category": "Open Source • Software Engineering • GitHub",
+      "categoryFa": "متن‌باز • Software Engineering • گیت‌هاب",
+      "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/42bdb542-49e5-40d8-a4ef-11688d0111cd.png?auto=format",
       "screenshots": [
-        "https://ph-files.imgix.net/80db150f-c3e2-4d78-a00e-4403d0c4f58e.png?auto=format",
-        "https://ph-files.imgix.net/eb4a34b8-0573-4551-8fbe-2ee5ac316f82.png?auto=format",
-        "https://ph-files.imgix.net/6c7a7aae-ae69-4fe5-a084-95b8e5f91dfd.png?auto=format",
-        "https://ph-files.imgix.net/a6c49e98-68b2-4109-b148-f4642c2ff96a.png?auto=format",
-        "https://ph-files.imgix.net/ecbc71eb-03a6-478b-bc19-c44b79d2b990.png?auto=format",
-        "https://ph-files.imgix.net/2995ac52-fc30-4fc9-b5aa-593c7c0ddccc.gif?auto=format",
-        "https://ph-files.imgix.net/50fbe1f8-2513-45d9-aed7-8f307cc6b38b.png?auto=format",
-        "https://ph-files.imgix.net/3e9a2d5e-f264-47d7-b5f1-3a79371f4ddf.png?auto=format",
-        "https://ph-files.imgix.net/63712e7c-523c-4f97-b39e-0b77b10e7508.png?auto=format",
-        "https://ph-files.imgix.net/1c1d4452-f090-40bc-97a6-e366d6294b4b.png?auto=format",
-        "https://ph-files.imgix.net/7a74577d-f2ba-477b-95f5-daed016542b1.jpeg?auto=format"
+        "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
+        "https://ph-files.imgix.net/2bb73d68-d6d1-4e1e-a620-00f0273e49c0.png?auto=format",
+        "https://ph-files.imgix.net/38c37fa4-107e-4364-9013-c4c252eb0665.png?auto=format",
+        "https://ph-files.imgix.net/1b3ffc59-16a2-4403-916b-d117b0641616.png?auto=format",
+        "https://ph-files.imgix.net/8c4a1da9-60cf-41ad-a14a-4fc97912f0b7.png?auto=format",
+        "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
+        "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
       ],
-      "maker": "",
+      "maker": "[REDACTED]",
       "makerTitle": "",
       "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 92,
-      "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "votes": 90,
+      "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
           "user": "[REDACTED]",
-          "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
+          "text": "Hey Product Hunt 👋AI code is difficult to review. So you have two options:1. Go through the painful review process, or2. Go YOLO mode and commit without reviews.If you care about maintenance of your codebase you will want to go through the pains review your code.Most code diff tools today were built for the past world - but AI scale of code is different.So I built seendiff - to scratch my own itch. It:1. Automatically keeps track of what code you've seen in a diff2. Keeps track of manually reviewed code blocks.3. Integrates a code walkthrough that lets your AI walk you through the code4. Other nifty features that matter - local global search, minimap etc.Im putting it up at https://seendiff.com in case its useful to someone else.Free. Open source.What does your agentic code review process look like?"
         }
       ]
     },
@@ -12879,6 +12943,39 @@
         }
       ],
       "makerTwitter": ""
+    },
+    {
+      "id": "ph-today-5",
+      "date": "2026-08-29",
+      "rank": 5,
+      "name": "Neo",
+      "slug": "neo",
+      "tagline": "A novel-writing tool from the author of Silo",
+      "description": "NEO was created after using lots of writing tools and never quite finding \"the one.\" NEO doesn't try to do everything; it just wants you to get that rough draft written. Distraction free, minimal UI, see all your WIPs in one place, and most importantly, it formats your manuscripts to look like a book while you write. All you need for formatting is the Enter key. NEO does the rest.",
+      "category": "Open Source • Writing • GitHub • Books",
+      "categoryFa": "متن‌باز • نوشتن • گیت‌هاب • کتاب",
+      "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/afa43dbe-72d0-41d4-8b74-44734b270be3.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/3f16f530-c34c-426d-bea8-aba443a3d89b.png?auto=format",
+        "https://ph-files.imgix.net/ad3beb4b-4008-4bd0-9c5a-35d92a7e3b32.png?auto=format",
+        "https://ph-files.imgix.net/45e1cc52-d1c1-4c5c-a2e1-f0dcd986c71e.png?auto=format"
+      ],
+      "maker": "Hugh Howey",
+      "makerTitle": "Author",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 89,
+      "websiteUrl": "https://www.producthunt.com/r/DTBFLEA2UBAF7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "If I ever write my autobiography, I want to use the writing app from the writer of Silo."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I can see so many things related to movies and series I have watched lately :D"
+        }
+      ]
     },
     {
       "id": "ph-yesterday-9",
@@ -12921,70 +13018,6 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-3",
-      "date": "2026-08-29",
-      "rank": 3,
-      "name": "Cohere Parse 5",
-      "slug": "cohere-parse-5",
-      "tagline": "Turn complex docs, tables & images into AI-ready data",
-      "description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
-      "category": "API • Artificial Intelligence",
-      "categoryFa": "API • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
-        "https://ph-files.imgix.net/578b15dc-6e30-4e80-b085-52f73b86f9f3.png?auto=format",
-        "https://ph-files.imgix.net/d6808902-dfbd-4071-8d9b-bd288988c17e.png?auto=format",
-        "https://ph-files.imgix.net/54c4a7dd-9bca-4f7f-985e-99bc8435be7a.png?auto=format",
-        "https://ph-files.imgix.net/0b453b08-fd6f-40ad-9600-9db1109132e9.png?auto=format"
-      ],
-      "maker": "",
-      "makerTitle": "",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 89,
-      "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Parse is Cohere's document vision parsing model for turning enterprise files into AI-ready data.Problem: Enterprise documents (scans, PDFs, contracts, invoices) are messy, unstructured, and full of tables, diagrams, and charts. Most AI agents and search tools can't reliably read them, so companies end up doing manual review and data entry just to make documents usable.Solution: A document parsing model that combines OCR with multimodal understanding, turning complex files into clean, structured data that downstream AI agents and applications can actually use.What makes it different: It doesn't just extract text, it understands layout, tables, and diagrams together, and returns visual grounding (bounding boxes) so every extracted piece of data can be traced back to its exact location on the page. That's what makes citations and source attribution possible downstream.Key features:OCR for scanned and digital documentsMultimodal parsing for tables, diagrams, and images embedded in documentsVisual grounding with bounding boxes for highlighting and source attributionSupport for 9 major commercial languagesDeploy via API, Model Vault, AWS SageMaker, Azure, or fully on-prem/air-gapped Benefits: Less manual document review, more reliable AI search and retrieval, and document context AI agents can actually reason over instead of guessing at.Who it is for: Enterprises with high document volumes (claims, contracts, invoices, reports) building internal AI search, RAG pipelines, or multimodal agents.Use cases: Automating claims/contract/invoice processing, improving chunking and retrieval quality for semantic search, giving AI agents full document context including tables and visual grounding.Try here"
-        }
-      ]
-    },
-    {
-      "id": "ph-today-4",
-      "date": "2026-08-29",
-      "rank": 4,
-      "name": "seendiff",
-      "slug": "seendiff",
-      "tagline": "Code diff viewer with progress tracking",
-      "description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
-      "category": "Open Source • Software Engineering • GitHub",
-      "categoryFa": "متن‌باز • Software Engineering • گیت‌هاب",
-      "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/42bdb542-49e5-40d8-a4ef-11688d0111cd.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
-        "https://ph-files.imgix.net/2bb73d68-d6d1-4e1e-a620-00f0273e49c0.png?auto=format",
-        "https://ph-files.imgix.net/38c37fa4-107e-4364-9013-c4c252eb0665.png?auto=format",
-        "https://ph-files.imgix.net/1b3ffc59-16a2-4403-916b-d117b0641616.png?auto=format",
-        "https://ph-files.imgix.net/8c4a1da9-60cf-41ad-a14a-4fc97912f0b7.png?auto=format",
-        "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
-        "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 88,
-      "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋AI code is difficult to review. So you have two options:1. Go through the painful review process, or2. Go YOLO mode and commit without reviews.If you care about maintenance of your codebase you will want to go through the pains review your code.Most code diff tools today were built for the past world - but AI scale of code is different.So I built seendiff - to scratch my own itch. It:1. Automatically keeps track of what code you've seen in a diff2. Keeps track of manually reviewed code blocks.3. Integrates a code walkthrough that lets your AI walk you through the code4. Other nifty features that matter - local global search, minimap etc.Im putting it up at https://seendiff.com in case its useful to someone else.Free. Open source.What does your agentic code review process look like?"
-        }
-      ]
-    },
-    {
       "id": "ph-yesterday-10",
       "date": "2026-08-23",
       "rank": 10,
@@ -13016,37 +13049,28 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-5",
+      "id": "ph-today-6",
       "date": "2026-08-29",
-      "rank": 5,
-      "name": "Neo",
-      "slug": "neo",
-      "tagline": "A novel-writing tool from the author of Silo",
-      "description": "NEO was created after using lots of writing tools and never quite finding \"the one.\" NEO doesn't try to do everything; it just wants you to get that rough draft written. Distraction free, minimal UI, see all your WIPs in one place, and most importantly, it formats your manuscripts to look like a book while you write. All you need for formatting is the Enter key. NEO does the rest.",
-      "category": "Open Source • Writing • GitHub • Books",
-      "categoryFa": "متن‌باز • نوشتن • گیت‌هاب • کتاب",
-      "url": "https://www.producthunt.com/products/neo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/afa43dbe-72d0-41d4-8b74-44734b270be3.png?auto=format",
+      "rank": 6,
+      "name": "publicdesktop.lol",
+      "slug": "publicdesktop-lol",
+      "tagline": "Public computer of the internet",
+      "description": "Buy a permanent $10 icon location on the internet's public computer, or bid to control its public song.",
+      "category": "Design Tools • Icons • Marketing",
+      "categoryFa": "ابزار طراحی • Icons • بازاریابی",
+      "url": "https://www.producthunt.com/products/publicdesktop-lol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/50b86114-7a9a-4398-9d36-7066b184b2be.png?auto=format",
       "screenshots": [
-        "https://ph-files.imgix.net/3f16f530-c34c-426d-bea8-aba443a3d89b.png?auto=format",
-        "https://ph-files.imgix.net/ad3beb4b-4008-4bd0-9c5a-35d92a7e3b32.png?auto=format",
-        "https://ph-files.imgix.net/45e1cc52-d1c1-4c5c-a2e1-f0dcd986c71e.png?auto=format"
+        "https://ph-files.imgix.net/932de7b5-41e3-4feb-8436-40816d9b4ae3.png?auto=format",
+        "https://ph-files.imgix.net/b6b2c5e5-b570-4bcf-914c-65f00fd2e381.png?auto=format",
+        "https://ph-files.imgix.net/7d9437af-d5c4-4578-a50a-f1fbc59e6a09.png?auto=format",
+        "https://ph-files.imgix.net/3f2d07a3-e6bb-441f-b125-4c9161589509.png?auto=format"
       ],
-      "maker": "Hugh Howey",
-      "makerTitle": "Author",
+      "maker": "Serhan",
+      "makerTitle": "building to make some fun screenshots",
       "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 87,
-      "websiteUrl": "https://www.producthunt.com/r/DTBFLEA2UBAF7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "If I ever write my autobiography, I want to use the writing app from the writer of Silo."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I can see so many things related to movies and series I have watched lately :D"
-        }
-      ]
+      "votes": 83,
+      "websiteUrl": "https://www.producthunt.com/r/VVTE3OMXQCBVCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29"
     },
     {
       "id": "ph-yesterday-10",
@@ -13090,31 +13114,6 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-6",
-      "date": "2026-08-29",
-      "rank": 6,
-      "name": "publicdesktop.lol",
-      "slug": "publicdesktop-lol",
-      "tagline": "Public computer of the internet",
-      "description": "Buy a permanent $10 icon location on the internet's public computer, or bid to control its public song.",
-      "category": "Design Tools • Icons • Marketing",
-      "categoryFa": "ابزار طراحی • Icons • بازاریابی",
-      "url": "https://www.producthunt.com/products/publicdesktop-lol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/50b86114-7a9a-4398-9d36-7066b184b2be.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/932de7b5-41e3-4feb-8436-40816d9b4ae3.png?auto=format",
-        "https://ph-files.imgix.net/b6b2c5e5-b570-4bcf-914c-65f00fd2e381.png?auto=format",
-        "https://ph-files.imgix.net/7d9437af-d5c4-4578-a50a-f1fbc59e6a09.png?auto=format",
-        "https://ph-files.imgix.net/3f2d07a3-e6bb-441f-b125-4c9161589509.png?auto=format"
-      ],
-      "maker": "Serhan",
-      "makerTitle": "building to make some fun screenshots",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 82,
-      "websiteUrl": "https://www.producthunt.com/r/VVTE3OMXQCBVCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": []
-    },
-    {
       "id": "ph-today-7",
       "date": "2026-08-29",
       "rank": 7,
@@ -13139,19 +13138,23 @@
       "maker": "Bilawal Sidhu",
       "makerTitle": "AI Creator, Ex-Google PM",
       "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 78,
+      "votes": 79,
       "websiteUrl": "https://www.producthunt.com/r/CFL7AKRNAWM4YD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
           "user": "[REDACTED]",
           "text": "This is why vibe coding is so cool. Who would have built this 10 years ago??"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Brother is this for real, is the data 100% accurate?"
         }
       ]
     },
     {
-      "id": "ph-today-8",
+      "id": "ph-today-9",
       "date": "2026-08-29",
-      "rank": 8,
+      "rank": 9,
       "name": "Cursor Craft v2",
       "slug": "cursor-craft-v2",
       "tagline": "Custom Mac cursors, rebuilt for v2",
@@ -13178,6 +13181,41 @@
         {
           "user": "[REDACTED]",
           "text": "Every demo GIF I record, the cursor is the one thing that looks wrong in the final frame. Does a custom one show up in screen recordings?"
+        }
+      ]
+    },
+    {
+      "id": "ph-today-8",
+      "date": "2026-08-29",
+      "rank": 8,
+      "name": "Mossy",
+      "slug": "mossy-2",
+      "tagline": " A desk plant that wilts when you need a break",
+      "description": "Mossy is a small plant that lives on your Mac desktop. The longer you sit without a break, the more it wilts. You write one sentence about what your breaks should be. Stretch my bad back. 20 push-ups. Teach me a Spanish word. Just make me stand up. An AI writes every break from that sentence, one task at a time, with a timer. It never blocks or dims your screen. Ignoring it is a normal way to use it. Free, no account, 1.4 MB, native, macOS 12+.",
+      "category": "Mac • Health & Fitness • Productivity",
+      "categoryFa": "مک • Health & Fitness • بهره‌وری",
+      "url": "https://www.producthunt.com/products/mossy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/d269b8da-d440-47b0-a722-6ba78e2b6d25.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/45b729a9-5531-4ae1-88de-e16c71403657.png?auto=format",
+        "https://ph-files.imgix.net/ef3deb7d-245b-4805-aa1c-15d5697e782c.jpeg?auto=format",
+        "https://ph-files.imgix.net/908fa3cb-8daf-491a-b22c-d246218f87f9.png?auto=format",
+        "https://ph-files.imgix.net/739c4613-6ae0-4391-a6d7-da4f4dc52a4d.png?auto=format",
+        "https://ph-files.imgix.net/e1d5a0b9-25da-4252-b176-d72bb7e483e5.jpeg?auto=format"
+      ],
+      "maker": "Mossy",
+      "makerTitle": "A desk plant. Breaks you write yourself",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 76,
+      "websiteUrl": "https://www.producthunt.com/r/P5QGOSUBJ3TMWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "I'm a developer and I sit about ten hours a day. My lower back has been going out on me for years. I also play basketball, and I tore my ACL last October, so this year has been surgery, physio, and even more chair than usual. My wife is an architect. Same laptop, same chair, same ten hours. We have a one year old, so \"just train in the evening\" is a fantasy. We built Mossy for the two of us, to kill the sitting, after deleting every break app we tried. They all failed the same way: the full screen break lands mid-sentence, you skip it, and a week later it's gone. So Mossy never blocks anything. It sits in the corner, wilts while you sit, and waits. Refusing a break is a normal way to use it, not a failure to correct. The second thing we needed was breaks that fit our own bodies. Mine needs hip and psoas work, hers doesn't, and no fixed stretch list was ever going to cover both. So you write one sentence and an AI writes each break from it. Your words decide what you do, and nothing in the app inspects what you asked for. Write \"20 push-ups\" or \"teach me a Spanish word\" and that is what you get. The key for that AI lives on a small relay, never in the app. The only things that leave your Mac are that one call and an anonymous daily ping you can switch off. No account, no tracking. It isn't medical advice, and the app says so itself. Free, native Swift, 1.4 MB, macOS 12+."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "One of the cutest visualisations I have seen today :)"
         }
       ]
     },
@@ -13587,12 +13625,12 @@
     }
   ],
   "audit": {
-    "products": 208,
-    "withRealComments": 207,
+    "products": 209,
+    "withRealComments": 208,
     "withPersianComments": 41,
     "withPersianDescription": 78,
     "withAiReview": 61,
     "withIranEquivalent": 78,
-    "totalRealComments": 1205
+    "totalRealComments": 1208
   }
 }
