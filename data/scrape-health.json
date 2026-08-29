@@ -1,11 +1,17 @@
 {
   "status": "failed",
-  "lastAttemptAt": "2026-08-28T04:46:16.765Z",
+  "lastAttemptAt": "2026-08-29T02:53:14.090Z",
   "lastSuccessAt": "2026-08-26T23:59:17.893Z",
-  "lastFailureAt": "2026-08-28T04:46:35.332Z",
+  "lastFailureAt": "2026-08-29T02:53:34.562Z",
   "lastFailureReason": "Refusing to publish incomplete scrape: - today: today contains no product with a real vote count",
-  "consecutiveFailures": 3,
+  "consecutiveFailures": 4,
   "recentRuns": [
+    {
+      "status": "failed",
+      "startedAt": "2026-08-29T02:53:14.090Z",
+      "finishedAt": "2026-08-29T02:53:34.562Z",
+      "error": "Refusing to publish incomplete scrape: - today: today contains no product with a real vote count"
+    },
     {
       "status": "failed",
       "startedAt": "2026-08-28T04:46:16.765Z",
