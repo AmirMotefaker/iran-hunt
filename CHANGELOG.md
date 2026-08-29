@@ -1,3 +1,10 @@
+# [1.51.0](https://github.com/IdehJo/idehjo/compare/v1.50.2...v1.51.0) (2026-08-29)
+
+
+### Features
+
+* prioritize unique daily corpus growth ([#51](https://github.com/IdehJo/idehjo/issues/51)) ([27a3d60](https://github.com/IdehJo/idehjo/commit/27a3d600c2bed43ae2df74052a9179a0e684cd02))
+
 ## [1.50.2](https://github.com/IdehJo/idehjo/compare/v1.50.1...v1.50.2) (2026-08-29)
 
 
