@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AmirMotefaker/iran-hunt.git"
+    "url": "https://github.com/IdehJo/idehjo.git"
   },
   "bugs": {
-    "url": "https://github.com/AmirMotefaker/iran-hunt/issues"
+    "url": "https://github.com/IdehJo/idehjo/issues"
   },
-  "homepage": "https://github.com/AmirMotefaker/iran-hunt#readme",
+  "homepage": "https://github.com/IdehJo/idehjo#readme",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
