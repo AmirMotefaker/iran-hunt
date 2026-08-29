@@ -1,3 +1,10 @@
+# [1.52.0](https://github.com/IdehJo/idehjo/compare/v1.51.0...v1.52.0) (2026-08-29)
+
+
+### Features
+
+* add autonomous enrichment backlog ([#53](https://github.com/IdehJo/idehjo/issues/53)) ([fb57d19](https://github.com/IdehJo/idehjo/commit/fb57d198f4a9e44a3ec21196620442f96399991c))
+
 # [1.51.0](https://github.com/IdehJo/idehjo/compare/v1.50.2...v1.51.0) (2026-08-29)
 
 
