@@ -31,7 +31,8 @@
     "scrape": "bun src/scripts/scrape.ts",
     "release": "semantic-release",
     "corpus:update": "bun src/scripts/update-corpus.ts",
-    "corpus:audit": "bun src/scripts/audit-corpus.ts"
+    "corpus:audit": "bun src/scripts/audit-corpus.ts",
+    "enrich:backlog": "bun src/scripts/enrich-today.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
