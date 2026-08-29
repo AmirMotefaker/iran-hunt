@@ -8,6 +8,7 @@ import type { DailyData, Product } from '@/types';
 const DATA_DIR = path.join(process.cwd(), 'data');
 const CORPUS_FILE = path.join(DATA_DIR, 'corpus.json');
 const HEALTH_FILE = path.join(DATA_DIR, 'corpus-health.json');
+const DEFAULT_DAILY_NEW_QUOTA = 10;
 
 async function main() {
   const files = (await readdir(DATA_DIR)).filter(isDailyDataFilename).sort().reverse();
@@ -21,12 +22,19 @@ async function main() {
     for (const product of latest.periods?.[key] ?? []) {
       if (!product?.slug) continue;
       const existing = unique.get(product.slug);
-      if (!existing || (product.votes ?? 0) > (existing.votes ?? 0)) unique.set(product.slug, product);
+      if (!existing || (product.votes ?? 0) > (existing.votes ?? 0)) {
+        unique.set(product.slug, product);
+      }
     }
   }
 
   const current = await loadCorpus();
-  const { corpus, report } = mergeProductsIntoCorpus(current, [...unique.values()]);
+  const { corpus, report } = mergeProductsIntoCorpus(
+    current,
+    [...unique.values()],
+    { maxNewProducts: DEFAULT_DAILY_NEW_QUOTA },
+  );
+
   corpus.sourceFiles = Math.max(current.sourceFiles, files.length);
   corpus.generatedAt = latest.scrapedAt || new Date().toISOString();
 
@@ -36,13 +44,26 @@ async function main() {
   await writeFile(HEALTH_FILE, JSON.stringify({
     checkedAt: new Date().toISOString(),
     latestDataset: latestName,
+    dailyNewQuota: DEFAULT_DAILY_NEW_QUOTA,
+    discovered: report.discovered,
+    canonical: report.canonical,
+    acceptedNew: report.acceptedNew,
+    duplicates: report.duplicates,
+    rejected: report.rejected,
     before: report.before,
     after: report.after,
     added: report.added,
     audit: report.audit,
   }, null, 2), 'utf8');
 
-  console.log(`✅ Corpus ${report.before} -> ${report.after} (+${report.added})`);
+  console.log('✅ Unique corpus growth complete');
+  console.log(`   dataset: ${latestName}`);
+  console.log(`   discovered: ${report.discovered}`);
+  console.log(`   canonical: ${report.canonical}`);
+  console.log(`   accepted new: ${report.acceptedNew}/${DEFAULT_DAILY_NEW_QUOTA}`);
+  console.log(`   duplicates: ${report.duplicates}`);
+  console.log(`   rejected: ${report.rejected}`);
+  console.log(`   corpus: ${report.before} -> ${report.after} (+${report.added})`);
 }
 
 main().catch((error) => {
