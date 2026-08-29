@@ -2,7 +2,7 @@ name: Nightly AI (Auto 2am)
 
 on:
   schedule:
-    - cron: '30 22 * * *'  # 2:00 بامداد تهران
+    - cron: '30 22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,24 +12,27 @@ jobs:
   enrich:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: oven-sh/setup-bun@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: 1) Scrape fresh top products (no AI)
+      - name: Scrape fresh top products
         env:
           PH_API_TOKEN: ${{ secrets.PH_API_TOKEN }}
         run: bun run scrape -- --no-ai
 
-      - name: 2) Enrich: comments + AI (today first, then backlog)
+      - name: Enrich comments and AI
         env:
           PH_API_TOKEN: ${{ secrets.PH_API_TOKEN }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -39,11 +42,11 @@ jobs:
       - name: Audit corpus after enrichment
         run: bun run corpus:audit
 
-      - name: Commit data
+      - name: Commit corpus data
+        shell: bash
         run: |
-          git config user.name "ربات ایده‌جو"
+          git config user.name "IdehJo Bot"
           git config user.email "bot@idehjo.ir"
           git add data
           git diff --cached --quiet || git commit -m "data: nightly scrape+enrich $(date +%F)"
           git push
-
