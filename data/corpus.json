@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T22:45:29.804Z",
-  "sourceFiles": 20,
+  "generatedAt": "2026-08-30T00:35:49.496Z",
+  "sourceFiles": 21,
   "products": [
     {
       "id": "ph-year-1",
@@ -5525,9 +5525,9 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-yesterday-1",
+      "id": "ph-week-9",
       "date": "2026-08-28",
-      "rank": 1,
+      "rank": 9,
       "name": "PageIndex",
       "slug": "pageindex-9",
       "tagline": "Accurate, trustworthy answers across professional documents",
@@ -5546,10 +5546,10 @@
         "https://ph-files.imgix.net/6ecd0626-9f07-4bde-93fc-f46833aff453.png?auto=format",
         "https://ph-files.imgix.net/fd144bdd-2151-4888-b045-80507a15226c.png?auto=format"
       ],
-      "maker": "Mingtian Zhang",
+      "maker": "[REDACTED]",
       "makerTitle": "Founder of PageIndex",
       "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 354,
+      "votes": 355,
       "websiteUrl": "https://www.producthunt.com/r/XN6ZYWE35L5YMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -7008,6 +7008,64 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nBrowserAct Cloud یک ابزار قدرتمند برای استخراج داده از وبسایت‌ها است که از یک عامل هوشمند AI استفاده می‌کند. این ابزار می‌تواند داده‌های استخراج شده را به صورت ساختار یافته در اختیار شما قرار دهد.\n🔹 معماری و تکنولوژی احتمالی:\nBrowserAct Cloud از تکنولوژی‌های مدرن مانند Next.js و PostgreSQL استفاده می‌کند.\n🔹 مدل درآمدی:\nBrowserAct Cloud می‌تواند از طریق فروش ابزار به شرکت‌ها و ارائه خدمات استخراج داده درآمد کسب کند.\n🔹 نقاط قوت:\n- استفاده از عامل هوشمند AI\n- استخراج داده‌های ساختار یافته\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای خارجی\n- به روز نگه داشتن ربات‌ها\n🔹 نکته طلایی برای بازار ایران:\nبازار ایران با توجه به رشد روزافزون استفاده از اینترنت و وبسایت‌ها، فرصت‌های زیادی برای استخراج داده و استفاده از آنها در زمینه‌های مختلف دارد."
     },
     {
+      "id": "ph-today-1",
+      "date": "2021-05-26",
+      "rank": 1,
+      "name": "Cohere",
+      "slug": "cohere-2",
+      "tagline": "See what your users are seeing, engage them with context.",
+      "description": "Cohere lets you see exactly how users interact with your web app, and offer a helping hand if they need it – it’s like you’re sitting right next to your users. With Cohere Replay, you can now get the seamless live Cohere experience, now retroactively.",
+      "category": "Web App • Productivity • Customer Communication • Growth Hacking",
+      "categoryFa": "وب اپلیکیشن • بهره‌وری • Customer Communication • Growth Hacking",
+      "url": "https://www.producthunt.com/products/cohere/launches/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/e32afccb-1459-4cfd-a7d1-c72d1bcd1c6f.gif?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/c3700885-e810-495b-b0f8-06d779662279.gif?auto=format",
+        "https://ph-files.imgix.net/33651075-8a6b-4560-b7ad-a07202455475.gif?auto=format",
+        "https://ph-files.imgix.net/0a9ba034-70ff-4afb-9423-6ed9008eccfe.gif?auto=format",
+        "https://ph-files.imgix.net/3ff5f93f-d8ea-4c84-aa4e-8d312b9b3d39.gif?auto=format"
+      ],
+      "maker": "Rahul Sengottuvelu",
+      "makerTitle": "Founder, Cohere (YC S20)",
+      "featuredAt": "2021-05-26T07:05:00Z",
+      "votes": 278,
+      "websiteUrl": "https://www.producthunt.com/r/20fcf39d7fb896?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Its look like a grate product."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Very useful"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I still can’t believe how quickly this team iterates. We’re big fans of Replay at Ramp. Replay has really helped us understand where our users are struggling so that we can optimize our most critical user flows."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "What a revolutionary product and on point execution indeed! I have a question though. Can we also track android/iOS app experience or is it only compatible with websites for now?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "It is really amazing"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Looks awesome! Great work! 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the launch and congrats Cohere team!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I wish I could say I'm the Cohere team's biggest fan, but we use this product every day. Now with this release, we don't need Hotjar, we can keep all of our screen recordings with easy url search inside Cohere. We love what the Cohere team is doing!"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-5",
       "date": "2026-08-05",
       "rank": 5,
@@ -7411,6 +7469,66 @@
         "confidence": 80
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nAssembly Studio یک سازنده اپلیکیشن هوش مصنوعی است که برای شرکت‌های ارائه‌دهنده خدمات حرفه‌ای طراحی شده است. این ابزار به شما امکان می‌دهد تا اپلیکیشن‌های خود را در چند دقیقه ایجاد کنید و به مشتریان خود ارائه دهید.\n🔹 معماری و تکنولوژی احتمالی:\nاستودیو مونتاژ می‌تواند با استفاده از فناوری‌های نوین مانند Next.js و PostgreSQL ساخته شود.\n🔹 مدل درآمدی:\nAssembly Studio می‌تواند از طریق فروش اپلیکیشن‌های سفارشی و ارائه خدمات مشاوره‌ای درآمدزایی کند.\n🔹 نقاط قوت:\n- استودیو مونتاژ می‌تواند به شرکت‌های ایرانی کمک کند تا اپلیکیشن‌های خود را به راحتی ایجاد کنند و از پرداخت هزینه‌های اضافی جلوگیری کنند.\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با شرکت‌های خارجی\n- عدم آشنایی با فناوری‌های نوین\n- کمبود منابع مالی\n🔹 نکته طلایی برای بازار ایران:\nاستودیو مونتاژ می‌تواند به شرکت‌های ایرانی کمک کند تا در بازار رقابتی خود را مطرح کنند و از فناوری‌های نوین برای ارائه خدمات بهتر استفاده کنند."
+    },
+    {
+      "id": "ph-today-2",
+      "date": "2026-08-29",
+      "rank": 2,
+      "name": "1752vc Pitch Deck Analyzer",
+      "slug": "1752vc-pitch-deck-analyzer",
+      "tagline": "Know what investors will say before you ever hit send.",
+      "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
+      "category": "Venture Capital • Artificial Intelligence • Fundraising",
+      "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
+      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
+        "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
+        "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
+        "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
+        "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
+        "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+      ],
+      "maker": "Lucas Pols",
+      "makerTitle": "GP of 1752vc",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 250,
+      "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The feedback I got was very useful. It would be even better if it gives examples in addition to comments. For example, one feedback I got was that there was no \"ask\" slide. Some tailored samples based on other slides in the deck would be very helpful."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@tmaleh_ Congratulations. And happy product launch."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "<sigh>I guess I'll be that guy. Folks, here are some rules you might want to consider.It's five core slides. 1) the problem 2) how big is it 3) the solution 4) how much do they pay 5) why you. Everything else builds upon 5 core points: problem/solution/how big/who pays/why you. Everything else builds on that. Which means:Don't pay for this stuff. I don't know what \"five free deck reviews\" means for this offer as it's not explained on their site, but like the nutty VC Boom stuff (look at the similar products ---->), this should not be your priority when it comes to spending money. build the MVP instead of obsessing over slides. Get on LinkedIn, Reddit, FB, wherever, and get some customers to see if the dogs will eat it. The friction to build is very low and the long tail theory says find customers for your solution as that's the best validation possible. A \"try it\" email, trumps 5 or 50 slides every. single. day. No investor (ever) has tried a product, loved it, and then bailed because of a crappy slide deck. VC firms, Angel Networks, Accelerators, all need deal flow and all have ways of getting it with this lemmie review your deck being one of them. Our man @ben_kahan, here posted a spray and pray list on LinkedIn of so-called angels with no links or any contact information. Head over there and look at the comments. Not saying Ben is a bad guy or doing evil things. I am pointing out that all of this not rainbows and puppy dogs or pro bono love. Ben wants deal flow. Nothing wrong with that. You, the new founder should go into this process with your eyes wide open.Your 20 dollar a month plan with get you a lot of help. Ask your chat bot to identify the nearest angel group in your area. There are tons of true pro bono types willing to help you with your end goals in mind; not theirs. And before you ask, I was a VC for 9 years and built 3 start up companies. I've seen this movie a few times.Good luck"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Such a great tool. The feedback was great!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Anything that will help us put our best foot forward when working to secure funding is deply appreciated. Having access to a tool built by investors to help identify where a deck needs improvement is invaluable."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on shipping! Thx for creating resources to help founders :)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I loved this when I was testing. Definitely a tool I can share with founders I know!"
+        }
+      ]
     },
     {
       "id": "ph-yesterday-3",
@@ -7877,66 +7995,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-today-1",
-      "date": "2026-08-29",
-      "rank": 1,
-      "name": "1752vc Pitch Deck Analyzer",
-      "slug": "1752vc-pitch-deck-analyzer",
-      "tagline": "Know what investors will say before you ever hit send.",
-      "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-      "category": "Venture Capital • Artificial Intelligence • Fundraising",
-      "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
-      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
-        "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
-        "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
-        "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
-        "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
-        "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
-      ],
-      "maker": "Lucas Pols",
-      "makerTitle": "GP of 1752vc",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 240,
-      "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "<sigh>I guess I'll be that guy. Folks, here are some rules you might want to consider.It's five core slides. 1) the problem 2) how big is it 3) the solution 4) how much do they pay 5) why you. Everything else builds upon 5 core points: problem/solution/how big/who pays/why you. Everything else builds on that. Which means:Don't pay for this stuff. I don't know what \"five free deck reviews\" means for this offer as it's not explained on their site, but like the nutty VC Boom stuff (look at the similar products ---->), this should not be your priority when it comes to spending money. build the MVP instead of obsessing over slides. Get on LinkedIn, Reddit, FB, wherever, and get some customers to see if the dogs will eat it. The friction to build is very low and the long tail theory says find customers for your solution as that's the best validation possible. A \"try it\" email, trumps 5 or 50 slides every. single. day. No investor (ever) has tried a product, loved it, and then bailed because of a crappy slide deck. VC firms, Angel Networks, Accelerators, all need deal flow and all have ways of getting it with this lemmie review your deck being one of them. Our man @ben_kahan, here posted a spray and pray list on LinkedIn of so-called angels with no links or any contact information. Head over there and look at the comments. Not saying Ben is a bad guy or doing evil things. I am pointing out that all of this not rainbows and puppy dogs or pro bono love. Ben wants deal flow. Nothing wrong with that. You, the new founder should go into this process with your eyes wide open.Your 20 dollar a month plan with get you a lot of help. Ask your chat bot to identify the nearest angel group in your area. There are tons of true pro bono types willing to help you with your end goals in mind; not theirs. And before you ask, I was a VC for 9 years and built 3 start up companies. I've seen this movie a few times.Good luck"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Such a great tool. The feedback was great!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Anything that will help us put our best foot forward when working to secure funding is deply appreciated. Having access to a tool built by investors to help identify where a deck needs improvement is invaluable."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on shipping! Thx for creating resources to help founders :)"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I loved this when I was testing. Definitely a tool I can share with founders I know!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Really impressed by the accuracy of the stage calibration on this. Testing our pre-seed deck surfaced issues ranging from missing technical lead context to unsourced figures. The distinction between critical fixes and quick wins makes prioritizing updates effortless."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I would love to see this open-sourced, or an ability to push this through MCP, so we can run our own agents with the rules and iterate on ideas, instead of just getting a check-up. Great idea, best of luck with your launch!"
-        }
-      ]
     },
     {
       "id": "ph-today-4",
@@ -9128,7 +9186,7 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-2",
+      "id": "ph-yesterday-2",
       "date": "2026-08-29",
       "rank": 2,
       "name": "Hy4 preview",
@@ -9155,12 +9213,16 @@
       "maker": "",
       "makerTitle": "",
       "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 177,
+      "votes": 180,
       "websiteUrl": "https://www.producthunt.com/r/MO6FCOZWR6JECM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
           "user": "[REDACTED]",
           "text": "Hi everyone!Hy4 preview is the next step after Hy3, and Tencent went much bigger this time. 770B total, 49B active, 1M context.Tencent built a lot of the training around real work from its own engineering and specialist teams. The model is meant to stay with a task when it gets long or messy.They also ran a blind eval with 163 internal experts across 203 engineering tasks. Hy4 preview came out slightly ahead of GLM 5.3 and Kimi K3 🤔It is open under Apache 2.0, and you can try it now through OpenRouter or @WorkBuddy.They are still calling it a preview. It overthinks and over-checks itself. Same habit as Hy3: put it out, see what breaks!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The overthinking you flagged is the part I would watch, not the eval. On long-horizon work the failure mode is rarely being wrong, it is spending the window re-verifying things it already settled, and 1M of room makes that both cheaper to do and harder to notice. 49B active decides whether anyone runs this outside a datacenter, but 770B total is still 770B you have to keep somewhere."
         },
         {
           "user": "[REDACTED]",
@@ -9521,6 +9583,45 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-3",
+      "date": "2026-08-29",
+      "rank": 3,
+      "name": "Cohere Parse 5",
+      "slug": "cohere-parse-5",
+      "tagline": "Turn complex docs, tables & images into AI-ready data",
+      "description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
+      "category": "API • Artificial Intelligence",
+      "categoryFa": "API • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
+        "https://ph-files.imgix.net/578b15dc-6e30-4e80-b085-52f73b86f9f3.png?auto=format",
+        "https://ph-files.imgix.net/d6808902-dfbd-4071-8d9b-bd288988c17e.png?auto=format",
+        "https://ph-files.imgix.net/54c4a7dd-9bca-4f7f-985e-99bc8435be7a.png?auto=format",
+        "https://ph-files.imgix.net/0b453b08-fd6f-40ad-9600-9db1109132e9.png?auto=format"
+      ],
+      "maker": "",
+      "makerTitle": "",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 163,
+      "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Parse is Cohere's document vision parsing model for turning enterprise files into AI-ready data.Problem: Enterprise documents (scans, PDFs, contracts, invoices) are messy, unstructured, and full of tables, diagrams, and charts. Most AI agents and search tools can't reliably read them, so companies end up doing manual review and data entry just to make documents usable.Solution: A document parsing model that combines OCR with multimodal understanding, turning complex files into clean, structured data that downstream AI agents and applications can actually use.What makes it different: It doesn't just extract text, it understands layout, tables, and diagrams together, and returns visual grounding (bounding boxes) so every extracted piece of data can be traced back to its exact location on the page. That's what makes citations and source attribution possible downstream.Key features:OCR for scanned and digital documentsMultimodal parsing for tables, diagrams, and images embedded in documentsVisual grounding with bounding boxes for highlighting and source attributionSupport for 9 major commercial languagesDeploy via API, Model Vault, AWS SageMaker, Azure, or fully on-prem/air-gapped Benefits: Less manual document review, more reliable AI search and retrieval, and document context AI agents can actually reason over instead of guessing at.Who it is for: Enterprises with high document volumes (claims, contracts, invoices, reports) building internal AI search, RAG pipelines, or multimodal agents.Use cases: Automating claims/contract/invoice processing, improving chunking and retrieval quality for semantic search, giving AI agents full document context including tables and visual grounding.Try here"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The bounding boxes are the part I would lead with. Extraction quality is close to table stakes now, but almost nothing hands you a coordinate to point at, so when an agent asserts something from a contract you still cannot show a human the exact clause it read. Traceability is what makes this usable in anything with consequences."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Wow mate! It looks awesome. I take OKR too seriously so feel it can be really helpful. Wish you all the best here"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-6",
       "date": "2026-08-07",
       "rank": 6,
@@ -9737,41 +9838,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-today-3",
-      "date": "2026-08-29",
-      "rank": 3,
-      "name": "Cohere Parse 5",
-      "slug": "cohere-parse-5",
-      "tagline": "Turn complex docs, tables & images into AI-ready data",
-      "description": "Parse is Cohere's document vision parsing model. It transforms unstructured data in enterprise images and documents into structured data that downstream AI agents and applications can use. Handles OCR, tables/diagrams/images, and visual grounding via bounding boxes, across 9 languages. Deploy via API, cloud, or fully on-prem/air-gapped.",
-      "category": "API • Artificial Intelligence",
-      "categoryFa": "API • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/924bedda-43e0-4c98-92cc-a7f212d6195a.png?auto=format",
-        "https://ph-files.imgix.net/578b15dc-6e30-4e80-b085-52f73b86f9f3.png?auto=format",
-        "https://ph-files.imgix.net/d6808902-dfbd-4071-8d9b-bd288988c17e.png?auto=format",
-        "https://ph-files.imgix.net/54c4a7dd-9bca-4f7f-985e-99bc8435be7a.png?auto=format",
-        "https://ph-files.imgix.net/0b453b08-fd6f-40ad-9600-9db1109132e9.png?auto=format"
-      ],
-      "maker": "",
-      "makerTitle": "",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 155,
-      "websiteUrl": "https://www.producthunt.com/r/LFCJ26EGCCWVWE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Parse is Cohere's document vision parsing model for turning enterprise files into AI-ready data.Problem: Enterprise documents (scans, PDFs, contracts, invoices) are messy, unstructured, and full of tables, diagrams, and charts. Most AI agents and search tools can't reliably read them, so companies end up doing manual review and data entry just to make documents usable.Solution: A document parsing model that combines OCR with multimodal understanding, turning complex files into clean, structured data that downstream AI agents and applications can actually use.What makes it different: It doesn't just extract text, it understands layout, tables, and diagrams together, and returns visual grounding (bounding boxes) so every extracted piece of data can be traced back to its exact location on the page. That's what makes citations and source attribution possible downstream.Key features:OCR for scanned and digital documentsMultimodal parsing for tables, diagrams, and images embedded in documentsVisual grounding with bounding boxes for highlighting and source attributionSupport for 9 major commercial languagesDeploy via API, Model Vault, AWS SageMaker, Azure, or fully on-prem/air-gapped Benefits: Less manual document review, more reliable AI search and retrieval, and document context AI agents can actually reason over instead of guessing at.Who it is for: Enterprises with high document volumes (claims, contracts, invoices, reports) building internal AI search, RAG pipelines, or multimodal agents.Use cases: Automating claims/contract/invoice processing, improving chunking and retrieval quality for semantic search, giving AI agents full document context including tables and visual grounding.Try here"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Wow mate! It looks awesome. I take OKR too seriously so feel it can be really helpful. Wish you all the best here"
-        }
-      ]
     },
     {
       "id": "ph-yesterday-7",
@@ -10562,6 +10628,55 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-today-3",
+      "date": "2026-08-29",
+      "rank": 3,
+      "name": "seendiff",
+      "slug": "seendiff",
+      "tagline": "Code diff viewer with progress tracking",
+      "description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
+      "category": "Open Source • Software Engineering • GitHub",
+      "categoryFa": "متن‌باز • Software Engineering • گیت‌هاب",
+      "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/42bdb542-49e5-40d8-a4ef-11688d0111cd.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
+        "https://ph-files.imgix.net/2bb73d68-d6d1-4e1e-a620-00f0273e49c0.png?auto=format",
+        "https://ph-files.imgix.net/38c37fa4-107e-4364-9013-c4c252eb0665.png?auto=format",
+        "https://ph-files.imgix.net/1b3ffc59-16a2-4403-916b-d117b0641616.png?auto=format",
+        "https://ph-files.imgix.net/8c4a1da9-60cf-41ad-a14a-4fc97912f0b7.png?auto=format",
+        "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
+        "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
+      ],
+      "maker": "Abhishek Iyer",
+      "makerTitle": "",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 134,
+      "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋AI code is difficult to review. So you have two options:1. Go through the painful review process, or2. Go YOLO mode and commit without reviews.If you care about maintenance of your codebase you will want to go through the pains review your code.Most code diff tools today were built for the past world - but AI scale of code is different.So I built seendiff - to scratch my own itch. It:1. Automatically keeps track of what code you've seen in a diff2. Keeps track of manually reviewed code blocks.3. Integrates a code walkthrough that lets your AI walk you through the code4. Other nifty features that matter - local global search, minimap etc.Im putting it up at https://seendiff.com in case its useful to someone else.Free. Open source.What does your agentic code review process look like?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Seen-state is the right primitive. The thing I keep wanting next to it is why-state, because a hunk I skimmed for two seconds and one I actually reasoned about both end up marked seen, and on a 900 line agent diff those are not remotely the same risk."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I often loose track of what I already reviewed and what’s pending, so I get where that pain comes from :))"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the \"what you've seen in a diff\" tracking is the part that'd actually get me to use this daily. is that state local to the machine/clone, or does it sync somewhere if I review on my laptop and then pull the same branch on a different machine later"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love that seendiff pulls the coding agent in to explain its own diffs, turning review from a chore into a guided walkthrough of large AI generated changes."
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-7",
       "date": "2026-08-06",
       "rank": 7,
@@ -10677,51 +10792,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-today-4",
-      "date": "2026-08-29",
-      "rank": 4,
-      "name": "seendiff",
-      "slug": "seendiff",
-      "tagline": "Code diff viewer with progress tracking",
-      "description": "Coding agent can create huge code diffs. Someone still has to read it. seendiff is a local diff tool for large changes. Track what you've seen, review in chunks, and pull the coding agent in to explain its own work.",
-      "category": "Open Source • Software Engineering • GitHub",
-      "categoryFa": "متن‌باز • Software Engineering • گیت‌هاب",
-      "url": "https://www.producthunt.com/products/seendiff?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/42bdb542-49e5-40d8-a4ef-11688d0111cd.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format",
-        "https://ph-files.imgix.net/2bb73d68-d6d1-4e1e-a620-00f0273e49c0.png?auto=format",
-        "https://ph-files.imgix.net/38c37fa4-107e-4364-9013-c4c252eb0665.png?auto=format",
-        "https://ph-files.imgix.net/1b3ffc59-16a2-4403-916b-d117b0641616.png?auto=format",
-        "https://ph-files.imgix.net/8c4a1da9-60cf-41ad-a14a-4fc97912f0b7.png?auto=format",
-        "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
-        "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 132,
-      "websiteUrl": "https://www.producthunt.com/r/22PJM2KITAJVVG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋AI code is difficult to review. So you have two options:1. Go through the painful review process, or2. Go YOLO mode and commit without reviews.If you care about maintenance of your codebase you will want to go through the pains review your code.Most code diff tools today were built for the past world - but AI scale of code is different.So I built seendiff - to scratch my own itch. It:1. Automatically keeps track of what code you've seen in a diff2. Keeps track of manually reviewed code blocks.3. Integrates a code walkthrough that lets your AI walk you through the code4. Other nifty features that matter - local global search, minimap etc.Im putting it up at https://seendiff.com in case its useful to someone else.Free. Open source.What does your agentic code review process look like?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I often loose track of what I already reviewed and what’s pending, so I get where that pain comes from :))"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the \"what you've seen in a diff\" tracking is the part that'd actually get me to use this daily. is that state local to the machine/clone, or does it sync somewhere if I review on my laptop and then pull the same branch on a different machine later"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love that seendiff pulls the coding agent in to explain its own diffs, turning review from a chore into a guided walkthrough of large AI generated changes."
-        }
-      ]
     },
     {
       "id": "ph-yesterday-7",
@@ -12642,6 +12712,58 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-today-4",
+      "date": "2026-06-18",
+      "rank": 4,
+      "name": "Tiles: Map Your Adventures",
+      "slug": "tiles-map-your-adventures",
+      "tagline": "Turn Apple Health workouts into a private route map",
+      "description": "Tiles turns Apple Health workouts, GPX, FIT, CSV, and photos into one local-first private exploration map. See everywhere your walks, runs, hikes, rides, and trips have taken you, spot the gaps you have not explored yet, and share milestones without creating an account.",
+      "category": "Health & Fitness • Maps • Fitness",
+      "categoryFa": "Health & Fitness • Maps • تناسب اندام",
+      "url": "https://www.producthunt.com/products/tiles-map-your-adventures/launches/tiles-map-your-adventures?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/082e674d-7e91-4071-9559-6f65bf9fb0b3.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/93e539f3-a2e6-4f9b-9022-fa83d710a346.png?auto=format",
+        "https://ph-files.imgix.net/b7d7a627-0c37-46af-96ba-5b5c84fad4fa.png?auto=format",
+        "https://ph-files.imgix.net/18ab2794-f8bc-44ed-85db-10f8ec35be8a.png?auto=format",
+        "https://ph-files.imgix.net/e5295fa0-4b58-4d94-8107-72f01195a224.png?auto=format",
+        "https://ph-files.imgix.net/989eb9d3-8179-4b62-918b-91433a5b1ff8.png?auto=format",
+        "https://ph-files.imgix.net/a5dafa22-c906-42c4-8878-72027909b7bf.jpeg?auto=format"
+      ],
+      "maker": "Erik Handeland",
+      "makerTitle": "💻",
+      "featuredAt": "2026-06-18T07:01:00Z",
+      "votes": 107,
+      "websiteUrl": "https://www.producthunt.com/r/JUKG4MV26LBST2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Does it stay fully offline, and can you selectively share a milestone without revealing your home area?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The “spot the gaps you haven’t explored yet” idea is a nice motivator. It makes movement feel more like discovering your own map, without turning route history into another social feed."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "hah, that's cute, like playing a game or uncovering a HOMM3 map"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I like the idea, especially because I love travelling and active lifestyle. What will be the price in the future?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How would you compare Tiles to Bump (by amo)? If someone is already using Bump, what would be the main reason to switch to Tiles? Is it the local-first approach, Apple Health/workout imports, privacy, GPX/FIT/CSV support, or something else?Also curious about monetization. Since the app is currently free, do you plan to keep it that way long term, or are you considering some kind of paid tier, subscription, donations, or other sustainability model in the future?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Product Hunt! 👋 I'm excited to share Tiles with you today. I originally built Tiles to solve a personal problem: I had years of hiking trails and trips recorded on my Apple Watch, and wanted a way to see all of it in one place. Once I built my demo, I realized I kept visiting the same places over and over. Tiles became an easy way to see nearby areas that I'd never explored before. It pushed me to break out of my routine and explore new places.As I shared early versions, almost everyone asked for the same thing: \"How do I add friends?\", \"where can I see other people Score?\" I wrestled with this for a while. I always imagined Tiles as offline and local first, but everyone I showed it to wanted some kind of social feature.I did not want to build another fitness social network, so I tried to keep the fun parts of sharing without turning the app into a feed. Tiles has shareable cards for scores, milestones, and year-in-review style stats, without needing to upload your full route history anywhere. Does that feel like the right tradeoff, have you had to make similar decisions between privacy and social features?For the Product Hunt launch, I set up an early explorer offer: 3 months free of Tiles Pro.I’d love to hear your feedback or questions. How would you use Tiles: as a memory map for old routes, a way to find new places to explore, or something else entirely?"
+        }
+      ]
+    },
+    {
       "id": "ph-today-10",
       "date": "2026-08-26",
       "rank": 10,
@@ -13038,9 +13160,9 @@
       ]
     },
     {
-      "id": "ph-today-8",
+      "id": "ph-today-5",
       "date": "2026-08-29",
-      "rank": 8,
+      "rank": 5,
       "name": "God’s Eye View",
       "slug": "god-s-eye-view",
       "tagline": "Spy satellite simulator in your browser but the data is real",
@@ -13062,7 +13184,7 @@
       "maker": "Bilawal Sidhu",
       "makerTitle": "Blending reality and imagination",
       "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 93,
+      "votes": 94,
       "websiteUrl": "https://www.producthunt.com/r/CFL7AKRNAWM4YD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -13762,12 +13884,12 @@
     }
   ],
   "audit": {
-    "products": 210,
-    "withRealComments": 210,
+    "products": 212,
+    "withRealComments": 212,
     "withPersianComments": 41,
     "withPersianDescription": 78,
     "withAiReview": 61,
     "withIranEquivalent": 78,
-    "totalRealComments": 1235
+    "totalRealComments": 1252
   }
 }
