@@ -1,3 +1,10 @@
+## [1.52.1](https://github.com/IdehJo/idehjo/compare/v1.52.0...v1.52.1) (2026-08-30)
+
+
+### Bug Fixes
+
+* keep nightly enrichment running on degraded scrape ([#57](https://github.com/IdehJo/idehjo/issues/57)) ([03f4581](https://github.com/IdehJo/idehjo/commit/03f458148d27d4b293b36bfe0c8be8e716340855))
+
 # [1.52.0](https://github.com/IdehJo/idehjo/compare/v1.51.0...v1.52.0) (2026-08-29)
 
 
