@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T22:54:17.428Z",
-  "sourceFiles": 21,
+  "generatedAt": "2026-08-31T00:47:47.635Z",
+  "sourceFiles": 22,
   "products": [
     {
       "id": "ph-year-1",
@@ -1058,6 +1058,61 @@
       }
     },
     {
+      "id": "ph-today-1",
+      "date": "2024-07-29",
+      "rank": 1,
+      "name": "Topview.ai",
+      "slug": "topview-ai",
+      "tagline": "Turns links or media assets into viral videos in one click",
+      "description": "Topview is an online AI video editor that turns your links or media assets into viral videos in one click, powered by Youtube, Tiktok, & Facebook ads library. It's the best editor to automate the creation, editing, and enhancement of videos with AI.",
+      "category": "Advertising • Artificial Intelligence • Video",
+      "categoryFa": "Advertising • هوش مصنوعی • ویدیو",
+      "url": "https://www.producthunt.com/products/topview-ai/launches/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/0819b9ae-62f5-491a-bf3a-5f4bac67483a.vnd.microsoft.icon?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/5825c738-8975-44fd-818e-35397164aed0.png?auto=format",
+        "https://ph-files.imgix.net/cc041851-d6cd-4c3f-b4da-854551b6feba.png?auto=format",
+        "https://ph-files.imgix.net/34794f03-ea6a-4a3d-be28-595dabedef16.png?auto=format",
+        "https://ph-files.imgix.net/2efc54e9-7bb9-4853-8c5b-0ab1d74a7e20.png?auto=format",
+        "https://ph-files.imgix.net/a5c37408-a590-4fc2-ac71-8f627dfa5b54.jpeg?auto=format"
+      ],
+      "maker": "Jensen Wu",
+      "makerTitle": "",
+      "featuredAt": "2024-07-29T07:01:00Z",
+      "votes": 798,
+      "websiteUrl": "https://www.producthunt.com/r/WWHWCMWF4J6WYM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hello Product Hunt! 👋 I'm Joy Chow, the COO of Topview, and I'm beyond excited to share something super cool with you today! 🌟 At Topview, we’re all about making your life easier and your brand shine brighter. Our journey started with a simple dream: to help every business, big or small, create amazing marketing videos without breaking a sweat (or the bank). We’ve seen so many small businesses struggle to get noticed, and we thought, \"Hey, we can help with that!\" So, here it is – our AI video generator! 🎥✨ With just a product link, you can whip up stunning marketing videos in no time. Our AI is like your secret weapon, using insights from over 5 million trending videos to make sure your content has that viral magic. And guess what? You get to choose from 80+ avatars and speak in over 100 languages. It’s like having a whole production studio in your pocket! Why you'll love Topview: - Instant Video Creation: Just drop a product link, and boom – you’ve got a video! - AI-Powered Insights: We’ve crunched the numbers from 5 million viral videos to help you stand out. - Tons of Avatars: Pick from over 80 avatars to make your videos pop. - Global Reach: Communicate in 100+ languages and connect with audiences everywhere. We’re not just a tech company; we’re your friends in the video-making biz. We want to make sure you have fun while creating awesome content. So, let’s get creative together! We’d love for you to join our journey. Follow us on Twitter：https://x.com/TopViewAI and YouTube: https://www.youtube.com/channel/... for all the latest tips, tricks, and updates. And don’t be shy – hop into our Discord community: https://discord.com/invite/jFFcC... and say hi! We’re here to chat, help out, and share some laughs. Thanks for being part of our story. We can’t wait to see what you create with Topview! Catch you soon, Joy Zhou COO, Topview.AI"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "It sounds like this is good news for small companies to do product marketing! It saves a lot of expenses, and the operation is simple and the effect is increased. It is worth a try！"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Surprisingly very useful! I haven’t seen such a practical and helpful project in a long time. Great job, guys! One suggestion: it might make sense to add a cheaper plan, maybe around $9.99 for 50 videos per month. I don’t need 120 videos."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "congratulations, it hard to launch a product and Topview looks like a real time saver. Llooking forward to exploring the possibilities"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The founder of upcoming ngo called not today foundation programs ara creating teams vocational training skills training and maney more"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Thank you for your support and interest! If you're looking to enhance your content creation and marketing strategies, I highly recommend checking out TopView.ai. This innovative tool can help you gain valuable insights and optimize your approach with ease. Give it a try to elevate your results and achieve your goals!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Félicitations pour le lancement de Topview! C'est un outil remarquable !"
+        }
+      ]
+    },
+    {
       "id": "ph-month-1",
       "date": "2026-07-20",
       "rank": 1,
@@ -1951,7 +2006,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "AI PhD exploring knowledge tools",
       "featuredAt": "2026-08-19T07:01:00Z",
-      "votes": 617,
+      "votes": 619,
       "websiteUrl": "https://www.producthunt.com/r/OTKPG4D4Y4NG66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -2294,7 +2349,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "Open Source Voice Agent Platform- Dograh",
       "featuredAt": "2026-08-12T07:01:00Z",
-      "votes": 579,
+      "votes": 580,
       "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -5796,9 +5851,9 @@
       }
     },
     {
-      "id": "ph-yesterday-1",
+      "id": "ph-week-10",
       "date": "2026-08-29",
-      "rank": 1,
+      "rank": 10,
       "name": "1752vc Pitch Deck Analyzer",
       "slug": "1752vc-pitch-deck-analyzer",
       "tagline": "Know what investors will say before you ever hit send.",
@@ -5815,10 +5870,10 @@
         "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
         "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
       ],
-      "maker": "Lucas Pols",
+      "maker": "[REDACTED]",
       "makerTitle": "GP of 1752vc",
       "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 336,
+      "votes": 337,
       "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -7639,6 +7694,67 @@
       }
     },
     {
+      "id": "ph-yesterday-1",
+      "date": "2026-08-30",
+      "rank": 1,
+      "name": "Topview Motion Studio",
+      "slug": "topview-motion-studio",
+      "tagline": "Create launch videos without touching After Effects",
+      "description": "Motion Studio helps teams create polished launch videos for apps, hardware, and new products without learning After Effects or hiring a motion design studio. Describe what you want to communicate, upload reference images, and choose a visual style, duration, and aspect ratio. Motion Studio combines AI video models with purpose-built motion design skills to turn your brief into high-quality product storytelling—faster, simpler, and at a fraction of the traditional cost.",
+      "category": "Design Tools • Productivity • Artificial Intelligence",
+      "categoryFa": "ابزار طراحی • بهره‌وری • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/f296b06e-853e-458e-a508-25653fc07371.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/3d37b9e0-e01f-43c5-9ec4-482ff3fbabfd.png?auto=format",
+        "https://ph-files.imgix.net/871c02d1-0996-4130-a8a4-f29a117ff0f1.png?auto=format",
+        "https://ph-files.imgix.net/2d48bf5e-68b1-4be5-b147-0909b2d59280.png?auto=format",
+        "https://ph-files.imgix.net/6e171aad-1a8f-4f20-be3a-2417ec7f2aa7.png?auto=format",
+        "https://ph-files.imgix.net/0979a273-3374-48aa-a056-f30c1e6f157f.png?auto=format",
+        "https://ph-files.imgix.net/5cb35a56-8205-47f7-b9ee-f6617ce83ae0.png?auto=format",
+        "https://ph-files.imgix.net/d7605c87-ce6c-47a8-85d6-52d8cf521040.jpeg?auto=format"
+      ],
+      "maker": "Winwin Zhang",
+      "makerTitle": "",
+      "featuredAt": "2026-08-30T07:01:00Z",
+      "votes": 248,
+      "websiteUrl": "https://www.producthunt.com/r/25TEFO4TYMRPSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Got on the site to try this, added my prompt + images which was multiple lines, when i submitted it asked for singnup but after succesful login, the prompt that images i submitted vanished :\" , do i have to purchase credits to start? if thats the case where can i resume this chat from?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is awesome for indie hackers. How’s the rendering speed during peak hours?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Motion Studio seems incredibly intuitive compared to the steep learning curve of After Effects, which I've always struggled with. How well does it handle rendering complex 3D product imports if I have my own assets?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This looks exciting, congrats on the launch Can it repurpose videos?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Reference images plus a style choice is a much narrower ask than a blank prompt box. How close does the first render usually land?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "put the interface doing the actual thing as frame one and cut the title card entirely. that was the whole gallery decision for me yesterday, everything after it mattered less. aaron oleary has said a weak gallery makes him skim past a listing, so its not only polish. what id want from motion studio is a mode that spits the stills out too. i built both by hand and it was the same story twice :)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This feels especially useful for small teams where the maker is also doing all the launch content."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "looks good. We normally settle for a screen recording because motion design takes too much time."
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-2",
       "date": "2026-08-23",
       "rank": 2,
@@ -7997,67 +8113,6 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-1",
-      "date": "2026-08-30",
-      "rank": 1,
-      "name": "Topview Motion Studio",
-      "slug": "topview-motion-studio",
-      "tagline": "Create launch videos without touching After Effects",
-      "description": "Motion Studio helps teams create polished launch videos for apps, hardware, and new products without learning After Effects or hiring a motion design studio. Describe what you want to communicate, upload reference images, and choose a visual style, duration, and aspect ratio. Motion Studio combines AI video models with purpose-built motion design skills to turn your brief into high-quality product storytelling—faster, simpler, and at a fraction of the traditional cost.",
-      "category": "Design Tools • Productivity • Artificial Intelligence",
-      "categoryFa": "ابزار طراحی • بهره‌وری • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/f296b06e-853e-458e-a508-25653fc07371.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/3d37b9e0-e01f-43c5-9ec4-482ff3fbabfd.png?auto=format",
-        "https://ph-files.imgix.net/871c02d1-0996-4130-a8a4-f29a117ff0f1.png?auto=format",
-        "https://ph-files.imgix.net/2d48bf5e-68b1-4be5-b147-0909b2d59280.png?auto=format",
-        "https://ph-files.imgix.net/6e171aad-1a8f-4f20-be3a-2417ec7f2aa7.png?auto=format",
-        "https://ph-files.imgix.net/0979a273-3374-48aa-a056-f30c1e6f157f.png?auto=format",
-        "https://ph-files.imgix.net/5cb35a56-8205-47f7-b9ee-f6617ce83ae0.png?auto=format",
-        "https://ph-files.imgix.net/d7605c87-ce6c-47a8-85d6-52d8cf521040.jpeg?auto=format"
-      ],
-      "maker": "Winwin Zhang",
-      "makerTitle": "",
-      "featuredAt": "2026-08-30T07:01:00Z",
-      "votes": 241,
-      "websiteUrl": "https://www.producthunt.com/r/25TEFO4TYMRPSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Got on the site to try this, added my prompt + images which was multiple lines, when i submitted it asked for singnup but after succesful login, the prompt that images i submitted vanished :\" , do i have to purchase credits to start? if thats the case where can i resume this chat from?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This is awesome for indie hackers. How’s the rendering speed during peak hours?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Motion Studio seems incredibly intuitive compared to the steep learning curve of After Effects, which I've always struggled with. How well does it handle rendering complex 3D product imports if I have my own assets?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This looks exciting, congrats on the launch Can it repurpose videos?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Reference images plus a style choice is a much narrower ask than a blank prompt box. How close does the first render usually land?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "put the interface doing the actual thing as frame one and cut the title card entirely. that was the whole gallery decision for me yesterday, everything after it mattered less. aaron oleary has said a weak gallery makes him skim past a listing, so its not only polish. what id want from motion studio is a mode that spits the stills out too. i built both by hand and it was the same story twice :)"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This feels especially useful for small teams where the maker is also doing all the launch content."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "looks good. We normally settle for a screen recording because motion design takes too much time."
-        }
-      ]
-    },
-    {
       "id": "ph-today-4",
       "date": "2026-08-26",
       "rank": 4,
@@ -8160,6 +8215,62 @@
         {
           "user": "[REDACTED]",
           "text": "does it work in the us only? and how much?"
+        }
+      ]
+    },
+    {
+      "id": "ph-yesterday-2",
+      "date": "2026-08-30",
+      "rank": 2,
+      "name": "Hyperfocus",
+      "slug": "hyperfocus-3",
+      "tagline": "Planner that turns goals into daily progress",
+      "description": "Hyperfocus is a free, goals-first planner for macOS. It helps you choose the few outcomes that matter most, plan weeks and days around them, and make consistent progress by doing focused work",
+      "category": "Productivity • Task Management • Developer Tools",
+      "categoryFa": "بهره‌وری • مدیریت وظایف • ابزار توسعه‌دهندگان",
+      "url": "https://www.producthunt.com/products/hyperfocus-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/b72461b3-896f-4097-80b6-ab15af381a96.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/5b558482-76e8-4e90-bd5c-964ad8cc98d4.png?auto=format",
+        "https://ph-files.imgix.net/0f430f4d-3c00-4687-8fb2-fe39a4034691.png?auto=format",
+        "https://ph-files.imgix.net/eb7d1138-373f-49f0-bcad-5dde7995598a.png?auto=format",
+        "https://ph-files.imgix.net/a56fba6a-e24c-4679-a97e-928bf8354e2f.png?auto=format",
+        "https://ph-files.imgix.net/9c19141f-e3b0-44b0-ad88-d33100cc9ed2.png?auto=format",
+        "https://ph-files.imgix.net/6b915b9d-32df-4c20-b782-8942f65d898e.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-30T07:01:00Z",
+      "votes": 235,
+      "websiteUrl": "https://www.producthunt.com/r/WIPDN746ZT7D27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey everyone, Dmitri is here!It feels so good to be back on Product Hunt after almost 10 years!Today I’m launching Hyperfocus – a free, goals-first planner for Mac.I’ve spent the last several years coaching focus to product people in tech, and I’ve always felt that task managers got productivity wrong.Why? First, they're really good at capturing and organizing tasks, but they start from an inbox – teaching you to react instead of deciding what actually matters. Second, most planners don’t really have an opinion on how you should work, so many people end up with a long list of todos that makes them feel busy without making them productive.Hyperfocus takes a different approach. First, it starts from goals – you decide what matters most in the next few months, then plan your weeks and days around them.Second, it’s built on a simple belief: focusing on a few clear goals is better than checking off a long list of todos. So as you write, it gives you feedback on your goals and plans, and then helps to make them clear and realistic. So what’s inside?One workspace that connects long-term goals to weeks and daysGrammarly-like feedback on your goals and plansAI for planning, prioritization, and goal settingLong-term, weekly, and daily planning ritualsFocus sessionsLocal first, small, fast.The app is free. Download it for Mac: https://hyperfocus.inHyperfocus is still early, and any feedback would be really helpful! If the problem and the promise resonate – I’d love for you to try Hyperfocus and tell me what you think. Does it fit into your workflow? What is missing? How does it make you feel?That feedback would help a lot! Let's focus 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Thinking of a Mobile app anytime soon?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "What kind of Integrations do you have?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love it. One function that would be nice is an export (or tell me where you store the data on my Mac :)) so I can sync my daily tasks to Todoist."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the goals-first framing is the right call, and the bit id watch is what happens when a goal stops being true. mine tend to die quietly. they sit at the top of the list for weeks after ive mentally moved on, and every week i plan under one of those im inheriting a decision i wouldnt make again today. does hyperfocus ever push back on an old goal, or is retiring one entirely on me? the feedback-on-your-goals part is what id be most careful with. a badly worded goal is easy to spot. a well worded wrong goal survives every review, and grammarly style polish tends to make the second kind more convincing rather than less. one habit thats worked for me and isnt in most planners: i write the count down after each unit of work instead of at the end of the day. drift shows up in minutes rather than at 11pm when its too late to do anything about it."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love that this starts with your goals instead of just another to-do list, feels way more useful than most planners out there. Quick question: what happens if your goals shift mid week, does Hyperfocus help you adjust or do you have to redo the whole plan?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "My week usually fills with tasks that have nothing to do with the goal I wrote down. Does it push back when the day drifts off the goal?"
         }
       ]
     },
@@ -8281,62 +8392,6 @@
         "confidence": 75
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\n- مشکل اصلی در این زمینه، نیاز به مدل‌های هوش مصنوعی محلی است که بتوانند به صورت آفلاین و بدون نیاز به ترمینال اجرا و آموزش داده شوند.\n- Unsloth Desktop یک راه حل مناسب برای این مشکل است.\n🔹 معماری و تکنولوژی احتمالی:\n- این برنامه از معماری بومی دسکتاپ برای سیستم عامل‌های مک، ویندوز و لینوکس استفاده می‌کند.\n- همچنین از تکنولوژی‌های مانند Next.js و PostgreSQL استفاده می‌کند.\n🔹 مدل درآمدی:\n- فروش برنامه\n- پشتیبانی و خدمات پس از فروش\n🔹 نقاط قوت:\n- امکان اجرای مدل‌های هوش مصنوعی محلی\n- استفاده از گردش کار بدون کد\n- رایگان و منبع باز\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با برنامه‌های مشابه\n- نیاز به دانش و تخصص در زمینه هوش مصنوعی\n- محدودیت‌های موجود در کشور\n🔹 نکته طلایی برای بازار ایران:\n- استفاده از مدل‌های هوش مصنوعی محلی می‌تواند یک راه حل مناسب برای بسیاری از مشاغل و سازمان‌ها در ایران باشد."
-    },
-    {
-      "id": "ph-today-2",
-      "date": "2026-08-30",
-      "rank": 2,
-      "name": "Hyperfocus",
-      "slug": "hyperfocus-3",
-      "tagline": "Planner that turns goals into daily progress",
-      "description": "Hyperfocus is a free, goals-first planner for macOS. It helps you choose the few outcomes that matter most, plan weeks and days around them, and make consistent progress by doing focused work",
-      "category": "Productivity • Task Management • Developer Tools",
-      "categoryFa": "بهره‌وری • مدیریت وظایف • ابزار توسعه‌دهندگان",
-      "url": "https://www.producthunt.com/products/hyperfocus-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/b72461b3-896f-4097-80b6-ab15af381a96.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/5b558482-76e8-4e90-bd5c-964ad8cc98d4.png?auto=format",
-        "https://ph-files.imgix.net/0f430f4d-3c00-4687-8fb2-fe39a4034691.png?auto=format",
-        "https://ph-files.imgix.net/eb7d1138-373f-49f0-bcad-5dde7995598a.png?auto=format",
-        "https://ph-files.imgix.net/a56fba6a-e24c-4679-a97e-928bf8354e2f.png?auto=format",
-        "https://ph-files.imgix.net/9c19141f-e3b0-44b0-ad88-d33100cc9ed2.png?auto=format",
-        "https://ph-files.imgix.net/6b915b9d-32df-4c20-b782-8942f65d898e.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-30T07:01:00Z",
-      "votes": 227,
-      "websiteUrl": "https://www.producthunt.com/r/WIPDN746ZT7D27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey everyone, Dmitri is here!It feels so good to be back on Product Hunt after almost 10 years!Today I’m launching Hyperfocus – a free, goals-first planner for Mac.I’ve spent the last several years coaching focus to product people in tech, and I’ve always felt that task managers got productivity wrong.Why? First, they're really good at capturing and organizing tasks, but they start from an inbox – teaching you to react instead of deciding what actually matters. Second, most planners don’t really have an opinion on how you should work, so many people end up with a long list of todos that makes them feel busy without making them productive.Hyperfocus takes a different approach. First, it starts from goals – you decide what matters most in the next few months, then plan your weeks and days around them.Second, it’s built on a simple belief: focusing on a few clear goals is better than checking off a long list of todos. So as you write, it gives you feedback on your goals and plans, and then helps to make them clear and realistic. So what’s inside?One workspace that connects long-term goals to weeks and daysGrammarly-like feedback on your goals and plansAI for planning, prioritization, and goal settingLong-term, weekly, and daily planning ritualsFocus sessionsLocal first, small, fast.The app is free. Download it for Mac: https://hyperfocus.inHyperfocus is still early, and any feedback would be really helpful! If the problem and the promise resonate – I’d love for you to try Hyperfocus and tell me what you think. Does it fit into your workflow? What is missing? How does it make you feel?That feedback would help a lot! Let's focus 🚀"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Thinking of a Mobile app anytime soon?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "What kind of Integrations do you have?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love it. One function that would be nice is an export (or tell me where you store the data on my Mac :)) so I can sync my daily tasks to Todoist."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the goals-first framing is the right call, and the bit id watch is what happens when a goal stops being true. mine tend to die quietly. they sit at the top of the list for weeks after ive mentally moved on, and every week i plan under one of those im inheriting a decision i wouldnt make again today. does hyperfocus ever push back on an old goal, or is retiring one entirely on me? the feedback-on-your-goals part is what id be most careful with. a badly worded goal is easy to spot. a well worded wrong goal survives every review, and grammarly style polish tends to make the second kind more convincing rather than less. one habit thats worked for me and isnt in most planners: i write the count down after each unit of work instead of at the end of the day. drift shows up in minutes rather than at 11pm when its too late to do anything about it."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love that this starts with your goals instead of just another to-do list, feels way more useful than most planners out there. Quick question: what happens if your goals shift mid week, does Hyperfocus help you adjust or do you have to redo the whole plan?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "My week usually fills with tasks that have nothing to do with the goal I wrote down. Does it push back when the day drifts off the goal?"
-        }
-      ]
     },
     {
       "id": "ph-today-6",
@@ -8855,6 +8910,66 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nپردازشگر هوشمند یک مدل کارآمد و هوشمند برای کد نویسی و جریان‌های کاری एजنت است که بر اساس نیازهای بازار ایران توسعه یافته است. این مدل قادر به xửلی وظایف مهندسی نرم‌افزار پیچیده، برنامه‌ریزی چند مرحله‌ای و एजنت‌های خودمختار است، در حالی که سرعت و کارایی را حفظ می‌کند.\n🔹 معماری و تکنولوژی احتمالی:\nپردازشگر هوشمند می‌تواند بر اساس معماری‌های مختلف مانند میکروسرویس‌ها و مونولیت‌ها توسعه یابد. از تکنولوژی‌های مختلف مانند Python و TensorFlow می‌توان برای توسعه مدل استفاده کرد.\n🔹 مدل درآمدی:\nپردازشگر هوشمند می‌تواند از طریق فروش مدل به شرکت‌های فناوری و ارائه خدمات مشاوره برای توسعه مدل درآمدزایی کند.\n🔹 نقاط قوت:\n- پردازشگر هوشمند قادر به xửلی وظایف مهندسی نرم‌افزار پیچیده است\n- پردازشگر هوشمند دارای سرعت و کارایی بالاست\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با مدل‌های موجود\n- نیاز به آموزش و توسعه تیم\n🔹 نکته طلایی برای بازار ایران:\nپردازشگر هوشمند می‌تواند به توسعه دهندگان نرم‌افزار و شرکت‌های فناوری در ایران کمک کند تا محصولات مبتنی بر هوش مصنوعی و جریان‌های کاری خودکار را توسعه دهند."
     },
     {
+      "id": "ph-yesterday-3",
+      "date": "2026-08-30",
+      "rank": 3,
+      "name": "Olostep",
+      "slug": "olostep-2",
+      "tagline": "Turn the Web into Clean Data for AI",
+      "description": "Olostep provides scalable web data APIs, specifically designed for the web’s second user - AI. Effortlessly turn any URL into LLM-ready Markdown, JSON, or structured data and use the API for agentic search workflows",
+      "category": "API • Developer Tools • Artificial Intelligence",
+      "categoryFa": "API • ابزار توسعه‌دهندگان • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/olostep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/9f71f133-0ee8-428a-ae18-4907c3fdc40e.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/6604fdc1-e1d7-4abd-a135-fb96c0918f22.png?auto=format",
+        "https://ph-files.imgix.net/4339e586-f89b-4420-a11a-97d4a30a6ef7.png?auto=format",
+        "https://ph-files.imgix.net/11c39073-6c27-40e6-b8e4-2a45a2a74a54.png?auto=format",
+        "https://ph-files.imgix.net/c3b85be8-2332-4a36-84fe-e7b462cfeb96.png?auto=format",
+        "https://ph-files.imgix.net/94824626-de57-4b44-b219-a757fd91e77c.png?auto=format",
+        "https://ph-files.imgix.net/5a4ff97f-6f2d-4fcc-91ec-c91bf0fa88fb.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-30T07:01:00Z",
+      "votes": 196,
+      "websiteUrl": "https://www.producthunt.com/r/ULWMLW4DJVACDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋AI agents are becoming the Web’s second user.But most agents still access the web like humans do: open tabs, wait for pages, fight JavaScript, parse messy HTML, maintain brittle scrapers, retry failed jobs, and hope the data is fresh.That felt backwards.So @hamza_ali59 built Olostep: web infrastructure for AI agents - one API to search, scrape, crawl, map, monitor, and structure live web data for AI products and automation workflows.What you can do with Olostep:🔎 Search the live web with natural language queries🧹 Scrape any URL into clean Markdown, HTML, JSON, screenshots, PDFs, or raw content🕸️ Crawl entire websites and retrieve LLM-ready pages🗺️ Map a domain and discover URLs beyond basic sitemaps⚡ Batch process large URL lists for production data pipelines📡 Monitor pages, prices, job openings, DOM changes, content updates, and business signals🤖 Answer questions with web-grounded sources and structured output🧩 Connect it to your stack with SDKs, CLI, MCP, n8n, LangChain, Mastra, Apify, Zapier, Cursor, Claude, and moreWhy Hamza built this:The bottleneck for AI products is often not the model anymore.It’s the web layer.Agents need fresh, structured, reliable data from the real world. Not stale training data. Not one-off browser scripts. Not scrapers that break every time a website changes.We believe the next generation of AI companies will need a production-grade way for agents to read, reason over, and act on the web.That is what Olostep is becoming.Who it is for:AI teams building agents, copilots, and RAG pipelinesDevelopers who need clean web data without maintaining scraping infrastructureGrowth, sales, and data teams enriching companies, leads, spreadsheets, and CRMsSEO / GEO teams monitoring brand visibility across search and AI answersRecruiting, finance, research, ecommerce, and competitive intelligence teams automating web researchTry this today:Give Olostep one messy web workflow you currently do manually - for example:“monitor 50 competitor pricing pages every week”“crawl these docs and turn them into clean RAG context”“extract structured product data from a marketplace”“find companies hiring for a specific role and enrich them”…and Olostep should help turn that workflow into clean, structured data your app or agent can actually use.🧪 Try it: Get a free API key📚 Docs: Read the docs💬 Community: Join our Slack🎁 Product Hunt launch offer: They are giving PH builders 80% off for the first month, on any plan! Use code PH80 or comment here after signing up and we’ll help you get set up.Excited to hear what you think :)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey! I'm Arslan, one of the cofounders of Olostep. We are building Web Data Infrastructure for AI. We believe the Web is the backbone of all businesses and where humanity's collective knowledge resides. Humans have used it for other 30 years. Now we have a new user and consumer on the web: AI agents. These thinking machines need a new infrastructure custom built for them to allow them to complete actual work. We are starting with a suite of web data APIs to allow agents to search, extract and structure data from the Web. You can try the product for free from our website: olostep.comIf you have any question feel free to reach out on SlackThanks. Excited to see what you and the AI agents deployed in your businesses will build with it!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey, Congrats with the launch! Interesting project. Would love to know what are Olosteps main differences with other scraping workflows on the market?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "really useful infrastructure for agents, getting clean, fresh web data without maintaining brittle scrapers is not a huge win."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Among everything I've tried to scrape content of web, Olostep has been the most powerful. You could literally to 10K urls just within a few minutes. I also find endpoints like /answers that gets me the direct answer to questions on web without writing my own search logic, and they work pretty fast. Congrats on the launch."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the monitor piece is the one id want to hear most about. diffing a page is easy, deciding what counts as a change is the actual problem. my first attempt at this fired on every deploy becuase nav markup and timestamps moved, and i had it muted inside a week, which is the worst possible outcome since the alert is still technically working. whats the unit of identity for a monitored page over time? if a site reorganises its url structure or moves the same content behind a different route, does olostep read that as the same page changed or as a page gone. that one decision is what determines whether monitoring survives six months of contact with a real site. and are extraction schemas versioned? when a field stops appearing i want to know whether the site changed or my schema did, and most tools collapse both into null."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Does it also preserve enough page context for AI agents to understand relationships between different pieces of web data?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How do you decide when parsers should handle extraction versus letting the model interpret the data?"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-5",
       "date": "2026-08-24",
       "rank": 5,
@@ -9101,54 +9216,6 @@
         "confidence": 75
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nمرورگرهای موجود برای کاربران انسانی طراحی شده‌اند و برای نمایندگان هوش مصنوعی مناسب نیستند. BrowserOS neo یک مرورگر اختصاصی برای نمایندگان هوش مصنوعی است که به آنها امکان می‌دهد تا کارهای تکراری و خسته‌کننده را انجام دهند.\n🔹 معماری و تکنولوژی احتمالی:\nBrowserOS neo می‌تواند بر اساس تکنولوژی‌های وب مدرن مانند Next.js و PostgreSQL ساخته شود.\n🔹 مدل درآمدی:\nفروش مرورگر به سازمان‌ها و ارائه خدمات پشتیبانی و به روز رسانی می‌تواند مدل درآمدی باشد.\n🔹 نقاط قوت:\n- افزایش بهره‌وری و کارایی\n- امکان انجام کارهای تکراری و خسته‌کننده توسط نمایندگان هوش مصنوعی\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با مرورگرهای موجود\n- ایجاد یک رابط کاربری آسان و کاربردی\n🔹 نکته طلایی برای بازار ایران:\nفرصت بازار برای مرورگرهای هوشمند در ایران بسیار زیاد است و با ارائه یک مرورگر هوشمند می‌توانیم نیازهای این بازار را برطرف کنیم."
-    },
-    {
-      "id": "ph-today-3",
-      "date": "2026-08-30",
-      "rank": 3,
-      "name": "Olostep",
-      "slug": "olostep-2",
-      "tagline": "Turn the Web into Clean Data for AI",
-      "description": "Olostep provides scalable web data APIs, specifically designed for the web’s second user - AI. Effortlessly turn any URL into LLM-ready Markdown, JSON, or structured data and use the API for agentic search workflows",
-      "category": "API • Developer Tools • Artificial Intelligence",
-      "categoryFa": "API • ابزار توسعه‌دهندگان • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/olostep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/9f71f133-0ee8-428a-ae18-4907c3fdc40e.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/6604fdc1-e1d7-4abd-a135-fb96c0918f22.png?auto=format",
-        "https://ph-files.imgix.net/4339e586-f89b-4420-a11a-97d4a30a6ef7.png?auto=format",
-        "https://ph-files.imgix.net/11c39073-6c27-40e6-b8e4-2a45a2a74a54.png?auto=format",
-        "https://ph-files.imgix.net/c3b85be8-2332-4a36-84fe-e7b462cfeb96.png?auto=format",
-        "https://ph-files.imgix.net/94824626-de57-4b44-b219-a757fd91e77c.png?auto=format",
-        "https://ph-files.imgix.net/5a4ff97f-6f2d-4fcc-91ec-c91bf0fa88fb.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-30T07:01:00Z",
-      "votes": 193,
-      "websiteUrl": "https://www.producthunt.com/r/ULWMLW4DJVACDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋AI agents are becoming the Web’s second user.But most agents still access the web like humans do: open tabs, wait for pages, fight JavaScript, parse messy HTML, maintain brittle scrapers, retry failed jobs, and hope the data is fresh.That felt backwards.So @hamza_ali59 built Olostep: web infrastructure for AI agents - one API to search, scrape, crawl, map, monitor, and structure live web data for AI products and automation workflows.What you can do with Olostep:🔎 Search the live web with natural language queries🧹 Scrape any URL into clean Markdown, HTML, JSON, screenshots, PDFs, or raw content🕸️ Crawl entire websites and retrieve LLM-ready pages🗺️ Map a domain and discover URLs beyond basic sitemaps⚡ Batch process large URL lists for production data pipelines📡 Monitor pages, prices, job openings, DOM changes, content updates, and business signals🤖 Answer questions with web-grounded sources and structured output🧩 Connect it to your stack with SDKs, CLI, MCP, n8n, LangChain, Mastra, Apify, Zapier, Cursor, Claude, and moreWhy Hamza built this:The bottleneck for AI products is often not the model anymore.It’s the web layer.Agents need fresh, structured, reliable data from the real world. Not stale training data. Not one-off browser scripts. Not scrapers that break every time a website changes.We believe the next generation of AI companies will need a production-grade way for agents to read, reason over, and act on the web.That is what Olostep is becoming.Who it is for:AI teams building agents, copilots, and RAG pipelinesDevelopers who need clean web data without maintaining scraping infrastructureGrowth, sales, and data teams enriching companies, leads, spreadsheets, and CRMsSEO / GEO teams monitoring brand visibility across search and AI answersRecruiting, finance, research, ecommerce, and competitive intelligence teams automating web researchTry this today:Give Olostep one messy web workflow you currently do manually - for example:“monitor 50 competitor pricing pages every week”“crawl these docs and turn them into clean RAG context”“extract structured product data from a marketplace”“find companies hiring for a specific role and enrich them”…and Olostep should help turn that workflow into clean, structured data your app or agent can actually use.🧪 Try it: Get a free API key📚 Docs: Read the docs💬 Community: Join our Slack🎁 Product Hunt launch offer: They are giving PH builders 80% off for the first month, on any plan! Use code PH80 or comment here after signing up and we’ll help you get set up.Excited to hear what you think :)"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Hey, Congrats with the launch! Interesting project. Would love to know what are Olosteps main differences with other scraping workflows on the market?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "really useful infrastructure for agents, getting clean, fresh web data without maintaining brittle scrapers is not a huge win."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Among everything I've tried to scrape content of web, Olostep has been the most powerful. You could literally to 10K urls just within a few minutes. I also find endpoints like /answers that gets me the direct answer to questions on web without writing my own search logic, and they work pretty fast. Congrats on the launch."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the monitor piece is the one id want to hear most about. diffing a page is easy, deciding what counts as a change is the actual problem. my first attempt at this fired on every deploy becuase nav markup and timestamps moved, and i had it muted inside a week, which is the worst possible outcome since the alert is still technically working. whats the unit of identity for a monitored page over time? if a site reorganises its url structure or moves the same content behind a different route, does olostep read that as the same page changed or as a page gone. that one decision is what determines whether monitoring survives six months of contact with a real site. and are extraction schemas versioned? when a field stops appearing i want to know whether the site changed or my schema did, and most tools collapse both into null."
-        }
-      ]
     },
     {
       "id": "ph-yesterday-5",
@@ -9740,9 +9807,9 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-4",
+      "id": "ph-today-2",
       "date": "2026-08-30",
-      "rank": 4,
+      "rank": 2,
       "name": "Prequel",
       "slug": "prequel-2",
       "tagline": "Create cinematic screen recordings on your Mac",
@@ -9959,6 +10026,69 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-6",
+      "date": "2026-08-30",
+      "rank": 6,
+      "name": "Murfy AI",
+      "slug": "murfy-ai",
+      "tagline": "Write, review, and publish to arXiv 10x faster",
+      "description": "Murfy is a team of AI agents for the entire research writing workflow. Murfy helps to write and review your paper in context, fix LaTeX compile errors on the spot, verify reference papers and generate Beamer slides in minutes. Work with unlimited collaborators, real-time editing, free to start.",
+      "category": "Productivity • Writing • Artificial Intelligence",
+      "categoryFa": "بهره‌وری • نوشتن • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/murfy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/b31d43d8-2d1d-4faf-95ce-597c3d6f86f7.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/2de19048-8860-472c-a321-eb06224123df.png?auto=format",
+        "https://ph-files.imgix.net/dae5dc65-8780-499b-a646-5ad537802135.png?auto=format",
+        "https://ph-files.imgix.net/f54d54e4-214d-47c5-ab2d-fe5751378e8b.png?auto=format",
+        "https://ph-files.imgix.net/2303f94d-6da7-4a23-97b0-56092b540d04.png?auto=format",
+        "https://ph-files.imgix.net/ff49cd80-3b80-41ec-98e4-18af33e6b1e3.png?auto=format",
+        "https://ph-files.imgix.net/3a4a1d33-eff6-4f21-956c-dac99d93fa1b.png?auto=format",
+        "https://ph-files.imgix.net/1fa5d38d-d3af-4133-852f-34df825c5a99.png?auto=format",
+        "https://ph-files.imgix.net/b8d8c5cb-535c-4c51-b240-ce03723dd2b7.png?auto=format",
+        "https://ph-files.imgix.net/912458dc-5872-44cc-8cda-990a4da518e9.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-30T07:01:00Z",
+      "votes": 159,
+      "websiteUrl": "https://www.producthunt.com/r/MPGY4SMRHXCRMC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt!I'm Shounan, founder of Murple, the team behind Murfy.Over the past 15 years I've written 10+ papers accepted at top-tier AI conferences (AAAI, EMNLP, SIGGRAPH, IROS), all in Overleaf. Every single time, the research wasn't the hard part, it was the writing. (Here's My Google Scholar if you're curious)Formatting references at 2 A.M. before a deadline. Chasing co-authors for edits I needed yesterday. LaTeX compile errors with no useful message. Rebuilding the same slides from scratch for every single conference. I kept asking myself: we have AI agents now, why is research writing still this hard?So we built Murfy. Not another AI writing assistant bolted onto an editor, but an agent that actually works through the writing process with you: drafts with you, reviews your paper, revises based on reviewer comments, fixes your compile errors, and builds your Beamer slides.Researchers in 120+ countries are using it now, and we're growing 50-100% month over month. There's still a lot we want to improve, though, so I'd love to hear from anyone who's ever fought with a technical writing tool:What’s the one part of research or technical writing that you hate doing and wish an AI agent would just take care of?Tell me in the comments. I read all of them, and they'll shape what we build next."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on the launch @shounan_an This looks slick. What part of the research workflow are users saving the most time on so far?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I've never considered attempting to publish to arXiv, but if I did, I imagine @Murfy AI would be super clutch and save me a ton of hassle dealing with LaTeX!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations @shounan_an ive tested it and it feels fast and it does solve issue for multi collaboration, only 2 issues i found in my 2nd iteration while adding and editing a Report1. Even after replacing my report in the latex editor i was not able to get rid of the first page saying \"Murfy Guide\"2. I was chatting with Murfy AI and somehow it responded with Korean language (Hangugeo)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How does this compare to overleaf by digital science?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "answering the actual question: reformatting the same paper's citations and bibliography for a different venue after a rejection is my most hated part. every conference has its own citation style and reference format, and redoing that by hand for the third submission of the same paper feels like pure busywork with zero intellectual content. if Murfy can detect the target venue's style and just re-flow the references, that alone would sell me."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Thank you for publishing the product. I was a heavy LaTex User and it was my favorite way to write my thesis. Still I use Latex for lot of different purposes. Good Luck."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The auto LaTeX error fixing sounds great, that's always such a pain. Does it work well with custom templates too, or mostly standard ones?"
+        }
+      ]
+    },
+    {
       "id": "ph-today-5",
       "date": "2026-08-30",
       "rank": 5,
@@ -10010,65 +10140,6 @@
         {
           "user": "[REDACTED]",
           "text": "Could firms also track workflows save the most staff time after adoption?"
-        }
-      ]
-    },
-    {
-      "id": "ph-today-6",
-      "date": "2026-08-30",
-      "rank": 6,
-      "name": "Murfy AI",
-      "slug": "murfy-ai",
-      "tagline": "Write, review, and publish to arXiv 10x faster",
-      "description": "Murfy is a team of AI agents for the entire research writing workflow. Murfy helps to write and review your paper in context, fix LaTeX compile errors on the spot, verify reference papers and generate Beamer slides in minutes. Work with unlimited collaborators, real-time editing, free to start.",
-      "category": "Productivity • Writing • Artificial Intelligence",
-      "categoryFa": "بهره‌وری • نوشتن • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/murfy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/b31d43d8-2d1d-4faf-95ce-597c3d6f86f7.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/2de19048-8860-472c-a321-eb06224123df.png?auto=format",
-        "https://ph-files.imgix.net/dae5dc65-8780-499b-a646-5ad537802135.png?auto=format",
-        "https://ph-files.imgix.net/f54d54e4-214d-47c5-ab2d-fe5751378e8b.png?auto=format",
-        "https://ph-files.imgix.net/2303f94d-6da7-4a23-97b0-56092b540d04.png?auto=format",
-        "https://ph-files.imgix.net/ff49cd80-3b80-41ec-98e4-18af33e6b1e3.png?auto=format",
-        "https://ph-files.imgix.net/3a4a1d33-eff6-4f21-956c-dac99d93fa1b.png?auto=format",
-        "https://ph-files.imgix.net/1fa5d38d-d3af-4133-852f-34df825c5a99.png?auto=format",
-        "https://ph-files.imgix.net/b8d8c5cb-535c-4c51-b240-ce03723dd2b7.png?auto=format",
-        "https://ph-files.imgix.net/912458dc-5872-44cc-8cda-990a4da518e9.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-30T07:01:00Z",
-      "votes": 157,
-      "websiteUrl": "https://www.producthunt.com/r/MPGY4SMRHXCRMC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt!I'm Shounan, founder of Murple, the team behind Murfy.Over the past 15 years I've written 10+ papers accepted at top-tier AI conferences (AAAI, EMNLP, SIGGRAPH, IROS), all in Overleaf. Every single time, the research wasn't the hard part, it was the writing. (Here's My Google Scholar if you're curious)Formatting references at 2 A.M. before a deadline. Chasing co-authors for edits I needed yesterday. LaTeX compile errors with no useful message. Rebuilding the same slides from scratch for every single conference. I kept asking myself: we have AI agents now, why is research writing still this hard?So we built Murfy. Not another AI writing assistant bolted onto an editor, but an agent that actually works through the writing process with you: drafts with you, reviews your paper, revises based on reviewer comments, fixes your compile errors, and builds your Beamer slides.Researchers in 120+ countries are using it now, and we're growing 50-100% month over month. There's still a lot we want to improve, though, so I'd love to hear from anyone who's ever fought with a technical writing tool:What’s the one part of research or technical writing that you hate doing and wish an AI agent would just take care of?Tell me in the comments. I read all of them, and they'll shape what we build next."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I've never considered attempting to publish to arXiv, but if I did, I imagine @Murfy AI would be super clutch and save me a ton of hassle dealing with LaTeX!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congratulations @shounan_an ive tested it and it feels fast and it does solve issue for multi collaboration, only 2 issues i found in my 2nd iteration while adding and editing a Report1. Even after replacing my report in the latex editor i was not able to get rid of the first page saying \"Murfy Guide\"2. I was chatting with Murfy AI and somehow it responded with Korean language (Hangugeo)"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "How does this compare to overleaf by digital science?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "answering the actual question: reformatting the same paper's citations and bibliography for a different venue after a rejection is my most hated part. every conference has its own citation style and reference format, and redoing that by hand for the third submission of the same paper feels like pure busywork with zero intellectual content. if Murfy can detect the target venue's style and just re-flow the references, that alone would sell me."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Thank you for publishing the product. I was a heavy LaTex User and it was my favorite way to write my thesis. Still I use Latex for lot of different purposes. Good Luck."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The auto LaTeX error fixing sounds great, that's always such a pain. Does it work well with custom templates too, or mostly standard ones?"
         }
       ]
     },
@@ -10577,9 +10648,9 @@
       ]
     },
     {
-      "id": "ph-yesterday-4",
+      "id": "ph-today-3",
       "date": "2026-08-29",
-      "rank": 4,
+      "rank": 3,
       "name": "seendiff",
       "slug": "seendiff",
       "tagline": "Code diff viewer with progress tracking",
@@ -10597,7 +10668,7 @@
         "https://ph-files.imgix.net/a6f9b526-70c8-40a8-a314-f9215e6ea3cb.png?auto=format",
         "https://ph-files.imgix.net/db2eed3d-fb94-4011-b865-3713031a0d20.png?auto=format"
       ],
-      "maker": "[REDACTED]",
+      "maker": "Abhishek Iyer",
       "makerTitle": "",
       "featuredAt": "2026-08-29T07:01:00Z",
       "votes": 145,
@@ -10609,7 +10680,7 @@
         },
         {
           "user": "[REDACTED]",
-          "text": "took me a second to realise it had marked a hunk seen that i basically just scrolled past @abhishek_iyer . went back to that file twice more the same night and by the third pass i wasnt trusting the marks at alll."
+          "text": "Seen-state is the right primitive. The thing I keep wanting next to it is why-state, because a hunk I skimmed for two seconds and one I actually reasoned about both end up marked seen, and on a 900 line agent diff those are not remotely the same risk."
         },
         {
           "user": "[REDACTED]",
@@ -10756,9 +10827,9 @@
       ]
     },
     {
-      "id": "ph-yesterday-5",
+      "id": "ph-today-3",
       "date": "2026-08-29",
-      "rank": 5,
+      "rank": 3,
       "name": "Neo",
       "slug": "neo",
       "tagline": "A novel-writing tool from the author of Silo",
@@ -10784,7 +10855,7 @@
         },
         {
           "user": "[REDACTED]",
-          "text": "This looks great and I can't wait to try it, although I have to say I do appreciate my Pomera DM250 for drafting!"
+          "text": "I like the idea of just sitting in a transatlantic flight and jotting plot ideas away without having to open a laptop. Does it also support voice notes?"
         },
         {
           "user": "[REDACTED]",
@@ -14221,12 +14292,12 @@
     }
   ],
   "audit": {
-    "products": 218,
-    "withRealComments": 218,
+    "products": 219,
+    "withRealComments": 219,
     "withPersianComments": 41,
     "withPersianDescription": 78,
     "withAiReview": 61,
     "withIranEquivalent": 78,
-    "totalRealComments": 1294
+    "totalRealComments": 1305
   }
 }
