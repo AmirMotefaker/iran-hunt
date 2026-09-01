@@ -2,40 +2,116 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-body {
-  background: #faf9f7;
-  color: #0a0a0a;
-  transition: background 0.3s ease, color 0.3s ease;
+:root {
+  --brand: #ff6154;
+  --page-bg: #f8f8f7;
+  --text-main: #111113;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 97, 84, 0.035), transparent 28rem),
+    var(--page-bg);
+  color: var(--text-main);
+  min-height: 100vh;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
 .dark body {
-  background: #0a0a0c;
-  color: #f0f0f3;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 97, 84, 0.06), transparent 30rem),
+    #09090b;
+  color: #f4f4f5;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 ::selection {
-  background: #ff6154;
+  background: var(--brand);
   color: white;
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(18px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.fade-up   { animation: fade-up 0.7s ease both; }
-.fade-up-1 { animation: fade-up 0.7s 0.12s ease both; }
-.fade-up-2 { animation: fade-up 0.7s 0.24s ease both; }
-.fade-up-3 { animation: fade-up 0.7s 0.36s ease both; }
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
 
-/* Blink animation for "آنلاین" badge */
-@keyframes blink-dot {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.4; transform: scale(0.85); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.blink { animation: blink-dot 1.4s ease-in-out infinite; }
+
+.fade-up {
+  animation: fade-up 0.55s ease both;
+}
+
+.fade-up-1 {
+  animation: fade-up 0.55s 0.08s ease both;
+}
+
+.fade-up-2 {
+  animation: fade-up 0.55s 0.16s ease both;
+}
+
+.fade-up-3 {
+  animation: fade-up 0.55s 0.24s ease both;
+}
+
+@keyframes blink-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.45;
+    transform: scale(0.86);
+  }
+}
+
+.blink {
+  animation: blink-dot 1.4s ease-in-out infinite;
+}
 
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 rgba(255, 97, 84, 0.6); }
-  70% { box-shadow: 0 0 0 8px rgba(255, 97, 84, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 97, 84, 0); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 97, 84, 0.5);
+  }
+
+  70% {
+    box-shadow: 0 0 0 8px rgba(255, 97, 84, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 97, 84, 0);
+  }
 }
-.pulse-ring { animation: pulse-ring 2s ease-out infinite; }
+
+.pulse-ring {
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
