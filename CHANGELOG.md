@@ -1,3 +1,10 @@
+# [1.53.0](https://github.com/IdehJo/idehjo/compare/v1.52.2...v1.53.0) (2026-09-01)
+
+
+### Features
+
+* finalize homepage and mobile navigation ([#61](https://github.com/IdehJo/idehjo/issues/61)) ([824b108](https://github.com/IdehJo/idehjo/commit/824b108fca3345bd216ba149b6c3a535456a0d63))
+
 ## [1.52.2](https://github.com/IdehJo/idehjo/compare/v1.52.1...v1.52.2) (2026-09-01)
 
 
