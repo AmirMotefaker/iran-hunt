@@ -61,7 +61,7 @@ function SearchBox({ mobile = false }: { mobile?: boolean }) {
             setOpen(false);
             router.push(`/search?q=${encodeURIComponent(q.trim())}`);
           }
-        }
+        }}
         placeholder="جستجوی ایده یا محصول…"
         className={`w-full rounded-2xl border border-gray-200 bg-gray-50/80 py-2.5 pl-3 pr-10 text-sm text-gray-900 outline-none transition focus:border-[#ff6154] focus:bg-white focus:ring-4 focus:ring-[#ff6154]/10 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-100 dark:focus:bg-gray-900 ${
           mobile ? '' : 'lg:w-64'
