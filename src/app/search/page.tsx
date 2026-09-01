@@ -2,7 +2,7 @@
 
 import { Search, ArrowLeft, Sparkles } from "lucide-react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 type SearchResult = {
@@ -14,7 +14,7 @@ type SearchResult = {
 };
 
 export default function SearchPage() {
-  const params = useSearchParams();
+  const router = useRouter();`n  const params = useSearchParams();
   const initialQuery = params.get("q") ?? "";
 
   const [query, setQuery] = useState(initialQuery);
@@ -78,13 +78,7 @@ export default function SearchPage() {
 
     if (q.length < 2) return;
 
-    window.history.replaceState(
-      null,
-      "",
-      `/search?q=${encodeURIComponent(q)}`,
-    );
-
-    window.dispatchEvent(new PopStateEvent("popstate"));
+    router.push(`/search?q=${encodeURIComponent(q)}`);
   };
 
   return (
