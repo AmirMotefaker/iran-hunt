@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:23:15.710Z",
+  "generatedAt": "2026-09-01T22:45:16.946Z",
   "sourceFiles": 23,
   "products": [
     {
@@ -1787,8 +1787,71 @@
     },
     {
       "id": "ph-month-1",
-      "date": "2026-08-04",
+      "date": "2026-08-19",
       "rank": 1,
+      "name": "Clipto MCP",
+      "slug": "clipto-mcp",
+      "tagline": "Let agents source clips from terabytes of your local video",
+      "description": "Clipto MCP gives Claude, ChatGPT, and other AI agents the ability to source clips and more from inside the videos, photos, and audio recordings stored on your computer. Instead of manually browsing files, simply describe what you need. For example, turn a script into a video by matching each sentence with your local footage; find every scene where someone mentioned a topic; create rough cuts; or search years of media as if you have a dedicated assistant editor.",
+      "category": "Productivity • Search • Video",
+      "categoryFa": "بهره‌وری • Search • ویدیو",
+      "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/307c181c-9d5c-4825-b49b-a2ccf4f23c2a.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format",
+        "https://ph-files.imgix.net/d143333b-3435-49fd-8c78-04680f1ef126.png?auto=format",
+        "https://ph-files.imgix.net/281c6db9-02c7-43ea-95ad-369a164ef1be.png?auto=format",
+        "https://ph-files.imgix.net/6878f842-9acf-4ee4-9f3f-b1a5267e851a.png?auto=format",
+        "https://ph-files.imgix.net/537c5431-37dc-492d-a23e-ced0bbd9506d.png?auto=format",
+        "https://ph-files.imgix.net/e03dd6eb-6f15-4d2b-b220-e7905e4dfb12.png?auto=format",
+        "https://ph-files.imgix.net/66f32670-ae50-4887-ae53-a0de68e0d3a8.png?auto=format",
+        "https://ph-files.imgix.net/bb835663-eee1-49f6-97af-c5f2453ef88c.jpeg?auto=format"
+      ],
+      "maker": "Henry Kang",
+      "makerTitle": "AI PhD exploring knowledge tools",
+      "featuredAt": "2026-08-19T07:01:00Z",
+      "votes": 639,
+      "websiteUrl": "https://www.producthunt.com/r/OTKPG4D4Y4NG66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Product Hunt! 👋 Henry here, a few months ago, I launched @Clipto , a fully local AI media search engine that helps people search terabytes of videos, photos, audio, meetings, and documents using natural language.Since then, one request kept coming up:“Can Claude use Clipto?”“Can ChatGPT search my media library?”“Can my agent actually edit videos using my own footage?”Today, we’re excited to launch Clipto MCP.AI agents can already access your files. What they can’t do is understand what’s inside terabytes of media.That’s what Clipto MCP changes. It gives AI agents semantic understanding of your local media, so instead of manually browsing folders or scrubbing through timelines, you can simply describe what you want.Some examples:🎬 Turn a script into a video by matching every sentence with relevant footage.🔍 Find every clip where someone mentioned a specific topic.🎤 Search years of meetings for a decision or discussion.✂️ Generate rough cuts from thousands of hours of video.Everything runs on the media already stored on your computer. No uploading your library to the cloud.This is only the beginning. As AI agents become more capable, they’ll need more than file access. They’ll need to understand the content inside our personal media.To celebrate our launch, we're offering 1 month free to anyone who signs up this week with code PHLNCH.We’d love to hear what you’d build with Clipto MCP. We’ll be here all day answering questions and collecting feedback.Thanks for giving it a try! 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "One of the worst things about recording stuff is later having to spend an annoying amount of time sifting through footage. Absolutely can't wait to try this out, love the idea."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the idea of being able to search years of local media just by describing what you need. This could save creators and editors a ton of time."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Yes - the memory infrastructure that connects your personal context to whichever AI you choose to use."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch! Going fully local is the right call at this scale, since nobody's realistically uploading 2TB of footage to the cloud just to make it searchable. Smart to lead with the indexing benchmark too, because slow first-time indexing is usually what kills local AI tools. How big does the index itself end up for a 2TB library, and does search stay snappy as the library grows?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch! Local-first plus MCP is a smart combination. Being able to point an agent at years of footage without uploading any of it solves a real problem."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the local-first approach! Curious — how does it handle matching accuracy when searching dialogue vs. visual scenes across years of footage? Congrats on the launch! 🎉"
+        }
+      ],
+      "makerTwitter": ""
+    },
+    {
+      "id": "ph-month-2",
+      "date": "2026-08-04",
+      "rank": 2,
       "name": "Hey Noah",
       "slug": "hey-noah",
       "tagline": "A proactive AI executive assistant for founders",
@@ -1805,10 +1868,10 @@
         "https://ph-files.imgix.net/dc47430b-48b6-4ba2-a74f-1c04c1fd0b21.png?auto=format",
         "https://ph-files.imgix.net/b037af11-d436-4f20-86da-2435d655284f.jpeg?auto=format"
       ],
-      "maker": "Ashish Toshniwal",
+      "maker": "[REDACTED]",
       "makerTitle": "Founder of Hey Noah - SMS/voice first AI",
       "featuredAt": "2026-08-04T07:01:00Z",
-      "votes": 635,
+      "votes": 639,
       "websiteUrl": "https://www.producthunt.com/r/XG4DNYGMW6GCPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -1866,69 +1929,6 @@
         ],
         "confidence": 75
       }
-    },
-    {
-      "id": "ph-month-2",
-      "date": "2026-08-19",
-      "rank": 2,
-      "name": "Clipto MCP",
-      "slug": "clipto-mcp",
-      "tagline": "Let agents source clips from terabytes of your local video",
-      "description": "Clipto MCP gives Claude, ChatGPT, and other AI agents the ability to source clips and more from inside the videos, photos, and audio recordings stored on your computer. Instead of manually browsing files, simply describe what you need. For example, turn a script into a video by matching each sentence with your local footage; find every scene where someone mentioned a topic; create rough cuts; or search years of media as if you have a dedicated assistant editor.",
-      "category": "Productivity • Search • Video",
-      "categoryFa": "بهره‌وری • Search • ویدیو",
-      "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/307c181c-9d5c-4825-b49b-a2ccf4f23c2a.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format",
-        "https://ph-files.imgix.net/d143333b-3435-49fd-8c78-04680f1ef126.png?auto=format",
-        "https://ph-files.imgix.net/281c6db9-02c7-43ea-95ad-369a164ef1be.png?auto=format",
-        "https://ph-files.imgix.net/6878f842-9acf-4ee4-9f3f-b1a5267e851a.png?auto=format",
-        "https://ph-files.imgix.net/537c5431-37dc-492d-a23e-ced0bbd9506d.png?auto=format",
-        "https://ph-files.imgix.net/e03dd6eb-6f15-4d2b-b220-e7905e4dfb12.png?auto=format",
-        "https://ph-files.imgix.net/66f32670-ae50-4887-ae53-a0de68e0d3a8.png?auto=format",
-        "https://ph-files.imgix.net/bb835663-eee1-49f6-97af-c5f2453ef88c.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "AI PhD exploring knowledge tools",
-      "featuredAt": "2026-08-19T07:01:00Z",
-      "votes": 627,
-      "websiteUrl": "https://www.producthunt.com/r/OTKPG4D4Y4NG66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hi Product Hunt! 👋 Henry here, a few months ago, I launched @Clipto , a fully local AI media search engine that helps people search terabytes of videos, photos, audio, meetings, and documents using natural language.Since then, one request kept coming up:“Can Claude use Clipto?”“Can ChatGPT search my media library?”“Can my agent actually edit videos using my own footage?”Today, we’re excited to launch Clipto MCP.AI agents can already access your files. What they can’t do is understand what’s inside terabytes of media.That’s what Clipto MCP changes. It gives AI agents semantic understanding of your local media, so instead of manually browsing folders or scrubbing through timelines, you can simply describe what you want.Some examples:🎬 Turn a script into a video by matching every sentence with relevant footage.🔍 Find every clip where someone mentioned a specific topic.🎤 Search years of meetings for a decision or discussion.✂️ Generate rough cuts from thousands of hours of video.Everything runs on the media already stored on your computer. No uploading your library to the cloud.This is only the beginning. As AI agents become more capable, they’ll need more than file access. They’ll need to understand the content inside our personal media.To celebrate our launch, we're offering 1 month free to anyone who signs up this week with code PHLNCH.We’d love to hear what you’d build with Clipto MCP. We’ll be here all day answering questions and collecting feedback.Thanks for giving it a try! 🚀"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "One of the worst things about recording stuff is later having to spend an annoying amount of time sifting through footage. Absolutely can't wait to try this out, love the idea."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love the idea of being able to search years of local media just by describing what you need. This could save creators and editors a ton of time."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Yes - the memory infrastructure that connects your personal context to whichever AI you choose to use."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch! Going fully local is the right call at this scale, since nobody's realistically uploading 2TB of footage to the cloud just to make it searchable. Smart to lead with the indexing benchmark too, because slow first-time indexing is usually what kills local AI tools. How big does the index itself end up for a 2TB library, and does search stay snappy as the library grows?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch! Local-first plus MCP is a smart combination. Being able to point an agent at years of footage without uploading any of it solves a real problem."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Love the local-first approach! Curious — how does it handle matching accuracy when searching dialogue vs. visual scenes across years of footage? Congrats on the launch! 🎉"
-        }
-      ],
-      "makerTwitter": ""
     },
     {
       "id": "ph-month-7",
@@ -2176,7 +2176,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "Open Source Voice Agent Platform- Dograh",
       "featuredAt": "2026-08-12T07:01:00Z",
-      "votes": 588,
+      "votes": 589,
       "websiteUrl": "https://www.producthunt.com/r/DAII3FVF5KT5VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -2699,7 +2699,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "Founder @ meridiona.com",
       "featuredAt": "2026-08-17T07:01:00Z",
-      "votes": 525,
+      "votes": 530,
       "websiteUrl": "https://www.producthunt.com/r/Q3UR7I2PIWKD7D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -2756,9 +2756,9 @@
       ]
     },
     {
-      "id": "ph-month-9",
+      "id": "ph-month-10",
       "date": "2026-08-07",
-      "rank": 9,
+      "rank": 10,
       "name": "Coldtea.ai",
       "slug": "coldtea",
       "tagline": "Make your software self-driving",
@@ -2862,7 +2862,7 @@
       "maker": "Tushar Chopra",
       "makerTitle": "Founding engineer @ x1",
       "featuredAt": "2026-08-26T07:01:00Z",
-      "votes": 511,
+      "votes": 512,
       "websiteUrl": "https://www.producthunt.com/r/HRIWQ6DBNJOZ7W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -3742,7 +3742,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "",
       "featuredAt": "2026-08-27T07:01:00Z",
-      "votes": 431,
+      "votes": 435,
       "websiteUrl": "https://www.producthunt.com/r/YLZ2MF3E6WGU67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -4051,6 +4051,65 @@
         "confidence": 75
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nTines ۳B یک محیط امن و یکپارچه برای اژنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها است. این محصول به شما امکان می‌دهد با استفاده از هوش مصنوعی، از هر جای دنیا، بسازید.\n🔹 معماری و تکنولوژی احتمالی:\nTines ۳B از معماری کد-اول و بومی هوش مصنوعی استفاده می‌کند. این محصول به شما کمک می‌کند تا بدون هیچ گونه خطر برای امنیت، سریع حرکت کنید.\n🔹 مدل درآمدی:\nTines ۳B از مدل درآمدی فروش محصول و خدمات مشاوره‌ای استفاده می‌کند.\n🔹 نقاط قوت:\n- ایمن‌سازی کدهای اجرا شده\n- مدیریت اعتبارنامه‌ها\n- نظارت بر جریان‌های کار\n🔹 نقاط ضعف و ریسک‌ها:\n- نیاز به تخصص در هوش مصنوعی\n- نیاز به زیرساخت‌های مناسب\n🔹 نکته طلایی برای بازار ایران:\nTines ۳B می‌تواند به تیم‌های توسعه و بازاریابی در ایران کمک کند تا محصولات خود را به صورت سریع و امن بسازند."
+    },
+    {
+      "id": "ph-today-1",
+      "date": "2026-09-01",
+      "rank": 1,
+      "name": "Kilo Code for JetBrains",
+      "slug": "kilo-code-for-jetbrains-2",
+      "tagline": "Fully native, open-source coding agent built for JetBrains",
+      "description": "Kilo Code for JetBrains is a fully native, open-source coding agent for IntelliJ IDEA, WebStorm, PyCharm, GoLand, Rider, PhpStorm, CLion, RubyMine — any JetBrains IDE. Designed for both local and remote dev, with parallel agents in isolated worktrees, GitHub PRs and diffs inline, and 500+ models.",
+      "category": "Open Source • Software Engineering • Developer Tools • GitHub",
+      "categoryFa": "متن‌باز • Software Engineering • ابزار توسعه‌دهندگان • گیت‌هاب",
+      "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/985b8fc3-25d0-4a9d-a2de-c4e85d8aeb13.gif?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/92963747-1185-42ae-b116-961fe5f616f9.png?auto=format",
+        "https://ph-files.imgix.net/b5c43b49-abb3-4822-81e5-50b197f90765.png?auto=format",
+        "https://ph-files.imgix.net/e92f401a-3dbb-4771-bab6-3d2e0cee4e70.png?auto=format",
+        "https://ph-files.imgix.net/fc48dbc3-8a18-48c3-949c-85e3e2482dce.png?auto=format",
+        "https://ph-files.imgix.net/86492275-3882-4aaf-9c5e-b8277367b22f.jpeg?auto=format"
+      ],
+      "maker": "fmerian",
+      "makerTitle": "hunting devtools - kilo.ai, tabstack.ai",
+      "featuredAt": "2026-09-01T07:01:00Z",
+      "votes": 417,
+      "websiteUrl": "https://www.producthunt.com/r/Q57PO7OWZUJAZ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "@Kilo Code is so back on @Product Hunt.Four months ago, the team launched a new @VS Code extension. #1 Product of the Month, the community loved it.Today, we’re shipping a native plugin for @JetBrains. Rebuilt from the ground up in Kotlin with Swift UI, designed for both local and remote dev, the plugin brings first-class AI coding assistance to IntelliJ IDEA, WebStorm, PyCharm, and other JetBrains IDEs: parallel agents, GitHub PRs and diffs inline, 500+ models...View source code on GitHub: github.com/kilo-org/kilocodeLooking forward to seeing what you're building with @Kilo Code."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Finally, Kilo for Jetbrains 🎉"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch @fmerian, looks very cool!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Really happy to ship Kilo for JetBrains today. JetBrains built the best IDEs in the world (I was part of the original IntelliJ IDEA team back in the day 🤓), and with @Kilo Code we're making them agentic powerhouses.We move at Kilo speed and dogfood hard — we build the plugin with the plugin — so please try it and tell us what's broken or missing. Feedback goes straight into the next release."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love that this is a fully native Kotlin rebuild rather than a webview wrapper, and running parallel agents in isolated worktrees is a genuinely smart touch for keeping real projects clean."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This looks like a solid step for Ai-assisted coding, How does kilo code handle large and more complex codebase?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Native is the key word here. I've tried extensions that just wrap a web view inside JetBrains and they always feel bolted on."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I've bounced between three JetBrains IDEs this year and always missed proper AI tooling on Rider. Genuinely excited this exists now."
+        }
+      ]
     },
     {
       "id": "ph-week-7",
@@ -4684,9 +4743,9 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-week-5",
+      "id": "ph-week-4",
       "date": "2026-08-27",
-      "rank": 5,
+      "rank": 4,
       "name": "Enter Pro",
       "slug": "enter-pro-2",
       "tagline": "The AI-native platform to build and scale your apps",
@@ -5012,6 +5071,68 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-1",
+      "date": "2026-08-31",
+      "rank": 1,
+      "name": "Video Agent by Fotor",
+      "slug": "video-agent-by-fotor",
+      "tagline": "Create and edit precision motion graphics & video with chat",
+      "description": "Fotor Video Agent helps founders, marketers, and creators turn ideas, scripts, or raw assets into precision videos & motion graphics. It auto-orchestrates scenes, timing, visual FX, and kinetic typography—while keeping text, numbers, logos, and charts editable on a multi-track timeline before you render. Update stats at the last minute or refine timing without regenerating the whole video. Ship promos and explainers faster with zero black-box outputs and no tedious keyframes.",
+      "category": "Design Tools • Artificial Intelligence • Video",
+      "categoryFa": "ابزار طراحی • هوش مصنوعی • ویدیو",
+      "url": "https://www.producthunt.com/products/fotor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/118184e4-7d9c-46d3-beb0-e28c93c673bb.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/a1138670-14b9-46ce-94d2-a0fa252b3edc.png?auto=format",
+        "https://ph-files.imgix.net/2508933f-ed4f-4110-a044-7af3b436c4fc.png?auto=format",
+        "https://ph-files.imgix.net/9dcc086e-6cb3-4d4d-90bd-dac99626b40a.png?auto=format",
+        "https://ph-files.imgix.net/fb812906-f338-4fba-afbc-aebc0472e332.png?auto=format",
+        "https://ph-files.imgix.net/a85abc03-caf0-48df-bb22-aba03b8ef0b3.png?auto=format",
+        "https://ph-files.imgix.net/3d943d7e-d92b-493e-a6c4-705bb5a6ccf6.png?auto=format",
+        "https://ph-files.imgix.net/ee84d231-57ad-48ba-86c9-2e8c1b9a3d34.png?auto=format",
+        "https://ph-files.imgix.net/b748d4c6-75e5-448b-b8e9-ae97dc8d8811.jpeg?auto=format"
+      ],
+      "maker": "nora",
+      "makerTitle": "deploy vibe marketing to all businesses",
+      "featuredAt": "2026-08-31T07:01:00Z",
+      "votes": 377,
+      "websiteUrl": "https://www.producthunt.com/r/KMJ6C2OCHCE4UL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt! 👋I’m Coral, Head of Growth at @Fotor .We're thrilled to launch Fotor Video Agent - Create and edit precision motion graphics & video with chat.Why we built this:A few months ago, our team spent hours crafting a 90-second product video with AI. It looked perfect — until we spotted a typo in an animated chart. To fix one word, we had to re-run the entire prompt, burn more credits, and pray the next version would still look consistent. That felt backwards.The problem with AI video today: Most tools give you a locked MP4. You can't edit text, swap a shot, or adjust timing without starting over. For growth teams iterating on campaigns, that's a dealbreaker.Here's what makes Fotor Video Agent different:• Editable multi-track timeline — Every text, number, logo, and chart stays editable before you render. Fix a typo without regenerating the whole video.• AE-level animated infographics — Turn raw data into animated charts that stay live and parametric. No After Effects needed.• End-to-end agent orchestration — Describe your idea, upload a PDF, or paste a script. The Agent plans, generates, and assembles everything on the timeline.In our tests, what used to take 3-5 days now takes about 40 minutes.Getting started: Bring a brief, raw assets, or even a rough idea. We'll help you turn it into a polished video project.Quick demos:• SaaS product walkthrough ➔ Watch• Docs-to-explainer ➔ WatchWhat's the one video editing task you wish AI could handle for you?I'm here all day — happy to answer questions! 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "great launch.. I saw the video and was impressed to see the multiple timeline and audio track mode.. great stuff.. good wishes for its launch.."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Fotor used to be a mobile app as well. Is the video editing part of the app now or its web only?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Nice, can you tell me more about the ai features mentioned in the poster?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "M tired of juggling tools for consistent branding, can Fotor really do it all? How accurate is it in practice? 800M users are just wow, like really?😲"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I am a longtime Canva user, while Fotor keeps catching my eye since long. And $3.99/m seems almost too good, what's the catch? lol"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This new ai feature honestly seems useful. Quick question: does it work well with portraits where the subject is close to the edge, or does this struggle with complex backgrounds?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Nice one! I just tried the Motion Studio by @Topview yesterday, gonna try this one too and see which works better for me."
+        }
+      ]
+    },
+    {
       "id": "ph-week-9",
       "date": "2026-08-04",
       "rank": 9,
@@ -5067,6 +5188,66 @@
         {
           "user": "[REDACTED]",
           "text": "I think it's important to assess the user's current level of knowledge first. Do you have a way of doing that?"
+        }
+      ]
+    },
+    {
+      "id": "ph-week-6",
+      "date": "2026-08-29",
+      "rank": 6,
+      "name": "1752vc Pitch Deck Analyzer",
+      "slug": "1752vc-pitch-deck-analyzer",
+      "tagline": "Know what investors will say before you ever hit send.",
+      "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
+      "category": "Venture Capital • Artificial Intelligence • Fundraising",
+      "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
+      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
+        "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
+        "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
+        "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
+        "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
+        "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "GP of 1752vc",
+      "featuredAt": "2026-08-29T07:01:00Z",
+      "votes": 373,
+      "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Interesting tool and the result quality is actually good. However it lacks polish of a professional software and gives off vibe coded vibes at a few places."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Really useful concept. Getting investor-style feedback before sending a deck out could save founders a lot of trial and error. Congrats on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Using this was a huge help. It detected 4 things that needed to be fixed on our deck that really does make it read a lot stronger than it did. Super impressed!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Great product, Congratulations🎉 on the launch!!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The feedback I got was very useful. It would be even better if it gives examples in addition to comments. For example, one feedback I got was that there was no \"ask\" slide. Some tailored samples based on other slides in the deck would be very helpful."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@tmaleh_ Congratulations. And happy product launch."
         }
       ]
     },
@@ -5196,9 +5377,71 @@
       ]
     },
     {
-      "id": "ph-week-6",
+      "id": "ph-week-7",
+      "date": "2026-08-28",
+      "rank": 7,
+      "name": "PageIndex",
+      "slug": "pageindex-9",
+      "tagline": "Accurate, trustworthy answers across professional documents",
+      "description": "PageIndex gives you accurate, trustworthy answers across long, professional documents your work depends on. Bring in your entire document set, ask your hardest question, and click any citation to jump to the exact highlighted source line, so you can verify it in seconds.",
+      "category": "Productivity • Artificial Intelligence",
+      "categoryFa": "بهره‌وری • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/49411d05-5a55-4736-807d-cf9ac17d7b5c.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/d99a7df0-89aa-43de-b41f-a67881fd1f3d.png?auto=format",
+        "https://ph-files.imgix.net/4d8c702d-2d79-41ae-9214-ee56dc153527.png?auto=format",
+        "https://ph-files.imgix.net/2a9c322b-0d57-46be-9cfa-497be17f8d3d.png?auto=format",
+        "https://ph-files.imgix.net/60fa5328-b10c-4a09-a74f-b5ff7fb8813f.png?auto=format",
+        "https://ph-files.imgix.net/f37f38fa-5c91-4e39-8b1a-cc9e39d36072.png?auto=format",
+        "https://ph-files.imgix.net/5afce3dd-9a27-4b86-b7b9-7b08b361205f.png?auto=format",
+        "https://ph-files.imgix.net/6ecd0626-9f07-4bde-93fc-f46833aff453.png?auto=format",
+        "https://ph-files.imgix.net/fd144bdd-2151-4888-b045-80507a15226c.png?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "Founder of PageIndex",
+      "featuredAt": "2026-08-28T07:01:00Z",
+      "votes": 369,
+      "websiteUrl": "https://www.producthunt.com/r/XN6ZYWE35L5YMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋I'm Mingtian, co-founder of PageIndex.PageIndex lets you ask across your entire document set and verify every answer down to the source line. If you work with long and professional documents where accuracy and traceability matter, financial reports, legal contracts, textbooks, research papers, etc. and you can't afford to trust an answer you haven't checked, this is for you.✍️ Here's how it works:Drop in your entire folder. Folder structure is preserved, and everything you add stays in your knowledge base, so you build it once instead of re-uploading the same files into every new chat.Ask your hardest question across all of it. Ask the one you actually need: a number buried in an appendix, a clause that only makes sense with the definition twelve pages back, a figure that has to be pulled from a table and compared across four files. PageIndex goes and gets all of it.Verify answers in one click. Every answer comes with micro-citations. Click one and the source document opens beside your chat at the right page, highlighted at the exact line the number came from.Why you want PageIndex:Checking a number takes one click instead of an afternoon of opening PDFsOne question runs across hundreds of documents, not one file per chatTables and charts are read in contextYour library compounds each quarter instead of starting from an empty chatLeading accuracy on FinanceBench. 30K+ people use it, and the retrieval engine underneath has 35K+ GitHub stars and hit #1 on GitHub Trending.🎉 Launch offer: code PRODUCTHUNT gets you one month of Pro free.👉 app.pageindex.aiThanks for checking us out. I'll be here all day."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I've always felt embedding-based retrieval had its limitations, so it's really cool to see you address that with a tree structure. And I have one question, how do you handle updates to documents (or the underlying information)?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How different is this from Rag (gemini llm)?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Being able to jump straight to the exact source line is a game changer. Great work!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Looks like a life changer. How well can it handle unusual documents like textbooks is going to be nice to see. 👋😄"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the one click jump back to the exact source line is the killer peice 🙌 nice work"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Really good product from popular opensource lib. Congrats on this launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Interesting. Curious how is this different than SciSpace, SciSummary, Jenni, Elicit, etc?"
+        }
+      ]
+    },
+    {
+      "id": "ph-week-8",
       "date": "2026-08-26",
-      "rank": 6,
+      "rank": 8,
       "name": "Expertise AI",
       "slug": "expertise-ai-6",
       "tagline": "Turn your GTM skills into recurring revenue",
@@ -5380,128 +5623,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-week-7",
-      "date": "2026-08-29",
-      "rank": 7,
-      "name": "1752vc Pitch Deck Analyzer",
-      "slug": "1752vc-pitch-deck-analyzer",
-      "tagline": "Know what investors will say before you ever hit send.",
-      "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-      "category": "Venture Capital • Artificial Intelligence • Fundraising",
-      "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
-      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
-        "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
-        "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
-        "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
-        "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
-        "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "GP of 1752vc",
-      "featuredAt": "2026-08-29T07:01:00Z",
-      "votes": 367,
-      "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Interesting tool and the result quality is actually good. However it lacks polish of a professional software and gives off vibe coded vibes at a few places."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Really useful concept. Getting investor-style feedback before sending a deck out could save founders a lot of trial and error. Congrats on the launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Using this was a huge help. It detected 4 things that needed to be fixed on our deck that really does make it read a lot stronger than it did. Super impressed!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Great product, Congratulations🎉 on the launch!!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The feedback I got was very useful. It would be even better if it gives examples in addition to comments. For example, one feedback I got was that there was no \"ask\" slide. Some tailored samples based on other slides in the deck would be very helpful."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "@tmaleh_ Congratulations. And happy product launch."
-        }
-      ]
-    },
-    {
-      "id": "ph-week-8",
-      "date": "2026-08-28",
-      "rank": 8,
-      "name": "PageIndex",
-      "slug": "pageindex-9",
-      "tagline": "Accurate, trustworthy answers across professional documents",
-      "description": "PageIndex gives you accurate, trustworthy answers across long, professional documents your work depends on. Bring in your entire document set, ask your hardest question, and click any citation to jump to the exact highlighted source line, so you can verify it in seconds.",
-      "category": "Productivity • Artificial Intelligence",
-      "categoryFa": "بهره‌وری • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/49411d05-5a55-4736-807d-cf9ac17d7b5c.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/d99a7df0-89aa-43de-b41f-a67881fd1f3d.png?auto=format",
-        "https://ph-files.imgix.net/4d8c702d-2d79-41ae-9214-ee56dc153527.png?auto=format",
-        "https://ph-files.imgix.net/2a9c322b-0d57-46be-9cfa-497be17f8d3d.png?auto=format",
-        "https://ph-files.imgix.net/60fa5328-b10c-4a09-a74f-b5ff7fb8813f.png?auto=format",
-        "https://ph-files.imgix.net/f37f38fa-5c91-4e39-8b1a-cc9e39d36072.png?auto=format",
-        "https://ph-files.imgix.net/5afce3dd-9a27-4b86-b7b9-7b08b361205f.png?auto=format",
-        "https://ph-files.imgix.net/6ecd0626-9f07-4bde-93fc-f46833aff453.png?auto=format",
-        "https://ph-files.imgix.net/fd144bdd-2151-4888-b045-80507a15226c.png?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "Founder of PageIndex",
-      "featuredAt": "2026-08-28T07:01:00Z",
-      "votes": 367,
-      "websiteUrl": "https://www.producthunt.com/r/XN6ZYWE35L5YMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋I'm Mingtian, co-founder of PageIndex.PageIndex lets you ask across your entire document set and verify every answer down to the source line. If you work with long and professional documents where accuracy and traceability matter, financial reports, legal contracts, textbooks, research papers, etc. and you can't afford to trust an answer you haven't checked, this is for you.✍️ Here's how it works:Drop in your entire folder. Folder structure is preserved, and everything you add stays in your knowledge base, so you build it once instead of re-uploading the same files into every new chat.Ask your hardest question across all of it. Ask the one you actually need: a number buried in an appendix, a clause that only makes sense with the definition twelve pages back, a figure that has to be pulled from a table and compared across four files. PageIndex goes and gets all of it.Verify answers in one click. Every answer comes with micro-citations. Click one and the source document opens beside your chat at the right page, highlighted at the exact line the number came from.Why you want PageIndex:Checking a number takes one click instead of an afternoon of opening PDFsOne question runs across hundreds of documents, not one file per chatTables and charts are read in contextYour library compounds each quarter instead of starting from an empty chatLeading accuracy on FinanceBench. 30K+ people use it, and the retrieval engine underneath has 35K+ GitHub stars and hit #1 on GitHub Trending.🎉 Launch offer: code PRODUCTHUNT gets you one month of Pro free.👉 app.pageindex.aiThanks for checking us out. I'll be here all day."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I've always felt embedding-based retrieval had its limitations, so it's really cool to see you address that with a tree structure. And I have one question, how do you handle updates to documents (or the underlying information)?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "How different is this from Rag (gemini llm)?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Being able to jump straight to the exact source line is a game changer. Great work!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Looks like a life changer. How well can it handle unusual documents like textbooks is going to be nice to see. 👋😄"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the one click jump back to the exact source line is the killer peice 🙌 nice work"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Really good product from popular opensource lib. Congrats on this launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Interesting. Curious how is this different than SciSpace, SciSummary, Jenni, Elicit, etc?"
-        }
-      ]
     },
     {
       "id": "ph-week-9",
@@ -6118,7 +6239,7 @@
       "maker": "[REDACTED]",
       "makerTitle": "",
       "featuredAt": "2026-08-30T07:01:00Z",
-      "votes": 323,
+      "votes": 327,
       "websiteUrl": "https://www.producthunt.com/r/25TEFO4TYMRPSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -6347,6 +6468,66 @@
       }
     },
     {
+      "id": "ph-today-2",
+      "date": "2026-09-01",
+      "rank": 2,
+      "name": "Computable GPU Index (CGI)",
+      "slug": "computable-gpu-index-cgi",
+      "tagline": "The first open-source price index for GPU compute",
+      "description": "Computable GPU Index (CGI) is a USD price per GPU-hour, computed from the published on-demand rental rates of a fixed panel of providers. The methodology is mathematically robust, and anyone can verify and reproduce every print.",
+      "category": "Open Source • Fintech • Money",
+      "categoryFa": "متن‌باز • فین‌تک • Money",
+      "url": "https://www.producthunt.com/products/computable-gpu-index-cgi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/0470d8d1-4015-48d9-8a73-75f6647b8836.gif?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/d59fe593-eb1e-4f00-a30b-f5c11db8a3d6.png?auto=format",
+        "https://ph-files.imgix.net/bbc5a23c-e422-46e2-b031-5317a165bcca.png?auto=format",
+        "https://ph-files.imgix.net/40e813e3-ffae-428b-b548-fc13942c8d0f.png?auto=format",
+        "https://ph-files.imgix.net/2f238dc0-8e8b-4a61-9e3a-50d08000bc86.png?auto=format",
+        "https://ph-files.imgix.net/7e4e95e0-a4bf-4d6e-9cf1-61f5c1fcdc36.png?auto=format",
+        "https://ph-files.imgix.net/bbe66d60-458a-4ab6-a7d1-2dce95be55d8.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-01T07:01:00Z",
+      "votes": 319,
+      "websiteUrl": "https://www.producthunt.com/r/BX544B26YNJ4H3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Product Hunt, I'm Ray, cofounder of Computable.What is the price of a GPU? Nobody agrees. Every provider quotes a different number, and existing indexes are closed black boxes: a figure you are asked to trust without seeing the data, the method, or the code behind it. Despite being rented, resold, and financed at commodity scale, compute lacks the reference rate every mature commodity market has.CGI is built to be that number, and to earn trust in the open rather than by authority. It is open data, open method, open code.How it works: every 15 minutes we collect published on-demand rental rates from 28 providers. Each panel provider casts weighted votes at its price, and the index is an interquantile mean over those votes, not an average: only the central third of the vote mass is averaged. No small group of providers can drag the number from the tails.The weights are systematically scored. Liveness weights measure whether a provider contributes new information to the price: a leave-one-out ridge regression scores whether each provider's recent moves anticipated the rest of the panel, and the weights recompute every observation. Every weight is floored and capped, and no weight requires a per-provider human decision.The design rests on five properties: verifiable, reproducible, fault-tolerant, outlier-resistant, transparent. The data is verifiable, the method is transparent, the prints are reproducible via code, and the result is a robust price surviving data sources that disagree, err, or break.Live today: H100, H200, B200, B300. The collector and the calculation are open source. Clone the repo and recompute any print since inception; you'll get the same number we published.If you trade, rent, or finance compute, I'd love to hear what you want from a reference rate."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "congrats on the launch, this is a good idea - GPU pricing has needed a neutral reference rate for a while. question: since the index is built from on-demand rates only, is there any plan to also track committed-use/reserved pricing? for a lot of teams the real decision isn't \"what's the on-demand rate\" but \"is the reserved discount worth the commitment\", and that gap seems like it'd need a second number entirely rather than fitting into the same index."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "really cool concept and project. what are you thoughts on having a prediction of future prices as well?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on launching a super cool product. Awesome that you guys launched with open API access and an MCP!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Are historical observations available for download and independent analysis?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "What I like most here is that you’re not just publishing another GPU price you’re showing exactly how the number is built."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "One of the providers stands out quite a lot. Is there a mistake here?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on the launch!! Good luck! @raysong @oliviazhao"
+        }
+      ]
+    },
+    {
       "id": "ph-week-10",
       "date": "2026-08-11",
       "rank": 10,
@@ -6507,68 +6688,6 @@
         {
           "user": "[REDACTED]",
           "text": "Congrats on the launch, this sounds like a huge help for finance leaders!"
-        }
-      ]
-    },
-    {
-      "id": "ph-yesterday-1",
-      "date": "2026-08-31",
-      "rank": 1,
-      "name": "Video Agent by Fotor",
-      "slug": "video-agent-by-fotor",
-      "tagline": "Create and edit precision motion graphics & video with chat",
-      "description": "Fotor Video Agent helps founders, marketers, and creators turn ideas, scripts, or raw assets into precision videos & motion graphics. It auto-orchestrates scenes, timing, visual FX, and kinetic typography—while keeping text, numbers, logos, and charts editable on a multi-track timeline before you render. Update stats at the last minute or refine timing without regenerating the whole video. Ship promos and explainers faster with zero black-box outputs and no tedious keyframes.",
-      "category": "Design Tools • Artificial Intelligence • Video",
-      "categoryFa": "ابزار طراحی • هوش مصنوعی • ویدیو",
-      "url": "https://www.producthunt.com/products/fotor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/118184e4-7d9c-46d3-beb0-e28c93c673bb.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/a1138670-14b9-46ce-94d2-a0fa252b3edc.png?auto=format",
-        "https://ph-files.imgix.net/2508933f-ed4f-4110-a044-7af3b436c4fc.png?auto=format",
-        "https://ph-files.imgix.net/9dcc086e-6cb3-4d4d-90bd-dac99626b40a.png?auto=format",
-        "https://ph-files.imgix.net/fb812906-f338-4fba-afbc-aebc0472e332.png?auto=format",
-        "https://ph-files.imgix.net/a85abc03-caf0-48df-bb22-aba03b8ef0b3.png?auto=format",
-        "https://ph-files.imgix.net/3d943d7e-d92b-493e-a6c4-705bb5a6ccf6.png?auto=format",
-        "https://ph-files.imgix.net/ee84d231-57ad-48ba-86c9-2e8c1b9a3d34.png?auto=format",
-        "https://ph-files.imgix.net/b748d4c6-75e5-448b-b8e9-ae97dc8d8811.jpeg?auto=format"
-      ],
-      "maker": "nora",
-      "makerTitle": "deploy vibe marketing to all businesses",
-      "featuredAt": "2026-08-31T07:01:00Z",
-      "votes": 311,
-      "websiteUrl": "https://www.producthunt.com/r/KMJ6C2OCHCE4UL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt! 👋I’m Coral, Head of Growth at @Fotor .We're thrilled to launch Fotor Video Agent - Create and edit precision motion graphics & video with chat.Why we built this:A few months ago, our team spent hours crafting a 90-second product video with AI. It looked perfect — until we spotted a typo in an animated chart. To fix one word, we had to re-run the entire prompt, burn more credits, and pray the next version would still look consistent. That felt backwards.The problem with AI video today: Most tools give you a locked MP4. You can't edit text, swap a shot, or adjust timing without starting over. For growth teams iterating on campaigns, that's a dealbreaker.Here's what makes Fotor Video Agent different:• Editable multi-track timeline — Every text, number, logo, and chart stays editable before you render. Fix a typo without regenerating the whole video.• AE-level animated infographics — Turn raw data into animated charts that stay live and parametric. No After Effects needed.• End-to-end agent orchestration — Describe your idea, upload a PDF, or paste a script. The Agent plans, generates, and assembles everything on the timeline.In our tests, what used to take 3-5 days now takes about 40 minutes.Getting started: Bring a brief, raw assets, or even a rough idea. We'll help you turn it into a polished video project.Quick demos:• SaaS product walkthrough ➔ Watch• Docs-to-explainer ➔ WatchWhat's the one video editing task you wish AI could handle for you?I'm here all day — happy to answer questions! 🚀"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "great launch.. I saw the video and was impressed to see the multiple timeline and audio track mode.. great stuff.. good wishes for its launch.."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Fotor used to be a mobile app as well. Is the video editing part of the app now or its web only?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Nice, can you tell me more about the ai features mentioned in the poster?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "M tired of juggling tools for consistent branding, can Fotor really do it all? How accurate is it in practice? 800M users are just wow, like really?😲"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I am a longtime Canva user, while Fotor keeps catching my eye since long. And $3.99/m seems almost too good, what's the catch? lol"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This new ai feature honestly seems useful. Quick question: does it work well with portraits where the subject is close to the edge, or does this struggle with complex backgrounds?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Nice one! I just tried the Motion Studio by @Topview yesterday, gonna try this one too and see which works better for me."
         }
       ]
     },
@@ -7265,6 +7384,127 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-2",
+      "date": "2026-08-31",
+      "rank": 2,
+      "name": "Interactive Sessions by Revolte",
+      "slug": "interactive-sessions-by-revolte",
+      "tagline": "Drive the full SDLC with AI agents, step by step",
+      "description": "Different work needs different AI oversight, and Revolte gives you both. Our Interactive Sessions let you drive the full lifecycle with the agents, step by step: architecture, code, tests, staging, deploy. You approve every step. Autopilot mode hands off a Jira ticket end-to-end, with agents planning, coding, opening the PR, and deploying. Same workspace, same governance: plan approval, inline diffs, cost caps, and audit trails, built in. Hands-on when you want control, hands-off when you don't.",
+      "category": "Software Engineering • Developer Tools • Artificial Intelligence",
+      "categoryFa": "Software Engineering • ابزار توسعه‌دهندگان • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/revolte?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/dee4d70a-480f-46f4-8fd2-726dc3d35ed2.gif?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/f8b9b439-b487-4df9-b6c7-fccfc2efca26.png?auto=format",
+        "https://ph-files.imgix.net/476a130a-7bb4-4481-b9ad-1370a8af8d2f.png?auto=format",
+        "https://ph-files.imgix.net/3808173f-69ea-4162-afd2-840c6f899092.png?auto=format",
+        "https://ph-files.imgix.net/7edfbf8b-d704-4e38-8d57-07eec30c97a9.png?auto=format",
+        "https://ph-files.imgix.net/acd3ec3f-e7e8-496a-b4a9-8988ba86dfd3.png?auto=format",
+        "https://ph-files.imgix.net/52ae92c2-9d2d-4418-8d4f-4ddf2646ec5a.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-31T07:01:00Z",
+      "votes": 284,
+      "websiteUrl": "https://www.producthunt.com/r/L7YVCYBWPR4HFC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey PH 👋 Raj here, co-founder & CEO of Revolte.Every AI dev tool makes you pick a side. Cursor is hands-on: you're in the loop for every keystroke. Devin is hands-off: you hand it a task and check the result. Both are good, but neither is enough on its own for a real team. Because different work needs different oversight.A tricky refactor in your payments service? You want hands-on. A backlog of dependency bumps? Hand it off. The real question isn't \"do we adopt AI?\" It's \"how do we adopt it across different work with different risk profiles?\" Nobody's answering that.So we built Revolte to give you both, in one workspace.Autopilot mode (from our previous launch) takes a Jira ticket and runs it end-to-end through PR and deploy, with engineers approving the meaningful steps.Today we're adding Interactive Sessions: a tabbed workspace where you drive the full lifecycle with the agents directly, architecture, code, tests, staging, deploy. One session per task, you approve every step. No Jira required. Sign up and start in under a minute.Same governance layer for both. Plan approval before code, inline diffs before merge, cost caps before deploy, audit trail on every action.Hands-on when you want control, hands-off when you want throughput. Same platform, same procurement conversation.Would love the hard feedback, especially from engineering leaders figuring out how to adopt AI across teams with different risk appetites. That's the problem we built this for."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Really like that Revolte feels useful beyond just generating code. The overall flow feels much closer to real software development."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch from the Signify team! 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@rajagopalanar @parthasarathi_raghavan @arulwatson really neat product - how has adoption been thus far - curious how steep the switching costs are for current dev teams?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hello Hunters :) Alongside our product launch. It started as a real internal need from one of our team.If Revolte can reshape the AI-SDLC, building one more internal tool isn’t the story.The story is the shift: The recorder is just the first cut.The real proof is the system that built it — AI-SDLC, from intent to production-ready execution.One of our teams needed a simple product/QA recording workflow. The usual answer would have been: approve another tool, add another subscription, and adjust our process around it.But with Revolte, we asked a different question: why buy more when we can build the exact production gap ourselves?The first cut already gave us that “wow” moment — tailored to our workflow, scalable, and ready to evolve with the team.That’s the proof we wanted to show. Not a concept. Already in actionRevolte changes the AI-SDLC — from idea to production-ready software. A new way of thinking about software delivery.Hunters, what would you build with Revolte?P.S. I’m in a different TZ, will catch up soon.🙏"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch. Giving teams both Interactive Sessions and Autopilot under the same governance layer is a practical approach to handling different levels of risk and oversight."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Does it work for every company size ?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How do you balance approve every step with autonomous in one go? No in between?"
+        }
+      ]
+    },
+    {
+      "id": "ph-yesterday-3",
+      "date": "2026-08-31",
+      "rank": 3,
+      "name": "BrandJet",
+      "slug": "brandjet",
+      "tagline": "Turn public buying signals into sales pipeline",
+      "description": "BrandJet turns live buying signals into outbound pipeline. It listens across X, Reddit, LinkedIn, and the open web for people asking about problems you solve, enriches every relevant signal into a lead, and reaches them on the channels they actually use. From first signal to outreach, unified inbox, CRM, and signed contract, BrandJet runs the entire motion in one platform. It's exposed through MCP so AI agents can run it too.",
+      "category": "Sales • Marketing • Artificial Intelligence",
+      "categoryFa": "فروش • بازاریابی • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/brandjet-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/c1ca3ea5-fdfc-476e-8066-ca3c3b314b52.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/a4b7b59e-a209-4681-808e-56ec62f6383f.png?auto=format",
+        "https://ph-files.imgix.net/87a41ed6-c49b-45b3-9f53-da229550c3f4.png?auto=format",
+        "https://ph-files.imgix.net/232cbded-dbf2-40ca-b3a2-c17df1e428f9.png?auto=format",
+        "https://ph-files.imgix.net/d894c7fe-cd5f-4cf9-b540-e670a8703427.png?auto=format",
+        "https://ph-files.imgix.net/bbbf50ee-3f3e-42ac-8189-660741d971f9.png?auto=format",
+        "https://ph-files.imgix.net/bba5791e-09d5-4fcd-ae2f-b91b1dd2e141.png?auto=format",
+        "https://ph-files.imgix.net/434f5026-fb86-4bec-b11d-95e3456e1fac.gif?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-08-31T07:01:00Z",
+      "votes": 281,
+      "websiteUrl": "https://www.producthunt.com/r/NTN6BE7PSJWFWC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt,Marsad, co-founder of BrandJet.What is a lead? You bought 10,000 from a data vendor and 9,940 are a Gmail address attached to a guy who changed jobs during the pandemic. Meanwhile real buyers are posting \"anyone know a good alternative to [your competitor]?\" in public, right now, and your current GTM/sales stack can't account for that unless you pay for tool after tool, and still - just not it.We fixed that spent the last year building one of the most comprehensive GTM platforms on the market - with a pretty insane MCP server.What BrandJet does:Listens across X, Reddit, LinkedIn and the open web for mentions of your brand, your competitors, your categoryTurns each signal into a lead with contact info and contextReaches out on the channel they answer: email, LinkedIn, WhatsApp, X, Instagram, TelegramLands every reply in one inbox, CRM behind itSigns the contract in the same platform (Plutus, ours, long story)Artemis, our AI agent, does the grunt workOur platform listens before it speaks. People are saying it's the first outbound platform that does. The people are mostly Nirav, my co-founder, but he's very smart, so.For the Claude and Codex crowd: the whole platform ships as an MCP server, 70+ tools across listening, enrichment, outreach, the inbox, the CRM. Point your agent at it and build the GTM workflows we didn't think of. Artemis runs on this exact layer, so anything our agent does, yours can do too. Bring your own agent.Proof we believe it: we use BrandJet to sell BrandJet. Kafka would call it a trial with no verdict. It's going great.Launch offer: Use BRANDJETHUNT30 for 30% off for the next three months ;)Ask me anything, tell me what's broken and help me build a generational GTM platform."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "which signals count as public, and how they keep it from being scraping people who never opted in?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the part that stands out to me is signing the contract in the same platform. once a deal gets to that stage, is there a human review step before terms go out, or is Artemis drafting and sending the contract itself too? that's the part I'd want a human in the loop on even if everything before it is automated."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch :) the description of the product reads great and will explore all the features and looking forward to testing it out fully. how do you ensure that the automated outreach lands in their inboxes and not the promotions or updates tabs on gmail or spam when you’re doing outreach in scale?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey, this looks like an excellent product. Just a quick question here - how do you compare to tools like Gojiberry and Instantly? I feel like you are combining both things into one which is cool, but do you have the warmup and all that infra stuff that they have as well?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is cool and really useful as I am doing this manually, how do you handle the post timeline for example when I select a topic I should get recent Reddit threads not the famous ones will your product help me with that ?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I like the idea of connecting the full path from a public buying signal to outreach and CRM follow ups. Having those steps together could save a lot of context switching for small sales teams."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The social listening side caught my attention. How do you handle noisy or ambiguous mentions so teams don’t end up chasing signals that look relevant but have little buying intent?"
+        }
+      ]
+    },
+    {
       "id": "ph-today-3",
       "date": "2026-08-14",
       "rank": 3,
@@ -7888,6 +8128,72 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nAssembly Studio یک سازنده اپلیکیشن هوش مصنوعی است که برای شرکت‌های ارائه‌دهنده خدمات حرفه‌ای طراحی شده است. این ابزار به شما امکان می‌دهد تا اپلیکیشن‌های خود را در چند دقیقه ایجاد کنید و به مشتریان خود ارائه دهید.\n🔹 معماری و تکنولوژی احتمالی:\nاستودیو مونتاژ می‌تواند با استفاده از فناوری‌های نوین مانند Next.js و PostgreSQL ساخته شود.\n🔹 مدل درآمدی:\nAssembly Studio می‌تواند از طریق فروش اپلیکیشن‌های سفارشی و ارائه خدمات مشاوره‌ای درآمدزایی کند.\n🔹 نقاط قوت:\n- استودیو مونتاژ می‌تواند به شرکت‌های ایرانی کمک کند تا اپلیکیشن‌های خود را به راحتی ایجاد کنند و از پرداخت هزینه‌های اضافی جلوگیری کنند.\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با شرکت‌های خارجی\n- عدم آشنایی با فناوری‌های نوین\n- کمبود منابع مالی\n🔹 نکته طلایی برای بازار ایران:\nاستودیو مونتاژ می‌تواند به شرکت‌های ایرانی کمک کند تا در بازار رقابتی خود را مطرح کنند و از فناوری‌های نوین برای ارائه خدمات بهتر استفاده کنند."
     },
     {
+      "id": "ph-today-3",
+      "date": "2026-09-01",
+      "rank": 3,
+      "name": "Creatium Coach",
+      "slug": "creatium-coach-2",
+      "tagline": "Your multimedia mentor that takes you from mid to great",
+      "description": "Creatium Coach is a lifelike, multimedia coach that helps anyone set goals and reach them. Instead of clicking through static courses or half-remembering a video, you learn with a coach, as well as simulations, videos, and roleplays. These boost outcomes as much as one-on-one in-person coaching. Whatever the goal, professional or personal, and whether you're one learner or a whole enterprise, Coach meets you where you are. Warning: side effects may include world domination.",
+      "category": "Education • Artificial Intelligence • Online Learning",
+      "categoryFa": "آموزش • هوش مصنوعی • Online Learning",
+      "url": "https://www.producthunt.com/products/creatium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/7954cf82-59c8-40f6-8e98-1cc49c537f93.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/778ae48b-7e48-48e1-9554-7055e6528cb3.jpeg?auto=format",
+        "https://ph-files.imgix.net/128140e8-0f63-433d-89e5-fc985140d97d.jpeg?auto=format",
+        "https://ph-files.imgix.net/bcf98b08-d53b-483b-9342-5659062f2f9a.jpeg?auto=format",
+        "https://ph-files.imgix.net/df3dbaf8-ab32-40f8-8d8f-9e13e9a537f8.png?auto=format",
+        "https://ph-files.imgix.net/992d314c-3746-4932-ade2-6579e0b727dc.png?auto=format",
+        "https://ph-files.imgix.net/8e6e7146-aaa0-4186-86b6-786369b35184.png?auto=format",
+        "https://ph-files.imgix.net/1687cecd-f4ef-4806-9946-1786ef03e5ac.png?auto=format",
+        "https://ph-files.imgix.net/59c29e5b-18b8-4387-874b-7ffb6d9de70c.jpeg?auto=format",
+        "https://ph-files.imgix.net/a493c039-0c6d-440b-b12d-a274ba63a7a5.jpeg?auto=format",
+        "https://ph-files.imgix.net/cc344d61-c4ef-45c4-a38c-b88472058d89.jpeg?auto=format",
+        "https://ph-files.imgix.net/4ed0acd5-d285-48a9-b23f-ba33e75e5673.jpeg?auto=format",
+        "https://ph-files.imgix.net/29f10bc8-cb17-4ff1-a8fa-38482c05426a.gif?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-01T07:01:00Z",
+      "votes": 256,
+      "websiteUrl": "https://www.producthunt.com/r/I5Q2WCFRUDQPOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt! Deepak here, co-founder of Creatium, back with @maria_wall_ball and @huntingforunicorns.Ten months ago you made Creatium Studio #2 Product of the Day. Since then it's been used by learning and development teams throughout the industry. But, what if you want to learn skills and… just want a coach?Great coaching has always carried a steep price tag, and it's been that way for centuries. Legend has it King Philip II of Macedonia rebuilt an entire razed city to get Aristotle to coach his son, a kid who'd go on to take the known world. You know him as Alexander the Great.Centuries later ... coaching may not cost cities, but a good executive coach runs about $1K a month or so, which is why the people who'd benefit most from coaching mostly go without it..... until now.... 🥁Meet Creatium Coach, a personal AI coach running a very old playbook, and yes, yours can literally be Aristotle.First, choose your world. The Lyceum, where a digitally recreated Aristotle coaches the way he did in Athens, and doesn't go easy on you. Or Pacifica, where the sun is out and the tone is warmer.Then, choose your goal. Your coach starts with questions, then builds the journey: simulations where you practice the actual skill, not trivia about the skill, plus 1-on-1 coaching to make it stick. Name the goal and it builds the reps, in a pedagogically sound sequence.And it's tested. Our research team ran a randomized study on the pedagogy underneath Coach: it had an effect size of g = 0.48, against the 0.37 average the meta-analyses report for in-person tutoring programs. For people who are not education geeks, that means Creatium Coach is as impactful as in-person tutoring.Coaching like this used to be locked inside palaces and corner offices. Now it's in your corner, $20/month, and Product Hunt gets 14 days free with code BEGREATPH@maria_wall_ball, @huntingforunicorns ns and I are in the comments all day. Tell us what you want to be great at, see if your coach pushes you out of mid-zone."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@lizanne_dsouza @maria_wall_ball @drcreatium Really interesting concept - something that we really think a lot about is the intersection between a coach / creators knowledge and the end user's wants / goals / outcomes - whatever they're looking to achieve. Curious how the system handles creator / coach IP uploads and how you've decided to build that side of the business to handle that 1 to many quandary. Something we think about a lot so keen to hear about how you decided to handle that side of the product creation. Congrats on the launch either way!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I've always wondered how I can go from mid to great and now I know! 🤓Creatium's generative platform has made huge strides towards realizing Sam Altman's dream of a \"personal tutor for everyone\".Their custom, personalized AI coaches adapt to the learner and use proven, pedagogical techniques to amplify the depth and speed of acquiring new knowledge. It makes it fun and engaging — while keeping the setup overhead low and discreet. Give it a try for two weeks and see how much you can learn!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on launching! I am curious - what has been the most popular course area so far?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This product looks really useful! It says it supports Japanese, but will it still be able to maintain speech recognition, feedback, and evaluation criteria when bilingual learning goals switch between Japanese and English?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Okay so I've tried a LOT of coaching tools, and honestly? Same recycled playbook every time. Went in expecting more of the same here. Then I saw an option to connect my GitHub, tried it out of curiosity, and it came back telling me what I'd actually been getting wrong. Nobody else has bothered to look at my real work before telling me how to improve. First one I've wanted to keep open!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I saw live how the makers of Creatium wanted to go from a creator must-have to a learner must-have. And they couldn't have got it more right. This is exactly what we need in an oversaturated market of AI learning tools. Congratulations! What a fun PH experience today for the community too, with Aristotle. (and if you're a Greek geek like me? You've hit the lottery!)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the mix of coaching, simulations and roleplays. Feels far more useful than another static course!!! Congratulations on the launch and all the best!"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-3",
       "date": "2026-08-07",
       "rank": 3,
@@ -8354,6 +8660,131 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-4",
+      "date": "2026-08-31",
+      "rank": 4,
+      "name": "Ask My Wardrobe",
+      "slug": "ask-my-wardrobe",
+      "tagline": "The complete digital wardrobe experience",
+      "description": "Ask My Wardrobe is an AI outfit generator and outfit planner that makes it easier to get dressed, plan better looks, and shop with more confidence. Use clothes you already own to build new outfits, plan what to wear days or weeks ahead, and virtually try on clothes before you buy so you waste less money on things you won’t wear. Save your best looks, share them with friends for feedback, and use it free with no sign-up required.",
+      "category": "Design Tools • Fashion • E-Commerce",
+      "categoryFa": "ابزار طراحی • مد • E-Commerce",
+      "url": "https://www.producthunt.com/products/ask-my-wardrobe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/4d7e4f51-5dc6-430d-914a-b7c4efd481cf.webp?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/fb0bab64-12bd-4b51-bb0a-761bf255f1a6.png?auto=format",
+        "https://ph-files.imgix.net/ae57594a-2ad2-4ae2-83b3-ba8b16d07fba.png?auto=format",
+        "https://ph-files.imgix.net/10642bb2-164f-4793-a13d-7bfd377c26c6.png?auto=format",
+        "https://ph-files.imgix.net/038afb89-d189-432d-a49e-ab104ac5a3a1.png?auto=format",
+        "https://ph-files.imgix.net/c37ce65d-bfee-4bf4-8c68-048047643b87.png?auto=format",
+        "https://ph-files.imgix.net/6e09f687-9634-4233-8cff-cb31e032bb41.jpeg?auto=format"
+      ],
+      "maker": "Sarunas Rodríguez",
+      "makerTitle": "Designer & Creative Engineer ✌️",
+      "featuredAt": "2026-08-31T07:01:00Z",
+      "votes": 241,
+      "websiteUrl": "https://www.producthunt.com/r/N4IP643VTBHTPL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "I’m launching Ask My Wardrobe. ✌️ When I first started building it, the idea was simple: upload a photo of yourself and an item you are considering, then see yourself wearing it before buying. I thought virtual try-on would remain the main reason people used the product. But as more people tried it, I noticed something unexpected. Users were creating different outfits with the same clothes, combining new items with pieces they already owned, saving looks, and returning to compare them. Eventually, the outfit planner became even more popular than virtual try-on. That changed the direction of the product. It made me realize that people don't only need help deciding what to buy. They also need a clear way to see what they already own, create better outfit combinations, and prepare outfits before they need them. Ask My Wardrobe has gradually grown into the complete digital wardrobe experience, you can: Organize the clothes you own Build outfits on a visual editor Plan what to wear See your planned outfits in a visual calendar Try on clothes virtually before buying Share outfits with friends and get feedback You can use it for free, with no account required to start. I want the next features and improvements to come from how people use it and what they genuinely need. I read every feature request and use that feedback to decide what to work on next."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "does it builds the wardrobe from photos or receipts, or whether you type it all in?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I love this, and have been needing it for years! Being able to look at my wardrobe in such an accessible way will allow me to use items of clothing I forget that I own. This helps prevent me from buying more clothes, which is a method for living sustainably when fast-fashion is creating so much waste. Though I do wonder, from a technical side, how have you chosen to store images for each user? Is it based on an individual's device, stored in the cloud, ...? And what caused you to make that choice?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Great idea for an outfit planner as long as it can take personalizations into account."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "“Virtual try-on is definitely cool, but honestly the wardrobe part is the bigger win for me. Being able to actually use what I already own feels way more practical.”"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "“Getting me to photograph my entire closet is gonna be the real challenge I still have a ‘maybe later’ pile from last year that I haven’t touched.”"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "“I’d probably use the outfit planner the most. I swear I keep rotating the same 3–4 outfits and then wonder why I’m bored with my clothes lol.”"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "“Wait, can it mix stuff I already own with something I’m thinking about buying? Because that would actually help me figure out if I really need it.”"
+        }
+      ]
+    },
+    {
+      "id": "ph-yesterday-5",
+      "date": "2026-08-31",
+      "rank": 5,
+      "name": "Tether",
+      "slug": "tether-15",
+      "tagline": "A ball for boring meetings to keep you busy",
+      "description": "A ball hangs from your Mac menu bar on an elastic tether. Drag it, fling it, slingshot it. It bounces off your actual app windows, rolls along their edges and settles into the Dock. Cut the rope and it goes loose across the desktop. Real physics, not a canned animation, so it never does the same thing twice. One key hides it the instant somebody says your name. No account, no subscription, nothing leaves your Mac.",
+      "category": "Mac • Productivity • Menu Bar Apps",
+      "categoryFa": "مک • بهره‌وری • Menu Bar Apps",
+      "url": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/28287e48-292b-463f-8367-29a9331f5237.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/6862284f-58d4-48df-a074-e57c09031bbc.png?auto=format",
+        "https://ph-files.imgix.net/641491b9-234c-4bff-86ae-0f87656a809b.webp?auto=format",
+        "https://ph-files.imgix.net/3a03cb6d-7339-4095-95fa-3c8a51ee72bd.webp?auto=format",
+        "https://ph-files.imgix.net/b7ac5ccd-d9c5-4bdb-ae33-99485ae63cdd.webp?auto=format",
+        "https://ph-files.imgix.net/5f25624d-9ef8-4764-a45e-50856000f6e4.png?auto=format",
+        "https://ph-files.imgix.net/83208abe-0430-49c6-9a72-c14118e9aa7b.png?auto=format",
+        "https://ph-files.imgix.net/8c0c5ae1-e744-4019-9142-78508916d2e0.png?auto=format",
+        "https://ph-files.imgix.net/3e0e6955-5973-4f22-946a-8c4ded2cc5f9.png?auto=format",
+        "https://ph-files.imgix.net/26caf50d-eb3a-4c48-b524-f6043ba5cae3.png?auto=format",
+        "https://ph-files.imgix.net/7e7da58c-2315-480d-a20a-0ada75df5165.png?auto=format",
+        "https://ph-files.imgix.net/a86f9323-5298-4525-a8b5-b01d7d44f51f.png?auto=format"
+      ],
+      "maker": "Alex",
+      "makerTitle": "I like coffee and building cool stuff.",
+      "featuredAt": "2026-08-31T07:01:00Z",
+      "votes": 240,
+      "websiteUrl": "https://www.producthunt.com/r/CVBLPBKYAX7Z64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt. I was looking for something to keep my hands busy during long work meetings. Pens, cables, the corner of a notebook, the usual. So I made this instead: a ball that hangs off the Mac menu bar on an elastic tether. What it does: - Drag it, fling it, slingshot it. The tether stretches and snaps back. - Real physics against your real windows. The ball lands on their top edges, rolls along them, and reacts when you move them. - Cut the rope and it comes loose across the desktop, bouncing off whatever is in the way. - Seven balls, each with its own weight, grip and bounce. - Tune gravity, bounce, size and rope length live, or leave the presets alone. - One key hides it the instant somebody says your name. - No account, no subscription, no telemetry. Nothing leaves your Mac. It is a one-time purchase on the Mac App Store, and it is built for macOS 14 and later. Happy to answer anything. If the physics feels wrong somewhere, tell me, that is the part I will keep tuning."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Sooo interesting... I need a point system and a global leaderboard. It would be explosive."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "love this so much!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Is there a way to download this on PC?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The panic key is the real product. Everything else is physics. Shipping the hide shortcut before anyone asked for it is the tell that you built this during a meeting you were supposed to be in."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "On long calls I end up peeling the label off whatever bottle is nearest. Does it stay quiet enough for a call with the mic on?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Yes! Clearly I'm going with the basketball. Congrats on a really fun launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I literally have one hanging next to my desk in my home office. Didn’t thought I would ever need it for screen. That’s crazy :D"
+        }
+      ]
+    },
+    {
       "id": "ph-today-4",
       "date": "2026-08-26",
       "rank": 4,
@@ -8574,67 +9005,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-yesterday-2",
-      "date": "2026-08-31",
-      "rank": 2,
-      "name": "BrandJet",
-      "slug": "brandjet",
-      "tagline": "Turn public buying signals into sales pipeline",
-      "description": "BrandJet turns live buying signals into outbound pipeline. It listens across X, Reddit, LinkedIn, and the open web for people asking about problems you solve, enriches every relevant signal into a lead, and reaches them on the channels they actually use. From first signal to outreach, unified inbox, CRM, and signed contract, BrandJet runs the entire motion in one platform. It's exposed through MCP so AI agents can run it too.",
-      "category": "Sales • Marketing • Artificial Intelligence",
-      "categoryFa": "فروش • بازاریابی • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/brandjet-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/c1ca3ea5-fdfc-476e-8066-ca3c3b314b52.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/a4b7b59e-a209-4681-808e-56ec62f6383f.png?auto=format",
-        "https://ph-files.imgix.net/87a41ed6-c49b-45b3-9f53-da229550c3f4.png?auto=format",
-        "https://ph-files.imgix.net/232cbded-dbf2-40ca-b3a2-c17df1e428f9.png?auto=format",
-        "https://ph-files.imgix.net/d894c7fe-cd5f-4cf9-b540-e670a8703427.png?auto=format",
-        "https://ph-files.imgix.net/bbbf50ee-3f3e-42ac-8189-660741d971f9.png?auto=format",
-        "https://ph-files.imgix.net/bba5791e-09d5-4fcd-ae2f-b91b1dd2e141.png?auto=format",
-        "https://ph-files.imgix.net/434f5026-fb86-4bec-b11d-95e3456e1fac.gif?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-08-31T07:01:00Z",
-      "votes": 230,
-      "websiteUrl": "https://www.producthunt.com/r/NTN6BE7PSJWFWC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt,Marsad, co-founder of BrandJet.What is a lead? You bought 10,000 from a data vendor and 9,940 are a Gmail address attached to a guy who changed jobs during the pandemic. Meanwhile real buyers are posting \"anyone know a good alternative to [your competitor]?\" in public, right now, and your current GTM/sales stack can't account for that unless you pay for tool after tool, and still - just not it.We fixed that spent the last year building one of the most comprehensive GTM platforms on the market - with a pretty insane MCP server.What BrandJet does:Listens across X, Reddit, LinkedIn and the open web for mentions of your brand, your competitors, your categoryTurns each signal into a lead with contact info and contextReaches out on the channel they answer: email, LinkedIn, WhatsApp, X, Instagram, TelegramLands every reply in one inbox, CRM behind itSigns the contract in the same platform (Plutus, ours, long story)Artemis, our AI agent, does the grunt workOur platform listens before it speaks. People are saying it's the first outbound platform that does. The people are mostly Nirav, my co-founder, but he's very smart, so.For the Claude and Codex crowd: the whole platform ships as an MCP server, 70+ tools across listening, enrichment, outreach, the inbox, the CRM. Point your agent at it and build the GTM workflows we didn't think of. Artemis runs on this exact layer, so anything our agent does, yours can do too. Bring your own agent.Proof we believe it: we use BrandJet to sell BrandJet. Kafka would call it a trial with no verdict. It's going great.Launch offer: Use BRANDJETHUNT30 for 30% off for the next three months ;)Ask me anything, tell me what's broken and help me build a generational GTM platform."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "which signals count as public, and how they keep it from being scraping people who never opted in?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the part that stands out to me is signing the contract in the same platform. once a deal gets to that stage, is there a human review step before terms go out, or is Artemis drafting and sending the contract itself too? that's the part I'd want a human in the loop on even if everything before it is automated."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch :) the description of the product reads great and will explore all the features and looking forward to testing it out fully. how do you ensure that the automated outreach lands in their inboxes and not the promotions or updates tabs on gmail or spam when you’re doing outreach in scale?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Hey, this looks like an excellent product. Just a quick question here - how do you compare to tools like Gojiberry and Instantly? I feel like you are combining both things into one which is cool, but do you have the warmup and all that infra stuff that they have as well?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This is cool and really useful as I am doing this manually, how do you handle the post timeline for example when I select a topic I should get recent Reddit threads not the famous ones will your product help me with that ?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I like the idea of connecting the full path from a public buying signal to outreach and CRM follow ups. Having those steps together could save a lot of context switching for small sales teams."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The social listening side caught my attention. How do you handle noisy or ambiguous mentions so teams don’t end up chasing signals that look relevant but have little buying intent?"
-        }
-      ]
     },
     {
       "id": "ph-today-5",
@@ -9031,6 +9401,49 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-yesterday-6",
+      "date": "2026-08-31",
+      "rank": 6,
+      "name": "EP–2350 FX–MIC",
+      "slug": "ep-2350-fx-mic",
+      "tagline": "The programmable mic you can squeeze, shake & play",
+      "description": "EP–2350 FX–MIC is a standalone handheld performance microphone with built-in fx, 4 on-board samples and a parameter modulation lever. shape your vocals and trigger samples straight from the mic. fill the four sample slots with your own sounds and build your own effect presets using a simple json file. hook it up to your K.O. II or plug it straight into any setup.",
+      "category": "Music • Hardware • Audio",
+      "categoryFa": "موسیقی • Hardware • صدا",
+      "url": "https://www.producthunt.com/products/teenage-engineering?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/75488447-8235-4c82-8c95-5dfc635e3a34.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/2f469f95-6f8e-40e9-8ada-a3d2ab4d11ba.webp?auto=format",
+        "https://ph-files.imgix.net/3e3d1602-44a3-4867-b3a5-95f45f7565e0.webp?auto=format",
+        "https://ph-files.imgix.net/84e80bb0-b91e-4c7a-988b-ece1440226b2.webp?auto=format",
+        "https://ph-files.imgix.net/d624b2d4-de02-4405-9d91-74909cbf8bfd.webp?auto=format",
+        "https://ph-files.imgix.net/6ca6376c-f63b-4775-a99b-a7dc5c20b6df.webp?auto=format",
+        "https://ph-files.imgix.net/dc1639ba-3c1e-4fae-bc60-3188c7706766.webp?auto=format",
+        "https://ph-files.imgix.net/0a2eac4f-7f16-44a6-9588-49f9955733be.svg?auto=format",
+        "https://ph-files.imgix.net/7ab50655-1f5b-4603-9558-ec7a07ad9c0d.svg?auto=format",
+        "https://ph-files.imgix.net/00d809d9-aa31-4ae6-a56c-cf516f5aa070.svg?auto=format",
+        "https://ph-files.imgix.net/c52d2edd-bae7-47ea-b561-1c8165db2abc.svg?auto=format",
+        "https://ph-files.imgix.net/7f4278f9-e3aa-40d5-b76c-47e04ae4710e.svg?auto=format",
+        "https://ph-files.imgix.net/99439a12-c1ee-4fe7-a598-9f13f0a6941a.svg?auto=format",
+        "https://ph-files.imgix.net/f33568bd-96cd-457f-815e-56fc6264143d.jpeg?auto=format"
+      ],
+      "maker": "",
+      "makerTitle": "",
+      "featuredAt": "2026-08-31T07:01:00Z",
+      "votes": 211,
+      "websiteUrl": "https://www.producthunt.com/r/OOB2BZGABM6CVL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi everyone!@Teenage Engineering’s EP–2350 FX–MIC looks like a tiny radio mic. You squeeze the lever to shape the vocal FX, shake it to modulate, and fire off four samples from the side buttons.It is $59, lo-fi on purpose, and plugs into a K.O. II or any line-in setup.You can also swap the samples and rebuild the effect chains in a JSON file. Makers have already been poking at the RP2350 hardware underneath.And if it looks familiar, it should. This is essentially the earlier EP–2350 Ting in the K.O. II colorway. Same little machine, just pulled out of the reggae set and given a more general place in the EP family.https://www.youtube.com/watch?v=GDG1n24c9A4The hardware was always weirder and more useful than the original theme made it look. I keep wondering what weird new voice use cases people will find for this thing..!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Curious about the story behind the name EP–2350 FX–MIC"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-4",
       "date": "2026-08-21",
       "rank": 4,
@@ -9272,7 +9685,68 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nپردازشگر هوشمند یک مدل کارآمد و هوشمند برای کد نویسی و جریان‌های کاری एजنت است که بر اساس نیازهای بازار ایران توسعه یافته است. این مدل قادر به xửلی وظایف مهندسی نرم‌افزار پیچیده، برنامه‌ریزی چند مرحله‌ای و एजنت‌های خودمختار است، در حالی که سرعت و کارایی را حفظ می‌کند.\n🔹 معماری و تکنولوژی احتمالی:\nپردازشگر هوشمند می‌تواند بر اساس معماری‌های مختلف مانند میکروسرویس‌ها و مونولیت‌ها توسعه یابد. از تکنولوژی‌های مختلف مانند Python و TensorFlow می‌توان برای توسعه مدل استفاده کرد.\n🔹 مدل درآمدی:\nپردازشگر هوشمند می‌تواند از طریق فروش مدل به شرکت‌های فناوری و ارائه خدمات مشاوره برای توسعه مدل درآمدزایی کند.\n🔹 نقاط قوت:\n- پردازشگر هوشمند قادر به xửلی وظایف مهندسی نرم‌افزار پیچیده است\n- پردازشگر هوشمند دارای سرعت و کارایی بالاست\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با مدل‌های موجود\n- نیاز به آموزش و توسعه تیم\n🔹 نکته طلایی برای بازار ایران:\nپردازشگر هوشمند می‌تواند به توسعه دهندگان نرم‌افزار و شرکت‌های فناوری در ایران کمک کند تا محصولات مبتنی بر هوش مصنوعی و جریان‌های کاری خودکار را توسعه دهند."
     },
     {
-      "id": "ph-yesterday-3",
+      "id": "ph-today-4",
+      "date": "2026-09-01",
+      "rank": 4,
+      "name": "Gauth AI Course",
+      "slug": "gauth-ai-course",
+      "tagline": "AI courses you can watch, quiz through, and create",
+      "description": "Gauth’s AI Course turns any subject into an interactive course, starting with 200+ AI math courses covering every US high school topic, from Algebra I through AP Calculus. The AI Course includes visuals, mindmaps, active-recall quizzes built in and enables you to pause any lesson to ask the AI Tutor a question. You can also generate your own course in seconds, to create personalized lessons at your own pace and share it with others.",
+      "category": "Education • Artificial Intelligence • Online Learning",
+      "categoryFa": "آموزش • هوش مصنوعی • Online Learning",
+      "url": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/c40a9ac0-f14a-46b2-841a-cefeeb9b65fe.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/38dfe037-c39d-43db-8896-12c16d71c8df.png?auto=format",
+        "https://ph-files.imgix.net/973422b3-cbf1-4b9e-956e-7f48b9484f2d.png?auto=format",
+        "https://ph-files.imgix.net/9888d970-6b7f-45e1-a1ab-fa20f4f77ec2.png?auto=format",
+        "https://ph-files.imgix.net/3af67636-381d-44d2-98c9-27164742d9f4.png?auto=format",
+        "https://ph-files.imgix.net/7dc2ec59-f604-42cf-b81b-92ea59e6c3c0.png?auto=format",
+        "https://ph-files.imgix.net/ba33a077-d69b-4f9d-82f8-99d0d53dfea7.png?auto=format",
+        "https://ph-files.imgix.net/2b5a11c9-97d4-4fdc-ab9d-55ea56188d14.jpeg?auto=format"
+      ],
+      "maker": "Alan Wang",
+      "makerTitle": "CTO @ Gauth",
+      "featuredAt": "2026-09-01T07:01:00Z",
+      "votes": 197,
+      "websiteUrl": "https://www.producthunt.com/r/O6RGXJTHGDQVQN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Excited to hunt Gauth AI Course today. Gauth is already one of the largest AI study platforms out there, with 100M+ Android downloads and tens of millions of students using the product every month. AI Course feels like an interesting next step: moving beyond helping students solve individual problems to helping them actually learn entire topics. Instead of picking from a fixed course and adapting to someone else's structure and pace, Gauth AI Course lets you type what you want to learn, choose your level, and generate a course built around you. What stands out: -Access 200+ AI math courses covering US high school topics from Algebra I through AP Calculus - Generate a complete course on your own topic in seconds - Learn through visual lessons, mindmaps, and active-recall quizzes - Ask the built-in AI Tutor questions without leaving the lesson - Create and share courses with classmates I especially like the course creation angle. Worth checking out if you're a student, teacher, or simply someone who wants a more personalized way to learn."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is so cool — turning any subject into an interactive course with visuals + active recall feels like a much better way to actually learn. Congrats on the launch! 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@alan_wang13 congratulations for the launch. I'm using Gauth AI since the last couple of weeks, and this is one of my favorite tools."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is sick! What use cases are most popular at the platform right now? Congrats!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "What a great way to get students engaged in their content! I think the visuals will really help getting good grades and actually enjoying their hard work"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the built-in quizzes inside each course module are lowkey the best part. testing yourself right after learning a topic is how it actually sticks."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Gauth has always been one of my favorite study tools in college. I’m very excited that they came out with an AI course! I think this will help me even further to better understand the assignments that my teachers don’t explain quite well."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Will definitely try this out for my senior year of college! Sometimes I have a hard time with lectures so I hope it can do a good job at breaking down complex subjects."
+        }
+      ]
+    },
+    {
+      "id": "ph-today-3",
       "date": "2026-08-30",
       "rank": 3,
       "name": "Olostep",
@@ -9631,45 +10105,6 @@
     },
     {
       "id": "ph-yesterday-4",
-      "date": "2026-08-31",
-      "rank": 4,
-      "name": "EP–2350 FX–MIC",
-      "slug": "ep-2350-fx-mic",
-      "tagline": "The programmable mic you can squeeze, shake & play",
-      "description": "EP–2350 FX–MIC is a standalone handheld performance microphone with built-in fx, 4 on-board samples and a parameter modulation lever. shape your vocals and trigger samples straight from the mic. fill the four sample slots with your own sounds and build your own effect presets using a simple json file. hook it up to your K.O. II or plug it straight into any setup.",
-      "category": "Music • Hardware • Audio",
-      "categoryFa": "موسیقی • Hardware • صدا",
-      "url": "https://www.producthunt.com/products/teenage-engineering?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/75488447-8235-4c82-8c95-5dfc635e3a34.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/2f469f95-6f8e-40e9-8ada-a3d2ab4d11ba.webp?auto=format",
-        "https://ph-files.imgix.net/3e3d1602-44a3-4867-b3a5-95f45f7565e0.webp?auto=format",
-        "https://ph-files.imgix.net/84e80bb0-b91e-4c7a-988b-ece1440226b2.webp?auto=format",
-        "https://ph-files.imgix.net/d624b2d4-de02-4405-9d91-74909cbf8bfd.webp?auto=format",
-        "https://ph-files.imgix.net/6ca6376c-f63b-4775-a99b-a7dc5c20b6df.webp?auto=format",
-        "https://ph-files.imgix.net/dc1639ba-3c1e-4fae-bc60-3188c7706766.webp?auto=format",
-        "https://ph-files.imgix.net/0a2eac4f-7f16-44a6-9588-49f9955733be.svg?auto=format",
-        "https://ph-files.imgix.net/7ab50655-1f5b-4603-9558-ec7a07ad9c0d.svg?auto=format",
-        "https://ph-files.imgix.net/00d809d9-aa31-4ae6-a56c-cf516f5aa070.svg?auto=format",
-        "https://ph-files.imgix.net/c52d2edd-bae7-47ea-b561-1c8165db2abc.svg?auto=format",
-        "https://ph-files.imgix.net/7f4278f9-e3aa-40d5-b76c-47e04ae4710e.svg?auto=format",
-        "https://ph-files.imgix.net/99439a12-c1ee-4fe7-a598-9f13f0a6941a.svg?auto=format",
-        "https://ph-files.imgix.net/f33568bd-96cd-457f-815e-56fc6264143d.jpeg?auto=format"
-      ],
-      "maker": "",
-      "makerTitle": "",
-      "featuredAt": "2026-08-31T07:01:00Z",
-      "votes": 190,
-      "websiteUrl": "https://www.producthunt.com/r/OOB2BZGABM6CVL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hi everyone!@Teenage Engineering’s EP–2350 FX–MIC looks like a tiny radio mic. You squeeze the lever to shape the vocal FX, shake it to modulate, and fire off four samples from the side buttons.It is $59, lo-fi on purpose, and plugs into a K.O. II or any line-in setup.You can also swap the samples and rebuild the effect chains in a JSON file. Makers have already been poking at the RP2350 hardware underneath.And if it looks familiar, it should. This is essentially the earlier EP–2350 Ting in the K.O. II colorway. Same little machine, just pulled out of the reggae set and given a more general place in the EP family.https://www.youtube.com/watch?v=GDG1n24c9A4The hardware was always weirder and more useful than the original theme made it look. I keep wondering what weird new voice use cases people will find for this thing..!"
-        }
-      ]
-    },
-    {
-      "id": "ph-yesterday-4",
       "date": "2026-08-23",
       "rank": 4,
       "name": "OpenLogi",
@@ -9724,71 +10159,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-today-4",
-      "date": "2026-08-31",
-      "rank": 4,
-      "name": "Tether",
-      "slug": "tether-15",
-      "tagline": "A ball for boring meetings to keep you busy",
-      "description": "A ball hangs from your Mac menu bar on an elastic tether. Drag it, fling it, slingshot it. It bounces off your actual app windows, rolls along their edges and settles into the Dock. Cut the rope and it goes loose across the desktop. Real physics, not a canned animation, so it never does the same thing twice. One key hides it the instant somebody says your name. No account, no subscription, nothing leaves your Mac.",
-      "category": "Mac • Productivity • Menu Bar Apps",
-      "categoryFa": "مک • بهره‌وری • Menu Bar Apps",
-      "url": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/28287e48-292b-463f-8367-29a9331f5237.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/6862284f-58d4-48df-a074-e57c09031bbc.png?auto=format",
-        "https://ph-files.imgix.net/641491b9-234c-4bff-86ae-0f87656a809b.webp?auto=format",
-        "https://ph-files.imgix.net/3a03cb6d-7339-4095-95fa-3c8a51ee72bd.webp?auto=format",
-        "https://ph-files.imgix.net/b7ac5ccd-d9c5-4bdb-ae33-99485ae63cdd.webp?auto=format",
-        "https://ph-files.imgix.net/5f25624d-9ef8-4764-a45e-50856000f6e4.png?auto=format",
-        "https://ph-files.imgix.net/83208abe-0430-49c6-9a72-c14118e9aa7b.png?auto=format",
-        "https://ph-files.imgix.net/8c0c5ae1-e744-4019-9142-78508916d2e0.png?auto=format",
-        "https://ph-files.imgix.net/3e0e6955-5973-4f22-946a-8c4ded2cc5f9.png?auto=format",
-        "https://ph-files.imgix.net/26caf50d-eb3a-4c48-b524-f6043ba5cae3.png?auto=format",
-        "https://ph-files.imgix.net/7e7da58c-2315-480d-a20a-0ada75df5165.png?auto=format",
-        "https://ph-files.imgix.net/a86f9323-5298-4525-a8b5-b01d7d44f51f.png?auto=format"
-      ],
-      "maker": "Alex",
-      "makerTitle": "I like coffee and building cool stuff.",
-      "featuredAt": "2026-08-31T07:01:00Z",
-      "votes": 189,
-      "websiteUrl": "https://www.producthunt.com/r/CVBLPBKYAX7Z64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt. I was looking for something to keep my hands busy during long work meetings. Pens, cables, the corner of a notebook, the usual. So I made this instead: a ball that hangs off the Mac menu bar on an elastic tether. What it does: - Drag it, fling it, slingshot it. The tether stretches and snaps back. - Real physics against your real windows. The ball lands on their top edges, rolls along them, and reacts when you move them. - Cut the rope and it comes loose across the desktop, bouncing off whatever is in the way. - Seven balls, each with its own weight, grip and bounce. - Tune gravity, bounce, size and rope length live, or leave the presets alone. - One key hides it the instant somebody says your name. - No account, no subscription, no telemetry. Nothing leaves your Mac. It is a one-time purchase on the Mac App Store, and it is built for macOS 14 and later. Happy to answer anything. If the physics feels wrong somewhere, tell me, that is the part I will keep tuning."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Is there a way to download this on PC?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The panic key is the real product. Everything else is physics. Shipping the hide shortcut before anyone asked for it is the tell that you built this during a meeting you were supposed to be in."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "On long calls I end up peeling the label off whatever bottle is nearest. Does it stay quiet enough for a call with the mic on?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Yes! Clearly I'm going with the basketball. Congrats on a really fun launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I literally have one hanging next to my desk in my home office. Didn’t thought I would ever need it for screen. That’s crazy :D"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "this is such a dumb-fun idea and I mean that as a compliment. curious how it behaves with multiple monitors - if I fling the ball off the edge of one display does it actually cross onto the other, or does each screen have its own independent ball? also wondering if the physics loop is noticeable on battery at all when it's just sitting idle in the corner."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This instantly caught my attention for today's launch. I have ADHD, and I usually need something to tinker with while listening. haha I can also imagine my students using this."
-        }
-      ]
     },
     {
       "id": "ph-today-5",
@@ -9966,6 +10336,65 @@
         }
       ],
       "makerTwitter": ""
+    },
+    {
+      "id": "ph-today-5",
+      "date": "2026-09-01",
+      "rank": 5,
+      "name": "Sider Code",
+      "slug": "sider-code",
+      "tagline": "Reshape any website with plain words via Sider extension",
+      "description": "For 30 years, websites set the rules. Now you do. In the Sider Chrome extension, tell Sider Code how a site you rely on should work. It understands the page, writes the code, and makes the change. You can save and control the feature.",
+      "category": "Chrome Extensions • Productivity • Artificial Intelligence",
+      "categoryFa": "افزونه کروم • بهره‌وری • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/sider-code-customize-any-website?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/6925d220-0758-4980-87ce-6717eb7f29c2.jpeg?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/ad98c3e3-0d42-4e32-9a85-1a3b8818b855.png?auto=format",
+        "https://ph-files.imgix.net/6fd2553a-ed60-40da-a917-fd6461c596fc.png?auto=format",
+        "https://ph-files.imgix.net/dedf796f-81c9-4b79-ae8f-97acd469d2d2.png?auto=format",
+        "https://ph-files.imgix.net/ea42d8ef-a579-4da4-8533-ddb97d0bed66.png?auto=format",
+        "https://ph-files.imgix.net/ee20a046-5dc6-4c5f-a192-4d07824335af.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-01T07:01:00Z",
+      "votes": 181,
+      "websiteUrl": "https://www.producthunt.com/r/X6K4WBNJAMQ6MK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt - the Sider team here 👋Most websites are built once, for everyone. But the way we read, watch, research, and work is personal. We think the web should be, too.So we built Sider Code.Rather than build a new website, reshape the sites you already use. Describe what to change. Sider Code understands the page, writes and applies code, turning your words into a working feature you can save and control.You can reshape information, remove what you don't need, or add capabilities the site never had - without writing code.That could mean turning a comment section into a map of the debate, making difficult terms explain themselves on hover, removing an entire content format you never want to see, or rebuilding a scattered thread as a focused article with its own navigation.These aren't templates you have to choose from. They point to a broader idea: the website in front of you should be something you can shape.Each feature can be saved for your next visit and switched off or on whenever you want. It becomes part of how that website works for you, while remaining under your control.🎁 For the next three days, Sider Code is free for everyone. What's one website you use often but wish worked differently - and what would you change? Your words. Your web."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "reshaping instead of building new is such an obvious idea in hindsight. Although curious if it holds up on sites that actively try to block scripts messing with them"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations team on the launch."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Does it automatically adapt or do users need to recreate their customizations?Congrats @rick_fan & team!. It looks promising :)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is such a cool use of AI being able to reshape any website with simple words is a game changer! Congrats on the launch"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "That is so cool! Now I don't have to strain my eyes reading long paragraphs."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch! Can’t wait to try it!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "pretty cool - what's the number one blocker you can't do right now that you're working towards doing in the future that you think would be the next biggest unlock?"
+        }
+      ]
     },
     {
       "id": "ph-yesterday-5",
@@ -14813,12 +15242,12 @@
     }
   ],
   "audit": {
-    "products": 228,
-    "withRealComments": 228,
+    "products": 235,
+    "withRealComments": 235,
     "withPersianComments": 41,
     "withPersianDescription": 78,
     "withAiReview": 61,
     "withIranEquivalent": 78,
-    "totalRealComments": 1369
+    "totalRealComments": 1426
   }
 }
