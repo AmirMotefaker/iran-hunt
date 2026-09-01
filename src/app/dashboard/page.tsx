@@ -93,70 +93,77 @@ export default function DashboardPage() {
   const planDef = PLANS.find((p) => p.id === plan)!;
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-12">
-      <h1 className="text-2xl font-black text-gray-900 dark:text-white">👤 داشبورد من</h1>
-      <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">عضو ایده‌جو از: <b>{faFull(profile.created_at)}</b></p>
+    <main className="mx-auto max-w-5xl px-4 py-8 sm:py-12">
+      <section className="overflow-hidden rounded-[30px] border border-gray-200 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900">
+        <div className="p-5 sm:p-7">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex min-w-0 items-center gap-4">
+              {form.avatar ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={form.avatar}
+                  alt="پروفایل"
+                  className="h-16 w-16 shrink-0 rounded-2xl object-cover ring-1 ring-black/5 dark:ring-white/10"
+                />
+              ) : (
+                <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#ff6154]/10 text-xl font-black text-[#ff6154]">
+                  {(form.first_name || profile.email).slice(0, 1)}
+                </span>
+              )}
 
-      {/* کارت پلن */}
-      <div className="mt-6 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-900">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div>
-            <p className="flex items-center gap-2 text-lg font-black text-gray-900 dark:text-white">
-              <Crown size={18} className="text-[#ff6154]" /> پلن {planDef.fa}
-            </p>
-            <p className="mt-1 text-xs font-bold text-gray-500 dark:text-gray-400">
-              {plan === 'free'
-                ? 'رایگان برای همیشه — بدون انقضا'
-                : expires
-                  ? `اعتبار تا ${faFull(expires)}`
-                  : 'بدون انقضا ♾️ (دسترسی کامل بنیان‌گذار)'}
-            </p>
+              <div className="min-w-0">
+                <p className="text-xs font-black text-[#ff6154]">
+                  فضای شخصی ایده‌جو
+                </p>
+
+                <h1 className="mt-1 truncate text-2xl font-black text-gray-950 dark:text-white">
+                  {form.first_name
+                    ? `${form.first_name}${form.last_name ? ` ${form.last_name}` : ''}`
+                    : 'داشبورد من'}
+                </h1>
+
+                <p className="mt-1 text-xs leading-6 text-gray-500 dark:text-gray-400">
+                  عضو ایده‌جو از {faFull(profile.created_at)}
+                </p>
+              </div>
+            </div>
+
+            <Link
+              href="/products"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[#ff6154] px-5 text-sm font-black text-white transition hover:bg-[#e5544a]"
+            >
+              <Compass size={16} />
+              ادامه کشف ایده‌ها
+            </Link>
           </div>
-          <div className="flex gap-2">
-            {plan !== 'team' && (
-              <Link href="/pricing" className="rounded-xl bg-[#ff6154] px-4 py-2 text-xs font-black text-white hover:bg-[#e5544a]">ارتقا پلن ⬆</Link>
-            )}
-            {(plan === 'investor' || plan === 'team') && (
-              <Link href="/insights" className="rounded-xl bg-indigo-600 px-4 py-2 text-xs font-black text-white">📊 هوش رقابتی</Link>
-            )}
-            {plan === 'team' && (
-              <Link href="/team" className="rounded-xl bg-purple-600 px-4 py-2 text-xs font-black text-white">👥 فضای تیمی</Link>
-            )}
+        </div>
+
+        <div className="grid grid-cols-3 border-t border-gray-100 dark:border-gray-800">
+          <div className="p-4 text-center">
+            <Heart size={16} className="mx-auto text-[#ff6154]" />
+            <p className="mt-1.5 text-lg font-black text-gray-950 dark:text-white">
+              {likes.toLocaleString('fa-IR')}
+            </p>
+            <p className="text-[10px] font-bold text-gray-400">لایک</p>
+          </div>
+
+          <div className="border-x border-gray-100 p-4 text-center dark:border-gray-800">
+            <Bookmark size={16} className="mx-auto text-amber-500" />
+            <p className="mt-1.5 text-lg font-black text-gray-950 dark:text-white">
+              {bookmarks.length.toLocaleString('fa-IR')}
+            </p>
+            <p className="text-[10px] font-bold text-gray-400">ذخیره‌شده</p>
+          </div>
+
+          <div className="p-4 text-center">
+            <MessageCircle size={16} className="mx-auto text-indigo-500" />
+            <p className="mt-1.5 text-lg font-black text-gray-950 dark:text-white">
+              {comments.toLocaleString('fa-IR')}
+            </p>
+            <p className="text-[10px] font-bold text-gray-400">نظر</p>
           </div>
         </div>
-
-        <div className="mt-4 flex items-center justify-between rounded-2xl bg-gray-50 px-4 py-3 dark:bg-gray-800">
-          <p className="flex items-center gap-2 text-sm font-bold text-gray-700 dark:text-gray-200">
-            <Bell size={15} className="text-[#ff6154]" /> هشدار روزانه ایده‌های حوزه من (۱۷:۰۰)
-          </p>
-          {plan === 'free' ? (
-            <Link href="/pricing" className="text-xs font-black text-[#ff6154]">مخصوص Pro ⬆</Link>
-          ) : (
-            <button onClick={toggleAlerts} className={`rounded-full px-3 py-1 text-xs font-black ${alerts ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700'}`}>
-              {alerts ? 'فعال ✅' : 'غیرفعال'}
-            </button>
-          )}
-        </div>
-      </div>
-
-      {/* آمار */}
-      <div className="mt-6 grid grid-cols-3 gap-3">
-        <div className="rounded-2xl border border-gray-200 bg-white p-4 text-center shadow-sm dark:border-gray-700 dark:bg-gray-900">
-          <Heart size={16} className="mx-auto text-[#ff6154]" />
-          <p className="mt-2 text-lg font-black text-gray-900 dark:text-white">{likes.toLocaleString('fa-IR')}</p>
-          <p className="text-[11px] font-bold text-gray-400">لایک</p>
-        </div>
-        <div className="rounded-2xl border border-gray-200 bg-white p-4 text-center shadow-sm dark:border-gray-700 dark:bg-gray-900">
-          <MessageCircle size={16} className="mx-auto text-indigo-500" />
-          <p className="mt-2 text-lg font-black text-gray-900 dark:text-white">{comments.toLocaleString('fa-IR')}</p>
-          <p className="text-[11px] font-bold text-gray-400">نظر</p>
-        </div>
-        <div className="rounded-2xl border border-gray-200 bg-white p-4 text-center shadow-sm dark:border-gray-700 dark:bg-gray-900">
-          <Bookmark size={16} className="mx-auto text-amber-500" />
-          <p className="mt-2 text-lg font-black text-gray-900 dark:text-white">{bookmarks.length.toLocaleString('fa-IR')}</p>
-          <p className="text-[11px] font-bold text-gray-400">بوکمارک {plan === 'free' ? 'از ۲۰' : 'نامحدود'}</p>
-        </div>
-      </div>
+      </section>
 
       {/* ذخیره‌شده‌ها */}
       <section className="mt-8 overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
@@ -274,11 +281,65 @@ export default function DashboardPage() {
           </div>
         )}
       </section>
-      {/* پروفایل */}
-      <div className="mt-8 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-900">
-        <h2 className="font-extrabold text-gray-800 dark:text-gray-100">ویرایش پروفایل</h2>
+      {/* پلن و هشدارها */}
+      <div className="mt-8 rounded-[28px] border border-gray-200 bg-white p-5 shadow-sm sm:p-6 dark:border-gray-700 dark:bg-gray-900">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <p className="flex items-center gap-2 text-lg font-black text-gray-900 dark:text-white">
+              <Crown size={18} className="text-[#ff6154]" /> پلن {planDef.fa}
+            </p>
+            <p className="mt-1 text-xs font-bold text-gray-500 dark:text-gray-400">
+              {plan === 'free'
+                ? 'رایگان برای همیشه — بدون انقضا'
+                : expires
+                  ? `اعتبار تا ${faFull(expires)}`
+                  : 'بدون انقضا ♾️ (دسترسی کامل بنیان‌گذار)'}
+            </p>
+          </div>
+          <div className="flex gap-2">
+            {plan !== 'team' && (
+              <Link href="/pricing" className="rounded-xl bg-[#ff6154] px-4 py-2 text-xs font-black text-white hover:bg-[#e5544a]">ارتقا پلن ⬆</Link>
+            )}
+            {(plan === 'investor' || plan === 'team') && (
+              <Link href="/insights" className="rounded-xl bg-indigo-600 px-4 py-2 text-xs font-black text-white">📊 هوش رقابتی</Link>
+            )}
+            {plan === 'team' && (
+              <Link href="/team" className="rounded-xl bg-purple-600 px-4 py-2 text-xs font-black text-white">👥 فضای تیمی</Link>
+            )}
+          </div>
+        </div>
 
-        <div className="mt-5 flex items-center gap-4">
+        <div className="mt-4 flex flex-col gap-3 rounded-2xl bg-gray-50 px-4 py-3 sm:flex-row sm:items-center sm:justify-between dark:bg-gray-800">
+          <p className="flex items-center gap-2 text-sm font-bold text-gray-700 dark:text-gray-200">
+            <Bell size={15} className="text-[#ff6154]" /> هشدار روزانه ایده‌های حوزه من (۱۷:۰۰)
+          </p>
+          {plan === 'free' ? (
+            <Link href="/pricing" className="text-xs font-black text-[#ff6154]">مخصوص Pro ⬆</Link>
+          ) : (
+            <button onClick={toggleAlerts} className={`rounded-full px-3 py-1 text-xs font-black ${alerts ? 'bg-green-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700'}`}>
+              {alerts ? 'فعال ✅' : 'غیرفعال'}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* پروفایل */}
+      <section className="mt-8 rounded-[28px] border border-gray-200 bg-white p-5 shadow-sm sm:p-6 dark:border-gray-700 dark:bg-gray-900">
+        <div className="border-b border-gray-100 pb-5 dark:border-gray-800">
+          <p className="text-xs font-black text-gray-400">
+            تنظیمات حساب
+          </p>
+
+          <h2 className="mt-1 text-xl font-black text-gray-950 dark:text-white">
+            اطلاعات حرفه‌ای من
+          </h2>
+
+          <p className="mt-2 max-w-2xl text-sm leading-7 text-gray-500 dark:text-gray-400">
+            این اطلاعات کمک می‌کند تجربه ایده‌جو برای حوزه کاری و موقعیت حرفه‌ای شما مرتبط‌تر شود.
+          </p>
+        </div>
+
+        <div className="mt-5 flex flex-col gap-4 sm:flex-row sm:items-center">
           {form.avatar ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={form.avatar} alt="پروفایل" className="h-16 w-16 rounded-full object-cover ring-2 ring-[#ff6154]/30" />
@@ -335,10 +396,10 @@ export default function DashboardPage() {
         </div>
 
         {msg && <p className="mt-3 text-xs font-bold text-[#ff6154]">{msg}</p>}
-        <button onClick={save} disabled={busy} className="mt-4 flex items-center gap-1.5 rounded-xl bg-[#ff6154] px-5 py-2.5 text-sm font-bold text-white disabled:opacity-40">
+        <button onClick={save} disabled={busy} className="mt-5 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-[#ff6154] px-5 text-sm font-black text-white transition hover:bg-[#e5544a] disabled:opacity-40 sm:w-auto">
           <Save size={15} /> ذخیره تغییرات
         </button>
-      </div>
+      </section>
     </main>
   );
 }
