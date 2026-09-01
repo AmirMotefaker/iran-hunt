@@ -2,6 +2,7 @@ import { readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { analyzeProduct } from '@/lib/ai-analyzer';
 import { fetchRealComments } from '@/lib/ph-comments';
+import { isDailyDataFilename } from '@/lib/storage';
 import type { PHComment, Product } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -22,7 +23,7 @@ async function main() {
   const token = process.env.PH_API_TOKEN;
   if (!token) { console.error('❌ PH_API_TOKEN missing'); process.exit(1); }
 
-  const files = (await readdir(DATA_DIR)).filter((f) => f.endsWith('.json')).sort().reverse();
+  const files = (await readdir(DATA_DIR)).filter(isDailyDataFilename).sort().reverse();
   const file = path.join(DATA_DIR, files[0]);
   const data = JSON.parse(await readFile(file, 'utf8'));
 

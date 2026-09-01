@@ -30,6 +30,24 @@ function cleanJson(text: string): string {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+async function fetchWithTimeout(
+  input: string,
+  init: RequestInit,
+  timeoutMs = 45000,
+): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(input, {
+      ...init,
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export function buildPrompt(p: Product): string {
   const originals = (p.comments ?? []).slice(0, 4);
   const commentsEn = originals.map((c, i) => `${i + 1}) ${c.text}`).join('\n');
@@ -59,39 +77,116 @@ ${commentsEn || '—'}
 }
 
 async function callGemini(key: string, prompt: string): Promise<string> {
-  const models = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
-  let lastErr = '';
+  const models = ['gemini-3.6-flash'];
+  const errors: string[] = [];
+
   for (const model of models) {
     try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.4 } }),
-      });
+      const res = await fetchWithTimeout(
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+          }),
+        },
+      );
+
+      const body = await res.text();
+
       if (res.ok) {
-        const json = await res.json();
-        const t = json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
-        if (t) { console.log(`   ✨ model: ${model}`); return t; }
+        const json = JSON.parse(body);
+        const text = json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+
+        if (text) {
+          console.log(`   ✨ model: ${model}`);
+          return text;
+        }
+
+        errors.push(`Gemini ${model}: empty response`);
+        continue;
       }
-      lastErr = `Gemini ${model}: HTTP ${res.status}`;
-    } catch (e: any) { lastErr = e.message; }
+
+      const error = `Gemini ${model}: HTTP ${res.status}${
+        body ? ` | ${body.slice(0, 500)}` : ''
+      }`;
+
+      errors.push(error);
+      console.warn(`   ⚠️  ${error}`);
+    } catch (e) {
+      const error = `Gemini ${model}: ${
+        e instanceof Error ? e.message : String(e)
+      }`;
+
+      errors.push(error);
+      console.warn(`   ⚠️  ${error}`);
+    }
   }
-  throw new Error(lastErr);
+
+  throw new Error(errors.join(' || ') || 'Gemini failed');
+}
+
+async function getGroqModels(key: string): Promise<string[]> {
+  const res = await fetchWithTimeout('https://api.groq.com/openai/v1/models', {
+    headers: { Authorization: `Bearer ${key}` },
+  });
+
+  const body = await res.text();
+  if (!res.ok) {
+    throw new Error(`Groq models HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
+  }
+
+  const json = JSON.parse(body);
+  return (json.data ?? [])
+    .map((m: any) => String(m.id ?? ''))
+    .filter(Boolean);
 }
 
 async function callGroq(key: string, prompt: string): Promise<string> {
+  const available = await getGroqModels(key);
+
+  const preferred = [
+    'qwen/qwen3.8-27b',
+    'qwen/qwen3.6-27b',
+    'openai/gpt-oss-20b',
+    'openai/gpt-oss-120b',
+  ];
+
+  const model = preferred.find((m) => available.includes(m));
+  if (!model) {
+    throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
+  }
+
   for (let i = 0; i < 2; i++) {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-      body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }], temperature: 0.4, max_tokens: 4096 }),
+      body: JSON.stringify({
+        model,
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.4,
+        max_tokens: 4096,
+      }),
     });
-    if (res.status === 429) { await sleep(8000); continue; }
-    if (!res.ok) throw new Error(`Groq HTTP ${res.status}`);
-    const json = await res.json();
+
+    if (res.status === 429) {
+      await sleep(8000);
+      continue;
+    }
+
+    const body = await res.text();
+
+    if (!res.ok) {
+      throw new Error(`Groq ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
+    }
+
+    const json = JSON.parse(body);
+    console.log(`   ✨ model: ${model}`);
     return json.choices?.[0]?.message?.content ?? '';
   }
-  throw new Error('Groq 429');
+
+  throw new Error(`Groq ${model}: HTTP 429`);
 }
 
 function tryParse(text: string): any {
