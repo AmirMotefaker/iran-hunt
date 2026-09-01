@@ -1,12 +1,54 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSessionUser } from '@/lib/auth-server';
 import sql from '@/lib/db';
+import { loadCorpusProducts } from '@/lib/corpus';
 
 export async function GET() {
   const user = await getSessionUser();
-  if (!user) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  const rows = await sql`SELECT slug, created_at FROM bookmarks WHERE email=${user.email} ORDER BY created_at DESC`;
-  return NextResponse.json({ bookmarks: rows });
+
+  if (!user) {
+    return NextResponse.json(
+      { error: 'unauthorized' },
+      { status: 401 },
+    );
+  }
+
+  const rows = await sql`
+    SELECT slug, created_at
+    FROM bookmarks
+    WHERE email=${user.email}
+    ORDER BY created_at DESC
+  `;
+
+  const corpus = await loadCorpusProducts();
+  const productsBySlug = new Map(
+    corpus.map((product) => [product.slug, product]),
+  );
+
+  const products = rows
+    .map((bookmark: any) => {
+      const product = productsBySlug.get(bookmark.slug);
+
+      if (!product) return null;
+
+      return {
+        slug: product.slug,
+        name: product.name,
+        tagline: product.tagline,
+        faTagline: product.faTagline,
+        faDescription: product.faDescription,
+        thumbnail: product.thumbnail,
+        votes: product.votes ?? 0,
+        category: product.category,
+        savedAt: bookmark.created_at,
+      };
+    })
+    .filter(Boolean);
+
+  return NextResponse.json({
+    bookmarks: rows,
+    products,
+  });
 }
 
 export async function POST(req: NextRequest) {
