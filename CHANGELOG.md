@@ -1,3 +1,10 @@
+## [1.52.2](https://github.com/IdehJo/idehjo/compare/v1.52.1...v1.52.2) (2026-09-01)
+
+
+### Bug Fixes
+
+* recover autonomous AI enrichment providers ([#59](https://github.com/IdehJo/idehjo/issues/59)) ([099587b](https://github.com/IdehJo/idehjo/commit/099587b6e35d5aeec176b9be4edb2da875e3c6bc))
+
 ## [1.52.1](https://github.com/IdehJo/idehjo/compare/v1.52.0...v1.52.1) (2026-08-30)
 
 
