@@ -30,6 +30,24 @@ function cleanJson(text: string): string {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+async function fetchWithTimeout(
+  input: string,
+  init: RequestInit,
+  timeoutMs = 45000,
+): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(input, {
+      ...init,
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export function buildPrompt(p: Product): string {
   const originals = (p.comments ?? []).slice(0, 4);
   const commentsEn = originals.map((c, i) => `${i + 1}) ${c.text}`).join('\n');
@@ -59,12 +77,12 @@ ${commentsEn || '—'}
 }
 
 async function callGemini(key: string, prompt: string): Promise<string> {
-  const models = ['gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-2.5-flash'];
+  const models = ['gemini-3.6-flash'];
   const errors: string[] = [];
 
   for (const model of models) {
     try {
-      const res = await fetch(
+      const res = await fetchWithTimeout(
         `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
         {
           method: 'POST',
@@ -110,7 +128,7 @@ async function callGemini(key: string, prompt: string): Promise<string> {
 }
 
 async function getGroqModels(key: string): Promise<string[]> {
-  const res = await fetch('https://api.groq.com/openai/v1/models', {
+  const res = await fetchWithTimeout('https://api.groq.com/openai/v1/models', {
     headers: { Authorization: `Bearer ${key}` },
   });
 
@@ -129,9 +147,10 @@ async function callGroq(key: string, prompt: string): Promise<string> {
   const available = await getGroqModels(key);
 
   const preferred = [
-    'llama-3.3-70b-versatile',
-    'meta-llama/llama-4-scout-17b-16e-instruct',
-    'llama-3.1-8b-instant',
+    'qwen/qwen3.8-27b',
+    'qwen/qwen3.6-27b',
+    'openai/gpt-oss-20b',
+    'openai/gpt-oss-120b',
   ];
 
   const model = preferred.find((m) => available.includes(m));
@@ -140,7 +159,7 @@ async function callGroq(key: string, prompt: string): Promise<string> {
   }
 
   for (let i = 0; i < 2; i++) {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
       body: JSON.stringify({
