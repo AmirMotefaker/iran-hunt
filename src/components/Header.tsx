@@ -15,7 +15,7 @@ import {
   X,
 } from 'lucide-react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { logout, me } from '@/lib/auth-client';
 import { CATEGORY_TREE, slugifyMainCategory } from '@/lib/categoryTree';
@@ -23,6 +23,7 @@ import { Logo } from './Logo';
 import { useTheme } from './ThemeProvider';
 
 function SearchBox({ mobile = false }: { mobile?: boolean }) {
+  const router = useRouter();
   const [q, setQ] = useState('');
   const [res, setRes] = useState<any[]>([]);
   const [open, setOpen] = useState(false);
@@ -54,6 +55,13 @@ function SearchBox({ mobile = false }: { mobile?: boolean }) {
       <input
         value={q}
         onChange={(e) => setQ(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' && q.trim().length >= 2) {
+            e.preventDefault();
+            setOpen(false);
+            router.push(/search?q=);
+          }
+        }
         placeholder="جستجوی ایده یا محصول…"
         className={`w-full rounded-2xl border border-gray-200 bg-gray-50/80 py-2.5 pl-3 pr-10 text-sm text-gray-900 outline-none transition focus:border-[#ff6154] focus:bg-white focus:ring-4 focus:ring-[#ff6154]/10 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-100 dark:focus:bg-gray-900 ${
           mobile ? '' : 'lg:w-64'
@@ -97,6 +105,16 @@ function SearchBox({ mobile = false }: { mobile?: boolean }) {
               </span>
             </Link>
           ))}
+          <button
+            type="button"
+            onClick={() => {
+              setOpen(false);
+              router.push(/search?q=);
+            }}
+            className="w-full border-t border-gray-100 px-4 py-3 text-center text-xs font-black text-[#ff6154] transition hover:bg-orange-50 dark:border-gray-800 dark:hover:bg-gray-900"
+          >
+            مشاهده همه نتایج جستجو ←
+          </button>
         </div>
       )}
     </div>
@@ -412,3 +430,4 @@ export function Header() {
     </>
   );
 }
+
