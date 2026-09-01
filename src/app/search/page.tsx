@@ -14,7 +14,8 @@ type SearchResult = {
 };
 
 export default function SearchPage() {
-  const router = useRouter();`n  const params = useSearchParams();
+  const router = useRouter();
+  const params = useSearchParams();
   const initialQuery = params.get("q") ?? "";
 
   const [query, setQuery] = useState(initialQuery);

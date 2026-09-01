@@ -59,7 +59,7 @@ function SearchBox({ mobile = false }: { mobile?: boolean }) {
           if (e.key === 'Enter' && q.trim().length >= 2) {
             e.preventDefault();
             setOpen(false);
-            router.push(/search?q=);
+            router.push(`/search?q=${encodeURIComponent(q.trim())}`);
           }
         }
         placeholder="جستجوی ایده یا محصول…"
@@ -109,7 +109,7 @@ function SearchBox({ mobile = false }: { mobile?: boolean }) {
             type="button"
             onClick={() => {
               setOpen(false);
-              router.push(/search?q=);
+              router.push(`/search?q=${encodeURIComponent(q.trim())}`);
             }}
             className="w-full border-t border-gray-100 px-4 py-3 text-center text-xs font-black text-[#ff6154] transition hover:bg-orange-50 dark:border-gray-800 dark:hover:bg-gray-900"
           >
