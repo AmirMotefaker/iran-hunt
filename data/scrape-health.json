@@ -1,11 +1,17 @@
 {
   "status": "success",
-  "lastAttemptAt": "2026-09-01T00:01:37.443Z",
-  "lastSuccessAt": "2026-09-01T00:02:02.486Z",
+  "lastAttemptAt": "2026-09-01T01:21:50.195Z",
+  "lastSuccessAt": "2026-09-01T01:22:11.921Z",
   "lastFailureAt": "2026-08-30T05:21:12.905Z",
   "lastFailureReason": null,
   "consecutiveFailures": 0,
   "recentRuns": [
+    {
+      "status": "success",
+      "startedAt": "2026-09-01T01:21:50.195Z",
+      "finishedAt": "2026-09-01T01:22:11.921Z",
+      "error": null
+    },
     {
       "status": "success",
       "startedAt": "2026-09-01T00:01:37.443Z",

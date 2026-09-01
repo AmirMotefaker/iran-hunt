@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-08-31T00:47:47.642Z",
-  "latestDataset": "2026-08-31.json",
+  "checkedAt": "2026-09-01T01:23:15.719Z",
+  "latestDataset": "2026-09-01.json",
   "batchLimit": 10,
   "attempted": 10,
   "succeeded": 0,
   "failed": 10,
-  "backlogBefore": 203,
-  "backlogAfter": 203,
+  "backlogBefore": 212,
+  "backlogAfter": 212,
   "completedProducts": 16,
-  "missingFaDescription": 141,
-  "missingFaComments": 192,
-  "missingAiReview": 158,
-  "missingIranEquivalent": 141,
+  "missingFaDescription": 150,
+  "missingFaComments": 201,
+  "missingAiReview": 167,
+  "missingIranEquivalent": 150,
   "failures": [
     {
       "slug": "cohere-2",
@@ -19,6 +19,10 @@
     },
     {
       "slug": "topview-ai",
+      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
+    },
+    {
+      "slug": "particle-5",
       "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
     },
     {
@@ -34,6 +38,10 @@
       "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
     },
     {
+      "slug": "brandjet-ai",
+      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
+    },
+    {
       "slug": "cowork",
       "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
     },
@@ -42,15 +50,7 @@
       "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
     },
     {
-      "slug": "goldfish",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "upstream-5",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "tiles-map-your-adventures",
+      "slug": "revolte",
       "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
     }
   ]

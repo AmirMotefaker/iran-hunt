@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "scrapedAt": "2026-09-01T00:02:02.484Z",
+  "scrapedAt": "2026-09-01T01:22:11.919Z",
   "periods": {
     "today": [
       {
@@ -778,7 +778,7 @@
         "maker": "Alex",
         "makerTitle": "I like coffee and building cool stuff.",
         "featuredAt": "2026-08-31T07:01:00Z",
-        "votes": 187,
+        "votes": 189,
         "websiteUrl": "https://www.producthunt.com/r/CVBLPBKYAX7Z64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1395,7 +1395,7 @@
         "maker": "nora",
         "makerTitle": "deploy vibe marketing to all businesses",
         "featuredAt": "2026-08-31T07:01:00Z",
-        "votes": 309,
+        "votes": 311,
         "websiteUrl": "https://www.producthunt.com/r/KMJ6C2OCHCE4UL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1821,7 +1821,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-31T07:01:00Z",
-        "votes": 229,
+        "votes": 230,
         "websiteUrl": "https://www.producthunt.com/r/NTN6BE7PSJWFWC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -1881,12 +1881,16 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-31T07:01:00Z",
-        "votes": 223,
+        "votes": 224,
         "websiteUrl": "https://www.producthunt.com/r/L7YVCYBWPR4HFC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hey PH 👋 Raj here, co-founder & CEO of Revolte.Every AI dev tool makes you pick a side. Cursor is hands-on: you're in the loop for every keystroke. Devin is hands-off: you hand it a task and check the result. Both are good, but neither is enough on its own for a real team. Because different work needs different oversight.A tricky refactor in your payments service? You want hands-on. A backlog of dependency bumps? Hand it off. The real question isn't \"do we adopt AI?\" It's \"how do we adopt it across different work with different risk profiles?\" Nobody's answering that.So we built Revolte to give you both, in one workspace.Autopilot mode (from our previous launch) takes a Jira ticket and runs it end-to-end through PR and deploy, with engineers approving the meaningful steps.Today we're adding Interactive Sessions: a tabbed workspace where you drive the full lifecycle with the agents directly, architecture, code, tests, staging, deploy. One session per task, you approve every step. No Jira required. Sign up and start in under a minute.Same governance layer for both. Plan approval before code, inline diffs before merge, cost caps before deploy, audit trail on every action.Hands-on when you want control, hands-off when you want throughput. Same platform, same procurement conversation.Would love the hard feedback, especially from engineering leaders figuring out how to adopt AI across teams with different risk appetites. That's the problem we built this for."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "@rajagopalanar @parthasarathi_raghavan @arulwatson really neat product - how has adoption been thus far - curious how steep the switching costs are for current dev teams?"
           },
           {
             "user": "[REDACTED]",
@@ -1911,10 +1915,6 @@
           {
             "user": "[REDACTED]",
             "text": "Nice that Revolte does the delivery grunt work but leaves the big calls to engineers. What happens when one of its PRs needs a security fix after it's already merged?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Nice one. Having both modes makes sense - hands-on for the risky stuff, autopilot for the boring tickets. Good luck today!"
           }
         ]
       },
@@ -2164,7 +2164,7 @@
         "maker": "Alex",
         "makerTitle": "I like coffee and building cool stuff.",
         "featuredAt": "2026-08-31T07:01:00Z",
-        "votes": 187,
+        "votes": 189,
         "websiteUrl": "https://www.producthunt.com/r/CVBLPBKYAX7Z64?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2910,6 +2910,10 @@
           },
           {
             "user": "[REDACTED]",
+            "text": "I've always felt embedding-based retrieval had its limitations, so it's really cool to see you address that with a tree structure. And I have one question, how do you handle updates to documents (or the underlying information)?"
+          },
+          {
+            "user": "[REDACTED]",
             "text": "How different is this from Rag (gemini llm)?"
           },
           {
@@ -2931,10 +2935,6 @@
           {
             "user": "[REDACTED]",
             "text": "Interesting. Curious how is this different than SciSpace, SciSummary, Jenni, Elicit, etc?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love that I don't have to keep scrolling through a 500-page PDF anymore！"
           }
         ]
       },
