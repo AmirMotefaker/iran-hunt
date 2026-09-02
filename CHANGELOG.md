@@ -1,3 +1,10 @@
+# [1.57.0](https://github.com/IdehJo/idehjo/compare/v1.56.1...v1.57.0) (2026-09-02)
+
+
+### Features
+
+* harden authenticated dashboard loading and recovery ([#74](https://github.com/IdehJo/idehjo/issues/74)) ([96458be](https://github.com/IdehJo/idehjo/commit/96458be12ff64dfab139eee151a7dc7265d082f3))
+
 ## [1.56.1](https://github.com/IdehJo/idehjo/compare/v1.56.0...v1.56.1) (2026-09-02)
 
 
