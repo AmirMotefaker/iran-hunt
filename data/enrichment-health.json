@@ -1,57 +1,21 @@
 {
-  "checkedAt": "2026-09-01T01:23:15.719Z",
-  "latestDataset": "2026-09-01.json",
+  "checkedAt": "2026-09-02T00:31:41.967Z",
+  "latestDataset": "2026-09-02.json",
   "batchLimit": 10,
   "attempted": 10,
-  "succeeded": 0,
-  "failed": 10,
-  "backlogBefore": 212,
-  "backlogAfter": 212,
-  "completedProducts": 16,
-  "missingFaDescription": 150,
-  "missingFaComments": 201,
-  "missingAiReview": 167,
-  "missingIranEquivalent": 150,
+  "succeeded": 9,
+  "failed": 1,
+  "backlogBefore": 219,
+  "backlogAfter": 210,
+  "completedProducts": 25,
+  "missingFaDescription": 148,
+  "missingFaComments": 199,
+  "missingAiReview": 165,
+  "missingIranEquivalent": 148,
   "failures": [
     {
-      "slug": "cohere-2",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "topview-ai",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "particle-5",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "welltory-2",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
       "slug": "gemini-3-4",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "guideflow",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "brandjet-ai",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "cowork",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "happycapy",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
-    },
-    {
-      "slug": "revolte",
-      "reason": "AI failed: gemini: Gemini gemini-1.5-flash: HTTP 404 | groq: Groq HTTP 404"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 503 | {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAI"
     }
   ]
 }
