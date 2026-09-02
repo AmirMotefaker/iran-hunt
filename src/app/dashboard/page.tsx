@@ -9,11 +9,12 @@ import {
   Crown,
   Heart,
   MessageCircle,
+  RefreshCw,
   Save,
   Sparkles,
 } from 'lucide-react';
 import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { me } from '@/lib/auth-client';
 import { CITIES } from '@/lib/cities';
 import { PROVINCES } from '@/lib/provinces';
@@ -29,6 +30,7 @@ const faFull = (iso: string) => {
 
 const inputCls = 'w-full rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white';
 const labelCls = 'mb-1 block text-xs font-bold text-gray-500 dark:text-gray-400';
+type DashboardState = 'checking-auth' | 'loading-dashboard' | 'ready' | 'error';
 
 export default function DashboardPage() {
   const [profile, setProfile] = useState<any>(null);
@@ -42,17 +44,47 @@ export default function DashboardPage() {
   const [form, setForm] = useState({ first_name: '', last_name: '', province: '', city: '', mobile: '', avatar: '', company: '', role: '', expertise: '' });
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState('');
+  const [loadState, setLoadState] = useState<DashboardState>('checking-auth');
+  const [loadError, setLoadError] = useState('');
   const fileRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
-    (async () => {
+  const loadDashboard = useCallback(async () => {
+    setLoadError('');
+    setLoadState('checking-auth');
+    setProfile(null);
+
+    try {
       const u = await me();
-      if (!u?.email) { window.location.href = '/login?next=/dashboard'; return; }
-      setPlan(u.plan ?? 'free'); setExpires(u.planExpiresAt ?? null);
-      const res = await fetch('/api/profile');
-      if (!res.ok) return;
-      const j = await res.json();
-      setProfile(j.profile); setLikes(j.likes); setComments(j.comments);
+
+      if (!u?.email) {
+        window.location.replace('/login?next=/dashboard');
+        return;
+      }
+
+      setPlan(u.plan ?? 'free');
+      setExpires(u.planExpiresAt ?? null);
+      setLoadState('loading-dashboard');
+
+      const profileRes = await fetch('/api/profile', { cache: 'no-store' });
+
+      if (profileRes.status === 401) {
+        window.location.replace('/login?next=/dashboard');
+        return;
+      }
+
+      if (!profileRes.ok) {
+        throw new Error('profile');
+      }
+
+      const j = await profileRes.json();
+
+      if (!j?.profile) {
+        throw new Error('profile');
+      }
+
+      setProfile(j.profile);
+      setLikes(j.likes ?? 0);
+      setComments(j.comments ?? 0);
       setAlerts(!!j.profile.alerts);
       setForm({
         first_name: j.profile.first_name ?? '', last_name: j.profile.last_name ?? '',
@@ -60,11 +92,31 @@ export default function DashboardPage() {
         mobile: j.profile.mobile ?? '', avatar: j.profile.avatar ?? '',
         company: j.profile.company ?? '', role: j.profile.role ?? '', expertise: j.profile.expertise ?? '',
       });
-      const b = await fetch('/api/bookmarks').then((x) => x.json());
+
+      const bookmarkRes = await fetch('/api/bookmarks', { cache: 'no-store' });
+
+      if (bookmarkRes.status === 401) {
+        window.location.replace('/login?next=/dashboard');
+        return;
+      }
+
+      if (!bookmarkRes.ok) {
+        throw new Error('bookmarks');
+      }
+
+      const b = await bookmarkRes.json();
       setBookmarks(b.bookmarks ?? []);
       setBookmarkProducts(b.products ?? []);
-    })();
+      setLoadState('ready');
+    } catch {
+      setLoadError('بارگذاری داشبورد کامل نشد. اتصال را بررسی کن و دوباره تلاش کن.');
+      setLoadState('error');
+    }
   }, []);
+
+  useEffect(() => {
+    void loadDashboard();
+  }, [loadDashboard]);
 
   const onFile = (f: File | null) => {
     if (!f) return;
@@ -88,7 +140,48 @@ export default function DashboardPage() {
     await fetch('/api/profile', { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...form, alerts: next }) });
   };
 
-  if (!profile) return <main className="mx-auto max-w-3xl px-4 py-20 text-center text-gray-400">در حال بارگذاری…</main>;
+  if (loadState === 'checking-auth' || loadState === 'loading-dashboard') {
+    return (
+      <main className="mx-auto max-w-3xl px-4 py-20 text-center">
+        <div className="mx-auto h-9 w-9 animate-spin rounded-full border-4 border-gray-200 border-t-[#ff6154] dark:border-gray-800 dark:border-t-[#ff6154]" />
+        <p className="mt-4 text-sm font-bold text-gray-500 dark:text-gray-400">
+          {loadState === 'checking-auth' ? 'در حال بررسی ورود…' : 'در حال آماده‌سازی داشبورد…'}
+        </p>
+      </main>
+    );
+  }
+
+  if (loadState === 'error' || !profile) {
+    return (
+      <main className="mx-auto max-w-xl px-4 py-20 text-center">
+        <section className="rounded-[28px] border border-gray-200 bg-white p-7 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ff6154]/10 text-[#ff6154]">
+            <RefreshCw size={22} />
+          </div>
+          <h1 className="mt-4 text-xl font-black text-gray-950 dark:text-white">داشبورد کامل بارگذاری نشد</h1>
+          <p className="mx-auto mt-2 max-w-md text-sm leading-7 text-gray-500 dark:text-gray-400">
+            {loadError || 'یک خطای موقت در بارگذاری اطلاعات حساب رخ داد.'}
+          </p>
+          <div className="mt-5 flex flex-col justify-center gap-2 sm:flex-row">
+            <button
+              type="button"
+              onClick={() => void loadDashboard()}
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[#ff6154] px-5 text-sm font-black text-white transition hover:bg-[#e5544a]"
+            >
+              <RefreshCw size={15} />
+              تلاش دوباره
+            </button>
+            <Link
+              href="/products"
+              className="inline-flex min-h-11 items-center justify-center rounded-xl border border-gray-200 px-5 text-sm font-black text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800"
+            >
+              بازگشت به ایده‌ها
+            </Link>
+          </div>
+        </section>
+      </main>
+    );
+  }
 
   const planDef = PLANS.find((p) => p.id === plan)!;
 
