@@ -1,3 +1,10 @@
+# [1.56.0](https://github.com/IdehJo/idehjo/compare/v1.55.0...v1.56.0) (2026-09-02)
+
+
+### Features
+
+* optimize pricing and subscription conversion UX ([#70](https://github.com/IdehJo/idehjo/issues/70)) ([4236f8c](https://github.com/IdehJo/idehjo/commit/4236f8c3d5cbdb8488660a69a9cfa0e815768222))
+
 # [1.55.0](https://github.com/IdehJo/idehjo/compare/v1.54.0...v1.55.0) (2026-09-02)
 
 
