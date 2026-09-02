@@ -1,3 +1,10 @@
+# [1.62.0](https://github.com/IdehJo/idehjo/compare/v1.61.0...v1.62.0) (2026-09-02)
+
+
+### Features
+
+* P54 recommendation feedback loop ([#84](https://github.com/IdehJo/idehjo/issues/84)) ([e288836](https://github.com/IdehJo/idehjo/commit/e288836bb28f320cb28233aa16531ee49c311d18))
+
 # [1.61.0](https://github.com/IdehJo/idehjo/compare/v1.60.0...v1.61.0) (2026-09-02)
 
 
