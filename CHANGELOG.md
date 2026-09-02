@@ -1,3 +1,10 @@
+# [1.58.0](https://github.com/IdehJo/idehjo/compare/v1.57.0...v1.58.0) (2026-09-02)
+
+
+### Features
+
+* P50 activation and personalized discovery ([#76](https://github.com/IdehJo/idehjo/issues/76)) ([b4b8b0a](https://github.com/IdehJo/idehjo/commit/b4b8b0a70b5f13fa6dafda1da7c927b7a7382356))
+
 # [1.57.0](https://github.com/IdehJo/idehjo/compare/v1.56.1...v1.57.0) (2026-09-02)
 
 
