@@ -1,3 +1,10 @@
+# [1.54.0](https://github.com/IdehJo/idehjo/compare/v1.53.0...v1.54.0) (2026-09-02)
+
+
+### Features
+
+* add dedicated search experience ([#65](https://github.com/IdehJo/idehjo/issues/65)) ([c7a00a9](https://github.com/IdehJo/idehjo/commit/c7a00a9b584bad77c1c199cf534988e6f7b5a024))
+
 # [1.53.0](https://github.com/IdehJo/idehjo/compare/v1.52.2...v1.53.0) (2026-09-01)
 
 
