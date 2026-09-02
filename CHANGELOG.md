@@ -1,3 +1,10 @@
+# [1.55.0](https://github.com/IdehJo/idehjo/compare/v1.54.0...v1.55.0) (2026-09-02)
+
+
+### Features
+
+* build saved discovery and returning-user experience ([#69](https://github.com/IdehJo/idehjo/issues/69)) ([5bf9228](https://github.com/IdehJo/idehjo/commit/5bf9228c4b165077317c1e5b1f4e8768ebe4cb67))
+
 # [1.54.0](https://github.com/IdehJo/idehjo/compare/v1.53.0...v1.54.0) (2026-09-02)
 
 
