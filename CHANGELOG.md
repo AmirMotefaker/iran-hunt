@@ -1,3 +1,10 @@
+## [1.56.1](https://github.com/IdehJo/idehjo/compare/v1.56.0...v1.56.1) (2026-09-02)
+
+
+### Bug Fixes
+
+* secure auth return flow before dashboard integration ([#72](https://github.com/IdehJo/idehjo/issues/72)) ([fe5ad27](https://github.com/IdehJo/idehjo/commit/fe5ad2767d4414b36463c4cda585986a55ab792f))
+
 # [1.56.0](https://github.com/IdehJo/idehjo/compare/v1.55.0...v1.56.0) (2026-09-02)
 
 
