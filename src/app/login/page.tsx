@@ -12,7 +12,14 @@ function LoginInner() {
   const [error, setError] = useState('');
   const router = useRouter();
   const params = useSearchParams();
-  const next = params.get('next') ?? '/';
+
+  const requestedNext = params.get('next') ?? '/';
+
+  const next =
+    requestedNext.startsWith('/') &&
+    !requestedNext.startsWith('//')
+      ? requestedNext
+      : '/';
 
   const submit = async () => {
     setBusy(true);
