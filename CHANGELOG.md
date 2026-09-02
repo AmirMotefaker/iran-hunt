@@ -1,3 +1,10 @@
+# [1.61.0](https://github.com/IdehJo/idehjo/compare/v1.60.0...v1.61.0) (2026-09-02)
+
+
+### Features
+
+* add behavioral personalization layer ([#82](https://github.com/IdehJo/idehjo/issues/82)) ([306a24d](https://github.com/IdehJo/idehjo/commit/306a24d586fd5281cc4e29a55820c7cbbfcb145e))
+
 # [1.60.0](https://github.com/IdehJo/idehjo/compare/v1.59.0...v1.60.0) (2026-09-02)
 
 
