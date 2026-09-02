@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Vazirmatn } from 'next/font/google';
+import { DashboardRecommendations } from '@/components/DashboardRecommendations';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { ThemeProvider } from '@/components/ThemeProvider';
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <ThemeProvider>
           <Header />
+          <DashboardRecommendations />
           {children}
           <Footer />
         </ThemeProvider>
