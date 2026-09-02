@@ -12,6 +12,8 @@ import {
   RefreshCw,
   Save,
   Sparkles,
+  Target,
+  X,
 } from 'lucide-react';
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
@@ -46,6 +48,7 @@ export default function DashboardPage() {
   const [msg, setMsg] = useState('');
   const [loadState, setLoadState] = useState<DashboardState>('checking-auth');
   const [loadError, setLoadError] = useState('');
+  const [activationDismissed, setActivationDismissed] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const loadDashboard = useCallback(async () => {
@@ -131,6 +134,7 @@ export default function DashboardPage() {
     const res = await fetch('/api/profile', { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) });
     const j = await res.json();
     setMsg(res.ok ? '✅ پروفایل با موفقیت ذخیره شد' : j.error ?? 'خطا');
+    if (res.ok) setProfile((current: any) => ({ ...current, ...form }));
     setBusy(false);
   };
 
@@ -184,6 +188,14 @@ export default function DashboardPage() {
   }
 
   const planDef = PLANS.find((p) => p.id === plan)!;
+  const activationComplete = Boolean(form.role.trim() && form.expertise.trim());
+  const discoveryQuery = [form.expertise, form.role, form.company]
+    .map((value) => value.trim())
+    .filter(Boolean)
+    .join(' ');
+  const personalizedHref = discoveryQuery
+    ? `/search?q=${encodeURIComponent(discoveryQuery)}`
+    : '/products';
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:py-12">
@@ -257,6 +269,103 @@ export default function DashboardPage() {
           </div>
         </div>
       </section>
+
+      {!activationComplete && !activationDismissed ? (
+        <section className="relative mt-8 overflow-hidden rounded-[28px] border border-[#ff6154]/25 bg-[#ff6154]/5 p-5 sm:p-7 dark:border-[#ff6154]/25 dark:bg-[#ff6154]/10">
+          <button
+            type="button"
+            onClick={() => setActivationDismissed(true)}
+            className="absolute left-4 top-4 flex h-9 w-9 items-center justify-center rounded-xl text-gray-400 transition hover:bg-white hover:text-gray-700 dark:hover:bg-gray-900 dark:hover:text-gray-200"
+            aria-label="فعلاً بعداً"
+          >
+            <X size={17} />
+          </button>
+
+          <div className="max-w-2xl">
+            <p className="flex items-center gap-2 text-xs font-black text-[#ff6154]">
+              <Target size={15} />
+              فعال‌سازی تجربه شخصی
+            </p>
+            <h2 className="mt-2 text-2xl font-black text-gray-950 dark:text-white">
+              ایده‌جو بداند دنبال چه فرصت‌هایی هستی
+            </h2>
+            <p className="mt-2 text-sm leading-7 text-gray-600 dark:text-gray-300">
+              فقط سمت و تخصصت را مشخص کن تا از همین جستجو و دسته‌بندی‌های موجود، مسیر کشف مرتبط‌تری برایت بسازیم. این مرحله اجباری نیست و هر زمان خواستی قابل تغییر است.
+            </p>
+          </div>
+
+          <div className="mt-5 grid gap-4 sm:grid-cols-3">
+            <div>
+              <label className={labelCls}>سمت</label>
+              <input
+                value={form.role}
+                onChange={(e) => setForm({ ...form, role: e.target.value })}
+                placeholder="مثلاً بنیان‌گذار"
+                className={inputCls}
+              />
+            </div>
+            <div>
+              <label className={labelCls}>تخصص</label>
+              <input
+                value={form.expertise}
+                onChange={(e) => setForm({ ...form, expertise: e.target.value })}
+                placeholder="مثلاً هوش مصنوعی"
+                className={inputCls}
+              />
+            </div>
+            <div>
+              <label className={labelCls}>شرکت / استارتاپ اختیاری</label>
+              <input
+                value={form.company}
+                onChange={(e) => setForm({ ...form, company: e.target.value })}
+                placeholder="اختیاری"
+                className={inputCls}
+              />
+            </div>
+          </div>
+
+          <div className="mt-5 flex flex-col gap-2 sm:flex-row sm:items-center">
+            <button
+              type="button"
+              onClick={() => void save()}
+              disabled={busy || !form.role.trim() || !form.expertise.trim()}
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[#ff6154] px-5 text-sm font-black text-white transition hover:bg-[#e5544a] disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              <Save size={15} />
+              ذخیره و شخصی‌سازی
+            </button>
+            <button
+              type="button"
+              onClick={() => setActivationDismissed(true)}
+              className="inline-flex min-h-11 items-center justify-center rounded-xl px-4 text-xs font-black text-gray-500 transition hover:bg-white dark:text-gray-300 dark:hover:bg-gray-900"
+            >
+              فعلاً بعداً
+            </button>
+          </div>
+        </section>
+      ) : activationComplete ? (
+        <section className="mt-8 flex flex-col gap-5 rounded-[28px] border border-gray-200 bg-white p-5 shadow-sm sm:flex-row sm:items-center sm:justify-between sm:p-6 dark:border-gray-800 dark:bg-gray-900">
+          <div className="min-w-0">
+            <p className="flex items-center gap-2 text-xs font-black text-[#ff6154]">
+              <Target size={14} />
+              پیشنهاد برای تو
+            </p>
+            <h2 className="mt-2 text-lg font-black text-gray-950 dark:text-white">
+              کشف فرصت‌های مرتبط با {form.expertise}
+            </h2>
+            <p className="mt-1 text-sm leading-7 text-gray-500 dark:text-gray-400">
+              بر اساس تخصص «{form.expertise}» و نقش «{form.role}»، جستجوی مرتبط را ادامه بده و گزینه‌های مناسب برای بررسی بعدی را ذخیره کن.
+            </p>
+          </div>
+          <Link
+            href={personalizedHref}
+            className="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-xl bg-gray-950 px-5 text-sm font-black text-white transition hover:bg-[#ff6154] dark:bg-white dark:text-gray-950 dark:hover:bg-[#ff6154] dark:hover:text-white"
+          >
+            کشف مرتبط با من
+            <ArrowLeft size={15} />
+          </Link>
+        </section>
+      ) : null}
 
       {/* ذخیره‌شده‌ها */}
       <section className="mt-8 overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
