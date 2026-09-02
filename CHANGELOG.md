@@ -1,3 +1,10 @@
+# [1.60.0](https://github.com/IdehJo/idehjo/compare/v1.59.0...v1.60.0) (2026-09-02)
+
+
+### Features
+
+* improve Persian-first search relevance and corpus coverage ([#80](https://github.com/IdehJo/idehjo/issues/80)) ([6d54f06](https://github.com/IdehJo/idehjo/commit/6d54f06e2cdd285a24a90f1b641359397d1a5dbe))
+
 # [1.59.0](https://github.com/IdehJo/idehjo/compare/v1.58.0...v1.59.0) (2026-09-02)
 
 
