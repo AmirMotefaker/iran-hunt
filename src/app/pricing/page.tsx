@@ -157,7 +157,7 @@ export default function PricingPage() {
           دوره پرداخت را انتخاب کن
         </p>
 
-        <div className="grid grid-cols-3 gap-1.5 rounded-2xl border border-gray-200 bg-gray-50 p-1.5 dark:border-gray-700 dark:bg-gray-900">
+        <div className="grid grid-cols-3 gap-1 rounded-2xl border border-gray-200 bg-gray-50 p-1 sm:gap-1.5 sm:p-1.5 dark:border-gray-700 dark:bg-gray-900">
           {CYCLES.map((item) => {
             const active = cycle === item.id;
 
@@ -211,7 +211,7 @@ export default function PricingPage() {
         </div>
       )}
 
-      <section className="mt-10 grid items-stretch gap-5 md:grid-cols-2 xl:grid-cols-4">
+      <section className="mt-10 grid items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-4">
         {PLANS.map((plan) => {
           const meta = PLAN_META[plan.id];
           const Icon = meta.icon;
@@ -258,7 +258,7 @@ export default function PricingPage() {
                 </span>
               </div>
 
-              <p className="mt-3 min-h-14 text-sm font-bold leading-7 text-gray-600 dark:text-gray-300">
+              <p className="mt-3 text-sm font-bold leading-7 text-gray-600 sm:min-h-14 dark:text-gray-300">
                 {meta.outcome}
               </p>
 
@@ -304,7 +304,7 @@ export default function PricingPage() {
                 امکانات اصلی
               </p>
 
-              <ul className="mt-3 flex-1 space-y-2.5">
+              <ul className="mt-3 flex-1 space-y-2.5 break-words">
                 {plan.features.map((feature) => (
                   <li
                     key={feature}
@@ -362,6 +362,132 @@ export default function PricingPage() {
         })}
       </section>
 
+      <section className="mt-10">
+        <div className="text-center">
+          <p className="text-xs font-black text-[#ff6154]">
+            انتخاب سریع‌تر
+          </p>
+
+          <h2 className="mt-2 text-2xl font-black tracking-tight text-gray-950 sm:text-3xl dark:text-white">
+            کدام پلن برای من مناسب‌تر است؟
+          </h2>
+
+          <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-gray-500 dark:text-gray-400">
+            به‌جای مقایسه ده‌ها قابلیت، از نوع استفاده‌ای که از ایده‌جو داری شروع کن.
+          </p>
+        </div>
+
+        <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          {PLANS.map((plan) => {
+            const meta = PLAN_META[plan.id];
+            const Icon = meta.icon;
+            const price = priceFor(plan.monthly, cycle);
+
+            return (
+              <div
+                key={`guide-${plan.id}`}
+                className={`rounded-2xl border p-4 ${
+                  plan.highlight
+                    ? 'border-[#ff6154]/40 bg-[#ff6154]/5'
+                    : 'border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900'
+                }`}
+              >
+                <div className="flex items-center gap-3">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300">
+                    <Icon size={16} />
+                  </span>
+
+                  <div>
+                    <p className="text-[10px] font-black text-gray-400">
+                      {meta.eyebrow}
+                    </p>
+
+                    <strong className="block text-sm font-black text-gray-950 dark:text-white">
+                      {plan.fa}
+                    </strong>
+                  </div>
+                </div>
+
+                <p className="mt-3 text-xs leading-6 text-gray-600 dark:text-gray-300">
+                  {meta.outcome}
+                </p>
+
+                <div className="mt-4 border-t border-gray-100 pt-3 dark:border-gray-800">
+                  {plan.monthly === 0 ? (
+                    <span className="text-sm font-black text-emerald-600 dark:text-emerald-400">
+                      رایگان
+                    </span>
+                  ) : (
+                    <p className="text-xs font-bold text-gray-500 dark:text-gray-400">
+                      از{' '}
+                      <strong className="text-sm font-black text-gray-950 dark:text-white">
+                        {toman(price.perMonth)}
+                      </strong>{' '}
+                      تومان در ماه
+                    </p>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="mt-10 overflow-hidden rounded-[28px] border border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
+        <div className="border-b border-gray-100 p-5 sm:p-6 dark:border-gray-800">
+          <p className="text-xs font-black text-[#ff6154]">
+            قبل از پرداخت
+          </p>
+
+          <h2 className="mt-1 text-xl font-black text-gray-950 dark:text-white">
+            دقیقاً چه اتفاقی می‌افتد؟
+          </h2>
+        </div>
+
+        <div className="grid gap-0 sm:grid-cols-3">
+          <div className="p-5 sm:p-6">
+            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#ff6154]/10 text-sm font-black text-[#ff6154]">
+              ۱
+            </span>
+
+            <strong className="mt-4 block text-sm font-black text-gray-950 dark:text-white">
+              پلن و دوره را انتخاب می‌کنی
+            </strong>
+
+            <p className="mt-2 text-xs leading-6 text-gray-500 dark:text-gray-400">
+              قیمت نهایی بر اساس همان دوره انتخابی محاسبه و قبل از پرداخت نمایش داده می‌شود.
+            </p>
+          </div>
+
+          <div className="border-y border-gray-100 p-5 sm:border-x sm:border-y-0 sm:p-6 dark:border-gray-800">
+            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#ff6154]/10 text-sm font-black text-[#ff6154]">
+              ۲
+            </span>
+
+            <strong className="mt-4 block text-sm font-black text-gray-950 dark:text-white">
+              وارد درگاه زرین‌پال می‌شوی
+            </strong>
+
+            <p className="mt-2 text-xs leading-6 text-gray-500 dark:text-gray-400">
+              پرداخت در محیط رسمی درگاه انجام می‌شود و اطلاعات بانکی داخل ایده‌جو ذخیره نمی‌شود.
+            </p>
+          </div>
+
+          <div className="p-5 sm:p-6">
+            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#ff6154]/10 text-sm font-black text-[#ff6154]">
+              ۳
+            </span>
+
+            <strong className="mt-4 block text-sm font-black text-gray-950 dark:text-white">
+              پلن روی همان حساب فعال می‌شود
+            </strong>
+
+            <p className="mt-2 text-xs leading-6 text-gray-500 dark:text-gray-400">
+              بعد از تأیید موفق پرداخت، حساب به‌صورت خودکار به پلن خریداری‌شده ارتقا پیدا می‌کند.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="mt-10 rounded-[28px] border border-gray-200 bg-gray-50 p-5 sm:p-7 dark:border-gray-800 dark:bg-gray-900">
         <div className="grid gap-5 text-center sm:grid-cols-3">
           <div>
