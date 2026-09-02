@@ -1,3 +1,10 @@
+# [1.59.0](https://github.com/IdehJo/idehjo/compare/v1.58.0...v1.59.0) (2026-09-02)
+
+
+### Features
+
+* P51 retention and recommendation loop ([#78](https://github.com/IdehJo/idehjo/issues/78)) ([1701383](https://github.com/IdehJo/idehjo/commit/17013837729afd1dbc92bce1d76155b1a4828c96))
+
 # [1.58.0](https://github.com/IdehJo/idehjo/compare/v1.57.0...v1.58.0) (2026-09-02)
 
 
