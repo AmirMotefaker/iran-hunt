@@ -1,18 +1,18 @@
 'use client';
 
-import { ArrowLeft, Sparkles } from 'lucide-react';
+import { ArrowLeft, Bookmark, Sparkles, UserRound } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import {
-  buildDashboardRecommendations,
-  recommendationHref,
-  type DashboardRecommendation,
-} from '@/lib/dashboard-recommendations';
+  buildPersonalizedDiscovery,
+  personalizedDiscoveryHref,
+  type PersonalizedDiscovery,
+} from '@/lib/dashboard-personalization';
 
 export function DashboardRecommendations() {
   const pathname = usePathname();
-  const [items, setItems] = useState<DashboardRecommendation[]>([]);
+  const [items, setItems] = useState<PersonalizedDiscovery[]>([]);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export function DashboardRecommendations() {
         if (cancelled) return;
 
         setItems(
-          buildDashboardRecommendations(
+          buildPersonalizedDiscovery(
             profileJson.profile ?? {},
             bookmarksJson.products ?? [],
           ),
@@ -63,25 +63,29 @@ export function DashboardRecommendations() {
         <div className="border-b border-gray-100 p-5 sm:p-6 dark:border-gray-800">
           <p className="flex items-center gap-2 text-xs font-black text-[#ff6154]">
             <Sparkles size={14} />
-            پیشنهاد برای شما
+            پیشنهادهای شخصی شما
           </p>
           <h2 className="mt-2 text-xl font-black text-gray-950 dark:text-white">
-            مسیر بعدی کشف را از همین‌جا ادامه بده
+            مسیر بعدی کشف بر اساس رفتار و پروفایل تو
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-7 text-gray-500 dark:text-gray-400">
-            این پیشنهادها به‌صورت شفاف از تخصص، نقش حرفه‌ای و ایده‌های ذخیره‌شده شما ساخته می‌شوند؛ بدون رتبه‌بندی مبهم یا مدل جداگانه.
+            این مسیرها از تخصص، نقش حرفه‌ای و حوزه ایده‌های ذخیره‌شده ساخته می‌شوند. دلیل هر پیشنهاد مشخص است و جستجو از همان موتور relevance ایده‌جو استفاده می‌کند.
           </p>
         </div>
 
         <div className="grid gap-3 p-4 sm:grid-cols-3 sm:p-6">
           {items.map((item) => (
             <Link
-              key={`${item.label}-${item.query}`}
-              href={recommendationHref(item.query)}
+              key={`${item.source}-${item.label}-${item.query}`}
+              href={personalizedDiscoveryHref(item.query)}
               className="group flex min-w-0 flex-col justify-between rounded-2xl border border-gray-100 bg-gray-50/70 p-4 transition hover:-translate-y-0.5 hover:border-[#ff6154]/25 hover:bg-white hover:shadow-lg dark:border-gray-800 dark:bg-gray-950/50 dark:hover:border-[#ff6154]/30 dark:hover:bg-gray-950"
             >
               <div>
-                <h3 className="text-sm font-black leading-7 text-gray-950 transition group-hover:text-[#ff6154] dark:text-white">
+                <span className="inline-flex items-center gap-1.5 rounded-lg bg-white px-2 py-1 text-[10px] font-black text-gray-500 ring-1 ring-gray-100 dark:bg-gray-900 dark:text-gray-300 dark:ring-gray-800">
+                  {item.source === 'saved' ? <Bookmark size={11} /> : <UserRound size={11} />}
+                  {item.source === 'saved' ? 'از ذخیره‌های تو' : item.source === 'profile' ? 'از پروفایل تو' : 'پیشنهاد عمومی'}
+                </span>
+                <h3 className="mt-3 text-sm font-black leading-7 text-gray-950 transition group-hover:text-[#ff6154] dark:text-white">
                   {item.label}
                 </h3>
                 <p className="mt-1 text-xs leading-6 text-gray-500 dark:text-gray-400">
