@@ -45,11 +45,11 @@ export function decodeDiscoveryContext(
     typeof input === 'string' ? new URLSearchParams(input) : input;
 
   const context = normalize({
-    query: searchParams.get('query'),
-    role: searchParams.get('role'),
-    expertise: searchParams.get('expertise'),
-    company: searchParams.get('company'),
-    source: searchParams.get('source'),
+    query: searchParams.get('query') ?? undefined,
+    role: searchParams.get('role') ?? undefined,
+    expertise: searchParams.get('expertise') ?? undefined,
+    company: searchParams.get('company') ?? undefined,
+    source: searchParams.get('source') ?? undefined,
   });
 
   const hasContext = CONTEXT_KEYS.some((key) => Boolean(context[key]));
