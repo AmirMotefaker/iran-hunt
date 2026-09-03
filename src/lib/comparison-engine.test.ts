@@ -1,8 +1,11 @@
 import { describe, expect, test } from 'bun:test';
 import {
   buildComparisonCandidate,
+  buildEligibleAlternativeTargets,
+  buildEligibleComparisonPairs,
   findComparisonProducts,
   normalizeComparisonPair,
+  parseComparisonSlug,
   rankAlternatives,
 } from './comparison-engine';
 import type { Product } from '@/types';
@@ -25,10 +28,16 @@ describe('P58 comparison engine', () => {
   const alpha = product('alpha', 'AI • Productivity', 100);
   const beta = product('beta', 'AI • Productivity', 300);
   const gamma = product('gamma', 'AI', 200);
+  const delta = product('delta', 'AI', 150);
   const travel = product('travel', 'Travel', 500);
 
   test('normalizes pair order to one stable public slug', () => {
     expect(normalizeComparisonPair('beta', 'alpha')).toEqual({
+      leftSlug: 'alpha',
+      rightSlug: 'beta',
+      slug: 'alpha-vs-beta',
+    });
+    expect(parseComparisonSlug('beta-vs-alpha')).toEqual({
       leftSlug: 'alpha',
       rightSlug: 'beta',
       slug: 'alpha-vs-beta',
@@ -40,7 +49,7 @@ describe('P58 comparison engine', () => {
   });
 
   test('finds the same comparison regardless of requested pair order', () => {
-    const products = [alpha, beta, gamma, travel];
+    const products = [alpha, beta, gamma, delta, travel];
     const first = findComparisonProducts(products, 'alpha', 'beta');
     const second = findComparisonProducts(products, 'beta', 'alpha');
 
@@ -51,7 +60,21 @@ describe('P58 comparison engine', () => {
   });
 
   test('ranks alternatives by shared evidence then votes', () => {
-    const alternatives = rankAlternatives(alpha, [alpha, beta, gamma, travel]);
-    expect(alternatives.map((item) => item.slug)).toEqual(['beta', 'gamma']);
+    const alternatives = rankAlternatives(alpha, [alpha, beta, gamma, delta, travel]);
+    expect(alternatives.map((item) => item.slug)).toEqual(['beta', 'gamma', 'delta']);
+  });
+
+  test('publishes alternatives only when sufficient evidence-backed options exist', () => {
+    const products = [alpha, beta, gamma, delta, travel];
+    const targets = buildEligibleAlternativeTargets(products, 3);
+    expect(targets.map((item) => item.slug)).toEqual(['beta', 'gamma', 'delta', 'alpha']);
+    expect(targets.some((item) => item.slug === 'travel')).toBe(false);
+  });
+
+  test('builds duplicate-free deterministic comparison pairs', () => {
+    const products = [alpha, beta, gamma, delta, travel];
+    const pairs = buildEligibleComparisonPairs(products, 2);
+    expect(new Set(pairs.map((pair) => pair.slug)).size).toBe(pairs.length);
+    expect(pairs).toEqual([...pairs].sort((a, b) => a.slug.localeCompare(b.slug)));
   });
 });
