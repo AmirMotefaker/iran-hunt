@@ -1,11 +1,15 @@
 import type { MetadataRoute } from 'next';
+import { loadCorpusProducts } from '@/lib/corpus';
+import { buildDiscoveryTopics } from '@/lib/discovery-growth';
+import { SITE_URL } from '@/lib/seo-geo';
 import { extractSlug } from '@/lib/slug';
 import { loadLatest } from '@/lib/storage';
-import { SITE_URL } from '@/lib/seo-geo';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const data = await loadLatest();
+  const corpusProducts = await loadCorpusProducts();
+  const discoveryTopics = buildDiscoveryTopics(corpusProducts);
 
   const slugs = new Set<string>();
   if (data) {
@@ -21,7 +25,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: SITE_URL, lastModified: now, changeFrequency: 'daily', priority: 1 },
     { url: `${SITE_URL}/products`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/categories`, lastModified: now, changeFrequency: 'daily', priority: 0.8 },
+    { url: `${SITE_URL}/discover`, lastModified: now, changeFrequency: 'daily', priority: 0.85 },
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+    ...discoveryTopics.map((topic) => ({
+      url: `${SITE_URL}/discover/${topic.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.75,
+    })),
     ...[...slugs].map((s) => ({
       url: `${SITE_URL}/product/${encodeURIComponent(s)}`,
       lastModified: now,
