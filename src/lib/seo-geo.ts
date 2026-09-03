@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { buildEvidenceStructuredFields } from '@/lib/evidence-layer';
 import type { Product } from '@/types';
 
 export const SITE_URL = 'https://idehjo.ir';
@@ -68,6 +69,7 @@ export function buildProductEntityGraph(product: Product) {
     .split('•')
     .map((value) => value.trim())
     .filter(Boolean);
+  const provenance = buildEvidenceStructuredFields(product);
 
   const productId = `${canonical}#product`;
   const applicationId = `${canonical}#software`;
@@ -82,6 +84,9 @@ export function buildProductEntityGraph(product: Product) {
         name: product.name,
         description,
         inLanguage: 'fa-IR',
+        dateModified: provenance.dateModified,
+        isBasedOn: provenance.isBasedOn,
+        citation: provenance.citation,
         isPartOf: { '@id': `${SITE_URL}/#website` },
         mainEntity: { '@id': productId },
       },
@@ -99,6 +104,16 @@ export function buildProductEntityGraph(product: Product) {
             '@type': 'PropertyValue',
             name: 'IdeaJo votes',
             value: product.votes,
+          },
+          {
+            '@type': 'PropertyValue',
+            name: 'IdeaJo evidence quality',
+            value: provenance.evidenceQuality,
+          },
+          {
+            '@type': 'PropertyValue',
+            name: 'IdeaJo evidence id',
+            value: provenance.evidenceId,
           },
           ...(product.maker
             ? [

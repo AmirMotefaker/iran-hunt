@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { EvidenceSummary } from '@/components/EvidenceSummary';
 import {
   buildEligibleAlternativeTargets,
   normalizeComparisonPair,
@@ -8,6 +9,7 @@ import {
   sharedProductSignals,
 } from '@/lib/comparison-engine';
 import { loadCorpusProducts } from '@/lib/corpus';
+import { aggregateEvidence } from '@/lib/evidence-layer';
 import { SITE_NAME, SITE_URL } from '@/lib/seo-geo';
 
 type Props = {
@@ -60,6 +62,8 @@ export default async function AlternativesPage({ params }: Props) {
   const { target, alternatives } = resolved;
   const canonical = `${SITE_URL}/alternatives/${encodeURIComponent(target.slug)}`;
   const visible = alternatives.slice(0, 12);
+  const evidenceProducts = [target, ...visible];
+  const evidence = aggregateEvidence(evidenceProducts);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -70,6 +74,8 @@ export default async function AlternativesPage({ params }: Props) {
         url: canonical,
         name: `بهترین جایگزین‌های ${target.name}`,
         inLanguage: 'fa-IR',
+        dateModified: evidence.latestDataDate,
+        citation: evidence.sourceUrls.length ? evidence.sourceUrls : undefined,
         about: { '@id': `${SITE_URL}/product/${encodeURIComponent(target.slug)}#product` },
       },
       {
@@ -106,6 +112,8 @@ export default async function AlternativesPage({ params }: Props) {
       <p className="mt-5 max-w-3xl text-sm leading-8 text-gray-600 dark:text-gray-300 sm:text-base">
         این فهرست از شباهت‌های ثبت‌شده در دسته‌بندی و توضیحات Corpus ساخته می‌شود. ترتیب نتایج بر اساس تعداد سیگنال مشترک، رأی ثبت‌شده و یک tie-break پایدار تعیین می‌شود؛ نه ادعای تبلیغاتی یا داده ساختگی.
       </p>
+
+      <EvidenceSummary products={evidenceProducts} />
 
       <div className="mt-6 flex flex-wrap gap-3 text-sm font-black">
         <Link href={`/product/${target.slug}`} className="text-[#ff6154] hover:underline">مشاهده تحلیل {target.name}</Link>
