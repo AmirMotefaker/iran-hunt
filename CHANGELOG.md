@@ -1,3 +1,10 @@
+# [1.65.0](https://github.com/IdehJo/idehjo/compare/v1.64.0...v1.65.0) (2026-09-03)
+
+
+### Features
+
+* add AI discovery growth topic surfaces ([85b3010](https://github.com/IdehJo/idehjo/commit/85b3010bcdd2c5ae68b77157d4fa6655a440924c))
+
 # [1.64.0](https://github.com/IdehJo/idehjo/compare/v1.63.0...v1.64.0) (2026-09-03)
 
 
