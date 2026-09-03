@@ -1,3 +1,10 @@
+# [1.70.0](https://github.com/IdehJo/idehjo/compare/v1.69.0...v1.70.0) (2026-09-03)
+
+
+### Features
+
+* add query and intent coverage control plane ([#100](https://github.com/IdehJo/idehjo/issues/100)) ([bb81e6f](https://github.com/IdehJo/idehjo/commit/bb81e6f1530f6ccd05e10176726a350fb68515b9))
+
 # [1.69.0](https://github.com/IdehJo/idehjo/compare/v1.68.0...v1.69.0) (2026-09-03)
 
 
