@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { DiscoveryReturnLink } from '@/components/DiscoveryReturnLink';
+import { ProductEvidenceBlock } from '@/components/ProductEvidenceBlock';
 import { loadCorpusProduct } from '@/lib/corpus';
 import {
   buildProductEntityGraph,
@@ -48,6 +49,7 @@ export default async function ProductLayout({
         <DiscoveryReturnLink />
       </div>
       {children}
+      {product && <ProductEvidenceBlock product={product} />}
     </>
   );
 }
