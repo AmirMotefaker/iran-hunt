@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { DiscoveryReturnLink } from '@/components/DiscoveryReturnLink';
 import { ProductEvidenceBlock } from '@/components/ProductEvidenceBlock';
+import { ProductFreshnessSummary } from '@/components/FreshnessSummary';
 import { loadCorpusProduct } from '@/lib/corpus';
 import {
   buildProductEntityGraph,
@@ -50,6 +51,7 @@ export default async function ProductLayout({
       </div>
       {children}
       {product && <ProductEvidenceBlock product={product} />}
+      {product && <ProductFreshnessSummary product={product} />}
     </>
   );
 }
