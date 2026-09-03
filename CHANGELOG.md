@@ -1,3 +1,10 @@
+# [1.63.0](https://github.com/IdehJo/idehjo/compare/v1.62.0...v1.63.0) (2026-09-03)
+
+
+### Features
+
+* preserve discovery sessions across search and product flows ([#87](https://github.com/IdehJo/idehjo/issues/87)) ([f82bd28](https://github.com/IdehJo/idehjo/commit/f82bd28ff156319ec369e1b0f24a6dd4d6f4140b))
+
 # [1.62.0](https://github.com/IdehJo/idehjo/compare/v1.61.0...v1.62.0) (2026-09-02)
 
 
