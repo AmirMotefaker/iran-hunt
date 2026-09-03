@@ -67,6 +67,34 @@ export function buildProductEvidence(product: Product): ProductEvidence {
   };
 }
 
+export function buildEvidenceStructuredFields(product: Product) {
+  const evidence = buildProductEvidence(product);
+  const basedOn = [evidence.sourceUrl, evidence.websiteUrl].filter(Boolean);
+
+  return {
+    evidenceId: evidence.id,
+    dateModified: evidence.dataDate || undefined,
+    isBasedOn: basedOn.length === 1 ? basedOn[0] : basedOn.length > 1 ? basedOn : undefined,
+    citation: basedOn.length ? basedOn : undefined,
+    evidenceQuality: evidence.quality,
+  };
+}
+
+export function aggregateEvidence(products: Product[]) {
+  const evidence = products.map(buildProductEvidence);
+  const dates = evidence.map((item) => item.dataDate).filter((value): value is string => Boolean(value));
+  const sourceUrls = [...new Set(evidence.flatMap((item) => [item.sourceUrl, item.websiteUrl]).filter((value): value is string => Boolean(value)))];
+
+  return {
+    totalProducts: evidence.length,
+    strongCount: evidence.filter((item) => item.quality === 'strong').length,
+    moderateCount: evidence.filter((item) => item.quality === 'moderate').length,
+    limitedCount: evidence.filter((item) => item.quality === 'limited').length,
+    latestDataDate: dates.sort().at(-1),
+    sourceUrls,
+  };
+}
+
 export function evidenceQualityLabel(quality: EvidenceQuality): string {
   if (quality === 'strong') return 'شواهد کامل‌تر';
   if (quality === 'moderate') return 'شواهد متوسط';
