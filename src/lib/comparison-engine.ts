@@ -6,6 +6,12 @@ export type ComparisonCandidate = {
   sharedSignals: string[];
 };
 
+export type ComparisonPair = {
+  slug: string;
+  leftSlug: string;
+  rightSlug: string;
+};
+
 const normalize = (value?: string) => (value ?? '').toLowerCase().trim();
 
 function productSignals(product: Product): string[] {
@@ -15,7 +21,7 @@ function productSignals(product: Product): string[] {
     .filter(Boolean);
 }
 
-export function normalizeComparisonPair(leftSlug: string, rightSlug: string) {
+export function normalizeComparisonPair(leftSlug: string, rightSlug: string): ComparisonPair {
   const pair = [leftSlug.trim(), rightSlug.trim()]
     .filter(Boolean)
     .sort((a, b) => a.localeCompare(b));
@@ -25,6 +31,18 @@ export function normalizeComparisonPair(leftSlug: string, rightSlug: string) {
     rightSlug: pair[1] ?? '',
     slug: pair.length === 2 ? `${pair[0]}-vs-${pair[1]}` : '',
   };
+}
+
+export function parseComparisonSlug(slug: string): ComparisonPair | null {
+  const separator = '-vs-';
+  const index = slug.indexOf(separator);
+  if (index <= 0) return null;
+
+  const left = slug.slice(0, index);
+  const right = slug.slice(index + separator.length);
+  if (!left || !right) return null;
+
+  return normalizeComparisonPair(left, right);
 }
 
 export function sharedProductSignals(left: Product, right: Product): string[] {
@@ -43,10 +61,14 @@ export function buildComparisonCandidate(
 ): ComparisonCandidate | null {
   if (!isComparisonEligible(left, right)) return null;
 
+  const pair = normalizeComparisonPair(left.slug, right.slug);
+  const orderedLeft = left.slug === pair.leftSlug ? left : right;
+  const orderedRight = right.slug === pair.rightSlug ? right : left;
+
   return {
-    left,
-    right,
-    sharedSignals: sharedProductSignals(left, right),
+    left: orderedLeft,
+    right: orderedRight,
+    sharedSignals: sharedProductSignals(orderedLeft, orderedRight),
   };
 }
 
@@ -63,7 +85,12 @@ export function rankAlternatives(
       votes: candidate.votes ?? 0,
     }))
     .filter((item) => item.shared > 0)
-    .sort((a, b) => b.shared - a.shared || b.votes - a.votes || a.candidate.slug.localeCompare(b.candidate.slug))
+    .sort(
+      (a, b) =>
+        b.shared - a.shared ||
+        b.votes - a.votes ||
+        a.candidate.slug.localeCompare(b.candidate.slug),
+    )
     .slice(0, limit)
     .map((item) => item.candidate);
 }
@@ -81,4 +108,32 @@ export function findComparisonProducts(
   if (!left || !right) return null;
 
   return buildComparisonCandidate(left, right);
+}
+
+export function buildEligibleAlternativeTargets(
+  products: Product[],
+  minimumAlternatives = 3,
+): Product[] {
+  return products
+    .filter((product) => rankAlternatives(product, products, minimumAlternatives).length >= minimumAlternatives)
+    .sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0) || a.slug.localeCompare(b.slug));
+}
+
+export function buildEligibleComparisonPairs(
+  products: Product[],
+  comparisonsPerProduct = 2,
+): ComparisonPair[] {
+  const seen = new Set<string>();
+  const pairs: ComparisonPair[] = [];
+
+  for (const product of buildEligibleAlternativeTargets(products)) {
+    for (const alternative of rankAlternatives(product, products, comparisonsPerProduct)) {
+      const pair = normalizeComparisonPair(product.slug, alternative.slug);
+      if (!pair.slug || seen.has(pair.slug)) continue;
+      seen.add(pair.slug);
+      pairs.push(pair);
+    }
+  }
+
+  return pairs.sort((a, b) => a.slug.localeCompare(b.slug));
 }
