@@ -1,3 +1,10 @@
+# [1.64.0](https://github.com/IdehJo/idehjo/compare/v1.63.0...v1.64.0) (2026-09-03)
+
+
+### Features
+
+* establish SEO and GEO product foundation ([#88](https://github.com/IdehJo/idehjo/issues/88)) ([8bc69a9](https://github.com/IdehJo/idehjo/commit/8bc69a9faedd684a7dd5d7eff4b452534d4c9e47))
+
 # [1.63.0](https://github.com/IdehJo/idehjo/compare/v1.62.0...v1.63.0) (2026-09-03)
 
 
