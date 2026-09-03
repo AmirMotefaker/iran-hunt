@@ -1,3 +1,10 @@
+# [1.71.0](https://github.com/IdehJo/idehjo/compare/v1.70.0...v1.71.0) (2026-09-03)
+
+
+### Features
+
+* add topical authority graph for SEO and GEO ([#102](https://github.com/IdehJo/idehjo/issues/102)) ([364d359](https://github.com/IdehJo/idehjo/commit/364d3593922e61ded4ee7ce4b95a6d3f18eeee11))
+
 # [1.70.0](https://github.com/IdehJo/idehjo/compare/v1.69.0...v1.70.0) (2026-09-03)
 
 
