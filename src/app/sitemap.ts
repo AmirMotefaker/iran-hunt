@@ -4,6 +4,7 @@ import {
   buildEligibleComparisonPairs,
 } from '@/lib/comparison-engine';
 import { loadCorpusProducts } from '@/lib/corpus';
+import { buildDecisionGuides } from '@/lib/decision-guides';
 import { buildDiscoveryTopics } from '@/lib/discovery-growth';
 import { SITE_URL } from '@/lib/seo-geo';
 import { extractSlug } from '@/lib/slug';
@@ -14,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const data = await loadLatest();
   const corpusProducts = await loadCorpusProducts();
   const discoveryTopics = buildDiscoveryTopics(corpusProducts);
+  const decisionGuides = buildDecisionGuides(corpusProducts);
   const alternativeTargets = buildEligibleAlternativeTargets(corpusProducts);
   const comparisonPairs = buildEligibleComparisonPairs(corpusProducts);
 
@@ -32,12 +34,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/products`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
     { url: `${SITE_URL}/categories`, lastModified: now, changeFrequency: 'daily', priority: 0.8 },
     { url: `${SITE_URL}/discover`, lastModified: now, changeFrequency: 'daily', priority: 0.85 },
+    { url: `${SITE_URL}/guides`, lastModified: now, changeFrequency: 'weekly', priority: 0.82 },
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
     ...discoveryTopics.map((topic) => ({
       url: `${SITE_URL}/discover/${topic.slug}`,
       lastModified: now,
       changeFrequency: 'weekly' as const,
       priority: 0.75,
+    })),
+    ...decisionGuides.map((guide) => ({
+      url: `${SITE_URL}/guides/${guide.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.76,
     })),
     ...alternativeTargets.map((product) => ({
       url: `${SITE_URL}/alternatives/${encodeURIComponent(product.slug)}`,
