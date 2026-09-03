@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import { DiscoveryReturnLink } from '@/components/DiscoveryReturnLink';
 import { loadCorpusProduct } from '@/lib/corpus';
 import {
   buildProductEntityGraph,
@@ -43,6 +44,9 @@ export default async function ProductLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }}
         />
       )}
+      <div className="mx-auto max-w-4xl px-4 pt-8">
+        <DiscoveryReturnLink />
+      </div>
       {children}
     </>
   );
