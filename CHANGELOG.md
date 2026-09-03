@@ -1,3 +1,10 @@
+# [1.69.0](https://github.com/IdehJo/idehjo/compare/v1.68.0...v1.69.0) (2026-09-03)
+
+
+### Features
+
+* add content freshness SEO/GEO signals ([5148c8c](https://github.com/IdehJo/idehjo/commit/5148c8c0446036b609f83749ecc74df385ba6601))
+
 # [1.68.0](https://github.com/IdehJo/idehjo/compare/v1.67.0...v1.68.0) (2026-09-03)
 
 
