@@ -35,7 +35,7 @@ describe('SEO + GEO foundation', () => {
   });
 
   test('prefers Persian answer-ready descriptions', () => {
-    expect(getProductDescription(product)).toBe(product.faDescription);
+    expect(getProductDescription(product)).toBe(product.faDescription!);
   });
 
   test('builds canonical product metadata', () => {
@@ -43,7 +43,7 @@ describe('SEO + GEO foundation', () => {
     expect(metadata.alternates?.canonical).toBe(
       'https://idehjo.ir/product/example-ai',
     );
-    expect(metadata.description).toBe(product.faDescription);
+    expect(metadata.description).toBe(product.faDescription!);
   });
 
   test('builds an entity graph for search and generative engines', () => {
