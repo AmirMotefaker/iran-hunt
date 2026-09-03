@@ -1,4 +1,8 @@
 import type { MetadataRoute } from 'next';
+import {
+  buildEligibleAlternativeTargets,
+  buildEligibleComparisonPairs,
+} from '@/lib/comparison-engine';
 import { loadCorpusProducts } from '@/lib/corpus';
 import { buildDiscoveryTopics } from '@/lib/discovery-growth';
 import { SITE_URL } from '@/lib/seo-geo';
@@ -10,6 +14,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const data = await loadLatest();
   const corpusProducts = await loadCorpusProducts();
   const discoveryTopics = buildDiscoveryTopics(corpusProducts);
+  const alternativeTargets = buildEligibleAlternativeTargets(corpusProducts);
+  const comparisonPairs = buildEligibleComparisonPairs(corpusProducts);
 
   const slugs = new Set<string>();
   if (data) {
@@ -32,6 +38,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: now,
       changeFrequency: 'weekly' as const,
       priority: 0.75,
+    })),
+    ...alternativeTargets.map((product) => ({
+      url: `${SITE_URL}/alternatives/${encodeURIComponent(product.slug)}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.72,
+    })),
+    ...comparisonPairs.map((pair) => ({
+      url: `${SITE_URL}/compare/${pair.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
     })),
     ...[...slugs].map((s) => ({
       url: `${SITE_URL}/product/${encodeURIComponent(s)}`,
