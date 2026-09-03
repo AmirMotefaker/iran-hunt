@@ -4,6 +4,13 @@ import { Search, ArrowLeft, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import {
+  buildDiscoverySearchHref,
+  decodeDiscoveryContext,
+  DISCOVERY_SESSION_STORAGE_KEY,
+  encodeDiscoveryContext,
+  type DiscoverySessionContext,
+} from "@/lib/discovery-session-context";
 
 type SearchResult = {
   slug: string;
@@ -17,14 +24,47 @@ export default function SearchPage() {
   const router = useRouter();
   const params = useSearchParams();
   const initialQuery = params.get("q") ?? "";
+  const rawContext = params.get("ctx") ?? "";
 
   const [query, setQuery] = useState(initialQuery);
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
+  const [discoveryContext, setDiscoveryContext] =
+    useState<DiscoverySessionContext | null>(null);
 
   useEffect(() => {
     setQuery(initialQuery);
   }, [initialQuery]);
+
+  useEffect(() => {
+    let context = rawContext ? decodeDiscoveryContext(rawContext) : null;
+
+    if (!context && typeof window !== "undefined") {
+      const stored = window.sessionStorage.getItem(
+        DISCOVERY_SESSION_STORAGE_KEY,
+      );
+      context = stored ? decodeDiscoveryContext(stored) : null;
+    }
+
+    if (!context && initialQuery.trim()) {
+      context = {
+        query: initialQuery.trim(),
+        source: "search",
+      };
+    }
+
+    if (context) {
+      const normalized = {
+        ...context,
+        query: initialQuery.trim() || context.query,
+      };
+      setDiscoveryContext(normalized);
+      window.sessionStorage.setItem(
+        DISCOVERY_SESSION_STORAGE_KEY,
+        encodeDiscoveryContext(normalized),
+      );
+    }
+  }, [initialQuery, rawContext]);
 
   useEffect(() => {
     const q = initialQuery.trim();
@@ -79,7 +119,18 @@ export default function SearchPage() {
 
     if (q.length < 2) return;
 
-    router.push(`/search?q=${encodeURIComponent(q)}`);
+    const nextContext: DiscoverySessionContext = {
+      ...(discoveryContext ?? {}),
+      query: q,
+      source: discoveryContext?.source ?? "search",
+    };
+
+    window.sessionStorage.setItem(
+      DISCOVERY_SESSION_STORAGE_KEY,
+      encodeDiscoveryContext(nextContext),
+    );
+
+    router.push(buildDiscoverySearchHref(q, nextContext));
   };
 
   return (
