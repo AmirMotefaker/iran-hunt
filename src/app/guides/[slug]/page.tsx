@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { EvidenceSummary } from '@/components/EvidenceSummary';
 import { buildDecisionGuides, findDecisionGuide } from '@/lib/decision-guides';
+import { aggregateEvidence } from '@/lib/evidence-layer';
 import { loadCorpusProducts } from '@/lib/corpus';
 import { SITE_NAME, SITE_URL } from '@/lib/seo-geo';
 
@@ -43,6 +45,7 @@ export default async function GuidePage({ params }: Props) {
 
   const canonical = `${SITE_URL}/guides/${guide.slug}`;
   const visible = guide.products.slice(0, 12);
+  const evidence = aggregateEvidence(visible);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -53,6 +56,8 @@ export default async function GuidePage({ params }: Props) {
         url: canonical,
         name: `بهترین ابزارهای ${guide.label}`,
         inLanguage: 'fa-IR',
+        dateModified: evidence.latestDataDate,
+        citation: evidence.sourceUrls.length ? evidence.sourceUrls : undefined,
       },
       {
         '@type': 'ItemList',
@@ -87,6 +92,8 @@ export default async function GuidePage({ params }: Props) {
       <p className="mt-5 max-w-3xl text-sm leading-8 text-gray-600 dark:text-gray-300 sm:text-base">
         این راهنما فقط از داده‌های موجود در Corpus ایده‌جو استفاده می‌کند. ترتیب محصولات بر اساس رأی ثبت‌شده و یک tie-break پایدار است؛ قابلیت، قیمت یا ادعایی که در داده موجود نباشد ساخته نمی‌شود.
       </p>
+
+      <EvidenceSummary products={visible} />
 
       <section className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((product, index) => (
