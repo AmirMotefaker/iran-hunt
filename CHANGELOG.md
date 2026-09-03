@@ -1,3 +1,10 @@
+# [1.68.0](https://github.com/IdehJo/idehjo/compare/v1.67.0...v1.68.0) (2026-09-03)
+
+
+### Features
+
+* add authority and evidence SEO/GEO layer ([f0ffe4a](https://github.com/IdehJo/idehjo/commit/f0ffe4a924d9044e5c754109245309be98f5a3c1))
+
 # [1.67.0](https://github.com/IdehJo/idehjo/compare/v1.66.0...v1.67.0) (2026-09-03)
 
 
