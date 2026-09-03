@@ -1,11 +1,17 @@
 {
   "status": "success",
-  "lastAttemptAt": "2026-09-03T00:31:14.304Z",
-  "lastSuccessAt": "2026-09-03T00:31:42.109Z",
+  "lastAttemptAt": "2026-09-03T22:44:49.589Z",
+  "lastSuccessAt": "2026-09-03T22:45:18.695Z",
   "lastFailureAt": "2026-08-30T05:21:12.905Z",
   "lastFailureReason": null,
   "consecutiveFailures": 0,
   "recentRuns": [
+    {
+      "status": "success",
+      "startedAt": "2026-09-03T22:44:49.589Z",
+      "finishedAt": "2026-09-03T22:45:18.695Z",
+      "error": null
+    },
     {
       "status": "success",
       "startedAt": "2026-09-03T00:31:14.304Z",
@@ -119,12 +125,6 @@
       "startedAt": "2026-08-28T04:25:47.946Z",
       "finishedAt": "2026-08-28T04:26:06.869Z",
       "error": "Refusing to publish incomplete scrape: - today: today contains no product with a real vote count"
-    },
-    {
-      "status": "success",
-      "startedAt": "2026-08-26T23:58:58.776Z",
-      "finishedAt": "2026-08-26T23:59:17.893Z",
-      "error": null
     }
   ]
 }
