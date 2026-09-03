@@ -1,3 +1,10 @@
+# [1.67.0](https://github.com/IdehJo/idehjo/compare/v1.66.0...v1.67.0) (2026-09-03)
+
+
+### Features
+
+* add decision and buying guide SEO/GEO surfaces ([c973d58](https://github.com/IdehJo/idehjo/commit/c973d587d7bfc75c11b52170596a2cb98903c520))
+
 # [1.66.0](https://github.com/IdehJo/idehjo/compare/v1.65.0...v1.66.0) (2026-09-03)
 
 
