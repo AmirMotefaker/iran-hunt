@@ -1,3 +1,10 @@
+# [1.66.0](https://github.com/IdehJo/idehjo/compare/v1.65.0...v1.66.0) (2026-09-03)
+
+
+### Features
+
+* add comparison and alternatives SEO/GEO surfaces ([ec24f9d](https://github.com/IdehJo/idehjo/commit/ec24f9dcf07a3bedb6d84df0580d66a48ca87274))
+
 # [1.65.0](https://github.com/IdehJo/idehjo/compare/v1.64.0...v1.65.0) (2026-09-03)
 
 
