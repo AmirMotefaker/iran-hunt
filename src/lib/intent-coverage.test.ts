@@ -1,5 +1,10 @@
 import { expect, test } from 'bun:test';
-import { buildIntentKey, deriveIntentCandidates, summarizeIntentCoverage } from './intent-coverage';
+import {
+  buildIntentCoverageSurfaceIndex,
+  buildIntentKey,
+  deriveIntentCandidates,
+  summarizeIntentCoverage,
+} from './intent-coverage';
 import type { Product } from '@/types';
 
 function product(overrides: Partial<Product> = {}): Product {
@@ -12,13 +17,23 @@ function product(overrides: Partial<Product> = {}): Product {
     tagline: 'AI workspace',
     description: 'AI workspace for teams',
     faDescription: 'فضای کاری هوش مصنوعی برای تیم‌ها',
-    category: 'AI • Productivity',
-    categoryFa: 'هوش مصنوعی • بهره‌وری',
+    category: 'AI',
+    categoryFa: 'هوش مصنوعی',
     url: 'https://www.producthunt.com/posts/atlas-ai',
     votes: 100,
     websiteUrl: 'https://atlas.example',
     ...overrides,
   };
+}
+
+function eligibleProducts(): Product[] {
+  return [
+    product(),
+    product({ id: '2', name: 'Nova', slug: 'nova', votes: 90 }),
+    product({ id: '3', name: 'Orbit', slug: 'orbit', votes: 80 }),
+    product({ id: '4', name: 'Pulse', slug: 'pulse', votes: 70 }),
+    product({ id: '5', name: 'Quill', slug: 'quill', votes: 60 }),
+  ];
 }
 
 test('normalizes intent keys deterministically', () => {
@@ -36,24 +51,33 @@ test('deduplicates repeated product evidence inside the same intent', () => {
   expect(nav?.productSlugs).toEqual(['atlas-ai']);
 });
 
-test('maps known public surfaces to covered intents', () => {
-  const intents = deriveIntentCandidates([product()]);
-  const nav = intents.find((item) => item.type === 'navigational');
-  const alternatives = intents.find((item) => item.type === 'alternatives');
+test('only marks alternatives covered when the target passes the real eligibility threshold', () => {
+  const ineligible = deriveIntentCandidates([product()]).find((item) => item.type === 'alternatives');
+  expect(ineligible?.coveredBy).toBeUndefined();
 
-  expect(nav?.coveredBy).toBe('/product/atlas-ai');
-  expect(alternatives?.coveredBy).toBe('/alternatives/atlas-ai');
+  const eligible = deriveIntentCandidates(eligibleProducts()).find(
+    (item) => item.type === 'alternatives' && item.label === 'Atlas AI',
+  );
+  expect(eligible?.coveredBy).toBe('/alternatives/atlas-ai');
 });
 
-test('coverage summary is deterministic and contains no fabricated demand metrics', () => {
-  const summary = summarizeIntentCoverage([
-    product(),
-    product({ id: '2', name: 'Nova', slug: 'nova', votes: 50, categoryFa: 'هوش مصنوعی' }),
-  ]);
+test('builds guide and comparison coverage from real eligible surface builders', () => {
+  const products = eligibleProducts();
+  const surfaces = buildIntentCoverageSurfaceIndex(products);
+
+  expect(surfaces.guideSlugs.has('هوش-مصنوعی')).toBe(true);
+  expect(surfaces.alternativeSlugs.has('atlas-ai')).toBe(true);
+  expect(surfaces.comparisonSlugs.size).toBeGreaterThan(0);
+});
+
+test('coverage summary exposes per-intent-type diagnostics and no fabricated demand metrics', () => {
+  const summary = summarizeIntentCoverage(eligibleProducts());
 
   expect(summary.totalIntents).toBeGreaterThan(0);
   expect(summary.coveredIntents).toBeGreaterThan(0);
   expect(summary.coverageRatio).toBeGreaterThan(0);
+  expect(summary.byType.alternatives.total).toBeGreaterThan(0);
+  expect(summary.byType.comparison.covered).toBeGreaterThan(0);
   expect(Object.keys(summary)).not.toContain('searchVolume');
   expect(Object.keys(summary)).not.toContain('keywordDifficulty');
 });
