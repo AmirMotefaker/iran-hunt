@@ -1,5 +1,9 @@
 import { expect, test } from 'bun:test';
-import { buildProductEvidence } from './evidence-layer';
+import {
+  aggregateEvidence,
+  buildEvidenceStructuredFields,
+  buildProductEvidence,
+} from './evidence-layer';
 import type { Product } from '@/types';
 
 const baseProduct: Product = {
@@ -46,4 +50,26 @@ test('missing provenance is surfaced as a limitation instead of fabricated', () 
 
 test('evidence ids remain stable for the same product slug', () => {
   expect(buildProductEvidence(baseProduct).id).toBe(buildProductEvidence({ ...baseProduct, votes: 999 }).id);
+});
+
+test('structured provenance exposes only repository-backed dates and sources', () => {
+  const fields = buildEvidenceStructuredFields(baseProduct);
+  expect(fields.evidenceId).toBe('evidence:atlas');
+  expect(fields.dateModified).toBe('2026-09-03');
+  expect(fields.citation).toEqual([
+    'https://www.producthunt.com/posts/atlas',
+    'https://atlas.example',
+  ]);
+});
+
+test('aggregate evidence reports freshness and quality without inventing signals', () => {
+  const summary = aggregateEvidence([
+    baseProduct,
+    { ...baseProduct, id: '2', slug: 'beta', date: '2026-09-02', maker: undefined },
+  ]);
+
+  expect(summary.totalProducts).toBe(2);
+  expect(summary.latestDataDate).toBe('2026-09-03');
+  expect(summary.strongCount + summary.moderateCount + summary.limitedCount).toBe(2);
+  expect(summary.sourceUrls).toContain('https://atlas.example');
 });
