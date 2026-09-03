@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound, permanentRedirect } from 'next/navigation';
+import { EvidenceSummary } from '@/components/EvidenceSummary';
 import {
   buildEligibleComparisonPairs,
   findComparisonProducts,
@@ -8,6 +9,7 @@ import {
   parseComparisonSlug,
 } from '@/lib/comparison-engine';
 import { loadCorpusProducts } from '@/lib/corpus';
+import { aggregateEvidence } from '@/lib/evidence-layer';
 import { SITE_NAME, SITE_URL } from '@/lib/seo-geo';
 
 type Props = {
@@ -61,6 +63,8 @@ export default async function ComparisonPage({ params }: Props) {
   if (pair !== canonicalPair.slug) permanentRedirect(`/compare/${canonicalPair.slug}`);
 
   const canonical = `${SITE_URL}/compare/${canonicalPair.slug}`;
+  const evidenceProducts = [comparison.left, comparison.right];
+  const evidence = aggregateEvidence(evidenceProducts);
   const rows = [
     ['دسته‌بندی', comparison.left.categoryFa || comparison.left.category, comparison.right.categoryFa || comparison.right.category],
     ['رأی ثبت‌شده', comparison.left.votes.toLocaleString('fa-IR'), comparison.right.votes.toLocaleString('fa-IR')],
@@ -77,6 +81,8 @@ export default async function ComparisonPage({ params }: Props) {
         url: canonical,
         name: `مقایسه ${comparison.left.name} و ${comparison.right.name}`,
         inLanguage: 'fa-IR',
+        dateModified: evidence.latestDataDate,
+        citation: evidence.sourceUrls.length ? evidence.sourceUrls : undefined,
         about: [
           { '@id': `${SITE_URL}/product/${encodeURIComponent(comparison.left.slug)}#product` },
           { '@id': `${SITE_URL}/product/${encodeURIComponent(comparison.right.slug)}#product` },
@@ -86,7 +92,7 @@ export default async function ComparisonPage({ params }: Props) {
         '@type': 'ItemList',
         '@id': `${canonical}#products`,
         numberOfItems: 2,
-        itemListElement: [comparison.left, comparison.right].map((product, index) => ({
+        itemListElement: evidenceProducts.map((product, index) => ({
           '@type': 'ListItem',
           position: index + 1,
           name: product.name,
@@ -117,6 +123,8 @@ export default async function ComparisonPage({ params }: Props) {
         این مقایسه فقط بر داده‌های موجود در آرشیو ایده‌جو تکیه دارد. قیمت، قابلیت یا ادعایی که در Corpus ثبت نشده باشد به مقایسه اضافه نمی‌شود.
       </p>
 
+      <EvidenceSummary products={evidenceProducts} />
+
       <section className="mt-8 rounded-3xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-950">
         <h2 className="text-lg font-black text-gray-950 dark:text-white">چرا این دو محصول قابل مقایسه‌اند؟</h2>
         <p className="mt-3 text-sm leading-7 text-gray-600 dark:text-gray-300">
@@ -140,7 +148,7 @@ export default async function ComparisonPage({ params }: Props) {
       </section>
 
       <section className="mt-8 grid gap-4 md:grid-cols-2">
-        {[comparison.left, comparison.right].map((product) => (
+        {evidenceProducts.map((product) => (
           <article key={product.slug} className="rounded-3xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-950">
             <h2 className="text-xl font-black text-gray-950 dark:text-white" dir="ltr">{product.name}</h2>
             <p className="mt-3 text-sm leading-7 text-gray-600 dark:text-gray-300">
