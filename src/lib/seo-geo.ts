@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { productFreshness } from '@/lib/content-freshness';
 import { buildEvidenceStructuredFields } from '@/lib/evidence-layer';
 import type { Product } from '@/types';
 
@@ -70,6 +71,7 @@ export function buildProductEntityGraph(product: Product) {
     .map((value) => value.trim())
     .filter(Boolean);
   const provenance = buildEvidenceStructuredFields(product);
+  const freshness = productFreshness(product);
 
   const productId = `${canonical}#product`;
   const applicationId = `${canonical}#software`;
@@ -84,7 +86,7 @@ export function buildProductEntityGraph(product: Product) {
         name: product.name,
         description,
         inLanguage: 'fa-IR',
-        dateModified: provenance.dateModified,
+        dateModified: freshness.dataDate || provenance.dateModified,
         isBasedOn: provenance.isBasedOn,
         citation: provenance.citation,
         isPartOf: { '@id': `${SITE_URL}/#website` },
@@ -115,6 +117,20 @@ export function buildProductEntityGraph(product: Product) {
             name: 'IdeaJo evidence id',
             value: provenance.evidenceId,
           },
+          {
+            '@type': 'PropertyValue',
+            name: 'IdeaJo freshness status',
+            value: freshness.status,
+          },
+          ...(typeof freshness.score === 'number'
+            ? [
+                {
+                  '@type': 'PropertyValue',
+                  name: 'IdeaJo freshness score',
+                  value: freshness.score,
+                },
+              ]
+            : []),
           ...(product.maker
             ? [
                 {
