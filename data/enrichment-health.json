@@ -1,20 +1,24 @@
 {
-  "checkedAt": "2026-09-04T19:19:55.768Z",
+  "checkedAt": "2026-09-04T20:25:39.595Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 118,
-  "backlogAfter": 114,
-  "completedProducts": 140,
-  "missingFaDescription": 25,
-  "missingFaComments": 110,
-  "missingAiReview": 44,
-  "missingIranEquivalent": 25,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 114,
+  "backlogAfter": 111,
+  "completedProducts": 143,
+  "missingFaDescription": 22,
+  "missingFaComments": 107,
+  "missingAiReview": 41,
+  "missingIranEquivalent": 22,
   "failures": [
     {
-      "slug": "prequel-2",
+      "slug": "kilo-code-for-jetbrains-2",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "computable-gpu-index-cgi",
       "reason": "JSON parse failed"
     }
   ]
