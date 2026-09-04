@@ -43,13 +43,23 @@ if (daily && daily.date && daily.date !== expectedDate) {
     message: `Latest DailyData.date is ${daily.date}; expected ${expectedDate}.`,
   });
 }
-const todayCount = daily?.periods?.today?.length ?? 0;
+const todayProducts = daily?.periods?.today ?? [];
+const todayCount = todayProducts.length;
 if (todayCount !== TOP_COUNT) {
   freshnessBlockers.push({
     severity: 'blocker',
     code: 'invalid-today-product-count',
     field: 'periods.today',
     message: `Latest daily dataset must contain exactly ${TOP_COUNT} Today products; found ${todayCount}.`,
+  });
+}
+const staleTodayProducts = todayProducts.filter((product) => product.date !== expectedDate);
+if (staleTodayProducts.length > 0) {
+  freshnessBlockers.push({
+    severity: 'blocker',
+    code: 'stale-today-products',
+    field: 'periods.today',
+    message: `${staleTodayProducts.length} Today products are not dated ${expectedDate}: ${staleTodayProducts.slice(0, 10).map((product) => `${product.slug}(${product.date || 'missing'})`).join(', ')}.`,
   });
 }
 
@@ -75,6 +85,7 @@ console.log('\n=== IDEHJO FINAL PRODUCT READINESS ===');
 console.log(`Expected Tehran date: ${expectedDate}`);
 console.log(`Latest daily file: ${latestFile ?? 'missing'}`);
 console.log(`Today products: ${todayCount}/${TOP_COUNT}`);
+console.log(`Today date-valid products: ${todayCount - staleTodayProducts.length}/${todayCount}`);
 console.log(`Corpus products: ${m.totalProducts}`);
 console.log(`Persian descriptions: ${m.withPersianDescription}/${m.totalProducts} (${percent(m.withPersianDescription, m.totalProducts)})`);
 console.log(`AI reviews: ${m.withAiReview}/${m.totalProducts} (${percent(m.withAiReview, m.totalProducts)})`);
