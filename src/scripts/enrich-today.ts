@@ -27,7 +27,7 @@ function propagate(data:any,slug:string,src:Product){
 }
 
 async function main(){
-  const token=process.env.PH_API_TOKEN; if(!token) throw new Error('PH_API_TOKEN missing');
+  const token=process.env.PH_API_TOKEN;
   if(!Number.isFinite(LIMIT)||LIMIT<1||LIMIT>20) throw new Error(`invalid ENRICH_BACKLOG_LIMIT: ${LIMIT}`);
   const files=(await readdir(DATA_DIR)).filter(isDailyDataFilename).sort().reverse();
   if(!files.length) throw new Error('no daily data');
@@ -44,7 +44,9 @@ async function main(){
     attempted++;
     try{
       const working=structuredClone(product);
-      if(!completeness.faComments){
+      const hasStoredComments=(working.comments??[]).some(c=>c.text?.trim().length>10);
+      if(!completeness.faComments && !hasStoredComments){
+        if(!token) throw new Error('PH_API_TOKEN missing for product without stored source comments');
         const fresh=await fetchComments(token,product.slug);
         if(fresh.length) working.comments=fresh;
       }
