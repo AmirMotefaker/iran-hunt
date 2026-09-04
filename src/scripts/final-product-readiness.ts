@@ -2,6 +2,7 @@ import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { loadCorpus } from '@/lib/corpus';
 import { auditFinalProductReadiness, type ReadinessIssue } from '@/lib/final-product-readiness';
+import { TOP_COUNT } from '@/lib/scraper';
 import { dateInTehran } from '@/lib/tehran-date';
 import type { DailyData } from '@/types';
 
@@ -42,12 +43,13 @@ if (daily && daily.date && daily.date !== expectedDate) {
     message: `Latest DailyData.date is ${daily.date}; expected ${expectedDate}.`,
   });
 }
-if (!daily?.periods?.today?.length) {
+const todayCount = daily?.periods?.today?.length ?? 0;
+if (todayCount < TOP_COUNT) {
   freshnessBlockers.push({
     severity: 'blocker',
-    code: 'empty-today-products',
+    code: 'insufficient-today-products',
     field: 'periods.today',
-    message: 'Latest daily dataset has no products in periods.today.',
+    message: `Latest daily dataset must contain ${TOP_COUNT} Today products; found ${todayCount}.`,
   });
 }
 
@@ -72,6 +74,7 @@ const duplicateGroups = [...sourceGroups.entries()]
 console.log('\n=== IDEHJO FINAL PRODUCT READINESS ===');
 console.log(`Expected Tehran date: ${expectedDate}`);
 console.log(`Latest daily file: ${latestFile ?? 'missing'}`);
+console.log(`Today products: ${todayCount}/${TOP_COUNT}`);
 console.log(`Corpus products: ${m.totalProducts}`);
 console.log(`Persian descriptions: ${m.withPersianDescription}/${m.totalProducts} (${percent(m.withPersianDescription, m.totalProducts)})`);
 console.log(`AI reviews: ${m.withAiReview}/${m.totalProducts} (${percent(m.withAiReview, m.totalProducts)})`);
