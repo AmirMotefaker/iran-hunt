@@ -1,11 +1,37 @@
-import { loadCorpus } from '@/lib/corpus';
+import { readdir, readFile } from 'node:fs/promises';
+import path from 'node:path';
 import { assertValidPeriods } from '@/lib/scrape-validation';
 import { TOP_COUNT } from '@/lib/scraper';
-import { saveDaily } from '@/lib/storage';
+import { isDailyDataFilename, saveDaily } from '@/lib/storage';
 import { dateInTehran, startOfProductHuntDayUtc } from '@/lib/tehran-date';
-import type { PeriodKey, PeriodsData, Product } from '@/types';
+import type { DailyData, PeriodKey, PeriodsData, Product } from '@/types';
 
 const now = new Date();
+const DATA_DIR = path.join(process.cwd(), 'data');
+const PERIOD_KEYS: PeriodKey[] = ['today', 'yesterday', 'week', 'month', 'year'];
+
+async function loadPersistedProductEvidence(): Promise<Product[]> {
+  const files = (await readdir(DATA_DIR)).filter(isDailyDataFilename).sort();
+  const products: Product[] = [];
+  for (const filename of files) {
+    const daily = JSON.parse(await readFile(path.join(DATA_DIR, filename), 'utf8')) as DailyData;
+    for (const key of PERIOD_KEYS) {
+      for (const product of daily.periods?.[key] ?? []) {
+        if (product?.slug) products.push(product);
+      }
+    }
+  }
+  return products;
+}
+
+function evidenceScore(product: Product): number {
+  return (product.comments?.length ?? 0) * 10
+    + (product.faComments?.length ?? 0) * 5
+    + (product.faDescription?.trim() ? 4 : 0)
+    + (product.aiReview?.trim() ? 4 : 0)
+    + (product.iranEquivalent ? 4 : 0)
+    + (product.screenshots?.length ?? 0);
+}
 
 function selectPeriod(products: Product[], key: PeriodKey): Product[] {
   let after: Date;
@@ -40,7 +66,13 @@ function selectPeriod(products: Product[], key: PeriodKey): Product[] {
     const featuredAt = new Date(product.featuredAt);
     if (Number.isNaN(featuredAt.getTime()) || featuredAt < after || featuredAt >= before) continue;
     const existing = unique.get(product.slug);
-    if (!existing || (product.votes ?? 0) > (existing.votes ?? 0)) unique.set(product.slug, product);
+    if (
+      !existing
+      || (product.votes ?? 0) > (existing.votes ?? 0)
+      || ((product.votes ?? 0) === (existing.votes ?? 0) && evidenceScore(product) > evidenceScore(existing))
+    ) {
+      unique.set(product.slug, product);
+    }
   }
 
   return [...unique.values()]
@@ -49,20 +81,20 @@ function selectPeriod(products: Product[], key: PeriodKey): Product[] {
     .map((product, index) => ({ ...product, id: `ph-${key}-${index + 1}`, rank: index + 1 }));
 }
 
-const corpus = await loadCorpus();
+const evidence = await loadPersistedProductEvidence();
 const periods = {
-  today: selectPeriod(corpus.products, 'today'),
-  yesterday: selectPeriod(corpus.products, 'yesterday'),
-  week: selectPeriod(corpus.products, 'week'),
-  month: selectPeriod(corpus.products, 'month'),
-  year: selectPeriod(corpus.products, 'year'),
+  today: selectPeriod(evidence, 'today'),
+  yesterday: selectPeriod(evidence, 'yesterday'),
+  week: selectPeriod(evidence, 'week'),
+  month: selectPeriod(evidence, 'month'),
+  year: selectPeriod(evidence, 'year'),
 } satisfies PeriodsData;
 
-console.log('♻️  Rebuilding daily snapshot from persisted Product Hunt evidence');
+console.log(`♻️  Rebuilding daily snapshot from ${evidence.length} persisted Product Hunt observations`);
 for (const [key, products] of Object.entries(periods)) {
   console.log(`   ${key}: ${products.length} trusted products`);
 }
 
 assertValidPeriods(periods);
 await saveDaily(dateInTehran(now), periods, { replaceCurrent: true });
-console.log('✅ Cached evidence recovery produced a valid daily snapshot.');
+console.log('✅ Historical evidence recovery produced a valid daily snapshot.');
