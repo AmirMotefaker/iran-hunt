@@ -1,24 +1,20 @@
 {
-  "checkedAt": "2026-09-04T15:06:48.968Z",
+  "checkedAt": "2026-09-04T15:18:38.129Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 3,
-  "failed": 2,
-  "backlogBefore": 138,
-  "backlogAfter": 135,
-  "completedProducts": 119,
-  "missingFaDescription": 46,
-  "missingFaComments": 131,
-  "missingAiReview": 65,
-  "missingIranEquivalent": 46,
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 135,
+  "backlogAfter": 131,
+  "completedProducts": 123,
+  "missingFaDescription": 42,
+  "missingFaComments": 127,
+  "missingAiReview": 61,
+  "missingIranEquivalent": 42,
   "failures": [
     {
-      "slug": "cohere-parse-5",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "seendiff",
+      "slug": "cursor-craft-v2",
       "reason": "JSON parse failed"
     }
   ]
