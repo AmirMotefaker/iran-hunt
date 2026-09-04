@@ -1,20 +1,28 @@
 {
-  "checkedAt": "2026-09-04T15:18:38.129Z",
+  "checkedAt": "2026-09-04T15:29:48.954Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 135,
-  "backlogAfter": 131,
-  "completedProducts": 123,
-  "missingFaDescription": 42,
-  "missingFaComments": 127,
-  "missingAiReview": 61,
-  "missingIranEquivalent": 42,
+  "succeeded": 2,
+  "failed": 3,
+  "backlogBefore": 131,
+  "backlogAfter": 129,
+  "completedProducts": 125,
+  "missingFaDescription": 40,
+  "missingFaComments": 125,
+  "missingAiReview": 59,
+  "missingIranEquivalent": 40,
   "failures": [
     {
       "slug": "cursor-craft-v2",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "god-s-eye-view",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "wit-2",
       "reason": "JSON parse failed"
     }
   ]
