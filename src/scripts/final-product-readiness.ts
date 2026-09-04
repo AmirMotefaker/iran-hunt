@@ -2,21 +2,11 @@ import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { loadCorpus } from '@/lib/corpus';
 import { auditFinalProductReadiness, type ReadinessIssue } from '@/lib/final-product-readiness';
+import { dateInTehran } from '@/lib/tehran-date';
 import type { DailyData } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const DAILY_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
-
-function tehranDate(now = new Date()): string {
-  const parts = new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Asia/Tehran',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).formatToParts(now);
-  const value = (type: Intl.DateTimeFormatPartTypes) => parts.find((part) => part.type === type)?.value ?? '';
-  return `${value('year')}-${value('month')}-${value('day')}`;
-}
 
 async function latestDailyState() {
   const files = (await readdir(DATA_DIR)).filter((name) => DAILY_FILE.test(name)).sort();
@@ -32,7 +22,7 @@ function percent(value: number, total: number): string {
 
 const corpus = await loadCorpus();
 const report = auditFinalProductReadiness(corpus.products);
-const expectedDate = process.env.READINESS_EXPECTED_DATE?.trim() || tehranDate();
+const expectedDate = process.env.READINESS_EXPECTED_DATE?.trim() || dateInTehran();
 const { latestFile, daily } = await latestDailyState();
 const freshnessBlockers: ReadinessIssue[] = [];
 
@@ -64,6 +54,20 @@ if (!daily?.periods?.today?.length) {
 const blockers = [...freshnessBlockers, ...report.blockers];
 const ready = blockers.length === 0;
 const m = report.metrics;
+const counts = new Map<string, number>();
+for (const issue of blockers) counts.set(issue.code, (counts.get(issue.code) ?? 0) + 1);
+
+const sourceGroups = new Map<string, string[]>();
+for (const product of corpus.products) {
+  const url = product.url?.trim();
+  if (!url) continue;
+  const slugs = sourceGroups.get(url) ?? [];
+  slugs.push(product.slug);
+  sourceGroups.set(url, slugs);
+}
+const duplicateGroups = [...sourceGroups.entries()]
+  .filter(([, slugs]) => slugs.length > 1)
+  .sort(([a], [b]) => a.localeCompare(b));
 
 console.log('\n=== IDEHJO FINAL PRODUCT READINESS ===');
 console.log(`Expected Tehran date: ${expectedDate}`);
@@ -83,6 +87,20 @@ console.log(`Duplicate source URLs: ${m.duplicateUrls}`);
 console.log(`Blockers: ${blockers.length}`);
 console.log(`Warnings: ${report.warnings.length}`);
 console.log(`READY_FOR_PRODUCTION=${ready ? 'YES' : 'NO'}`);
+
+if (counts.size) {
+  console.log('\n--- BLOCKER COUNTS ---');
+  for (const [code, count] of [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))) {
+    console.log(`${code}: ${count}`);
+  }
+}
+
+if (duplicateGroups.length) {
+  console.log('\n--- DUPLICATE SOURCE URL GROUPS ---');
+  for (const [url, slugs] of duplicateGroups) {
+    console.log(`${url} => ${slugs.sort().join(', ')}`);
+  }
+}
 
 if (blockers.length) {
   console.log('\n--- BLOCKERS (first 100) ---');
