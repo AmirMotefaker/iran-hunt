@@ -1,11 +1,7 @@
 name: P66 Product Completion Backfill
 
 on:
-  push:
-    branches:
-      - feat/p66-final-product-readiness
-    paths-ignore:
-      - 'data/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
