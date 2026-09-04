@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test';
-import { buildPrompt } from './ai-analyzer';
+import { buildPrompt, groqOutputBudget } from './ai-analyzer';
 import type { Product } from '@/types';
 
 const product = {
@@ -49,5 +49,30 @@ describe('partial enrichment prompt', () => {
     expect(prompt).toContain('"aiReview"');
     expect(prompt).not.toContain('"faComments"');
     expect(prompt).not.toContain('First source comment');
+  });
+
+  test('uses a smaller Groq output budget for partial enrichment', () => {
+    const commentsOnly = groqOutputBudget({
+      faDescription: false,
+      faComments: true,
+      iranEquivalent: false,
+      aiReview: false,
+    });
+    const descriptionOnly = groqOutputBudget({
+      faDescription: true,
+      faComments: false,
+      iranEquivalent: false,
+      aiReview: false,
+    });
+    const full = groqOutputBudget({
+      faDescription: true,
+      faComments: true,
+      iranEquivalent: true,
+      aiReview: true,
+    });
+
+    expect(descriptionOnly).toBe(700);
+    expect(commentsOnly).toBeLessThan(full);
+    expect(full).toBe(2800);
   });
 });
