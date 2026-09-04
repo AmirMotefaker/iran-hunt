@@ -1,40 +1,28 @@
 {
-  "checkedAt": "2026-09-04T07:08:42.135Z",
+  "checkedAt": "2026-09-04T07:36:38.741Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 10,
   "attempted": 10,
-  "succeeded": 4,
-  "failed": 6,
-  "backlogBefore": 203,
-  "backlogAfter": 199,
-  "completedProducts": 55,
-  "missingFaDescription": 110,
-  "missingFaComments": 195,
-  "missingAiReview": 129,
-  "missingIranEquivalent": 110,
+  "succeeded": 7,
+  "failed": 3,
+  "backlogBefore": 199,
+  "backlogAfter": 192,
+  "completedProducts": 62,
+  "missingFaDescription": 103,
+  "missingFaComments": 188,
+  "missingAiReview": 122,
+  "missingIranEquivalent": 103,
   "failures": [
-    {
-      "slug": "meridian-19",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "clara-ai-sdr",
-      "reason": "JSON parse failed"
-    },
     {
       "slug": "epho",
       "reason": "JSON parse failed"
     },
     {
-      "slug": "plow-latch",
+      "slug": "construct-computer",
       "reason": "JSON parse failed"
     },
     {
-      "slug": "subtitlegenerator",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "pawvis",
+      "slug": "fetchsandbox-mcp",
       "reason": "JSON parse failed"
     }
   ]
