@@ -10,7 +10,7 @@ const DATA_DIR=path.join(process.cwd(),'data');
 const CORPUS_FILE=path.join(DATA_DIR,'corpus.json');
 const HEALTH_FILE=path.join(DATA_DIR,'enrichment-health.json');
 const PH_API='https://api.producthunt.com/v2/api/graphql';
-const DELAY=Number(process.env.ENRICH_DELAY_MS??'6000');
+const DELAY=Number(process.env.ENRICH_DELAY_MS??'12000');
 const LIMIT=Number(process.env.ENRICH_BACKLOG_LIMIT??'10');
 const KEYS=['today','yesterday','week','month','year'] as const;
 
@@ -28,7 +28,7 @@ function propagate(data:any,slug:string,src:Product){
 
 async function main(){
   const token=process.env.PH_API_TOKEN; if(!token) throw new Error('PH_API_TOKEN missing');
-  if(!Number.isFinite(LIMIT)||LIMIT<1||LIMIT>50) throw new Error(`invalid ENRICH_BACKLOG_LIMIT: ${LIMIT}`);
+  if(!Number.isFinite(LIMIT)||LIMIT<1||LIMIT>20) throw new Error(`invalid ENRICH_BACKLOG_LIMIT: ${LIMIT}`);
   const files=(await readdir(DATA_DIR)).filter(isDailyDataFilename).sort().reverse();
   if(!files.length) throw new Error('no daily data');
   const latestName=files[0], file=path.join(DATA_DIR,latestName);
@@ -44,9 +44,16 @@ async function main(){
     attempted++;
     try{
       const working=structuredClone(product);
-      const fresh=await fetchComments(token,product.slug);
-      if(fresh.length) working.comments=fresh;
-      const ai=await analyzeProduct(working);
+      if(!completeness.faComments){
+        const fresh=await fetchComments(token,product.slug);
+        if(fresh.length) working.comments=fresh;
+      }
+      const ai=await analyzeProduct(working,{
+        faDescription:!completeness.faDescription,
+        faComments:!completeness.faComments,
+        aiReview:!completeness.aiReview,
+        iranEquivalent:!completeness.iranEquivalent,
+      });
       if(!completeness.faDescription && ai.faDescription?.trim()) working.faDescription=ai.faDescription;
       if(!completeness.faComments && ai.faComments?.length) working.faComments=ai.faComments;
       if(!completeness.aiReview && ai.aiReview?.trim()) working.aiReview=ai.aiReview;
