@@ -1,8 +1,9 @@
 const TEHRAN_TIME_ZONE = 'Asia/Tehran';
+const PRODUCT_HUNT_TIME_ZONE = 'America/Los_Angeles';
 
-export function dateInTehran(now = new Date()): string {
+function dateInTimeZone(now: Date, timeZone: string): string {
   const parts = new Intl.DateTimeFormat('en-CA', {
-    timeZone: TEHRAN_TIME_ZONE,
+    timeZone,
     year: 'numeric',
     month: '2-digit',
     day: '2-digit',
@@ -10,6 +11,14 @@ export function dateInTehran(now = new Date()): string {
   const value = (type: Intl.DateTimeFormatPartTypes) =>
     parts.find((part) => part.type === type)?.value ?? '';
   return `${value('year')}-${value('month')}-${value('day')}`;
+}
+
+export function dateInTehran(now = new Date()): string {
+  return dateInTimeZone(now, TEHRAN_TIME_ZONE);
+}
+
+export function dateInProductHunt(now = new Date()): string {
+  return dateInTimeZone(now, PRODUCT_HUNT_TIME_ZONE);
 }
 
 function timeZoneOffsetMinutes(at: Date, timeZone: string): number {
@@ -36,9 +45,17 @@ function timeZoneOffsetMinutes(at: Date, timeZone: string): number {
   return Math.round((representedAsUtc - at.getTime()) / 60000);
 }
 
-export function startOfTehranDayUtc(now = new Date(), offsetDays = 0): Date {
-  const [year, month, day] = dateInTehran(now).split('-').map(Number);
+function startOfDayUtc(now: Date, timeZone: string, dateValue: string, offsetDays = 0): Date {
+  const [year, month, day] = dateValue.split('-').map(Number);
   const localMidnightAsUtc = new Date(Date.UTC(year, month - 1, day - offsetDays, 0, 0, 0));
-  const offsetMinutes = timeZoneOffsetMinutes(localMidnightAsUtc, TEHRAN_TIME_ZONE);
+  const offsetMinutes = timeZoneOffsetMinutes(localMidnightAsUtc, timeZone);
   return new Date(localMidnightAsUtc.getTime() - offsetMinutes * 60_000);
+}
+
+export function startOfTehranDayUtc(now = new Date(), offsetDays = 0): Date {
+  return startOfDayUtc(now, TEHRAN_TIME_ZONE, dateInTehran(now), offsetDays);
+}
+
+export function startOfProductHuntDayUtc(now = new Date(), offsetDays = 0): Date {
+  return startOfDayUtc(now, PRODUCT_HUNT_TIME_ZONE, dateInProductHunt(now), offsetDays);
 }
