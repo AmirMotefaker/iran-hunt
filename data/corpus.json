@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T06:01:30.315Z",
+  "generatedAt": "2026-09-04T06:28:21.307Z",
   "sourceFiles": 26,
   "products": [
     {
@@ -4163,9 +4163,9 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nKane CLI یک ابزار قدرتمند برای توسعه‌دهندگان و عوامل کد‌نویسی هوش مصنوعی است که به آنها امکان می‌دهد تست‌های مرورگر و برنامه‌های موبایل را از طریق ترمینال و با استفاده از زبان طبیعی انجام دهند. این ابزار به توسعه‌دهندگان این امکان را می‌دهد که تست‌ها را با استفاده از زبان طبیعی توصیف کنند و Kane CLI آنها را در یک مرورگر کروم واقعی اجرا کند و نتیجه را با ارائه مدرک قابل دهد.\n🔹 معماری و تکنولوژی احتمالی:\nKane CLI از تکنولوژی‌های مدرن مانند Next.js و PostgreSQL استفاده می‌کند. این ابزار به صورت محلی-first و رایگان شروع به کار می‌کند.\n🔹 مدل درآمدی:\nKane CLI می‌تواند از طریق فروش لیسانس و پشتیبانی و خدمات پس از فروش درآمدزایی کند.\n🔹 نقاط قوت:\n- امکان تست و اطمینان از کیفیت نرم‌افزارهای مختلف\n- استفاده از زبان طبیعی برای توصیف تست‌ها\n- ارائه مدرک قابل\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای خارجی\n- نیاز به آموزش و آگاهی‌رسانی به توسعه‌دهندگان\n- نیاز به پشتیبانی و به روزرسانی مداوم\n🔹 نکته طلایی برای بازار ایران:\nKane CLI می‌تواند به عنوان یک ابزار جامع و قدرتمند برای تست و اطمینان از کیفیت نرم‌افزارهای ایرانی معرفی شود و به توسعه‌دهندگان و عوامل کد‌نویسی هوش مصنوعی در ایران کمک کند تا نرم‌افزارهای با کیفیت و قابل اعتماد تولید کنند."
     },
     {
-      "id": "ph-week-2",
+      "id": "ph-yesterday-1",
       "date": "2026-09-02",
-      "rank": 2,
+      "rank": 1,
       "name": "Monid",
       "slug": "monid-3",
       "tagline": "OpenRouter for agent tools",
@@ -4182,7 +4182,7 @@
         "https://ph-files.imgix.net/02d32dbc-610a-4134-a174-1304c1865c5e.png?auto=format",
         "https://ph-files.imgix.net/fa1860cc-9875-4b5c-b3ca-23af41c4fcbd.jpeg?auto=format"
       ],
-      "maker": "[REDACTED]",
+      "maker": "Shengkun Ye",
       "makerTitle": "Creating things",
       "featuredAt": "2026-09-02T07:01:00Z",
       "votes": 458,
@@ -4762,9 +4762,9 @@
       }
     },
     {
-      "id": "ph-week-3",
+      "id": "ph-yesterday-2",
       "date": "2026-09-02",
-      "rank": 3,
+      "rank": 2,
       "name": "Browzer",
       "slug": "browzer-2",
       "tagline": "Put your technical content on autopilot",
@@ -6801,9 +6801,9 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-week-8",
+      "id": "ph-yesterday-3",
       "date": "2026-09-02",
-      "rank": 8,
+      "rank": 3,
       "name": "Articos",
       "slug": "articos",
       "tagline": "Launch with confidence, not gut instinct",
@@ -8340,6 +8340,126 @@
       }
     },
     {
+      "id": "ph-today-1",
+      "date": "2026-09-03",
+      "rank": 1,
+      "name": "Nex",
+      "slug": "nex-4",
+      "tagline": "Claude Cowork for high-volume GTM workflows",
+      "description": "Nex automates workflows like CRM clean up, large list qualification, revenue recovery, at large volumes, that break general purpose agents. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
+      "category": "Sales • SaaS • Artificial Intelligence",
+      "categoryFa": "فروش • نرم‌افزار ابری • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/7d330afb-0e5a-48fa-8c93-85ff4b8e62e6.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
+        "https://ph-files.imgix.net/1a431835-168e-445a-8cf3-f5d70efe607f.png?auto=format",
+        "https://ph-files.imgix.net/f1748a68-8e5d-4b76-814c-efc519c89de6.png?auto=format",
+        "https://ph-files.imgix.net/d32198e4-53ca-4530-93c2-a61463266598.png?auto=format",
+        "https://ph-files.imgix.net/80d25ced-5ae0-4057-be72-acd4ab50347b.jpeg?auto=format"
+      ],
+      "maker": "Francisco Dias",
+      "makerTitle": "Just trying to help out.",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 314,
+      "websiteUrl": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey PH 👋 I'm Nazz, co-founder and CEO of Nex. Francisco (my co-founder/CTO) and I spent years at HubSpot running its three largest customer platforms. Francisco was the 4th person on the team that built HubSpot's CRM, and took the fight to Salesforce. Together, we saw the same thing over and over: GTM teams have messy, high-volume workflows, from prospecting thousands of leads to qualifying them to cleaning up a million CRM records to re-engaging lost deals. General-purpose agents choke on this. If you try to run these workflows at scale through a general-purpose agent today, you'll hit limits immediately and still fail. So we built Nex, where you can build and execute the high-volume GTM workflows that general-purpose agents struggle with. One example: on a single onboarding call, Nex audited thousands of records in a customer's HubSpot and started fixing the bad data before the call was even over. We launched 2 weeks ago and became the more viral launch of the batch: https://lnkd.in/p/e6fJijuv. HubSpot's founder, Dharmesh Shah, also backs us. We'd genuinely love your feedback. Try it at nex.ai and tell us what workflow you'd throw at it first. We'll be in the comments all day answering everything. 🙏"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Amazing team!!! Congrats on the launch!! 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the 100k-record onboarding example is a great demo. curious how pricing works at that volume - is it usage/record-based or a flat seat price? a lot of agent tools that shine on big one-off cleanups get surprisingly expensive once you run them continuously."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "this is so cool!!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey! Just checked out the platform.How far can you push custom research workflows? For example, could I find 20 active AI newsletters, filter by audience size/topic, then find the right editor + contact info?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "LETS GOOOOOO"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Every GTM tool I get pitched wants my live CRM connected before I can judge it. Is there a way to run a workflow on a sample first?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "u told charles u deliberately dont use the word agent bcoz operators want outcomes. so on a 100k record cleanup that half fails, do they see which rows got fixed?"
+        }
+      ]
+    },
+    {
+      "id": "ph-today-2",
+      "date": "2026-09-03",
+      "rank": 2,
+      "name": "Agent Builder by Airtop",
+      "slug": "agent-builder-by-airtop",
+      "tagline": "Build agents that heal themselves. ",
+      "description": "Describe any workflow in plain English. Agent Builder compiles it into a coded automation that runs like software. When a run breaks, Airtop automatically investigates, rebuilds the step, and verifies the fix on a real test run. Airtop Agents run securely in the cloud and are up to 100x more efficient than traditional LLM-per-step AI Agents.",
+      "category": "Artificial Intelligence • No-Code • Vibe coding",
+      "categoryFa": "هوش مصنوعی • No-Code • Vibe coding",
+      "url": "https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/4034cd6b-12cc-41c7-bfae-16ebed6abd10.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/109d98ce-8eba-4189-af61-2c5290db33c7.png?auto=format",
+        "https://ph-files.imgix.net/c54534bd-4a82-47bc-9318-c8ee178647d5.png?auto=format",
+        "https://ph-files.imgix.net/5abf1d47-4c13-4c80-8d9b-7252c103e6a4.png?auto=format",
+        "https://ph-files.imgix.net/8a7ae2f7-b064-4ec2-8d20-ea8798ec6c27.png?auto=format",
+        "https://ph-files.imgix.net/96e2b079-c988-42d0-bd50-a0941860a2bb.png?auto=format",
+        "https://ph-files.imgix.net/da52260a-0b04-45f5-bb04-4f8a2a2e1893.png?auto=format",
+        "https://ph-files.imgix.net/b951ba09-07b9-4991-87ef-79b0dfaa95ff.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 310,
+      "websiteUrl": "https://www.producthunt.com/r/2EYT4D2MQCUU3J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Every CEO I talk to is trying to shrink their AI token bill.AI agents are expensive (and slow) because they re-reason every step, on every run. So we created Agent Builder, which compiles automations into efficient, reusable code.We gave the same multi-step task to a traditional LLM agent (Claude Code on Opus 4.7) and an agent compiled with Agent Builder. Here are the results:👉 LLM agent: 7m 58s, $6.26 per run👉 Airtop agent (compiled): 1m 21s, $0.063 per run6x faster at ~1% of the cost. Same results, fewer tokens burned.Agent Builder does the thinking once, at build time, instead of every time the agent runs.To use Agent Builder, just describe any workflow in plain English. It builds the automation, tests it, and compiles it into deterministic code that runs like software. Agent Builder works with any API or website, and connects natively to integrations like Slack and Google Sheets.Just like software, compiled agents can break. Especially if you’re running a web automation on a website that changes.So we taught Airtop agents to heal themselves. 🧠 If a run fails → Airtop notifies you and diagnoses what broke⚙️ Airtop automatically builds a fix for the agent and verifies the fix with real test runs✅ Airtop sends you a repair draft so you can check it before deployingWho’s it for? Founders and ops, marketing, sales, and finance teams that want to automate repeatable work without spending a fortune on AI tokens.🔗 Try it free at airtop.ai/agent-builder 🎟️ Code AGENTSTARTERPH gets you 1 free month of Airtop’s Starter plan. We’re here all day. Ask us anything!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations another awesome product from your team @makers Agrnt Builder is a huge leap in efficiency. I like how it shifts the \"thinking\" to build time so teams can just run the workflow. Great work!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I like that Agent Builder can automatically investigate and rebuild a broken step, rather than just reporting an error. The plain-English workflow setup feels especially approachable."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Great job with it!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I appreciate that the agent verifies its own fixes with a real test run. That extra validation makes the self healing approach feel much more practical."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The 100x efficiency claim caught my attention. Is that mainly because the generated automation uses fewer LLM calls?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Being able to work with websites without needing an API is pretty useful. I can see this helping with some of those annoying repetitive browser tasks."
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-3",
       "date": "2026-09-01",
       "rank": 3,
@@ -8571,65 +8691,6 @@
         ],
         "confidence": 85
       }
-    },
-    {
-      "id": "ph-yesterday-1",
-      "date": "2026-09-03",
-      "rank": 1,
-      "name": "Nex",
-      "slug": "nex-4",
-      "tagline": "Claude Cowork for high-volume GTM workflows",
-      "description": "Nex automates workflows like CRM clean up, large list qualification, revenue recovery, at large volumes, that break general purpose agents. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
-      "category": "Sales • SaaS • Artificial Intelligence",
-      "categoryFa": "فروش • نرم‌افزار ابری • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/7d330afb-0e5a-48fa-8c93-85ff4b8e62e6.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
-        "https://ph-files.imgix.net/1a431835-168e-445a-8cf3-f5d70efe607f.png?auto=format",
-        "https://ph-files.imgix.net/f1748a68-8e5d-4b76-814c-efc519c89de6.png?auto=format",
-        "https://ph-files.imgix.net/d32198e4-53ca-4530-93c2-a61463266598.png?auto=format",
-        "https://ph-files.imgix.net/80d25ced-5ae0-4057-be72-acd4ab50347b.jpeg?auto=format"
-      ],
-      "maker": "Francisco Dias",
-      "makerTitle": "Just trying to help out.",
-      "featuredAt": "2026-09-03T07:01:00Z",
-      "votes": 305,
-      "websiteUrl": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey PH 👋 I'm Nazz, co-founder and CEO of Nex. Francisco (my co-founder/CTO) and I spent years at HubSpot running its three largest customer platforms. Francisco was the 4th person on the team that built HubSpot's CRM, and took the fight to Salesforce. Together, we saw the same thing over and over: GTM teams have messy, high-volume workflows, from prospecting thousands of leads to qualifying them to cleaning up a million CRM records to re-engaging lost deals. General-purpose agents choke on this. If you try to run these workflows at scale through a general-purpose agent today, you'll hit limits immediately and still fail. So we built Nex, where you can build and execute the high-volume GTM workflows that general-purpose agents struggle with. One example: on a single onboarding call, Nex audited thousands of records in a customer's HubSpot and started fixing the bad data before the call was even over. We launched 2 weeks ago and became the more viral launch of the batch: https://lnkd.in/p/e6fJijuv. HubSpot's founder, Dharmesh Shah, also backs us. We'd genuinely love your feedback. Try it at nex.ai and tell us what workflow you'd throw at it first. We'll be in the comments all day answering everything. 🙏"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Amazing team!!! Congrats on the launch!! 🚀"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the 100k-record onboarding example is a great demo. curious how pricing works at that volume - is it usage/record-based or a flat seat price? a lot of agent tools that shine on big one-off cleanups get surprisingly expensive once you run them continuously."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "this is so cool!!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Hey! Just checked out the platform.How far can you push custom research workflows? For example, could I find 20 active AI newsletters, filter by audience size/topic, then find the right editor + contact info?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "LETS GOOOOOO"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Every GTM tool I get pitched wants my live CRM connected before I can judge it. Is there a way to run a workflow on a sample first?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "u told charles u deliberately dont use the word agent bcoz operators want outcomes. so on a 100k record cleanup that half fails, do they see which rows got fixed?"
-        }
-      ]
     },
     {
       "id": "ph-yesterday-2",
@@ -8869,67 +8930,6 @@
         "confidence": 75
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nInferock Bench یک ابزار است که به کاربران کمک می‌کند تا هزینه‌های خود را به‌طور دقیق‌تر مدیریت کنند و از پرداخت‌های اضافی جلوگیری کنند. این ابزار می‌تواند به کاربران در بهینه‌سازی استفاده از API‌ها و کاهش هزینه‌ها کمک کند.\n🔹 معماری و تکنولوژی احتمالی:\nاین ابزار می‌تواند با استفاده از تکنولوژی‌های Next.js و PostgreSQL ساخته شود.\n🔹 مدل درآمدی:\nاین ابزار می‌تواند با فروش به شرکت‌ها و سازمان‌ها و ارائه خدمات مشاوره و آموزش درآمدزایی کند.\n🔹 نقاط قوت:\n- کمک به کاربران در مدیریت هزینه‌ها\n- بهینه‌سازی استفاده از API‌ها\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با ابزارهای خارجی\n- نیاز به آموزش و آگاهی‌رسانی به کاربران\n🔹 نکته طلایی برای بازار ایران:\nصندوق هوشمند می‌تواند به شرکت‌ها و سازمان‌های ایرانی کمک کند تا هزینه‌های خود را کاهش دهند و کارایی خود را بهبود بخشند."
-    },
-    {
-      "id": "ph-yesterday-2",
-      "date": "2026-09-03",
-      "rank": 2,
-      "name": "Agent Builder by Airtop",
-      "slug": "agent-builder-by-airtop",
-      "tagline": "Build agents that heal themselves. ",
-      "description": "Describe any workflow in plain English. Agent Builder compiles it into a coded automation that runs like software. When a run breaks, Airtop automatically investigates, rebuilds the step, and verifies the fix on a real test run. Airtop Agents run securely in the cloud and are up to 100x more efficient than traditional LLM-per-step AI Agents.",
-      "category": "Artificial Intelligence • No-Code • Vibe coding",
-      "categoryFa": "هوش مصنوعی • No-Code • Vibe coding",
-      "url": "https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/4034cd6b-12cc-41c7-bfae-16ebed6abd10.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/109d98ce-8eba-4189-af61-2c5290db33c7.png?auto=format",
-        "https://ph-files.imgix.net/c54534bd-4a82-47bc-9318-c8ee178647d5.png?auto=format",
-        "https://ph-files.imgix.net/5abf1d47-4c13-4c80-8d9b-7252c103e6a4.png?auto=format",
-        "https://ph-files.imgix.net/8a7ae2f7-b064-4ec2-8d20-ea8798ec6c27.png?auto=format",
-        "https://ph-files.imgix.net/96e2b079-c988-42d0-bd50-a0941860a2bb.png?auto=format",
-        "https://ph-files.imgix.net/da52260a-0b04-45f5-bb04-4f8a2a2e1893.png?auto=format",
-        "https://ph-files.imgix.net/b951ba09-07b9-4991-87ef-79b0dfaa95ff.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-09-03T07:01:00Z",
-      "votes": 294,
-      "websiteUrl": "https://www.producthunt.com/r/2EYT4D2MQCUU3J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Every CEO I talk to is trying to shrink their AI token bill.AI agents are expensive (and slow) because they re-reason every step, on every run. So we created Agent Builder, which compiles automations into efficient, reusable code.We gave the same multi-step task to a traditional LLM agent (Claude Code on Opus 4.7) and an agent compiled with Agent Builder. Here are the results:👉 LLM agent: 7m 58s, $6.26 per run👉 Airtop agent (compiled): 1m 21s, $0.063 per run6x faster at ~1% of the cost. Same results, fewer tokens burned.Agent Builder does the thinking once, at build time, instead of every time the agent runs.To use Agent Builder, just describe any workflow in plain English. It builds the automation, tests it, and compiles it into deterministic code that runs like software. Agent Builder works with any API or website, and connects natively to integrations like Slack and Google Sheets.Just like software, compiled agents can break. Especially if you’re running a web automation on a website that changes.So we taught Airtop agents to heal themselves. 🧠 If a run fails → Airtop notifies you and diagnoses what broke⚙️ Airtop automatically builds a fix for the agent and verifies the fix with real test runs✅ Airtop sends you a repair draft so you can check it before deployingWho’s it for? Founders and ops, marketing, sales, and finance teams that want to automate repeatable work without spending a fortune on AI tokens.🔗 Try it free at airtop.ai/agent-builder 🎟️ Code AGENTSTARTERPH gets you 1 free month of Airtop’s Starter plan. We’re here all day. Ask us anything!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congratulations another awesome product from your team @makers Agrnt Builder is a huge leap in efficiency. I like how it shifts the \"thinking\" to build time so teams can just run the workflow. Great work!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I like that Agent Builder can automatically investigate and rebuild a broken step, rather than just reporting an error. The plain-English workflow setup feels especially approachable."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Great job with it!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I appreciate that the agent verifies its own fixes with a real test run. That extra validation makes the self healing approach feel much more practical."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The 100x efficiency claim caught my attention. Is that mainly because the generated automation uses fewer LLM calls?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Being able to work with websites without needing an API is pretty useful. I can see this helping with some of those annoying repetitive browser tasks."
-        }
-      ]
     },
     {
       "id": "ph-today-2",
@@ -9857,6 +9857,64 @@
       ]
     },
     {
+      "id": "ph-yesterday-4",
+      "date": "2026-09-02",
+      "rank": 4,
+      "name": "CleanShot 5.0 with Studio Mode",
+      "slug": "cleanshot-5-0-with-studio-mode",
+      "tagline": "Mac-native app for screenshots, recordings and collaboration",
+      "description": "CleanShot is the definitive Mac-native toolkit for screenshots, recordings and collaboration. The new Studio Mode is all you need to turn a simple screen recording into a polished, professional video — with the quality you expect from CleanShot. Available now on all plans. No subscription required.",
+      "category": "Mac • Design Tools • Video",
+      "categoryFa": "مک • ابزار طراحی • ویدیو",
+      "url": "https://www.producthunt.com/products/cleanshot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/42c2eae0-7833-47f7-9fb3-37f96d99e166.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/0f6307f5-7424-4ae4-b19b-39096638da7e.png?auto=format",
+        "https://ph-files.imgix.net/e36afcb6-ddc8-4687-9fbb-8c5cef8f7fe8.png?auto=format",
+        "https://ph-files.imgix.net/6206e060-a97d-4d76-8d56-3bbd06562fbe.png?auto=format",
+        "https://ph-files.imgix.net/b2776f7c-21bc-4e87-851e-0a58a4480a10.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-02T07:01:00Z",
+      "votes": 273,
+      "websiteUrl": "https://www.producthunt.com/r/XTWBJN3JRPBAQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt! 🚀I'm the co-founder of CleanShot, and I'm super excited to finally launch CleanShot 5.0 with Studio Mode and the new Video Editor!Our mission with this was very simple: make the editor as powerful as possible while keeping it minimalistic and beautifully designed.And the best part? It's still a fully native Mac app with great UX and performance.The Studio Mode is available on all CleanShot plans. No subscription required.We're just getting started, and we have a lot of new stuff planned for the Video Editor, but I'm excited to hear your feedback! 🙌"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I dont quite get the upgrade from the build in Mac OS functionality to take screenshots, record video. not trolling can you give me 2 sentences of what this enables me to do ? I see editing but thats bout it, no? downloading a copy know but wish the value was more clear. thank you"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "But native screenshot app in mac does the same, what are you doing differently?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Most of my screen recordings end up on a landing page, where file size decides if the page still loads fast. What does Studio Mode export at?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "What a cool product, congrats team for your launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "my favorite screenshot app just got better. :)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Can it do these kinds of 3d pano animations of screen recordings. The ones that look really interesting for Hero sections on websites etc?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Been using it on all my mac for last few years ❤️"
+        }
+      ]
+    },
+    {
       "id": "ph-today-3",
       "date": "2025-11-23",
       "rank": 3,
@@ -10159,6 +10217,67 @@
       }
     },
     {
+      "id": "ph-today-3",
+      "date": "2026-09-03",
+      "rank": 3,
+      "name": "MagiCrew",
+      "slug": "magicrew",
+      "tagline": "Give everyone their own AI workforce in one platform",
+      "description": "MagiCrew is an open-source AI Agent platform that gives everyone their own AI workforce. Instead of simply chatting with AI, deploy specialized digital workers that research, analyze, create reports, generate presentations, and complete real business tasks. With multi-agent collaboration, enterprise controls, and deliverable-ready outputs, MagiCrew helps teams turn AI from a tool they use into a workforce they can manage.",
+      "category": "Productivity • Artificial Intelligence • GitHub • No-Code",
+      "categoryFa": "بهره‌وری • هوش مصنوعی • گیت‌هاب • No-Code",
+      "url": "https://www.producthunt.com/products/magicrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/6d85740e-11f0-41af-bbcf-25d4e107ac41.svg?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/55bd063e-499a-46ed-ac34-df2d1b512737.jpeg?auto=format",
+        "https://ph-files.imgix.net/67cbd947-11f2-4798-bbc1-d4002a00bfc2.jpeg?auto=format",
+        "https://ph-files.imgix.net/4c4eaf36-e7ec-44a7-beb7-d5cc8ec98148.jpeg?auto=format",
+        "https://ph-files.imgix.net/6277430f-27d3-4328-9f3c-1b64bc7a1709.jpeg?auto=format",
+        "https://ph-files.imgix.net/c2a172f7-7187-472f-8c7f-1b61b0fc5c4a.jpeg?auto=format",
+        "https://ph-files.imgix.net/806ad49e-5158-4134-af4c-bccf69ebda7f.png?auto=format",
+        "https://ph-files.imgix.net/69c088fe-c461-4efc-a6cf-adf94241185d.jpeg?auto=format"
+      ],
+      "maker": "Enzy Tian",
+      "makerTitle": "Co-founder & COO of MagiCrew",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 261,
+      "websiteUrl": "https://www.producthunt.com/r/7TTRWNXQKUKM4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi everyone, I'm Enzy, co-founder of MagiCrew.I spent years as a journalist at the United Nations, then built and sold a company. Two very different experiences, same lesson: the bottleneck is almost never ideas. It's the gap between what people can think and what they can actually get done.My co-founders and I met at business school. We'd each built things, broken things, and paid the full price for that gap. When AI became genuinely capable, we saw something we hadn't seen before — a real chance to close it. Not for enterprises with six-figure IT budgets. For everyone.The moment that crystallized MagiCrew wasn't dramatic. It was a pattern.People weren't struggling to find AI tools. They were struggling to finish anything with them. Every tool handed you something half-done. A draft that needed reformatting. An analysis that needed to become a deck. The output was always one step away from being useful.The problem wasn't the tools. It was the missing layer above them — the one that understands what you're actually trying to accomplish, coordinates the right capabilities, and delivers something you can use.We sometimes describe MagiCrew as the Costco of AI — not because it's cheap, because it's curated.Costco doesn't carry everything. They find the best version of what you actually need, and that's all they stock. You don't comparison-shop. You trust the shelf.That's what we do with agents. We went deep on each use case — research, data, presentations, meetings, social media, creative work — and built a genuine specialist for each. Not wrappers. Not prompt templates. Agents that know your projects, remember your context, and build on everything you've already done. The longer you work inside MagiCrew, the less you have to explain.Every agent we ship has to answer one question: does this solve a genuine problem, or are we just building what's easy to demo?The bigger mission is simple: the most powerful AI capabilities in the world shouldn't require six subscriptions and a technical degree to access. We want to take the best technology available, make it genuinely useful, and put it in the hands of anyone who needs it — at a price that actually makes sense.That's AI for everyone. That's why we built MagiCrew.We'd love to hear from you — what's the one workflow you wish AI could actually handle end-to-end?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "That alone could save so much time."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Interested in knowing about the context transfer process in MagiCrew. In case the research agent is completed and then taken up by the presentation agent, is there any stitching process involved here?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on the launch, @enzy_magicrew solving a last miles problems where an output actually becomes usable is huge. @enzy_magicrew how do you decides which tasks should be handle by one specialist agents versus multiple agents working togethers?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I am running a startup that consists of only two people, hence, “AI workforce” means simply a chatbot with added steps in the marketing material. The reason for my interest was that it used deliverable-ready material such as presentations. I am going to try out the tool with our next investor presentation."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Can I observe the handoff process through MagiCrew or will it be more like a black box until I get the end product?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "wow, finally a open source ai agents, was looking for something like this. The world is changing fast. What llm it supports please? Must going to try today. And congrats on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congratulations on your launch! The \"Costco of AI\" line stayed with me, curating rather than dropping everything possible on users makes sense."
+        }
+      ]
+    },
+    {
       "id": "ph-today-4",
       "date": "2026-08-12",
       "rank": 4,
@@ -10305,67 +10424,6 @@
     },
     {
       "id": "ph-yesterday-3",
-      "date": "2026-09-03",
-      "rank": 3,
-      "name": "MagiCrew",
-      "slug": "magicrew",
-      "tagline": "Give everyone their own AI workforce in one platform",
-      "description": "MagiCrew is an open-source AI Agent platform that gives everyone their own AI workforce. Instead of simply chatting with AI, deploy specialized digital workers that research, analyze, create reports, generate presentations, and complete real business tasks. With multi-agent collaboration, enterprise controls, and deliverable-ready outputs, MagiCrew helps teams turn AI from a tool they use into a workforce they can manage.",
-      "category": "Productivity • Artificial Intelligence • GitHub • No-Code",
-      "categoryFa": "بهره‌وری • هوش مصنوعی • گیت‌هاب • No-Code",
-      "url": "https://www.producthunt.com/products/magicrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/6d85740e-11f0-41af-bbcf-25d4e107ac41.svg?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/55bd063e-499a-46ed-ac34-df2d1b512737.jpeg?auto=format",
-        "https://ph-files.imgix.net/67cbd947-11f2-4798-bbc1-d4002a00bfc2.jpeg?auto=format",
-        "https://ph-files.imgix.net/4c4eaf36-e7ec-44a7-beb7-d5cc8ec98148.jpeg?auto=format",
-        "https://ph-files.imgix.net/6277430f-27d3-4328-9f3c-1b64bc7a1709.jpeg?auto=format",
-        "https://ph-files.imgix.net/c2a172f7-7187-472f-8c7f-1b61b0fc5c4a.jpeg?auto=format",
-        "https://ph-files.imgix.net/806ad49e-5158-4134-af4c-bccf69ebda7f.png?auto=format",
-        "https://ph-files.imgix.net/69c088fe-c461-4efc-a6cf-adf94241185d.jpeg?auto=format"
-      ],
-      "maker": "Enzy Tian",
-      "makerTitle": "Co-founder & COO of MagiCrew",
-      "featuredAt": "2026-09-03T07:01:00Z",
-      "votes": 256,
-      "websiteUrl": "https://www.producthunt.com/r/7TTRWNXQKUKM4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hi everyone, I'm Enzy, co-founder of MagiCrew.I spent years as a journalist at the United Nations, then built and sold a company. Two very different experiences, same lesson: the bottleneck is almost never ideas. It's the gap between what people can think and what they can actually get done.My co-founders and I met at business school. We'd each built things, broken things, and paid the full price for that gap. When AI became genuinely capable, we saw something we hadn't seen before — a real chance to close it. Not for enterprises with six-figure IT budgets. For everyone.The moment that crystallized MagiCrew wasn't dramatic. It was a pattern.People weren't struggling to find AI tools. They were struggling to finish anything with them. Every tool handed you something half-done. A draft that needed reformatting. An analysis that needed to become a deck. The output was always one step away from being useful.The problem wasn't the tools. It was the missing layer above them — the one that understands what you're actually trying to accomplish, coordinates the right capabilities, and delivers something you can use.We sometimes describe MagiCrew as the Costco of AI — not because it's cheap, because it's curated.Costco doesn't carry everything. They find the best version of what you actually need, and that's all they stock. You don't comparison-shop. You trust the shelf.That's what we do with agents. We went deep on each use case — research, data, presentations, meetings, social media, creative work — and built a genuine specialist for each. Not wrappers. Not prompt templates. Agents that know your projects, remember your context, and build on everything you've already done. The longer you work inside MagiCrew, the less you have to explain.Every agent we ship has to answer one question: does this solve a genuine problem, or are we just building what's easy to demo?The bigger mission is simple: the most powerful AI capabilities in the world shouldn't require six subscriptions and a technical degree to access. We want to take the best technology available, make it genuinely useful, and put it in the hands of anyone who needs it — at a price that actually makes sense.That's AI for everyone. That's why we built MagiCrew.We'd love to hear from you — what's the one workflow you wish AI could actually handle end-to-end?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "That alone could save so much time."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Interested in knowing about the context transfer process in MagiCrew. In case the research agent is completed and then taken up by the presentation agent, is there any stitching process involved here?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congratulations on the launch, @enzy_magicrew solving a last miles problems where an output actually becomes usable is huge. @enzy_magicrew how do you decides which tasks should be handle by one specialist agents versus multiple agents working togethers?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I am running a startup that consists of only two people, hence, “AI workforce” means simply a chatbot with added steps in the marketing material. The reason for my interest was that it used deliverable-ready material such as presentations. I am going to try out the tool with our next investor presentation."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Can I observe the handoff process through MagiCrew or will it be more like a black box until I get the end product?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "wow, finally a open source ai agents, was looking for something like this. The world is changing fast. What llm it supports please? Must going to try today. And congrats on the launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Congratulations on your launch! The \"Costco of AI\" line stayed with me, curating rather than dropping everything possible on users makes sense."
-        }
-      ]
-    },
-    {
-      "id": "ph-yesterday-3",
       "date": "2026-08-07",
       "rank": 3,
       "name": "Nitro 4.0",
@@ -10471,6 +10529,66 @@
         ],
         "confidence": 75
       }
+    },
+    {
+      "id": "ph-today-4",
+      "date": "2026-09-03",
+      "rank": 4,
+      "name": "Omi",
+      "slug": "omi-3",
+      "tagline": "Ask your computer anything you saw or heard",
+      "description": "Omi captures your screen and conversations, creates tasks, reminders and advice, helping you find anything you saw or discussed. Turn calls into summaries and action items, ask questions and get personalized responses! Omi is open source, local and works with your own AI keys, giving you full control over what gets recorded, paused, or deleted.",
+      "category": "Productivity • Open Source • Artificial Intelligence",
+      "categoryFa": "بهره‌وری • متن‌باز • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/open-source-ai-necklace-friend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/d2d5f236-c299-4a24-8040-72750eb2ee10.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/016bc8ef-65d7-47bf-ab3c-90438dd8796b.png?auto=format",
+        "https://ph-files.imgix.net/5aa6ee65-51a7-41c4-aed6-750674cb95fa.png?auto=format",
+        "https://ph-files.imgix.net/019db649-cc67-4591-be25-d9d504212644.png?auto=format",
+        "https://ph-files.imgix.net/055d57fe-31b0-4200-9480-aeadb3d2cece.png?auto=format",
+        "https://ph-files.imgix.net/4eb2753c-4965-455e-b48d-ccd1db77f89b.png?auto=format",
+        "https://ph-files.imgix.net/a4c253e9-f7b6-49da-a941-751b9ae0c7e8.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 247,
+      "websiteUrl": "https://www.producthunt.com/r/LY6RGOFW5MIPEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Product Hunt 👋, I'm Nik, founder of Omi. Omi is the best way to ask AI about your own life.Why this existsTwo years ago I launched Omi as a small pendant that remembers your conversations. The most common request was: \"I want omi to know more about my life\". So we built omi for your computer. Omi now sees your computer screen, hears your meetings, and answers from what you actually did.🔥 How it worksDownload Omi for Mac: https://omi.me/macosIt captures your screen and your meetings (Zoom, Meet, Slack huddles, in person) in the backgroundHold the button in any app and ask it anythingThings people ask it\"What did I discuss in the last meeting?\"\"Give me a feedback on my design\"\"Help me, I'm stuck in this game\"\"What was I doing yesterday?\"\"Help me write a twitter post\"\"Draft the follow-up from my 2pm.\"Every answer shows where it came from. The meeting, the time, the screen. You can go check.What's in 1.0Answers from your actual screen and audio history, with citationsOne hotkey, works in any app, voice or textMemories: search everything you've seen and heard by person or dateNotifications when something you saw or heard comes up againLocal-first and open source. Code is at github.com/BasedHardware/omiFree to startWhat we optimize forI promised a lot with the first Omi. This one keeps the promise. It exists because of the open-source community that merged 1,600+ pull requests this year.Try it and tell me what's broken. I read everything.Nik"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I've been at the techie-consumer edge of personal superintelligence for many years. I ordered an Omi pendant the day Limitless sold out to Meta.Nine months in, I still wear my pendant most days. When I'm not wearing it, in-situ recording works smoothly from my Apple Watch Ultra and iPhone to memorialize important conversations. The Mac Omi app has seen rapid evolution over the past few months. I've stopped using it several times out of frustration, only to be wooed back by a redesign. This latest one COOKS. Props to Nik and team for listening to feedback, building a solid ecosystem, and (finally) nailing the design of the desktop app! Particular respect for the dedication to open source. Tools this powerful need to be wielded by the people, for the people.You, my friends, are on the right track."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Tried it personally for a week and felt like the transcription, memory, and summarization features are legitimately useful for anyone who lives in back-to-back conversations! Also love Omi's wearable design, super fashionable!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I'm an Omi user, one of my favorite apps for mac."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "sounds intressting, ui looks clean."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the \"capture everything on your screen and every meeting\" pitch makes me pause less about my own privacy and more about everyone else's. on a Zoom call or a shared screen, the other people in the room never opted into being transcribed into someone's personal second brain. is there any nudge to disclose that Omi is running when you're in a call with others, or is that left entirely up to the user"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Okay the screen context is the part that got me. Meeting notes are useful, but being able to ask “where did I see that design yesterday?” and actually get the screen + timestamp back is a completly different thing.Also really glad you made it local first, because otherwise this would be a pretty hard sell for me. How easy is it to pause it or exclude specific apps? really impressive work Nik @kodjima33"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Well, now I have to say this was extremely nice to wake up to, as I have an insane day ahead of me. I'm seriously looking for a better way to manage my time and remember everything that's going on that I could reference back later. Thanks for making this, and oh my, here's my favorite part."
+        }
+      ]
     },
     {
       "id": "ph-yesterday-2",
@@ -11515,6 +11633,68 @@
       ]
     },
     {
+      "id": "ph-yesterday-5",
+      "date": "2026-09-02",
+      "rank": 5,
+      "name": "Dial",
+      "slug": "dial-3",
+      "tagline": "Give your AI agent a real phone number in 10 seconds",
+      "description": "Your agent can deploy in seconds but cannot get a phone number. Dial fixes that - one API call and it gets a real one in about 10 seconds. It places and receives voice calls, sends and receives SMS in 200+ countries, and messages over iMessage. It can even read inbound verification codes, so phone-gated signups stop being a dead end. Works via REST API, CLI, MCP servers, and SDKs. Free credit on signup, no card.",
+      "category": "Productivity • Messaging • Artificial Intelligence",
+      "categoryFa": "بهره‌وری • پیام‌رسان • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/dial-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/ce344e44-3cad-418f-a544-57271c595685.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/794b4c39-bf96-4ae9-b7e9-2bc362be28f3.png?auto=format",
+        "https://ph-files.imgix.net/cd4d349d-a0bc-4e33-83f6-1f898e60fbbd.png?auto=format",
+        "https://ph-files.imgix.net/35c62b0d-b7e1-4ef5-b964-6cc3fa322282.png?auto=format",
+        "https://ph-files.imgix.net/4a13e631-c125-4e95-864d-aaca4e57be06.png?auto=format",
+        "https://ph-files.imgix.net/87dca9f9-1773-40b7-a294-e2397b7f196a.png?auto=format",
+        "https://ph-files.imgix.net/817e9654-643c-47a2-95ea-3c41e62395ac.png?auto=format",
+        "https://ph-files.imgix.net/891a846a-d2a7-4bf1-b002-469a71d44bd6.png?auto=format",
+        "https://ph-files.imgix.net/5280c7e7-3057-4539-88ab-26128b057d2b.jpeg?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-02T07:01:00Z",
+      "votes": 223,
+      "websiteUrl": "https://www.producthunt.com/r/ESWRD4VGDPZUHA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt 👋I'm Gal, founder of Dial.Last year we were building an AI agent that needed to sign itself up for a service. It got all the way through the form, hit \"we've texted you a code,\" and just... stopped. Dead. There was no workaround. A fully autonomous agent, defeated by six digits sent to a phone it didn't have.This isn't an AI that answers your phone. It's a phone number that belongs to your AI.Every agent framework has gotten very good at giving agents tools. But the moment an agent needs to exist in the physical world - verify an identity, call a human, receive a text - it hits a wall that was built for people:- No way to provision a number programmatically- Registration paperwork that takes weeks before the first text sends- Per-seat pricing that makes no sense when you have 100 agents- No way for an agent to read an inbound code- Webhooks you have to host and route yourselfSo we built the thing we wanted: one API call, and your agent has a real phone number in about 10 seconds.What it can do:- Place and receive voice calls, with real-time transcription, using your own LLM or ours- Send and receive SMS in 200+ countries- Message over iMessage from its own number, with automatic RCS/SMS fallback- Read inbound codes, so phone-gated signups stop being a dead end- One webhook, one format, every channelThe fastest way to see it: paste this into Claude Code, Cursor, Grok Bot, Codex or any agent -Get yourself a Dial phone number and call me. Say hello and that setup is working, then ask if I have any questions. Follow https://getdial.ai/skills.mdIt signs itself up, provisions its own number, and your phone rings. No dashboard, no human in the loop. That's the whole pitch, and you can verify it in about 30 seconds.We'll be here all day. What's the first thing you'd have your agent call or text? Genuinely curious - the answers to this are how we've picked most of the roadmap so far.you can also reach us directly at founders@getdial.aidiscord channel - https://discord.com/invite/tEmpesw6GW"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is awesome - now i can ask my claude to book restaurants for me"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "a real phone number for agents in 10s is wild 😄 mostly inbound or outbound so far?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch team! Love how Dial removes one of those small but very real blockers for AI agents especially around verification codes and phone-gated workflows. Quick question here - what has been the most common use case you have seen agents using Dial for so far?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hello team,We're evaluating Dial for adding phone-based reachability (voice, and potentially SMS/iMessage/WhatsApp) to an existing AI agent product. Our voice agent is orchestrated with LangGraph specifically, not just LangChain, with real-time audio currently running through a separate pipeline.A few specific questions:1. Does Dial's SDK/MCP server support a LangGraph-based voice agent out of the box, or does that require custom bridging on top of your LangChain integration?2. For real-time voice: how does Dial attach to an existing agent's audio pipeline - does it expect us to move audio transport onto Dial entirely, or can it sit alongside/bridge into a voice pipeline we already run, rather than replacing it?3. Do you have a reference implementation or example specifically for a LangGraph agent wired to Dial (as opposed to generic LangChain examples)?Happy to hop on a call if that's easier to walk through.Thanks,Raj H."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Giving an agent its own phone number feels weirdly obvious after seeing this 😅Really smart infrastructure layer. Curious how you’re handling number reputation and spam detection as usage scales?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is a really clean use case for agents. Giving them a real number in seconds feels like a missing piece. Congrats on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@galdayan The first thing I'd wire up isn't a signup, it's the agent telling me it's stuck. My biggest time sink this year is a long Codex run that quietly blocks on a question and sits there for half an hour while I assume it's working. A text when it needs a decision would recover more of my week than anything it's ever got wrong. The thing I'd want to know before building on it is what happens when a number goes bad, whether I get told or whether my agent just silently stops receiving codes and looks broken."
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-4",
       "date": "2026-08-28",
       "rank": 4,
@@ -11655,6 +11835,55 @@
       "makerTwitter": ""
     },
     {
+      "id": "ph-today-5",
+      "date": "2026-09-03",
+      "rank": 5,
+      "name": "Atlas by World Labs",
+      "slug": "atlas-by-world-labs",
+      "tagline": "Turn text, pics, video, + 3D into camera-controlled HD video",
+      "description": "Atlas is World Labs' omni world model. It takes text, images, video, and 3D, then generates camera-controlled 1440p video up to a minute, reconstructs scenes from a few photos, and simulates space-time for robotics. Early access.",
+      "category": "Developer Tools • Artificial Intelligence • 3D Modeling",
+      "categoryFa": "ابزار توسعه‌دهندگان • هوش مصنوعی • 3D Modeling",
+      "url": "https://www.producthunt.com/products/atlas-by-world-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/713fe256-46d2-4a3b-84b4-fcba4fe59d83.jpeg?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/4b1b3b9b-e52d-4d4b-b5c7-cf2246a9ab5b.jpeg?auto=format",
+        "https://ph-files.imgix.net/960e2800-433b-48b6-8037-eec83bcd025d.jpeg?auto=format",
+        "https://ph-files.imgix.net/7725417d-3556-4458-9c24-abfcd22210ed.jpeg?auto=format",
+        "https://ph-files.imgix.net/3e735347-eaab-432a-bfb3-9bdecdf2213f.jpeg?auto=format",
+        "https://ph-files.imgix.net/1818106f-8afb-4d08-b9c0-668bc0161e5a.jpeg?auto=format",
+        "https://ph-files.imgix.net/849a22b3-aac1-41bc-9a64-0aae82695dff.jpeg?auto=format",
+        "https://ph-files.imgix.net/cf5f071b-04df-46d3-b049-83848b1bf715.jpeg?auto=format"
+      ],
+      "maker": "",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 211,
+      "websiteUrl": "https://www.producthunt.com/r/7ZC3M4VAAJWXV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey PH community 👋Excited to hunt Atlas from World Labs today.I’ve been waiting for a world model that actually understands space, not just pretty video. Atlas is that: generate a scene, reconstruct a real room from a couple of photos, then move a camera through it with real geometry.The demo that got me: two people filmed a scene on a couple of phones, and Atlas turned it into a short film. It generates the parts nobody filmed, freezes time, and lets you reframe from angles that were never shot.https://x.com/davidpantera_/status/2094841083805266401Eric just used Atlas to generate this 3D reconstruction of his childhood home from only 3 images he grabbed from google street view.https://x.com/eerac/status/20951...Early access is open, and this is the model that’ll power Marble next.Go request access and tell the team what you’d build 🚀"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "looks cool - excited to try"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the \"reconstructs a scene from a few photos and fills in the parts nobody filmed\" part is impressive but also the part that worries me a bit for the robotics use case - if it's confidently generating plausible geometry for spaces it never actually saw, how do you know where the real reconstruction ends and the hallucinated fill-in begins when the output is meant to inform physical navigation?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Impressive results. I wonder what is the next step for your team?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love that Atlas treats text, images, video, and 3D as one unified world model instead of separate pipelines, and simulating space-time for robotics is a genuinely forward-looking touch."
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-6",
       "date": "2026-08-31",
       "rank": 6,
@@ -11772,6 +12001,42 @@
         ],
         "confidence": 80
       }
+    },
+    {
+      "id": "ph-yesterday-6",
+      "date": "2026-09-02",
+      "rank": 6,
+      "name": "OpenClaw 2.0",
+      "slug": "openclaw-2-0-2",
+      "tagline": "The AI that really does things",
+      "description": "OpenClaw 2.0 simplifies setup by detecting ChatGPT or Claude keys automatically and lets configuration happen through chats with the agent itself. It adds multiplayer team features for sharing sessions, refreshed browser tools for better tracking, and memory upgrades, all while running personal AI helpers locally on devices for tasks like browser control and file management.",
+      "category": "Messaging • Developer Tools • GitHub • Bots",
+      "categoryFa": "پیام‌رسان • ابزار توسعه‌دهندگان • گیت‌هاب • Bots",
+      "url": "https://www.producthunt.com/products/openclaw-formerly-clawdbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/6c5cfff9-4eed-4451-bf3b-70f252b50331.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/fc37dd6a-a0d5-4719-aec3-4222f5bfee90.jpeg?auto=format",
+        "https://ph-files.imgix.net/c6d01e36-a55e-49cf-8897-3773233d46f2.jpeg?auto=format"
+      ],
+      "maker": "Peter Steinberger",
+      "makerTitle": "PSPDFKit",
+      "featuredAt": "2026-09-02T07:01:00Z",
+      "votes": 208,
+      "websiteUrl": "https://www.producthunt.com/r/A64EJM6JPVF756?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "the multiplayer piece is what makes me pause a bit. if the agent runs locally and can touch files/browser on my machine, and now a teammate can join my session - do they just see the output, or can they see the actual file paths and browsing history it's operating on along the way? for solo use that's fine, but \"shared session\" + \"local machine access\" is a combo I'd want scoped pretty carefully before handing a teammate a live view into my desktop."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The team feature seems like the true hero hero here. No one has done that yet. Anyone know if there is a short version of the 55min video somewhere?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Auto-detecting my existing keys is the part I'd push back on. That key is usually already funding something else, and now a local agent that can run terminal commands is drawing on the same balance with no separate cap. Multiplayer makes it sharper, a teammate's shared session spends my quota and I find out at the end of the month. A per-session token budget in the config would cover most of it."
+        }
+      ]
     },
     {
       "id": "ph-today-2",
@@ -11937,6 +12202,71 @@
       }
     },
     {
+      "id": "ph-yesterday-7",
+      "date": "2026-09-02",
+      "rank": 7,
+      "name": "Parasocial",
+      "slug": "parasocial",
+      "tagline": "The podcast player for sharing.",
+      "description": "PARASOCIAL is a fast, native podcast player for people who really love podcasts. Get new episodes the moment they publish, automatically download and organize them with smart playlist rules, search huge libraries instantly, bookmark and tag favorites, and share your parasocial relationship with friends. Native on iPhone, iPad, Mac, and CarPlay, with seamless sync and no account required.",
+      "category": "Productivity • Entertainment • Lifestyle",
+      "categoryFa": "بهره‌وری • سرگرمی • Lifestyle",
+      "url": "https://www.producthunt.com/products/parasocial?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/d9da5c70-0941-4646-9a8c-227afc859313.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/ef35b35d-4272-45d4-a307-a8a77f9df55b.png?auto=format",
+        "https://ph-files.imgix.net/cdcf4628-5dea-47a8-b9d6-136dec71a783.png?auto=format",
+        "https://ph-files.imgix.net/e946c068-9dac-4572-979a-ed4bb1836d3d.png?auto=format",
+        "https://ph-files.imgix.net/6653f059-bdc2-41f8-bd99-35242f8c8281.png?auto=format",
+        "https://ph-files.imgix.net/959896b7-5a51-4029-b0ae-182c380b785a.png?auto=format",
+        "https://ph-files.imgix.net/ef652ab3-42a2-4609-81e3-6f57f827fc0b.png?auto=format",
+        "https://ph-files.imgix.net/58be31ae-f2e7-4f8c-911c-9433f54ec7b0.png?auto=format",
+        "https://ph-files.imgix.net/60fd0505-7ad4-4b30-b530-72a8aeb5158d.png?auto=format",
+        "https://ph-files.imgix.net/92861c51-7b59-4712-b717-568447577b00.png?auto=format",
+        "https://ph-files.imgix.net/044f2121-094a-4494-805b-df1b0d2a2926.png?auto=format",
+        "https://ph-files.imgix.net/6a3d5673-d7e3-4bd6-aa92-c3371febbbb1.gif?auto=format"
+      ],
+      "maker": "Paul Geller",
+      "makerTitle": "Appreciating the small pizzas in life.",
+      "featuredAt": "2026-09-02T07:01:00Z",
+      "votes": 203,
+      "websiteUrl": "https://www.producthunt.com/r/UICTBVAHU2IVUB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hello Product Hunt community 👋I'm Paul, the founder of Parasocial.I'm a podcast addict. I listen at night in bed, so I need a sleep timer that works. I dig through decades-old archives, so I need audio processing that rescues unmastered tape. I want comedy to stay with comedy and history to stay with history without ever sorting anything by hand. I want my episodes on my phone the second they are published, not after six hours of refreshing. I've paid for every other player, and none of them kept up with my needs.So I built Parasocial, because podcasts should be a joy to listen to. We fixed everything you hate about podcast players. We built a player that checks every box, and we won't stop there.Three things no other player does:⚡️ Speedy Network Notifications. Your favorite show drops at the same time every day, and your player still finds out hours later. Ours doesn't wait. Our server is told the moment a show publishes, so the episode is on your device, downloaded for offline listening. No more endless refreshing, no six-hour polling wall.🔖 Bookmarks and tags, not stars. Fifteen years of listening and I never once found the \"favorites\" or \"stars\" useful, so we killed them. Save the episodes you love with tags, then grab them and share them in seconds. Organize the shows you love.🏆 Parasocial: Share your parasocial relationship with friends, earn superlatives, and share clips or whole shows with deep links for Parasocial users and live weblinks for Paranons. Plus everything else you'd expect from a top-tier player:🚀 Fast - your library reads from a database on the device, not the network, so tens of thousands of episodes stay instant🔎 Better Search - one field searches your own library first and tens of thousands of published shows across every network✅ Organized - smart playlists built from rules, per-show priorities, and manual overrides that don't break the rule that built the list.🎧 Trim Gaps and Studio Sound - trim the gaps in the talking 20 times a second and put warmth back under the voice; two hours of talk hands back fifteen minutes without any audio degradation.🚗 Everywhere - CarPlay built in, a web player for sharing with the Paranons, native on iPhone, iPad and Mac!💥 Yours - everything syncs across every device with no email, no password, no profile. No ads. Never will be. And when I say never, I mean never. 👀 How it works:Install Parasocial and import your OPML or Advanced OPLM for playlists, priorities, played state, and progress. We're pretty proud of the import. It's the most advanced around. Move from any podcast player that lets you export.Search the directory or paste an RSS feed. Quickly find what you're looking for, whether it's in your library or out there in the ether.Build a smart playlist (or a dumb one).Bookmark, tag and share with friends.Check back after your first week of listening for a \"wrapped\" style superlative.What we have in-store:⌚️ Apple Watch app that works when you leave your phone at home🗣 On-device transcripts for shows that don't publish their own🎧 A personal audio locker for the files that aren't podcasts🪩 More Disco (yes please): the colorway that lights every control in the Super Simple spectrum📺 Category browsing and recommendations that learn from your habitsAnd so much more!Parasocial is free to download on iPhone, iPad and Mac. Two weeks free, then $2.99/month or $14.99/year. No account necessary, no invasive tracking, and in my opinion, the best podcast player ever made.😻 Please do share any feedback and comments, and of course feel free to share Parasocial with anyone who has given up on their podcast app! We're still building every single day, like it's a full-time job.Happy listening,Paul"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Will parasocial have a separate list of podcast or I can find my Spotify podcast in this platform as well?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The clips I want to share are always the 40 seconds in the middle of a 90 minute episode. Does sharing give me that as an audio file or a link?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I love podcasts. I used to work at a podcast app (Podyssey.fm, RIP). After it shut down I ended up on Spotify by default, and honestly Spotify's podcast experience is so bad it made me stop listening to podcasts. New episodes just wouldn't show up in my feed. I'd find out a week later that a show I follow had dropped three episodes. Eventually I gave up, which is kind of embarrassing for someone who used to do this for a living.Parasocial's whole pitch is \"episodes show up the second they publish,\" which only makes logical sense!That's literally the thing I quit podcasts over - ha!Downloaded this. Everything sense to me in a way current podcast apps don't. Smart playlists, tags instead of stars, no account, works on my Mac. Feels like it was built by someone who actually listens to podcasts!Excited to get back into listening. Congrats on the launch, @paulgeller !!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The \"get new episodes the moment they publish\" line is the part I'd want to understand — are you polling feeds aggressively, or listening on podping/WebSub? I spend most of my time on the publishing side, and the lag between a feed updating and apps actually showing the episode is the thing creators complain about most, so if you've genuinely closed that I'd love to know how. Also curious how sync works with no account required — iCloud, or something else?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I'm curious about smart playlists. How flexible are the rules if your podcast library is quite messy?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The bookmarking and tagging system is a really nice addition. I can see now that it will be quite useful for saving specific moments from long episodes."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This sound so cool, Paul! It feels like its built from the POV of someone who understand podcast listeners. Excited to see how the Apple Watch app and transcript evolve. Congratulations and I wish you all the best!"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-3",
       "date": "2026-08-29",
       "rank": 3,
@@ -12032,64 +12362,6 @@
         "confidence": 80
       },
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nپردازشگر هوشمند یک مدل کارآمد و هوشمند برای کد نویسی و جریان‌های کاری एजنت است که بر اساس نیازهای بازار ایران توسعه یافته است. این مدل قادر به xửلی وظایف مهندسی نرم‌افزار پیچیده، برنامه‌ریزی چند مرحله‌ای و एजنت‌های خودمختار است، در حالی که سرعت و کارایی را حفظ می‌کند.\n🔹 معماری و تکنولوژی احتمالی:\nپردازشگر هوشمند می‌تواند بر اساس معماری‌های مختلف مانند میکروسرویس‌ها و مونولیت‌ها توسعه یابد. از تکنولوژی‌های مختلف مانند Python و TensorFlow می‌توان برای توسعه مدل استفاده کرد.\n🔹 مدل درآمدی:\nپردازشگر هوشمند می‌تواند از طریق فروش مدل به شرکت‌های فناوری و ارائه خدمات مشاوره برای توسعه مدل درآمدزایی کند.\n🔹 نقاط قوت:\n- پردازشگر هوشمند قادر به xửلی وظایف مهندسی نرم‌افزار پیچیده است\n- پردازشگر هوشمند دارای سرعت و کارایی بالاست\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با مدل‌های موجود\n- نیاز به آموزش و توسعه تیم\n🔹 نکته طلایی برای بازار ایران:\nپردازشگر هوشمند می‌تواند به توسعه دهندگان نرم‌افزار و شرکت‌های فناوری در ایران کمک کند تا محصولات مبتنی بر هوش مصنوعی و جریان‌های کاری خودکار را توسعه دهند."
-    },
-    {
-      "id": "ph-today-4",
-      "date": "2026-09-02",
-      "rank": 4,
-      "name": "CleanShot 5.0 with Studio Mode",
-      "slug": "cleanshot-5-0-with-studio-mode",
-      "tagline": "Mac-native app for screenshots, recordings and collaboration",
-      "description": "CleanShot is the definitive Mac-native toolkit for screenshots, recordings and collaboration. The new Studio Mode is all you need to turn a simple screen recording into a polished, professional video — with the quality you expect from CleanShot. Available now on all plans. No subscription required.",
-      "category": "Mac • Design Tools • Video",
-      "categoryFa": "مک • ابزار طراحی • ویدیو",
-      "url": "https://www.producthunt.com/products/cleanshot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/42c2eae0-7833-47f7-9fb3-37f96d99e166.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/0f6307f5-7424-4ae4-b19b-39096638da7e.png?auto=format",
-        "https://ph-files.imgix.net/e36afcb6-ddc8-4687-9fbb-8c5cef8f7fe8.png?auto=format",
-        "https://ph-files.imgix.net/6206e060-a97d-4d76-8d56-3bbd06562fbe.png?auto=format",
-        "https://ph-files.imgix.net/b2776f7c-21bc-4e87-851e-0a58a4480a10.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-09-02T07:01:00Z",
-      "votes": 199,
-      "websiteUrl": "https://www.producthunt.com/r/XTWBJN3JRPBAQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey Product Hunt! 🚀I'm the co-founder of CleanShot, and I'm super excited to finally launch CleanShot 5.0 with Studio Mode and the new Video Editor!Our mission with this was very simple: make the editor as powerful as possible while keeping it minimalistic and beautifully designed.And the best part? It's still a fully native Mac app with great UX and performance.The Studio Mode is available on all CleanShot plans. No subscription required.We're just getting started, and we have a lot of new stuff planned for the Video Editor, but I'm excited to hear your feedback! 🙌"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I dont quite get the upgrade from the build in Mac OS functionality to take screenshots, record video. not trolling can you give me 2 sentences of what this enables me to do ? I see editing but thats bout it, no? downloading a copy know but wish the value was more clear. thank you"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "But native screenshot app in mac does the same, what are you doing differently?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Most of my screen recordings end up on a landing page, where file size decides if the page still loads fast. What does Studio Mode export at?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "What a cool product, congrats team for your launch!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "my favorite screenshot app just got better. :)"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Can it do these kinds of 3d pano animations of screen recordings. The ones that look really interesting for Hero sections on websites etc?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Been using it on all my mac for last few years ❤️"
-        }
-      ]
     },
     {
       "id": "ph-today-3",
@@ -14119,6 +14391,66 @@
       "aiReview": "تحلیل جامع و حرفه‌ای:\n🔹 مسئله و راه‌حل:\nBearDrive یک راه‌حل برای اشتراک فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی است. این محصول به شما امکان می‌دهد تا از فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی خود به صورت خودکار استفاده کنید و از تکرار کار جلوگیری کنید.\n🔹 معماری و تکنولوژی احتمالی:\nBearDrive می‌تواند با استفاده از تکنولوژی‌های مانند Next.js و PostgreSQL توسعه یابد.\n🔹 مدل درآمدی:\nBearDrive می‌تواند به عنوان یک نرم‌افزار به مشتریان فروخته شود و همچنین خدمات پشتیبانی و آموزش ارائه دهد.\n🔹 نقاط قوت:\n- امکان اشتراک فایل‌های ایجاد شده توسط عامل‌های هوش مصنوعی\n- جلوگیری از تکرار کار\n🔹 نقاط ضعف و ریسک‌ها:\n- رقابت با برندهای خارجی\n- نیاز به آموزش و آگاهی‌رسانی به مشتریان\n🔹 نکته طلایی برای بازار ایران:\nبازار ایران یک بازار بزرگ و در حال رشد برای محصولات مرتبط با هوش مصنوعی است. با استفاده از BearDrive، می‌توانید به عنوان یک برند ایرانی، نیازهای تیم‌های ایرانی را برآورده کنید."
     },
     {
+      "id": "ph-today-6",
+      "date": "2026-09-03",
+      "rank": 6,
+      "name": "Tabbit AI ",
+      "slug": "tabbit-ai",
+      "tagline": "The best AI browser built both for you and your Agents.",
+      "description": "Tabbit is the AI browser that knows what you’re working on and can get the work done for you. Give it the pages, screenshots, and local files that matter, and Tabbit Agent can work across the web now or on a schedule. It delivers usable HTML, PDFs, and presentations, then saves the workflow as a Skill you can run again.",
+      "category": "Productivity • Artificial Intelligence • Tech",
+      "categoryFa": "بهره‌وری • هوش مصنوعی • Tech",
+      "url": "https://www.producthunt.com/products/tabbitai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/caad6cc4-a93d-4aed-bed2-5c6580ee20f2.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/6f25a6ab-1634-4e0e-8459-7b0508c88ea3.png?auto=format",
+        "https://ph-files.imgix.net/1648ba57-3861-4baa-9ac5-98a76d47b419.png?auto=format",
+        "https://ph-files.imgix.net/02d2e397-1d53-4931-bb9f-448518d790fc.png?auto=format",
+        "https://ph-files.imgix.net/b2a6e957-610e-4516-bebd-24d24d96c801.png?auto=format",
+        "https://ph-files.imgix.net/8b31dadf-2626-41dd-a7eb-b099d47023a6.png?auto=format",
+        "https://ph-files.imgix.net/beb14f9b-9ddb-4da2-82bd-91395904b200.png?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 147,
+      "websiteUrl": "https://www.producthunt.com/r/KCA4XB6BI4IKXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Product Hunt! 👋I'm Oliver, from the Tabbit team.Quick backstory:I spend most of my day in a browser. Whenever I'm deep in a project, everything I need is scattered across open tabs, local files, and screenshots I don't want to lose.Then I'd open an AI tool and start copying everything over just so it knew what I was talking about. Once it gave me an answer, the clicking, checking, formatting, and exporting were still on me. There had to be a better way.What makes Tabbit different:Tabbit doesn't treat AI as a chat box bolted onto a browser. Point it at the pages, tabs, screenshots, selected text, and local files that matter, then give it a job to do.Its GUI Agent can operate websites, run a task now or on a schedule, and create an HTML page, a PDF, or a deck you can use right away.If you find a workflow worth keeping, save it as a Skill. Run it again, tweak it, or share it. We built Tabbit for people who build and research on the web—especially PMs, developers, and technical teams.What we'd love your feedback on: What's the first tedious browser task you'd happily never do by hand again?Thanks for taking a look. I'll be here in the comments and would love to hear what you think."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hi Oliver. You asked what tedious browser task people would happily never do by hand again. What's the answer you've heard most so far, and did it match what you built Tabbit for in the first place?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the \"works with your existing login sessions\" part is the killer feature and also the scary part at the same time. if the agent runs across the web with my real authenticated sessions, how tightly scoped is it to the pages/domains I actually pointed it at versus being able to wander off into other tabs I'm logged into, like email or banking, while it's doing its own thing"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "whats in the 36% that fails? u published 64% over 75 runs on browserbench which most launches would just quietly skip"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@olliez1 can you make the smart tab group feature auto (like it automatically groups tabs in real time) also will you guys recude the ram usage and improve browsing speed/performance?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I just throw my tabs and screenshots at it and it gives me a deck back. No more copying everything into ChatGPT one by one. That alone saves me hours.Awesome launch, folks! 👏"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "@olliez1 @liaocaoxuezhe Downloaded Tabbit to give it a try! Congrats on the launch - really cool one!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey Product Hunt! I’m Yu, the AI Product Manager at Tabbit.Over the past year, I’ve focused on refining the browser experience and building our browser-use agent technology.What I’m most proud of is the fast, token-efficient browser agent system we’ve built. Across 75 runs using tasks from the BrowserBench benchmark, Tabbit achieved a 64% success rate. Compared with Agent Browser, it was approximately 1.9× faster while using 61% fewer input tokens.Once Tabbit is installed, you can simply type `/tabbit` in agents like codex or claudecode to let it control the browser and work with your existing login sessions. It runs without taking over your browser, so you can continue using it while the agent works in parallel.Tabbit is a browser that works beautifully for you—and smoothly for your agents.I’d be happy to answer any technical questions about browser agents, Tabbit CLI, or how we built it! 🛠️"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-7",
       "date": "2026-08-28",
       "rank": 7,
@@ -14769,6 +15101,42 @@
         ],
         "confidence": 80
       }
+    },
+    {
+      "id": "ph-today-7",
+      "date": "2026-09-03",
+      "rank": 7,
+      "name": "Higgsfield Genjutsu",
+      "slug": "higgsfield-genjutsu",
+      "tagline": "Recast motion with your characters, locations & products",
+      "description": "Higgsfield Genjutsu is an AI video-to-video tool for creators, influencers, and marketers who want to transform existing footage without a full reshoot. Its Motion Transfer and Object Swap features let you change characters, objects, outfits, locations, or styles while preserving the original motion, timing, and shot structure, making content variations faster and more flexible.",
+      "category": "Artificial Intelligence • Video Art • Video",
+      "categoryFa": "هوش مصنوعی • Video Art • ویدیو",
+      "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/bc2f3698-fbfd-4763-bd59-992b9b529f44.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/30b6ba3e-a7f9-4806-805d-6a8b60c21ac5.png?auto=format",
+        "https://ph-files.imgix.net/363fb745-7c8d-49b3-8713-acd0e60d5c3c.png?auto=format",
+        "https://ph-files.imgix.net/80ec293c-e4ba-4d97-a28b-c01934c1baab.png?auto=format",
+        "https://ph-files.imgix.net/6355895c-4491-4783-8ad5-a0f084d6239a.png?auto=format",
+        "https://ph-files.imgix.net/cb582322-5cf7-4913-bf59-961491413412.png?auto=format",
+        "https://ph-files.imgix.net/f8475486-b73a-4feb-8867-737fdaf2722a.jpeg?auto=format"
+      ],
+      "maker": "",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 137,
+      "websiteUrl": "https://www.producthunt.com/r/GEZTQXOJSXCL6N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Genjutsu is Higgsfield's reality manipulation tool for video. It transforms an existing clip in one of two ways:Motion Transfer keeps the motion, camera, and timing, then rebuilds the entire scene (cast, location, look) around it using your references.Object Swap does the opposite, it changes only what you point at (an outfit, product, location, or character) while the rest of the shot stays exactly as filmed.Key features:Motion Transfer: same motion, camera, timing, entirely new sceneObject Swap: point-edit outfit, location, character, or object, rest untouchedUp to 40 reference images per generationSupports 3-30s source videosNo editing experience needed, just upload and describe the changeWho it's for: marketers, creators, editors, agencies. anyone who needs more out of one shoot.Use cases: ad videos, product variants, AI influencer content, localized campaigns, quick detail fixes.Try it at Higgsfield GenjutsuP.S. I hunt the latest and greatest launches in tech, SaaS and AI, follow to be notified → @rohanrecommends"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "These manipulations looks so cool and real, how safe will the privacy wall will be is there are watermark or slight face alter feature that will differentiate the original and generated clips?"
+        }
+      ]
     },
     {
       "id": "ph-today-8",
@@ -16307,6 +16675,57 @@
       }
     },
     {
+      "id": "ph-today-8",
+      "date": "2026-09-03",
+      "rank": 8,
+      "name": "Tidy",
+      "slug": "tidy-8",
+      "tagline": "Fix grammar in any Mac app with free on-device AI",
+      "description": "Fix spelling and grammar anywhere on your Mac. Select text, press the shortcut, and the corrected version replaces it where it sits. A second shortcut strips the AI slop out of anything that reads like a machine wrote it. @Mentions, dates and times are untouched. It runs on the model built into macOS. Nothing you select is uploaded. Needs macOS 26 with Apple Intelligence.",
+      "category": "Mac • Writing • Artificial Intelligence",
+      "categoryFa": "مک • نوشتن • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/tidy-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/891f6b20-444b-466b-bc2a-5cb7273d0ce0.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/d2be9b01-4819-4717-86d6-05161374a0a8.png?auto=format",
+        "https://ph-files.imgix.net/2bee5c33-0ab5-4b28-acbc-5c4d1b759b27.gif?auto=format",
+        "https://ph-files.imgix.net/fe855573-9018-4c35-a070-d94e9566e54d.gif?auto=format",
+        "https://ph-files.imgix.net/5f8bc5bf-ca9e-4a80-a4c6-3f274eb80a18.png?auto=format",
+        "https://ph-files.imgix.net/7ccd66bb-0df8-4c1a-bb2a-8d4fdfe1a0ac.png?auto=format"
+      ],
+      "maker": "Eric Greene",
+      "makerTitle": "Product. Design. Engineering.",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 121,
+      "websiteUrl": "https://www.producthunt.com/r/GU4VL44VXET6LD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "I built this for myself. I was editing about two thirds of the Slack messages I sent, always for the same reason: accidental caps on, words mispelled like operator, restaurant or recommendations. macOS checks spelling well in some apps and badly in others. In Slack it barely works at all, and Gmail, Docs and Notes are all inconsistent.Tidy is one shortcut that behaves the same everywhere. Select text, press ⌃⌥⌘T, and the corrected version fixes everything in one go, in place.The second shortcut came later. I was collaborating on documents where whole paragraphs had obviously been AI generated. Selecting the guilty paragraph and pressing ⌃⌥⌘S rewrites it, ruthlessly 'de-slopping' back to it's core truth. The app runs on the Apple Intelligence local model built into macOS. You might have to turn it on if you haven't already (nobody has by the way). Nothing you select leaves your machine, no API keys, its free fast and local. It needs macOS 26 with Apple Intelligence. Happy to answer anything."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the de-slop shortcut is the part I want most. genuinely curious how it decides what counts as \"reads like a machine wrote it\" versus just formal writing - I say things like \"furthermore\" and \"in order to\" naturally, not because an LLM wrote it. does it lean more on specific tells (em dashes, \"delve\", listy rhythm) or overall tone?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love the local model angle. Does it have any sense of your style / way of writing, or is it mainly grammar focused?Also, have you tested at all with the new Foundation models coming to iOS 27?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Very good idea! When do you plan to support multiple languages? I use Brazilian Portuguese on Apple Intelligence and had to switch to US English in order to proceed with the setup. Will be following your progress ;)"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Yeah! It's for me Eric as well. Even more cause I'm not native english speaker so I truly know what this solves. Love to see you here and wish you all the best!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Half my day is copy in apps where macOS spellcheck gives up. Does it leave odd product-name caps alone, or fix those too?"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-9",
       "date": "2026-08-10",
       "rank": 9,
@@ -16890,6 +17309,47 @@
       }
     },
     {
+      "id": "ph-today-9",
+      "date": "2026-09-03",
+      "rank": 9,
+      "name": "Thaw",
+      "slug": "thaw-3",
+      "tagline": "The only app that owns your whole menu bar, in and out",
+      "description": "Take back your menu bar. Hide what you don't need, find anything in a keystroke, and make the bar look the way you want. Free and open source. Private by design: no tracking, no account, nothing ever leaves your Mac.",
+      "category": "Mac • Open Source • GitHub • Menu Bar Apps",
+      "categoryFa": "مک • متن‌باز • گیت‌هاب • Menu Bar Apps",
+      "url": "https://www.producthunt.com/products/thaw-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/83fd100a-c684-43d0-a36e-f692740919bb.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/aa5f1329-513d-4843-adc1-4ca35530e9c3.png?auto=format",
+        "https://ph-files.imgix.net/82c3b7d2-10a1-439d-b667-5f9312f8d9c0.webp?auto=format",
+        "https://ph-files.imgix.net/d0b10022-03b1-46d7-a912-e78848557dc9.webp?auto=format",
+        "https://ph-files.imgix.net/60b906ac-6afc-406b-b65d-a891add8d510.webp?auto=format",
+        "https://ph-files.imgix.net/88edcaa7-5008-428d-809f-20ffe5d9b61e.webp?auto=format",
+        "https://ph-files.imgix.net/8386d976-a180-4fd3-b069-ffa39dd15524.webp?auto=format",
+        "https://ph-files.imgix.net/44f405ba-e7d0-4a45-9c30-f0df2bffced9.webp?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 112,
+      "websiteUrl": "https://www.producthunt.com/r/WWDBCIUXA3KTQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "I was a long time @Bartender 5 user, but left after the acquisition. I tried several open source alternatives, including @Ice (which is what Thaw forked) but couldn't get it to work. Hoping Thaw is the Bartender successor I've been seeking!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "switched off Bartender a while back after the whole acquisition mess, so an open source alternative that's private by design is exactly the kind of thing I want to trust. rearranging other apps' menu bar icons usually needs Accessibility permission though - curious how you square that with the \"nothing ever leaves your Mac\" claim, since that permission technically lets an app see a lot more than just icon positions"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Been using Bell for a while, and has a focus steal bug that drives me crazy. Unfortunately i can't get it to work on Golden Gate - hope you add support soon!"
+        }
+      ]
+    },
+    {
       "id": "ph-yesterday-10",
       "date": "2026-08-24",
       "rank": 10,
@@ -17372,6 +17832,58 @@
         }
       ],
       "makerTwitter": ""
+    },
+    {
+      "id": "ph-today-10",
+      "date": "2026-09-03",
+      "rank": 10,
+      "name": "Readr",
+      "slug": "readr-3",
+      "tagline": "A free reader that answers your questions and reads aloud",
+      "description": "Readr is an ebook reader you can talk to. You're reading Project Hail Mary and wonder: could Astrophage exist? Select the line and ask. The answer appears in the margin, drawn from the whole book, and says when it's pulling from real science instead. Lost the thread? Ask for a recap of what you've read so far, no spoilers. Press Listen and a natural voice reads from your page, on your device, no cap. Opens the EPUBs and PDFs you own. No account, no server. Free, open source. iPhone, iPad, Mac.",
+      "category": "Open Source • Artificial Intelligence • GitHub • Books",
+      "categoryFa": "متن‌باز • هوش مصنوعی • گیت‌هاب • کتاب",
+      "url": "https://www.producthunt.com/products/readr-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/1905d2aa-af7d-4b6f-9d59-98784c5d4ec8.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/8bb59479-af54-4fbc-8675-42dd66d523fb.png?auto=format",
+        "https://ph-files.imgix.net/9bd56f72-5205-40be-adce-c2c7804d08d3.png?auto=format",
+        "https://ph-files.imgix.net/ecc5b538-58cc-4af9-848b-cdc517336db5.png?auto=format",
+        "https://ph-files.imgix.net/1e0e2e54-05fe-41a2-a6ce-0cea783b39e1.png?auto=format",
+        "https://ph-files.imgix.net/dfe68354-1d19-4d06-b42f-9652b07ebaaf.png?auto=format",
+        "https://ph-files.imgix.net/f1e52d46-80ba-4977-9587-1b3be4b8262a.png?auto=format"
+      ],
+      "maker": "anusree",
+      "makerTitle": "",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 105,
+      "websiteUrl": "https://www.producthunt.com/r/25BJNDJATSKMUS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hi everyone, I'm Anusree. I built Readr. It came out of a habit I couldn't shake. I'd be reading, hit a paragraph I didn't quite follow, copy it, paste it into a chat window, type \"in the book I'm reading, what does this mean,\" read the answer, then go back and hunt for my place. Every good reading session turned into tab management. Readr puts the question where the book is. Open an EPUB, PDF or Markdown file you own, select a passage, ask. The answer arrives next to the passage, drawn from the whole book, with the source passages cited when it pulls them in. If you ask something the book doesn't cover, like what's changed in the field since it was written, it answers and tells you plainly which part came from outside the book. What it won't do is make up what the book says. Press Listen and it reads to you from the page you're on, turning pages as it goes. The narrator is a neural voice (Kokoro, Apache-2.0) that runs on your device after a one-time 104 MB download. It starts speaking immediately with a system voice and switches over at the next sentence once the model is ready. Nothing about your book is sent anywhere to be read back to you. Readr Voice is for English books; other languages use Apple's voices. Highlights and notes gather into an editable draft you can export as Markdown. There's no account and no Readr server. For the AI, you use your own key from Anthropic, OpenAI or OpenRouter, or sign in with OpenRouter, and on a Mac you can point it at Ollama and stay offline. Keys live in the Keychain. Without a key it's still a complete reader, with narration included. It's free and MIT-licensed. The Mac download is signed and notarized. iPhone and iPad are on the App Store: https://apps.apple.com/app/id678... One caveat: DRM-free files only. It won't open Kindle purchases. If you've got a book you keep meaning to finish, I'd love to hear whether this helps."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "congrats on the launch. love that it cites the source passage instead of just making a confident answer up. curious how it keeps cost down on a full novel though - is it actually stuffing the whole book into context per question or does it chunk/retrieve just the relevant parts first? with your own API key that could get pricey on a long book otherwise"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the DRM free caveat right there in the launch post instead of buried later. noticed that"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "this is awesome!! the best ones come out of hobby... unfortunately I am an Android user.. will try out on Mac! great work on the launch! wish you the best @anusree_j"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch @anusree_j ! A great addition will be a browser extension (like most of the TTS readers out there) with these added functionalities."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Is there any way we can upload our own book and it will be read?"
+        }
+      ]
     },
     {
       "id": "ph-today-10",
@@ -18409,12 +18921,12 @@
     }
   ],
   "audit": {
-    "products": 244,
-    "withRealComments": 244,
+    "products": 254,
+    "withRealComments": 254,
     "withPersianComments": 97,
     "withPersianDescription": 134,
     "withAiReview": 117,
     "withIranEquivalent": 134,
-    "totalRealComments": 1499
+    "totalRealComments": 1556
   }
 }
