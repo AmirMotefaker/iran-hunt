@@ -3,12 +3,14 @@ import path from 'node:path';
 import { assertValidPeriods } from '@/lib/scrape-validation';
 import { TOP_COUNT } from '@/lib/scraper';
 import { isDailyDataFilename, saveDaily } from '@/lib/storage';
-import { dateInTehran, startOfProductHuntDayUtc } from '@/lib/tehran-date';
+import { dateInProductHunt, dateInTehran, startOfProductHuntDayUtc } from '@/lib/tehran-date';
 import type { DailyData, PeriodKey, PeriodsData, Product } from '@/types';
 
 const now = new Date();
 const DATA_DIR = path.join(process.cwd(), 'data');
 const PERIOD_KEYS: PeriodKey[] = ['today', 'yesterday', 'week', 'month', 'year'];
+const productHuntToday = dateInProductHunt(now);
+const productHuntYesterday = dateInProductHunt(new Date(startOfProductHuntDayUtc(now, 0).getTime() - 1));
 
 async function loadPersistedProductEvidence(): Promise<Product[]> {
   const files = (await readdir(DATA_DIR)).filter(isDailyDataFilename).sort();
@@ -33,38 +35,25 @@ function evidenceScore(product: Product): number {
     + (product.screenshots?.length ?? 0);
 }
 
+function belongsToPeriod(product: Product, key: PeriodKey): boolean {
+  if (!product.featuredAt || (product.votes ?? 0) <= 0) return false;
+  const featuredAt = new Date(product.featuredAt);
+  if (Number.isNaN(featuredAt.getTime())) return false;
+
+  if (key === 'today') return product.date === productHuntToday;
+  if (key === 'yesterday') return product.date === productHuntYesterday;
+
+  const age = now.getTime() - featuredAt.getTime();
+  if (age < 0) return false;
+  if (key === 'week') return age <= 7 * 86_400_000;
+  if (key === 'month') return age <= 30 * 86_400_000;
+  return age <= 365 * 86_400_000;
+}
+
 function selectPeriod(products: Product[], key: PeriodKey): Product[] {
-  let after: Date;
-  let before: Date;
-
-  switch (key) {
-    case 'today':
-      after = startOfProductHuntDayUtc(now, 0);
-      before = now;
-      break;
-    case 'yesterday':
-      after = startOfProductHuntDayUtc(now, 1);
-      before = startOfProductHuntDayUtc(now, 0);
-      break;
-    case 'week':
-      after = new Date(now.getTime() - 7 * 86_400_000);
-      before = now;
-      break;
-    case 'month':
-      after = new Date(now.getTime() - 30 * 86_400_000);
-      before = now;
-      break;
-    case 'year':
-      after = new Date(now.getTime() - 365 * 86_400_000);
-      before = now;
-      break;
-  }
-
   const unique = new Map<string, Product>();
   for (const product of products) {
-    if (!product.slug || !product.featuredAt || (product.votes ?? 0) <= 0) continue;
-    const featuredAt = new Date(product.featuredAt);
-    if (Number.isNaN(featuredAt.getTime()) || featuredAt < after || featuredAt >= before) continue;
+    if (!product.slug || !belongsToPeriod(product, key)) continue;
     const existing = unique.get(product.slug);
     if (
       !existing
@@ -91,6 +80,7 @@ const periods = {
 } satisfies PeriodsData;
 
 console.log(`♻️  Rebuilding daily snapshot from ${evidence.length} persisted Product Hunt observations`);
+console.log(`   Product Hunt today: ${productHuntToday}`);
 for (const [key, products] of Object.entries(periods)) {
   console.log(`   ${key}: ${products.length} trusted products`);
 }
