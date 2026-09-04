@@ -54,5 +54,8 @@ jobs:
           git config user.name "IdehJo P66 Bot"
           git config user.email "bot@idehjo.ir"
           git add data
-          git diff --cached --quiet || git commit -m "data: P66 product completion backfill"
+          if ! git diff --cached --quiet; then
+            git commit -m "data: P66 product completion backfill"
+            git pull --rebase origin feat/p66-final-product-readiness
+          fi
           git push origin HEAD:feat/p66-final-product-readiness
