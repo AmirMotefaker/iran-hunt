@@ -2,6 +2,11 @@ name: P66 Product Completion Backfill
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feat/p66-final-product-readiness
+    paths:
+      - '.p66-backfill-trigger'
 
 permissions:
   contents: write
