@@ -7,6 +7,20 @@ export interface AIAnalysis {
   aiReview: string;
 }
 
+export interface AnalysisNeed {
+  faDescription: boolean;
+  faComments: boolean;
+  iranEquivalent: boolean;
+  aiReview: boolean;
+}
+
+const ALL_FIELDS: AnalysisNeed = {
+  faDescription: true,
+  faComments: true,
+  iranEquivalent: true,
+  aiReview: true,
+};
+
 function normalizeDigits(text: string): string {
   return text
     .replace(/[۰-۹]/g, (d) => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)))
@@ -37,110 +51,53 @@ async function fetchWithTimeout(
 ): Promise<Response> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
-
   try {
-    return await fetch(input, {
-      ...init,
-      signal: controller.signal,
-    });
+    return await fetch(input, { ...init, signal: controller.signal });
   } finally {
     clearTimeout(timer);
   }
 }
 
-export function buildPrompt(p: Product): string {
-  const originals = (p.comments ?? []).slice(0, 8);
+export function buildPrompt(p: Product, need: AnalysisNeed = ALL_FIELDS): string {
+  const originals = need.faComments ? (p.comments ?? []).slice(0, 8) : [];
   const commentsEn = originals.map((c, i) => `${i + 1}) ${c.text}`).join('\n');
-  return `تو یک مترجم حرفه‌ای فارسی و تحلیل‌گر ارشد استارتاپ هستی.
+  const requested: string[] = [];
 
-محصول: ${p.name}
-تگلاین: ${p.tagline}
-توضیحات: ${(p.description ?? '').slice(0, 800)}
+  if (need.faDescription) requested.push('"faDescription": "ترجمه کامل توضیحات به فارسی روان، حداقل ۴ جمله"');
+  if (need.faComments) requested.push('"faComments": ["ترجمه نظر ۱", "... دقیقاً به تعداد نظرات ورودی"]');
+  if (need.iranEquivalent) requested.push('"iranEquivalent": {"productName":"...","description":"۳ جمله","marketOpportunity":"۲ جمله","estimatedBudget":"۲ تا ۴ میلیارد تومان","targetAudience":"...","challenges":["...","..."],"monetization":["...","..."],"techStack":["Next.js","PostgreSQL"],"confidence":75}');
+  if (need.aiReview) requested.push('"aiReview": "تحلیل فارسی ساختاریافته شامل مسئله و راه‌حل، معماری و تکنولوژی، مدل درآمدی، نقاط قوت، نقاط ضعف و نکته طلایی برای ایران"');
 
-نظرات واقعی کاربران (فقط متن):
-${commentsEn || '—'}
-
-قوانین: خروجی فقط JSON معتبر؛ متن‌ها فارسی روان؛ کلمات چینی/روس/ویتنامی ممنوع؛ [REDACTED] ممنوع؛ faComments آرایه رشته‌ها به همان ترتیب و دقیقاً به همان تعداد نظرات ورودی؛ estimatedBudget متن فارسی مثل «۲ تا ۴ میلیارد تومان».
-
-خروجی:
-{
-  "faDescription": "ترجمه کامل توضیحات (حداقل ۴ جمله)",
-  "faComments": ["ترجمه نظر ۱", "..."],
-  "iranEquivalent": {
-    "productName": "...", "description": "(۳ جمله)", "marketOpportunity": "(۲ جمله)",
-    "estimatedBudget": "۲ تا ۴ میلیارد تومان", "targetAudience": "...",
-    "challenges": ["...", "..."], "monetization": ["...", "..."],
-    "techStack": ["Next.js", "PostgreSQL"], "confidence": 75
-  },
-  "aiReview": "تحلیل جامع با ساختار:\\n🔹 مسئله و راه‌حل:\\n...\\n🔹 معماری و تکنولوژی:\\n...\\n🔹 مدل درآمدی:\\n...\\n🔹 نقاط قوت:\\n- ...\\n🔹 نقاط ضعف:\\n- ...\\n🔹 نکته طلایی برای ایران:\\n..."
-}`;
+  return `تو یک مترجم حرفه‌ای فارسی و تحلیل‌گر ارشد استارتاپ هستی.\n\nمحصول: ${p.name}\nتگلاین: ${p.tagline}\nتوضیحات: ${(p.description ?? '').slice(0, 650)}${need.faComments ? `\n\nنظرات واقعی کاربران:\n${commentsEn || '—'}` : ''}\n\nفقط فیلدهای زیر را تولید کن و هیچ فیلد اضافه‌ای نساز. خروجی فقط JSON معتبر باشد. متن فارسی روان باشد؛ [REDACTED]، undefined، null، TODO/TBD و متن غیرمرتبط ممنوع است. ${need.faComments ? 'faComments باید دقیقاً به همان ترتیب و همان تعداد نظرات ورودی باشد.' : ''}\n\n{\n  ${requested.join(',\n  ')}\n}`;
 }
 
 async function callGemini(key: string, prompt: string): Promise<string> {
-  const models = ['gemini-3.6-flash'];
-  const errors: string[] = [];
-
-  for (const model of models) {
-    try {
-      const res = await fetchWithTimeout(
-        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: prompt }] }],
-          }),
-        },
-      );
-
-      const body = await res.text();
-
-      if (res.ok) {
-        const json = JSON.parse(body);
-        const text = json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
-
-        if (text) {
-          console.log(`   ✨ model: ${model}`);
-          return text;
-        }
-
-        errors.push(`Gemini ${model}: empty response`);
-        continue;
-      }
-
-      const error = `Gemini ${model}: HTTP ${res.status}${
-        body ? ` | ${body.slice(0, 500)}` : ''
-      }`;
-
-      errors.push(error);
-      console.warn(`   ⚠️  ${error}`);
-    } catch (e) {
-      const error = `Gemini ${model}: ${
-        e instanceof Error ? e.message : String(e)
-      }`;
-
-      errors.push(error);
-      console.warn(`   ⚠️  ${error}`);
-    }
-  }
-
-  throw new Error(errors.join(' || ') || 'Gemini failed');
+  const model = 'gemini-3.6-flash';
+  const res = await fetchWithTimeout(
+    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+    },
+  );
+  const body = await res.text();
+  if (!res.ok) throw new Error(`Gemini ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
+  const json = JSON.parse(body);
+  const text = json.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+  if (!text) throw new Error(`Gemini ${model}: empty response`);
+  console.log(`   ✨ model: ${model}`);
+  return text;
 }
 
 async function getGroqModels(key: string): Promise<string[]> {
   const res = await fetchWithTimeout('https://api.groq.com/openai/v1/models', {
     headers: { Authorization: `Bearer ${key}` },
   });
-
   const body = await res.text();
-  if (!res.ok) {
-    throw new Error(`Groq models HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
-  }
-
+  if (!res.ok) throw new Error(`Groq models HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
   const json = JSON.parse(body);
-  return (json.data ?? [])
-    .map((m: any) => String(m.id ?? ''))
-    .filter(Boolean);
+  return (json.data ?? []).map((m: any) => String(m.id ?? '')).filter(Boolean);
 }
 
 let cachedGroqModel: Promise<string> | null = null;
@@ -149,16 +106,9 @@ async function resolveGroqModel(key: string): Promise<string> {
   if (!cachedGroqModel) {
     cachedGroqModel = (async () => {
       const available = await getGroqModels(key);
-      const preferred = [
-        'qwen/qwen3.8-27b',
-        'qwen/qwen3.6-27b',
-        'openai/gpt-oss-20b',
-        'openai/gpt-oss-120b',
-      ];
+      const preferred = ['qwen/qwen3.8-27b', 'openai/gpt-oss-20b', 'qwen/qwen3.6-27b', 'openai/gpt-oss-120b'];
       const model = preferred.find((candidate) => available.includes(candidate));
-      if (!model) {
-        throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
-      }
+      if (!model) throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
       return model;
     })().catch((error) => {
       cachedGroqModel = null;
@@ -168,59 +118,61 @@ async function resolveGroqModel(key: string): Promise<string> {
   return cachedGroqModel;
 }
 
+function retryDelayMs(response: Response, attempt: number): number {
+  const retryAfter = Number(response.headers.get('retry-after'));
+  if (Number.isFinite(retryAfter) && retryAfter > 0) return Math.min(retryAfter * 1000, 90000);
+  return Math.min(15000 * 2 ** attempt, 60000);
+}
+
 async function callGroq(key: string, prompt: string): Promise<string> {
   const model = await resolveGroqModel(key);
-
-  for (let i = 0; i < 2; i++) {
+  for (let attempt = 0; attempt < 4; attempt++) {
     const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
       body: JSON.stringify({
         model,
         messages: [{ role: 'user', content: prompt }],
-        temperature: 0.4,
-        max_tokens: 4096,
+        temperature: 0.3,
+        max_tokens: 2800,
       }),
     });
 
     if (res.status === 429) {
-      await sleep(8000);
+      const delay = retryDelayMs(res, attempt);
+      console.warn(`   ⏳ Groq rate limited; retry ${attempt + 1}/4 after ${Math.round(delay / 1000)}s`);
+      await sleep(delay);
       continue;
     }
 
     const body = await res.text();
-
-    if (!res.ok) {
-      throw new Error(`Groq ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
-    }
-
+    if (!res.ok) throw new Error(`Groq ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
     const json = JSON.parse(body);
+    const text = json.choices?.[0]?.message?.content ?? '';
+    if (!text) throw new Error(`Groq ${model}: empty response`);
     console.log(`   ✨ model: ${model}`);
-    return json.choices?.[0]?.message?.content ?? '';
+    return text;
   }
-
-  throw new Error(`Groq ${model}: HTTP 429`);
+  throw new Error(`Groq ${model}: HTTP 429 after adaptive retries`);
 }
 
 function tryParse(text: string): any {
   const clean = cleanJson(text);
-  try { return JSON.parse(clean); } catch { /* ادامه */ }
+  try { return JSON.parse(clean); } catch { /* continue */ }
   const s = clean.slice(clean.indexOf('{'), clean.lastIndexOf('}') + 1);
-  try { return JSON.parse(s); } catch { /* ادامه */ }
-  let t = s;
-  for (let i = 0; i < 5; i++) {
-    const cut = Math.max(t.lastIndexOf(','), t.lastIndexOf('\",'));
-    if (cut <= 0) break;
-    t = t.slice(0, cut);
-    for (const cand of [t + '}', t + ']}', t + '\"}]', t + '}]}']) {
-      try { return JSON.parse(cand); } catch { /* ادامه */ }
-    }
-  }
+  try { return JSON.parse(s); } catch { /* continue */ }
   throw new Error('JSON parse failed');
 }
 
-export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
-  const prompt = buildPrompt(p);
+function existingIranEquivalent(p: Product): IranEquivalent {
+  return p.iranEquivalent ?? {
+    productName: '', description: '', marketOpportunity: '', estimatedBudget: '', targetAudience: '',
+    challenges: [], monetization: [], techStack: [], confidence: 0,
+  };
+}
+
+export async function analyzeProduct(p: Product, need: AnalysisNeed = ALL_FIELDS): Promise<AIAnalysis> {
+  const prompt = buildPrompt(p, need);
   let text = '';
   let provider = '';
   const errors: string[] = [];
@@ -237,36 +189,41 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
   console.log(`   🤖 provider: ${provider}`);
 
   const parsed = tryParse(text);
-
   const originals = (p.comments ?? []).slice(0, 8);
-  let texts: string[] = [];
-  if (Array.isArray(parsed.faComments)) {
-    texts = parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''));
-  }
-  const faComments: PHComment[] = originals
-    .map((c, i) => {
-      const name = c.user && !String(c.user).includes('REDACTED') ? c.user : `کاربر ProductHunt ${i + 1}`;
-      return { user: name, text: sanitize(texts[i] || c.text) };
-    })
-    .filter((c) => c.text.length > 5);
+  let faComments = p.faComments ?? [];
 
-  const eqRaw = parsed.iranEquivalent ?? {};
-  const iranEquivalent: IranEquivalent = {
-    productName: sanitize(eqRaw.productName ?? ''),
-    description: sanitize(eqRaw.description ?? ''),
-    marketOpportunity: sanitize(eqRaw.marketOpportunity ?? ''),
-    estimatedBudget: sanitize(eqRaw.estimatedBudget ?? ''),
-    targetAudience: sanitize(eqRaw.targetAudience ?? ''),
-    challenges: (eqRaw.challenges ?? []).map(sanitize),
-    monetization: (eqRaw.monetization ?? []).map(sanitize),
-    techStack: (eqRaw.techStack ?? []).map(sanitize),
-    confidence: Number(eqRaw.confidence ?? 0) || 0,
-  };
+  if (need.faComments) {
+    const texts = Array.isArray(parsed.faComments)
+      ? parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''))
+      : [];
+    faComments = originals
+      .map((c, i) => {
+        const name = c.user && !String(c.user).includes('REDACTED') ? c.user : `کاربر ProductHunt ${i + 1}`;
+        return { user: name, text: sanitize(texts[i] ?? '') };
+      })
+      .filter((c) => c.text.length > 5);
+  }
+
+  let iranEquivalent = existingIranEquivalent(p);
+  if (need.iranEquivalent) {
+    const eqRaw = parsed.iranEquivalent ?? {};
+    iranEquivalent = {
+      productName: sanitize(eqRaw.productName ?? ''),
+      description: sanitize(eqRaw.description ?? ''),
+      marketOpportunity: sanitize(eqRaw.marketOpportunity ?? ''),
+      estimatedBudget: sanitize(eqRaw.estimatedBudget ?? ''),
+      targetAudience: sanitize(eqRaw.targetAudience ?? ''),
+      challenges: (eqRaw.challenges ?? []).map((x: string) => sanitize(x)),
+      monetization: (eqRaw.monetization ?? []).map((x: string) => sanitize(x)),
+      techStack: (eqRaw.techStack ?? []).map((x: string) => sanitize(x)),
+      confidence: Number(eqRaw.confidence ?? 0) || 0,
+    };
+  }
 
   return {
-    faDescription: sanitize(parsed.faDescription ?? p.tagline),
+    faDescription: need.faDescription ? sanitize(parsed.faDescription ?? '') : (p.faDescription ?? ''),
     faComments,
     iranEquivalent,
-    aiReview: sanitize(parsed.aiReview ?? ''),
+    aiReview: need.aiReview ? sanitize(parsed.aiReview ?? '') : (p.aiReview ?? ''),
   };
 }
