@@ -1,22 +1,18 @@
 {
-  "checkedAt": "2026-09-04T08:43:38.066Z",
+  "checkedAt": "2026-09-04T08:56:02.749Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 3,
-  "failed": 2,
-  "backlogBefore": 177,
-  "backlogAfter": 174,
-  "completedProducts": 80,
-  "missingFaDescription": 85,
-  "missingFaComments": 170,
-  "missingAiReview": 104,
-  "missingIranEquivalent": 85,
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 174,
+  "backlogAfter": 170,
+  "completedProducts": 84,
+  "missingFaDescription": 81,
+  "missingFaComments": 166,
+  "missingAiReview": 100,
+  "missingIranEquivalent": 81,
   "failures": [
-    {
-      "slug": "offloop",
-      "reason": "JSON parse failed"
-    },
     {
       "slug": "dropstone-5",
       "reason": "JSON parse failed"
