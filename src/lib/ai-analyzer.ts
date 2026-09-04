@@ -71,6 +71,15 @@ export function buildPrompt(p: Product, need: AnalysisNeed = ALL_FIELDS): string
   return `تو یک مترجم حرفه‌ای فارسی و تحلیل‌گر ارشد استارتاپ هستی.\n\nمحصول: ${p.name}\nتگلاین: ${p.tagline}\nتوضیحات: ${(p.description ?? '').slice(0, 650)}${need.faComments ? `\n\nنظرات واقعی کاربران:\n${commentsEn || '—'}` : ''}\n\nفقط فیلدهای زیر را تولید کن و هیچ فیلد اضافه‌ای نساز. خروجی فقط JSON معتبر باشد. متن فارسی روان باشد؛ [REDACTED]، undefined، null، TODO/TBD و متن غیرمرتبط ممنوع است. ${need.faComments ? 'faComments باید دقیقاً به همان ترتیب و همان تعداد نظرات ورودی باشد.' : ''}\n\n{\n  ${requested.join(',\n  ')}\n}`;
 }
 
+export function groqOutputBudget(need: AnalysisNeed = ALL_FIELDS): number {
+  let budget = 220;
+  if (need.faDescription) budget += 420;
+  if (need.faComments) budget += 170 * 8;
+  if (need.iranEquivalent) budget += 620;
+  if (need.aiReview) budget += 780;
+  return Math.min(2800, Math.max(700, budget));
+}
+
 async function callGemini(key: string, prompt: string): Promise<string> {
   const model = 'gemini-3.6-flash';
   const res = await fetchWithTimeout(
@@ -124,7 +133,7 @@ function retryDelayMs(response: Response, attempt: number): number {
   return Math.min(15000 * 2 ** attempt, 45000);
 }
 
-async function callGroqModel(key: string, model: string, prompt: string): Promise<string | null> {
+async function callGroqModel(key: string, model: string, prompt: string, maxTokens: number): Promise<string | null> {
   for (let attempt = 0; attempt < 2; attempt++) {
     const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
@@ -133,7 +142,7 @@ async function callGroqModel(key: string, model: string, prompt: string): Promis
         model,
         messages: [{ role: 'user', content: prompt }],
         temperature: 0.3,
-        max_tokens: 2800,
+        max_tokens: maxTokens,
       }),
     });
 
@@ -155,10 +164,10 @@ async function callGroqModel(key: string, model: string, prompt: string): Promis
   return null;
 }
 
-async function callGroq(key: string, prompt: string): Promise<string> {
+async function callGroq(key: string, prompt: string, maxTokens: number): Promise<string> {
   const models = await resolveGroqModels(key);
   for (const model of models) {
-    const text = await callGroqModel(key, model, prompt);
+    const text = await callGroqModel(key, model, prompt, maxTokens);
     if (text) return text;
     console.warn(`   ↪️  Groq ${model} remained rate limited; trying next available model`);
   }
@@ -182,6 +191,7 @@ function existingIranEquivalent(p: Product): IranEquivalent {
 
 export async function analyzeProduct(p: Product, need: AnalysisNeed = ALL_FIELDS): Promise<AIAnalysis> {
   const prompt = buildPrompt(p, need);
+  const maxTokens = groqOutputBudget(need);
   let text = '';
   let provider = '';
   const errors: string[] = [];
@@ -191,7 +201,7 @@ export async function analyzeProduct(p: Product, need: AnalysisNeed = ALL_FIELDS
     catch (e: any) { errors.push(`gemini: ${e.message}`); console.warn(`   ⚠️  gemini: ${e.message}`); }
   }
   if (!text && process.env.GROQ_API_KEY) {
-    try { text = await callGroq(process.env.GROQ_API_KEY, prompt); provider = 'groq'; }
+    try { text = await callGroq(process.env.GROQ_API_KEY, prompt, maxTokens); provider = 'groq'; }
     catch (e: any) { errors.push(`groq: ${e.message}`); console.warn(`   ⚠️  groq: ${e.message}`); }
   }
   if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no key'}`);
