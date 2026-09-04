@@ -1,21 +1,16 @@
 {
-  "checkedAt": "2026-09-04T11:26:54.871Z",
+  "checkedAt": "2026-09-04T12:21:41.153Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 165,
-  "backlogAfter": 161,
-  "completedProducts": 93,
-  "missingFaDescription": 72,
-  "missingFaComments": 157,
-  "missingAiReview": 91,
-  "missingIranEquivalent": 72,
-  "failures": [
-    {
-      "slug": "altar-ii",
-      "reason": "JSON parse failed"
-    }
-  ]
+  "succeeded": 5,
+  "failed": 0,
+  "backlogBefore": 161,
+  "backlogAfter": 156,
+  "completedProducts": 98,
+  "missingFaDescription": 67,
+  "missingFaComments": 152,
+  "missingAiReview": 86,
+  "missingIranEquivalent": 67,
+  "failures": []
 }
