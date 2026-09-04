@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-09-04T17:56:57.663Z",
+  "checkedAt": "2026-09-04T18:10:24.845Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 0,
-  "failed": 5,
+  "succeeded": 1,
+  "failed": 4,
   "backlogBefore": 122,
-  "backlogAfter": 122,
-  "completedProducts": 132,
-  "missingFaDescription": 33,
-  "missingFaComments": 118,
-  "missingAiReview": 52,
-  "missingIranEquivalent": 33,
+  "backlogAfter": 121,
+  "completedProducts": 133,
+  "missingFaDescription": 32,
+  "missingFaComments": 117,
+  "missingAiReview": 51,
+  "missingIranEquivalent": 32,
   "failures": [
     {
       "slug": "olostep-2",
@@ -19,15 +19,11 @@
     },
     {
       "slug": "prequel-2",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "murfy-ai",
-      "reason": "JSON parse failed"
+      "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
     },
     {
       "slug": "video-agent-by-fotor",
-      "reason": "JSON parse failed"
+      "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
     },
     {
       "slug": "interactive-sessions-by-revolte",
