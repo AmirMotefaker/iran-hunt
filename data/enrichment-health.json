@@ -1,28 +1,24 @@
 {
-  "checkedAt": "2026-09-04T16:25:35.703Z",
+  "checkedAt": "2026-09-04T16:40:22.987Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 129,
-  "backlogAfter": 127,
-  "completedProducts": 127,
-  "missingFaDescription": 38,
-  "missingFaComments": 123,
-  "missingAiReview": 57,
-  "missingIranEquivalent": 38,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 127,
+  "backlogAfter": 124,
+  "completedProducts": 130,
+  "missingFaDescription": 35,
+  "missingFaComments": 120,
+  "missingAiReview": 54,
+  "missingIranEquivalent": 35,
   "failures": [
     {
-      "slug": "god-s-eye-view",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "rawtoheic",
-      "reason": "JSON parse failed"
-    },
-    {
       "slug": "topview-motion-studio",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "olostep-2",
       "reason": "JSON parse failed"
     }
   ]
