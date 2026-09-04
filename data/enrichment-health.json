@@ -1,16 +1,21 @@
 {
-  "checkedAt": "2026-09-04T12:21:41.153Z",
+  "checkedAt": "2026-09-04T13:26:14.681Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 5,
-  "failed": 0,
-  "backlogBefore": 161,
-  "backlogAfter": 156,
-  "completedProducts": 98,
-  "missingFaDescription": 67,
-  "missingFaComments": 152,
-  "missingAiReview": 86,
-  "missingIranEquivalent": 67,
-  "failures": []
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 156,
+  "backlogAfter": 152,
+  "completedProducts": 102,
+  "missingFaDescription": 63,
+  "missingFaComments": 148,
+  "missingAiReview": 82,
+  "missingIranEquivalent": 63,
+  "failures": [
+    {
+      "slug": "termy-dada3c66-5e0a-4d7c-91f8-1ddef3db7977",
+      "reason": "JSON parse failed"
+    }
+  ]
 }
