@@ -55,16 +55,16 @@ if (todayCount !== TOP_COUNT) {
 }
 const productHuntDate = dateInProductHunt(daily?.scrapedAt ? new Date(daily.scrapedAt) : new Date());
 const staleTodayProducts = todayProducts.filter((product) => {
-  if (!product.featuredAt) return true;
+  if (!product.featuredAt || !product.date) return true;
   const featuredAt = new Date(product.featuredAt);
-  return Number.isNaN(featuredAt.getTime()) || dateInProductHunt(featuredAt) !== productHuntDate;
+  return Number.isNaN(featuredAt.getTime()) || product.date !== productHuntDate;
 });
 if (staleTodayProducts.length > 0) {
   freshnessBlockers.push({
     severity: 'blocker',
     code: 'stale-today-products',
     field: 'periods.today',
-    message: `${staleTodayProducts.length} Today products are outside Product Hunt day ${productHuntDate}: ${staleTodayProducts.slice(0, 10).map((product) => `${product.slug}(${product.featuredAt || product.date || 'missing'})`).join(', ')}.`,
+    message: `${staleTodayProducts.length} Today products are outside persisted Product Hunt launch date ${productHuntDate}: ${staleTodayProducts.slice(0, 10).map((product) => `${product.slug}(${product.date || product.featuredAt || 'missing'})`).join(', ')}.`,
   });
 }
 
