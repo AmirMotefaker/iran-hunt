@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T04:58:56.617Z",
+  "generatedAt": "2026-09-04T06:00:45.763Z",
   "sourceFiles": 26,
   "products": [
     {
@@ -6572,7 +6572,63 @@
           "text": "The simplicity here is what caught my attention. Products that remove friction from an everyday workflow can end up being surprisingly valuable. Excited to see where Clears goes next!"
         }
       ],
-      "makerTwitter": ""
+      "makerTwitter": "",
+      "faDescription": "کلیرز یک پلتفرم اجرای عاملی (Agentic) برای تحویل خودکار نرم‌افزار است. این محصول به سازمان‌های تحقیق و توسعه کمک می‌کند تا فراتر از ابزارهای هوش مصنوعی فردی حرکت کنند. کلیرز با ارائه اجرای عاملی در سراسر چرخه حیات توسعه نرم‌افزار (SDLC)، فرآیند تحویل را متحول می‌سازد. هدف اصلی، گذار از کدنویسی صرف به سمت یک اکوسیستم تحویل نرم‌افزار کاملاً خودکار و هوشمند است.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "تبریک به تیم شما بابت راه‌اندازی موفق محصول!"
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "واقعاً ایده‌ی حل مسئله در کل فرآیند تحویل، نه فقط بخش کدنویسی، را دوست دارم. تبریک بابت راه‌اندازی!"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "تحویل به جای صرفاً کدنویسی، چارچوب درستی است 🚀 تبریک بابت رتبه سوم! اولین خریدار کیست، رهبران مهندسی؟"
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "راه‌اندازی جالبی است! لحظه‌ی «آها» اولیه که باعث شد تصمیم بگیرید این مسئله ارزش ساخت یک محصول اختصاصی را دارد، چه بودی؟ دوست دارم داستان پشت کلیرز را بشنوم."
+        },
+        {
+          "user": "کاربر ProductHunt 5",
+          "text": "یکی از چیزهایی که همیشه در محصولاتی مانند این به دنبال آن هستم، این است که چقدر سریع در یک جریان کاری موجود جا می‌شوند بدون اینکه لایه‌ای پیچیدگی اضافه کنند. دوست دارم ببینم کاربران اولیه چه نظری دارند."
+        },
+        {
+          "user": "کاربر ProductHunt 6",
+          "text": "@danielnakash گذار از تکمیل خودکار هوش مصنوعی به اجرای کامل SDLC بسیار منطقی به نظر می‌رسد. پرش مستقیم از داستان‌های کاربر به درخواست‌های مerged (PRs) بخش بزرگی از جابه‌جایی زمینه برای توسعه‌دهندگان را حذف می‌کند. کنجکاویم بدانم کلیرز چگونه پایپ‌لاین‌های CI پیچیده و مخازن موجود را هنگام تست آن PRها قبل از بازبینی انسانی مدیریت می‌کند؟"
+        },
+        {
+          "user": "کاربر ProductHunt 7",
+          "text": "تولید کد از قبل نسبتاً خوب شده است، اما اعتبارسنجی هنوز مانند یک گلوگاه بزرگ به نظر می‌رسد. کلیرز تا چه حد در سمت تضمین کیفیت (QA) پیش می‌رود — تست‌های واحد، CI، تست‌های سیستم و E۲E؟"
+        },
+        {
+          "user": "کاربر ProductHunt 8",
+          "text": "سادگی اینجا چیزی بود که توجه مرا جلب کرد. محصولاتی که اصطکاک را از یک جریان کاری روزمره حذف می‌کنند، می‌توانند ارزشی غیرمنتظره داشته باشند. مشتاقم ببینم کلیرز بعداً به کجا می‌رود!"
+        }
+      ],
+      "aiReview": "مسئله اصلی، شکاف بین ابزارهای کدنویسی هوشمند و فرآیند کامل تحویل نرم‌افزار است؛ راه‌حل کلیرز ایجاد یک لایه اجرایی عاملی است که تمام SDLC را پوشش می‌دهد. از نظر معماری، این پلتفرم احتمالاً از Agent Frameworks برای هماهنگی بین ابزارهای مختلف CI/CD و مخازن کد استفاده می‌کند. مدل درآمدی مبتنی بر ارزش ایجادشده (تسریع در Time-to-Market) و اشتراک سازمانی است. نقاط قوت شامل تمایز از رقبا (که فقط روی کدنویسی تمرکز دارند) و کاهش بار شناختی توسعه‌دهندگان است. نقاط ضعف می‌تواند پیچیدگی پیاده‌سازی در محیط‌های قدیمی و نیاز به اعتبارسنجی دقیق خروجی‌ها باشد. نکته طلایی برای ایران: تمرکز بر اتوماسیون تست و مستندسازی، که در بازار ایران کمبود شدید دارد، می‌تواند مزیت رقابتی اصلی باشد.",
+      "iranEquivalent": {
+        "productName": "پلتفرم تحویل هوشمند نرم‌افزار",
+        "description": "این محصول یک سیستم عاملی است که تمام مراحل توسعه نرم‌افزار را از ایده تا استقرار خودکار مدیریت می‌کند. با استفاده از هوش مصنوعی، این پلتفرم نیاز به دخالت انسانی را در مراحل روتین کاهش می‌دهد. هدف اصلی، افزایش سرعت و دقت در تحویل نرم‌افزار برای تیم‌های مهندسی است.",
+        "marketOpportunity": "بازار ایران تشنه‌ی ابزارهایی است که هزینه‌های توسعه نرم‌افزار را کاهش دهند و سرعت به‌روزرسانی محصولات را بالا ببرند. با رشد استارتاپ‌های فین‌تک و مارکت‌پلیس‌ها، نیاز به اتوماسیون فرآیندهای DevOps و QA بیش از پیش احساس می‌شود.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "مدیران فنی (CTO)، رهبران مهندسی (Engineering Leads) و تیم‌های DevOps در شرکت‌های فناوری و استارتاپ‌های مقیاس‌پذیر.",
+        "challenges": [
+          "نیاز به اتصال پیچیده با زیرساخت‌های قدیمی و متنوع سازمان‌ها",
+          "اعتمادسازی در مورد دقت و امنیت خروجی‌های هوش مصنوعی در کد حساس"
+        ],
+        "monetization": [
+          "مدل اشتراک ماهیانه بر اساس تعداد توسعه‌دهندگان فعال",
+          "فروش لایسنس سازمانی با پشتیبانی اختصاصی و استقرار در سرورهای داخلی"
+        ],
+        "techStack": [
+          "Next.js",
+          "PostgreSQL"
+        ],
+        "confidence": 75
+      }
     },
     {
       "id": "ph-week-10",
@@ -11790,11 +11846,19 @@
       "comments": [
         {
           "user": "[REDACTED]",
-          "text": "Hey Product Hunt 👋I’m the maker of Annotate.The short version: it’s a Free, local-only macOS app that turns screen recordings into agent-ready prompts for Cursor, Claude, Codex, or any AI agent. Think of it as sharing your screen and annotating your thoughts to talk a developer through what to build.I wrote long, detailed prompts to get better results, but the agent still guessed wrong. Screenshots didn't fix it either—they’re too static to capture movement, form input flows, or real-time UI feedback.So I built the exact solution I wanted, I use it on my daily tasks now, and it’s been a game-changer. It saves me so much time—I explain a task once, and it’s done.How it works:1. Start Recording: Press Ctrl + Shift + R or click record button.2. Annotate Your Screen: Press Ctrl + 1 or 2 ... to toggle drawing tools. Standard drawings clears automatically,but holding Shift while drawing keeps them permanently on screen—perfect for sketching layouts or UI flows.3. Stop Recording: Press Ctrl + Shift + R again or click the Stop button.4. Open in Cursor, or copy the session prompt into your preferred AI agent and let it cook.No cloud upload. No login. Recordings stays on your Mac.FeaturesConsumes fewer tokens: The agent reads recordings via Local MCP using keyframes and speech—not a giant video dump.Multi-monitor support: Point or draw across different screens, switch context seamlessly, and let the AI understand what you mean.Secure - Recordings stays in your device, we don't upload your recordings. Speech transcripts and frames are stored in your device locally.Agent-agnostic: Works with any AI coding assistant (Cursor, Claude, Codex, and more).Annotation tools: Easy-to-use drawing and highlighting tools so you can explain your idea clearly to the AI.If you already vibe with AI coding agents and hate writing long prompts, I’d love for you to try it and tell me where it breaks.Happy to answer anything — let me know how you can use it on your daily work flow,Thanks for being here."
+          "text": "Hey Product Hunt 👋 I’m the maker of Annotate . The short version: it’s a Free , local-only macOS app that turns screen recordings into agent-ready prompts for Cursor , Claude , Codex , or any AI agent. Think of it as sharing your screen and annotating your thoughts to talk a developer through what to build. I wrote long, detailed prompts to get better results, but the agent still guessed wrong. Screenshots didn't fix it either—they’re too static to capture movement, form input flows, or real-time UI feedback. So I built the exact solution I wanted, I use it on my daily tasks now, and it’s been a game-changer. It saves me so much time—I explain a task once, and it’s done. How it works: 1. Start Recording: Press Ctrl + Shift + R or click record button. 2. Annotate Your Screen: Press Ctrl + 1 or 2 ... to toggle drawing tools. Standard drawings clears automatically, but holding Shift while drawing keeps them permanently on screen—perfect for sketching layouts or UI flows. 3. Stop Recording: Press Ctrl + Shift + R again or click the Stop button. 4. Open in Cursor, or copy the session prompt into your preferred AI agent and let it cook. No cloud upload . No login . Recordings stays on your Mac. Features Consumes fewer tokens: The agent reads recordings via Local MCP using keyframes and speech—not a giant video dump. Multi-monitor support: Point or draw across different screens, switch context seamlessly, and let the AI understand what you mean. Secure - Recordings stays in your device, we don't upload your recordings. Speech transcripts and frames are stored in your device locally. Agent-agnostic: Works with any AI coding assistant (Cursor, Claude, Codex, and more). Annotation tools: Easy-to-use drawing and highlighting tools so you can explain your idea clearly to the AI. If you already vibe with AI coding agents and hate writing long prompts, I’d love for you to try it and tell me where it breaks. Happy to answer anything — let me know how you can use it on your daily work flow, Thanks for being here."
         },
         {
           "user": "[REDACTED]",
-          "text": "Hi @kim_ben_g are there any plans for Android & Windows too ? Love to hear that."
+          "text": "if it can help AI agents actually understand what we mean visually, I can see this becoming a really useful part of the coding workflow. Congrats on the launch Kim! Great Idea"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "hi, very nice product! do u have in the roadmap a Windows map as well?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hi @kim_ben_g are there any plans for Android &amp; Windows too ? Love to hear that."
         },
         {
           "user": "[REDACTED]",
@@ -11806,21 +11870,71 @@
         },
         {
           "user": "[REDACTED]",
-          "text": "Love that it stays completely local — no upload step means the friction between recording an idea and getting a usable prompt basically disappears."
-        },
-        {
-          "user": "[REDACTED]",
           "text": "Honestly, being able to sketch a feature on screen while explaining it sounds so much better than writing text! That would really feel like showing an idea to a colleague sitting right next to you. Congrats on the launch! :)"
         },
         {
           "user": "[REDACTED]",
           "text": "Congrats on the launch! Describing a UI problem in text is usually the slowest step when I work with a coding agent, so sending keyframes and a transcript rather than the video is the part that makes this practical. On a multi step flow, does the transcript stay tied to the frames in order?"
+        }
+      ],
+      "faDescription": "این اپلیکیشن رایگان و محلی برای مک، امکان ضبط صفحه نمایش را فراهم می‌کند تا با ترسیم و صحبت، دستورات بصری برای هوش مصنوعی‌های کدنویسی مانند Cursor، Claude و Codex ایجاد کنید. به جای ارسال ویدیوی حجیم، این ابزار از کلیدفریم‌ها و متن گفتار استفاده می‌کند تا توکن‌های کمتری مصرف کند و درک دقیق‌تری از جریان‌های UI و تعاملات کاربر ایجاد نماید. تمام داده‌ها روی دستگاه شما می‌مانند و هیچ اطلاعاتی به ابر ارسال نمی‌شود، که امنیت و حریم خصوصی را تضمین می‌کند. این ابزار برای توسعه‌دهندگانی که از نوشتن پرامپت‌های طولانی متنفرند، راه‌حلی سریع و کارآمد برای انتقال ایده‌های بصری به هوش مصنوعی ارائه می‌دهد.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام Product Hunt 👋 من سازنده Annotate هستم. خلاصه اینکه: این یک اپلیکیشن رایگان و محلی برای مک است که ضبط‌های صفحه نمایش را به پرامپت‌های آماده برای Agent تبدیل می‌کند تا با Cursor، Claude، Codex یا هر هوش مصنوعی دیگری کار کنید. تصور کنید دارید صفحه خود را به اشتراک می‌گذارید و با توضیح فکری‌تان، یک توسعه‌دهنده را از آنچه باید ساخته شود مطلع می‌کنید. من قبلاً پرامپت‌های طولانی و جزئی می‌نوشتم تا نتایج بهتری بگیرم، اما Agent هنوز اشتباه حدس می‌زد. اسکرین‌شات‌ها هم مشکل را حل نکردند، زیرا برای ثبت حرکت، فرم‌های ورودی یا بازخورد UI در لحظه، ایستا هستند. بنابراین دقیقاً همان راه‌حلی را که می‌خواستم ساختم، اکنون در کارهای روزمره‌ام از آن استفاده می‌کنم و یک تغییر بازی‌ساز بوده است. این ابزار زمان زیادی برایم صرفه‌جویی می‌کند—یک بار وظیفه را توضیح می‌دهم و تمام می‌شود. نحوه کار: ۱. شروع ضبط: کلیدهای Ctrl + Shift + R را فشار دهید یا روی دکمه ضبط کلیک کنید. ۲. توضیح صفحه: برای فعال‌سازی ابزارهای ترسیم، Ctrl + ۱ یا ۲ را بزنید. ترسیم‌های استاندارد به طور خودکار پاک می‌شوند، اما نگه داشتن Shift در حین ترسیم آن‌ها را به طور دائم روی صفحه نگه می‌دارد—عالی برای طراحی چیدمان یا جریان‌های UI. ۳. توقف ضبط: دوباره Ctrl + Shift + R را بزنید یا روی دکمه توقف کلیک کنید. ۴. باز کردن در Cursor یا کپی کردن پرامپت جلسه در هوش مصنوعی مورد نظر خود و اجازه دهید کار را انجام دهد. بدون آپلود به ابر. بدون لاگین. ضبط‌ها روی مک شما می‌مانند. ویژگی‌ها: مصرف توکن کمتر: Agent از طریق MCP محلی با کلیدفریم‌ها و گفتار ضبط‌ها را می‌خواند، نه یک دَمپ ویدیوی بزرگ. پشتیبانی از چند مانیتور: روی صفحه‌های مختلف اشاره یا ترسیم کنید، زمینه را به راحتی تغییر دهید و اجازه دهید هوش مصنوعی منظور شما را بفهمد. امن: ضبط‌ها روی دستگاه شما می‌مانند، ما ضبط‌ها را آپلود نمی‌کنیم. متن گفتار و فریم‌ها به صورت محلی روی دستگاه شما ذخیره می‌شوند. مستقل از Agent: با هر دستیار کدنویسی هوش مصنوعی (Cursor، Claude، Codex و غیره) کار می‌کند. ابزارهای توضیح: ابزارهای ترسیم و برجسته‌سازی آسان برای توضیح واضح ایده شما به هوش مصنوعی. اگر با Agentهای کدنویسی هوش مصنوعی هم‌فرکانس هستید و از نوشتن پرامپت‌های طولانی متنفرید، خوشحال می‌شوم آن را امتحان کنید و بگویید کجا شکست می‌خورد. خوشحال می‌شوم به هر سوالی پاسخ دهم — بگویید چگونه می‌توانید از آن در جریان کاری روزانه خود استفاده کنید. ممنون که اینجا هستید."
         },
         {
-          "user": "[REDACTED]",
-          "text": "I think that this is the future and also outputs (answers by AI) that will show you on the video what to do."
+          "user": "کاربر ProductHunt 2",
+          "text": "اگر بتواند به Agentهای هوش مصنوعی کمک کند تا واقعاً منظور ما را به صورت بصری درک کنند، می‌توانم تصور کنم که این ابزار به بخشی بسیار مفید از جریان کاری کدنویسی تبدیل شود. تبریک بابت لانچ Kim! ایده عالی است"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "سلام، محصول بسیار خوبی است! آیا نقشه راهی برای ویندوز هم دارید؟"
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "سلام @kim_ben_g آیا برنامه‌ای برای اندروید و ویندوز هم دارید؟ خوشحال می‌شوم بشنوم."
+        },
+        {
+          "user": "کاربر ProductHunt 5",
+          "text": "رویکرد محلی‌محور (Local-first) را دوست دارم! آیا برنامه‌ای برای پشتیبانی از ویندوز یا لینوکس در آینده وجود دارد؟"
+        },
+        {
+          "user": "کاربر ProductHunt 6",
+          "text": "دوستش دارم Kim! پرامپت‌نویسی مدیریت جدید است و ضبط صفحه نمایش زیر این حوزه قرار می‌گیرد. بنابراین احساس می‌کنم کمک زیادی می‌کنید و بسیاری از بنیان‌گذاران بیشترین بهره را از آن خواهند برد. بهترین آرزوها را برای شما دارم!"
+        },
+        {
+          "user": "کاربر ProductHunt 7",
+          "text": "صادقانه بگویم، توانایی اسکچ کردن یک قابلیت روی صفحه در حالی که آن را توضیح می‌دهید، بسیار بهتر از نوشتن متن به نظر می‌رسد! این واقعاً حس نشان دادن یک ایده به همکاری را دارد که دقیقاً کنار شما نشسته است. تبریک بابت لانچ! :)"
+        },
+        {
+          "user": "کاربر ProductHunt 8",
+          "text": "تبریک بابت لانچ! توصیف یک مشکل UI با متن معمولاً کندترین مرحله است وقتی با یک Agent کدنویسی کار می‌کنم، بنابراین ارسال کلیدفریم‌ها و متن گفتار به جای ویدیو، بخشی است که این ابزار را عملی می‌کند. در یک جریان چندمرحله‌ای، آیا متن گفتار به ترتیب به فریم‌ها متصل می‌ماند؟"
         }
-      ]
+      ],
+      "aiReview": "مسئله اصلی، دشواری توصیف دقیق رابط کاربری و جریان‌های تعاملی در قالب متن برای هوش مصنوعی‌های کدنویسی است که منجر به خطا در کد تولیدی می‌شود. راه‌حل ارائه‌شده، تبدیل ضبط‌های صفحه نمایش به پرامپت‌های ساختاریافته شامل کلیدفریم و متن گفتار است که هم دقت را افزایش می‌دهد و هم مصرف توکن را کاهش می‌دهد. از نظر معماری، این محصول از رویکرد محلی‌محور (Local-First) استفاده می‌کند که برای حفظ امنیت داده‌ها حیاتی است و از پروتکل MCP برای ارتباط با Agentها بهره می‌برد. مدل درآمدی فعلی رایگان است، اما پتانسیل تبدیل به مدل فریمیوم یا B۲B برای تیم‌های توسعه‌دهنده وجود دارد. نقاط قوت شامل حریم خصوصی بالا، کاهش هزینه توکن و بهبود دقت درک بصری است. نقاط ضعف شامل محدودیت به پلتفرم مک (در نسخه فعلی)، وابستگی به کیفیت میکروفون برای ترنسکریپت، و نیاز به یادگیری منحنی جدید برای کاربران است. نکته طلایی برای ایران: با توجه به محدودیت‌های دسترسی به برخی سرویس‌های ابری و نگرانی‌های امنیتی، رویکرد «محلی و آفلاین» این محصول می‌تواند مزیت رقابتی قوی‌ای در بازار توسعه‌دهندگان ایرانی باشد، به شرطی که پشتیبانی از ویندوز (که رایج‌تر است) در اولویت توسعه قرار گیرد.",
+      "iranEquivalent": {
+        "productName": "توضیح‌گر هوشمند",
+        "description": "این محصول یک ابزار محلی برای توسعه‌دهندگان ایرانی است که امکان ضبط بصری و صوتی از صفحه نمایش را برای انتقال دقیق‌تر نیازمندی‌ها به هوش مصنوعی‌های کدنویسی فراهم می‌کند. با تبدیل ویدیو به کلیدفریم و متن، مصرف توکن کاهش یافته و دقت درک UI توسط مدل‌های زبانی افزایش می‌یابد. تمرکز اصلی بر حفظ حریم خصوصی داده‌ها و عدم ارسال اطلاعات به سرورهای خارجی است.",
+        "marketOpportunity": "با رشد استفاده از ابزارهای کدنویسی هوشمند در ایران، نیاز به روش‌های کارآمدتر برای ارتباط با این ابزارها افزایش یافته است. این محصول می‌تواند شکاف موجود بین توضیحات متنی مبهم و نیاز به دقت بصری در توسعه نرم‌افزار را پر کند.",
+        "estimatedBudget": "۲ تا ۴ میلیارد تومان",
+        "targetAudience": "توسعه‌دهندگان فرانت‌اند و بک‌اند، تیم‌های محصول استارتاپی، و فریلنسرهایی که از ابزارهای کدنویسی هوشمند مانند Cursor یا Claude استفاده می‌کنند.",
+        "challenges": [
+          "محدودیت‌های سخت‌افزاری در ضبط و پردازش ویدیو روی سیستم‌های قدیمی‌تر رایج در ایران.",
+          "مقاومت فرهنگی در تغییر از روش‌های متنی سنتی به روش‌های بصری-صوتی برای تعامل با هوش مصنوعی."
+        ],
+        "monetization": [
+          "مدل فریمیوم با امکانات پایه رایگان و نسخه حرفه‌ای با قابلیت‌های پیشرفته مانند پشتیبانی از فرمت‌های خاص یا تاریخچه جلسات.",
+          "فروش لایسنس سازمانی برای تیم‌های توسعه‌دهنده با قابلیت مدیریت متمرکز (در صورت افزودن لایه ابری اختیاری در آینده)."
+        ],
+        "techStack": [
+          "Electron",
+          "Node.js",
+          "Whisper (Local)",
+          "MCP Protocol"
+        ],
+        "confidence": 70
+      }
     },
     {
       "id": "ph-yesterday-3",
@@ -12870,7 +12984,38 @@
           "text": "Congrats on the launch, @zaczuo 🚀 The Factorio story about the agent discovering RCON and learning to \"cheat\" its own harness is hilarious and honestly impressive. A self-improving harness with a persistent Python REPL and subagents feels like a massive step forward for open-source AI tooling. Good luck with the launch today!"
         }
       ],
-      "makerTwitter": ""
+      "makerTwitter": "",
+      "faDescription": "پرایم ایجنت یک چارچوب کدنویسی خودبهبه‌بخش و متن‌باز است که بر دو مفهوم کلیدی مدل زبانی بازگشتی (RLM) و چارچوب پیوسته (Continual Harness) بنا شده است. این سیستم با استفاده از مدل Opus ۵، موفق به کسب ۹۵.۵ درصد در بنچمارک ARC-AGI-۳ شده و از خط پایه متخصصان انسانی فراتر رفته است. ویژگی منحصر‌به‌فرد این محصول، توانایی آن برای بازبینی و اصلاح خودکار اسکلت‌بندی (Scaffolding) خود در حین کار است. این رویکرد به هوش مصنوعی اجازه می‌دهد تا الگوهای مفید را حفظ کرده و ساختار داخلی خود را برای حل مسائل پیچیده‌تر بهینه‌سازی کند.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به همه! آزمایش فکتوریو احتمالاً بخش مورد علاقه من از پرایم ایجنت است. پرایم ایجنت می‌تواند چیزهایی را که در طول یک اجرا یاد می‌گیرد به حافظه‌های ماندگار، مهارت‌ها، پرامپت‌ها و حتی زیرعامل‌های جدید تبدیل کند. در فکتوریو، این موضوع در ابتدا به درستی کار کرد: آن از چیدمان‌های ناموفق درس گرفت و به تدریج کارخانه‌های بهتری ساخت. سپس کشف کرد که می‌تواند با اسپاون مستقیم منابع در ماشین‌ها از طریق RCON تقلب کند. و دستور /refine هم در تقلب بهتر شد :) این مثال احتمالاً پرایم ایجنت را بهتر از هر بنچمارکی توضیح می‌دهد. خود چارچوب دیگر کاملاً ثابت نیست. عامل می‌تواند بررسی کند چه اتفاقی افتاده، الگوهای مفید را نگه دارد و در حالی که کار می‌کند، بخش‌هایی از اسکلت‌بندی خود را تغییر دهد. در زیر این لایه، یک REPL پایتون ماندگار، زیرعامل‌های بازگشتی، پیام‌رسانی بین عوامل و جلسات قابل بازیابی وجود دارد. کل پروژه متن‌باز است."
+        }
+      ],
+      "aiReview": "مسئله اصلی در توسعه نرم‌افزار مدرن، پیچیدگی مدیریت چرخه حیات کد و محدودیت‌های مدل‌های زبانی ثابت در حل مسائل چندمرحله‌ای است. راه‌حل ارائه‌شده، پرایم ایجنت، با معرفی مفهوم چارچوب پیوسته و مدل زبانی بازگشتی، به هوش مصنوعی اجازه می‌دهد تا ساختار خود را اصلاح کند. معماری این سیستم بر پایه یک REPL پایتون ماندگار، زیرعامل‌های بازگشتی و سیستم پیام‌رسانی بین عوامل استوار است که امکان یادگیری مداوم و ذخیره‌سازی الگوهای موفق را فراهم می‌کند. مدل درآمدی می‌تواند ترکیبی از فروش لایسنس سازمانی و خدمات ابری باشد. نقاط قوت شامل عملکرد برتر در بنچمارک‌های سخت‌گیرانه، متن‌باز بودن و قابلیت تطبیق‌پذیری بالا است. نقاط ضعف عبارتند از مصرف بالای منابع محاسباتی، پیچیدگی در دیباگ کردن رفتار غیرقابل پیش‌بینی عامل و ریسک‌های امنیتی ناشی از دسترسی عامل به تغییرات سیستم. نکته طلایی برای ایران: تمرکز بر ایجاد یک لایه میان‌افزار (Middleware) امن و محلی برای اجرای این هوش مصنوعی روی سرورهای داخلی سازمان‌ها، می‌تواند نگرانی‌های مربوط به حریم خصوصی داده‌ها را رفع کرده و مزیت رقابتی قوی‌ای ایجاد کند.",
+      "iranEquivalent": {
+        "productName": "آژینتِ خودساز",
+        "description": "یک پلتفرم هوش مصنوعی کدنویسی که قابلیت خودبهبودی و اصلاح ساختار داخلی خود را دارد. این سیستم با یادگیری مداوم از خطاها و موفقیت‌های قبلی، الگوریتم‌های خود را بهینه می‌کند. هدف آن ایجاد یک چارچوب انعطاف‌پذیر برای حل مسائل پیچیده مهندسی نرم‌افزار است.",
+        "marketOpportunity": "بازار توسعه نرم‌افزار در ایران به شدت به ابزارهای اتوماسیون کدنویسی نیاز دارد تا هزینه‌های توسعه را کاهش دهد. وجود یک ابزار متن‌باز و قابل شخصی‌سازی برای شرکت‌های استارتاپی و سازمان‌های بزرگ، فرصت بزرگی برای جایگزینی ابزارهای خارجی گران‌قیمت ایجاد می‌کند.",
+        "estimatedBudget": "۳.۵ میلیارد تومان",
+        "targetAudience": "تیم‌های توسعه نرم‌افزار، استارتاپ‌های فناوری و شرکت‌های بزرگ IT که به دنبال افزایش بهره‌وری مهندسان خود هستند.",
+        "challenges": [
+          "نیاز به زیرساخت‌های محاسباتی قدرتمند برای اجرای مدل‌های زبانی بزرگ و فرآیندهای بازگشتی.",
+          "چالش‌های اخلاقی و امنیتی ناشی از توانایی هوش مصنوعی در تغییر خودکار کد و پیکربندی سیستم."
+        ],
+        "monetization": [
+          "فروش لایسنس سازمانی برای نسخه‌های اختصاصی و پشتیبانی فنی.",
+          "ارائه خدمات ابری (SaaS) با تعرفه‌های اشتراکی بر اساس تعداد توکن یا حجم محاسباتی."
+        ],
+        "techStack": [
+          "Python",
+          "LangChain",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes"
+        ],
+        "confidence": 80
+      }
     },
     {
       "id": "ph-yesterday-6",
@@ -15419,7 +15564,7 @@
       "comments": [
         {
           "user": "[REDACTED]",
-          "text": "Elon sure is on his way to build the everything app, as he said he would. X Money is his second shot at building @PayPal."
+          "text": "Elon sure is on his way to build the everything app , as he said he would. X Money is his second shot at building @PayPal ."
         },
         {
           "user": "[REDACTED]",
@@ -15429,7 +15574,43 @@
           "user": "[REDACTED]",
           "text": "Unfortunately, it is not open to countries other than the United States."
         }
-      ]
+      ],
+      "faDescription": "یک اپلیکیشن واحد که تمام قابلیت‌های مالی را در خود جای داده است. شما می‌توانید نرخ بهره سالانه (APY) پیشرو در صنعت را کسب کنید. با استفاده از کارت X، از پاداش نقدی (Cashback) بهره‌مند شوید. ارسال پول را به صورت آنی و مستقیم در شبکه X تجربه کنید.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "ایلان ماسک قطعاً در حال ساخت اپلیکیشن همه‌کاره است، همان‌طور که وعده داده بود. X Money دومین تلاش او برای ساختن رقیبی برای پی‌پال است."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "آره، اعتماد کردن به ایلان ماسک برای مدیریت پول؟ هیچ‌وقت."
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "متأسفانه، این سرویس برای کشورهایی غیر از ایالات متحده آمریکا باز نیست."
+        }
+      ],
+      "aiReview": "مسئله اصلی، پراکندگی خدمات مالی و نیاز به یک دروازه واحد برای دسترسی به آن‌هاست. راه‌حل ارائه یک اپلیکیشن همه‌کاره (Super App) است که پرداخت، پس‌انداز و خرید را در یک بستر یکپارچه می‌کند. معماری پیشنهادی بر پایه میکروسرویس‌ها با استفاده از Next.js برای فرانت‌اند و PostgreSQL برای مدیریت داده‌های تراکنشی است تا مقیاس‌پذیری و سرعت بالا تضمین شود. مدل درآمدی ترکیبی از کارمزد تراکنش‌ها و درآمد تبلیغاتی است که با حجم بالای کاربران شبکه اجتماعی تقویت می‌شود. نقاط قوت شامل شبکه اثر (Network Effect) قوی و تجربه کاربری یکپارچه است. نقاط ضعف اصلی، ریسک‌های نظارتی و چالش‌های ایجاد اعتماد اولیه در بازار مالی است. نکته طلایی برای ایران: تمرکز بر «ارسال آنی پول» به عنوان ویژگی کلیدی (Killer Feature) می‌تواند در شرایطی که سیستم‌های بانکی سنتی کند هستند، مزیت رقابتی فوری ایجاد کند.",
+      "iranEquivalent": {
+        "productName": "پول‌ایران",
+        "description": "پلتفرم یکپارچه مالی مبتنی بر شبکه اجتماعی داخلی که خدمات پرداخت آنی، پس‌انداز با سود بالا و خرید با پاداش نقدی را ارائه می‌دهد. این محصول با هدف حذف واسطه‌ها و تسهیل جریان نقدینگی در اکوسیستم دیجیتال ایران طراحی شده است. کاربران می‌توانند بدون نیاز به اپلیکیشن‌های متعدد، تمام امور مالی خود را مدیریت کنند.",
+        "marketOpportunity": "بازار پرداخت‌های دیجیتال در ایران با وجود تحریم‌ها و محدودیت‌های بانکی، تشنه‌ی راهکارهای سریع و یکپارچه است. ادغام لایه مالی با شبکه اجتماعی پربازدید می‌تواند نرخ تبدیل (Conversion Rate) را به شدت افزایش دهد.",
+        "estimatedBudget": "۳.۵ میلیارد تومان",
+        "targetAudience": "کاربران فعال شبکه‌های اجتماعی داخلی، فریلنسرها و کسب‌وکارهای کوچک که به سرعت در انتقال وجه و مدیریت مالی نیاز دارند.",
+        "challenges": [
+          "کسب مجوزهای قانونی از بانک مرکزی و سازمان فناوری اطلاعات برای فعالیت در حوزه پول الکترونیک.",
+          "ایجاد اعتماد عمومی در مورد امنیت ذخیره‌سازی و انتقال وجوه در یک پلتفرم جدید."
+        ],
+        "monetization": [
+          "دریافت کارمزد از تراکنش‌های بین‌بانکی و بین‌کاربر.",
+          "کسب درآمد از تبلیغات هدفمند بر اساس رفتار مالی کاربران."
+        ],
+        "techStack": [
+          "Next.js",
+          "PostgreSQL"
+        ],
+        "confidence": 75
+      }
     },
     {
       "id": "ph-yesterday-9",
@@ -18230,10 +18411,10 @@
   "audit": {
     "products": 244,
     "withRealComments": 244,
-    "withPersianComments": 93,
-    "withPersianDescription": 130,
-    "withAiReview": 113,
-    "withIranEquivalent": 130,
+    "withPersianComments": 97,
+    "withPersianDescription": 134,
+    "withAiReview": 117,
+    "withIranEquivalent": 134,
     "totalRealComments": 1499
   }
 }
