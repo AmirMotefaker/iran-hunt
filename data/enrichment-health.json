@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-04T16:58:37.014Z",
+  "checkedAt": "2026-09-04T17:21:42.453Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 124,
+  "succeeded": 0,
+  "failed": 5,
+  "backlogBefore": 122,
   "backlogAfter": 122,
   "completedProducts": 132,
   "missingFaDescription": 33,
@@ -23,6 +23,14 @@
     },
     {
       "slug": "murfy-ai",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "video-agent-by-fotor",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "interactive-sessions-by-revolte",
       "reason": "JSON parse failed"
     }
   ]
