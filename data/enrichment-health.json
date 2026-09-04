@@ -1,25 +1,16 @@
 {
-  "checkedAt": "2026-09-04T07:45:32.761Z",
+  "checkedAt": "2026-09-04T08:10:06.147Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 3,
-  "failed": 2,
-  "backlogBefore": 192,
-  "backlogAfter": 189,
-  "completedProducts": 65,
-  "missingFaDescription": 100,
-  "missingFaComments": 185,
-  "missingAiReview": 119,
-  "missingIranEquivalent": 100,
-  "failures": [
-    {
-      "slug": "epho",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "openlogi",
-      "reason": "JSON parse failed"
-    }
-  ]
+  "succeeded": 5,
+  "failed": 0,
+  "backlogBefore": 189,
+  "backlogAfter": 184,
+  "completedProducts": 70,
+  "missingFaDescription": 95,
+  "missingFaComments": 180,
+  "missingAiReview": 114,
+  "missingIranEquivalent": 95,
+  "failures": []
 }
