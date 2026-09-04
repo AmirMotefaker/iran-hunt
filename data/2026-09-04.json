@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "scrapedAt": "2026-09-04T04:48:04.410Z",
+  "scrapedAt": "2026-09-04T06:01:30.315Z",
   "periods": {
     "today": [
       {
@@ -812,729 +812,6 @@
           }
         ],
         "makerTwitter": ""
-      },
-      {
-        "id": "ph-today-2",
-        "date": "2026-05-28",
-        "rank": 2,
-        "name": "Revolte",
-        "slug": "revolte",
-        "tagline": "AI for Software Engineering",
-        "description": "Revolte is for engineering teams to turn intent into production-ready software faster, safer, and with more control. Its agents plan changes, generate code, run quality and security checks, create PRs, support deployment, monitor runtime behavior, and surface risks early. Engineers approve the important decisions. Revolte handles the delivery heavy lifting. Built for higher delivery throughput across SDLC, stronger governance, and more value shipped per engineer.",
-        "category": "Software Engineering • Developer Tools • Artificial Intelligence",
-        "categoryFa": "Software Engineering • ابزار توسعه‌دهندگان • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/revolte/launches/revolte?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/dee4d70a-480f-46f4-8fd2-726dc3d35ed2.gif?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/c4ed5948-91ae-4146-9b6f-9b72bf7f1e31.png?auto=format",
-          "https://ph-files.imgix.net/429f6371-51c5-40e0-9f12-7b5e1465600c.png?auto=format",
-          "https://ph-files.imgix.net/487f426b-3595-417e-a377-62306a9feb8f.png?auto=format",
-          "https://ph-files.imgix.net/3aaed598-75a3-433d-bbbc-aede00589b10.png?auto=format",
-          "https://ph-files.imgix.net/09fe911f-1aae-4ba0-83ff-24c32b84fc1d.png?auto=format",
-          "https://ph-files.imgix.net/175b7990-c21a-4587-bebf-9f1736c8ca64.jpeg?auto=format"
-        ],
-        "maker": "PRIYANKA MANDAL",
-        "makerTitle": "🦄Launching Lancepilot.com 🔥",
-        "featuredAt": "2026-05-28T07:01:00Z",
-        "votes": 294,
-        "websiteUrl": "https://www.producthunt.com/r/CNX6O53DMUYXTF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋 Raj here, founder & CEO of Revolte. For years, I’ve built and worked with engineering teams where the same pattern kept showing up: Writing code was rarely the only bottleneck. The real drag was everything around the code: setting up environments, running tests, managing deployments, fixing broken builds, triaging incidents, checking quality, and keeping delivery moving across disconnected tools. Coding assistants have made developers faster inside the IDE.But software delivery is much bigger than the IDE. That’s why we built Revolte. Revolte is AI for Software Engineering, an agentic platform that helps engineering teams move from intent to production with humans in control. Give Revolte a ticket or requirement, and its agents can help plan the implementation, work against your actual codebase, generate code, run checks, create the PR, support deployment, monitor runtime behavior, and surface what needs attention. But the important part is this: Revolte does not remove engineering judgment. Every meaningful change goes through human review. Engineers see the diff, the reasoning, the checks, and the rollback path before anything moves forward. We built it this way because production software cannot run on blind automation. It needs context, governance, and control. Our belief is simple: AI should not just help engineers type faster.AI should help engineering teams ship better software faster. Revolte is built for teams that want more delivery throughput without adding more delivery chaos. We’d love for you to try it, break it, test it on something real, and tell us where it falls short. https://revolte.ai/ And if you’re an engineering leader thinking about how agents can safely enter your SDLC, I’d be happy to talk through the governance side with you. Thanks for checking us out,Raj."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "how are you guys actually indexing the codebase for the planning and PR agents? are you running an upstream embedding sync on your cloud servers or does revolte run a local daemon process that evaluates repo context directly through a gateway connection?extending the agentic context to the full lifecycle outside the IDE is the absolute logical next step for engineering teams. outstanding work on this Raj..."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "For the planning and PR creation agents, how are you guys indexing the existing codebase? Are you running an upstream embedding sync on your cloud servers, or does Revolte run a local daemon process that evaluates repository context directly through a secure gateway connection?Extending the agentic context to the full lifecycle is the absolute logical next step for engineering teams. Outstanding execution on the product positioning, @rajagopalanarhope this lands product of the day!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "So glad to see a tool focusing on the overhead around the code rather than just trying to generate more lines of it. Most AI utilities just dump a massive code blob on you and leave you to figure out the integration mess, the test coverage, and the breaking PR branches. Having a structured agent handle the operational grind is a massive shift. @rajagopalanar"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "this is actually a really cool application. howd you come up wih the idea? I make AI plugins for premiere pro and adobe, do you think I could use it?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The 'engineers approve the important decisions' angle is smart — too many AI coding tools skip the governance layer entirely. Curious how Revolte handles merge conflicts when multiple agents touch the same file?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "What's the security story? We're in a regulated industry, but I'd want to understand data residency and whether the agent can run inside our own cloud account."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "How does this hold up on a real production codebase? Most AI dev tools i have tried demo well but then struggle the moment you point them at an older repo with legacy layers. Curious what your experience has been with messier codebases?"
-          }
-        ],
-        "faDescription": "ریولت برای تیم‌های مهندسی طراحی شده است تا نیت و ایده اولیه را سریع‌تر، ایمن‌تر و با کنترل بیشتر به نرم‌افزار آماده تولید تبدیل کنند. عامل‌های هوشمند آن تغییرات را برنامه‌ریزی می‌کنند، کد می‌سازند، بررسی‌های کیفی و امنیتی را اجرا می‌نمایند، درخواست‌های Pull ایجاد می‌کنند، از استقرار پشتیبانی کرده و رفتار زمان اجرا را پایش می‌کنند تا ریسک‌ها را زودتر شناسایی نمایند. مهندسان تصمیمات مهم را تایید می‌کنند و ریولت کارهای سنگین فرایند تحویل را بر عهده می‌گیرد. این ابزار برای افزایش توان تحویل در طول چرخه حیات توسعه نرم‌افزار (SDLC)، حاکمیت قوی‌تر و ایجاد ارزش بیشتر به ازای هر مهندس ساخته شده است.",
-        "faComments": [
-          {
-            "user": "کاربر ProductHunt 1",
-            "text": "سلام به پروداکت هانت 👋 من راج، بنیان‌گذار و مدیرعامل ریولت هستم. سال‌هاست که تیم‌های مهندسی را رهبری کرده‌ام و همواره یک الگوی تکراری را دیده‌ام: نوشتن کد نادراً تنها گلوگاه بود. کندی واقعی مربوط به حواشی کد بود: تنظیم محیط‌ها، اجرای تست‌ها، مدیریت استقرار، اصلاح بیلدهای شکست‌خورده، اولویت‌بندی باگ‌ها، بررسی کیفیت و پیشبرد تحویل در میان ابزارهای پراکنده. دستیارهای کدنویسی سرعت توسعه‌دهندگان را در IDE افزایش داده‌اند، اما تحویل نرم‌افزار بسیار فراتر از IDE است. به همین دلیل ریولت را ساختیم؛ پلتفرمی مبتنی بر عامل‌های هوشمند که به تیم‌ها کمک می‌کند با حفظ کنترل انسان، از ایده به تولید برسند. یک تیکت یا نیاز را به ریولت بدهید تا برنامه‌ریزی، کار روی کدبیس واقعی، تولید کد، بررسی‌ها، ایجاد PR، استقرار و پایش را انجام دهد. اما بخش مهم این است: ریولت قضاوت مهندسی را حذف نمی‌کند و هر تغییر مهمی از زیر دست انسان می‌گذرد. نرم‌افزار تولیدی نمی‌تواند با اتوماسیون کورکورانه اداره شود. ما باور داریم هوش مصنوعی نباید فقط سرعت تایپ را بالا ببرد، بلکه باید به تولید نرم‌افزار بهتر و سریع‌تر کمک کند. مشتاقانه منتظر تست و بازخوردهای شما هستیم."
-          },
-          {
-            "user": "کاربر ProductHunt 2",
-            "text": "چگونه کدبیس را برای عامل‌های برنامه‌ریزی و PR ایندکس می‌کنید؟ آیا همگام‌سازی امبدینگ‌ها را روی سرورهای ابری اجرا می‌کنید یا ریولت یک دیمون محلی دارد که با ارتباط امن درگاه، کانتکست ریپازیتوری را ارزیابی می‌کند؟ گسترش کانتکست عاملی به کل چرخه حیات خارج از IDE گام منطقی بعدی برای تیم‌های مهندسی است. کارتان فوق‌العاده بود راج..."
-          },
-          {
-            "user": "کاربر ProductHunt 3",
-            "text": "برای عامل‌های برنامه‌ریزی و ایجاد PR، چگونه کدبیس موجود را ایندکس می‌کنید؟ آیا همگام‌سازی امبدینگ ابری دارید یا یک فرآیند دیمون محلی از طریق اتصال درگاه امن کانتکست را بررسی می‌کند؟ گسترش کانتکست عامل هوشمند به کل چرخه حیات گام منطقی بعدی است. اجرای فوق‌العاده‌ای روی موقعیت‌یابی محصول داشتید راج، امیدوارم محصول روز شود!"
-          },
-          {
-            "user": "کاربر ProductHunt 4",
-            "text": "بسیار خرسندم که ابزاری را می‌بینم که به‌جای تولید خطوط کد بیشتر، بر حواشی و هزینه‌های بالاسری کد تمرکز دارد. اکثر ابزارهای هوش مصنوعی فقط حجم عظیمی از کد را تحویل می‌دهند و شما را با دردسرهای یکپارچه‌سازی، پوشش تست و شاخه‌های PR شکست‌خورده تنها می‌گذارند. داشتن یک عامل ساختاریافته برای مدیریت کارهای عملیاتی یک تحول بزرگ است."
-          }
-        ],
-        "aiReview": "🔹 مسئله و راه‌حل:\nبزرگ‌ترین گلوگاه در تیم‌های نرم‌افزاری، صرفاً تایپ کردن کد نیست؛ بلکه هزینه‌های بالاسری (Overhead) شامل تنظیم تست‌ها، بررسی‌های امنیتی، مدیریت PR، رفع بیلدهای شکست‌خورده و استقرار است. ابزارهای فعلی مثل Copilot تنها در IDE به کدنویسی سرعت می‌بخشند اما کل چرخه SDLC را پوشش نمی‌دهند. ریولت با ارائه ایجنت‌های هوشمند خودکار، تمام چرخه از ایده تا تولید (Intent to Production) را با حفظ نظارت کامل مهندس انسان مدیریت می‌کند.\n\n🔹 معماری و تکنولوژی:\nریولت از معماری مبتنی بر ایجنت (Agentic Architecture) استفاده می‌کند که در آن عامل‌های هوشمند چندگانه برای برنامه‌ریزی، تولید کد، اجرای تست، CI/CD و پایش زمان اجرا همکاری می‌کنند. چالش اصلی معماری در ایندکس کردن دقیق کدبیس و ایجاد Context Window بزرگ بدون افشای داده‌های حساسی است که کاربران نیز در کامنت‌ها به بررسی مدل امبدینگ ابری در برابر Daemon محلی اشاره کرده‌اند.\n\n🔹 مدل درآمدی:\nمدل B۳B SaaS مبتنی بر تعداد مهندسان یا میزان مصرف پردازشی (Usage-based). همچنین ارائه پلن‌های انترپرایز با قابلیت نصب On-Premise و حاکمیت داده (Governance) ویژه برای شرکت‌های بزرگ.\n\n🔹 نقاط قوت:\n- تمرکز بر کل چرخه حیات نرم‌افزار (SDLC) به جای محدود ماندن به محیط IDE.\n- حفظ نقش کلیدی انسان در تصمیم‌گیری‌ها (Human-in-the-loop) و جلوگیری از اتوماسیون کورکورانه.\n- کاهش چشمگیر زمان چرخه (Cycle Time) و ایجاد ارزش بیشتر به ازای هر مهندس.\n\n🔹 نقاط ضعف:\n- وابستگی شدید به دقت مدل‌ها؛ یک اشتباه کوچک در چرخه استقرار می‌تواند منجر به اختلال در محیط تولید (Production) شود.\n- چالش‌های پیچیده امنیتی و حریم خصوصی کدهای سازمان‌ها هنگام ارسال کانتکست به مدل‌های ابری.\n\n🔹 نکته طلایی برای ایران:\nدر بازار ایران به دلیل کمبود نیروی ارشد و چالش‌های نگهداری تیم‌ها، ارائه این ابزار به صورت Self-Hosted (آن‌پرمیس) و متصل به سیستم‌های بومی (مانند گیت‌لب‌های داخلی) برای سازمان‌های مالی، بانکی و شرکت‌های بزرگ، جذابیت تجاری بسیار بالایی ایجاد می‌کند.",
-        "iranEquivalent": {
-          "productName": "دیپ‌دپ (DeepDep)",
-          "description": "دیپ‌دپ یک پلتفرم بومی اتوماسیون چرخه توسعه نرم‌افزار با هوش مصنوعی است که فرایندهای بعد از کدنویسی نظیر تست، ساخت PR و بررسی‌های امنیتی را خودکار می‌کند. این سیستم با متصل شدن به گیت‌لب و ابزارهای داخلی، بار عملیاتی و حواشی سنگین تیم‌های فنی را به شدت کاهش می‌دهد. در نهایت، مهندسان ایرانی می‌توانند به جای درگیری با کارهای تکراری CI/CD، تمرکز خود را بر منطق کسب‌وکار بگذارند.",
-          "marketOpportunity": "با توجه به مهاجرت گسترده نیروهای ارشد فنی در ایران و نیاز مبرم شرکت‌های بزرگ به افزایش بهر‌ه‌وری تیم‌های موجود، چنین ابزاری بازار بسیار مستعدی دارد. همچنین تحریم ابزارهای بین‌المللی و نیاز سازمان‌ها به راهکارهای آن‌پرمیس (On-Premise)، فرصت بالایی برای ارائه یک ابزار بومی ایجاد کرده است.",
-          "estimatedBudget": "۴ تا ۶ میلیارد تومان",
-          "targetAudience": "شرکت‌های بزرگ فناوری، هلدینگ‌های نرم‌افزاری، بانک‌ها و تیم‌های توسعه متوسط تا بزرگ",
-          "challenges": [
-            "پیچیدگی یکپارچه‌سازی با زیرساخت‌ها و ابزارهای سنتی یا شخصی‌سازی‌شده شرکت‌های ایرانی",
-            "نگرانی‌های شدید امنیتی سازمان‌ها در خصوص دسترسی هوش مصنوعی به سورس‌کد پروژه"
-          ],
-          "monetization": [
-            "اشتراک ماهانه/سالانه بر اساس تعداد مهندسان فعال (SaaS)",
-            "فروش لایسنس سازمانی آن‌پرمیس (Self-Hosted) به همراه خدمات پشتیبانی اختصاصی"
-          ],
-          "techStack": [
-            "Python",
-            "FastAPI",
-            "Next.js",
-            "PostgreSQL",
-            "Docker",
-            "Qdrant",
-            "LangChain"
-          ],
-          "confidence": 85
-        }
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-08-26",
-        "rank": 3,
-        "name": "PostHog Desktop",
-        "slug": "posthog-desktop-3",
-        "tagline": "The product editor for product builders",
-        "description": "A multiplayer workspace for you, your team, and your agents – with your product data as context, and PostHog tools to ship and measure. Build and edit your product | Run a fleet of agents | Turn product signals into PRs.",
-        "category": "Open Source • Developer Tools • Artificial Intelligence • GitHub",
-        "categoryFa": "متن‌باز • ابزار توسعه‌دهندگان • هوش مصنوعی • گیت‌هاب",
-        "url": "https://www.producthunt.com/products/posthog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/644b3a24-7a4e-48c9-b9bb-16ada3350013.gif?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/ff678315-cade-4909-97d9-b598b74e9b8f.png?auto=format",
-          "https://ph-files.imgix.net/a06a5206-b6fc-42b9-8184-862f11b34f15.png?auto=format",
-          "https://ph-files.imgix.net/aa0a341b-3b06-4544-9682-198dc77ac93f.png?auto=format",
-          "https://ph-files.imgix.net/f0f6a4df-fb77-4f69-967e-d5236a7a1fec.png?auto=format",
-          "https://ph-files.imgix.net/7438f813-c5fc-4c30-919d-78aea4854db3.png?auto=format",
-          "https://ph-files.imgix.net/27bc129c-7436-4afe-a767-ecfba7bd5e02.png?auto=format",
-          "https://ph-files.imgix.net/221c874e-829a-42e1-8d3d-abc4ce231f71.png?auto=format",
-          "https://ph-files.imgix.net/fcc26bed-26c9-4f28-9a52-a3ab009769a7.jpeg?auto=format"
-        ],
-        "maker": "James Hawkins",
-        "makerTitle": "",
-        "featuredAt": "2026-08-26T07:01:00Z",
-        "votes": 290,
-        "websiteUrl": "https://www.producthunt.com/r/2RW3QOUU4OK7XB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "PostHog Desktop (previously, PostHog Code) is an AI-powered product editor for product builders.Problem: Most AI code editors lack real product context and start every session cold, so you’re still the one watching rollouts and catching regressions.Solution: A multiplayer workspace where you, your team, and a fleet of agents build with your actual product data (logs, errors, session recordings, funnels, flags, experiments, tickets, etc.) as context.What makes it different: It reads signals from production and turns them into shippable work, product signals go in, PRs come out. Unlike generic AI editors, it “knows your product” and can ship improvements while you sleep.Key features:Run a fleet of agents in parallel, with plan/auto modes and switchable models (Claude, Codex, open-weight).Personal + team skills + skills marketplace, plus PostHog-maintained skills for events, flags, experiments, error tracking.MCP marketplace integrations (GitHub, Slack, Linear, Figma, Stripe, Sentry, etc.).Multiplayer channels with persistent memory so agents don’t need re-briefing.Inbox that surfaces reports and pull requests from product signals.Benefits: Less context-switching, faster iteration from idea → plan → PR, and more outcome-oriented work (you orchestrate, agents execute).Who it’s for: Product builders and teams who want to move from writing code / prompting outputs to orchestrating outcomes with AI agents.Use cases: Turning in-app activity, errors, funnel drop-offs, and support signals into concrete improvements and PRs; running parallel agent tasks across a shared workspace.Try it on macOS (or other platforms) and read the docs.P.S. I hunt the latest and greatest launches in tech, SaaS and AI, follow to be notified → @rohanrecommends"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Great idea, congrats on the launch!"
-          }
-        ],
-        "makerTwitter": ""
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-09-03",
-        "rank": 3,
-        "name": "Nex",
-        "slug": "nex-4",
-        "tagline": "Claude Cowork for high-volume GTM workflows",
-        "description": "Nex automates workflows like CRM clean up, large list qualification, revenue recovery, at large volumes, that break general purpose agents. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
-        "category": "Sales • SaaS • Artificial Intelligence",
-        "categoryFa": "فروش • نرم‌افزار ابری • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/7d330afb-0e5a-48fa-8c93-85ff4b8e62e6.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
-          "https://ph-files.imgix.net/1a431835-168e-445a-8cf3-f5d70efe607f.png?auto=format",
-          "https://ph-files.imgix.net/f1748a68-8e5d-4b76-814c-efc519c89de6.png?auto=format",
-          "https://ph-files.imgix.net/d32198e4-53ca-4530-93c2-a61463266598.png?auto=format",
-          "https://ph-files.imgix.net/80d25ced-5ae0-4057-be72-acd4ab50347b.jpeg?auto=format"
-        ],
-        "maker": "Francisco Dias",
-        "makerTitle": "Just trying to help out.",
-        "featuredAt": "2026-09-03T07:01:00Z",
-        "votes": 286,
-        "websiteUrl": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey PH 👋 I'm Nazz, co-founder and CEO of Nex. Francisco (my co-founder/CTO) and I spent years at HubSpot running its three largest customer platforms. Francisco was the 4th person on the team that built HubSpot's CRM, and took the fight to Salesforce. Together, we saw the same thing over and over: GTM teams have messy, high-volume workflows, from prospecting thousands of leads to qualifying them to cleaning up a million CRM records to re-engaging lost deals. General-purpose agents choke on this. If you try to run these workflows at scale through a general-purpose agent today, you'll hit limits immediately and still fail. So we built Nex, where you can build and execute the high-volume GTM workflows that general-purpose agents struggle with. One example: on a single onboarding call, Nex audited thousands of records in a customer's HubSpot and started fixing the bad data before the call was even over. We launched 2 weeks ago and became the more viral launch of the batch: https://lnkd.in/p/e6fJijuv. HubSpot's founder, Dharmesh Shah, also backs us. We'd genuinely love your feedback. Try it at nex.ai and tell us what workflow you'd throw at it first. We'll be in the comments all day answering everything. 🙏"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Amazing team!!! Congrats on the launch!! 🚀"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "the 100k-record onboarding example is a great demo. curious how pricing works at that volume - is it usage/record-based or a flat seat price? a lot of agent tools that shine on big one-off cleanups get surprisingly expensive once you run them continuously."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "this is so cool!!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Hey! Just checked out the platform.How far can you push custom research workflows? For example, could I find 20 active AI newsletters, filter by audience size/topic, then find the right editor + contact info?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "LETS GOOOOOO"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Every GTM tool I get pitched wants my live CRM connected before I can judge it. Is there a way to run a workflow on a sample first?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "u told charles u deliberately dont use the word agent bcoz operators want outcomes. so on a 100k record cleanup that half fails, do they see which rows got fixed?"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-1",
-        "date": "2021-05-26",
-        "rank": 1,
-        "name": "Cohere",
-        "slug": "cohere-2",
-        "tagline": "See what your users are seeing, engage them with context.",
-        "description": "Cohere lets you see exactly how users interact with your web app, and offer a helping hand if they need it – it’s like you’re sitting right next to your users. With Cohere Replay, you can now get the seamless live Cohere experience, now retroactively.",
-        "category": "Web App • Productivity • Customer Communication • Growth Hacking",
-        "categoryFa": "وب اپلیکیشن • بهره‌وری • Customer Communication • Growth Hacking",
-        "url": "https://www.producthunt.com/products/cohere/launches/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/e32afccb-1459-4cfd-a7d1-c72d1bcd1c6f.gif?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/c3700885-e810-495b-b0f8-06d779662279.gif?auto=format",
-          "https://ph-files.imgix.net/33651075-8a6b-4560-b7ad-a07202455475.gif?auto=format",
-          "https://ph-files.imgix.net/0a9ba034-70ff-4afb-9423-6ed9008eccfe.gif?auto=format",
-          "https://ph-files.imgix.net/3ff5f93f-d8ea-4c84-aa4e-8d312b9b3d39.gif?auto=format"
-        ],
-        "maker": "Rahul Sengottuvelu",
-        "makerTitle": "Founder, Cohere (YC S20)",
-        "featuredAt": "2021-05-26T07:05:00Z",
-        "votes": 278,
-        "websiteUrl": "https://www.producthunt.com/r/20fcf39d7fb896?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Its look like a grate product."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Very useful"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I still can’t believe how quickly this team iterates. We’re big fans of Replay at Ramp. Replay has really helped us understand where our users are struggling so that we can optimize our most critical user flows."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "What a revolutionary product and on point execution indeed! I have a question though. Can we also track android/iOS app experience or is it only compatible with websites for now?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "It is really amazing"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Looks awesome! Great work! 🚀"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love the launch and congrats Cohere team!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I wish I could say I'm the Cohere team's biggest fan, but we use this product every day. Now with this release, we don't need Hotjar, we can keep all of our screen recordings with easy url search inside Cohere. We love what the Cohere team is doing!"
-          }
-        ],
-        "faDescription": "کوهیر به شما امکان می‌دهد دقیقاً نحوه تعامل کاربران با برنامه وب خود را مشاهده کنید. شما می‌توانید در صورت نیاز کاربران به کمک، به آن‌ها دست یاری و راهنمایی فوری ارائه دهید. این تجربه دقیقاً مانند این است که شما درست در کنار کاربران خود نشسته‌اید. با قابلیت جدید «کوهیر ریپلی»، اکنون می‌توانید تجربه بی‌نقص و زنده کوهیر را به صورت گذشته‌نگر و در قالب ویدیوهای ضبط‌شده نیز دریافت کنید.",
-        "faComments": [
-          {
-            "user": "کاربر ProductHunt 1",
-            "text": "به نظر محصول فوق‌العاده‌ای می‌رسد."
-          },
-          {
-            "user": "کاربر ProductHunt 2",
-            "text": "بسیار کاربردی"
-          },
-          {
-            "user": "کاربر ProductHunt 3",
-            "text": "هنوز باورم نمی‌شود که این تیم با چه سرعتی محصول خود را ارتقا می‌دهد. ما در شرکت Ramp طرفدار سرسخت ریپلی هستیم. ریپلی واقعاً به ما کمک کرده تا بفهمیم کاربرانمان در کجا دچار مشکل می‌شوند تا بتوانیم حیاتی‌ترین مسیرهای کاربری خود را بهینه‌سازی کنیم."
-          },
-          {
-            "user": "کاربر ProductHunt 4",
-            "text": "چه محصول انقلابی و اجرای دقیق و به‌موقعی! البته یک سوال دارم؛ آیا می‌توانیم تجربه اپلیکیشن‌های اندروید و iOS را هم بازبینی کنیم یا در حال حاضر فقط با وب‌سایت‌ها سازگار است؟"
-          }
-        ],
-        "aiReview": "🔹 مسئله و راه‌حل:\nکسب‌وکارهای اینترنتی معمولاً نمی‌دانند چرا کاربران در فرآیندهای حساس مثل ثبت‌نام یا خرید منصرف می‌شوند. Cohere با ترکیب بازبینی تصویری تعاملات (Session Replay) و ابزار مداخله زنده (Co-browsing)، امکان مشاهده رفتار کاربر و ارائه کمک فوری را فراهم می‌کند تا نرخ تبدیل و رضایت مشتری به حداکثر برسد.\n\n🔹 معماری و تکنولوژی:\nبرای پیاده‌سازی چنین سیستمی، نیاز به یک اسکریپت کلاینت بسیار سبک (مانند rrweb) برای ثبت تغییرات DOM است. در سمت سرور، استفاده از WebSockets برای انتقال زنده رویدادها، پایگاه‌داده‌های Time-series نظیر ClickHouse برای ذخیره‌سازی حجیم رویدادها و Node.js/Go برای مدیریت اتصالات هم‌زمان بالا ضروری است.\n\n🔹 مدل درآمدی:\nمدل درآمدی اصلی مبتنی بر SaaS و پله‌ای (Tiered Pricing) است که بر اساس تعداد جلسات ضبط‌شده در ماه، مدت زمان نگهداری داده‌ها و تعداد اعضای تیم تغییر می‌کند. همچنین پلن‌های سفارشی برای سازمان‌های بزرگ با نیازهای امنیتی خاص ارائه می‌شود.\n\n🔹 نقاط قوت:\n- قابلیت تعامل و راهنمایی زنده کاربر علاوه بر بازبینی ویدیوهای گذشته\n- سرعت بالای توسعه و بهبود محصول طبق بازخورد مشتریان\n- تاثیر مستقیم بر کاهش ریزش کاربر در مسیرهای حساس (Critical Flows)\n\n🔹 نقاط ضعف:\n- تمرکز فعلی بیشتر بر بستر وب و محدودیت در پشتیبانی بومی از اپلیکیشن‌های موبایل\n- چالش‌های حریم خصوصی در صورت عدم تنظیم دقیق ماسک‌گذاری داده‌ها\n\n🔹 نکته طلایی برای ایران:\nدر بازار ایران، ابزارهای خارجی مثل Hotjar به دلیل کندی اینترنت، تحریم‌ها و عدم امکان پرداخت ارزی چالش‌برانگیز هستند. بومی‌سازی این ابزار با تمرکز بر «ماسک‌گذاری خودکار شماره کارت‌های شتاب و اطلاعات حساس» و ارائه «نسخه قابل نصب روی سرور داخلی (On-Premise)» برای بانک‌ها، بیمه‌ها و استارتاپ‌های بزرگ ایرانی می‌تواند یک فرصت تجاری بسیار سودآور باشد.",
-        "iranEquivalent": {
-          "productName": "بینش‌نما (یا دیده‌بان وب)",
-          "description": "این محصول یک پلتفرم بازبینی جلسات کاربر و پشتیبانی هم‌زمان برای کسب‌وکارهای آنلاین ایرانی است. با استفاده از این ابزار، تیم‌های پشتیبانی و محصول می‌توانند دقیقاً مشاهده کنند که کاربر در چه مرحله‌ای دچار چالش شده است. همچنین امکان مداخله زنده و راهنمایی مستقیم کاربر در همان لحظه برای افزایش نرخ تبدیل وجود دارد.",
-          "marketOpportunity": "اکثر استارتاپ‌ها و فروشگاه‌های آنلاین ایرانی با نرخ ریزش بالای کاربران در مراحل نهایی خرید یا ثبت‌نام مواجه هستند. ارائه یک ابزار بومی بازبینی جلسات و پشتیبانی زنده با رعایت کامل حریم خصوصی، پاسخگوی نیاز مبرم بازار ایران است.",
-          "estimatedBudget": "۳ تا ۴.۶ میلیارد تومان",
-          "targetAudience": "تیم‌های محصول، کارشناسان پشتیبانی مشتریان (Customer Support)، طراحان تجربه کاربری (UX) و فروشگاه‌های اینترنتی",
-          "challenges": [
-            "ملاحظات شدید حریم خصوصی و امنیت داده‌های حساس کاربران (مانند اطلاعات بانکی و هویت فردی)",
-            "چالش‌های فنی در کاهش بار اسکریپت ضبط روی مرورگر برای جلوگیری از افت سرعت سایت کاربر",
-            "هزینه‌های بالای زیرساخت ذخیره‌سازی و پردازش داده‌های ویدیویی و رویدادها"
-          ],
-          "monetization": [
-            "اشتراک ماهانه یا سالانه بر اساس تعداد جلسات (Sessions) ضبط‌شده",
-            "پلن‌های سازمانی (Enterprise) با امکان نصب روی سرور اختصاصی مشتری (On-Premise)",
-            "فروش قابلیت‌های پیشرفته مانند تحلیل هوشمند خطاهای JS و گزارش‌گیری اختصاصی"
-          ],
-          "techStack": [
-            "Next.js",
-            "Node.js",
-            "TypeScript",
-            "ClickHouse",
-            "PostgreSQL",
-            "WebSockets",
-            "rrweb"
-          ],
-          "confidence": 85
-        }
-      },
-      {
-        "id": "ph-today-2",
-        "date": "2026-08-29",
-        "rank": 2,
-        "name": "1752vc Pitch Deck Analyzer",
-        "slug": "1752vc-pitch-deck-analyzer",
-        "tagline": "Know what investors will say before you ever hit send.",
-        "description": "The Pitch Deck Analyzer gives you investor-grade feedback in minutes — trained on 25,000+ real decks and the investor decisions that followed. Upload yours and get slide-by-slide fundability feedback — stage-calibrated, checking narrative cohesion and cross-checking your claims for contradictions investors will catch. Know exactly where you lose conviction before you ever hit send. Built by 1752vc, a VC firm evaluating 4,000+ startups a year.",
-        "category": "Venture Capital • Artificial Intelligence • Fundraising",
-        "categoryFa": "Venture Capital • هوش مصنوعی • Fundraising",
-        "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/3239530f-92c7-4e13-afa7-66b4172dcb92.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/781f3295-14ef-4e6c-8928-f2dd1122ba77.png?auto=format",
-          "https://ph-files.imgix.net/71b334e1-7847-47f6-bc0d-f56307f3fb24.png?auto=format",
-          "https://ph-files.imgix.net/89305061-6f42-4935-a3e5-3f1da41b0958.png?auto=format",
-          "https://ph-files.imgix.net/9c8298e4-63d7-449f-b58f-4659c2c96f73.png?auto=format",
-          "https://ph-files.imgix.net/bbd6c841-c1f5-4108-aec0-cf48b4e1fe1c.png?auto=format",
-          "https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format"
-        ],
-        "maker": "Lucas Pols",
-        "makerTitle": "GP of 1752vc",
-        "featuredAt": "2026-08-29T07:01:00Z",
-        "votes": 276,
-        "websiteUrl": "https://www.producthunt.com/r/DU4BZJ5GYQ4Z44?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋We're 1752vc, a GTM-focused VC and Accelerator based in California that receives 4,000+ applications every year.Something true about venture generally, not just us: most decks get passed on, and almost none of those founders are ever told why. That isn't investors being cruel. There's simply no version of the job where you write thousands of pieces of real feedback a year, so the honest reason stays in the room and the founder only gets a polite no.So we built the thing we couldn't do by hand. Upload a deck and the Pitch Deck Analyzer reads it slide by slide the way an investor does, scored across 3,000+ investor attributes and trained on 25,000+ real decks and the decisions that followed them.• It's calibrated on investor decisions, not design opinion. Of everything it has flagged so far, only 2% was cosmetic. And that is on purpose. Nobody has ever passed on a company because of a font.• It tells you which slide, and which problems are load-bearing. The average deck comes back with a dozen flags, and they are not equal. You get them separated by severity and tied to the slide that caused them, so you're not polishing the cover slides while the financials sink you.• It doesn't end at a grade. We're a fund, not a tool company. Knowing what's wrong only matters if you fix it and go back out, and for the decks that clear the bar, that road leads to investments from us.2,000 founders have run their decks through the analyzer during alpha - before we'd announced anything! One thing that became clear in the results: what quietly costs founders the meeting usually isn't design, or market size, or even traction. It's the deck arguing against itself. A claim in one slide that doesn't survive the next, and almost nobody catches that in their own material.Everyone here gets a 5 free deck reviews using the promo code above, no credit card needed. Try it and let us know what it caught that you didn't expect. Especially if you've raised before: does the feedback track with what investors actually told you? Those are the only tests that matter. https://1752.aiWe're here all day."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Great product, Congratulations🎉 on the launch!!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The feedback I got was very useful. It would be even better if it gives examples in addition to comments. For example, one feedback I got was that there was no \"ask\" slide. Some tailored samples based on other slides in the deck would be very helpful."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "@tmaleh_ Congratulations. And happy product launch."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "<sigh>I guess I'll be that guy. Folks, here are some rules you might want to consider.It's five core slides. 1) the problem 2) how big is it 3) the solution 4) how much do they pay 5) why you. Everything else builds upon 5 core points: problem/solution/how big/who pays/why you. Everything else builds on that. Which means:Don't pay for this stuff. I don't know what \"five free deck reviews\" means for this offer as it's not explained on their site, but like the nutty VC Boom stuff (look at the similar products ---->), this should not be your priority when it comes to spending money. build the MVP instead of obsessing over slides. Get on LinkedIn, Reddit, FB, wherever, and get some customers to see if the dogs will eat it. The friction to build is very low and the long tail theory says find customers for your solution as that's the best validation possible. A \"try it\" email, trumps 5 or 50 slides every. single. day. No investor (ever) has tried a product, loved it, and then bailed because of a crappy slide deck. VC firms, Angel Networks, Accelerators, all need deal flow and all have ways of getting it with this lemmie review your deck being one of them. Our man @ben_kahan, here posted a spray and pray list on LinkedIn of so-called angels with no links or any contact information. Head over there and look at the comments. Not saying Ben is a bad guy or doing evil things. I am pointing out that all of this not rainbows and puppy dogs or pro bono love. Ben wants deal flow. Nothing wrong with that. You, the new founder should go into this process with your eyes wide open.Your 20 dollar a month plan with get you a lot of help. Ask your chat bot to identify the nearest angel group in your area. There are tons of true pro bono types willing to help you with your end goals in mind; not theirs. And before you ask, I was a VC for 9 years and built 3 start up companies. I've seen this movie a few times.Good luck"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Such a great tool. The feedback was great!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Anything that will help us put our best foot forward when working to secure funding is deply appreciated. Having access to a tool built by investors to help identify where a deck needs improvement is invaluable."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on shipping! Thx for creating resources to help founders :)"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2025-11-23",
-        "rank": 3,
-        "name": "BrandJet AI",
-        "slug": "brandjet-ai",
-        "tagline": "Turn brand insights into outreach that moves fast",
-        "description": "BrandJet is the mission control for outreach and brand intelligence. Run campaigns across email, LinkedIn, WhatsApp, and Instagram all in one place. Track any topic, brand, or competitor across the web with AI-powered sentiment analysis. See how people react, measure impact, and act on real insight — not noise. Outreach, analytics, and intelligence — unified.",
-        "category": "Email • Sales • Data & Analytics",
-        "categoryFa": "ایمیل • فروش • Data & Analytics",
-        "url": "https://www.producthunt.com/products/brandjet-ai/launches/brandjet-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/5c9b1391-9822-4df8-8ac7-bc66d97daa04.jpeg?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/f0df27c9-ddb3-46f6-acf4-087da79c710a.png?auto=format",
-          "https://ph-files.imgix.net/ca078c4d-b123-4856-8c3e-cb207dc90b68.png?auto=format",
-          "https://ph-files.imgix.net/61f5abf5-e779-4c0b-a3cb-1bf9eaa2fc7c.png?auto=format",
-          "https://ph-files.imgix.net/d09a9801-2bbe-4b5c-9891-7ae2b0460e92.png?auto=format",
-          "https://ph-files.imgix.net/40fd3ba0-5e43-4bab-8f33-e9fc66eef453.jpeg?auto=format"
-        ],
-        "maker": "Marsad Aurangzeb",
-        "makerTitle": "Founder and poet, building brandjet.ai",
-        "featuredAt": "2025-11-23T08:01:00Z",
-        "votes": 272,
-        "websiteUrl": "https://www.producthunt.com/r/MPS47UGBVO7ZXR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey everyone! I’m Marsad – co-founder of BrandJet AI. Bear with me for a minute here.After doing GTM for years, including some Fortune 500 clients, I noticed something going wrong at startups and agencies: every GTM or marketing team I knew was juggling a small army of tools just to do outreach. One for cold emails, another for LinkedIn, another for WhatsApp or Instagram. Add in deliverability tools, analytics dashboards, CRMs — it was a mess. Brand intelligence and outreach were completely disconnected. What if we could fix this, kick it up a notch, and integrate it with a powerful monitoring tool? Something easy to set up and automate? A few months on from that realization, I’m happy to announce that’s exactly what we did, and then some more. The idea is simple: one command centre for outreach automations and brand intelligence. We built BrandJet because outreach and brand intelligence shouldn’t live in separate worlds, and running your campaigns should be as easy as a few clicks. It’s one platform that brings everything together: cold email, LinkedIn, WhatsApp, and Instagram: all connected, with shared and channel-specific analytics, as well as an AI powered unibox that saves you a headache with its sentiment analysis and lead categorization. But what I’m really proud of is our monitoring tool, because it allows you to listen to the internet however you want. You can monitor your brand sentiment, track mentions, keywords, and even how AI systems interpret your company across the web. Any keyword, any topic, any company - you’ll be the first to know when things happen, and it feeds directly into your outreach campaigns. No guess work, no headaches, only data driven decisions at every step so you can be three steps ahead of the curve. If you’ve ever felt frustrated by SaaS bloat or just wanted to see what a truly unified GTM platform looks like, give it a try. I believe it’s a powerful, swiss-knife-esque platform, that can empower any user with data and outreach automations at scale, and I’d love to hear from the community <3"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congratulations on the launch @marsadist! It seems like an interesting product. Is it only for cold outreach or can be used for trigger-based campaigns as well, especially for emails and LinkedIn?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "One feature that would be super powerful: Unified Inbox with AI Prioritization: all replies from email, LinkedIn, WhatsApp, IG in one feed, auto-ranked by intent and importance. Would make cross-platform outreach way smoother!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Great project. I have a question about usage. I need to track posts on social networks (especially LinkedIn and Twitter) for mentions of keywords related to the services I sell. And preferably do this every day. Can you do that?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Tried BrandJet and it's honestly a game-changer for tracking brand mentionsI was juggling like 5 different tools just to monitor where my brand was mentioned online. Twitter, Reddit, news sites, YouTube—all separate dashboards, all annoying. BrandJet pulled everything into one place and it's so much cleaner.The best part? Once you find a mention, you can literally start an outreach campaign from the same dashboard. Like, you see someone mentioning your brand on Twitter, and boom—you can reach them on email, LinkedIn, Instagram, WhatsApp, all at once. No jumping between apps.The sentiment analysis is pretty solid too. It automatically flags which mentions actually matter vs the random noise. Saves a ton of time sorting through everything.Setup was super easy, no tech headaches. Their email warmup is included which is nice. And the pricing doesn't feel crazy compared to buying 3-4 separate tools.Not perfect (some UI could be more intuitive), but if you're serious about brand monitoring + outreach, it's actually worth testing. Beat having to manually track everything like I was doing before.Thumbs up from me ✌️"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This seems to be an amazing all-in-one solution, covered all pillars of marketing. Just Amazing!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The unified outreach and brand intelligence approach that BrandJet AI offers is compelling Bringing email, LinkedIn, WhatsApp, and social channels together with analytics should streamline go‑to‑market efforts and provide actionable insights I’m looking forward to seeing how teams leverage it to improve engagement and make data‑driven decisions"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Well done on the launch!How are you helping customers get used to the tool? How difficult is it to learn and what support do you provide?"
-          }
-        ],
-        "faDescription": "برندجت ای‌آی مرکز فرماندهی برای مدیریت کمپین‌های بازاریابی و هوش برند است. شما می‌توانید کمپین‌های خود را از طریق ایمیل، لینکدین، واتس‌اپ و اینستاگرام را در یک پلتفرم واحد اجرا کنید. با استفاده از تحلیل احساسات مبتنی بر هوش مصنوعی، هر موضوع، برند یا رقیبی را در سراسر وب ردیابی کنید. واکنش‌های مردم را مشاهده کنید، تأثیرگذاری را اندازه بگیرید و بر اساس بینش‌های واقعی عمل کنید، نه شایعات؛ بازاریابی، تحلیل داده و هوش تجاری در یکجا.",
-        "faComments": [
-          {
-            "user": "کاربر ProductHunt 1",
-            "text": "سلام به همه! من مارسد، هم‌بنیان‌گذار برندجت ای‌آی هستم. لطفاً چند دقیقه صبر کنید. پس از سال‌ها کار در حوزه به‌کارگیری فناوری (GTM)، از جمله کار با برخی مشتریان فهرست فورتون ۶۰۰، متوجه شدم که چیزی در استارتاپ‌ها و آژانس‌ها اشتباه پیش می‌رود: هر تیم بازاریابی یا GTM‌ای که می‌شناختم، با یک ارتش کوچک از ابزارها دست‌وپنجه نرم می‌کرد تا فقط بازاریابی انجام دهد. یکی برای ایمیل سرد، دیگری برای لینکدین، و یکی دیگر برای واتس‌اپ یا اینستاگرام. اگر ابزارهای تحویل‌پذیری، داشبوردهای تحلیلی و CRM‌ها را هم اضافه کنید، همه‌چیز به آشفتگی تبدیل شده بود. هوش برند و بازاریابی کاملاً از هم جدا بودند. اگر بتوانیم این مشکل را حل کنیم، آن را ارتقا دهیم و با یک ابزار پایش قدرتمند یکپارچه کنیم؟ چیزی که راه‌اندازی و اتوماسیون آن آسان باشد؟ چند ماه پس از آن درک، خوشحالم که اعلام می‌کنم دقیقاً همین کار را کردیم و فراتر از آن. ایده ساده است: یک مرکز فرماندهی واحد برای اتوماسیون بازاریابی و هوش برند. ما برندجت را ساختیم زیرا بازاریابی و هوش برند نباید در دنیاهای جداگانه زندگی کنند و اجرای کمپین‌های شما باید به سادگی چند کلیک باشد. این یک پلتفرم واحد است که همه چیز را گرد هم می‌آورد: ایمیل سرد، لینکدین، واتس‌اپ و اینستاگرام؛ همه متصل، با تحلیل‌های مشترک و اختصاصی هر کانال، به علاوه یک صندوق ورودی واحد مبتنی بر هوش مصنوعی که با تحلیل احساسات و دسته‌بندی سرنخ‌ها، سردرد شما را دیر می‌کند. اما چیزی که واقعاً به آن افتخار می‌کنم، ابزار پایش ماست، زیرا به شما اجازه می‌دهد به اینترنت به هر شکلی که بخواهید گوش دهید. می‌توانید احساسات برند خود را پایش کنید، اشاره‌ها، کلمات کلیدی و حتی اینکه سیستم‌های هوش مصنوعی چگونه شرکت شما را در سراسر وب تفسیر می‌کنند را ردیابی کنید. هر کلمه کلیدی، هر موضوع، هر شرکت - شما اولین نفری هستید که از اتفاقات باخبر می‌شوید و این مستقیماً به کمپین‌های بازاریابی شما بازخورد می‌دهد. حدس و گمانی وجود ندارد، سردردی وجود ندارد، فقط تصمیمات مبتنی بر داده در هر مرحله تا سه قدم جلوتر از منحنی باشید. اگر تا به حال از تورم نرم‌افزارهای SaaS خسته شده‌اید یا فقط می‌خواستید ببینید یک پلتفرم GTM واقعاً یکپارچه چگونه به نظر می‌رسد، آن را امتحان کنید. من باور دارم که این یک پلتفرم قدرتمند و شبیه چاقوی سوئیسی است که می‌تواند هر کاربری را با داده و اتوماسیون بازاریابی در مقیاس بزرگ توانمند کند و دوست دارم از جامعه بشنوم <۴"
-          },
-          {
-            "user": "کاربر ProductHunt 2",
-            "text": "تبریک بابت لانچ @marsadist! به نظر می‌رسد محصول جالبی باشد. آیا فقط برای بازاریابی سرد استفاده می‌شود یا می‌توان از آن برای کمپین‌های مبتنی بر محرک (Trigger-based) نیز استفاده کرد، به ویژه برای ایمیل و لینکدین؟"
-          },
-          {
-            "user": "کاربر ProductHunt 3",
-            "text": "قابلیتی که بسیار قدرتمند خواهد بود: صندوق ورودی واحد با اولویت‌بندی هوش مصنوعی: تمام پاسخ‌ها از ایمیل، لینکدین، واتس‌اپ و اینستاگرام در یک فید، به صورت خودکار بر اساس قصد و اهمیت رتبه‌بندی می‌شوند. این کار بازاریابی بین‌پلتفرمی را بسیار روان‌تر می‌کند!"
-          },
-          {
-            "user": "کاربر ProductHunt 4",
-            "text": "پروژه عالی. من یک سوال درباره نحوه استفاده دارم. من نیاز دارم پست‌ها در شبکه‌های اجتماعی (به ویژه لینکدین و توییتر) را برای اشاره‌هایی که شامل کلمات کلیدی مرتبط با خدماتی که می‌فروشم هستند، ردیابی کنم. و ترجیحاً این کار را هر روز انجام دهم. آیا می‌توانید این کار را انجام دهید؟"
-          }
-        ],
-        "aiReview": "تحلیل جامع با ساختار:\n🔹 مسئله و راه‌حل:\nمشکل اصلی، پراکندگی ابزارهای بازاریابی و عدم اتصال بین «شنیدن بازار» (پایش برند) و «اقدام» (Outreach) است. برندجت این دو را در یک داشبورد واحد ترکیب می‌کند تا تیم‌ها بتوانند بر اساس داده‌های لحظه‌ای عمل کنند.\n🔹 معماری و تکنولوژی:\nپلتفرم احتمالاً از یک لایه اتصال چندکاناله (Multi-channel Connector) برای ایمیل و شبکه‌های اجتماعی استفاده می‌کند. هسته هوش مصنوعی برای تحلیل احساسات (Sentiment Analysis) و دسته‌بندی سرنخ‌ها (Lead Scoring) عمل می‌کند. بخش پایش وب (Web Monitoring) نیازمند کراولرهای قوی و پردازش زبان طبیعی (NLP) برای استخراج معنای متن است.\n🔹 مدل درآمدی:\nمدل SaaS استاندارد با تیراژ‌بندی بر اساس تعداد سرنخ‌های مدیریت شده، تعداد کاربران و عمق پایش داده‌ها. این مدل برای شرکت‌های متوسط و بزرگ جذاب است.\n🔹 نقاط قوت:\n- یکپارچگی کامل بین پایش و اجرا (Closed-loop Marketing).\n- کاهش هزینه‌های نرم‌افزاری متعدد برای مشتریان.\n- قابلیت پایش نحوه تفسیر برند توسط سیستم‌های هوش مصنوعی (AI Visibility) که یک ترند نوظهور است.\n🔹 نقاط ضعف:\n- پیچیدگی فنی در اتصال به APIهای شبکه‌های اجتماعی که اغلب محدودیت‌های سخت‌گیرانه‌ای دارند.\n- ریسک بالا در حفظ دقت تحلیل احساسات برای زبان‌های غیرانگلیسی یا گویش‌های خاص.\n🔹 نکته طلایی برای ایران:\nدر بازار ایران، تمرکز بر «پایش رقیب» و «شناسایی فرصت‌های فروش» از طریق پایش کلمات کلیدی در لینکدین و توییتر (X) بسیار مؤثرتر از پایش عمومی برند است. همچنین، ارائه گزارش‌های بصری و ساده برای مدیران ارشد که با داده‌های فنی راحت نیستند، کلید موفقیت است. استفاده از واسط‌های قانونی برای دسترسی به داده‌های شبکه‌های اجتماعی یا تمرکز بر کانال‌هایی که دسترسی به آن‌ها آسان‌تر است (مانند وب‌سایت‌ها و ایمیل) توصیه می‌شود.",
-        "iranEquivalent": {
-          "productName": "پایشگر هوشمند برند و بازاریابی",
-          "description": "این پلتفرم یک مرکز یکپارچه برای مدیریت کمپین‌های بازاریابی در شبکه‌های اجتماعی و ایمیل است. با استفاده از هوش مصنوعی، احساسات کاربران و اشاره‌های مرتبط با برند را در فضای مجازی پایش می‌کند. داده‌های به دست آمده به صورت زنده به کمپین‌های بازاریابی بازخورد می‌دهد تا تصمیمات مبتنی بر داده گرفته شوند.",
-          "marketOpportunity": "بازار استارتاپ‌ها و آژانس‌های دیجیتال مارکتینگ در ایران به شدت به ابزارهای یکپارچه نیاز دارند که هزینه‌های نرم‌افزاری متعدد را کاهش دهند. وجود شکاف بین ابزارهای پایش برند و ابزارهای اجرا (Outreach) فرصت بزرگی برای ارائه راه‌حل جامع است.",
-          "estimatedBudget": "۴ تا ۶ میلیارد تومان",
-          "targetAudience": "استارتاپ‌های B۳B، آژانس‌های دیجیتال مارکتینگ، تیم‌های بازاریابی شرکت‌های متوسط و بزرگ، و مدیران برند.",
-          "challenges": [
-            "دسترسی پایدار و قانونی به APIهای شبکه‌های اجتماعی مانند اینستاگرام و لینکدین در ایران دشوار است و نیاز به راهکارهای جایگزین یا واسط دارد.",
-            "مقاومت بازار در برابر پرداخت برای نرم‌افزارهای SaaS خارجی و نیاز به شخصی‌سازی عمیق برای فرهنگ بازاریابی ایرانی."
-          ],
-          "monetization": [
-            "مدل اشتراکی ماهانه بر اساس تعداد کاربر و حجم داده‌های پایش‌شده.",
-            "پلن‌های سازمانی با پشتیبانی اختصاصی و گزارش‌دهی سفارشی."
-          ],
-          "techStack": [
-            "Next.js",
-            "PostgreSQL",
-            "Node.js",
-            "Redis"
-          ],
-          "confidence": 70
-        }
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-09-02",
-        "rank": 3,
-        "name": "Articos",
-        "slug": "articos",
-        "tagline": "Launch with confidence, not gut instinct",
-        "description": "Articos helps SaaS teams, agencies, and founders test messaging, positioning, and landing pages against simulated personas matched to your ICP. Real audience signal in under 30 minutes. Peer-reviewed at 86% human accuracy vs Baymard and Nielsen Norman.",
-        "category": "Marketing • SaaS • Artificial Intelligence",
-        "categoryFa": "بازاریابی • نرم‌افزار ابری • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/2e9b4925-6fec-4075-aba3-a67393016e46.jpeg?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/d79b9e47-1437-4d08-959c-1a524f7b584d.png?auto=format",
-          "https://ph-files.imgix.net/ac838340-1c64-4c19-95fa-ec935629fe16.png?auto=format",
-          "https://ph-files.imgix.net/4117ca2a-75ec-4558-8469-15221e69c251.png?auto=format",
-          "https://ph-files.imgix.net/0ab5349c-fb7e-4cae-bca5-4727e60482d1.png?auto=format",
-          "https://ph-files.imgix.net/3f08c482-5219-46da-88fa-670772a3aa9b.png?auto=format",
-          "https://ph-files.imgix.net/f4945635-9950-4427-a5fd-4e939db3d0e9.png?auto=format",
-          "https://ph-files.imgix.net/439dd663-c3c1-42f3-b97c-ac44a73c1625.png?auto=format",
-          "https://ph-files.imgix.net/36da0b5d-02ba-4492-962a-42428ba59e16.png?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-09-02T07:01:00Z",
-        "votes": 269,
-        "websiteUrl": "https://www.producthunt.com/r/SV57AXQTEEXIBS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "In prepping for this launch, @shaheergadit and @owais_khan22 ran my @Minara tagline rewrite through Articos live.The original “Run your own Wall Street” scored 4.5 (which is still on their homepage) while my rewrite—“Research, plan and invest in one chat”—scored 6.2. Minara reached #1 on their Product Hunt launch, demonstrating that differentiated language won't matter much if nobody gets what you're trying to say!Articos lets you test messaging against simulated personas matched to your ICP, and then interrogate their reasoning, and get a report back in under 30 minutes. If you're prepping for your [Product Hunt] launch and arguing over copy in Slack… try Articos as the dealbreaker!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Got the taste of the tool, and I think it can be very helpful, especially when there's no time to run real user panels, and you need to check your ideas quickly"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I love that it traces findings back to specific persona reasoning rather than just giving a generic AI summary."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "How does Articos compare to running an actual user panel through one of the message testing platforms? I am sure faster, but how's the quality holding up here?All the best for the launch @owais_khan22"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "White label reporting angle is huge for agencies trying to validate copy directions to sceptical cleints. good work team."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "We used Articos to test landing pages and understand the unmet needs of our target audience. It’s a great tool"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "The standard way of creating positioning maps and messaging pillars have always been doing comprehensive internal stakeholders interviews, customer interviews, reading in-depth market research, looking at the competition (where it stands, what kind of customers they attract) and probable proof (benchmarks, use case based outcomes). I will put Articos to test in couple of days for a client I am working with and see what it brings me back. I will definitely circle back with the results. Congrats on the launch, Shaheer and Owais."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is great!! I've been using Articos to test out messaging before making it live anywhere! Love the insights it has provided"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-3",
-        "date": "2026-09-01",
-        "rank": 3,
-        "name": "Creatium Coach",
-        "slug": "creatium-coach-2",
-        "tagline": "Your multimedia mentor that takes you from mid to great",
-        "description": "Creatium Coach is a lifelike, multimedia coach that helps anyone set goals and reach them. Instead of clicking through static courses or half-remembering a video, you learn with a coach, as well as simulations, videos, and roleplays. These boost outcomes as much as one-on-one in-person coaching. Whatever the goal, professional or personal, and whether you're one learner or a whole enterprise, Coach meets you where you are. Warning: side effects may include world domination.",
-        "category": "Education • Artificial Intelligence • Online Learning",
-        "categoryFa": "آموزش • هوش مصنوعی • Online Learning",
-        "url": "https://www.producthunt.com/products/creatium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/7954cf82-59c8-40f6-8e98-1cc49c537f93.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/778ae48b-7e48-48e1-9554-7055e6528cb3.jpeg?auto=format",
-          "https://ph-files.imgix.net/128140e8-0f63-433d-89e5-fc985140d97d.jpeg?auto=format",
-          "https://ph-files.imgix.net/bcf98b08-d53b-483b-9342-5659062f2f9a.jpeg?auto=format",
-          "https://ph-files.imgix.net/df3dbaf8-ab32-40f8-8d8f-9e13e9a537f8.png?auto=format",
-          "https://ph-files.imgix.net/992d314c-3746-4932-ade2-6579e0b727dc.png?auto=format",
-          "https://ph-files.imgix.net/8e6e7146-aaa0-4186-86b6-786369b35184.png?auto=format",
-          "https://ph-files.imgix.net/1687cecd-f4ef-4806-9946-1786ef03e5ac.png?auto=format",
-          "https://ph-files.imgix.net/59c29e5b-18b8-4387-874b-7ffb6d9de70c.jpeg?auto=format",
-          "https://ph-files.imgix.net/a493c039-0c6d-440b-b12d-a274ba63a7a5.jpeg?auto=format",
-          "https://ph-files.imgix.net/cc344d61-c4ef-45c4-a38c-b88472058d89.jpeg?auto=format",
-          "https://ph-files.imgix.net/4ed0acd5-d285-48a9-b23f-ba33e75e5673.jpeg?auto=format",
-          "https://ph-files.imgix.net/29f10bc8-cb17-4ff1-a8fa-38482c05426a.gif?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-09-01T07:01:00Z",
-        "votes": 256,
-        "websiteUrl": "https://www.producthunt.com/r/I5Q2WCFRUDQPOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt! Deepak here, co-founder of Creatium, back with @maria_wall_ball and @huntingforunicorns.Ten months ago you made Creatium Studio #2 Product of the Day. Since then it's been used by learning and development teams throughout the industry. But, what if you want to learn skills and… just want a coach?Great coaching has always carried a steep price tag, and it's been that way for centuries. Legend has it King Philip II of Macedonia rebuilt an entire razed city to get Aristotle to coach his son, a kid who'd go on to take the known world. You know him as Alexander the Great.Centuries later ... coaching may not cost cities, but a good executive coach runs about $1K a month or so, which is why the people who'd benefit most from coaching mostly go without it..... until now.... 🥁Meet Creatium Coach, a personal AI coach running a very old playbook, and yes, yours can literally be Aristotle.First, choose your world. The Lyceum, where a digitally recreated Aristotle coaches the way he did in Athens, and doesn't go easy on you. Or Pacifica, where the sun is out and the tone is warmer.Then, choose your goal. Your coach starts with questions, then builds the journey: simulations where you practice the actual skill, not trivia about the skill, plus 1-on-1 coaching to make it stick. Name the goal and it builds the reps, in a pedagogically sound sequence.And it's tested. Our research team ran a randomized study on the pedagogy underneath Coach: it had an effect size of g = 0.48, against the 0.37 average the meta-analyses report for in-person tutoring programs. For people who are not education geeks, that means Creatium Coach is as impactful as in-person tutoring.Coaching like this used to be locked inside palaces and corner offices. Now it's in your corner, $20/month, and Product Hunt gets 14 days free with code BEGREATPH@maria_wall_ball, @huntingforunicorns ns and I are in the comments all day. Tell us what you want to be great at, see if your coach pushes you out of mid-zone."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "@lizanne_dsouza @maria_wall_ball @drcreatium Really interesting concept - something that we really think a lot about is the intersection between a coach / creators knowledge and the end user's wants / goals / outcomes - whatever they're looking to achieve. Curious how the system handles creator / coach IP uploads and how you've decided to build that side of the business to handle that 1 to many quandary. Something we think about a lot so keen to hear about how you decided to handle that side of the product creation. Congrats on the launch either way!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I've always wondered how I can go from mid to great and now I know! 🤓Creatium's generative platform has made huge strides towards realizing Sam Altman's dream of a \"personal tutor for everyone\".Their custom, personalized AI coaches adapt to the learner and use proven, pedagogical techniques to amplify the depth and speed of acquiring new knowledge. It makes it fun and engaging — while keeping the setup overhead low and discreet. Give it a try for two weeks and see how much you can learn!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congratulations on launching! I am curious - what has been the most popular course area so far?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This product looks really useful! It says it supports Japanese, but will it still be able to maintain speech recognition, feedback, and evaluation criteria when bilingual learning goals switch between Japanese and English?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Okay so I've tried a LOT of coaching tools, and honestly? Same recycled playbook every time. Went in expecting more of the same here. Then I saw an option to connect my GitHub, tried it out of curiosity, and it came back telling me what I'd actually been getting wrong. Nobody else has bothered to look at my real work before telling me how to improve. First one I've wanted to keep open!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I saw live how the makers of Creatium wanted to go from a creator must-have to a learner must-have. And they couldn't have got it more right. This is exactly what we need in an oversaturated market of AI learning tools. Congratulations! What a fun PH experience today for the community too, with Aristotle. (and if you're a Greek geek like me? You've hit the lottery!)"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Love the mix of coaching, simulations and roleplays. Feels far more useful than another static course!!! Congratulations on the launch and all the best!"
-          }
-        ]
-      },
-      {
-        "id": "ph-today-1",
-        "date": "2026-08-30",
-        "rank": 1,
-        "name": "Topview Motion Studio",
-        "slug": "topview-motion-studio",
-        "tagline": "Create launch videos without touching After Effects",
-        "description": "Motion Studio helps teams create polished launch videos for apps, hardware, and new products without learning After Effects or hiring a motion design studio. Describe what you want to communicate, upload reference images, and choose a visual style, duration, and aspect ratio. Motion Studio combines AI video models with purpose-built motion design skills to turn your brief into high-quality product storytelling—faster, simpler, and at a fraction of the traditional cost.",
-        "category": "Design Tools • Productivity • Artificial Intelligence",
-        "categoryFa": "ابزار طراحی • بهره‌وری • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/f296b06e-853e-458e-a508-25653fc07371.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/3d37b9e0-e01f-43c5-9ec4-482ff3fbabfd.png?auto=format",
-          "https://ph-files.imgix.net/871c02d1-0996-4130-a8a4-f29a117ff0f1.png?auto=format",
-          "https://ph-files.imgix.net/2d48bf5e-68b1-4be5-b147-0909b2d59280.png?auto=format",
-          "https://ph-files.imgix.net/6e171aad-1a8f-4f20-be3a-2417ec7f2aa7.png?auto=format",
-          "https://ph-files.imgix.net/0979a273-3374-48aa-a056-f30c1e6f157f.png?auto=format",
-          "https://ph-files.imgix.net/5cb35a56-8205-47f7-b9ee-f6617ce83ae0.png?auto=format",
-          "https://ph-files.imgix.net/d7605c87-ce6c-47a8-85d6-52d8cf521040.jpeg?auto=format"
-        ],
-        "maker": "Winwin Zhang",
-        "makerTitle": "",
-        "featuredAt": "2026-08-30T07:01:00Z",
-        "votes": 241,
-        "websiteUrl": "https://www.producthunt.com/r/25TEFO4TYMRPSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Got on the site to try this, added my prompt + images which was multiple lines, when i submitted it asked for singnup but after succesful login, the prompt that images i submitted vanished :\" , do i have to purchase credits to start? if thats the case where can i resume this chat from?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is awesome for indie hackers. How’s the rendering speed during peak hours?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Motion Studio seems incredibly intuitive compared to the steep learning curve of After Effects, which I've always struggled with. How well does it handle rendering complex 3D product imports if I have my own assets?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This looks exciting, congrats on the launch Can it repurpose videos?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Reference images plus a style choice is a much narrower ask than a blank prompt box. How close does the first render usually land?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "put the interface doing the actual thing as frame one and cut the title card entirely. that was the whole gallery decision for me yesterday, everything after it mattered less. aaron oleary has said a weak gallery makes him skim past a listing, so its not only polish. what id want from motion studio is a mode that spits the stills out too. i built both by hand and it was the same story twice :)"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This feels especially useful for small teams where the maker is also doing all the launch content."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "looks good. We normally settle for a screen recording because motion design takes too much time."
-          }
-        ]
-      },
-      {
-        "id": "ph-today-4",
-        "date": "2026-08-26",
-        "rank": 4,
-        "name": "ChatCut Desktop",
-        "slug": "chatcut-desktop",
-        "tagline": "Video editor built for humans & AI. Edit with GPT & Claude.",
-        "description": "Introducing ChatCut Desktop, the AI video editor built for humans and agents to edit together. Use ChatCut’s built-in agent, or connect ChatGPT/Codex or Claude Code. Say how you want your video edited and watch them happen on a fully editable timeline. Edit footage, create motion graphics and captions, generate video, images, music and SFX, and save reusable editing skills. Everything runs locally, and you stay in control. Export XML to Premiere Pro, DaVinci Resolve or CapCut.",
-        "category": "Marketing • Artificial Intelligence • Video",
-        "categoryFa": "بازاریابی • هوش مصنوعی • ویدیو",
-        "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/1d15a575-7af7-4a02-8a77-6ef871232720.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/c1485b5d-1b9c-4f15-8820-bb976da398cb.png?auto=format",
-          "https://ph-files.imgix.net/d657b85a-97f7-4fe4-be02-ded87bdf546c.png?auto=format",
-          "https://ph-files.imgix.net/532dcdc6-392d-42e8-af56-ef56c24850f9.png?auto=format",
-          "https://ph-files.imgix.net/10ccd846-cd03-4d34-8c67-1e123e1ca39a.png?auto=format",
-          "https://ph-files.imgix.net/fcb313e2-2e1e-41de-8cc8-3ab6de28ea37.png?auto=format",
-          "https://ph-files.imgix.net/8ab78b41-dbd1-4be3-8ae5-fd48786820ff.png?auto=format",
-          "https://ph-files.imgix.net/444dd653-f890-444d-9c5f-0b579df4d9b5.png?auto=format",
-          "https://ph-files.imgix.net/4809c985-001d-46cc-b750-ddcfd4bd24ce.png?auto=format",
-          "https://ph-files.imgix.net/8f451bd4-d8e2-4a6e-af0c-3155d3546f07.png?auto=format",
-          "https://ph-files.imgix.net/098b84b5-c670-4de5-8bbd-38cfc7116e91.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-26T07:01:00Z",
-        "votes": 238,
-        "websiteUrl": "https://www.producthunt.com/r/J3QOL7SBC4ULA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hi Product Hunt! Last month, we launched our ChatGPT/Codex plugin and received incredible support from this community.One of the most consistent pieces of feedback was that you loved being able to connect your own agent, but wanted to work with larger files and have a faster, more reliable editing experience.So we built ChatCut Desktop.It includes everything you can do with our web app and plugin, but in a local environment. Your footage stays on your computer, and editing and exporting happen locally. You can use ChatCut’s built-in agent or connect your existing ChatGPT/Codex or Claude Code subscription and use the tokens you already pay for, making ChatCut’s core editing features free to use. A ChatCut subscription is only required for pro features such as Seedance and Kling video generation, XML export, AI voice generation, and voice cloning.Today, ChatCut is used by creators editing talking-head videos, tiktoks, reels and shorts, businesses producing ads and branded content, companies creating social content, internal videos and product updates, and AI filmmakers making films.Give ChatCut Desktop a try, and please send us any feedback, suggestions, or questions at team@chatcut.io. We’d love to hear what you think. Go create something!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats!!! Do you do transcriptions?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the desktop launch. You let people run it on the ChatGPT or Claude Code tokens they already pay for, which makes core editing free. That is a lot to give away."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Looks really useful. Congrats on the launch!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch! An AI video editor that actually works with GPT + Claude sounds interesting. How long takes the setup process?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt 👋Excited to hunt ChatCut Desktop today! I’ve watched this team listen closely to their community since their ChatGPT/Codex plugin launch, and this release is a direct answer to what creators kept asking for: bigger files, faster editing, and full local control.The token model is what stands out to me. Connect your existing ChatGPT/Codex or Claude Code subscription and get core editing for free. That’s a genuinely creator-first move.Go check it out and tell the team what you think 🎬"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "I think that CapCut has a competiton :)"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Turning a 20-minute interview into a 2-minute reel with just a prompt is a great use case. How well does it pick the right moments in longer, messier raw footage?"
-          }
-        ],
-        "makerTwitter": ""
       }
     ],
     "yesterday": [
@@ -2212,66 +1489,6 @@
         ]
       },
       {
-        "id": "ph-yesterday-3",
-        "date": "2026-08-25",
-        "rank": 3,
-        "name": "Agnost AI",
-        "slug": "agnost-ai",
-        "tagline": "Catch agent failures your evals miss",
-        "description": "Agnost AI analyzes conversations between users and your production AI agents and discovers: silent failures, agent behavior drift, hallucinations, user frustration, hidden feature requests, and churn signals. It groups them into recurring patterns, shows the exact users and conversations behind each insight, and turns them into evals and fixes.",
-        "category": "Analytics • Developer Tools • Artificial Intelligence",
-        "categoryFa": "تحلیل داده • ابزار توسعه‌دهندگان • هوش مصنوعی",
-        "url": "https://www.producthunt.com/products/agnost-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "thumbnail": "https://ph-files.imgix.net/f511fa69-1ce2-4fc3-97b0-83ade5ce489c.png?auto=format",
-        "screenshots": [
-          "https://ph-files.imgix.net/363740f2-46a8-4f9f-b3a5-2ae32f3ec54e.png?auto=format",
-          "https://ph-files.imgix.net/f3346fc7-bfe9-4246-b8d2-04f7c144631c.png?auto=format",
-          "https://ph-files.imgix.net/52f3eec7-926e-4b16-a7b8-a4d3a70bb64d.png?auto=format",
-          "https://ph-files.imgix.net/a08c4b7e-d0a0-4b73-913b-d638780938f1.png?auto=format",
-          "https://ph-files.imgix.net/21f7e085-f65a-4641-a00d-65b7b6801e7c.jpeg?auto=format"
-        ],
-        "maker": "[REDACTED]",
-        "makerTitle": "",
-        "featuredAt": "2026-08-25T07:01:00Z",
-        "votes": 288,
-        "websiteUrl": "https://www.producthunt.com/r/ETAPVE6UI3URIT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-        "comments": [
-          {
-            "user": "[REDACTED]",
-            "text": "Hey Product Hunt! Shubham here 👋Parth and I try almost every AI product we come across (we’re just young curious folks).And we kept on doing the same thing: a product launched with an insane claim, their agent would feel magical for 10 minutes, then it claimed it completed something it hadn’t, invent a link, or make us repeat ourselves three times.We’d then message the founders and hear: this is really useful feedback. we had no idea.And we’d think: wait, you already have the entire conversation & traces. why did we have to tell you?Turns out, their the AI observability dashboards showed a successful request: 200 OK, tool call succeeded, response generated.The failure was only visible if someone actually read the conversation. So we built Agnost AI.Agnost AI reads every production conversation across chat and voice agents. It groups them into recurring failures, behavior drift, hallucinated links, frustration, feature requests and churn signals, with the exact users and conversations behind each one.From there, you can create an eval, or ask your coding agent to debug the problem & fix it.Because evals test problems you already know about. You can’t write an eval for something you haven’t discovered yet.Agnost AI connects in three lines of code or through OpenTelemetry and already analyzes more than one million messages every day.If you’re running a user-facing agent, connect it. I’ll personally help you find three things happening in your conversations that you probably don’t know about.Also, how do you currently discover failures your evals don’t cover: user complaints, manually reading traces, or something else?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "It claimed it finished something it had not is the exact failure that reaches me as a support ticket, never as a failed test. Do you catch the confident wrong answer, or only the ones where the agent visibly gives up?"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Congrats on the launch team!!! I played around with the product and it felt super snappy"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "congrats on the launch! Let's go team."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Been waiting for a product like this. Congrats on the laucnh!"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "You two kept messaging founders about failures in their agents and kept hearing that they had no idea. Congrats on shipping the version where they find out first, without needing you to tell them."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "You noticed that an invented link still comes back as a 200 OK on the dashboard. Congrats on building the thing that actually reads the conversation."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "This is so cool!"
-          }
-        ],
-        "makerTwitter": ""
-      },
-      {
         "id": "ph-yesterday-1",
         "date": "2026-09-03",
         "rank": 1,
@@ -2293,7 +1510,7 @@
         "maker": "Francisco Dias",
         "makerTitle": "Just trying to help out.",
         "featuredAt": "2026-09-03T07:01:00Z",
-        "votes": 286,
+        "votes": 305,
         "websiteUrl": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2354,7 +1571,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-09-03T07:01:00Z",
-        "votes": 285,
+        "votes": 294,
         "websiteUrl": "https://www.producthunt.com/r/2EYT4D2MQCUU3J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -2390,6 +1607,66 @@
             "text": "Being able to work with websites without needing an API is pretty useful. I can see this helping with some of those annoying repetitive browser tasks."
           }
         ]
+      },
+      {
+        "id": "ph-yesterday-3",
+        "date": "2026-08-25",
+        "rank": 3,
+        "name": "Agnost AI",
+        "slug": "agnost-ai",
+        "tagline": "Catch agent failures your evals miss",
+        "description": "Agnost AI analyzes conversations between users and your production AI agents and discovers: silent failures, agent behavior drift, hallucinations, user frustration, hidden feature requests, and churn signals. It groups them into recurring patterns, shows the exact users and conversations behind each insight, and turns them into evals and fixes.",
+        "category": "Analytics • Developer Tools • Artificial Intelligence",
+        "categoryFa": "تحلیل داده • ابزار توسعه‌دهندگان • هوش مصنوعی",
+        "url": "https://www.producthunt.com/products/agnost-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "thumbnail": "https://ph-files.imgix.net/f511fa69-1ce2-4fc3-97b0-83ade5ce489c.png?auto=format",
+        "screenshots": [
+          "https://ph-files.imgix.net/363740f2-46a8-4f9f-b3a5-2ae32f3ec54e.png?auto=format",
+          "https://ph-files.imgix.net/f3346fc7-bfe9-4246-b8d2-04f7c144631c.png?auto=format",
+          "https://ph-files.imgix.net/52f3eec7-926e-4b16-a7b8-a4d3a70bb64d.png?auto=format",
+          "https://ph-files.imgix.net/a08c4b7e-d0a0-4b73-913b-d638780938f1.png?auto=format",
+          "https://ph-files.imgix.net/21f7e085-f65a-4641-a00d-65b7b6801e7c.jpeg?auto=format"
+        ],
+        "maker": "[REDACTED]",
+        "makerTitle": "",
+        "featuredAt": "2026-08-25T07:01:00Z",
+        "votes": 288,
+        "websiteUrl": "https://www.producthunt.com/r/ETAPVE6UI3URIT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+        "comments": [
+          {
+            "user": "[REDACTED]",
+            "text": "Hey Product Hunt! Shubham here 👋Parth and I try almost every AI product we come across (we’re just young curious folks).And we kept on doing the same thing: a product launched with an insane claim, their agent would feel magical for 10 minutes, then it claimed it completed something it hadn’t, invent a link, or make us repeat ourselves three times.We’d then message the founders and hear: this is really useful feedback. we had no idea.And we’d think: wait, you already have the entire conversation & traces. why did we have to tell you?Turns out, their the AI observability dashboards showed a successful request: 200 OK, tool call succeeded, response generated.The failure was only visible if someone actually read the conversation. So we built Agnost AI.Agnost AI reads every production conversation across chat and voice agents. It groups them into recurring failures, behavior drift, hallucinated links, frustration, feature requests and churn signals, with the exact users and conversations behind each one.From there, you can create an eval, or ask your coding agent to debug the problem & fix it.Because evals test problems you already know about. You can’t write an eval for something you haven’t discovered yet.Agnost AI connects in three lines of code or through OpenTelemetry and already analyzes more than one million messages every day.If you’re running a user-facing agent, connect it. I’ll personally help you find three things happening in your conversations that you probably don’t know about.Also, how do you currently discover failures your evals don’t cover: user complaints, manually reading traces, or something else?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "It claimed it finished something it had not is the exact failure that reaches me as a support ticket, never as a failed test. Do you catch the confident wrong answer, or only the ones where the agent visibly gives up?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Congrats on the launch team!!! I played around with the product and it felt super snappy"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "congrats on the launch! Let's go team."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Been waiting for a product like this. Congrats on the laucnh!"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "You two kept messaging founders about failures in their agents and kept hearing that they had no idea. Congrats on shipping the version where they find out first, without needing you to tell them."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "You noticed that an invented link still comes back as a 200 OK on the dashboard. Congrats on building the thing that actually reads the conversation."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "This is so cool!"
+          }
+        ],
+        "makerTwitter": ""
       },
       {
         "id": "ph-yesterday-2",
@@ -2728,12 +2005,20 @@
         "maker": "Enzy Tian",
         "makerTitle": "Co-founder & COO of MagiCrew",
         "featuredAt": "2026-09-03T07:01:00Z",
-        "votes": 250,
+        "votes": 256,
         "websiteUrl": "https://www.producthunt.com/r/7TTRWNXQKUKM4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
             "user": "[REDACTED]",
             "text": "Hi everyone, I'm Enzy, co-founder of MagiCrew.I spent years as a journalist at the United Nations, then built and sold a company. Two very different experiences, same lesson: the bottleneck is almost never ideas. It's the gap between what people can think and what they can actually get done.My co-founders and I met at business school. We'd each built things, broken things, and paid the full price for that gap. When AI became genuinely capable, we saw something we hadn't seen before — a real chance to close it. Not for enterprises with six-figure IT budgets. For everyone.The moment that crystallized MagiCrew wasn't dramatic. It was a pattern.People weren't struggling to find AI tools. They were struggling to finish anything with them. Every tool handed you something half-done. A draft that needed reformatting. An analysis that needed to become a deck. The output was always one step away from being useful.The problem wasn't the tools. It was the missing layer above them — the one that understands what you're actually trying to accomplish, coordinates the right capabilities, and delivers something you can use.We sometimes describe MagiCrew as the Costco of AI — not because it's cheap, because it's curated.Costco doesn't carry everything. They find the best version of what you actually need, and that's all they stock. You don't comparison-shop. You trust the shelf.That's what we do with agents. We went deep on each use case — research, data, presentations, meetings, social media, creative work — and built a genuine specialist for each. Not wrappers. Not prompt templates. Agents that know your projects, remember your context, and build on everything you've already done. The longer you work inside MagiCrew, the less you have to explain.Every agent we ship has to answer one question: does this solve a genuine problem, or are we just building what's easy to demo?The bigger mission is simple: the most powerful AI capabilities in the world shouldn't require six subscriptions and a technical degree to access. We want to take the best technology available, make it genuinely useful, and put it in the hands of anyone who needs it — at a price that actually makes sense.That's AI for everyone. That's why we built MagiCrew.We'd love to hear from you — what's the one workflow you wish AI could actually handle end-to-end?"
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "That alone could save so much time."
+          },
+          {
+            "user": "[REDACTED]",
+            "text": "Interested in knowing about the context transfer process in MagiCrew. In case the research agent is completed and then taken up by the presentation agent, is there any stitching process involved here?"
           },
           {
             "user": "[REDACTED]",
@@ -2754,14 +2039,6 @@
           {
             "user": "[REDACTED]",
             "text": "Congratulations on your launch! The \"Costco of AI\" line stayed with me, curating rather than dropping everything possible on users makes sense."
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "the “one step away from useful” problem is so real. getting an AI output is easy now, turning it into something I can actually use is usually where the work starts 😅 curious to see how MagiCrew handles that handoff in practice"
-          },
-          {
-            "user": "[REDACTED]",
-            "text": "Great question. The short answer: the user doesn't have to decide — the main agent does.Here's how it works in practice:Super Magic has a generalist main agent that receives your request first. It handles most tasks on its own — research, writing, data analysis, code, file operations — because switching agents has a cost (context, latency, coordination overhead). So the default bias is: do it yourself unless there's a good reason not to.The main agent delegates when:A task needs a specialized capability it doesn't have — e.g., slide design, canvas generation, or interacting with a specific platform API (Lark, DingTalk, etc.). These are handled by dedicated sub-agents or skills with domain-specific tools.Independent subtasks can run in parallel — e.g., \"research competitor A, B, and C\" can fan out to multiple agents working simultaneously instead of sequentially, then merge results back.The user explicitly asks for it — you can @ mention a specific agent to force-route a task.The key design choice is that all agents share the same workspace filesystem. So when the main agent delegates to a sub-agent, it doesn't need to serialize the full context into a prompt — the sub-agent can just read the files. And when the sub-agent finishes, its output is already in the shared workspace for the next step. No \"handoff summaries,\" no lost context.Think of it less like \"which tasks need collaboration\" and more like one person deciding when to ask a specialist vs. doing it themselves — except the specialist already has access to everything on your desk.Thanks for the kind words! 🙌"
           }
         ]
       }
@@ -3951,7 +3228,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-09-02T07:01:00Z",
-        "votes": 365,
+        "votes": 368,
         "websiteUrl": "https://www.producthunt.com/r/SV57AXQTEEXIBS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
@@ -4846,7 +4123,7 @@
           "https://ph-files.imgix.net/93c51dc1-e37a-47bf-9cd6-9366ca917476.jpeg?auto=format"
         ],
         "maker": "[REDACTED]",
-        "makerTitle": "co-founder & ceo of joinastute.com",
+        "makerTitle": "",
         "featuredAt": "2026-08-19T07:01:00Z",
         "votes": 585,
         "websiteUrl": "https://www.producthunt.com/r/T27HYYATJQRXUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
@@ -5151,7 +4428,7 @@
         "maker": "[REDACTED]",
         "makerTitle": "",
         "featuredAt": "2026-08-26T07:01:00Z",
-        "votes": 516,
+        "votes": 517,
         "websiteUrl": "https://www.producthunt.com/r/HRIWQ6DBNJOZ7W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
         "comments": [
           {
