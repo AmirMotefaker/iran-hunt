@@ -1,32 +1,20 @@
 {
-  "checkedAt": "2026-09-04T09:29:53.731Z",
+  "checkedAt": "2026-09-04T10:27:07.521Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 1,
-  "failed": 4,
-  "backlogBefore": 170,
-  "backlogAfter": 169,
-  "completedProducts": 85,
-  "missingFaDescription": 80,
-  "missingFaComments": 165,
-  "missingAiReview": 99,
-  "missingIranEquivalent": 80,
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 169,
+  "backlogAfter": 165,
+  "completedProducts": 89,
+  "missingFaDescription": 76,
+  "missingFaComments": 161,
+  "missingAiReview": 95,
+  "missingIranEquivalent": 76,
   "failures": [
     {
-      "slug": "diet-claude",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "agnost-ai",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "jotform-ai-data-assistant",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "nimbia",
+      "slug": "memoria-6",
       "reason": "JSON parse failed"
     }
   ]
