@@ -100,33 +100,32 @@ async function getGroqModels(key: string): Promise<string[]> {
   return (json.data ?? []).map((m: any) => String(m.id ?? '')).filter(Boolean);
 }
 
-let cachedGroqModel: Promise<string> | null = null;
+let cachedGroqModels: Promise<string[]> | null = null;
 
-async function resolveGroqModel(key: string): Promise<string> {
-  if (!cachedGroqModel) {
-    cachedGroqModel = (async () => {
+async function resolveGroqModels(key: string): Promise<string[]> {
+  if (!cachedGroqModels) {
+    cachedGroqModels = (async () => {
       const available = await getGroqModels(key);
       const preferred = ['qwen/qwen3.8-27b', 'openai/gpt-oss-20b', 'qwen/qwen3.6-27b', 'openai/gpt-oss-120b'];
-      const model = preferred.find((candidate) => available.includes(candidate));
-      if (!model) throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
-      return model;
+      const models = preferred.filter((candidate) => available.includes(candidate)).slice(0, 2);
+      if (!models.length) throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
+      return models;
     })().catch((error) => {
-      cachedGroqModel = null;
+      cachedGroqModels = null;
       throw error;
     });
   }
-  return cachedGroqModel;
+  return cachedGroqModels;
 }
 
 function retryDelayMs(response: Response, attempt: number): number {
   const retryAfter = Number(response.headers.get('retry-after'));
   if (Number.isFinite(retryAfter) && retryAfter > 0) return Math.min(retryAfter * 1000, 90000);
-  return Math.min(15000 * 2 ** attempt, 60000);
+  return Math.min(15000 * 2 ** attempt, 45000);
 }
 
-async function callGroq(key: string, prompt: string): Promise<string> {
-  const model = await resolveGroqModel(key);
-  for (let attempt = 0; attempt < 4; attempt++) {
+async function callGroqModel(key: string, model: string, prompt: string): Promise<string | null> {
+  for (let attempt = 0; attempt < 2; attempt++) {
     const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
@@ -140,7 +139,7 @@ async function callGroq(key: string, prompt: string): Promise<string> {
 
     if (res.status === 429) {
       const delay = retryDelayMs(res, attempt);
-      console.warn(`   ⏳ Groq rate limited; retry ${attempt + 1}/4 after ${Math.round(delay / 1000)}s`);
+      console.warn(`   ⏳ Groq ${model} rate limited; retry ${attempt + 1}/2 after ${Math.round(delay / 1000)}s`);
       await sleep(delay);
       continue;
     }
@@ -153,7 +152,17 @@ async function callGroq(key: string, prompt: string): Promise<string> {
     console.log(`   ✨ model: ${model}`);
     return text;
   }
-  throw new Error(`Groq ${model}: HTTP 429 after adaptive retries`);
+  return null;
+}
+
+async function callGroq(key: string, prompt: string): Promise<string> {
+  const models = await resolveGroqModels(key);
+  for (const model of models) {
+    const text = await callGroqModel(key, model, prompt);
+    if (text) return text;
+    console.warn(`   ↪️  Groq ${model} remained rate limited; trying next available model`);
+  }
+  throw new Error(`Groq: HTTP 429 across ${models.join(', ')}`);
 }
 
 function tryParse(text: string): any {
