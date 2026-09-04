@@ -1,25 +1,21 @@
 {
-  "checkedAt": "2026-09-04T18:10:24.845Z",
+  "checkedAt": "2026-09-04T18:15:36.584Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 1,
   "failed": 4,
-  "backlogBefore": 122,
-  "backlogAfter": 121,
-  "completedProducts": 133,
-  "missingFaDescription": 32,
-  "missingFaComments": 117,
-  "missingAiReview": 51,
-  "missingIranEquivalent": 32,
+  "backlogBefore": 121,
+  "backlogAfter": 120,
+  "completedProducts": 134,
+  "missingFaDescription": 31,
+  "missingFaComments": 116,
+  "missingAiReview": 50,
+  "missingIranEquivalent": 31,
   "failures": [
     {
-      "slug": "olostep-2",
-      "reason": "JSON parse failed"
-    },
-    {
       "slug": "prequel-2",
-      "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
       "slug": "video-agent-by-fotor",
@@ -27,6 +23,10 @@
     },
     {
       "slug": "interactive-sessions-by-revolte",
+      "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
+    },
+    {
+      "slug": "brandjet",
       "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
     }
   ]
