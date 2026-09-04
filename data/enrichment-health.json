@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-04T18:22:18.766Z",
+  "checkedAt": "2026-09-04T18:24:50.153Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 1,
-  "failed": 4,
-  "backlogBefore": 119,
+  "succeeded": 0,
+  "failed": 5,
+  "backlogBefore": 118,
   "backlogAfter": 118,
   "completedProducts": 136,
   "missingFaDescription": 29,
@@ -27,6 +27,10 @@
     },
     {
       "slug": "brandjet",
+      "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
+    },
+    {
+      "slug": "interactive-sessions",
       "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
     }
   ]
