@@ -25,6 +25,9 @@ jobs:
       - name: Test
         run: bun run test
 
+      - name: Final product readiness
+        run: bun run audit:readiness
+
       - name: Build
         env:
           DATABASE_URL: postgresql://user:pass@localhost:5432/db
