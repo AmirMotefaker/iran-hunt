@@ -1,20 +1,24 @@
 {
-  "checkedAt": "2026-09-04T08:18:46.453Z",
+  "checkedAt": "2026-09-04T08:27:03.767Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 184,
-  "backlogAfter": 180,
-  "completedProducts": 74,
-  "missingFaDescription": 91,
-  "missingFaComments": 176,
-  "missingAiReview": 110,
-  "missingIranEquivalent": 91,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 180,
+  "backlogAfter": 177,
+  "completedProducts": 77,
+  "missingFaDescription": 88,
+  "missingFaComments": 173,
+  "missingAiReview": 107,
+  "missingIranEquivalent": 88,
   "failures": [
     {
-      "slug": "decawork",
+      "slug": "offloop",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "worldmap-lol",
       "reason": "JSON parse failed"
     }
   ]
