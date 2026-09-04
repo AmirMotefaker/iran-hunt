@@ -7,7 +7,7 @@ export interface ValidationIssue {
 }
 
 const MIN_PRODUCTS: Record<PeriodKey, number> = {
-  today: 3,
+  today: 10,
   yesterday: 3,
   week: 5,
   month: 5,
