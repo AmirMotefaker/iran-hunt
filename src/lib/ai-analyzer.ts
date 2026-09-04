@@ -19,7 +19,7 @@ function sanitize(text: string): string {
     .replace(/\\n/g, '\n')
     .replace(/[\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\u0400-\u04ff\uac00-\ud7af\u3131-\u3163]/g, '')
     .replace(/(^|[\s،.؛:!؟?])IR(?=[\s،.؛:!؟?]|$)/g, ' ')
-    .replace(/[0-9]/g, (d) => '۰۱۳۴۵۶۷۸۹'[+d])
+    .replace(/[0-9]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d])
     .replace(/[ \t]{2,}/g, ' ')
     .trim();
 }
@@ -49,7 +49,7 @@ async function fetchWithTimeout(
 }
 
 export function buildPrompt(p: Product): string {
-  const originals = (p.comments ?? []).slice(0, 4);
+  const originals = (p.comments ?? []).slice(0, 8);
   const commentsEn = originals.map((c, i) => `${i + 1}) ${c.text}`).join('\n');
   return `تو یک مترجم حرفه‌ای فارسی و تحلیل‌گر ارشد استارتاپ هستی.
 
@@ -60,7 +60,7 @@ export function buildPrompt(p: Product): string {
 نظرات واقعی کاربران (فقط متن):
 ${commentsEn || '—'}
 
-قوانین: خروجی فقط JSON معتبر؛ متن‌ها فارسی روان؛ کلمات چینی/روس/ویتنامی ممنوع؛ [REDACTED] ممنوع؛ faComments آرایه رشته‌ها به همان ترتیب و تعداد؛ estimatedBudget متن فارسی مثل «۲ تا ۴ میلیارد تومان».
+قوانین: خروجی فقط JSON معتبر؛ متن‌ها فارسی روان؛ کلمات چینی/روس/ویتنامی ممنوع؛ [REDACTED] ممنوع؛ faComments آرایه رشته‌ها به همان ترتیب و دقیقاً به همان تعداد نظرات ورودی؛ estimatedBudget متن فارسی مثل «۲ تا ۴ میلیارد تومان».
 
 خروجی:
 {
@@ -68,7 +68,7 @@ ${commentsEn || '—'}
   "faComments": ["ترجمه نظر ۱", "..."],
   "iranEquivalent": {
     "productName": "...", "description": "(۳ جمله)", "marketOpportunity": "(۲ جمله)",
-    "estimatedBudget": "۲ تا  میلیارد تومان", "targetAudience": "...",
+    "estimatedBudget": "۲ تا ۴ میلیارد تومان", "targetAudience": "...",
     "challenges": ["...", "..."], "monetization": ["...", "..."],
     "techStack": ["Next.js", "PostgreSQL"], "confidence": 75
   },
@@ -196,10 +196,10 @@ function tryParse(text: string): any {
   try { return JSON.parse(s); } catch { /* ادامه */ }
   let t = s;
   for (let i = 0; i < 5; i++) {
-    const cut = Math.max(t.lastIndexOf(','), t.lastIndexOf('",'));
+    const cut = Math.max(t.lastIndexOf(','), t.lastIndexOf('\",'));
     if (cut <= 0) break;
     t = t.slice(0, cut);
-    for (const cand of [t + '}', t + ']}', t + '"}]', t + '}]}']) {
+    for (const cand of [t + '}', t + ']}', t + '\"}]', t + '}]}']) {
       try { return JSON.parse(cand); } catch { /* ادامه */ }
     }
   }
@@ -225,7 +225,7 @@ export async function analyzeProduct(p: Product): Promise<AIAnalysis> {
 
   const parsed = tryParse(text);
 
-  const originals = (p.comments ?? []).slice(0, 4);
+  const originals = (p.comments ?? []).slice(0, 8);
   let texts: string[] = [];
   if (Array.isArray(parsed.faComments)) {
     texts = parsed.faComments.map((x: any) => (typeof x === 'string' ? x : x?.text ?? ''));
