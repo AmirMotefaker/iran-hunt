@@ -13,8 +13,12 @@ export function isDailyDataFilename(filename: string): boolean {
   return DAILY_DATA_FILE_RE.test(filename);
 }
 
-export function shouldMergePreviousDaily(previousDate: string | undefined, targetDate: string): boolean {
-  return Boolean(previousDate && previousDate === targetDate);
+export function shouldMergePreviousDaily(
+  previousDate: string | undefined,
+  targetDate: string,
+  replaceCurrent = false,
+): boolean {
+  return !replaceCurrent && Boolean(previousDate && previousDate === targetDate);
 }
 
 export function mergePeriods(oldP: PeriodsData | undefined, newP: PeriodsData): PeriodsData {
@@ -42,10 +46,15 @@ export function mergePeriods(oldP: PeriodsData | undefined, newP: PeriodsData): 
   return out;
 }
 
-export async function saveDaily(date: string, periods: PeriodsData): Promise<void> {
+export async function saveDaily(
+  date: string,
+  periods: PeriodsData,
+  options: { replaceCurrent?: boolean } = {},
+): Promise<void> {
   await mkdir(DATA_DIR, { recursive: true });
   const prev = await loadLatest();
-  const merged = shouldMergePreviousDaily(prev?.date, date)
+  const mergePrevious = shouldMergePreviousDaily(prev?.date, date, options.replaceCurrent);
+  const merged = mergePrevious
     ? mergePeriods(prev?.periods, periods)
     : mergePeriods(undefined, periods);
   const data: DailyData = {
@@ -55,7 +64,8 @@ export async function saveDaily(date: string, periods: PeriodsData): Promise<voi
   };
   const file = path.join(DATA_DIR, `${date}.json`);
   await writeFile(file, JSON.stringify(data, null, 2), 'utf8');
-  console.log(`💾 Saved${shouldMergePreviousDaily(prev?.date, date) ? ' (same-day merged)' : ''}: ${file}`);
+  const mode = options.replaceCurrent ? ' (fresh replace)' : mergePrevious ? ' (same-day merged)' : '';
+  console.log(`💾 Saved${mode}: ${file}`);
 }
 
 export async function loadLatest(): Promise<DailyData | null> {
