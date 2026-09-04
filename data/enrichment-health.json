@@ -1,41 +1,33 @@
 {
-  "checkedAt": "2026-09-04T06:00:45.779Z",
+  "checkedAt": "2026-09-04T06:47:27.934Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 10,
   "attempted": 10,
-  "succeeded": 4,
-  "failed": 6,
-  "backlogBefore": 202,
-  "backlogAfter": 199,
-  "completedProducts": 45,
-  "missingFaDescription": 110,
-  "missingFaComments": 195,
-  "missingAiReview": 129,
-  "missingIranEquivalent": 110,
+  "succeeded": 6,
+  "failed": 4,
+  "backlogBefore": 209,
+  "backlogAfter": 203,
+  "completedProducts": 51,
+  "missingFaDescription": 114,
+  "missingFaComments": 199,
+  "missingAiReview": 133,
+  "missingIranEquivalent": 114,
   "failures": [
     {
-      "slug": "superlog-responder",
-      "reason": "AI failed: groq: Groq qwen/qwen3.8-27b: HTTP 429 after adaptive retries"
-    },
-    {
-      "slug": "website-to-markdown-api",
-      "reason": "AI failed: groq: Groq qwen/qwen3.8-27b: HTTP 429 after adaptive retries"
-    },
-    {
-      "slug": "har",
-      "reason": "AI failed: groq: Groq qwen/qwen3.8-27b: HTTP 429 after adaptive retries"
-    },
-    {
-      "slug": "secondbrain-note-by-genspark",
-      "reason": "AI failed: groq: Groq qwen/qwen3.8-27b: HTTP 429 after adaptive retries"
-    },
-    {
-      "slug": "vidaya-2",
-      "reason": "AI failed: groq: Groq qwen/qwen3.8-27b: HTTP 429 after adaptive retries"
-    },
-    {
       "slug": "meridian-19",
-      "reason": "AI failed: groq: Groq qwen/qwen3.8-27b: HTTP 429 after adaptive retries"
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "clara-ai-sdr",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "supernova-6",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "mindcase",
+      "reason": "JSON parse failed"
     }
   ]
 }
