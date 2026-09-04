@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-09-04T20:25:39.595Z",
+  "checkedAt": "2026-09-04T21:24:27.926Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 3,
   "failed": 2,
-  "backlogBefore": 114,
-  "backlogAfter": 111,
-  "completedProducts": 143,
-  "missingFaDescription": 22,
-  "missingFaComments": 107,
-  "missingAiReview": 41,
-  "missingIranEquivalent": 22,
+  "backlogBefore": 111,
+  "backlogAfter": 108,
+  "completedProducts": 146,
+  "missingFaDescription": 19,
+  "missingFaComments": 104,
+  "missingAiReview": 38,
+  "missingIranEquivalent": 19,
   "failures": [
     {
-      "slug": "kilo-code-for-jetbrains-2",
+      "slug": "gauth-ai-course",
       "reason": "JSON parse failed"
     },
     {
-      "slug": "computable-gpu-index-cgi",
+      "slug": "sider-code",
       "reason": "JSON parse failed"
     }
   ]
