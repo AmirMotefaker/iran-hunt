@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T22:45:18.693Z",
-  "sourceFiles": 25,
+  "generatedAt": "2026-09-04T00:22:48.768Z",
+  "sourceFiles": 26,
   "products": [
     {
       "id": "ph-year-1",
@@ -1459,6 +1459,112 @@
           "Python (FastAPI)"
         ],
         "confidence": 80
+      }
+    },
+    {
+      "id": "ph-today-1",
+      "date": "2024-07-26",
+      "rank": 1,
+      "name": "Omi (formerly Friend)",
+      "slug": "omi-formerly-friend",
+      "tagline": "An open source AI necklace",
+      "description": "Discover Friend necklace - your open-source personal AI that listens, remembers conversations, takes notes, and prepares tasks for you. Stay organized with real-time notifications and comprehensive memory assistance. Explore the future of AI wearables!",
+      "category": "Android • Productivity • Hardware • Artificial Intelligence • GitHub",
+      "categoryFa": "اندروید • بهره‌وری • Hardware • هوش مصنوعی • گیت‌هاب",
+      "url": "https://www.producthunt.com/products/open-source-ai-necklace-friend/launches/omi-formerly-friend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/9883871c-019a-4cf1-9c73-7c891c5c00c4.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/f5ec6bef-70fc-4f24-8f8a-7b3f560c7f86.png?auto=format",
+        "https://ph-files.imgix.net/a80c29e9-b8a8-4475-919d-0fd51d03ea04.png?auto=format",
+        "https://ph-files.imgix.net/a12750fa-3435-448c-b089-6079891e50d0.png?auto=format",
+        "https://ph-files.imgix.net/fedb5773-aac9-48e8-8dce-48093ddc9862.png?auto=format",
+        "https://ph-files.imgix.net/4e41ae43-16fa-4251-b069-00159b7875bd.png?auto=format",
+        "https://ph-files.imgix.net/73aaa850-4db4-477d-92c7-4667d7244797.png?auto=format",
+        "https://ph-files.imgix.net/10eb2fe9-b4cc-404c-9848-46f8a3af37fe.png?auto=format",
+        "https://ph-files.imgix.net/f6fd3c6b-e3db-40e4-b57d-0f3c4cba46db.png?auto=format",
+        "https://ph-files.imgix.net/27d3af13-9ecf-4dbc-81ee-3fa168af0aa9.png?auto=format",
+        "https://ph-files.imgix.net/221cc896-26e6-4dd4-9d7b-40a2f9cf8011.jpeg?auto=format"
+      ],
+      "maker": "Nik Shevchenko",
+      "makerTitle": "Help makers build products with no code",
+      "featuredAt": "2024-07-26T07:01:00Z",
+      "votes": 726,
+      "websiteUrl": "https://www.producthunt.com/r/4ETJQ2JTNHYJK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "🚀 Excited to introduce Friend Necklace on Product Hunt today! 🚀 To celebrate the launch, giving 5 devices to 5 random supporters! Results on Monday! ----- Meet Friend Necklace - your open-source personal AI that does more than just listen. It remembers your conversations, takes notes, and helps you stay organized by preparing tasks for you. Imagine having real-time notifications and comprehensive memory assistance, all in a sleek, wearable device. This is the future of AI wearables, and we're thrilled to share it with you! Check it out and let us know what you think. Your feedback is invaluable as we continue to innovate and improve. Let's revolutionize how we interact with technology together! 💬🤖✨ https://basedhardware.com/friend"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How can I become a supporter? I guess I would need to make a comment and upvote. Oh this device will force kids to talk if they think it's their friend, actually become more confident."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Cant wait to see this, and try it. It will be so handy when ideas pop into your head while driving. No more ideas forgotten"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Amazing concept I'm anxious and \"NEED\" the device."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Love it! Can’t wait to get my preorder. This will be a life changer for me and my memory."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I want these lol"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Sounds good to me..."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "So cool - very excited to try this!"
+        }
+      ],
+      "faDescription": "گردنبند Omi (که قبلاً با نام Friend شناخته می‌شد) یک دستیار هوش مصنوعی شخصی و متن‌باز است که به صورت یک گجت پوشیدنی طراحی شده است. این دستگاه مکالمات شما را شنیده، به خاطر می‌سپارد، یادداشت‌برداری می‌کند و وظایف شما را به صورت خودکار آماده می‌سازد. با دریافت اعلان‌های بلادرنگ و کمک جامع به حافظه، شما می‌توانید همیشه منظم و به‌روز بمانید. این محصول آینده‌ی گجت‌های پوشیدنی مبتنی بر هوش مصنوعی را به شما معرفی می‌کند.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "🚀 مشتاقم امروز گردنبند Friend را در Product Hunt معرفی کنم! 🚀 برای جشن گرفتن راه‌اندازی، ۶ دستگاه را به ۶ حامی تصادفی هدیه می‌دهم! نتایج در روز یکشنبه اعلام می‌شود! ----- با گردنبند Friend آشنا شوید؛ دستیار هوش مصنوعی شخصی و متن‌باز شما که فراتر از شنیدن عمل می‌کند. مکالمات شما را به یاد می‌سپارد، یادداشت می‌گیرد و با آماده‌سازی وظایف به شما کمک می‌کند تا منظم بمانید. تصور کنید اعلان‌های بلادرنگ و کمک جامع به حافظه را در یک دستگاه پوشیدنی و شیک داشته باشید. این آینده‌ی گجت‌های پوشیدنی هوشمند است و ما هیجان‌زده‌ایم که آن را با شما به اشتراک بگذاریم. آن را بررسی کنید و نظرتان را بگویید. بازخورد شما در حالی که ما به نوآوری و بهبود ادامه می‌دهیم، بی‌ارزش است. بیایید با هم نحوه تعامل ما با فناوری را متحول کنیم! 💬🤖✨ https://basedhardware.com/friend"
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "چطور می‌توانم حامی شوم؟ فکر می‌کنم باید کامنت بگذارم و به آن رأی مثبت بدهم. وای، این دستگاه باعث می‌شود بچه‌ها اگر فکر کنند دوستانشان هستند، مجبور به صحبت شوند و در واقع اعتماد به نفس بیشتری پیدا کنند."
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "نمی‌توانم صبر کنم تا این را ببینم و امتحان کنم. وقتی ایده‌ای در حین رانندگی به ذهنم می‌رسد، بسیار کاربردی خواهد بود. دیگر ایده‌ها فراموش نمی‌شوند."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "مفهوم فوق‌العاده‌ای است؛ من مضطربم و واقعاً به این دستگاه «نیاز» دارم."
+        }
+      ],
+      "aiReview": "تحلیل جامع با ساختار:\n🔹 مسئله و راه‌حل:\nمشکل اصلی فراموشی ایده‌ها، وظایف و جزئیات مکالمات در دنیای پرهیاهوی امروز است. Omi با تبدیل مکالمات صوتی به داده‌های ساختاریافته (یادداشت و وظیفه)، این شکاف را پر می‌کند و به کاربر اجازه می‌دهد بدون نیاز به دست زدن به گوشی، اطلاعات را ثبت کند.\n🔹 معماری و تکنولوژی:\nاین محصول از ترکیب سخت‌افزار پوشیدنی سبک و الگوریتم‌های پردازش زبان طبیعی (NLP) استفاده می‌کند. ویژگی متن‌باز بودن (Open Source) نشان‌دهنده رویکرد جامعه‌محور و امکان توسعه توسط جامعه توسعه‌دهندگان است که می‌تواند به بهبود سریع مدل‌ها کمک کند.\n🔹 مدل درآمدی:\nدرآمد اصلی از فروش سخت‌افزار (گردنبند) به دست می‌آید. با توجه به ماهیت هوش مصنوعی، مدل درآمدی ثانویه می‌تواند شامل اشتراک‌های ماهانه برای پردازش ابری، تحلیل‌های عمیق‌تر و فضای ذخیره‌سازی اضافی باشد.\n🔹 نقاط قوت:\n- تمایز قوی با استفاده از فرمت پوشیدنی (Necklace) به جای گوشی.\n- رویکرد متن‌باز که اعتماد جامعه تکنولوژی را جلب می‌کند.\n- کاربرد عملی در سناریوهای واقعی مانند رانندگی یا جلسات کاری.\n🔹 نقاط ضعف:\n- نگرانی‌های جدی حریم خصوصی (Privacy) در مورد ضبط صدای اطرافیان.\n- وابستگی به باتری و نیاز به شارژ مکرر.\n- دقت احتمالی در تشخیص صدا در محیط‌های پر سر و صدا.\n🔹 نکته طلایی برای ایران:\nبرای موفقیت در ایران، تمرکز بر «امنیت داده‌های محلی» (On-device processing) به جای ارسال به ابر خارجی، می‌تواند بزرگ‌ترین مزیت رقابتی باشد. همچنین، ادغام با پیام‌رسان‌های داخلی مانند ایتا یا روبیکا برای ارسال خلاصه‌ها و یادآوری‌ها، پذیرش محصول را به شدت افزایش می‌دهد.",
+      "iranEquivalent": {
+        "productName": "گردنبند هوشمند حافظه (نام پیشنهادی: یادگار)",
+        "description": "یادگار یک گجت پوشیدنی هوشمند و متن‌باز است که به عنوان دستیار شخصی هوش مصنوعی عمل می‌کند. این دستگاه مکالمات محیطی را ثبت، تحلیل و به صورت خلاصه‌نویسی یا وظایف قابل اجرا ذخیره می‌کند. هدف آن کمک به کاربران برای حفظ نظم، بهبود حافظه کوتاه‌مدت و دریافت اعلان‌های مرتبط در لحظه است.",
+        "marketOpportunity": "بازار گجت‌های پوشیدنی در ایران با وجود محدودیت‌های واردات، پتانسیل رشد بالایی برای محصولات تولید داخل با قیمت رقابتی دارد. نیاز فزاینده به ابزارهای بهره‌وری و سازماندهی شخصی در میان متخصصان و دانشجویان، فرصت بزرگی برای ورود این محصول ایجاد می‌کند.",
+        "estimatedBudget": "۶ تا ۱۰ میلیارد تومان",
+        "targetAudience": "کارآفرینان، مدیران، دانشجویان و هرگونه فردی که با حجم بالای اطلاعات و مکالمات روزانه دست و پنجه نرم می‌کند و به دنبال بهینه‌سازی زمان و حافظه خود است.",
+        "challenges": [
+          "مشکلات واردات قطعات الکترونیکی پیشرفته و تراشه‌های پردازشگر هوش مصنوعی از خارج از کشور.",
+          "نگرانی‌های جدی کاربران در مورد حریم خصوصی و امنیت داده‌های صوتی که در فضای عمومی ضبط می‌شوند."
+        ],
+        "monetization": [
+          "فروش مستقیم دستگاه به مصرف‌کنندگان نهایی با حاشیه سود مناسب.",
+          "ارائه خدمات اشتراکی برای دسترسی به تحلیل‌های پیشرفته هوش مصنوعی و فضای ابری امن برای ذخیره‌سازی داده‌ها."
+        ],
+        "techStack": [
+          "Raspberry Pi Pico",
+          "TensorFlow Lite",
+          "React Native",
+          "PostgreSQL"
+        ],
+        "confidence": 65
       }
     },
     {
@@ -3461,6 +3567,107 @@
           "PostgreSQL"
         ],
         "confidence": 75
+      }
+    },
+    {
+      "id": "ph-today-2",
+      "date": "2022-06-24",
+      "rank": 2,
+      "name": "Causal",
+      "slug": "causal-2",
+      "tagline": "Business planning for modern teams",
+      "description": "Causal lets you build financial models effortlessly, connect them directly to your data, and share them with interactive dashboards and beautiful visuals. Run scenarios, compare versions, manage cash and burn, and prepare for fundraising.",
+      "category": "Productivity • Fintech • Analytics",
+      "categoryFa": "بهره‌وری • فین‌تک • تحلیل داده",
+      "url": "https://www.producthunt.com/products/causal/launches/causal-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/161778bf-f83b-4343-b7b2-c7abc10854c0.gif?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/7665683b-9a17-4e14-8505-4d0c518c2319.jpeg?auto=format",
+        "https://ph-files.imgix.net/d8fca574-6f83-42fa-88cd-2c2cec5517f9.png?auto=format",
+        "https://ph-files.imgix.net/d62ec7c4-808a-414a-ae4f-cbb8282a3385.gif?auto=format",
+        "https://ph-files.imgix.net/d24ac2d3-e6d9-4f14-97a9-6086a2bcb785.png?auto=format",
+        "https://ph-files.imgix.net/99557f37-f6a2-4416-8586-3846856d855a.png?auto=format"
+      ],
+      "maker": "Taimur Abdaal",
+      "makerTitle": "co-founder, Causal (https://causal.app)",
+      "featuredAt": "2022-06-24T07:14:02Z",
+      "votes": 490,
+      "websiteUrl": "https://www.producthunt.com/r/dca088147c2a08?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "WOW ... I am very impressed with this product. This product adds a whole new dimension of modelling as well as seeing your outputs in live action ... especially when you have charts on screen. All the best to Taimur and his team."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "This is fantastic! Congratulations on the launch!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The interface looks a lot simpler and more straighforward than Excel. You have an impressive toolset under your belt as well. Good luck with the launch."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Looks pretty awesome. Will definitely try 😏"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Just started using Causal last week. Seems awesome so far."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch @taimurabdaal"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Absolutely game-changing product that just keeps getting better!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Any good causal freelancers out there?"
+        }
+      ],
+      "faDescription": "Causal به شما امکان می‌دهد بدون هیچ زحمتی مدل‌های مالی بسازید. این پلتفرم مدل‌های شما را مستقیماً به داده‌های سازمانی متصل می‌کند. می‌توانید نتایج را از طریق داشبوردهای تعاملی و بصری‌های زیبا با تیم خود به اشتراک بگذارید. همچنین می‌توانید سناریوهای مختلف را اجرا کنید، نسخه‌ها را مقایسه نمایید، جریان نقدینگی و نرخ سوزاندن سرمایه را مدیریت کرده و برای جذب سرمایه‌گذاری آماده شوید.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "وای... من بسیار تحت تأثیر این محصول قرار گرفتم. این محصول بُعد کاملاً جدیدی به مدل‌سازی اضافه می‌کند و همچنین امکان مشاهده خروجی‌ها را در عمل زنده فراهم می‌آورد... به‌ویژه زمانی که نمودارها روی صفحه نمایش داده می‌شوند. بهترین‌ها را برای تیمور و تیمش آرزو می‌کنم."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "این فوق‌العاده است! تبریک بابت راه‌اندازی!"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "رابط کاربری بسیار ساده‌تر و مستقیم‌تر از اکسل به نظر می‌رسد. شما همچنین مجموعه‌ای شگفت‌انگیز از ابزارها دارید. موفق باشید در راه‌اندازی."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "خیلی خفن به نظر می‌رسد. حتماً امتحانش می‌کنم 😏"
+        }
+      ],
+      "aiReview": "تحلیل جامع با ساختار:\n🔹 مسئله و راه‌حل:\nمشکل اصلی، پیچیدگی و خطاپذیری مدل‌سازی مالی در اکسل و عدم شفافیت در ارتباط داده‌هاست. Causal با ارائه رابط کاربری بصری و اتصال مستقیم به منابع داده، فرآیند را ساده و شفاف می‌کند.\n🔹 معماری و تکنولوژی:\nاحتمالاً از یک موتور محاسباتی پایتون‌محور برای پردازش داده‌ها و یک لایه فرانت‌اند مدرن (احتمالاً React/Next.js) برای رندر نمودارهای تعاملی استفاده می‌کند. اتصال به داده‌ها از طریق API‌های استاندارد انجام می‌شود.\n🔹 مدل درآمدی:\nمدل SaaS (نرم‌افزار به عنوان سرویس) با پلن‌های مختلف بر اساس تعداد کاربر و امکانات. احتمال وجود پلن رایگان برای جذب کاربران اولیه و تبدیل آن‌ها به مشتریان پولی.\n🔹 نقاط قوت:\n- رابط کاربری بسیار ساده و کاربرپسند در مقایسه با ابزارهای سنتی.\n- قابلیت اشتراک‌گذاری زنده و تعاملی که همکاری تیمی را بهبود می‌بخشد.\n- تمرکز بر نیازهای خاص استارتاپ‌ها مانند مدیریت Burn Rate و آماده‌سازی برای جذب سرمایه.\n🔹 نقاط ضعف:\n- وابستگی به کیفیت داده‌های ورودی؛ اگر داده‌های خام نامنظم باشند، خروجی نیز نادرست خواهد بود.\n- یادگیری اولیه برای تیم‌هایی که کاملاً به اکسل وابسته هستند ممکن است چالش‌برانگیز باشد.\n🔹 نکته طلایی برای ایران:\nبرای موفقیت در بازار ایران، باید امکان اتصال به نرم‌افزارهای حسابداری رایج محلی (مانند هلو، سپیدار و...) را در اولویت توسعه قرار دهید. همچنین، ارائه گزارش‌ها به زبان فارسی و با فرمت‌های مالی استاندارد ایران، کلید اعتمادسازی با مدیران مالی سنتی است.",
+      "iranEquivalent": {
+        "productName": "مدل‌ساز مالی هوشمند",
+        "description": "یک پلتفرم ابری برای ساخت مدل‌های مالی پویا که مستقیماً به داده‌های سازمانی متصل می‌شود. این ابزار با رابط کاربری ساده‌تر از اکسل، امکان شبیه‌سازی سناریوهای مختلف و مدیریت نقدینگی را فراهم می‌کند. خروجی‌ها به صورت داشبوردهای تعاملی و زیبا برای تصمیم‌گیری بهتر در اختیار مدیران قرار می‌گیرد.",
+        "marketOpportunity": "بازار استارتاپ‌ها و شرکت‌های متوسط در ایران به شدت به ابزارهای پیشرفته مالی نیاز دارند که جایگزین اکسل باشند. عدم وجود ابزارهای بومی مشابه که با داده‌های محلی سازگار باشند، فرصت بزرگی برای ورود است.",
+        "estimatedBudget": "۴ تا ۶ میلیارد تومان",
+        "targetAudience": "مدیران مالی استارتاپ‌ها، شرکت‌های فن‌تک، و تیم‌های عملیاتی که نیاز به تحلیل داده‌های مالی لحظه‌ای دارند.",
+        "challenges": [
+          "مقاومت کاربران در برابر ترک اکسل و تغییر عادت‌های کاری.",
+          "پیچیدگی اتصال به سیستم‌های حسابداری قدیمی و متنوع موجود در ایران."
+        ],
+        "monetization": [
+          "مدل اشتراک ماهانه بر اساس تعداد کاربر و حجم داده.",
+          "لایسنس سازمانی ویژه برای شرکت‌های بزرگتر با پشتیبانی اختصاصی."
+        ],
+        "techStack": [
+          "Next.js",
+          "PostgreSQL",
+          "Apache Superset",
+          "Python (Pandas)"
+        ],
+        "confidence": 82
       }
     },
     {
@@ -7463,7 +7670,51 @@
           "user": "[REDACTED]",
           "text": "Congrats on the launch, this sounds like a huge help for finance leaders!"
         }
-      ]
+      ],
+      "faDescription": "کنسول مدیریت هزینه‌های هوش مصنوعی Rippling به مدیران مالی و فنی این امکان را می‌دهد تا هزینه‌های مربوط به ابزارهای هوش مصنوعی (مانند Claude و Cursor) را در یک مکان واحد ردیابی کنند و آن‌ها را به نتایج واقعی کسب‌وکار متصل نمایند. این ابزار به شما اجازه می‌دهد هزینه‌ها را بر اساس فروشنده، مدل یا هر کارمند به تفکیک بررسی کنید. سپس می‌توانید این هزینه‌ها را به داده‌های خروجی گیت‌هاب مانند تعداد درخواست‌های Pull Request و تعداد ویرایش‌های کد متصل نمایید. شما می‌توانید بدون نیاز به خرید اشتراک اصلی Rippling و به صورت کاملاً رایگان کار خود را با این ابزار آغاز کنید.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام Product Hunt 👋 من کوین هستم، مدیر محصول کنسول مدیریت هزینه‌های هوش مصنوعی Rippling. ما این ابزار را ساختیم زیرا همه شرکت‌ها در حال پذیرش هوش مصنوعی هستند و هزینه‌ها به سرعت در حال افزایش است. در نتیجه، شرکت‌ها فاقد زیرساخت لازم برای ردیابی و مدیریت هزینه هوش مصنوعی به عنوان یک دسته‌بندی جدید هزینه‌ای هستند. ما خودمان در Rippling با این مشکل مواجه شدیم. در پاسخ، تیم‌های مالی داده‌ها را به صورت دستی از داشبوردهای فروشندگان جمع‌آوری می‌کردند و تحلیل‌های موردی انجام می‌دادند تا فقط در یک لحظه مشخص از هزینه‌ها مطلع شوند. اما حتی در آن زمان هم می‌توانستید ببینید چه چیزی خرج می‌کنید، اما مشخص نبود کدام تیم‌ها، بخش‌ها یا مدل‌ها باعث این افزایش شده‌اند و آیا این هزینه باعث بهبود نتایج کسب‌وکار یا بهره‌وری کارمندان شده است یا خیر. کنسول مدیریت هزینه هوش مصنوعی نمای شفافی از هزینه‌ها ارائه می‌دهد، آن را به نتایج متصل می‌کند و استفاده از مدل‌های تایید شده را مدیریت می‌کند. شروع کار رایگان است و نیازی به اشتراک Rippling ندارد. بر خلاف داشبوردهای ساده، Rippling هزینه‌ها را به ویژگی‌های کارمندان (بخش، تیم، نقش) و داده‌های گیت‌هاب متصل می‌کند. سیستم هوش مصنوعی Rippling داشبوردهای اختصاصی می‌سازد و حتی می‌توانید به زبان طبیعی سوال بپرسید تا جزئیات را بررسی کنید. ما مشتاقانه منتظر دریافت بازخوردهای شما هستیم!"
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "فوق‌العاده است! چه سناریوهای کاربردی دیگری را می‌خواهید در مرحله بعد تست کنید؟"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "این بی‌نظیر است - من در تیم عملیات کسب‌وکار هستم و متوجه شده بودیم که افراد بدون هیچ بازگشت سرمایه واقعی یا مشخصی، توکن‌ها را مصرف می‌کردند... این ابزار تمام مشکلات ما را حل می‌کند."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "تبریک برای انتشار محصول! آیا می‌توانیم داده‌های هزینه هوش مصنوعی را مستقیماً به جریان‌های کاری گزارش‌دهی اصلی خود خروجی (Export) بگیریم؟"
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nافزایش ناگهانی و بدون کنترل هزینه‌های هوش مصنوعی (APIها و ابزارهای توسعه) به یک چالش جدی برای سازمان‌ها تبدیل شده است. تیم‌های مالی و فنی اغلب نمی‌دانند کدام تیم یا کارمند چه میزان هزینه ایجاد کرده و آیا این هزینه ارزش افزوده واقعی داشته است یا خیر. Rippling AI Spend Console با جمع‌آوری تمام هزینه‌ها در یک مکان، متصل کردن آن‌ها به ساختار سازمانی پرسنل و خروجی‌های فنی (مانند فعالیت‌های گیت‌هاب)، شفافیت کامل و امکان کنترل دقیق هزینه‌ها را فراهم می‌کند.\n\n🔹 معماری و تکنولوژی:\nاین محصول بر پایه معماری داده‌محور با قابلیت پردازش جریان‌های داده سنگین از چندین API مختلف (Anthropic, OpenAI, Cursor, GitHub) طراحی شده است. استفاده از هوش مصنوعی برای پرس‌وجوی طبیعی (Natural Language Querying) روی داده‌ها و تحلیل رفتار کاربران، لایه هوشمندی آن را تشکیل می‌دهد. همچنین سیستم مدیریت دسترسی و Gateway برای هدایت درخواست‌ها به LLMهای تاییدشده دارد.\n\n🔹 مدل درآمدی:\nمحصول به عنوان یک ابزار جذب (Hook) کاملاً رایگان ارائه شده تا کاربران را بدون نیاز به اشتراک اصلی Rippling به پلتفرم هدایت کند. مدل درآمدی اصلی از طریق هدایت کاربران به خرید پلتفرم جامع منابع انسانی و مدیریت مالی Rippling یا فروش قابلیت‌های پیشرفته AI Gateway محقق می‌شود.\n\n🔹 نقاط قوت:\n- اتصال مستقیم هزینه هوش مصنوعی به شاخص‌های بهره‌وری واقعی (مانند PRهای گیت‌هاب)\n- رایگان بودن و عدم نیاز به اشتراک قبلی جهت کاهش اصطکاک ورود مشتری\n- امکان پرس‌وجو به زبان طبیعی از داشبوردها و تحلیل آسان داده‌ها\n\n🔹 نقاط ضعف:\n- وابستگی شدید به یکپارچگی با ابزارهای ثالث (مانند GitHub) جهت محاسبه بهره‌وری واقعی\n- دشواری در اندازه‌گیری بهره‌وری برای نقش‌های غیرفنی و کیفی در سازمان\n\n🔹 نکته طلایی برای ایران:\nدر بازار ایران، شرکت‌ها معمولاً از APIهای واسط یا اکانت‌های اشتراکی برای ابزارهای هوش مصنوعی استفاده می‌کنند. ساخت یک سامانه بومی که بتواند هزینه‌های ریالی/ارزی واسطه‌ها و مصرف توکن‌ها را به پلتفرم‌های مدیریت پروژه ایرانی یا گیت‌لب‌های اختصاصی متصل کند، جذابیت بسیار بالایی برای شرکت‌های بزرگ نرم‌افزاری خواهد داشت.",
+      "iranEquivalent": {
+        "productName": "هوش‌سنج (سامانه مدیریت و پایش هزینه‌های هوش مصنوعی)",
+        "description": "هوش‌سنج پلتفرمی برای ردیابی، تحلیل و کنترل هزینه‌های سرویس‌ها و ابزارهای هوش مصنوعی در سازمان‌های ایرانی است. این سامانه با متصل کردن هزینه‌های مصرفی APIها به خروجی‌های واقعی تیم‌های توسعه، نرخ بازگشت سرمایه (ROI) را شفاف می‌سازد. همچنین امکان تعیین سقف مصرف توکن و مدیریت دسترسی پرسنل به مدل‌های مختلف را فراهم می‌آورد.",
+        "marketOpportunity": "با رشد روزافزون استفاده شرکت‌های ایرانی از ابزارهای هوش مصنوعی و چالش‌های تخصیص بودجه و ارز، نیاز مبرمی به مدیریت دقیق هزینه‌ها وجود دارد. شفاف‌سازی بهره‌وری این ابزارها به مدیران ارشد مالی و فنی کمک می‌کند تا بودجه‌های فناوری خود را بهینه‌سازی کنند.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "مدیران ارشد فناوری (CTO)، مدیران مالی (CFO)، مدیران تیم‌های نرم‌افزاری و شرکت‌های فناوری‌محور",
+        "challenges": [
+          "دشواری دسترسی مستقیم به API ابزارها به دلیل تحریم‌ها و نیاز به واسط‌های مختلف",
+          "عدم یکپارچگی آسان با ابزارهای بومی مدیریت پروژه و منابع انسانی در ایران"
+        ],
+        "monetization": [
+          "فروش اشتراک ماهانه و سالانه بر اساس تعداد کاربران و حجم داده‌های پردازشی",
+          "ارائه نسخه سازمانی اختصاصی (On-Premises) برای شرکت‌های بزرگ و هولدینگ‌ها"
+        ],
+        "techStack": [
+          "Next.js",
+          "Node.js",
+          "PostgreSQL",
+          "ClickHouse",
+          "Python",
+          "Docker"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-yesterday-3",
@@ -8099,7 +8350,51 @@
           "user": "[REDACTED]",
           "text": "Congrats on the launch team! Definitely the right next step forward 🫡"
         }
-      ]
+      ],
+      "faDescription": "رسپوندر یک ایجنت هوش مصنوعی برای رفع باگ است که به کانال‌های اسلک موجود شما در سنتری یا دیتا‌داگ متصل می‌شود. این ابزار با همگام‌سازی یک‌کلیکه و بدون نیاز به نصب سیستم‌های سنجش جدید، تمام هشدارهای دریافتی را بررسی می‌کند. رسپوندر با بررسی بافتار کامل و حذف هشدارهای بی‌مورد، علت اصلی و مدارک مربوط به مشکلات واقعی را مستقیماً در همان رشته‌پیام ارسال کرده و یک PR قابل ادغام ایجاد می‌کند. با توجه به قابلیت سفارشی‌سازی کامل پرامپت‌ها، حافظه، دسترسی به ریپازیتوری و قوانین ارجاع، شما در حال ساخت ایجنت اشکال‌زدایی اختصاصی خود هستید و نیازی به اجاره خدمات دیگران ندارید.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام پروداکت هانت! نیکولو هستم، هم‌بنیان‌گذار سوپرلاگ. خیلی از شما بعد از اولین رونمایی ما شروع به استفاده از سوپرلاگ کردید و صریحاً بازخوردهای شما این نسخه را شکل داد. چیزی که مدام می‌شنیدیم این بود: «من از قبل ابزارهای مانیتورینگ را تنظیم کرده‌ام و هشدارها در اسلک می‌آیند. یک داشبورد جدید برای کلیک کردن نمی‌خواهم، فقط می‌خواهم باگ برطرف شود.» حرف منطقی بود؛ بنابراین دقیقاً همان را ساختیم. سوپرلاگ رسپوندر در همان کانال عملیاتی شما که هشدارها می‌آیند مستقر می‌شود. وقتی چیزی خراب می‌شود، به شما پیام نمی‌دهد که بروید بررسی کنید، بلکه خودش با استفاده از دیتا‌داگ، سنتری، نوشن، ریپازیتوری و دیتابیس خواندنی شما شروع به تحقیق می‌کند. سپس یک PR همراه با راه‌حل باز می‌کند. شما صبح با یک تشخیص دقیق و یک پیش‌نویس PR بیدار می‌شوید، نه یک کانال پر از هشدار قرمز و پنیک ساعت ۴ صبح! و چون متن‌باز و کاملاً قابل سفارشی‌سازی است، شما ایجنت ما را اجاره نمی‌کنید، بلکه هم‌تیمی اشکال‌زدایی خودتان را روی داده‌ها و زیرساخت خودتان می‌سازید. نسخه ابری هم برای کسانی که نمی‌خواهند درگیر دپپلوی شوند وجود دارد. مشتاق بازخوردهای شما هستیم."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "ایجاد PR خودکار مستقیماً از هشدار سنتری واقعاً یک رؤیاست! نرخ پذیرش این کدها و ادغامشان در محیط پروداکشن چطور بوده است؟"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "این محصول جالب است، اما می‌خواهم بدانم چه چیزی باعث می‌شود من از Bits AI خود دیتا‌داگ (که پلتفرم‌های مانیتورینگ خودشان ایجنت می‌سازند تا چرخه رفع باگ را کامل کنند) به این ابزار سوئیچ کنم؟ فقط می‌خواهم تفاوت اصلی را درک کنم. ممنون."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "عاشق این هستم که یک ایجنت رفع باگ ساخته‌اید که واقعاً رایگان و متن‌باز است. اکثر ابزارها در این حوزه مستقیماً سراغ پرداخت پول می‌روند، بنابراین شرط‌بندی روی مدل متن‌باز بسیار شاخص است."
+        }
+      ],
+      "aiReview": "تحلیل جامع با ساختار:\n🔹 مسئله و راه‌حل:\nبزرگ‌ترین چالش تیم‌های فنی، خستگی ناشی از هشدارهای مداوم (Alert Fatigue) و قطع تمرکز برای بررسی باگ‌های تکراری است. سوپرلاگ رسپوندر با حذف نیاز به داشبوردهای جدید و حضور مستقیم در کانال‌های ارتباطی موجود (اسلک)، خودکارسازی فرآیند ریشه‌یابی خطا و ارسال PR اصلاحی، زمان حل مسئله (MTTR) را به شدت کاهش می‌دهد.\n\n🔹 معماری و تکنولوژی:\nاین محصول بر پایه معماری ایجنتی (Agentic AI) توسعه یافته و از مدل‌های زبانی بزرگ (LLM) برای تحلیل بافتار کد، لاگ‌ها و مستندات استفاده می‌کند. اتصال یک‌کلیکه بدون نیاز به نصب Telemetry جدید، استفاده از ابزارهای موجود مانند Sentry و Datadog، و قابلیت استقرار به صورت Self-hosted از نقاط برجسته معماری آن است.\n\n🔹 مدل درآمدی:\nمدل فری‌میوم بر پایه Open-Core که هسته اصلی ابزار رایگان و متن‌باز است، اما برای شرکت‌هایی که مدیریت زیرساخت را نمی‌خواهند، سرویس ابری (SaaS) و برای سازمان‌های بزرگ خدمات پشتیبانی، امنیت پیشرفته و سفارشی‌سازی ارائه می‌شود.\n\n🔹 نقاط قوت:\n- عدم نیاز به تغییر ابزارهای مانیتورینگ موجود و نصب تلمتری جدید\n- متن‌باز بودن و قابلیت استقرار روی زیرساخت شخصی (حفظ امنیت داده‌ها)\n- سفارشی‌سازی کامل پرامپت‌ها، ابزارها و دسترسی‌ها\n- تمرکز روی خروجی ملموس (ارسال PR) به جای صرفاً ارسال هشدار جدید\n\n🔹 نقاط ضعف:\n- وابستگی شدید کیفیت PRهای ارسالی به قدرت مدل‌های زبانی و احتمال بروز خطا در کدهای پیچیده\n- رقابت سخت با ویژگی‌های بومی پلتفرم‌های بزرگی مثل Datadog (مانند Bits AI)\n\n🔹 نکته طلایی برای ایران:\nدر ایران به دلیل محدودیت‌های امنیتی، سازمان‌ها اجازه خروج سورس‌کد و داده‌ها را نمی‌دهند. ساخت یک نمونه بومی با قابلیت اتصال به LLMهای محلی یا مدل‌های شخصی‌سازی‌شده که روی گیت‌لب و سیستم‌های مانیتورینگ داخلی (Self-hosted Sentry) نصب شود، شانس بسیار بالایی برای جذب مشتریان سازمانی بزرگ و بانک‌ها دارد.",
+      "iranEquivalent": {
+        "productName": "پاسخ‌بار هوشمند باگ‌گیر",
+        "description": "این محصول یک ایجنت هوشمند متن‌باز است که به پیام‌رسان‌های سازمانی و سیستم‌های مانیتورینگ متصل شده و خطاهای سیستم را به صورت خودکار تحلیل می‌کند. سامانه پس از شناسایی ریشه خطا، پیشنهاد رفع مشکل را به همراه کد اصلاح‌شده در گیت‌لب یا گیت‌هاپ سازمانی ارسال می‌کند. این راهکار نیاز به شیفت‌های شبانه مهندسان نرم‌افزار برای بررسی هشدارهای تکراری را به حداقل می‌رساند.",
+        "marketOpportunity": "اکثر شرکت‌های بزرگ و استارتاپ‌های ایرانی از نسخه خودمیزبان Sentry و ابزارهای مانیتورینگ داخلی استفاده می‌کنند اما فرآیند رفع باگ همچنان دستی و زمان‌بر است. ارائه یک ابزار متن‌باز قابل نصب روی زیرساخت داخلی (On-Premise) که خطاهای نرم‌افزاری را به صورت هوشمند تحلیل کند، پاسخگوی نیاز مبرم تیم‌های فنی ایرانی خواهد بود.",
+        "estimatedBudget": "۴ تا ۶ میلیارد تومان",
+        "targetAudience": "تیم‌های توسعه نرم‌افزار، مهندسان DevOps، شرکت‌های بزرگ فناوری، بانک‌ها و کسب‌وکارهای دارای زیرساخت‌های پیچیده",
+        "challenges": [
+          "نگرانی سازمان‌های ایرانی از دسترسی هوش مصنوعی به سورس‌کد و دیتابیس به دلایل امنیتی",
+          "پیچیدگی هماهنگ‌سازی ایجنت با پیام‌رسان‌های سازمانی بومی و ساختارهای متفاوت گیت‌لب داخلی"
+        ],
+        "monetization": [
+          "ارائه خدمات نصب، استقرار و سفارشی‌سازی برای سازمان‌های بزرگ (Enterprise)",
+          "فروش اشتراک ابری برای تیم‌های کوچک و متوسط همراه با پشتیبانی فنی"
+        ],
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "LangChain",
+          "PostgreSQL",
+          "Docker",
+          "Next.js"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-yesterday-3",
@@ -9310,7 +9605,7 @@
       ]
     },
     {
-      "id": "ph-today-1",
+      "id": "ph-yesterday-1",
       "date": "2026-09-03",
       "rank": 1,
       "name": "Agent Builder by Airtop",
@@ -9333,7 +9628,7 @@
       "maker": "Theo Gravity",
       "makerTitle": "Software engineer with 25+ years of exp",
       "featuredAt": "2026-09-03T07:01:00Z",
-      "votes": 250,
+      "votes": 251,
       "websiteUrl": "https://www.producthunt.com/r/2EYT4D2MQCUU3J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
@@ -9473,6 +9768,65 @@
         ],
         "confidence": 75
       }
+    },
+    {
+      "id": "ph-today-3",
+      "date": "2026-09-03",
+      "rank": 3,
+      "name": "Nex",
+      "slug": "nex-4",
+      "tagline": "Claude Cowork for high-volume GTM workflows",
+      "description": "Nex automates workflows like CRM clean up, large list qualification, revenue recovery, at large volumes, that break general purpose agents. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
+      "category": "Sales • SaaS • Artificial Intelligence",
+      "categoryFa": "فروش • نرم‌افزار ابری • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/7d330afb-0e5a-48fa-8c93-85ff4b8e62e6.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
+        "https://ph-files.imgix.net/1a431835-168e-445a-8cf3-f5d70efe607f.png?auto=format",
+        "https://ph-files.imgix.net/f1748a68-8e5d-4b76-814c-efc519c89de6.png?auto=format",
+        "https://ph-files.imgix.net/d32198e4-53ca-4530-93c2-a61463266598.png?auto=format",
+        "https://ph-files.imgix.net/80d25ced-5ae0-4057-be72-acd4ab50347b.jpeg?auto=format"
+      ],
+      "maker": "Francisco Dias",
+      "makerTitle": "Just trying to help out.",
+      "featuredAt": "2026-09-03T07:01:00Z",
+      "votes": 247,
+      "websiteUrl": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Hey PH 👋 I'm Nazz, co-founder and CEO of Nex. Francisco (my co-founder/CTO) and I spent years at HubSpot running its three largest customer platforms. Francisco was the 4th person on the team that built HubSpot's CRM, and took the fight to Salesforce. Together, we saw the same thing over and over: GTM teams have messy, high-volume workflows, from prospecting thousands of leads to qualifying them to cleaning up a million CRM records to re-engaging lost deals. General-purpose agents choke on this. If you try to run these workflows at scale through a general-purpose agent today, you'll hit limits immediately and still fail. So we built Nex, where you can build and execute the high-volume GTM workflows that general-purpose agents struggle with. One example: on a single onboarding call, Nex audited thousands of records in a customer's HubSpot and started fixing the bad data before the call was even over. We launched 2 weeks ago and became the more viral launch of the batch: https://lnkd.in/p/e6fJijuv. HubSpot's founder, Dharmesh Shah, also backs us. We'd genuinely love your feedback. Try it at nex.ai and tell us what workflow you'd throw at it first. We'll be in the comments all day answering everything. 🙏"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "this is so cool!!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey! Just checked out the platform.How far can you push custom research workflows? For example, could I find 20 active AI newsletters, filter by audience size/topic, then find the right editor + contact info?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "LETS GOOOOOO"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Every GTM tool I get pitched wants my live CRM connected before I can judge it. Is there a way to run a workflow on a sample first?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "u told charles u deliberately dont use the word agent bcoz operators want outcomes. so on a 100k record cleanup that half fails, do they see which rows got fixed?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I'm interested in the workflow aspect of this. The idea of ​​having AI handle a series of steps instead of just responding to a command seems much closer to my daily usage approach."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The CRM cleanup part caught my eye. It's one of those little tasks that can become surprisingly time consuming when data starts to pile up. I'm curious to see how it works in a real, messy CRM."
+        }
+      ]
     },
     {
       "id": "ph-yesterday-2",
@@ -10061,7 +10415,42 @@
           "user": "[REDACTED]",
           "text": "does it work in the us only? and how much?"
         }
-      ]
+      ],
+      "faDescription": "معرفی «موز کد» (Muse Code)، ایجنت کدنویسی ترمینالی جدید متا برای مدیریت پروژه‌های پیچیده و بلندمدت. این محصول قدرتمند بر پایه مدل Muse Spark ۱.۳ توسعه یافته و به ایجنت‌های پس‌زمینه همیشگی مجهز شده است. سیستم فوق قابلیت اجرای دستورات در مقیاس کامل ریپازیتوری و اعتبارسنجی توکار کدها را دارد. توسعه‌دهندگان می‌توانند با استفاده از این ابزار فرایندهای سنگین نرم‌افزاری را اتوماتیک کرده و بهره‌وری خود را به شیوه‌ای بی‌نظیر افزایش دهند.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به همگی! متا با معرفی Muse Code که از مدل جدید Muse Spark ۱.۳ قدرت می‌گیرد، وارد حوزه ایجنت‌های ترمینال شده است. طراحی زمان اجرا (Runtime) احتمالاً جذاب‌ترین بخش آن است؛ یک حلقه ایجنت اصلی در کنار ایجنت‌های غیرهمزمان و مداوم پس‌زمینه کار می‌کند که در طول جلسه فعال می‌مانند، بافت (Context) را جمع‌آوری کرده و کارهای پشتیبان را بدون نیاز به بازسازی در هر مرحله انجام می‌دهند. همچنین Muse Code یک لاگ رویداد محلی از تمام فراخوانی‌های مدل، اجرای ابزارها، تاییدیه ها و ویرایش‌ها نگه می‌دارد، بنابراین اگر یک تکلیف طولانی متوقف شود، می‌تواند دقیقاً از همان نقطه بازیابی شود. دمو چندوجهی (Multimodal) آن هم جالب است؛ می‌توانید یک ویدیو mp۵ از نمای داخل یک خانه به ترمینال بدهید و Muse Code ویدیو را تحلیل کرده و یک وب‌سایت رزرو و بازاریابی خانه تعطیلاتی می‌سازد. قیمت‌گذاری Contributor API نیز اگر مشکلی با استفاده از محتوایتان برای بهبود محصول نداشته باشید، به طرز غیرمعمولی پایین است."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "آیا فقط در ایالات متحده کار می‌کند؟ و قیمتش چقدر است؟"
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nتوسعه کدهای سنگین و پروژه‌های بزرگ در ترمینال معمولاً با قطع شدن context و هدر رفت زمان در کارهای تکراری همراه است. Muse Code با معرفی ایجنت‌های غیرهمزمان پس‌زمینه و لاگ محلی رویدادها، امکان ادامه کار دقیقا از نقطه‌ی توقف را فراهم کرده و کارهای طولانی‌مدت را بدون قطعی مدیریت می‌کند.\n\n🔹 معماری و تکنولوژی:\nاین سیستم از معماری دوگانه شامل یک ایجنت اصلی و چندین ایجنت پس‌زمینه غیرهمزمان (Async) بهره می‌برد. استفاده از مدل قدرتمند Muse Spark ۱.۳ و قابلیت‌های چندوجهی (Multimodal) اجازه می‌دهد فایل‌های ویدیویی یا تصویری مستقیماً تحلیل شده و به کدهای کاربردی تبدیل شوند.\n\n🔹 مدل درآمدی:\nمتا مدل قیمت‌گذاری بسیار ارزان Contributor API را ارائه داده که در آن هزینه‌ها در ازای اجازه استفاده از داده‌های کاربر برای آموزش و بهبود مدل، به‌شدت کاهش می‌یابد.\n\n🔹 نقاط قوت:\n- قابلیت بازیابی و ادامه کار (Resume) دقیق پس از کرش ناگهانی.\n- حفظ دائمی Context بدون نیاز به بازسازی مجدد ایجنت‌ها در هر مرحله.\n- پشتیبانی چندوجهی عالی از ورودی‌های ویدیویی و تصویری.\n\n🔹 نقاط ضعف:\n- نگرانی‌های مرتبط با حریم خصوصی داده‌ها در مدل قیمت‌گذاری Contributor.\n- احتمال محدودیت دسترسی در برخی جغرافیاها در فازهای اولیه عرضه.\n\n🔹 نکته طلایی برای ایران:\nویژگی «ثبت لاگ محلی و ادامه اجرای کار پس از قطعی» (Resume-ability)، دقیقاً همان نیازی است که توسعه‌دهندگان ایرانی به دلیل ناپایداری اینترنت با آن مواجه هستند. پیاده‌سازی این قابلیت در یک دستیار بومی می‌تواند کلید موفقیت آن باشد.",
+      "iranEquivalent": {
+        "productName": "کدنگار هوشمند",
+        "description": "این محصول یک دستیار ترمینالی هوشمند برای توسعه‌دهندگان ایرانی است که مدیریت کارهای پیچیده کدنویسی را بر عهده می‌گیرد. ابزار مذکور با اتصال به مدل‌های متن‌باز، کدهای پروژه را تحلیل کرده و تست و اعتبارسنجی را به صورت خودکار انجام می‌دهد. همچنین قابلیت بازگردانی فرایندها پس از قطعی ارتباط سرور را برای برنامه‌نویسان فراهم می‌سازد.",
+        "marketOpportunity": "با توجه به مهاجرت گسترده نیروهای ارشد برنامه‌نویسی، تقاضا برای ابزارهای اتوماسیون کدنویسی در شرکت‌های ایرانی بسیار بالا است. ارائه‌ی دستیاری هوشمند که هزینه‌های توسعه را کاهش داده و سرعت تولید نرم‌افزار را افزایش دهد، بازار بکری در ایران دارد.",
+        "estimatedBudget": "۴ تا ۶ میلیارد تومان",
+        "targetAudience": "برنامه‌نویسان، تیم‌های فنی استارتاپ‌ها، شرکت‌های توسعه نرم‌افزار و مهندسان DevOps",
+        "challenges": [
+          "محدودیت دسترسی به مدل‌های پیشرفته بین‌المللی به دلیل تحریم‌ها",
+          "چالش‌های ناشی از قطعی اینترنت و نیاز به زیرساخت محلی پایداری‌پذیر"
+        ],
+        "monetization": [
+          "فروش اشتراک ماهانه و سالانه بر اساس میزان مصرف توکن",
+          "ارائه نسخه‌های اختصاصی سازمانی (On-Premise) برای شرکت‌های بزرگ"
+        ],
+        "techStack": [
+          "Python",
+          "Go",
+          "Docker",
+          "PostgreSQL",
+          "Ollama"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-yesterday-3",
@@ -10122,65 +10511,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-today-2",
-      "date": "2026-09-03",
-      "rank": 2,
-      "name": "Nex",
-      "slug": "nex-4",
-      "tagline": "Claude Cowork for high-volume GTM workflows",
-      "description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
-      "category": "Sales • SaaS • Artificial Intelligence",
-      "categoryFa": "فروش • نرم‌افزار ابری • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/nex-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/7d330afb-0e5a-48fa-8c93-85ff4b8e62e6.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/17b5d314-12f2-4052-b45c-d551b00cc7a2.png?auto=format",
-        "https://ph-files.imgix.net/1a431835-168e-445a-8cf3-f5d70efe607f.png?auto=format",
-        "https://ph-files.imgix.net/f1748a68-8e5d-4b76-814c-efc519c89de6.png?auto=format",
-        "https://ph-files.imgix.net/d32198e4-53ca-4530-93c2-a61463266598.png?auto=format",
-        "https://ph-files.imgix.net/80d25ced-5ae0-4057-be72-acd4ab50347b.jpeg?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-09-03T07:01:00Z",
-      "votes": 231,
-      "websiteUrl": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Hey PH 👋 I'm Nazz, co-founder and CEO of Nex. Francisco (my co-founder/CTO) and I spent years at HubSpot running its three largest customer platforms. Francisco was the 4th person on the team that built HubSpot's CRM, and took the fight to Salesforce. Together, we saw the same thing over and over: GTM teams have messy, high-volume workflows, from prospecting thousands of leads to qualifying them to cleaning up a million CRM records to re-engaging lost deals. General-purpose agents choke on this. If you try to run these workflows at scale through a general-purpose agent today, you'll hit limits immediately and still fail. So we built Nex, where you can build and execute the high-volume GTM workflows that general-purpose agents struggle with. One example: on a single onboarding call, Nex audited thousands of records in a customer's HubSpot and started fixing the bad data before the call was even over. We launched 2 weeks ago and became the more viral launch of the batch: https://lnkd.in/p/e6fJijuv. HubSpot's founder, Dharmesh Shah, also backs us. We'd genuinely love your feedback. Try it at nex.ai and tell us what workflow you'd throw at it first. We'll be in the comments all day answering everything. 🙏"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "LETS GOOOOOO"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Every GTM tool I get pitched wants my live CRM connected before I can judge it. Is there a way to run a workflow on a sample first?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "u told charles u deliberately dont use the word agent bcoz operators want outcomes. so on a 100k record cleanup that half fails, do they see which rows got fixed?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I'm interested in the workflow aspect of this. The idea of ​​having AI handle a series of steps instead of just responding to a command seems much closer to my daily usage approach."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The CRM cleanup part caught my eye. It's one of those little tasks that can become surprisingly time consuming when data starts to pile up. I'm curious to see how it works in a real, messy CRM."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This looks really interesting...especially the high-volume GTM workflows. Excited to see how Nex performs in real-world use cases!Congrats on your launch @najmuzzaman"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "This feels like a pretty natural evolution of AI in sales less chat with an agent more actually run the workflow. Congrats on the launch!"
-        }
-      ]
     },
     {
       "id": "ph-today-5",
@@ -10820,7 +11150,49 @@
           "user": "[REDACTED]",
           "text": "I think that this is the future and also outputs (answers by AI) that will show you on the video what to do."
         }
-      ]
+      ],
+      "faDescription": "این اپلیکیشن رایگان و محلی برای مک‌اس، امکان ضبط صفحه نمایش را با قابلیت ترسیم و گفتار فراهم می‌کند تا مستقیماً به عنوان دستورالعمل (Prompt) به هوش مصنوعی منتقل شود. با این روش، کاربران می‌توانند به‌جای نوشتن متن‌های طولانی، فرآیندهای UI و تعاملات واقعی را به صورت ویدیویی به دستیاران کدنویسی مانند Cursor، Claude و Codex نشان دهند. تمام داده‌ها به صورت محلی روی دستگاه پردازش می‌شوند و هیچ اطلاعاتی به سرورهای ابری ارسال نمی‌شود که امنیت و حریم خصوصی را تضمین می‌کند. این ابزار با استفاده از فریم‌های کلیدی و متن گفتار، مصرف توکن‌ها را کاهش داده و ارتباط بین انسان و هوش مصنوعی را دقیق‌تر و سریع‌تر می‌سازد.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام محصول‌هانتر 👋 من سازنده Annotate هستم. خلاصه‌اش این است: این یک اپلیکیشن رایگان و محلی برای مک‌اس است که ضبط‌های صفحه نمایش را به دستورات آماده برای Agent تبدیل می‌کند تا با Cursor، Claude، Codex یا هر هوش مصنوعی دیگری کار کند. تصور کنید دارید صفحه خود را به اشتراک می‌گذارید و با ترسیم و صحبت، به توسعه‌دهنده توضیح می‌دهید که چه چیزی باید ساخته شود. من قبلاً دستورات طولانی و دقیق می‌نوشتم اما Agent هنوز اشتباه حدس می‌زد. اسکرین‌شات‌ها هم مشکل را حل نکردند چون حرکت، فرم‌ها و بازخورد لحظه‌ای UI را نشان نمی‌دادند. بنابراین دقیقاً همان راه‌حلی را که می‌خواستم ساختم، اکنون در کارهای روزانه‌ام استفاده می‌کنم و تغییری بزرگ ایجاد کرده است. زمان زیادی صرفه‌جویی می‌شود؛ یک بار توضیح می‌دهم و کار تمام می‌شود. نحوه کار: ۱. شروع ضبط: کلید Ctrl + Shift + R را بزنید یا روی دکمه ضبط کلیک کنید. ۳. حاشیه‌نویسی روی صفحه: برای فعال‌سازی ابزارهای ترسیم، Ctrl + ۱ یا ۳ را بزنید. ترسیم‌های استاندارد به‌صورت خودکار پاک می‌شوند، اما نگه داشتن Shift هنگام ترسیم آن‌ها را دائمی نگه می‌دارد که برای طراحی چیدمان یا جریان UI عالی است. ۴. توقف ضبط: دوباره Ctrl + Shift + R را بزنید یا روی دکمه توقف کلیک کنید. ۵. در Cursor باز کنید یا دستور جلسه (Session Prompt) را در هوش مصنوعی مورد نظر خود کپی کنید تا کار کند. آپلود ابری وجود ندارد. لاگین لازم نیست. ضبط‌ها روی مک شما باقی می‌مانند. ویژگی‌ها: مصرف توکن کمتر: Agent از طریق MCP محلی با استفاده از فریم‌های کلیدی و گفتار ضبط‌ها را می‌خواند، نه یک ویدیوی حجیم. پشتیبانی از چند مانیتور: می‌توانید روی صفحه‌های مختلف اشاره یا ترسیم کنید، زمینه را به‌صورت بی‌درز تغییر دهید و بگذارید هوش مصنوعی منظور شما را بفهمد. امن: ضبط‌ها روی دستگاه شما باقی می‌ماند، ما آن‌ها را آپلود نمی‌کنیم. متن گفتار و فریم‌ها به صورت محلی ذخیره می‌شوند. مستقل از Agent: با هر دستیار کدنویسی هوش مصنوعی (Cursor، Claude، Codex و غیره) کار می‌کند. ابزارهای حاشیه‌نویسی: ابزارهای ترسیم و هایلایت آسان برای توضیح واضح ایده شما به هوش مصنوعی. اگر با آژنت‌های کدنویسی هوش مصنوعی راحت هستید و از نوشتن دستورات طولانی خسته شده‌اید، عاشق این هستم که آن را امتحان کنید و بگویید کجا شکست می‌خورد. خوشحال می‌شوم به هر سؤالی پاسخ دهم — بگویید چگونه می‌توانید آن را در جریان کاری روزانه خود استفاده کنید. ممنون که اینجا هستید."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "سلام @kim_ben_g آیا برنامه‌ای برای اندروید و ویندوز هم دارید؟ مشتاق شنیدن پاسخ شما هستم."
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "رویکرد محلی‌محور (Local-first) را دوست دارم! آیا برنامه‌ای برای پشتیبانی از ویندوز یا لینوکس در آینده وجود دارد؟"
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "عالی است کیم! دستورات (Prompting) مدیریت جدید است و ضبط صفحه نمایش در این حوزه جایگاه ویژه‌ای دارد. بنابراین احساس می‌کنم که خیلی کمک می‌کنید و بسیاری از بنیان‌گذاران بیشترین بهره را از آن خواهند برد. بهترین آرزوها را برای شما دارم!"
+        }
+      ],
+      "aiReview": "تحلیل جامع با ساختار:\n🔹 مسئله و راه‌حل:\nمسئله اصلی، دشواری در انتقال دقیق نیازمندی‌های UI/UX و جریان‌های کاری به هوش مصنوعی کدنویسی است. نوشتن Promptهای متنی طولانی زمان‌بر است و اسکرین‌شات‌های ثابت نمی‌توانند دینامیک بودن رابط کاربری را نشان دهند. راه‌حل ارائه‌شده، تبدیل تعاملات زنده (گفتار + ترسیم روی صفحه) به یک فرمت ساختاریافته و بهینه برای مصرف توسط AI است که هم دقت را بالا می‌برد و هم هزینه توکن را کاهش می‌دهد.\n🔹 معماری و تکنولوژی:\nمعماری کاملاً محلی (Local-First) است. از Electron یا Tauri برای رابط کاربری دسکتاپ، کتابخانه‌های پردازش ویدیو (مثل OpenCV) برای استخراج فریم‌های کلیدی، و مدل‌های زبانی محلی (مثل Whisper) برای تبدیل گفتار به متن استفاده می‌شود. خروجی نهایی یک Prompt متنی بهینه‌شده است که از طریق MCP یا کپی مستقیم به Agent ارسال می‌شود. عدم نیاز به سرور ابری، امنیت را تضمین می‌کند.\n🔹 مدل درآمدی:\nمدل رایگان برای جذب کاربر (PLG) و مدل پولی برای کاربران حرفه‌ای و سازمان‌ها. درآمد از طریق اشتراک ماهانه برای دسترسی به ویژگی‌های پیشرفته (مانند ضبط طولانی‌تر، پشتیبانی از چند مانیتور پیشرفته، یا تاریخچه جلسات) و لایسنس سازمانی برای شرکت‌ها به دست می‌آید.\n🔹 نقاط قوت:\n- حریم خصوصی بالا و عدم ارسال داده به ابر.\n- کاهش چشمگیر هزینه توکن‌های AI با ارسال فریم‌های کلیدی به جای ویدیوی کامل.\n- رابط کاربری ساده و مبتنی بر کلیدهای میانبر که سرعت کار را افزایش می‌دهد.\n- مستقل بودن از نوع Agent (کار با هر AI کدنویسی).\n🔹 نقاط ضعف:\n- در حال حاضر فقط برای macOS است (بازار ویندوز و لینوکس را از دست می‌دهد).\n- وابستگی به کیفیت میکروفون و روشنایی صفحه برای تشخیص صحیح گفتار و تصویر.\n- نیاز به یادگیری اولیه برای کاربران عادت به نوشتن Prompt متنی.\n🔹 نکته طلایی برای ایران:\nبا توجه به محدودیت‌های دسترسی به سرویس‌های ابری خارجی و هزینه بالای توکن‌ها، نسخه بومی این محصول با پشتیبانی از زبان فارسی در تشخیص گفتار (Speech-to-Text) و امکان اتصال به مدل‌های هوش مصنوعی داخلی یا محلی، می‌تواند یک مزیت رقابتی بزرگ داشته باشد. تمرکز بر ویندوز (که پلتفرم غالب توسعه در ایران است) به جای مک، بازار هدف را چند برابر می‌کند.",
+      "iranEquivalent": {
+        "productName": "آژنت‌اسکرین (AgentScreen)",
+        "description": "یک اپلیکیشن دسکتاپ بومی برای ویندوز و لینوکس که امکان ضبط تعاملی صفحه نمایش با قابلیت ترسیم و گفتار را فراهم می‌کند. این ابزار، ویدیوی ضبط‌شده را به صورت محلی به دستورات متنی بهینه برای هوش مصنوعی تبدیل می‌کند تا توسعه‌دهندگان بتوانند بدون نوشتن مستندات طولانی، نیازمندی‌های نرم‌افزاری را به AI منتقل کنند. با تمرکز بر پردازش محلی، حریم خصوصی داده‌های شرکتی حفظ شده و وابستگی به اینترنت برای فرآیند اصلی حذف می‌شود.",
+        "marketOpportunity": "بازار توسعه نرم‌افزار در ایران با رشد سریع استفاده از ابزارهای هوش مصنوعی در کدنویسی روبه‌رو است و نیاز به ابزارهای بومی برای کاهش هزینه‌های توکن و افزایش دقت در انتقال نیازمندی‌ها بسیار بالاست. این محصول می‌تواند پل ارتباطی میان تیم‌های محصول و توسعه‌دهندگان باشد که از AI بهره می‌برند اما با چالش‌های زبان انگلیسی و هزینه‌های بالای سرویس‌های خارجی دست‌وپنجه نرم می‌کنند.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "توسعه‌دهندگان فرانت‌اند و بک‌اند، تیم‌های محصول (Product Managers)، فریلنسرها و شرکت‌های نرم‌افزاری که از ابزارهای کدنویسی هوشمند مانند Cursor یا Claude Code استفاده می‌کنند.",
+        "challenges": [
+          "محدودیت‌های سخت‌افزاری در برخی سیستم‌های قدیمی برای پردازش ویدیو به صورت محلی.",
+          "رقابت با ابزارهای رایگان و بین‌المللی که ممکن است در آینده نسخه‌های ارزان‌تر ارائه دهند."
+        ],
+        "monetization": [
+          "مدل Freemium: نسخه رایگان با محدودیت در مدت زمان ضبط یا تعداد پروژه‌ها، و نسخه حرفه‌ای با اشتراک ماهانه.",
+          "لایسنس سازمانی: فروش لایسنس دائمی یا اشتراکی برای شرکت‌ها با قابلیت‌های مدیریت تیم و گزارش‌گیری."
+        ],
+        "techStack": [
+          "Electron یا Tauri",
+          "Python (برای پردازش ویدیو و استخراج فریم)",
+          "Whisper (برای تبدیل گفتار به متن محلی)",
+          "Node.js"
+        ],
+        "confidence": 82
+      }
     },
     {
       "id": "ph-yesterday-3",
@@ -12397,7 +12769,54 @@
           "user": "[REDACTED]",
           "text": "Open source is the part that makes me look twice at anything agentic. What's the licence, and is a hosted version the plan for making money later?"
         }
-      ]
+      ],
+      "faDescription": "کپ‌استروک یک پلتفرم همه‌کاره برای ساخت و استقرار ایجنت‌های هوش مصنوعی قدرتمند است. کافی است ایجنت مورد نیاز خود را به زبان ساده توصیف کنید تا سیستم آن را بسازد، به ابزارهای شما متصل کند، تست کرده و در فضای کاری مشترک مستقر سازد. شما می‌توانید به ایجنت‌های خود حافظه، جریان‌های کاری، محرک‌های خودکار و تاییدیه‌های انسانی اضافه کرده و آن‌ها را به بیش از ۱۰۰۰ ابزار مختلف متصل کنید. این پلتفرم به صورت متن‌باز ارائه شده، توسط شتاب‌دهنده Y Combinator حمایت می‌شود و ۳۰ دلار اعتبار رایگان برای شروع در اختیار کاربران قرار می‌دهد.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به جامعه پروداکت هانت 👋 من بلیک، هم‌بنیان‌گذار کپ‌استروک هستم. ما کپ‌استروک را ساختیم چون ساختن یک ایجنت هوش مصنوعی تنها بخش کوچکی از به‌کارگیری آن در یک شرکت است. شما همچنین به یکپارچه‌سازی‌ها، اعتبارسنجی‌ها، حافظه، جریان‌های کاری، محرک‌ها، تاییدیه‌های انسانی، قابلیت پایش و فضایی نیاز دارید که تیم‌تان بتواند از ساخته‌های شما استفاده کرده و آن‌ها را بهبود دهد. امروز این قطعات معمولاً بین فریم‌ورک‌های ایجنت، اسکریپت‌ها، زیرساخت‌ها و ابزارهای اتوماسیون پراکنده هستند. کپ‌استروک همه این موارد را در یک پلتفرم تعاملی یکپارچه گرد هم می‌آورد. سیستم یا ایجنت مورد نیاز خود را مستقیماً در کپ‌استروک توصیف کنید تا ایجنت داخلی آن را بسازد، ابزارهای شما را متصل کند، تست‌ها را اجرا کرده و در فضای کاری شما مستقر کند. شما همچنین می‌توانید با Cursor، Claude Code، Codex یا هر ایجنت کدنویسی دیگری آن را توسعه دهید. ایجنت‌ها همراه با حافظه، جستجوی وب، اجرای کد، فضاهای کاری دائمی و دسترسی به بیش از ۱۰۰۰ یکپارچه‌سازی، هر نوع API یا سرور MCP ارائه می‌شوند. آن‌ها می‌توانند طبق زمان‌بندی یا رویدادهای برنامه‌ها کار کنند، محرک‌های خودشان را بسازند و داشبوردهای سبک ایجاد کنند. برای سیستم‌های پیچیده‌تر، می‌توانید ایجنت‌ها را با جریان‌های کاری قطعی، ارکستراسیون چند ایجنتی و تاییدیه‌های انسانی ترکیب کنید. هر اجرا پایدار، قابل پایش و برای بازرسی تیم شما در دسترس است. تیم‌ها می‌توانند با ایجنت‌ها در کپ‌استروک چت کنند، از آن‌ها در اسلاک یا تیمز استفاده نمایند، جریان‌های کاری را اجرا کنند، اعتبارنامه‌ها را مدیریت کرده و دانش و مهارت‌ها را به اشتراک بگذارند. در لایه زیرین، تمام آنچه تیم‌ها می‌سازند کد معمولی تایپ‌اسکریپت است؛ بنابراین می‌توانید آن را در گیت نگه دارید، تست کنید، کدویو انجام دهید و هر جایی اجرا کنید. چیزی که ما بیشتر از همه بابت آن هیجان‌زده هستیم، دادن یک فضای مشترک به همکاران فنی و غیرفنی برای ساخت و کار با ایجنت‌هاست. آنچه یک نفر می‌سازد به ابزاری تبدیل می‌شود که کل شرکت می‌تواند از آن استفاده کرده، آن را درک کند و بهبود بخشد. کپ‌استروک متن‌باز است، توسط YC حمایت می‌شود، در فاز آلفای عمومی قرار دارد و ۳۰ دلار اعتبار رایگان برای تست ارائه می‌دهد. ما مشتاقانه منتظر بازخورد جامعه پروداکت هانت هستیم، به‌خصوص کسانی که در حال ساخت ایجنت‌های داخلی، سیستم‌های AI یا اتوماسیون‌ها هستند. با کمال میل تمام روز به سوالات پاسخ می‌دهم!"
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "به نظر می‌رسه یه نسخه ساده‌تر و راحت‌تر از Zapier یا n۹n باشه. حتماً امتحانش می‌کنم."
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "راستش می‌تونه خیلی بزرگ بشه. من هیچ‌وقت طرفدار n۹n نبودم و فکر می‌کنم این ابزار می‌تونه خیلی بهتر عمل کنه."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "من از این محصول استفاده کرده‌ام و تایید می‌کنم که کار با آن فوق‌العاده لذت‌بخش و جذاب است!"
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nتوسعه و به‌کارگیری ایجنت‌های هوش مصنوعی در سازمان‌ها معمولاً با پراکندگی ابزارها، اسکریپت‌ها و زیرساخت‌ها همراه است. کپ‌استروک با یکپارچه‌سازی تمام الزامات (از جمله حافظه، جریان‌های کاری، محرک‌ها و تاییدیه‌ها) در یک محیط تعاملی، امکان تعریف ایجنت با زبان طبیعی و تبدیل آن به کدهای قابل توسعه را فراهم کرده است.\n\n🔹 معماری و تکنولوژی:\nاین پلتفرم بر پایه زبان TypeScript توسعه یافته که امکان کنترل نسخه (Git)، تست‌نویسی و بازبینی کد را فراهم می‌کند. همچنین با پشتیبانی از پروتکل MCP، پشتیبانی از ایجنت‌های کدنویسی مانند Cursor و Claude Code، و قابلیت یکپارچه‌سازی با بیش از ۱۰۰۰ API، زیرساختی بسیار انعطاف‌پذیر دارد.\n\n🔹 مدل درآمدی:\nمدل درآمدی فری‌میوم (Freemium) همراه با ۳۰ دلار اعتبار اولیه. درآمد اصلی از طریق اشتراک‌های ابری بر اساس میزان مصرف پردازشی و فروش اکانت‌های سازمانی (Enterprise) با امکانات پیشرفته امنیتی تأمین می‌شود.\n\n🔹 نقاط قوت:\n- متن‌باز بودن و پشتیبانی قدرتمند توسط Y Combinator\n- پل زدن میان نیروهای فنی و غیرفنی برای ساخت اتوماسیون‌های هوشمند\n- خروجی استاندارد TypeScript و عدم وابستگی به بستر اختصاصی (No Lock-in)\n- ترکیب ایجنت‌های هوشمند با جریان‌های کاری قطعی (Deterministic)\n\n🔹 نقاط ضعف:\n- قرار داشتن در فاز آلفا و احتمال وجود عدم ثبات در اجراهای سنگین\n- وابستگی هزینه‌ای به API مدل‌های بزرگ زبانی (LLMs) در مقیاس بالا\n- رقابت شدید با غول‌های اتوماسیون مانند Zapier و n۹n\n\n🔹 نکته طلایی برای ایران:\nپیاده‌سازی این الگو با بومی‌سازی اتصالات (مثلاً اتصال به پیام‌رسان‌های بله و ایتا، درگاه‌های پرداخت ایرانی و سیستم‌های CRM داخلی) و ارائه نسخه اختصاصی On-Premise برای بانک‌ها و سازمان‌های دولتی، می‌تواند سهم بازار فوق‌العاده‌ای در ایران ایجاد کند.",
+      "iranEquivalent": {
+        "productName": "هوش‌یار (Houshyar)",
+        "description": "هوش‌یار یک پلتفرم بومی برای ساخت، مدیریت و اتوماسیون ایجنت‌های هوش مصنوعی در سازمان‌های ایرانی است. این سیستم به تیم‌های فنی و غیرفنی اجازه می‌دهد تا دستیارهای هوشمند خود را به سرویس‌های داخلی متصل کنند. با ارائه زیرساخت امن و پردازش محلی، نگرانی‌های مربوط به امنیت داده‌های حساس در سازمان‌ها کاملاً برطرف می‌شود.",
+        "marketOpportunity": "عدم دسترسی مستقیم سازمان‌های ایرانی به ابزارهای بین‌المللی اتوماسیون به دلیل تحریم‌ها و تقاضای روزافزون برای هوشمندسازی فرایندها، بازار بکری ایجاد کرده است. پیچیدگی ابزارهای موجود مانند n۹n باعث شده جای خالی یک پلتفرم بومی و بدون نیاز به کدنویسی پیچیده شدیداً احساس شود.",
+        "estimatedBudget": "۴ تا ۶ میلیارد تومان",
+        "targetAudience": "شرکت‌های نرم‌افزاری، سازمان‌های بزرگ و متوسط، تیم‌های توسعه محصول و کسب‌وکارهای آنلاین",
+        "challenges": [
+          "محدودیت و چالش‌های اتصال به مدل‌های بین‌المللی هوش مصنوعی و هزینه‌های ارزی",
+          "دشواری یکپارچه‌سازی با نرم‌افزارهای قدیمی و سیستم‌های سنتی اتوماسیون اداری در ایران",
+          "مقاومت سازمان‌ها در برابر به اشتراک‌گذاری داده‌ها و مسائل مربوط به حریم خصوصی"
+        ],
+        "monetization": [
+          "فروش اشتراک ماهانه و سالانه بر اساس تعداد اجرا (Run) و حجم پردازش",
+          "ارائه نسخه سازمانی با قابلیت نصب روی سرورهای اختصاصی مشتری (On-Premise)",
+          "ارائه خدمات سفارشی‌سازی و توسعه اتصالات (Integrations) اختصاصی"
+        ],
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "Docker",
+          "Python"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-yesterday-6",
@@ -12748,7 +13167,50 @@
           "user": "[REDACTED]",
           "text": "the piece i would want spelled out is what permissioned covers. one record per account answers which customer's data this is. it does not answer which person inside your company may see which parts of it, and those stop being the same problem once the record includes tickets and slack.support history is full of things that are true and not sharable. an internal note saying do not give this account another refund, a pricing exception someone approved once, a comment about a customer written by a person having a bad day. if an answer is assembled from everything the company knows, someone junior asking a reasonable question can get back a sentence they could never have opened themselves.the outbound direction is worse, and it is the one i have been bitten by. a drafted reply grounded on the full record will happily repeat the internal note to the customer. inside a helpdesk the internal note and the public reply are one toggle apart, and once a model is grounding on the joined picture, nothing in the text marks which half is quotable.so does the visibility travel with the source all the way into the answer, so a response respects the permissions of whoever asked, or is it one corpus behind one set of credentials?"
         }
-      ]
+      ],
+      "faDescription": "اکثر شرکت‌ها مدل‌های کلود (Claude) یا چت‌جی‌پی‌تی (ChatGPT) را از طریق یک MCP تک به ابزارهایی مانند اسلک، ایمیل، تماس‌ها، تیکت‌ها و CRM متصل می‌کنند. این کار در واقع وصل کردن لوله‌های خام به سیستم‌های پراکنده است که باعث می‌شود مدل هوش مصنوعی فقط بخشی از داده‌ها را بخواند و بقیه را حدس بزند. سرویس BackEngine MCP به همان ابزارها متصل می‌شود، اما ابتدا تمام اطلاعات را می‌خواند و همگی را در قالب یک پرونده یکپارچه و دارای سطوح دسترسی به ازای هر حساب کاربری ترکیب کرده و به‌روز نگه می‌دارد. در نتیجه، کلود و چت‌جی‌پی‌تی همواره بر اساس یک تصویر کامل و جامع کار می‌کنند. در مقایسه مستقیم، این روش منجر به ۷۸ درصد خطای کمتر، ۳.۵ برابر اطلاعات کلیدی بیشتر و ۷۶ درصد مصرف توکن کمتر نسبت به اتصال‌دهنده‌های مستقیم می‌شود.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "خیلی مشتاقم این را امتحان کنم. متصل کردن اسلک، جی‌میل، جیرا و یادداشت‌های جلسات در یک مخزن واحد مشکلی است که هر روز با آن دست‌و‌پنجه نرم می‌کنم."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "عاشق این سرویس MCP برای افزایش بهره‌وری‌ام هستم!"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "خیلی جالب به نظر می‌رسد، آیا می‌توانم از این برای پشتیبانی مشتریان (CS) و فروش استفاده کنم؟"
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "ایجاد یک پرونده یکپارچه به ازای هر حساب کاربری باعث می‌شود که مجبور باشیم کاملاً به آن داده اعتماد کنیم. مشتاقم بدانم وقتی داده‌ها اشتباه یا قدیمی باشند، از دید کاربر چگونه به نظر می‌رسد و آن‌ها چطور متوجه ناهمخوانی می‌شوند؟ انتشار این محصول را تبریک می‌گویم!"
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nاتصال مستقیم هوش مصنوعی به ابزارهای پراکنده (مثل اسلک، CRM و ایمیل) باعث ارائه داده‌های ناقص و حدس زدن AI می‌شود. BackEngine MCP با ساخت یک پرونده یکپارچه، به‌روز و دارای سطح دسترسی مشخص برای هر حساب کاربری، تصویر کاملی از داده‌ها به هوش مصنوعی می‌دهد که خطای آن را ۷۸٪ کاهش می‌دهد.\n\n🔹 معماری و تکنولوژی:\nاین سیستم از پروتکل MCP (Model Context Protocol) استفاده کرده و داده‌ها را پیش از ارسال به LLM، یکپارچه‌سازی و پردازش (ETL) می‌کند. استفاده از پایگاه داده‌های برداری (Vector DBs) و خط‌لوله‌های همگام‌سازی زنده داده‌ها از اجزای کلیدی فنی آن است.\n\n🔹 مدل درآمدی:\nمدل B۳B SaaS متکی بر حق اشتراک ماهیانه بر اساس تعداد اتصال‌ها (Connectors)، تعداد حساب‌های پردازش‌شده و میزان مصرف API.\n\n🔹 نقاط قوت:\n- کاهش چشمگیر مصرف توکن (۷۶٪) و کاهش هزینه‌های AI\n- افزایش دقت و کاهش توهمات (Hallucination) مدل‌های زبانی\n- ایجاد یک منبع واحد و معتبر برای کل دانش مربوط به یک مشتری\n\n🔹 نقاط ضعف:\n- وابستگی کامل به صحت داده یکپارچه‌شده (خطر Single Point of Failure)\n- چالش کشف و اعلام خطاهای داده به کاربر در صورت قدیمی بودن اطلاعات\n\n🔹 نکته طلایی برای ایران:\nدر ایران می‌توان با پیاده‌سازی این الگو برای ابزارهای بومی (مانند CRMهای ایرانی، سامانه‌های تیکتینگ و پیام‌رسان‌های سازمانی) و ارائه نسخه خصوصی (On-Premise)، چالش امنیت داده سازمان‌های بزرگ را حل کرد و بازار بکری را به دست گرفت.",
+      "iranEquivalent": {
+        "productName": "پارس‌کانتکست (ParsContext)",
+        "description": "این محصول یک پلتفرم یکپارچه‌سازی دانش سازمانی برای دستیارهای هوش مصنوعی در ایران است. سیستم با اتصال به ابزارهای بومی و بین‌المللی، اطلاعات پراکنده سازمان را پیش‌پ پردازش و یکپارچه می‌کند. در نهایت پرونده‌ای جامع و به‌روز از هر مشتری یا پروژه در اختیار مدل‌های هوش مصنوعی قرار می‌دهد.",
+        "marketOpportunity": "با رشد استفاده از هوش مصنوعی در سازمان‌های ایرانی، نبود ساختار یکپارچه داده یک چالش جدی است. ایجاد بستر امن بومی برای تبدیل داده‌های پراکنده به دانش قابل فهم برای AI، بازاری بسیار بکر دارد.",
+        "estimatedBudget": "۴ تا ۶ میلیارد تومان",
+        "targetAudience": "تیم‌های پشتیبانی، فروش، مدیران محصول و سازمان‌های متوسط و بزرگ",
+        "challenges": [
+          "عدم وجود API یکسان و استاندارد در ابزارهای CRM و تیکتینگ بومی",
+          "دغدغه‌های امنیتی و حفظ حریم خصوصی داده‌های حساس سازمانی"
+        ],
+        "monetization": [
+          "اشتراک ماهیانه بر اساس تعداد حساب‌های فعال و کاربران",
+          "مدل قیمت‌گذاری B۳B بر اساس حجم داده همگام‌سازی‌شده"
+        ],
+        "techStack": [
+          "Next.js",
+          "Python",
+          "PostgreSQL",
+          "pgvector",
+          "Redis"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-today-3",
@@ -12927,7 +13389,46 @@
           "user": "[REDACTED]",
           "text": "Solo founder here, no dev background — I shipped a native iOS + Android app built almost entirely with AI, so I love watching this category mature. My biggest lesson: generating code was never the hard part, verifying it was (two app store rejections taught me to check the build artifact, not the source folder). How does Capacity help users trust what got built beyond \"it looks right in the preview\"? Cheers, Gero"
         }
-      ]
+      ],
+      "faDescription": "برنامه Capacity Desktop یک اپلیکیشن مک است که دستورات متنی ساده به زبان انگلیسی را به برنامه‌های کاربردی واقعی تبدیل می‌کند. این برنامه‌ها مستقیماً روی رایانه شخصی شما ساخته و ذخیره می‌شوند و هیچ وابستگی به سرورهای ابری شخص ثالث ندارند. شما مالکیت کامل کدهای خود، مخازن گیتهاب و کلیدهای هوش مصنوعی اختصاصی‌تان را بدون پرداخت کارمزد اضافه بر اعتبار یا محدودیت‌های پلتفرم در دست دارید. استفاده از این ابزار کاملاً رایگان و بدون نیاز به ثبت‌نام است؛ در حال حاضر برای سیستم‌عامل مک (تراشه‌های اپل سیلیکون) عرضه شده و نسخه ویندوز نیز در نقشه راه توسعه آن قرار دارد.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به پروداکت هانت 👋 ما باپتیست و ساموئل هستیم؛ دو فعال حوزه محصول که یک سال گذشته را صرف بررسی این سوال کردیم: چرا «ساخت برنامه با هوش مصنوعی» باید به این معنی باشد که برنامه شما در تب مرورگر شخص دیگری قرار بگیرد؟ ما عاشق کاری هستیم که Lovable و Bolt ممکن ساخته‌اند، اما فقط می‌خواستیم آن جادو را بدون هزینه اجاره داشته باشیم: بدون اعتبار هوش مصنوعی گران‌شده، بدون کد به گروگان گرفته‌شده در فضای ابری، و بدون اینکه دکمه خروجی گرفتن یک بخش فرعی باشد. بنابراین Capacity را ساختیم؛ یک برنامه رایگان مک که متن‌های انگلیسی ساده را به برنامه‌های واقعی وب، موبایل، دسکتاپ و بازی تبدیل می‌کند که روی سیستم خودتان ساخته و ذخیره می‌شوند. • 🎨 کار را از بیش از ۹۰ قالب طراحی اختصاصی شروع کنید یا ریپوزیتوری فعلی خود را وارد کنید. • 🧠 هوش مصنوعی خودتان را بیاورید: کلود، GPT، جمینای، گروک، کیمی، دیپ‌سیک... کلید اختصاصی شما با قیمت اصلی، همراه با داشبورد مدیریت هزینه داخلی. • ⏪ هر تغییر به یک نسخه قابل بازگردانی تبدیل می‌شود؛ اگر هوش مصنوعی مسیر اشتباهی رفت، با یک کلیک بازگردانی کنید تا چیزی از دست نرود. • 🚀 تب انتشار: گیتهاب + ورسل را متصل کنید، متغیرهای محیطی را بررسی کرده و با یک کلیک منتشر کنید. • 🛠️ بدون نیاز به ترمینال: Capacity ابزارهای توسعه مورد نیاز هر پروژه (مثل Git و Node) را تشخیص داده و نصب می‌کند. • 📁 پروژه شما یک پوشه معمولی و ریپوزیتوری Git است؛ آن را در هر ادیتوری باز کنید، به هر توسعه‌دهنده‌ای بسپارید یا هر زمان خواستید کنار بکشید. ما فقط دو نفر هستیم و روی جزئیاتی تمرکز کرده‌ایم که اکثر سازندگان از آن می‌گذرند. نکات صادقانه: فعلاً فقط برای مک (اپل سیلیکون) است؛ ویندوز و لینوکس در نقشه راه هستند. شما کلید هوش مصنوعی خودتان را می‌آورید چون فلسفه ما فروش ابزار است نه فروش مجدد توکن. در طول دوره بتا رایگان است و برنامه‌مان برای بعد، لایسنس یک‌باره بدون اشتراک یا افزایش قیمت اعتبار است. همین حالا امتحان کنید: capacity.so/desktop - رایگان، بدون ثبت‌نام، ساخت در زیر یک دقیقه."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "به نظر می‌رسد این پروژه رقیبی برای Glaze از شرکت Raycast باشد، اما حداقل طبق وب‌سایت، بیشتر روی برنامه‌های توزیع‌شده وب تمرکز دارد. آیا برنامه‌های دسکتاپ آن نیتیو (Native) هستند یا الکترون (Electron)؟"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "من یک بنیان‌گذار تنها بدون پس‌زمینه برنامه‌نویسی هستم. من یک برنامه نیتیو برای iOS و اندروید ساختم که تقریباً به‌طور کامل با هوش مصنوعی توسعه یافته بود، بنابراین عاشق دیدن بالغ‌تر شدن این حوزه هستم. بزرگ‌ترین درس من: تولید کد هرگز بخش سخت کار نبود، بلکه اعتبارسنجی آن بود (دو بار رد شدن در اپ استور به من آموخت که فایل خروجی نهایی را بررسی کنم، نه پوشه کدهای منبع). Capacity چگونه به کاربران کمک می‌کند تا به آنچه ساخته شده فراتر از «ظاهر درست در پیش‌نمایش» اعتماد کنند؟ با احترام، گرو."
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nپلتفرم‌های ابری ساخت کد با هوش مصنوعی مانند Lovable و Bolt امکانات جذاب اما محدودکننده‌ای دارند؛ آن‌ها کاربر را در محیط ابری خود محصور کرده، هزینه‌های بالایی بابت توکن‌ها دریافت می‌کنند و مالکیت کد را پیچیده می‌سازند. Capacity Desktop با ارائه‌ی یک اپلیکیشن کاملاً محلی (Local) روی سیستم‌عامل مک، این مشکل را حل می‌کند. کاربر کدهای خود را روی سیستم خود ذخیره کرده، از API key اختصاصی خود (با قیمت واقعی و بدون کارمزد اضافه) استفاده می‌کند و کنترل کامل روی مخازن Git دارد.\n\n🔹 معماری و تکنولوژی:\nاین ابزار به‌صورت یک برنامه نیتیو دسکتاپ توسعه یافته و به‌طور خودکار نیازمندی‌های توسعه مانند Git و Node.js را روی سیستم کاربر مدیریت و نصب می‌کند. همچنین ساختار کنترل نسخه مبتنی بر سیستم Timeline برای بازگردانی تغییرات اشتباه هوش مصنوعی و یکپارچه‌سازی مستقیم با GitHub و Vercel برای استقرار (Deploy) با یک کلیک در آن تعبیه شده است.\n\n🔹 مدل درآمدی:\nبرخلاف مدل‌های متداول اشتراکی (SaaS)، Capacity مدل فروش لایسنس یک‌باره (One-time License) را پیش گرفته است. آن‌ها هیچ کارمزدی روی توکن‌های هوش مصنوعی نمی‌کشند و ابزار را به‌صورت BYOK (Bring Your Own Key) ارائه می‌دهند که باعث ایجاد اعتماد بالا در میان توسعه‌دهندگان می‌شود.\n\n🔹 نقاط قوت:\n- عدم وابستگی (No Lock-in) و مالکیت ۱۰۰٪ کد روی سیستم محلی.\n- کاهش چشمگیر هزینه‌ها با استفاده مستقیم از API Key کاربر بدون کارمزد واسطه.\n- تجربه کاربری عمیقاً بهبود یافته (کنترل نسخه خودکار، مدیریت محیط بدون نیاز به ترمینال).\n- عدم نیاز به ثبت‌نام و شروع به‌کار در کمتر از یک دقیقه.\n\n🔹 نقاط ضعف:\n- محدودیت فعلی پلتفرم به سیستم‌عامل مک (Apple Silicon) و عدم پشتیبانی فعلی از ویندوز و لینوکس.\n- وابستگی به دانش نسبی کاربر در دریافت و مدیریت API Key سرویس‌های هوش مصنوعی.\n- چالش‌های اعتبارسنجی خروجی نرم‌افزار برای کاربران کاملاً غیرفنی (عدم تضمین ساختار نیتیو یا تست‌های جامع).\n\n🔹 نکته طلایی برای ایران:\nبرای بازار ایران که تحریم‌ها، قطع دسترسی به سرویس‌های ابری خارجی و نرخ ارز چالش‌های اصلی هستند، توسعه یک نسخه دسکتاپ با الگوی مشابه که امکان اتصال به APIهای ارزان‌تر یا حتی مدل‌های هوش مصنوعی محلی (Ollama / Local LLMs) را داشته باشد، یک فرست بوم خارق‌العاده برای توسعه‌دهندگان و استارتاپ‌های ایرانی ایجاد می‌کند.",
+      "iranEquivalent": {
+        "productName": "کاپاسیتی بومی (Capacity Local)",
+        "description": "پلتفرم دسکتاپ توسعه‌دهنده نرم‌افزار که کدنویسی با هوش مصنوعی را به‌صورت کاملاً محلی روی سیستم کاربر اجرا می‌کند. این ابزار امکان اتصال مستقیم کلیدهای API سرویس‌های هوش مصنوعی یا مدل‌های بومی را بدون پرداخت حق اشتراک‌های ابری فراهم می‌سازد. تمامی پروژه‌ها در قالب پوشه‌های استاندارد روی رایانه کاربر ذخیره شده و به سرویس‌های گیت داخلی متصل می‌شوند.",
+        "marketOpportunity": "با توجه به تحریم‌های پلتفرم‌های ابری خارجی مانند Bolt و Lovable و هزینه‌های بالای خرید اشتراک دلاری برای کاربران ایرانی، یک ابزار دسکتاپ محلی نیاز مبرم بازار است. همچنین حفظ مالکیت کامل کد و عدم ریسک مسدود شدن حساب‌ها در سرویس‌های ابری، جذابیت فوق‌العاده‌ای برای برنامه‌نویسان و استارتاپ‌های ایرانی دارد.",
+        "estimatedBudget": "۱ تا ۴ میلیارد تومان",
+        "targetAudience": "برنامه‌نویسان فرانت‌اند و بک‌اند، بنیان‌گذاران غیرفنی استارتاپ‌ها، فریلنسرها و آژانس‌های نرم‌افزاری.",
+        "challenges": [
+          "محدودیت‌ها و اختلالات اینترنت در اتصال پایدار API به مدل‌های هوش مصنوعی خارجی",
+          "پیچیدگی‌های نصب و مدیریت خودکار وابستگی‌های توسعه (Node.js، Git و غیره) در ویندوز برای کاربران ایرانی"
+        ],
+        "monetization": [
+          "فروش لایسنس دائمی نرم‌افزار دسکتاپ (One-time Purchase)",
+          "ارائه پکیج‌های قالب آماده بومی و خدمات پشتیبانی تخصصی برای کسب‌وکارها"
+        ],
+        "techStack": [
+          "Tauri",
+          "React",
+          "TypeScript",
+          "Rust",
+          "Node.js"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-today-3",
@@ -13790,7 +14291,46 @@
           "user": "[REDACTED]",
           "text": "Unfortunately, it is not open to countries other than the United States."
         }
-      ]
+      ],
+      "faDescription": "ایکس مانی یک اپلیکیشنی جامع و همه‌فن‌حریف برای تمامی نیازهای مالی شما است. با استفاده از این سرویس می‌توانید بالا‌ترین نرخ سود سالانه (APY) در صنعت مالی را روی سپرده‌های خود دریافت کنید. همچنین از طریق ایکس کارت، با هر بار خرید از برگشت پول (کشبک) واقعی بهره‌مند می‌شوید. علاوه بر این، امکان ارسال و انتقال آنی پول برای سایر کاربران در بستر شبکه اجتماعی ایکس فراهم شده است.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "ایلان ماسک همان‌طور که قول داده بود، قطعاً در مسیر ساخت «اپلیکیشن همه‌چیز» حرکت می‌کند. ایکس مانی در واقع دومین تلاش او برای ساخت چیزی شبیه به پی‌پال است."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "بله، سپردن پول به ایلان ماسک؟ به هیچ وجه!"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "متأسفانه این خدمات در حال حاضر برای کشورهایی غیر از ایالات متحده آمریکا در دسترس نیست."
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nمسئله اصلی، پراکندگی ابزارهای مالی و پیچیدگی انتقال پول در بسترهای تعاملی روزمره است. ایکس مانی با ترکیب خدمات بانکداری (سود روزشمار و کارت پرداخت) و بستر اجتماعی ایکس، انتقال وجه را به سادگی ارسال یک پیام کرده و تجربه مالی یکپارچه‌ای ارائه می‌دهد.\n\n🔹 معماری و تکنولوژی:\nاستفاده از معماری میکروفرانت‌اند مبتنی بر Next.js برای رابط کاربری سریع، بانک اطلاعاتی PostgreSQL برای تراکنش‌های مالی ACID، سیستم Redis برای کشینگ حساب‌ها و Apache Kafka برای پردازش پرداختی‌های آنی و حجیم در مقیاس میلیونی.\n\n🔹 مدل درآمدی:\nدرآمد حاصل از مابه‌التفاوت نرخ سود سرمایه‌گذاری (Interest Spread)، کارمزد تراکنش‌های فروشگاهی ایکس کارت، و کارمزدهای احتمالی برای خدمات ویژه و انتقال‌های بین‌المللی.\n\n🔹 نقاط قوت:\n- دسترسی به پایگاه کاربران چندصد میلیونی شبکه اجتماعی ایکس برای رشد ارگانیک و ویروسی.\n- پیشنهاد ارزش جذاب شامل نرخ سود بالا و کشبک روی خریدهای روزمره.\n\n🔹 نقاط ضعف:\n- چالش جلب اعتماد عمومی در حوزه مالی به دلیل حواشی مدیریت ایلان ماسک.\n- محدودیت جغرافیایی اولیه به بازار آمریکا و موانع پیچیده رگولاتوری برای توسعه جهانی.\n\n🔹 نکته طلایی برای ایران:\nپیوند دادن بستر «بانکداری باز (Open Banking)» با پیام‌رسان‌های پرکاربرد داخلی و ارائه سود روزشمار از طریق «صندوق‌های درآمد ثابت بورس»، می‌تواند محصولی شبیه به ایکس مانی اما کاملاً بومی و قانونی ایجاد کند که بازار نسل جوان را فتح خواهد کرد.",
+      "iranEquivalent": {
+        "productName": "پای‌نت (PayNet)",
+        "description": "یک سوپر اپلیکیشن مالی ایرانی متصل به پیام‌رسان‌ها که امکان انتقال آنی پول با آیدی کاربر را فراهم می‌سازد. این بستر با اتصال به صندوق‌های درآمد ثابت، سود روزشمار بالاتر از نرخ بانکی به کاربران پرداخت می‌کند. همچنین با ارائه کارت بانکی اختصاصی، بخشی از هزینه خریدهای روزمره را به عنوان کشبک به حساب کاربر بازمی‌گرداند.",
+        "marketOpportunity": "پراکندگی خدمات مالی و عدم اتصال مستقیم شبکه پرداخت به پیام‌رسان‌های پرمخاطب ایرانی، یک خلاء بزرگ در بازار ایجاد کرده است. جذب نسل جوان از طریق ارائه سود رقابتی و پاداش کشبک می‌تواند سهم بازار بالایی را برای این پلتفرم تضمین کند.",
+        "estimatedBudget": "۴ تا ۶ میلیارد تومان",
+        "targetAudience": "جوانان، فریلنسرها، خریداران آنلاین و فعالان شبکه‌های اجتماعی",
+        "challenges": [
+          "محدودیت‌ها و قوانین سخت‌گیرانه بانک مرکزی در خصوص ارائه سود بالاتر از نرخ مصوب",
+          "چالش‌های امنیتی و احراز هویت در اتصال ابزارهای پرداخت به شبکه‌های اجتماعی"
+        ],
+        "monetization": [
+          "دریافت کارمزد تراکنش از پذیرندگان و فروشگاه‌های طرف قرارداد",
+          "کارمزد مدیریت سرمایه‌ها و مابه‌التفاوت سود حاصل از صندوق‌های درآمد ثابت"
+        ],
+        "techStack": [
+          "Next.js",
+          "PostgreSQL",
+          "Redis",
+          "Apache Kafka",
+          "Go"
+        ],
+        "confidence": 80
+      }
     },
     {
       "id": "ph-yesterday-9",
@@ -16437,12 +16977,12 @@
     }
   ],
   "audit": {
-    "products": 241,
-    "withRealComments": 241,
-    "withPersianComments": 60,
-    "withPersianDescription": 97,
-    "withAiReview": 80,
-    "withIranEquivalent": 97,
-    "totalRealComments": 1474
+    "products": 243,
+    "withRealComments": 243,
+    "withPersianComments": 70,
+    "withPersianDescription": 107,
+    "withAiReview": 90,
+    "withIranEquivalent": 107,
+    "totalRealComments": 1490
   }
 }
