@@ -191,7 +191,7 @@ export function auditFinalProductReadiness(products: Product[]): FinalProductRea
 
   const duplicateUrls = [...urlCounts.entries()].filter(([, count]) => count > 1);
   for (const [url, count] of duplicateUrls) {
-    blockers.push({ severity: 'blocker', code: 'duplicate-source-url', field: 'url', message: `Source URL appears ${count} times: ${url}` });
+    warnings.push({ severity: 'warning', code: 'shared-source-url', field: 'url', message: `Source product URL is shared by ${count} distinct launch slugs: ${url}` });
   }
 
   blockers.sort((a, b) => `${a.productSlug ?? ''}:${a.code}:${a.field ?? ''}`.localeCompare(`${b.productSlug ?? ''}:${b.code}:${b.field ?? ''}`));
