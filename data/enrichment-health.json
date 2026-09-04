@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T17:21:42.453Z",
+  "checkedAt": "2026-09-04T17:56:57.663Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
@@ -31,7 +31,7 @@
     },
     {
       "slug": "interactive-sessions-by-revolte",
-      "reason": "JSON parse failed"
+      "reason": "AI failed: groq: Groq: HTTP 429 across qwen/qwen3.8-27b, openai/gpt-oss-20b"
     }
   ]
 }
