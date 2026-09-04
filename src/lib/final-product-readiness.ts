@@ -101,7 +101,7 @@ function hasCompleteIranEquivalent(product: Product): boolean {
       value.techStack?.length &&
       Number.isFinite(value.confidence) &&
       value.confidence >= 0 &&
-      value.confidence <= 1,
+      value.confidence <= 100,
   );
 }
 
