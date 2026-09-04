@@ -1,16 +1,21 @@
 {
-  "checkedAt": "2026-09-04T14:26:33.146Z",
+  "checkedAt": "2026-09-04T14:36:38.667Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 5,
-  "failed": 0,
-  "backlogBefore": 152,
-  "backlogAfter": 147,
-  "completedProducts": 107,
-  "missingFaDescription": 58,
-  "missingFaComments": 143,
-  "missingAiReview": 77,
-  "missingIranEquivalent": 58,
-  "failures": []
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 147,
+  "backlogAfter": 143,
+  "completedProducts": 111,
+  "missingFaDescription": 54,
+  "missingFaComments": 139,
+  "missingAiReview": 73,
+  "missingIranEquivalent": 54,
+  "failures": [
+    {
+      "slug": "microduck",
+      "reason": "JSON parse failed"
+    }
+  ]
 }
