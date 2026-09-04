@@ -1,28 +1,24 @@
 {
-  "checkedAt": "2026-09-04T07:36:38.741Z",
+  "checkedAt": "2026-09-04T07:45:32.761Z",
   "latestDataset": "2026-09-04.json",
-  "batchLimit": 10,
-  "attempted": 10,
-  "succeeded": 7,
-  "failed": 3,
-  "backlogBefore": 199,
-  "backlogAfter": 192,
-  "completedProducts": 62,
-  "missingFaDescription": 103,
-  "missingFaComments": 188,
-  "missingAiReview": 122,
-  "missingIranEquivalent": 103,
+  "batchLimit": 5,
+  "attempted": 5,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 192,
+  "backlogAfter": 189,
+  "completedProducts": 65,
+  "missingFaDescription": 100,
+  "missingFaComments": 185,
+  "missingAiReview": 119,
+  "missingIranEquivalent": 100,
   "failures": [
     {
       "slug": "epho",
       "reason": "JSON parse failed"
     },
     {
-      "slug": "construct-computer",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "fetchsandbox-mcp",
+      "slug": "openlogi",
       "reason": "JSON parse failed"
     }
   ]
