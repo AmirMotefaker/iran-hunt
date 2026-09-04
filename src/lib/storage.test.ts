@@ -32,10 +32,14 @@ test('daily data filename filter accepts only YYYY-MM-DD json files', () => {
   expect(isDailyDataFilename('.gitkeep')).toBe(false);
 });
 
-test('daily storage merges only reruns for the same date', () => {
+test('daily storage merges only normal reruns for the same date', () => {
   expect(shouldMergePreviousDaily('2026-09-04', '2026-09-04')).toBe(true);
   expect(shouldMergePreviousDaily('2026-09-03', '2026-09-04')).toBe(false);
   expect(shouldMergePreviousDaily(undefined, '2026-09-04')).toBe(false);
+});
+
+test('explicit daily repair never merges a contaminated same-day snapshot', () => {
+  expect(shouldMergePreviousDaily('2026-09-04', '2026-09-04', true)).toBe(false);
 });
 
 test('today storage is always capped at exactly ten highest-vote products', () => {
