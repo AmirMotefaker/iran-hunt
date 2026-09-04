@@ -1,21 +1,16 @@
 {
-  "checkedAt": "2026-09-04T13:26:14.681Z",
+  "checkedAt": "2026-09-04T14:26:33.146Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 156,
-  "backlogAfter": 152,
-  "completedProducts": 102,
-  "missingFaDescription": 63,
-  "missingFaComments": 148,
-  "missingAiReview": 82,
-  "missingIranEquivalent": 63,
-  "failures": [
-    {
-      "slug": "termy-dada3c66-5e0a-4d7c-91f8-1ddef3db7977",
-      "reason": "JSON parse failed"
-    }
-  ]
+  "succeeded": 5,
+  "failed": 0,
+  "backlogBefore": 152,
+  "backlogAfter": 147,
+  "completedProducts": 107,
+  "missingFaDescription": 58,
+  "missingFaComments": 143,
+  "missingAiReview": 77,
+  "missingIranEquivalent": 58,
+  "failures": []
 }
