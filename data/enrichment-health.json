@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-09-04T06:47:27.934Z",
+  "checkedAt": "2026-09-04T07:08:42.135Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 10,
   "attempted": 10,
-  "succeeded": 6,
-  "failed": 4,
-  "backlogBefore": 209,
-  "backlogAfter": 203,
-  "completedProducts": 51,
-  "missingFaDescription": 114,
-  "missingFaComments": 199,
-  "missingAiReview": 133,
-  "missingIranEquivalent": 114,
+  "succeeded": 4,
+  "failed": 6,
+  "backlogBefore": 203,
+  "backlogAfter": 199,
+  "completedProducts": 55,
+  "missingFaDescription": 110,
+  "missingFaComments": 195,
+  "missingAiReview": 129,
+  "missingIranEquivalent": 110,
   "failures": [
     {
       "slug": "meridian-19",
@@ -22,11 +22,19 @@
       "reason": "JSON parse failed"
     },
     {
-      "slug": "supernova-6",
+      "slug": "epho",
       "reason": "JSON parse failed"
     },
     {
-      "slug": "mindcase",
+      "slug": "plow-latch",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "subtitlegenerator",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "pawvis",
       "reason": "JSON parse failed"
     }
   ]
