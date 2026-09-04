@@ -30,7 +30,7 @@ function product(overrides: Partial<Product> = {}): Product {
       challenges: ['توزیع'],
       monetization: ['اشتراک'],
       techStack: ['Next.js'],
-      confidence: 0.8,
+      confidence: 80,
     },
     ...overrides,
   };
@@ -58,13 +58,16 @@ describe('final product readiness', () => {
     expect(report.blockers.some((issue) => issue.code === 'malformed-enrichment')).toBe(true);
   });
 
-  test('blocks duplicate slug and source URL', () => {
+  test('blocks duplicate launch slugs but only warns for shared ProductHunt source URLs', () => {
     const report = auditFinalProductReadiness([
       product(),
       product({ id: 'p2', name: 'Example 2' }),
     ]);
     expect(report.metrics.duplicateSlugs).toBe(1);
     expect(report.metrics.duplicateUrls).toBe(1);
+    expect(report.blockers.some((issue) => issue.code === 'duplicate-slug')).toBe(true);
+    expect(report.blockers.some((issue) => issue.code === 'duplicate-source-url')).toBe(false);
+    expect(report.warnings.some((issue) => issue.code === 'shared-source-url')).toBe(true);
   });
 
   test('is deterministic regardless of input order', () => {
