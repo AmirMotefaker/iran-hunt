@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 import type { PeriodKey, PHComment, Product } from '@/types';
 import { translateCategories } from '@/lib/translate';
-import { startOfTehranDayUtc } from '@/lib/tehran-date';
+import { startOfProductHuntDayUtc } from '@/lib/tehran-date';
 
 export const TOP_COUNT = 10;
 const API_URL = 'https://api.producthunt.com/v2/api/graphql';
@@ -25,8 +25,8 @@ function iso(d: Date): string { return d.toISOString(); }
 function periodBounds(key: PeriodKey): { after: string; before: string } {
   const now = new Date();
   switch (key) {
-    case 'today': return { after: iso(startOfTehranDayUtc(now, 0)), before: iso(now) };
-    case 'yesterday': return { after: iso(startOfTehranDayUtc(now, 1)), before: iso(startOfTehranDayUtc(now, 0)) };
+    case 'today': return { after: iso(startOfProductHuntDayUtc(now, 0)), before: iso(now) };
+    case 'yesterday': return { after: iso(startOfProductHuntDayUtc(now, 1)), before: iso(startOfProductHuntDayUtc(now, 0)) };
     case 'week': return { after: iso(new Date(now.getTime() - 7 * 864e5)), before: iso(now) };
     case 'month': return { after: iso(new Date(now.getTime() - 30 * 864e5)), before: iso(now) };
     case 'year': return { after: iso(new Date(now.getTime() - 365 * 864e5)), before: iso(now) };
