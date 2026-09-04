@@ -44,12 +44,12 @@ if (daily && daily.date && daily.date !== expectedDate) {
   });
 }
 const todayCount = daily?.periods?.today?.length ?? 0;
-if (todayCount < TOP_COUNT) {
+if (todayCount !== TOP_COUNT) {
   freshnessBlockers.push({
     severity: 'blocker',
-    code: 'insufficient-today-products',
+    code: 'invalid-today-product-count',
     field: 'periods.today',
-    message: `Latest daily dataset must contain ${TOP_COUNT} Today products; found ${todayCount}.`,
+    message: `Latest daily dataset must contain exactly ${TOP_COUNT} Today products; found ${todayCount}.`,
   });
 }
 
