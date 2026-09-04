@@ -120,9 +120,18 @@ async function resolveGroqModels(key: string): Promise<string[]> {
   if (!cachedGroqModels) {
     cachedGroqModels = (async () => {
       const available = await getGroqModels(key);
-      const preferred = ['qwen/qwen3.8-27b', 'openai/gpt-oss-20b', 'qwen/qwen3.6-27b', 'openai/gpt-oss-120b'];
-      const models = preferred.filter((candidate) => available.includes(candidate)).slice(0, 2);
+      const preferred = [
+        'qwen/qwen3.8-27b',
+        'openai/gpt-oss-20b',
+        'llama-3.3-70b-versatile',
+        'llama-3.1-8b-instant',
+        'moonshotai/kimi-k2-instruct',
+        'openai/gpt-oss-120b',
+        'qwen/qwen3.6-27b',
+      ];
+      const models = preferred.filter((candidate) => available.includes(candidate)).slice(0, 5);
       if (!models.length) throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
+      console.log(`   🧭 Groq failover pool: ${models.join(', ')}`);
       return models;
     })().catch((error) => {
       cachedGroqModels = null;
