@@ -15,6 +15,7 @@ import type { PeriodsData } from '@/types';
 const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const date = args[0] ?? dateInTehran();
 const skipAI = process.argv.includes('--no-ai') || (!process.env.GROQ_API_KEY && !process.env.GEMINI_API_KEY);
+const replaceCurrent = process.argv.includes('--replace-current');
 
 async function run(): Promise<void> {
   let health = await loadScrapeHealth();
@@ -26,6 +27,7 @@ async function run(): Promise<void> {
 
     console.log(`🕷️  ایده‌جو scrape — ${date}`);
     if (skipAI) console.log('⏭️  Skipping AI');
+    if (replaceCurrent) console.log('♻️  Replacing current daily snapshot after validation');
 
     const periods = {} as PeriodsData;
 
@@ -56,7 +58,7 @@ async function run(): Promise<void> {
     }
 
     assertValidPeriods(periods);
-    await saveDaily(date, periods);
+    await saveDaily(date, periods, { replaceCurrent });
 
     health = succeedScrapeHealth(health);
     await saveScrapeHealth(health);
