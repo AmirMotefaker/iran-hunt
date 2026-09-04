@@ -1,16 +1,25 @@
 {
-  "checkedAt": "2026-09-04T14:49:24.490Z",
+  "checkedAt": "2026-09-04T15:06:48.968Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 5,
-  "failed": 0,
-  "backlogBefore": 143,
-  "backlogAfter": 138,
-  "completedProducts": 116,
-  "missingFaDescription": 49,
-  "missingFaComments": 134,
-  "missingAiReview": 68,
-  "missingIranEquivalent": 49,
-  "failures": []
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 138,
+  "backlogAfter": 135,
+  "completedProducts": 119,
+  "missingFaDescription": 46,
+  "missingFaComments": 131,
+  "missingAiReview": 65,
+  "missingIranEquivalent": 46,
+  "failures": [
+    {
+      "slug": "cohere-parse-5",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "seendiff",
+      "reason": "JSON parse failed"
+    }
+  ]
 }
