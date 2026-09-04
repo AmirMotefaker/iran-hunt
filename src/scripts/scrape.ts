@@ -1,4 +1,3 @@
-import { format } from 'date-fns';
 import { analyzeProduct } from '@/lib/ai-analyzer';
 import {
   failScrapeHealth,
@@ -10,10 +9,11 @@ import {
 import { assertValidPeriods, requireProductHuntToken } from '@/lib/scrape-validation';
 import { PERIODS, scrapePeriod } from '@/lib/scraper';
 import { saveDaily } from '@/lib/storage';
+import { dateInTehran } from '@/lib/tehran-date';
 import type { PeriodsData } from '@/types';
 
 const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
-const date = args[0] ?? format(new Date(), 'yyyy-MM-dd');
+const date = args[0] ?? dateInTehran();
 const skipAI = process.argv.includes('--no-ai') || (!process.env.GROQ_API_KEY && !process.env.GEMINI_API_KEY);
 
 async function run(): Promise<void> {
