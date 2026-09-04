@@ -143,20 +143,33 @@ async function getGroqModels(key: string): Promise<string[]> {
     .filter(Boolean);
 }
 
-async function callGroq(key: string, prompt: string): Promise<string> {
-  const available = await getGroqModels(key);
+let cachedGroqModel: Promise<string> | null = null;
 
-  const preferred = [
-    'qwen/qwen3.8-27b',
-    'qwen/qwen3.6-27b',
-    'openai/gpt-oss-20b',
-    'openai/gpt-oss-120b',
-  ];
-
-  const model = preferred.find((m) => available.includes(m));
-  if (!model) {
-    throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
+async function resolveGroqModel(key: string): Promise<string> {
+  if (!cachedGroqModel) {
+    cachedGroqModel = (async () => {
+      const available = await getGroqModels(key);
+      const preferred = [
+        'qwen/qwen3.8-27b',
+        'qwen/qwen3.6-27b',
+        'openai/gpt-oss-20b',
+        'openai/gpt-oss-120b',
+      ];
+      const model = preferred.find((candidate) => available.includes(candidate));
+      if (!model) {
+        throw new Error(`Groq: no supported preferred model available; discovered=${available.slice(0, 20).join(',')}`);
+      }
+      return model;
+    })().catch((error) => {
+      cachedGroqModel = null;
+      throw error;
+    });
   }
+  return cachedGroqModel;
+}
+
+async function callGroq(key: string, prompt: string): Promise<string> {
+  const model = await resolveGroqModel(key);
 
   for (let i = 0; i < 2; i++) {
     const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
