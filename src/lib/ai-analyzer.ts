@@ -42,8 +42,6 @@ function cleanJson(text: string): string {
   return normalizeDigits(text.replace(/```json/gi, '').replace(/```/g, '').trim());
 }
 
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
 async function fetchWithTimeout(
   input: string,
   init: RequestInit,
@@ -78,6 +76,13 @@ export function groqOutputBudget(need: AnalysisNeed = ALL_FIELDS): number {
   if (need.iranEquivalent) budget += 620;
   if (need.aiReview) budget += 780;
   return Math.min(2800, Math.max(700, budget));
+}
+
+let geminiUnavailableForProcess = false;
+
+function isGeminiQuotaError(error: unknown): boolean {
+  const message = error instanceof Error ? error.message : String(error);
+  return message.includes('HTTP 429') || message.includes('RESOURCE_EXHAUSTED');
 }
 
 async function callGemini(key: string, prompt: string): Promise<string> {
@@ -127,41 +132,30 @@ async function resolveGroqModels(key: string): Promise<string[]> {
   return cachedGroqModels;
 }
 
-function retryDelayMs(response: Response, attempt: number): number {
-  const retryAfter = Number(response.headers.get('retry-after'));
-  if (Number.isFinite(retryAfter) && retryAfter > 0) return Math.min(retryAfter * 1000, 90000);
-  return Math.min(15000 * 2 ** attempt, 45000);
-}
-
 async function callGroqModel(key: string, model: string, prompt: string, maxTokens: number): Promise<string | null> {
-  for (let attempt = 0; attempt < 2; attempt++) {
-    const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-      body: JSON.stringify({
-        model,
-        messages: [{ role: 'user', content: prompt }],
-        temperature: 0.3,
-        max_tokens: maxTokens,
-      }),
-    });
+  const res = await fetchWithTimeout('https://api.groq.com/openai/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+    body: JSON.stringify({
+      model,
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.3,
+      max_tokens: maxTokens,
+    }),
+  });
 
-    if (res.status === 429) {
-      const delay = retryDelayMs(res, attempt);
-      console.warn(`   ⏳ Groq ${model} rate limited; retry ${attempt + 1}/2 after ${Math.round(delay / 1000)}s`);
-      await sleep(delay);
-      continue;
-    }
-
-    const body = await res.text();
-    if (!res.ok) throw new Error(`Groq ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
-    const json = JSON.parse(body);
-    const text = json.choices?.[0]?.message?.content ?? '';
-    if (!text) throw new Error(`Groq ${model}: empty response`);
-    console.log(`   ✨ model: ${model}`);
-    return text;
+  if (res.status === 429) {
+    console.warn(`   ↪️  Groq ${model} rate limited; trying next available model immediately`);
+    return null;
   }
-  return null;
+
+  const body = await res.text();
+  if (!res.ok) throw new Error(`Groq ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
+  const json = JSON.parse(body);
+  const text = json.choices?.[0]?.message?.content ?? '';
+  if (!text) throw new Error(`Groq ${model}: empty response`);
+  console.log(`   ✨ model: ${model}`);
+  return text;
 }
 
 async function callGroq(key: string, prompt: string, maxTokens: number): Promise<string> {
@@ -169,7 +163,6 @@ async function callGroq(key: string, prompt: string, maxTokens: number): Promise
   for (const model of models) {
     const text = await callGroqModel(key, model, prompt, maxTokens);
     if (text) return text;
-    console.warn(`   ↪️  Groq ${model} remained rate limited; trying next available model`);
   }
   throw new Error(`Groq: HTTP 429 across ${models.join(', ')}`);
 }
@@ -196,14 +189,30 @@ export async function analyzeProduct(p: Product, need: AnalysisNeed = ALL_FIELDS
   let provider = '';
   const errors: string[] = [];
 
-  if (process.env.GEMINI_API_KEY) {
-    try { text = await callGemini(process.env.GEMINI_API_KEY, prompt); provider = 'gemini'; }
-    catch (e: any) { errors.push(`gemini: ${e.message}`); console.warn(`   ⚠️  gemini: ${e.message}`); }
+  if (process.env.GEMINI_API_KEY && !geminiUnavailableForProcess) {
+    try {
+      text = await callGemini(process.env.GEMINI_API_KEY, prompt);
+      provider = 'gemini';
+    } catch (e: any) {
+      if (isGeminiQuotaError(e)) {
+        geminiUnavailableForProcess = true;
+        console.warn('   ↪️  Gemini quota exhausted; skipping Gemini for the rest of this process');
+      }
+      errors.push(`gemini: ${e.message}`);
+      console.warn(`   ⚠️  gemini: ${e.message}`);
+    }
   }
+
   if (!text && process.env.GROQ_API_KEY) {
-    try { text = await callGroq(process.env.GROQ_API_KEY, prompt, maxTokens); provider = 'groq'; }
-    catch (e: any) { errors.push(`groq: ${e.message}`); console.warn(`   ⚠️  groq: ${e.message}`); }
+    try {
+      text = await callGroq(process.env.GROQ_API_KEY, prompt, maxTokens);
+      provider = 'groq';
+    } catch (e: any) {
+      errors.push(`groq: ${e.message}`);
+      console.warn(`   ⚠️  groq: ${e.message}`);
+    }
   }
+
   if (!text) throw new Error(`AI failed: ${errors.join(' | ') || 'no key'}`);
   console.log(`   🤖 provider: ${provider}`);
 
