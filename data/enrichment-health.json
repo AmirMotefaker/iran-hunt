@@ -1,16 +1,21 @@
 {
-  "checkedAt": "2026-09-04T08:10:06.147Z",
+  "checkedAt": "2026-09-04T08:18:46.453Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 5,
-  "failed": 0,
-  "backlogBefore": 189,
-  "backlogAfter": 184,
-  "completedProducts": 70,
-  "missingFaDescription": 95,
-  "missingFaComments": 180,
-  "missingAiReview": 114,
-  "missingIranEquivalent": 95,
-  "failures": []
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 184,
+  "backlogAfter": 180,
+  "completedProducts": 74,
+  "missingFaDescription": 91,
+  "missingFaComments": 176,
+  "missingAiReview": 110,
+  "missingIranEquivalent": 91,
+  "failures": [
+    {
+      "slug": "decawork",
+      "reason": "JSON parse failed"
+    }
+  ]
 }
