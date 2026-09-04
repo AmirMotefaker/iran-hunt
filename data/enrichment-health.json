@@ -1,25 +1,16 @@
 {
-  "checkedAt": "2026-09-04T21:24:27.926Z",
+  "checkedAt": "2026-09-04T22:26:43.193Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 3,
-  "failed": 2,
-  "backlogBefore": 111,
-  "backlogAfter": 108,
-  "completedProducts": 146,
-  "missingFaDescription": 19,
-  "missingFaComments": 104,
-  "missingAiReview": 38,
-  "missingIranEquivalent": 19,
-  "failures": [
-    {
-      "slug": "gauth-ai-course",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "sider-code",
-      "reason": "JSON parse failed"
-    }
-  ]
+  "succeeded": 5,
+  "failed": 0,
+  "backlogBefore": 108,
+  "backlogAfter": 103,
+  "completedProducts": 151,
+  "missingFaDescription": 14,
+  "missingFaComments": 99,
+  "missingAiReview": 33,
+  "missingIranEquivalent": 14,
+  "failures": []
 }
