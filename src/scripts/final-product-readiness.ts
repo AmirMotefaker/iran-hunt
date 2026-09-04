@@ -3,7 +3,7 @@ import path from 'node:path';
 import { loadCorpus } from '@/lib/corpus';
 import { auditFinalProductReadiness, type ReadinessIssue } from '@/lib/final-product-readiness';
 import { TOP_COUNT } from '@/lib/scraper';
-import { dateInTehran } from '@/lib/tehran-date';
+import { dateInProductHunt, dateInTehran } from '@/lib/tehran-date';
 import type { DailyData } from '@/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -53,13 +53,18 @@ if (todayCount !== TOP_COUNT) {
     message: `Latest daily dataset must contain exactly ${TOP_COUNT} Today products; found ${todayCount}.`,
   });
 }
-const staleTodayProducts = todayProducts.filter((product) => product.date !== expectedDate);
+const productHuntDate = dateInProductHunt(daily?.scrapedAt ? new Date(daily.scrapedAt) : new Date());
+const staleTodayProducts = todayProducts.filter((product) => {
+  if (!product.featuredAt) return true;
+  const featuredAt = new Date(product.featuredAt);
+  return Number.isNaN(featuredAt.getTime()) || dateInProductHunt(featuredAt) !== productHuntDate;
+});
 if (staleTodayProducts.length > 0) {
   freshnessBlockers.push({
     severity: 'blocker',
     code: 'stale-today-products',
     field: 'periods.today',
-    message: `${staleTodayProducts.length} Today products are not dated ${expectedDate}: ${staleTodayProducts.slice(0, 10).map((product) => `${product.slug}(${product.date || 'missing'})`).join(', ')}.`,
+    message: `${staleTodayProducts.length} Today products are outside Product Hunt day ${productHuntDate}: ${staleTodayProducts.slice(0, 10).map((product) => `${product.slug}(${product.featuredAt || product.date || 'missing'})`).join(', ')}.`,
   });
 }
 
@@ -83,9 +88,10 @@ const duplicateGroups = [...sourceGroups.entries()]
 
 console.log('\n=== IDEHJO FINAL PRODUCT READINESS ===');
 console.log(`Expected Tehran date: ${expectedDate}`);
+console.log(`Product Hunt ranking date: ${productHuntDate}`);
 console.log(`Latest daily file: ${latestFile ?? 'missing'}`);
 console.log(`Today products: ${todayCount}/${TOP_COUNT}`);
-console.log(`Today date-valid products: ${todayCount - staleTodayProducts.length}/${todayCount}`);
+console.log(`Today Product Hunt date-valid products: ${todayCount - staleTodayProducts.length}/${todayCount}`);
 console.log(`Corpus products: ${m.totalProducts}`);
 console.log(`Persian descriptions: ${m.withPersianDescription}/${m.totalProducts} (${percent(m.withPersianDescription, m.totalProducts)})`);
 console.log(`AI reviews: ${m.withAiReview}/${m.totalProducts} (${percent(m.withAiReview, m.totalProducts)})`);
