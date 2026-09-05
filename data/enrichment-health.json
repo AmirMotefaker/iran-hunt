@@ -1,29 +1,33 @@
 {
-  "checkedAt": "2026-09-05T09:25:22.615Z",
+  "checkedAt": "2026-09-05T10:05:50.304Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 50,
-  "backlogAfter": 48,
-  "completedProducts": 206,
+  "succeeded": 1,
+  "failed": 4,
+  "backlogBefore": 48,
+  "backlogAfter": 47,
+  "completedProducts": 207,
   "missingFaDescription": 0,
-  "missingFaComments": 44,
+  "missingFaComments": 43,
   "missingAiReview": 4,
   "missingIranEquivalent": 0,
   "failures": [
     {
       "slug": "adomate",
-      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 503 | {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAI"
     },
     {
       "slug": "prefactor",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
-      "slug": "wispr-flow-notetaker",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "slug": "ngrok-ai-gateway",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+    },
+    {
+      "slug": "coldtea",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
     }
   ]
 }
