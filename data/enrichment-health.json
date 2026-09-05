@@ -1,20 +1,24 @@
 {
-  "checkedAt": "2026-09-04T23:23:26.505Z",
+  "checkedAt": "2026-09-05T00:23:34.271Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 103,
-  "backlogAfter": 99,
-  "completedProducts": 155,
-  "missingFaDescription": 10,
-  "missingFaComments": 95,
-  "missingAiReview": 29,
-  "missingIranEquivalent": 10,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 99,
+  "backlogAfter": 96,
+  "completedProducts": 158,
+  "missingFaDescription": 7,
+  "missingFaComments": 92,
+  "missingAiReview": 26,
+  "missingIranEquivalent": 7,
   "failures": [
     {
       "slug": "parasocial",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "magicrew",
       "reason": "JSON parse failed"
     }
   ]
