@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-09-05T11:28:03.533Z",
+  "checkedAt": "2026-09-05T11:55:55.389Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 1,
   "failed": 4,
-  "backlogBefore": 37,
-  "backlogAfter": 36,
-  "completedProducts": 218,
+  "backlogBefore": 36,
+  "backlogAfter": 35,
+  "completedProducts": 219,
   "missingFaDescription": 0,
-  "missingFaComments": 36,
+  "missingFaComments": 35,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
@@ -19,11 +19,11 @@
     },
     {
       "slug": "oqoqo",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
     },
     {
       "slug": "tines-3b",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
     },
     {
       "slug": "betterclaw",
