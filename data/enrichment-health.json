@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-09-05T11:55:55.389Z",
+  "checkedAt": "2026-09-05T12:07:41.143Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 1,
   "failed": 4,
-  "backlogBefore": 36,
-  "backlogAfter": 35,
-  "completedProducts": 219,
+  "backlogBefore": 35,
+  "backlogAfter": 34,
+  "completedProducts": 220,
   "missingFaDescription": 0,
-  "missingFaComments": 35,
+  "missingFaComments": 34,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
@@ -19,14 +19,14 @@
     },
     {
       "slug": "oqoqo",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
-    },
-    {
-      "slug": "tines-3b",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
     },
     {
       "slug": "betterclaw",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
+    },
+    {
+      "slug": "equitybee-benchmark",
       "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
     }
   ]

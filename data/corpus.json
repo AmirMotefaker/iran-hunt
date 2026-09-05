@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T11:55:55.372Z",
+  "generatedAt": "2026-09-05T12:07:41.127Z",
   "sourceFiles": 26,
   "products": [
     {
@@ -6254,19 +6254,35 @@
       "faComments": [
         {
           "user": "کاربر ProductHunt 1",
-          "text": "Hey Product Hunt! Stephen here, Head of Product at Tines, and one of the makers of Tines 3B. Last year, AI coding tools got good enough that anyone could build agents, apps, and automation fast. Just describe what you want, and pretty soon you have something that works. But what about what happens next? AI-generated software needs to connect to the real world, and it often does that by hardcoding API keys in plain-text files or databases. Handing credentials to models that can hallucinate or fall for prompt injection is a major risk. Run that code in a typical, unisolated container, and one bad step can contaminate the whole system. We call this phenomenon wild code : it’s work that’s built fast with AI but runs ungoverned and unmonitored, while creating hidden security, financial, and operational risk. With 8 years of intelligent workflow experience in supporting customers like Reddit, Coinbase, and Databricks, we knew how to solve this problem. And so we set out to build Tines 3B .&nbsp; What is Tines 3B? A single, secure environment for everyone’s most important agents, apps, and automation. Tines 3B provides:&nbsp; Freedom to build with AI anywhere Control to run and monitor that work An AI-native, code-first platform built to work with LLMs and AI coding tools We built Tines 3B with safety as a north star. The AI never sees your credentials. They are injected at runtime by a proxy that sits entirely outside the code. Why launch on Product Hunt now?&nbsp; We recently introduced Explore Edition , a no-commitment way to try Tines 3B yourself. This community of innovators is exactly who we want exploring it first. You’ll have unlimited users, spaces, and connectors, and can push 3 workflows live. This includes tunneling into your own home network or self-hosted services, no port forwarding required. Build, run and monitor your apps, agents, and automation with credential protection, isolated execution, and full auditability. Who is Tines 3B for? Builders who want to go from ideas to workflows using natural language IT and Security teams who need visibility into what’s running&nbsp; Anyone dealing with sprawl from AI-generated scripts, agents, and one-off tools Innovators who want AI to write the code for their projects, home labs, or personal agents We’d love your feedback We think you’re going to enjoy building in Tines 3B, and feel the control it gives you. Powering the world’s most important workflows is what we’re here to do, and we want to know what you think. We welcome feedback from this community on how you and your teams are managing AI-driven work, and where Tines 3B fits in your day-to-day.&nbsp; I’ll be in the comments all day, ask away!"
+          "text": "سلام به جامعه Product Hunt! استیون هستم، مدیر محصول در Tines و یکی از سازندگان Tines ۳B. سال گذشته، ابزارهای کدنویسی هوش مصنوعی به سطحی رسیدند که هر کسی می‌تواند به سرعت ایجنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها را بسازد. کافی است آنچه را می‌خواهید توصیف کنید و به زودی چیزی کارآمد خواهید داشت. اما پس از آن چه اتفاقی می‌افتد؟ نرم‌افزارهای تولید شده توسط هوش مصنوعی نیاز به اتصال به دنیای واقعی دارند و اغلب این کار را با سخت‌کد کردن کلیدهای API در فایل‌های متنی ساده یا پایگاه‌های داده انجام می‌دهند. تحویل اعتبارنامه‌ها به مدل‌هایی که ممکن است توهم کنند یا قربانی تزریق پرامپت شوند، ریسک بزرگی است. اجرای این کد در یک کانتینر معمولی و غیرعایق، می‌تواند با یک قدم اشتباه کل سیستم را آلوده کند. ما به این پدیده «کد وحشی» می‌گوییم: کاری که سریع با هوش مصنوعی ساخته شده اما بدون نظارت و پایش اجرا می‌شود و در عین حال ریسک‌های پنهان امنیتی، مالی و عملیاتی ایجاد می‌کند. با ۸ سال تجربه در حوزه جریان‌های کاری هوشمند و پشتیبانی از مشتریانی مانند Reddit، Coinbase و Databricks، ما می‌دانستیم چگونه این مشکل را حل کنیم. بنابراین تصمیم گرفتیم Tines ۳B را بسازیم. Tines ۳B چیست؟ یک محیط واحد و امن برای مهم‌ترین ایجنت‌ها، اپلیکیشن‌ها و اتوماسیون‌های همه. Tines ۳B ارائه می‌دهد: آزادی در ساخت با هوش مصنوعی از هر جایی، کنترل در اجرا و پایش آن کار، و یک پلتفرم بومی هوش مصنوعی و مبتنی بر کد که برای کار با مدل‌های زبانی بزرگ (LLM) و ابزارهای کدنویسی هوش مصنوعی طراحی شده است. ما Tines ۳B را با ایمنی به عنوان قطب‌نما ساختیم. هوش مصنوعی هرگز اعتبارنامه‌های شما را نمی‌بیند. آن‌ها در زمان اجرا توسط یک پروکسی تزریق می‌شوند که کاملاً خارج از کد قرار دارد. چرا اکنون در Product Hunt راه‌اندازی می‌کنیم؟ ما اخیراً نسخه Explore را معرفی کردیم، یک راه بدون تعهد برای آزمایش خود Tines ۳B. این جامعه از نوآوران دقیقاً کسانی هستند که می‌خواهیم ابتدا آن را کشف کنند. شما به کاربران، فضاها و کانکتورهای نامحدود دسترسی خواهید داشت و می‌توانید ۳ جریان کاری را به صورت زنده منتشر کنید. این شامل تونل‌زنی به شبکه خانگی یا خدمات خودمیزبان شما نیز می‌شود، بدون نیاز به فورواردینگ پورت. اپلیکیشن‌ها، ایجنت‌ها و اتوماسیون‌های خود را با حفاظت از اعتبارنامه‌ها، اجرای عایق‌بندی شده و قابلیت حسابرسی کامل بسازید، اجرا کنید و پایش نمایید. Tines ۳B برای چه کسانی است؟ سازندگانی که می‌خواهند از ایده به جریان کاری با استفاده از زبان طبیعی برسند، تیم‌های IT و امنیت که به دیدگاهی از آنچه در حال اجراست نیاز دارند، هر کسی که با پراکندگی ناشی از اسکریپت‌ها، ایجنت‌ها و ابزارهای یک‌بار مصرف تولید شده توسط هوش مصنوعی دست‌وپنجه نرم می‌کند، و نوآورانی که می‌خواهند هوش مصنوعی کد پروژه‌ها، آزمایشگاه‌های خانگی یا ایجنت‌های شخصی آن‌ها را بنویسد. بازخورد شما را می‌پسندیم. فکر می‌کنیم از ساختن در Tines ۳B لذت خواهید برد و حسی از کنترلی که به شما می‌دهد را تجربه کنید. توانمندسازی مهم‌ترین جریان‌های کاری جهان هدف ماست و می‌خواهیم بدانیم چه نظری دارید. ما بازخورد این جامعه را درباره نحوه مدیریت کارهای مبتنی بر هوش مصنوعی توسط شما و تیم‌هایتان، و اینکه Tines ۳B در روزمره شما چه جایگاهی دارد، با کمال میل می‌پذیریم. من تمام روز در بخش نظرات حضور خواهم داشت، بپرسید!"
         },
         {
           "user": "کاربر ProductHunt 2",
-          "text": "@Tines 3B has changed the way that our RevOps team works. Every use case is now solvable in a smart, secure, intuitive way."
+          "text": "Tines ۳B روش کار تیم RevOps ما را تغییر داده است. اکنون هر مورد استفاده به روشی هوشمند، امن و شهودی قابل حل است."
         },
         {
           "user": "کاربر ProductHunt 3",
-          "text": "Curious as to why you named it 3B. I thought Tines for was releasing a small language model at first lol."
+          "text": "کنجکاو هستم که چرا نام آن را ۳B گذاشتید. من در ابتدا فکر می‌کردم Tines در حال انتشار یک مدل زبانی کوچک است، خنده‌دار بود!"
         },
         {
           "user": "کاربر ProductHunt 4",
-          "text": "@rosie_halpin is doing a live demo of Tines 3B on LinkedIn and Youtube right now for anyone interested!"
+          "text": "@rosie_halpin همین حالا یک دمو زنده از Tines ۳B را در لینکدین و یوتیوب انجام می‌دهد برای هر کس که علاقه‌مند است!"
+        },
+        {
+          "user": "کاربر ProductHunt 5",
+          "text": "بخش مربوط به مشاهده درآمد تولید شده توسط هر جریان کاری را کاملاً متوجه نشدم. آیا این برای کارآفرینانی است که محصولات کوچک متعددی ایجاد می‌کنند و به صورت مستقل از آن‌ها فاکتور می‌گیرند؟"
+        },
+        {
+          "user": "کاربر ProductHunt 6",
+          "text": "به عنوان یک بازاریاب، واقعاً هرگز چیزی مانند Tines ۳B را تجربه نکرده‌ام - اتصال ۳ سیستم کاملاً متفاوت و نامرتبط برای به دست آوردن تصویری دقیق از عملکرد کمپین، هزینه‌ها و پایپ‌لاین، یک تغییر بازی‌ساز (GAMECHANGER) بوده است."
+        },
+        {
+          "user": "کاربر ProductHunt 7",
+          "text": "@Tines پاسخ‌های قبلی درباره پروکسی اعتبارنامه‌ها مسیر خواندن را به خوبی پوشش می‌دهند، بنابراین در مورد autofix می‌پرسم. اشاره شد که یک اصلاح روی یک شاخه اعمال می‌شود و سپس جریان کاری برای تأیید اینکه اصلاح واقعاً کار می‌کند، دوباره اجرا می‌شود. اگر مرحله ناموفق یک نوشتن (write) بوده باشد، مانند ارسال به یک API یا ارسال ایمیل، آیا آن اجرای مجدد با اعتبارنامه‌های واقعی به کانکتور واقعی برخورد می‌کند، یا یک مسیر اجرای خشک (dry run) وجود دارد تا تلاش برای اصلاح نتواند یک اثر جانبی را تکرار کند؟"
+        },
+        {
+          "user": "کاربر ProductHunt 8",
+          "text": "@steobrien این واقعاً چشمگیر به نظر می‌رسد! من به ویژه ایده نگه داشتن ایجنت‌ها، اپلیکیشن‌ها و اتوماسیون‌ها در یک محیط امن و قابل حسابرسی را دوست دارم. موفق باشید بچه‌ها!"
         }
       ],
       "iranEquivalent": {
