@@ -1,21 +1,21 @@
 {
-  "checkedAt": "2026-09-05T16:26:08.432Z",
+  "checkedAt": "2026-09-05T17:20:46.004Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 3,
   "failed": 2,
-  "backlogBefore": 23,
-  "backlogAfter": 21,
-  "completedProducts": 233,
+  "backlogBefore": 21,
+  "backlogAfter": 18,
+  "completedProducts": 236,
   "missingFaDescription": 0,
-  "missingFaComments": 21,
+  "missingFaComments": 18,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
     {
       "slug": "lettertrace-2",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
       "slug": "beardrive",
