@@ -1,28 +1,24 @@
 {
-  "checkedAt": "2026-09-05T03:23:40.181Z",
+  "checkedAt": "2026-09-05T04:25:01.171Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 88,
-  "backlogAfter": 86,
-  "completedProducts": 168,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 86,
+  "backlogAfter": 84,
+  "completedProducts": 170,
   "missingFaDescription": 0,
-  "missingFaComments": 82,
-  "missingAiReview": 16,
+  "missingFaComments": 80,
+  "missingAiReview": 13,
   "missingIranEquivalent": 0,
   "failures": [
     {
-      "slug": "brila-2",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "lev8",
-      "reason": "JSON parse failed"
-    },
-    {
       "slug": "prelint",
+      "reason": "AI failed: groq: Groq openai/gpt-oss-20b: empty response"
+    },
+    {
+      "slug": "capptivo",
       "reason": "JSON parse failed"
     }
   ]
