@@ -1,16 +1,21 @@
 {
-  "checkedAt": "2026-09-03T00:37:55.024Z",
-  "latestDataset": "2026-09-03.json",
-  "batchLimit": 10,
-  "attempted": 10,
-  "succeeded": 10,
-  "failed": 0,
-  "backlogBefore": 214,
-  "backlogAfter": 204,
-  "completedProducts": 35,
-  "missingFaDescription": 142,
-  "missingFaComments": 193,
-  "missingAiReview": 159,
-  "missingIranEquivalent": 142,
-  "failures": []
+  "checkedAt": "2026-09-05T19:23:41.085Z",
+  "latestDataset": "2026-09-04.json",
+  "batchLimit": 5,
+  "attempted": 5,
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 17,
+  "backlogAfter": 13,
+  "completedProducts": 241,
+  "missingFaDescription": 0,
+  "missingFaComments": 13,
+  "missingAiReview": 0,
+  "missingIranEquivalent": 0,
+  "failures": [
+    {
+      "slug": "ito-6",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+    }
+  ]
 }
