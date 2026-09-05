@@ -1,21 +1,16 @@
 {
-  "checkedAt": "2026-09-05T07:25:12.624Z",
+  "checkedAt": "2026-09-05T07:32:55.694Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 79,
-  "backlogAfter": 75,
-  "completedProducts": 179,
+  "succeeded": 5,
+  "failed": 0,
+  "backlogBefore": 75,
+  "backlogAfter": 70,
+  "completedProducts": 184,
   "missingFaDescription": 0,
-  "missingFaComments": 71,
+  "missingFaComments": 66,
   "missingAiReview": 4,
   "missingIranEquivalent": 0,
-  "failures": [
-    {
-      "slug": "topview-ai",
-      "reason": "AI failed: gemini: The operation was aborted. | groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your pro"
-    }
-  ]
+  "failures": []
 }
