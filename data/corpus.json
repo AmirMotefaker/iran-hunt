@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T22:29:38.022Z",
-  "sourceFiles": 26,
+  "generatedAt": "2026-09-05T00:20:52.272Z",
+  "sourceFiles": 27,
   "products": [
     {
       "id": "ph-year-1",
@@ -6188,6 +6188,68 @@
       ]
     },
     {
+      "id": "ph-week-7",
+      "date": "2026-09-02",
+      "rank": 7,
+      "name": "Articos",
+      "slug": "articos",
+      "tagline": "Launch with confidence, not gut instinct",
+      "description": "Articos helps SaaS teams, agencies, and founders test messaging, positioning, and landing pages against simulated personas matched to your ICP. Real audience signal in under 30 minutes. Peer-reviewed at 86% human accuracy vs Baymard and Nielsen Norman.",
+      "category": "Marketing • SaaS • Artificial Intelligence",
+      "categoryFa": "بازاریابی • نرم‌افزار ابری • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/2e9b4925-6fec-4075-aba3-a67393016e46.jpeg?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/d79b9e47-1437-4d08-959c-1a524f7b584d.png?auto=format",
+        "https://ph-files.imgix.net/ac838340-1c64-4c19-95fa-ec935629fe16.png?auto=format",
+        "https://ph-files.imgix.net/4117ca2a-75ec-4558-8469-15221e69c251.png?auto=format",
+        "https://ph-files.imgix.net/0ab5349c-fb7e-4cae-bca5-4727e60482d1.png?auto=format",
+        "https://ph-files.imgix.net/3f08c482-5219-46da-88fa-670772a3aa9b.png?auto=format",
+        "https://ph-files.imgix.net/f4945635-9950-4427-a5fd-4e939db3d0e9.png?auto=format",
+        "https://ph-files.imgix.net/439dd663-c3c1-42f3-b97c-ac44a73c1625.png?auto=format",
+        "https://ph-files.imgix.net/36da0b5d-02ba-4492-962a-42428ba59e16.png?auto=format"
+      ],
+      "maker": "[REDACTED]",
+      "makerTitle": "",
+      "featuredAt": "2026-09-02T07:01:00Z",
+      "votes": 372,
+      "websiteUrl": "https://www.producthunt.com/r/SV57AXQTEEXIBS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Congrats on the launch! Really interesting approach to testing messaging and positioning against ICP-specific personas before taking it live. One question though - how different does the feedback get when you test the same messaging across different personas?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "In prepping for this launch, @shaheergadit and @owais_khan22 ran my @Minara tagline rewrite through Articos live.The original “Run your own Wall Street” scored 4.5 (which is still on their homepage) while my rewrite—“Research, plan and invest in one chat”—scored 6.2. Minara reached #1 on their Product Hunt launch, demonstrating that differentiated language won't matter much if nobody gets what you're trying to say!Articos lets you test messaging against simulated personas matched to your ICP, and then interrogate their reasoning, and get a report back in under 30 minutes. If you're prepping for your [Product Hunt] launch and arguing over copy in Slack… try Articos as the dealbreaker!"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Got the taste of the tool, and I think it can be very helpful, especially when there's no time to run real user panels, and you need to check your ideas quickly"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "I love that it traces findings back to specific persona reasoning rather than just giving a generic AI summary."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "How does Articos compare to running an actual user panel through one of the message testing platforms? I am sure faster, but how's the quality holding up here?All the best for the launch @owais_khan22"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "White label reporting angle is huge for agencies trying to validate copy directions to sceptical cleints. good work team."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "We used Articos to test landing pages and understand the unmet needs of our target audience. It’s a great tool"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The standard way of creating positioning maps and messaging pillars have always been doing comprehensive internal stakeholders interviews, customer interviews, reading in-depth market research, looking at the competition (where it stands, what kind of customers they attract) and probable proof (benchmarks, use case based outcomes). I will put Articos to test in couple of days for a client I am working with and see what it brings me back. I will definitely circle back with the results. Congrats on the launch, Shaheer and Owais."
+        }
+      ]
+    },
+    {
       "id": "ph-week-8",
       "date": "2026-08-17",
       "rank": 8,
@@ -6250,68 +6312,6 @@
         }
       ],
       "makerTwitter": ""
-    },
-    {
-      "id": "ph-week-7",
-      "date": "2026-09-02",
-      "rank": 7,
-      "name": "Articos",
-      "slug": "articos",
-      "tagline": "Launch with confidence, not gut instinct",
-      "description": "Articos helps SaaS teams, agencies, and founders test messaging, positioning, and landing pages against simulated personas matched to your ICP. Real audience signal in under 30 minutes. Peer-reviewed at 86% human accuracy vs Baymard and Nielsen Norman.",
-      "category": "Marketing • SaaS • Artificial Intelligence",
-      "categoryFa": "بازاریابی • نرم‌افزار ابری • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/2e9b4925-6fec-4075-aba3-a67393016e46.jpeg?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/d79b9e47-1437-4d08-959c-1a524f7b584d.png?auto=format",
-        "https://ph-files.imgix.net/ac838340-1c64-4c19-95fa-ec935629fe16.png?auto=format",
-        "https://ph-files.imgix.net/4117ca2a-75ec-4558-8469-15221e69c251.png?auto=format",
-        "https://ph-files.imgix.net/0ab5349c-fb7e-4cae-bca5-4727e60482d1.png?auto=format",
-        "https://ph-files.imgix.net/3f08c482-5219-46da-88fa-670772a3aa9b.png?auto=format",
-        "https://ph-files.imgix.net/f4945635-9950-4427-a5fd-4e939db3d0e9.png?auto=format",
-        "https://ph-files.imgix.net/439dd663-c3c1-42f3-b97c-ac44a73c1625.png?auto=format",
-        "https://ph-files.imgix.net/36da0b5d-02ba-4492-962a-42428ba59e16.png?auto=format"
-      ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
-      "featuredAt": "2026-09-02T07:01:00Z",
-      "votes": 371,
-      "websiteUrl": "https://www.producthunt.com/r/SV57AXQTEEXIBS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Congrats on the launch! Really interesting approach to testing messaging and positioning against ICP-specific personas before taking it live. One question though - how different does the feedback get when you test the same messaging across different personas?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "In prepping for this launch, @shaheergadit and @owais_khan22 ran my @Minara tagline rewrite through Articos live.The original “Run your own Wall Street” scored 4.5 (which is still on their homepage) while my rewrite—“Research, plan and invest in one chat”—scored 6.2. Minara reached #1 on their Product Hunt launch, demonstrating that differentiated language won't matter much if nobody gets what you're trying to say!Articos lets you test messaging against simulated personas matched to your ICP, and then interrogate their reasoning, and get a report back in under 30 minutes. If you're prepping for your [Product Hunt] launch and arguing over copy in Slack… try Articos as the dealbreaker!"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Got the taste of the tool, and I think it can be very helpful, especially when there's no time to run real user panels, and you need to check your ideas quickly"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "I love that it traces findings back to specific persona reasoning rather than just giving a generic AI summary."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "How does Articos compare to running an actual user panel through one of the message testing platforms? I am sure faster, but how's the quality holding up here?All the best for the launch @owais_khan22"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "White label reporting angle is huge for agencies trying to validate copy directions to sceptical cleints. good work team."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "We used Articos to test landing pages and understand the unmet needs of our target audience. It’s a great tool"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The standard way of creating positioning maps and messaging pillars have always been doing comprehensive internal stakeholders interviews, customer interviews, reading in-depth market research, looking at the competition (where it stands, what kind of customers they attract) and probable proof (benchmarks, use case based outcomes). I will put Articos to test in couple of days for a client I am working with and see what it brings me back. I will definitely circle back with the results. Congrats on the launch, Shaheer and Owais."
-        }
-      ]
     },
     {
       "id": "ph-week-10",
@@ -6688,6 +6688,65 @@
       }
     },
     {
+      "id": "ph-yesterday-1",
+      "date": "2026-09-04",
+      "rank": 1,
+      "name": "GPT-6 Astra",
+      "slug": "gpt-6-astra-2",
+      "tagline": "OpenAI's most capable model for end-to-end work",
+      "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, software engineering, computer use, science, and professional work. Async tool calling and mid-turn steering help it run multistep agent workflows. API: model id gpt-6-astra, $10/$50 per 1M tokens (short context). Rolling out first via Trusted Access/Daybreak, then Plus, Pro, Business, Enterprise, and the API in the coming days. First OpenAI model at the Critical cybersecurity capability threshold (advanced cyber access limited).",
+      "category": "Productivity • Developer Tools • Artificial Intelligence",
+      "categoryFa": "بهره‌وری • ابزار توسعه‌دهندگان • هوش مصنوعی",
+      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "thumbnail": "https://ph-files.imgix.net/e732bb0f-6a16-4812-9ecd-44b143254587.png?auto=format",
+      "screenshots": [
+        "https://ph-files.imgix.net/c97f8e47-c04f-4eee-80c9-c804a86ddd4b.png?auto=format",
+        "https://ph-files.imgix.net/67e6061d-afa4-45c9-be02-695a30c2c0ca.png?auto=format",
+        "https://ph-files.imgix.net/23ff7372-9912-4e6a-9ff7-b395eef8fedf.png?auto=format",
+        "https://ph-files.imgix.net/09574acb-8237-4979-a89e-a886ab1feb53.webp?auto=format",
+        "https://ph-files.imgix.net/cf81fdb4-5d77-429d-a55d-68dd834b2580.webp?auto=format",
+        "https://ph-files.imgix.net/fe5bba0e-d8e7-43ff-99aa-8fe9197acbb5.jpeg?auto=format",
+        "https://ph-files.imgix.net/a6286bd6-4623-4872-b0f4-9655dafb8891.jpeg?auto=format",
+        "https://ph-files.imgix.net/47fa0767-ce76-4893-8955-571fe0b765de.jpeg?auto=format",
+        "https://ph-files.imgix.net/c32d60c3-f17e-413c-b10d-472f17d8c7fe.jpeg?auto=format"
+      ],
+      "maker": "Sam Altman",
+      "makerTitle": "President, YC",
+      "featuredAt": "2026-09-04T07:01:00Z",
+      "votes": 362,
+      "websiteUrl": "https://www.producthunt.com/r/JZWSD2RN4SUNT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
+      "comments": [
+        {
+          "user": "[REDACTED]",
+          "text": "Whatever happened to Product Hunt not allowing pre-release / unlaunched products on the home page?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the mid-turn steering part is what I'm most curious about. for tool calls you can undo, steering mid-turn is just a nicer UX. but once a step in the workflow is something external and already committed (a payment call, an email sent, a phone call already ringing), can you still steer the model away from a plan it already started executing on, or does steering only work for the parts that haven't left the sandbox yet"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Could users set priority rules so the model knows which goals should always take precedence?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Fyi message from Thibault Sottiaux:\"We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountains to give access as fast as we can.\""
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "The mid-turn steering alone makes this feel like an actual coworker instead of a slot machine."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "When can we try it?"
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "Hey PH community 👋Excited to hunt GPT-6 Astra today.The frontier labs keep pushing each other. We saw what Fable 5.1 did earlier this week:https://www.producthunt.com/products/claude-fable-5-1?launch=claude-fable-5-1This is OpenAI's next flagship, built for the hard end to end work. Coding, computer use, science, and long agent workflows that actually stay on track.Async tools and mid turn steering mean it can keep going while you course correct mid task. Feels less like a chat box and more like a teammate that can drive the machine.It's so good at 3D modeling too 🔥Claire made a great video walkthrough:https://x.com/clairevo/status/2095596028523319487https://x.com/dimillian/status/2095596700815516004Tell the team what you build 🚀"
+        }
+      ]
+    },
+    {
       "id": "ph-week-6",
       "date": "2026-08-19",
       "rank": 6,
@@ -6889,65 +6948,6 @@
         ],
         "confidence": 75
       }
-    },
-    {
-      "id": "ph-today-1",
-      "date": "2026-09-04",
-      "rank": 1,
-      "name": "GPT-6 Astra",
-      "slug": "gpt-6-astra-2",
-      "tagline": "OpenAI's most capable model for end-to-end work",
-      "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, software engineering, computer use, science, and professional work. Async tool calling and mid-turn steering help it run multistep agent workflows. API: model id gpt-6-astra, $10/$50 per 1M tokens (short context). Rolling out first via Trusted Access/Daybreak, then Plus, Pro, Business, Enterprise, and the API in the coming days. First OpenAI model at the Critical cybersecurity capability threshold (advanced cyber access limited).",
-      "category": "Productivity • Developer Tools • Artificial Intelligence",
-      "categoryFa": "بهره‌وری • ابزار توسعه‌دهندگان • هوش مصنوعی",
-      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "thumbnail": "https://ph-files.imgix.net/e732bb0f-6a16-4812-9ecd-44b143254587.png?auto=format",
-      "screenshots": [
-        "https://ph-files.imgix.net/c97f8e47-c04f-4eee-80c9-c804a86ddd4b.png?auto=format",
-        "https://ph-files.imgix.net/67e6061d-afa4-45c9-be02-695a30c2c0ca.png?auto=format",
-        "https://ph-files.imgix.net/23ff7372-9912-4e6a-9ff7-b395eef8fedf.png?auto=format",
-        "https://ph-files.imgix.net/09574acb-8237-4979-a89e-a886ab1feb53.webp?auto=format",
-        "https://ph-files.imgix.net/cf81fdb4-5d77-429d-a55d-68dd834b2580.webp?auto=format",
-        "https://ph-files.imgix.net/fe5bba0e-d8e7-43ff-99aa-8fe9197acbb5.jpeg?auto=format",
-        "https://ph-files.imgix.net/a6286bd6-4623-4872-b0f4-9655dafb8891.jpeg?auto=format",
-        "https://ph-files.imgix.net/47fa0767-ce76-4893-8955-571fe0b765de.jpeg?auto=format",
-        "https://ph-files.imgix.net/c32d60c3-f17e-413c-b10d-472f17d8c7fe.jpeg?auto=format"
-      ],
-      "maker": "Sam Altman",
-      "makerTitle": "President, YC",
-      "featuredAt": "2026-09-04T07:01:00Z",
-      "votes": 352,
-      "websiteUrl": "https://www.producthunt.com/r/JZWSD2RN4SUNT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
-      "comments": [
-        {
-          "user": "[REDACTED]",
-          "text": "Whatever happened to Product Hunt not allowing pre-release / unlaunched products on the home page?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "the mid-turn steering part is what I'm most curious about. for tool calls you can undo, steering mid-turn is just a nicer UX. but once a step in the workflow is something external and already committed (a payment call, an email sent, a phone call already ringing), can you still steer the model away from a plan it already started executing on, or does steering only work for the parts that haven't left the sandbox yet"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Could users set priority rules so the model knows which goals should always take precedence?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Fyi message from Thibault Sottiaux:\"We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountains to give access as fast as we can.\""
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "The mid-turn steering alone makes this feel like an actual coworker instead of a slot machine."
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "When can we try it?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "Hey PH community 👋Excited to hunt GPT-6 Astra today.The frontier labs keep pushing each other. We saw what Fable 5.1 did earlier this week:https://www.producthunt.com/products/claude-fable-5-1?launch=claude-fable-5-1This is OpenAI's next flagship, built for the hard end to end work. Coding, computer use, science, and long agent workflows that actually stay on track.Async tools and mid turn steering mean it can keep going while you course correct mid task. Feels less like a chat box and more like a teammate that can drive the machine.It's so good at 3D modeling too 🔥Claire made a great video walkthrough:https://x.com/clairevo/status/2095596028523319487https://x.com/dimillian/status/2095596700815516004Tell the team what you build 🚀"
-        }
-      ]
     },
     {
       "id": "ph-week-9",
@@ -9700,9 +9700,9 @@
       "makerTwitter": ""
     },
     {
-      "id": "ph-today-2",
+      "id": "ph-today-1",
       "date": "2026-09-04",
-      "rank": 2,
+      "rank": 1,
       "name": "myAIcademy",
       "slug": "myaicademy",
       "tagline": "Learn AI skills for your specific role and team",
@@ -9721,15 +9721,19 @@
         "https://ph-files.imgix.net/55e82d3b-a6c0-43ab-9946-5746a88779b3.png?auto=format",
         "https://ph-files.imgix.net/ef95c234-d697-457e-b35b-0bfedbd77c7b.jpeg?auto=format"
       ],
-      "maker": "[REDACTED]",
-      "makerTitle": "",
+      "maker": "RUCHIT SHARMA",
+      "makerTitle": "Founding Engineer at myaicademy",
       "featuredAt": "2026-09-04T07:01:00Z",
-      "votes": 259,
+      "votes": 261,
       "websiteUrl": "https://www.producthunt.com/r/ZV2IS4ZFBSIMTJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+IranHunt+%28ID%3A+295529%29",
       "comments": [
         {
           "user": "[REDACTED]",
           "text": "Hey Product Hunt 🎉I’m Malika, founder and CEO of myAIcademy, a personalised, continuously updated AI learning platform built around your role, goals and the tools you actually use.You learn a real workflow, practise it in a safe simulation and use it to finish real work. We’re live on iOS, Android and web.⭐ The founding storyI’ve spent my career at the intersection of AI, enterprise adoption and education.At Google Cloud, I was a Generative AI Black Belt, helping large enterprises adopt AI. Before that, I worked in Microsoft’s cloud business.I also serve as adjunct faculty at Georgetown University, Washington, DC, and have worked with more than 10,000 professionals and leadership teams.I kept seeing the same problem: companies bought AI licences, told people to “just use AI” and left them with generic courses, prompt libraries and trial and error.The gap is not access. It is adoption.AI learning also accumulates content debt: tools change weekly, so courses quickly become inaccurate. AI learning must be maintained like software.So we built myAIcademy.⭐ Using myAIcademy is simpleTell us your role, experience, goals and tools. We build your personalised learning path.Learn one complete workflow through a 15-minute follow-along lesson.Practise it in a safe simulator before applying it to live work.⭐ Who myAIcademy is forIndividual professionals use myAIcademy to understand how AI applies to their role, discover relevant use cases and learn practical workflows for completing real work.Teams and enterprises use myAIcademy to turn their AI investments into adoption, so every department knows how to apply approved AI tools to its work.For AI vendors and software companies, myAIcademy will serve as a training and adoption layer, helping customers onboard, apply the product to real work, discover relevant use cases and keep up with new capabilities.⭐ Here’s everything you get todayA personalised learning path based on your role, level, goals and tools.15-minute follow-along lessons built around real workflows.Safe simulator checkpoints instead of passive quizzes.Lessons reviewed and refreshed within 24 to 72 hours when major tool changes affect them.Monthly masterclasses, Signals explaining AI updates and a shareable Skill Passport.One synced account across iOS, Android and web.⭐ What’s nextComing soon, Aimy, your AI learning agent, will guide you inside the AI tools your organisation has approved.Tell Aimy what you need to accomplish and it will translate your task into clear prompts, steps and actions for you to follow, while applying your organisation’s security, privacy and compliance policies. You stay in control, complete the work yourself and get more value from AI without stepping outside policy.⭐ A final noteOur dream is to make “just use AI” feel like an invitation, not a burden.In five years, not understanding AI will be as limiting as not understanding the internet. We want every professional to become fluent in AI, and fluency should mean finished work, not certificates.Tell me your role and one task you want AI to do. I’ll personally reply with the workflow, tool and first prompt I would try.Try myAIcademy for free on the web app, download it on iOS, or get it on Android. No credit card is required.I’m grateful to be building this with @ash_96 (Ashfaq, design), @angothu_rahul_naik (Rahul, founding engineer), Ruchit (engineering) and the myAIcademy team.PS: Thank you to the 10,000+ professionals who worked with me before the app, and to our early users across iOS, Android and web. We would not be here without you."
+        },
+        {
+          "user": "[REDACTED]",
+          "text": "the part I'd want to see thought through more is the jump from Aimy guiding someone through a checkpoint in the simulator to Aimy \"executing the task with them\" inside their real tools, per the reply above. a simulated workflow is safe by construction, there's nothing real to break. the moment Aimy is authorized inside someone's actual CRM or inbox, that's a different category of risk than \"the lesson is a bit stale,\" and it's the same permissions problem every agent-in-your-tools product eventually has to answer. is that scoped per-persona already, or is it still an open design question for when Aimy ships?"
         },
         {
           "user": "[REDACTED]",
@@ -9754,10 +9758,6 @@
         {
           "user": "[REDACTED]",
           "text": "How do you ensure that the content is always up to date, given that AI changes almost daily, with new tools and new use cases?"
-        },
-        {
-          "user": "[REDACTED]",
-          "text": "@malika_malik1 How do you handle updating lessons so quickly when tools change every few days, and is the simulator running real API environments or guided mock setups?"
         }
       ]
     },
@@ -13067,7 +13067,49 @@
           "user": "[REDACTED]",
           "text": "Super excited for this Channels SDK today! Congrats!!!"
         }
-      ]
+      ],
+      "faDescription": "اسدی‌کیو‌دی کانال‌ها (Channels SDK) بخش بعدی و حیاتی در پازل هوش مصنوعی عاملی (Agentic AI) است که امکان اتصال هر عامل هوشمند (Agent) به پلتفرم‌های ارتباطی مانند اسلک، تیمز، واتس‌اپ و موارد دیگر را فراهم می‌کند. این ابزار با ارائه قابلیت‌های حرفه‌ای همکارانه مانند پاسخ‌دهی پویا (Streaming)، تولید رابط کاربری، یادگیری شخصی‌سازی‌شده برای هر کاربر، تأییدیه‌های انسانی در حین کار (HITL) و احراز هویت پیچیده، تجربه‌ای بی‌نظیر ایجاد می‌کند. این فریم‌ورک با OpenAI Agents، Claude Agents، LangChain، Mastra، Google ADK و هر عاملی که از پروتکل AG-UI پشتیبانی می‌کند، سازگار است. این پروژه متن‌باز و قابل میزبانی شخصی (Self-hostable) است و راه‌اندازی آن تنها با یک دستور ساده آغاز می‌شود: «فایل راهنمای کانال‌ها را بخوان و به من در ساخت اولین کانالم کمک کن».",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به همه، من مدیرعامل کاپیلوت‌کیت (CopilotKit)، استارتاپی پشت پروتکل AG-UI و اسدی‌کیو‌دی کانال‌ها هستم. از حمایت شما سپاسگزارم! ما بسیار هیجان‌زده‌ایم و معتقدیم که کانال‌ها به‌زودی سومین فرم بزرگ تعامل با مدل‌های زبانی (پس از چت و عامل‌های سبک Codex/Claude-Code) خواهند شد. ما سخت تلاش کرده‌ایم تا فرآیند راه‌اندازی را به یک دستور ساده تقلیل دهیم: «فایل راهنمای کانال‌ها را بخوان و به من در ساخت اولین کانالم کمک کن». واقعاً آنقدر ساده است. سپس به شما کمک می‌کند تا یک عامل اسلک یا تیمز با کیفیت همکار بسازید که پشتوانه آن تقریباً هر یک از برترین فریم‌ورک‌های عاملی موجود در بازار است. بازخورد شما، به‌ویژه اگر با مشکلاتی مواجه شدید، را بسیار دوست داریم."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "دیروز فرصت کردم سریعاً آن را تست کنم. عاشقش هستم! تبریک بابت راه‌اندازی موفق!"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "همین الان امتحان کردم و واقعاً خیره‌کننده است. من از اینکه همه چیز مستقل از مدل و ارائه‌دهنده (Model/Provider Agnostic) است، خیلی خوشم می‌آید."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "با اسدی‌کیو‌دی کانال‌ها خیلی سرگرم شدم. این ابزار واقعاً برخی از جریان‌های کاری قدرتمند را باز می‌کند - ابزارهای خارجی (مانند GitHub، Linear، Notion) را متصل کنید و عامل می‌تواند تمام کارهای شما را یکجا انجام دهد. کار تیم بسیار خیره‌کننده‌ای است!!"
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nمشکل اصلی، جدایی هوش مصنوعی عاملی (Agents) از محیط‌های کاری روزمره کاربران است. CopilotKit Channels SDK با ایجاد یک لایه واسط استاندارد، اجازه می‌دهد هر عامل هوشمندی (مستقل از فریم‌ورک سازنده) به اسلک، تیمز و واتس‌اپ متصل شود. راه‌حل، ساده‌سازی شدید فرآیند اتصال (با یک دستور) و ارائه قابلیت‌های سازمانی مانند احراز هویت و تأییدیه انسانی است که اعتماد سازمان‌ها را جلب می‌کند.\n\n🔹 معماری و تکنولوژی:\nمعماری بر اساس پروتکل AG-UI (Agent-User Interface) استوار است که یک استاندارد باز برای ارتباط بین عامل‌ها و رابط‌های کاربری است. این SDK متن‌باز و قابل میزبانی شخصی است که امنیت داده‌ها را تضمین می‌کند. پشتیبانی از فریم‌ورک‌های متعدد مانند LangChain و OpenAI Agents، انعطاف‌پذیری بالایی ایجاد می‌کند و از قفل شدن به یک اکوسیستم خاص جلوگیری می‌کند.\n\n🔹 مدل درآمدی:\nبر اساس توضیحات، محصول متن‌باز است که معمولاً با مدل Open-Core درآمدزایی می‌کند. یعنی هسته اصلی رایگان است، اما قابلیت‌های پیشرفته سازمانی (مانند SSO، لاگ‌گیری پیشرفته، یا میزبانی ابری مدیریت‌شده) پولی خواهند بود. همچنین خدمات مشاوره و پیاده‌سازی برای شرکت‌ها منبع درآمدی دیگر است.\n\n🔹 نقاط قوت:\n- استانداردسازی ارتباط عامل‌ها با پیام‌رسان‌ها (AG-UI).\n- استقلال از مدل و فریم‌ورک (Model/Framework Agnostic).\n- قابلیت‌های سازمانی قوی (HITL, Auth, Streaming).\n- تجربه کاربری فوق‌العاده ساده در راه‌اندازی.\n\n🔹 نقاط ضعف:\n- وابستگی به اکوسیستم‌های خارجی که ممکن است در برخی مناطق (مثل ایران) محدودیت‌های دسترسی داشته باشند.\n- نیاز به زیرساخت فنی برای میزبانی شخصی که ممکن است برای برخی کسب‌وکارهای کوچک چالش‌برانگیز باشد.\n\n🔹 نکته طلایی برای ایران:\nبا توجه به تحریم‌ها و محدودیت‌های دسترسی به اسلک و تیمز، نسخه ایرانی این محصول باید تمرکز خود را بر پیام‌رسان‌های داخلی (ایتا، بله) و مدل‌های زبانی داخلی یا قابل دسترسی بگذارد. ایجاد یک «استاندارد ملی» برای اتصال هوش مصنوعی به پیام‌رسان‌ها می‌تواند مزیت رقابتی بزرگی ایجاد کند و بازار بکر اتوماسیون سازمانی در ایران را فتح نماید.",
+      "iranEquivalent": {
+        "productName": "کانال‌یار (ChannelYar)",
+        "description": "کانال‌یار یک پلتفرم متن‌باز برای اتصال هوش مصنوعی عاملی به پیام‌رسان‌های محبوب در ایران مانند ایتا، بله و تلگرام است. این سیستم با پشتیبانی از پروتکل‌های استاندارد هوش مصنوعی، امکان ایجاد دستیاران هوشمند سازمانی با قابلیت‌های پیشرفته مانند یادگیری شخصی و تأییدیه انسانی را فراهم می‌کند. راه‌اندازی آن به‌سختی با یک دستور ساده انجام می‌شود و نیاز به دانش فنی عمیق ندارد.",
+        "marketOpportunity": "بازار ایران با وجود محدودیت‌های دسترسی به سرویس‌های خارجی، تشنه‌ی راهکارهای بومی برای اتوماسیون ارتباطات سازمانی است. وجود تعداد بالای کسب‌وکارهای کوچک و متوسط که از پیام‌رسان‌های داخلی استفاده می‌کنند، فرصت بزرگی برای ارائه دستیاران هوشمند ارزان و قابل اعتماد فراهم می‌کند.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "مدیران فناوری اطلاعات در شرکت‌های متوسط، تیم‌های توسعه‌دهنده نرم‌افزار، و کسب‌وکارهای خدماتی که می‌خواهند پشتیبانی مشتریان خود را با هوش مصنوعی خودکار کنند.",
+        "challenges": [
+          "عدم دسترسی مستقیم به APIهای برخی مدل‌های زبانی بزرگ خارجی و نیاز به استفاده از مدل‌های داخلی یا واسطه‌ها.",
+          "مقاومت سازمان‌ها در برابر تغییر فرآیندها و نگرانی‌های امنیتی مربوط به میزبانی داده‌ها."
+        ],
+        "monetization": [
+          "مدل اشتراکی ماهانه برای کسب‌وکارها با محدودیت تعداد پیام یا کاربر.",
+          "فروش لایسنس‌های سازمانی برای میزبانی خصوصی (On-premise) و پشتیبانی فنی اختصاصی."
+        ],
+        "techStack": [
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "Docker"
+        ],
+        "confidence": 80
+      }
     },
     {
       "id": "ph-yesterday-6",
@@ -13993,7 +14035,52 @@
           "user": "[REDACTED]",
           "text": "Looks useful for AI agents. Did you think about providing an MCP server or a hook to use in claude/codex? It could replace the curl command."
         }
-      ]
+      ],
+      "faDescription": "کافی است هر آدرسی (URL) را ارسال کنید تا متن تمیز با فرمت مارک‌داون تحویل بگیرید. صفحات وب که با جاوااسکریپت رندر می‌شوند به طور خودکار پردازش شده و منوها، پاورقی‌ها و بنرهای کوکی از آن‌ها حذف می‌گردند. خروجی نهایی بدون نیاز به هیچ‌گونه پس‌پردازش، مستقیماً آماده ورود به پنجره کانتکست مدل‌های زبانی یا پایگاه‌های دانش است. این سرویس دارای سیستم داخلی دور زدن مکانیزم‌های ضد ربات شامل چرخش پروکسی، مدیریت اثرانگشت مرورگر و تلاش مجدد است. علاوه بر وب‌سایت، این API توانایی استخراج متن از فایل‌های PDF، DOCX، PPTX، تصاویر، صوت و ویدیو را نیز دارد و طرح استفاده رایگان نیز برای آن فعال است.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به همه اعضای پروداکت هانت 👋 من جانی هستم، بنیان‌گذار تیم سازنده Website to Markdown API. ما این ابزار را ساختیم چون تبدیل وب‌سایت به متن تمیز و قابل استفاده هنوز بسیار سخت‌تر از آن چیزی است که باید باشد. شما در نهایت مجبور می‌شوید یک مرورگر بدون سر (Headless) را نگهداری کنید، با صفحات رندر شده با جاوااسکریپت که HTML خالی برمی‌گردانند دست و پنجه نرم کنید، منطق پاک‌سازی برای حذف بنرهای کوکی بنویسید و سیستم تلاش مجدد برای سایت‌های مسدودکننده بسازید. این روش برای ۱۰ سایت اول جواب می‌دهد اما روی سایت یازدهم خراب می‌شود. بنابراین ما آن را به یک فراخوانی API ساده تبدیل کردیم. یک URL بفرستید و مارک‌داون تمیز تحویل بگیرید. صفحه قبل از استخراج رندر می‌شود، بنابراین سایت‌های React، Next.js و Vue مانند HTML ایستا کار می‌کنند. سیستم ضد ربات (چرخش پروکسی، اثرانگشت مرورگر و تلاش مجدد) به صورت داخلی تعبیه شده است. خروجی محتوای واقعی است: بدون منو، بدون پاورقی و بدون تبلیغات. شما یک سند مارک‌داون دریافت می‌کنید که می‌توانید مستقیم آن را وارد پنجره کانتکست LLM، پایگاه دانش یا پایپ‌لاین RAG کنید. بدون نیاز به پارس کردن HTML یا پس‌پردازش. همین اِندپوینت فایل‌های PDF، DOCX، PPTX، EPUB، تصویر، صوت و ویدیو را هم پردازش می‌کند. شما یک API را یاد می‌گیرید و برای همه چیز استفاده می‌کنید. اگر خروجی ساختاریافته با تکه‌های متن می‌خواهید، می‌توانید پارامتر format=json? را بفرستید. این سرویس بخشی از پلتفرم بزرگتر Exabase است، بنابراین با همان کلید API به جستجوی عمیق، حافظه و اتوماسیون نیز دسترسی دارید. اما به تنهایی هم عالی کار می‌کند. طرح رایگان بدون نیاز به کارت اعتباری در دسترس است. ممنون که بررسی می‌کنید، تمام روز برای پاسخ به سوالات اینجا هستم! جانی"
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "@johnny_makes تبریک می‌گویم! به نظر عالی می‌رسد اما من کمی در مورد سناریوهای کاربردی چنین ابزاری تردید دارم. می‌دانم که مارک‌داون فرمت محبوب مدل‌های زبانی است، اما آیا این فقط یک شکل شیک‌تر از اسکرپینگ است یا کاربردهای بیشتری دارد؟ اگر بتوانید برخی از موارد استفاده ممکن را به اشتراک بگذارید عالی می‌شود. متشکرم :)"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "این ابزار به عنوان یک بازاریاب برای من فوق‌العاده کاربردی به نظر می‌رسد، به خصوص پشتیبانی از فرمت‌های مختلف. حتماً آن را امتحان می‌کنم، رای مثبت دادم!"
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "برای ایجنت‌های هوش مصنوعی کاربردی به نظر می‌رسد. آیا به ارائه یک سرور MCP یا یک هوک جهت استفاده در Claude یا Codex فکر کرده‌اید؟ این کار می‌تواند جایگزین دستور curl شود."
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nتبدیل صفحات وب و اسناد مختلف به متن تمیز برای مدل‌های زبانی (LLM) فرآیندی پردردسر است که نیازمند مدیریت مرورگرهای Headless، رندر جاوااسکریپت، پاک‌سازی HTML و دور زدن مکانیزم‌های ضد اسکرپینگ است. سرویس Website to Markdown API با ارائه یک اِندپوینت واحد، تمامی این مراحل را خودکار کرده و خروجی مارک‌داون تمیز و آماده برای RAG و پنجره کانتکست هوش مصنوعی ارائه می‌دهد.\n\n🔹 معماری و تکنولوژی:\nاین محصول از معماری مبتنی بر مرورگرهای بدون سر برای رندر کامل سایت‌های مدرن (React/Vue/Next.js) بهره می‌برد. سیستم ضد ربات آن شامل چرخش پروکسی، مدیریت اثرانگشت مرورگر (Fingerprinting) و مکانیزم تلاش مجدد است. همچنین موتور پردازش آن علاوه بر HTML، توانایی تبدیل فرمت‌های متعددی مثل PDF، DOCX، ویدیو و صوت را داراست.\n\n🔹 مدل درآمدی:\nاستفاده از مدل Freemium (پلن رایگان بدون نیاز به کارت اعتباری برای جذب اولیه کاربران) در کنار اشتراک‌های ماهانه بر اساس تعداد فراخوانی API و دسترسی به قابلیت‌های پیشرفته مانند خروجی ساختاریافته JSON.\n\n🔹 نقاط قوت:\n- سادگی فوق‌العاده با شعار «یک API برای همه فرمت‌ها»\n- حذف کامل نیاز به پس‌پردازش متن برای مدل‌های زبانی\n- مدیریت هوشمندانه صفحات دینامیک و مکانیزم‌های ضد اسکرپینگ\n- قابلیت ادغام با زیست‌بوم جامع‌تر Exabase\n\n🔹 نقاط ضعف:\n- وابستگی شدید هزینه‌های عملیاتی به زیرساخت پروکسی و سرورهای سنگین رندر\n- ابهام برخی کاربران در تمایز این ابزار با اسکرپرهای سنتی\n- احتمال تغییر ساختار سایت‌ها و شکسته‌شدن منطق استخراج محتوا در برخی حالات خاص\n\n🔹 نکته طلایی برای ایران:\nبزرگ‌ترین ارزش‌افزوده برای پیاده‌سازی این محصول در ایران، حل اختصاصی چالش متون فارسی (مانند اصلاح بهم‌ریختگی فایل‌های PDF فارسی و پشتیبانی کامل از استاندارد RTL در مارک‌داون) است. ارائه ابزاری که وب فارسی را بدون مشکل فونت و کدگذاری به مارک‌داون تبدیل کند، بازار مستعدی میان تیم‌های هوش مصنوعی ایرانی خواهد داشت.",
+      "iranEquivalent": {
+        "productName": "متن‌کاو (TextKav API)",
+        "description": "یک سرویس بومی برای تبدیل وب‌سایت‌ها و انواع اسناد به متن تمیز با فرمت مارک‌داون جهت استفاده در مدل‌های هوش مصنوعی. این پلتفرم چالش‌های رندر جاوااسکریپت، استخراج محتوای اصلی و دور زدن محدودیت‌های دسترسی را به طور خودکار حل می‌کند. توسعه‌دهندگان ایرانی می‌توانند بدون درگیری با ابزارهای پیچیده اسکرپینگ، سیستم‌های RAG و چت‌بات‌های خود را تغذیه کنند.",
+        "marketOpportunity": "با رشد سریع پروژه‌های هوش مصنوعی و پایگاه‌های دانش در شرکت‌های ایرانی، نیاز شدیدی به ابزارهای استخراج داده تمیز از وب فارسی و فایل‌های متنی وجود دارد. عدم وجود یک ابزار بومی که چالش‌های خطای فونت و متون راست‌به‌چپ (RTL) را در تبدیل اسناد حل کند، فرصت تجاری بکری ایجاد کرده است.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "توسعه‌دهندگان هوش مصنوعی، شرکت‌های نرم‌افزاری، تیم‌های RAG و پردازش زبان طبیعی (NLP)، بازاریابان دیجیتال و تحلیل‌گران داده",
+        "challenges": [
+          "پیچیدگی‌های پردازش متون راست‌به‌چپ (RTL) و اصلاح بهم‌ریختگی حروف در فایل‌های PDF فارسی",
+          "محدودیت‌های اینترنت و زیرساخت پروکسی در ایران برای دور زدن مکانیزم‌های ضد ربات سایت‌های خارجی و داخلی",
+          "هزینه‌های بالای نگهداری سرورهای مرورگر بدون سر (Headless) در مقیاس پردازشی بالا"
+        ],
+        "monetization": [
+          "مدل اشتراکی Freemium (ارائه سهمیه رایگان ماهانه + اشتراک‌های حجمی)",
+          "فروش پکیج‌های سازمانی قابل نصب در شبکه داخلی (On-Premises)",
+          "دریافت هزینه بر اساس میزان مصرف و تعداد درخواست (Pay-as-you-go)"
+        ],
+        "techStack": [
+          "Node.js / Playwright",
+          "Python (FastAPI)",
+          "Redis",
+          "PostgreSQL",
+          "Docker / Kubernetes"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-yesterday-7",
@@ -15680,7 +15767,37 @@
           "user": "[REDACTED]",
           "text": "Hi everyone!The difficult part of moderation is deciding where a product wants to draw the line.A kids app, a cybersecurity tool, and a mental-health platform can look at the same content very differently. Shieldstral lets you express that policy as a plain-language question at inference time, rather than relying on a fixed set of categories baked into the model.Ask “Is this image safe for minors?” or “Does this response promote physical violence?” and the same 3B checkpoint can score text, images, or both.It runs on one 16GB GPU, and weights are available under Apache 2.0. Teams can keep the moderation layer local and change the policy without training a new model each time."
         }
-      ]
+      ],
+      "faDescription": "شیلدسترال یک مدل محافظتی چندوجهی با وزن باز و ظرفیت ۴ میلیارد پارامتر از شرکت میسترال است که امکان تعریف سیاست‌های ایمنی را در زمان اجرا فراهم می‌کند. این ابزار با استفاده از زبان طبیعی، به تیم‌ها اجازه می‌دهد تا بدون نیاز به بازآموزی مدل، معیارهای امنیتی متن‌ها و تصاویر را پویا تنظیم کنند. شیلدسترال با تولید تنها یک توکن خروجی، همزمان محتوای متنی و تصویری را ارزیابی می‌کند. این مدل به‌صورت محلی روی یک کارت گرافیک ۱۷ گیگابایتی اجرا می‌شود و حریم خصوصی داده‌ها را تضمین می‌کند.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به همه! بخش دشوار فیلترینگ و نظارت بر محتوا، تعیین دقیق مرزهای امنیتی برای هر محصول است. یک اپلیکیشن کودکانه، یک ابزار امنیت سایبری و یک پلتفرم سلامت روان ممکن است به یک محتوای یکسان نگاه کاملاً متفاوتی داشته باشند. شیلدسترال به شما اجازه می‌دهد سیاست‌های خود را به صورت یک سوال ساده در زبان طبیعی در زمان اجرا بیان کنید، به جای اتکا به دسته‌بندی‌های ثابتی که از پیش در مدل کدنویسی شده‌اند. می‌توانید بپرسید «آیا این تصویر برای اقلین‌سالان ایمن است؟» یا «آیا این پاسخ خشونت فیزیکی را ترویج می‌کند؟» و همان چک‌پوینت ۴ میلیاردی می‌تواند امتیاز متن، تصویر یا هر دو را محاسبه کند. این مدل روی یک کارت گرافیک ۱۷ گیگابایتی اجرا می‌شود و وزن‌های آن تحت لایسنس آپاچی ۳.۰ در دسترس است. تیم‌ها می‌توانند لایه نظارت را محلی نگه دارند و سیاست‌ها را بدون آموزش مجدد مدل هر بار تغییر دهند."
+        }
+      ],
+      "aiReview": "تحلیل جامع با ساختار:\n🔹 مسئله و راه‌حل:\nمسئله اصلی در نظارت بر محتوا، سفتی و یکدستی فیلترهای سنتی است که برای هر محصول (از بازی کودک تا ابزار امنیتی) یکسان عمل می‌کنند. شیلدسترال با امکان تعریف سیاست در زبان طبیعی در زمان اجرا، انعطاف‌پذیری را به ارمغان می‌آورد و اجازه می‌دهد مرزهای ایمنی بر اساس نیاز خاص هر کسب‌وکار تنظیم شوند.\n🔹 معماری و تکنولوژی:\nاین مدل یک گاردریل چندوجهی (متن و تصویر) با ۴ میلیارد پارامتر است که به صورت محلی روی یک GPU ۱۷ گیگابایتی اجرا می‌شود. معماری آن طوری است که خروجی تنها یک توکن است که نشان‌دهنده امتیاز ایمنی است، که این امر سرعت و کارایی را افزایش می‌دهد و هزینه محاسباتی را کاهش می‌دهد.\n🔹 مدل درآمدی:\nمدل درآمدی اصلی بر پایه فروش لایسنس باز (Open-Weight) و ارائه خدمات پشتیبانی، بهینه‌سازی و استقرار محلی برای سازمان‌ها است. همچنین امکان ارائه به صورت سرویس مدیریت‌شده (Managed Service) برای شرکت‌هایی که زیرساخت سخت‌افزاری ندارند وجود دارد.\n🔹 نقاط قوت:\n- قابلیت اجرا محلی و حفظ حریم خصوصی داده‌ها (On-premise).\n- انعطاف‌پذیری بالا در تعریف قوانین بدون نیاز به بازآموزی مدل.\n- سبک بودن مدل (۴B) و قابلیت اجرا روی سخت‌افزارهای نسبتاً ارزان‌تر.\n- لایسنس باز (Apache ۳.۰) که امکان استفاده تجاری و تغییر کد را فراهم می‌کند.\n🔹 نقاط ضعف:\n- محدودیت در دقت برای زوایای بسیار پیچیده یا نادر که مدل‌های بزرگ‌تر ممکن است بهتر از پس آن‌ها برآیند.\n- نیاز به دانش فنی برای استقرار و تنظیم بهینه روی زیرساخت‌های محلی.\n- چالش‌های مربوط به پردازش زبان‌های غیرانگلیسی (مانند فارسی) که ممکن است نیاز به فاین‌تیون (Fine-tuning) داشته باشد.\n🔹 نکته طلایی برای ایران:\nبه دلیل محدودیت‌های اینترنت و نیاز به داده‌های داخلی، تمرکز بر بهینه‌سازی مدل برای زبان فارسی و تصاویر رایج در فضای مجازی ایران، می‌تواند یک مزیت رقابتی انحصاری ایجاد کند. ارائه یک بسته آماده (Turnkey) که شامل مدل بهینه‌شده، رابط کاربری فارسی و مستندات استقرار محلی باشد، می‌تواند فروش را برای شرکت‌های ایرانی که از پیچیدگی‌های فنی می‌ترسند، تسهیل کند.",
+      "iranEquivalent": {
+        "productName": "نگهبان هوشمند محتوا",
+        "description": "یک پلتفرم محلی برای نظارت بر محتوای چندوجهی که با زبان فارسی طبیعی، قوانین امنیتی را تعریف می‌کند. این سیستم متن‌ها و تصاویر را بدون ارسال به سرورهای خارجی و با دقت بالا ارزیابی می‌کند. امکان تغییر سریع قوانین فیلترینگ بدون نیاز به بازآموزی مدل، انعطاف‌پذیری بالایی به محصول می‌بخشد.",
+        "marketOpportunity": "با توجه به محدودیت‌های دسترسی به سرویس‌های ابری خارجی و نیاز شدید سازمان‌ها به حفظ داده‌های داخلی، بازار بزرگی برای راهکارهای محلی نظارت بر محتوا وجود دارد. پلتفرم‌های اجتماعی و استارتاپ‌های حوزه سلامت و آموزش در ایران به شدت به ابزارهای قابل اعتماد و قابل تنظیم برای مدیریت محتوای کاربران نیاز دارند.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "پلتفرم‌های اجتماعی، اپلیکیشن‌های سلامت روان، سرویس‌های آموزشی و شرکت‌های فناوری که نیاز به فیلترینگ محلی و قابل تنظیم دارند.",
+        "challenges": [
+          "نیاز به بهینه‌سازی مدل برای پردازش زبان فارسی و تصاویر با کیفیت پایین رایج در شبکه‌های داخلی.",
+          "محدودیت‌های سخت‌افزاری در دسترسی به کارت‌های گرافیک قوی و هزینه بالای زیرساخت محلی برای شرکت‌های کوچک."
+        ],
+        "monetization": [
+          "فروش لایسنس نرم‌افزار به صورت یک‌بار پرداخت برای شرکت‌های بزرگ و سازمان‌های دولتی.",
+          "ارائه سرویس ابری (IaaS) با اجاره منابع محلی بهینه‌شده برای استارتاپ‌ها به صورت اشتراکی ماهانه."
+        ],
+        "techStack": [
+          "PyTorch",
+          "FastAPI",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "confidence": 85
+      }
     },
     {
       "id": "ph-yesterday-10",
@@ -16362,7 +16479,42 @@
           "user": "[REDACTED]",
           "text": "Hey PH! I’m Antoine, and over the past year, as I tried to scale our agentic coding workflows and software factories at my company, I kept hitting the same set of problems. So I built HAR to solve them, and I'm open sourcing it today.Getting a single coding agent to work in a repo is easy. Scaling to a real multi-agent workflow, where several runs at once and you still trust the output, is where it breaks down. A few things go wrong at the same time:No standard way to run or verify a repo. That knowledge is scattered across a README, a CLAUDE.md, editor rules, and CI config, all drifting out of sync with each other and the actual code.Agents on one repo collide. Shared dev server, shared database, shared ports, conflicting git state.Trusting a change means re-verifying it yourself. Which defeats the point of running a fleet.Vendor sandboxes lock you in. If the setup lives in someone's hosted dashboard, switching agents later means rebuilding the whole thing.What HAR doesHAR is a CLI and an MCP server. It works with Claude Code, Cursor, Codex, or any MCP agent, and it closes each of those gaps:Isolation. Each agent gets its own git worktree, branch, ports, and database. Nothing is shared with the main checkout or another agent's slot, so a fleet runs in parallel without colliding on a dev server, DB, or ports.Deterministic validation gates. HAR runs your project's real checks through a fixed pipeline, same result every time. The result is bound to the exact code that passed and enforced at commit time, so an unverified tree cannot land.Verifiable proof. Every run leaves logs, artifacts, and a validated tree hash tied to the exact code checked. A reviewer inspects the evidence instead of trusting the agent's self-report.Full observability. Mission Control is a local dashboard showing every repo, worktree, run, and validation in one place, so you can watch a whole fleet as it works.All of this lives in one contract committed to your repo, which every agent reads the same way. It replaces the usual scatter of a README, a CLAUDE.md, editor rules, and CI config that drift apart. You start from a profile that matches your stack, your agent adapts it to the real repo, and you extend verification with plugins (like Playwright) or with any command you already run.Give it a try and let me know what you think :)I'd genuinely love feedback, especially from anyone already trying to run multiple agents in parallel."
         }
-      ]
+      ],
+      "faDescription": "HAR یک چارچوب متن‌باز و مستقل از عامل (Agent-agnostic) برای ساخت کارفرای‌های چندعاملی کدنویسی است. این ابزار امکان اجرای موازی چندین عامل کدنویسی را روی هر مخزن کدی فراهم می‌کند و از طریق دروازه‌های اعتبارسنجی قطعی، اثبات‌پذیری و مشاهده‌پذیری کامل از تمام عوامل بهره می‌برد. HAR با جایگزینی پیکربندی‌های پراکنده با یک قرارداد واحد درون مخزن، از انحراف تنظیمات جلوگیری می‌کند و فرآیند توسعه را قابل اعتمادتر می‌سازد. این سیستم کاملاً قابل توسعه و سفارشی‌سازی است تا با ابزارها و کارفرای‌های خاص شما هم‌راستا شود.",
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "جایگزینی فایل‌های پراکنده مانند CLAUDE.md، README، قوانین ویرایشگر و پیکربندی CI با یک قرارداد واحد درون مخزن، یک تصمیم طراحی واقعاً هوشمندانه است. انحراف پیکربندی در این فایل‌ها عامل اصلی شکنندگی در تنظیمات چندعاملی است، جایی که هر عامل نسخه‌ای کمی قدیمی از حقیقت را می‌خواند. کنجکاویم که چقدر اسکیما قرارداد در زمان راه‌اندازی نظریه‌پردازانه است: آیا دستور `har init` یک قالب قرارداد کامل را ایجاد می‌کند یا بخش بزرگی از ساختار را به تیم برای تعریف می‌سپارد؟"
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "سلام! من آنتوان هستم و در طول سال گذشته، در حالی که سعی می‌کردم کارفرای‌های کدنویسی مبتنی بر عامل و کارخانه‌های نرم‌افزاری شرکت خودم را مقیاس‌پذیر کنم، مدام با مجموعه‌ای از مشکلات مشابه روبه‌رو می‌شدم. بنابراین HAR را برای حل این مسائل ساختم و امروز آن را متن‌باز می‌کنم. راه‌اندازی یک عامل کدنویسی واحد در یک مخزن کار آسانی است، اما مقیاس‌دهی به یک کارفرای واقعی چندعاملی، جایی که چندین اجرا همزمان انجام می‌شود و شما هنوز به خروجی اعتماد دارید، جایی است که همه چیز فرو می‌پاشد. چندین مشکل همزمان رخ می‌دهند: هیچ روش استاندارد برای اجرا یا اعتبارسنجی مخزن وجود ندارد، زیرا این دانش در README، CLAUDE.md، قوانین ویرایشگر و پیکربندی CI پراکنده است و همه از هم و کد واقعی عقب می‌مانند. عوامل روی یک مخزن با هم تداخل دارند: سرور توسعه مشترک، پایگاه داده مشترک، پورت‌های مشترک و وضعیت git متضاد. اعتماد به یک تغییر به معنای بازاعتبارسنجی خودتان است، که نقطه ضعف اصلی اجرای یک ناوگان عامل است. ساندبکس‌های فروشنده شما را قفل می‌کنند؛ اگر تنظیمات در داشبورد میزبان یک شرکت باشد، تغییر عامل بعدی به معنای بازسازی کل سیستم است. HAR چیست؟ HAR یک CLI و یک سرور MCP است. این ابزار با Claude Code، Cursor، Codex یا هر عامل MCP دیگر کار می‌کند و هر یک از این شکاف‌ها را پر می‌کند: جداسازی. هر عامل دارای git worktree، branch، پورت و پایگاه داده اختصاصی خود است. چیزی با checkout اصلی یا اسلات عامل دیگر به اشتراک گذاشته نمی‌شود، بنابراین ناوگان به صورت موازی بدون تداخل روی سرور توسعه، پایگاه داده یا پورت‌ها اجرا می‌شود. دروازه‌های اعتبارسنجی قطعی. HAR چک‌های واقعی پروژه شما را از طریق یک خط لوله ثابت اجرا می‌کند و هر بار نتیجه یکسانی می‌دهد. نتیجه به کد دقیق پاس‌شده متصل شده و در زمان commit اعمال می‌شود، بنابراین درختی بدون اعتبارسنجی نمی‌تواند وارد مخزن شود. اثبات قابل راستی‌آزمایی. هر اجرا لاگ‌ها، آرتیفکت‌ها و هش درخت اعتبارسنجی‌شده را به کد دقیق بررسی‌شده متصل می‌کند. یک بازبین به جای اعتماد به گزارش خود عامل، شواهد را بازرسی می‌کند. مشاهده‌پذیری کامل. Mission Control یک داشبورد محلی است که تمام مخازن، worktreeها، اجراها و اعتبارسنجی‌ها را در یک مکان نشان می‌دهد تا بتوانید کل ناوگان را در حال کار تماشا کنید. همه اینها در یک قرارداد واحد که در مخزن شما commit شده وجود دارد و هر عامل به یک روش آن را می‌خواند. این قرارداد جایگزین پراکندگی معمول README، CLAUDE.md، قوانین ویرایشگر و پیکربندی CI است که از هم فاصله می‌گیرند. شما از یک پروفایل شروع می‌کنید که با استک شما مطابقت دارد، عامل شما آن را با مخزن واقعی تطبیق می‌دهد و شما اعتبارسنجی را با پلاگین‌ها (مانند Playwright) یا هر دستوری که قبلاً اجرا می‌کردید گسترش می‌دهید. آن را امتحان کنید و بگویید چه فکر می‌کنید :) واقعاً از بازخورد خوشحال می‌شوم، به ویژه از کسانی که قبلاً سعی کرده‌اند چند عامل را به صورت موازی اجرا کنند."
+        }
+      ],
+      "aiReview": "🔹 مسئله و راه‌حل:\nمسئله اصلی، شکنندگی و عدم اطمینان در مقیاس‌دهی فرآیندهای کدنویسی مبتنی بر هوش مصنوعی است. وقتی چند عامل همزمان روی یک مخزن کار می‌کنند، تداخل در منابع (پورت، دیتابیس، فایل‌ها) و انحراف در پیکربندی‌ها (README vs CI config) باعث می‌شود خروجی‌ها غیرقابل اعتماد شوند. HAR با ایجاد یک قرارداد واحد (Contract) درون مخزن و جداسازی کامل هر عامل (Worktree/Port/DB)، این تداخلات را حذف کرده و با دروازه‌های اعتبارسنجی قطعی، اطمینان می‌دهد که فقط کد صحیح merge می‌شود.\n\n🔹 معماری و تکنولوژی:\nمعماری بر پایه CLI و سرور MCP استوار است که به آن امکان ارتباط با هر عاملی (Claude, Cursor, Codex) را می‌دهد. استفاده از Git Worktrees برای جداسازی فیزیکی کد، اجرای موازی بدون تداخل را ممکن می‌سازد. بخش مهم دیگر، پیپلاین اعتبارسنجی قطعی است که نتیجه را به هش دقیق کد متصل می‌کند تا از تغییرات پنهانی جلوگیری شود. داشبورد محلی (Mission Control) نیز لایه مشاهده‌پذیری را فراهم می‌کند.\n\n🔹 مدل درآمدی:\nبه عنوان یک پروژه متن‌باز، مدل درآمدی احتمالی Open Core است. هسته اصلی رایگان می‌ماند تا اکوسیستم شکل بگیرد، اما ویژگی‌های سازمانی مانند مدیریت ناوگان‌های بزرگ، یکپارچه‌سازی با SSO، گزارش‌دهی پیشرفته و پشتیبانی اختصاصی پولی خواهد بود. همچنین خدمات مشاوره و استقرار می‌تواند منبع درآمدی خوبی باشد.\n\n🔹 نقاط قوت:\n- حل مشکل واقعی و حیاتی در مقیاس‌دهی AI Coding.\n- مستقل از فروشنده (Vendor-agnostic) که قفل‌شدگی را از بین می‌برد.\n- تمرکز بر اثبات‌پذیری (Verifiable Proof) که اعتماد انسان به ماشین را افزایش می‌دهد.\n- معماری ماژولار و قابل توسعه با پلاگین‌ها.\n\n🔹 نقاط ضعف:\n- پیچیدگی اولیه راه‌اندازی برای تیم‌هایی که با مفاهیم مثل Worktree و MCP آشنا نیستند.\n- نیاز به نگهداری قرارداد (Contract) که ممکن است با رشد سریع کد، خود به منبع جدیدی از انحراف تبدیل شود اگر به‌روزرسانی نشود.\n- وابستگی به اکوسیستم MCP که هنوز در حال تکامل است.\n\n🔹 نکته طلایی برای ایران:\nدر بازار ایران که دسترسی به برخی سرویس‌های ابری خارجی محدود است، تمرکز HAR بر اجرای محلی (Local First) و استفاده از Git Worktrees به جای ساندبکس‌های ابری، یک مزیت رقابتی بزرگ است. تیم‌های ایرانی می‌توانند از این ابزار برای ایجاد «کارخانه‌های نرم‌افزاری» داخلی استفاده کنند که هم هزینه ابری را کاهش می‌دهد و هم کنترل کاملی بر داده‌های حساس خود دارند. پیشنهاد می‌شود نسخه بومی‌سازی‌شده با دستورالعمل‌های فارسی و یکپارچه‌سازی با ابزارهای محبوب داخلی ارائه شود.",
+      "iranEquivalent": {
+        "productName": "هَرا (HAR) - چارچوب مدیریت ناوگان عوامل هوش مصنوعی",
+        "description": "این محصول یک سامانه متن‌باز برای هماهنگ‌سازی و اجرای موازی چندین عامل هوش مصنوعی کدنویس روی یک مخزن است. با ایجاد یک قرارداد واحد برای پیکربندی و اعتبارسنجی، از تداخل منابع و انحراف تنظیمات جلوگیری می‌کند. همچنین با ارائه داشبورد محلی و اثبات‌پذیری تغییرات، اعتماد تیم‌های توسعه را به خروجی‌های هوش مصنوعی افزایش می‌دهد.",
+        "marketOpportunity": "با رشد سریع استفاده از ابزارهای هوش مصنوعی در شرکت‌های فناوری ایران، نیاز به ابزارهایی برای مدیریت پیچیدگی‌های توسعه چندعاملی به شدت احساس می‌شود. ارائه یک راهکار بومی و متن‌باز می‌تواند شکاف بین ابزارهای خارجی و نیازهای خاص زیرساخت‌های داخلی را پر کند.",
+        "estimatedBudget": "۳ تا ۵ میلیارد تومان",
+        "targetAudience": "تیم‌های مهندسی نرم‌افزار، استارتاپ‌های فناوری، و شرکت‌های بزرگ IT که از ابزارهای کدنویسی هوشمند استفاده می‌کنند و به دنبال افزایش بهره‌وری و کاهش خطا هستند.",
+        "challenges": [
+          "نیاز به یکپارچه‌سازی با ابزارهای مختلف هوش مصنوعی که ممکن است پروتکل‌های متفاوتی داشته باشند.",
+          "آموزش کاربران برای تغییر از رویه تک‌عاملی به رویه ناوگان‌محور و مدیریت دروازه‌های اعتبارسنجی."
+        ],
+        "monetization": [
+          "مدل متن‌باز با پشتیبانی پولی (Open Core) برای ویژگی‌های سازمانی مانند مدیریت ناوگان بزرگ و گزارش‌دهی پیشرفته.",
+          "ارائه خدمات استقرار، پیکربندی اختصاصی و آموزش برای شرکت‌های بزرگ."
+        ],
+        "techStack": [
+          "Node.js",
+          "Rust",
+          "Docker",
+          "Git Worktrees",
+          "MCP Protocol"
+        ],
+        "confidence": 80
+      }
     },
     {
       "id": "ph-today-6",
@@ -17165,10 +17317,10 @@
   "audit": {
     "products": 246,
     "withRealComments": 246,
-    "withPersianComments": 70,
-    "withPersianDescription": 107,
-    "withAiReview": 90,
-    "withIranEquivalent": 107,
+    "withPersianComments": 74,
+    "withPersianDescription": 111,
+    "withAiReview": 94,
+    "withIranEquivalent": 111,
     "totalRealComments": 1514
   }
 }
