@@ -1,33 +1,33 @@
 {
-  "checkedAt": "2026-09-05T13:48:23.458Z",
+  "checkedAt": "2026-09-05T14:00:07.345Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 1,
   "failed": 4,
-  "backlogBefore": 27,
-  "backlogAfter": 26,
-  "completedProducts": 228,
+  "backlogBefore": 26,
+  "backlogAfter": 25,
+  "completedProducts": 229,
   "missingFaDescription": 0,
-  "missingFaComments": 26,
+  "missingFaComments": 25,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
     {
       "slug": "coldtea",
-      "reason": "AI failed: gemini: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch() | groq: The socket connection was closed unexpectedly. For more information, pass `verbose: true`"
-    },
-    {
-      "slug": "octomind-cloud-and-hub",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
       "slug": "dograh-3",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
     },
     {
       "slug": "grok-bot",
       "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prom"
+    },
+    {
+      "slug": "lettertrace-2",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
     }
   ]
 }
