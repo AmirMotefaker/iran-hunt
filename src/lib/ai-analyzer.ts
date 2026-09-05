@@ -42,6 +42,14 @@ function cleanJson(text: string): string {
   return normalizeDigits(text.replace(/```json/gi, '').replace(/```/g, '').trim());
 }
 
+function repairJsonCandidate(text: string): string {
+  return text
+    .replace(/,\s*([}\]])/g, '$1')
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .trim();
+}
+
 async function fetchWithTimeout(
   input: string,
   init: RequestInit,
@@ -148,8 +156,9 @@ async function callGroqModel(key: string, model: string, prompt: string, maxToke
     body: JSON.stringify({
       model,
       messages: [{ role: 'user', content: prompt }],
-      temperature: 0.3,
+      temperature: 0.2,
       max_tokens: maxTokens,
+      response_format: { type: 'json_object' },
     }),
   });
 
@@ -162,26 +171,44 @@ async function callGroqModel(key: string, model: string, prompt: string, maxToke
   if (!res.ok) throw new Error(`Groq ${model}: HTTP ${res.status}${body ? ` | ${body.slice(0, 500)}` : ''}`);
   const json = JSON.parse(body);
   const text = json.choices?.[0]?.message?.content ?? '';
-  if (!text) throw new Error(`Groq ${model}: empty response`);
+  if (!text.trim()) {
+    console.warn(`   ↪️  Groq ${model} returned empty content; trying next available model immediately`);
+    return null;
+  }
   console.log(`   ✨ model: ${model}`);
   return text;
 }
 
 async function callGroq(key: string, prompt: string, maxTokens: number): Promise<string> {
   const models = await resolveGroqModels(key);
+  const failures: string[] = [];
   for (const model of models) {
-    const text = await callGroqModel(key, model, prompt, maxTokens);
-    if (text) return text;
+    try {
+      const text = await callGroqModel(key, model, prompt, maxTokens);
+      if (text) return text;
+      failures.push(`${model}: unavailable`);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      failures.push(`${model}: ${message}`);
+      console.warn(`   ↪️  Groq ${model} failed; trying next available model immediately`);
+    }
   }
-  throw new Error(`Groq: HTTP 429 across ${models.join(', ')}`);
+  throw new Error(`Groq exhausted failover pool: ${failures.join(' | ')}`);
 }
 
 function tryParse(text: string): any {
   const clean = cleanJson(text);
-  try { return JSON.parse(clean); } catch { /* continue */ }
-  const s = clean.slice(clean.indexOf('{'), clean.lastIndexOf('}') + 1);
-  try { return JSON.parse(s); } catch { /* continue */ }
-  throw new Error('JSON parse failed');
+  const candidates = [clean];
+  const firstBrace = clean.indexOf('{');
+  const lastBrace = clean.lastIndexOf('}');
+  if (firstBrace >= 0 && lastBrace > firstBrace) candidates.push(clean.slice(firstBrace, lastBrace + 1));
+
+  for (const candidate of candidates) {
+    for (const version of [candidate, repairJsonCandidate(candidate)]) {
+      try { return JSON.parse(version); } catch { /* continue */ }
+    }
+  }
+  throw new Error(`JSON parse failed: ${clean.slice(0, 180)}`);
 }
 
 function existingIranEquivalent(p: Product): IranEquivalent {
