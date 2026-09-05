@@ -1,25 +1,33 @@
 {
-  "checkedAt": "2026-09-05T17:20:46.004Z",
+  "checkedAt": "2026-09-05T18:26:49.052Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 3,
-  "failed": 2,
-  "backlogBefore": 21,
-  "backlogAfter": 18,
-  "completedProducts": 236,
+  "succeeded": 1,
+  "failed": 4,
+  "backlogBefore": 18,
+  "backlogAfter": 17,
+  "completedProducts": 237,
   "missingFaDescription": 0,
-  "missingFaComments": 18,
+  "missingFaComments": 17,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
     {
       "slug": "lettertrace-2",
-      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 503 | {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAI"
     },
     {
-      "slug": "beardrive",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
+      "slug": "laracopilot-2",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+    },
+    {
+      "slug": "rightcard",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more"
+    },
+    {
+      "slug": "kane-cli-2",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
     }
   ]
 }
