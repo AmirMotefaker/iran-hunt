@@ -1,25 +1,29 @@
 {
-  "checkedAt": "2026-09-05T04:25:01.171Z",
+  "checkedAt": "2026-09-05T05:24:03.576Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 3,
-  "failed": 2,
-  "backlogBefore": 86,
-  "backlogAfter": 84,
-  "completedProducts": 170,
+  "succeeded": 2,
+  "failed": 3,
+  "backlogBefore": 84,
+  "backlogAfter": 82,
+  "completedProducts": 172,
   "missingFaDescription": 0,
-  "missingFaComments": 80,
-  "missingAiReview": 13,
+  "missingFaComments": 78,
+  "missingAiReview": 11,
   "missingIranEquivalent": 0,
   "failures": [
     {
-      "slug": "prelint",
-      "reason": "AI failed: groq: Groq openai/gpt-oss-20b: empty response"
-    },
-    {
       "slug": "capptivo",
       "reason": "JSON parse failed"
+    },
+    {
+      "slug": "agentsky",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "hey-noah",
+      "reason": "AI failed: groq: Groq openai/gpt-oss-20b: empty response"
     }
   ]
 }
