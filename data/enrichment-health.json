@@ -1,29 +1,29 @@
 {
-  "checkedAt": "2026-09-05T10:05:50.304Z",
+  "checkedAt": "2026-09-05T10:21:28.671Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 1,
   "failed": 4,
-  "backlogBefore": 48,
-  "backlogAfter": 47,
-  "completedProducts": 207,
+  "backlogBefore": 47,
+  "backlogAfter": 46,
+  "completedProducts": 208,
   "missingFaDescription": 0,
   "missingFaComments": 43,
-  "missingAiReview": 4,
+  "missingAiReview": 3,
   "missingIranEquivalent": 0,
   "failures": [
     {
       "slug": "adomate",
-      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 503 | {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAI"
-    },
-    {
-      "slug": "prefactor",
       "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
+      "slug": "prefactor",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
+    },
+    {
       "slug": "ngrok-ai-gateway",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
     },
     {
       "slug": "coldtea",
