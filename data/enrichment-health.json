@@ -1,16 +1,25 @@
 {
-  "checkedAt": "2026-09-05T01:22:07.501Z",
+  "checkedAt": "2026-09-05T02:25:56.982Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 5,
-  "failed": 0,
-  "backlogBefore": 96,
-  "backlogAfter": 91,
-  "completedProducts": 163,
-  "missingFaDescription": 2,
-  "missingFaComments": 87,
-  "missingAiReview": 21,
-  "missingIranEquivalent": 2,
-  "failures": []
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 91,
+  "backlogAfter": 88,
+  "completedProducts": 166,
+  "missingFaDescription": 0,
+  "missingFaComments": 84,
+  "missingAiReview": 18,
+  "missingIranEquivalent": 0,
+  "failures": [
+    {
+      "slug": "youmind",
+      "reason": "JSON parse failed"
+    },
+    {
+      "slug": "brila-2",
+      "reason": "JSON parse failed"
+    }
+  ]
 }
