@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-09-05T12:07:41.143Z",
+  "checkedAt": "2026-09-05T12:20:59.036Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
   "succeeded": 1,
   "failed": 4,
-  "backlogBefore": 35,
-  "backlogAfter": 34,
-  "completedProducts": 220,
+  "backlogBefore": 34,
+  "backlogAfter": 33,
+  "completedProducts": 221,
   "missingFaDescription": 0,
-  "missingFaComments": 34,
+  "missingFaComments": 33,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
@@ -27,7 +27,7 @@
     },
     {
       "slug": "equitybee-benchmark",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prom"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prom"
     }
   ]
 }
