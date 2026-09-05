@@ -1,29 +1,21 @@
 {
-  "checkedAt": "2026-09-05T05:24:03.576Z",
+  "checkedAt": "2026-09-05T06:23:25.450Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 84,
-  "backlogAfter": 82,
-  "completedProducts": 172,
+  "succeeded": 4,
+  "failed": 1,
+  "backlogBefore": 82,
+  "backlogAfter": 79,
+  "completedProducts": 175,
   "missingFaDescription": 0,
-  "missingFaComments": 78,
-  "missingAiReview": 11,
+  "missingFaComments": 75,
+  "missingAiReview": 7,
   "missingIranEquivalent": 0,
   "failures": [
     {
-      "slug": "capptivo",
+      "slug": "soloop-2",
       "reason": "JSON parse failed"
-    },
-    {
-      "slug": "agentsky",
-      "reason": "JSON parse failed"
-    },
-    {
-      "slug": "hey-noah",
-      "reason": "AI failed: groq: Groq openai/gpt-oss-20b: empty response"
     }
   ]
 }
