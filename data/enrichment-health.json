@@ -1,28 +1,32 @@
 {
-  "checkedAt": "2026-09-05T12:45:22.860Z",
+  "checkedAt": "2026-09-05T12:53:39.607Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 33,
-  "backlogAfter": 31,
-  "completedProducts": 223,
+  "succeeded": 1,
+  "failed": 4,
+  "backlogBefore": 31,
+  "backlogAfter": 30,
+  "completedProducts": 224,
   "missingFaDescription": 0,
-  "missingFaComments": 31,
+  "missingFaComments": 30,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
     {
       "slug": "coldtea",
-      "reason": "AI failed: gemini: The operation was aborted. | groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for mor"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
       "slug": "equitybee-benchmark",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more"
     },
     {
       "slug": "bb",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prom"
+    },
+    {
+      "slug": "continuum-2028",
       "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: unavailable | openai/gpt-oss-120b: Groq openai/gpt-oss-120b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prom"
     }
   ]
