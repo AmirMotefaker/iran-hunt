@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:20:59.018Z",
+  "generatedAt": "2026-09-05T12:45:22.841Z",
   "sourceFiles": 26,
   "products": [
     {
@@ -8971,7 +8971,41 @@
           "PostgreSQL"
         ],
         "confidence": 75
-      }
+      },
+      "faComments": [
+        {
+          "user": "کاربر ProductHunt 1",
+          "text": "سلام به اهالی پروداکت هانت، من هاریتا، هم‌بنیان‌گذار Oqoqo هستم. هر هفته مدل جدیدی معرفی می‌شود و بنچمارک‌های تازه‌ای در دسترس قرار می‌گیرند. اما این بنچمارک‌ها به سازندگان محصول کمک نمی‌کنند تا ارزیابی کنند محصولاتشان چقدر خوب توسط این ایجنت‌ها و مدل‌ها کشف و استفاده می‌شوند، یا درباره وظایف واقعی کاربران صحبت نمی‌کنند. بیشتر بنچمارک‌های امروزی در محیط‌های دست‌چین‌شده وجود دارند و به‌خوبی به دنیای واقعی تعمیم پیدا نمی‌کنند. ما Oqoqo را برای پر کردن این شکاف ساختیم. Oqoqo ساخت ارزیابی‌های واقعی و بنچمارک‌های سفارشی را برای وظایفی که واقعاً برای کاربران مهم است، فوق‌العاده ساده می‌کند. با Oqoqo می‌توانید وظایفی به سادگی یک پرامپت که کاربر به ایجنت می‌دهد تعریف کنید (مثلاً «Supabase را به وب‌اپ من متصل کن تا ثبت‌نام کاربران ذخیره شود»)، مواردی که می‌خواهید تست کنید را مشخص کنید (مثل Supabase SDK، API، CLI و غیره) و معیار موفقیت را تعیین کنید (مثلاً «باید RLS را تنظیم کند»). مابقی کار با ماست. زیرساخت ما سندباکس‌های ایزوله‌شده‌ای را راه‌اندازی می‌کند، وظایف را روی ایجنت‌های انتخابی شما اجرا می‌کند، هر گام ایجنت‌ها (شامل فراخوانی ابزارها، تلاش‌های مجدد، حلقه‌های کشف و غیره) را ثبت می‌کند و مصرف توکن، هزینه و میزان موفقیت/شکست را بر اساس معیارهای شما مستندسازی می‌کند. با Oqoqo می‌توانید:\n- به صورت قابل اعتماد، میزان تناسب رابط‌های محصولتان برای ایجنت‌ها را در برابر Codex, Claude Code, OpenClaw, Hermes, Pi, Opencode, Cursor, GitHub Copilot بسنجید.\n- آزمون‌های رگرسیون را روی MCP، CLI، مهارت‌ها، SDK و هر رابط متصل به ایجنت اجرا کنید (ما خودمان مداوم از Oqoqo برای تست و بهبود MCP/CLI خودمان استفاده می‌کنیم).\n- بنچمارک‌های سفارشی درباره نحوه کشف و استفاده ایجنت‌ها از محصولتان بسازید و به اشتراک بگذارید.\n- مدل‌ها و هارنس‌ها را برای وظایف تخصصی حوزه کاری خود مقایسه کنید.\n- بررسی کنید که آیا نسخه‌های جدید، تجربه ایجنت را بهبود می‌بخشند یا خیر.\nما Oqoqo را برای تیم‌هایی ساخته‌ایم که محصولاتی برای استفاده ایجنت‌ها می‌سازند و تیم‌هایی که ایجنت‌ها را وارد کارهای روزمره می‌کنند.\nو بهترین بخش؟ ایجنت شما می‌تواند مراحل راه‌اندازی را برایتان انجام دهد ✨، همین امروز آن را رایگان امتحان کنید: https://oqoqo.ai/ خوشحال می‌شویم بدانیم تمایل دارید چه نوع آزمایش‌هایی اجرا کنید و چه سوالاتی درباره تعاملات و تجربه ایجنت‌ها دارید."
+        },
+        {
+          "user": "کاربر ProductHunt 2",
+          "text": "تبریک به هاریتا و تیم Oqoqo برای کسب رتبه ۱ محصول روز! 🔥 من Oqoqo را با یک وظیفه پایداری نسبتاً سخت روی Cloud World Model تست کردم و جالب‌ترین بخش، تماشای نحوه تصمیم‌گیری ایجنت‌ها برای حل آن بود. وظیفه یکسان بود، اما یکی از ایجنت‌ها از CWM MCP استفاده کرد در حالی که ایجنت خام (Raw Agent) اساساً گفت: «نه، خودم از پسش برمیام» 😂 و محیط، فرض‌ها و منطق خودش را ساخت. ایجنت خام غیرقابل پیش‌بینی بود؛ هر بار که شبیه‌سازی می‌ساخت، چیزی متفاوت با متدولوژی متفاوتی ایجاد می‌کرد. حتی ایجنتی که از CWM MCP استفاده می‌کرد هم گاهی منطق یا فرض‌های خودش را تزریق می‌کرد. این موضوع برای اپراتورهای MCP بسیار مهم است. من از Grok CLI (غیررسمی) و محصولات دیگر استفاده کردم و آن فقط از سرور MCP استفاده می‌کند، در حالی که به نظر می‌رسد ادغام MCP در Oqoqo گاهی منطق یا فرض‌های خودش را وارد می‌کند. دوست دارم ببینم Oqoqo این رفتار را قابل اندازه‌گیری کند: آیا ایجنت واقعاً طبق قصد اولیه از محصول استفاده کرده یا مسیر خودش را رفته است؟ این ابعاد ارزیابی ایجنت بسیار ارزشمند به نظر می‌رسد. باز هم تبریک! 👏"
+        },
+        {
+          "user": "کاربر ProductHunt 3",
+          "text": "در بخش سوالات متداول (FAQ)، شاید بد نباشد عبارت \"The free plan adds runs to your organization each month\" را به \"The free plan resets runs for your organization each month\" (یا \"refreshes\") تغییر دهید. اضافه شدن تعداد اجراها بدون انتقال باقی‌مانده به ماه بعد کمی گیج‌کننده است. پلتفرم جذابی است؛ کاملاً مشخص است که چگونه ارزیابی‌های پیچیده‌تر را بدون دردسر ساخت اسکافولدینگ و کدهای تکراری از صفر، آسان‌تر می‌کند."
+        },
+        {
+          "user": "کاربر ProductHunt 4",
+          "text": "توضیحات پروژه جالب است، اما من عملاً نتوانستم آن را تست کنم. یک دمو در صفحه اصلی وجود دارد، بنابراین وظیفه خودم را وارد و ارسال کردم. رفتار آن کمی عجیب بود: در ابتدا مشخص نبود اتفاقی می‌افتد یا نه، و سپس صفحه نتایج باز شد، اما شامل نتایج وظیفه من نبود. بنابراین نتوانستم بفهمم این یک رابط واقعی است که می‌توانم وظایف خودم را در آن ثبت کنم، یا یک جریان ضبط‌شده و دمو است که همیشه همان چیز قبلی را نشان می‌دهد."
+        },
+        {
+          "user": "کاربر ProductHunt 5",
+          "text": "ارزیابی (Eval) روی وظایف دنیای واقعی در حال حاضر گلوی بطری اصلی است، نه یک لیدربورد دیگر 🙌 تاکنون کدام سناریوهای استفاده بیشترین استقبال را داشته‌اند؟"
+        },
+        {
+          "user": "کاربر ProductHunt 6",
+          "text": "ایده را دوست دارم، منتظرم امتحانش کنم. تبریک برای این انتشار!"
+        },
+        {
+          "user": "کاربر ProductHunt 7",
+          "text": "تبریک برای انتشار. Oqoqo رویکرد بسیار جالبی برای ارزیابی ایجنت‌های هوش مصنوعی در محیط‌های واقعی به نظر می‌رسد."
+        },
+        {
+          "user": "کاربر ProductHunt 8",
+          "text": "این یک مفهوم فوق‌العاده است!"
+        }
+      ]
     },
     {
       "id": "ph-week-6",
@@ -10400,19 +10434,35 @@
       "faComments": [
         {
           "user": "کاربر ProductHunt 1",
-          "text": "Hey PH, I'm Shabz, one of the people behind BetterClaw . BetterClaw is a no-code platform for building AI agents that actually run on their own. Connect your tools, describe what you want, and it's live in 60 seconds. Why we built it I spent months in the OpenClaw subreddit helping people set up their agents. Hundreds of them. And the pattern was always the same. Someone discovers AI agents. Gets genuinely excited. Their eyes light up when their agent sends its first message. Then they lose an entire weekend to Docker and config files. And they're gone before week two. The AI part was incredible. The infrastructure part was quietly killing it. So we kept asking: why should anyone need to become a sysadmin just to use an AI agent? They shouldn't. So we removed that part entirely. What makes it different 60-second deploy - no Docker, no YAML, no VPS, no terminal. We timed it. 95+ one-click OAuth integrations - Gmail, Calendar, Slack, HubSpot, GitHub, Jira, Meta Ads, Linear and more. Real OAuth, not \"paste a webhook and pray.\" Trust levels - every agent starts as an Intern that asks permission for everything. Promote it to Specialist, then Lead, as it earns your trust. Handing an AI full system access on day one is wild, and somehow that's the default everywhere else. Secrets auto-purge - AES-256 encrypted, and gone from agent memory after 5 minutes. BYOK, zero markup - bring your own LLM key. Pair it with a free model (Gemini, OpenRouter, Groq) and your total cost is genuinely $0. Not \"$0 but you need a server.\" Zero. Who it's for Founders, ops and support teams, recruiters, agencies, and tbh, anyone non-tech who's tired of doing the same thing 50 times a week. What people are building Meta + Google Ads spend vs Stripe revenue → daily ROAS in Slack Gmail lead → scored, enriched into HubSpot, call booked Zendesk tickets → answered from your product data, only edge cases escalated Search Console → finds page-one pages losing clicks (grew our own site 1.6K → 7.9K clicks in a month) Stripe declines → follow-up drafted, recovery tracked PostHog drop-off → cross-checked in Salesforce → owner pinged pre-renewal Huge thanks to @rohanrecommends for hunting us, and to the PH team for building a place where small teams get a real shot And to Tina, Varsha, Aniket and everyone who poured months into this - this one's yours too. ❤️ 🎁 For PH folks: use code PH3 for 3 months of Pro at $49. We'd genuinely love your feedback - especially on what you'd want an agent to handle first. I'll be in the comments all day. Ask me anything, including the stuff we haven't figured out yet. 👇 → betterclaw.io"
+          "text": "سلام به Product Hunt، من شابز هستم، یکی از افراد پشت BetterClaw. BetterClaw یک پلتفرم بدون کد برای ساختن ایجنت‌های هوش مصنوعی است که واقعاً به صورت خودکار اجرا می‌شوند. ابزارهای خود را متصل کنید، آنچه را که می‌خواهید توصیف کنید و در ۶۰ ثانیه فعال می‌شود. چرا آن را ساختیم؟ ماه‌ها در subreddit OpenClaw به مردم در راه‌اندازی ایجنت‌هایشان کمک کردم. صدها نفر. و الگو همیشه یکسان بود. کسی ایجنت‌های هوش مصنوعی را کشف می‌کند. واقعاً هیجان‌زده می‌شود. وقتی ایجنتشان اولین پیام را ارسال می‌کند، چشمانشان برق می‌زند. سپس یک آخر هفته کامل را برای Docker و فایل‌های پیکربندی از دست می‌دهند. و قبل از هفته دوم رها می‌کنند. بخش هوش مصنوعی فوق‌العاده بود. اما بخش زیرساختی به آرامی آن را از بین می‌برد. بنابراین مدام می‌پرسیدیم: چرا کسی باید فقط برای استفاده از یک ایجنت هوش مصنوعی، مدیر سیستم (sysadmin) شود؟ نباید اینطور باشد. بنابراین آن بخش را کاملاً حذف کردیم. چه چیزی آن را متفاوت می‌کند؟ استقرار ۶۰ ثانیه‌ای - بدون Docker، بدون YAML، بدون VPS، بدون ترمینال. زمان‌بندی کردیم. بیش از ۹۵ یک‌کلیک OAuth یکپارچه‌سازی - Gmail، تقویم، Slack، HubSpot، GitHub، Jira، تبلیغات Meta، Linear و موارد دیگر. OAuth واقعی، نه «یک وب‌هوک را بچسبان و دعا کن». سطوح اعتماد - هر ایجنت به عنوان یک کارآموز (Intern) شروع می‌شود که برای همه چیز اجازه می‌خواهد. آن را به متخصص (Specialist) ارتقا دهید، سپس به سرپرست (Lead)، هرچه اعتماد شما را کسب می‌کند. دادن دسترسی کامل سیستم به یک هوش مصنوعی در روز اول دیوانه‌وار است، و به‌طور عجیبی این پیش‌فرض همه جای دیگر است. پاک‌سازی خودکار رازها - رمزنگاری شده با AES-۲۵۶ و ۵ دقیقه بعد از حافظه ایجنت حذف می‌شوند. BYOK، بدون هزینه اضافی - کلید LLM خود را بیاورید. آن را با یک مدل رایگان (Gemini، OpenRouter، Groq) جفت کنید و هزینه کل شما واقعاً ۰ دلار است. نه «۰ دلار اما به یک سرور نیاز دارید». صفر. برای چه کسانی است؟ بنیان‌گذاران، تیم‌های عملیات و پشتیبانی، استخدام‌کنندگان، آژانس‌ها و صادقانه بگویم، هر کسی غیرفنی که خسته شده است هفته‌ای ۵۰ بار کارهای تکراری را انجام دهد. مردم چه چیزهایی می‌سازند؟ هزینه تبلیغات Meta + Google Ads در مقابل درآمد Stripe → ROAS روزانه در Slack. لید Gmail → امتیازدهی، غنی‌سازی در HubSpot، رزرو تماس. تیکت‌های Zendesk → پاسخ‌دهی از روی داده‌های محصول شما، فقط موارد حاشیه‌ای به بالا ارجاع داده می‌شوند. Search Console → پیدا کردن صفحات صفحه اول که کلیک از دست می‌دهند (سایت خودمان را در یک ماه از ۱.۶K به ۷.۹K کلیک افزایش دادیم). رد شدن Stripe → پیش‌نویس پیگیری، ردیابی بازیابی. افت PostHog → بررسی متقابل در Salesforce → پینگ مالک قبل از تمدید. تشکر ویژه از @rohanrecommends برای کشف ما، و به تیم PH برای ساختن جایی که تیم‌های کوچک شانس واقعی دارند. و به تینا، وارشا، آنیکت و همه کسانی که ماه‌ها وقت گذاشتند - این هم مال شماست. ❤️ 🎁 برای مردم PH: از کد PH۳ برای ۳ ماه Pro به قیمت ۴۹ دلار استفاده کنید. واقعاً بازخورد شما را دوست داریم - به ویژه در مورد آنچه می‌خواهید ایجنت ابتدا چه کاری را انجام دهد. تمام روز در کامنت‌ها هستم. هر سوالی بپرسید، از جمله چیزهایی که هنوز حل نکرده‌ایم. 👇 → betterclaw.io"
         },
         {
           "user": "کاربر ProductHunt 2",
-          "text": "Its the best product in my opinion! Just a tip, it should have a copy button to the tasks. That would help too much."
+          "text": "همین حالا این را دیدم و برای امتحان ثبت‌نام کردم، اما همه ایجنت‌های رایگان تمام شده‌اند. آیا موارد بیشتری اضافه می‌شود؟ قبل از پرداخت می‌خواهم آن را تست کنم."
         },
         {
           "user": "کاربر ProductHunt 3",
-          "text": "Very interesting! I actually wanted a similar service specifically for sales, one that periodically tracks certain events related to clients."
+          "text": "به نظر من بهترین محصول است! فقط یک نکته، باید یک دکمه کپی برای وظایف داشته باشد. این خیلی کمک‌کننده خواهد بود."
         },
         {
           "user": "کاربر ProductHunt 4",
-          "text": "The Intern that asks before acting is the part I would build the whole product around, and it is also the part that quietly decays. We run approval-gated sending on our side, and the failure mode is never the agent doing something reckless. It is the human. Reviewing every action works until the volume goes up, then you start skimming, and the ones that get through are never the obvious ones. So the thing I would watch is what keeps an approval meaningful on day ninety. An agent that asks rarely, and only where it is genuinely unsure, is worth more than one that asks every time and trains you to click yes."
+          "text": "بسیار جالب است! در واقع من به سرویسی مشابه به طور خاص برای فروش نیاز داشتم، سرویسی که به صورت دوره‌ای رویدادهای خاصی مرتبط با مشتریان را ردیابی کند."
+        },
+        {
+          "user": "کاربر ProductHunt 5",
+          "text": "بخش «کارآموز» که قبل از اقدام اجازه می‌خواهد، بخشی است که من کل محصول را حول آن می‌سازم، و همچنین بخشی است که به آرامی فرسوده می‌شود. ما در سمت خودمان ارسال با دروازه تأیید انجام می‌دهیم و حالت شکست هرگز ایجنتی نیست که کاری بی‌احتیاط انجام دهد. بلکه انسان است. بررسی هر اقدام تا زمانی که حجم بالا می‌رود کار می‌کند، سپس شروع به مرور سریع می‌کنید و آن‌هایی که از آن عبور می‌کنند هرگز موارد آشکار نیستند. بنابراین چیزی که باید به آن توجه کنید این است که چه چیزی یک تأیید را در روز نودم معنادار نگه می‌دارد. ایجنتی که نادرست می‌پرسد و فقط جایی که واقعاً مطمئن نیست، ارزشمندتر از ایجنتی است که هر بار می‌پرسد و شما را برای کلیک روی «بله» تربیت می‌کند."
+        },
+        {
+          "user": "کاربر ProductHunt 6",
+          "text": "آیا این مثل Hermes است؟"
+        },
+        {
+          "user": "کاربر ProductHunt 7",
+          "text": "محصول خوبی برای داشتن است! ادامه دهید و بسازید!"
+        },
+        {
+          "user": "کاربر ProductHunt 8",
+          "text": "یکی از اعضای تیم ما این را به اشتراک گذاشت و من ایجنتی راه‌اندازی کردم که صبح تقویم و پیام‌های Slack من را می‌کشد و ساعت ۸ صبح یک گزارش به من می‌فرستد. همین است. کل مورد استفاده من همین است. حدود ۲ دقیقه طول کشید. موضوع کارآموز هوشمندانه است. Gmail کاری‌ام را به چیزی که می‌تواند هر کاری بخواهد انجام دهد متصل نمی‌کردم. دانستن اینکه ابتدا باید از من اجازه بخواهد باعث شد واقعاً آن را امتحان کنم به جای اینکه تب را ببندم."
         }
       ],
       "iranEquivalent": {
@@ -25719,7 +25769,7 @@
   "audit": {
     "products": 254,
     "withRealComments": 254,
-    "withPersianComments": 234,
+    "withPersianComments": 235,
     "withPersianDescription": 254,
     "withAiReview": 254,
     "withIranEquivalent": 254,
