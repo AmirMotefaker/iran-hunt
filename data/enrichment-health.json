@@ -1,25 +1,21 @@
 {
-  "checkedAt": "2026-09-05T10:52:58.516Z",
+  "checkedAt": "2026-09-05T11:15:40.298Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 2,
-  "failed": 3,
-  "backlogBefore": 46,
-  "backlogAfter": 44,
-  "completedProducts": 210,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 44,
+  "backlogAfter": 41,
+  "completedProducts": 213,
   "missingFaDescription": 0,
-  "missingFaComments": 42,
-  "missingAiReview": 2,
+  "missingFaComments": 40,
+  "missingAiReview": 1,
   "missingIranEquivalent": 0,
   "failures": [
     {
-      "slug": "prefactor",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
-    },
-    {
       "slug": "ngrok-ai-gateway",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
+      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
     },
     {
       "slug": "coldtea",
