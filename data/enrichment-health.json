@@ -1,33 +1,25 @@
 {
-  "checkedAt": "2026-09-05T15:20:56.218Z",
+  "checkedAt": "2026-09-05T16:26:08.432Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 1,
-  "failed": 4,
-  "backlogBefore": 24,
-  "backlogAfter": 23,
-  "completedProducts": 231,
+  "succeeded": 3,
+  "failed": 2,
+  "backlogBefore": 23,
+  "backlogAfter": 21,
+  "completedProducts": 233,
   "missingFaDescription": 0,
-  "missingFaComments": 23,
+  "missingFaComments": 21,
   "missingAiReview": 0,
   "missingIranEquivalent": 0,
   "failures": [
     {
-      "slug": "coldtea",
-      "reason": "AI failed: gemini: Gemini gemini-3.6-flash: HTTP 429 | {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.goog"
-    },
-    {
-      "slug": "grok-bot",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
-    },
-    {
       "slug": "lettertrace-2",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
     },
     {
-      "slug": "assembly-studio",
-      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: unavailable | openai/gpt-oss-20b: Groq openai/gpt-oss-20b: HTTP 400 | {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more"
+      "slug": "beardrive",
+      "reason": "AI failed: groq: Groq exhausted failover pool: qwen/qwen3.8-27b: Groq qwen/qwen3.8-27b: HTTP 400 | {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_e"
     }
   ]
 }
