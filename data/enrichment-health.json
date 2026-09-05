@@ -1,21 +1,16 @@
 {
-  "checkedAt": "2026-09-05T08:08:53.268Z",
+  "checkedAt": "2026-09-05T08:18:24.748Z",
   "latestDataset": "2026-09-04.json",
   "batchLimit": 5,
   "attempted": 5,
-  "succeeded": 4,
-  "failed": 1,
-  "backlogBefore": 70,
-  "backlogAfter": 66,
-  "completedProducts": 188,
+  "succeeded": 5,
+  "failed": 0,
+  "backlogBefore": 66,
+  "backlogAfter": 61,
+  "completedProducts": 193,
   "missingFaDescription": 0,
-  "missingFaComments": 62,
+  "missingFaComments": 57,
   "missingAiReview": 4,
   "missingIranEquivalent": 0,
-  "failures": [
-    {
-      "slug": "guideflow",
-      "reason": "JSON parse failed: {\n  \"faComments\": [\n    \"سلام به خانواده پراداکت هانت 👋 امروز با افتخار فراوان، انتشار نسخه Guideflow 2.0 را اعلام می‌کنم؛ مجموعه خودکارسازی دموی مبتنی بر هوش مصنوعی که پس از سال‌"
-    }
-  ]
+  "failures": []
 }
